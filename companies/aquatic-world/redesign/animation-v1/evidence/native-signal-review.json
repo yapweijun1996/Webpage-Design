@@ -1,0 +1,2562 @@
+{
+  "kind": "real_chrome_browser_native_signals",
+  "checkedOn": "2026-10-12",
+  "source": "Chrome extension tab; real tab activation for visibility; native CDP Emulation.setDataSaverOverride for Save-Data. No page property patches or manually dispatched events.",
+  "initial": {
+    "animations": [
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 34199.08599999968,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:39:27.312Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "hidden": {
+    "animations": [
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 56167.23799999968,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:39:49.274Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "hiddenLater": {
+    "animations": [
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 57483.82799999968,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:39:50.593Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "focusEmulationDisabled": {},
+  "nativeHidden": {
+    "animations": [
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:40:34.400Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "nativeHiddenLater": {
+    "animations": [
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:40:35.733Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "visibleReturn": {
+    "animations": [
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 101266.00199999967,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:40:45.857Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "visibleReturnLater": {
+    "animations": [
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 102349.44399999968,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:40:46.983Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "raisedVisible": {
+    "animations": [
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 145349.03699999955,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:41:33.090Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "userPaused": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:41:56.077Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "userPausedHidden": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:41:56.203Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "userPausedHiddenLater": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:41:57.428Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "userPausedRealHidden": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:42:34.487Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "userPausedRealHiddenLater": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:42:35.716Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "userPausedRealVisible": {
+    "animations": [
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 167665.77899999954,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:42:36.197Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "realPlayBeforeHide": {
+    "animations": [
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168115.7779999989,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:00.156Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "realPlayingHidden": {
+    "animations": [
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:01.174Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "realPlayingHiddenLater": {
+    "animations": [
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 168164.81799999892,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:02.501Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "realVisibleResumed": {
+    "animations": [
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 168614.81299999834,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:27.618Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "realVisibleResumedLater": {
+    "animations": [
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169748.10299999834,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:28.741Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "dataSaverCommand": {},
+  "liveDataSaver": {
+    "animations": [
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 169781.57899999834,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:28.782Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "liveDataSaverLater": {
+    "animations": [
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 171014.21699999837,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:43:30.012Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "dataSaverEvents": [],
+  "saveDataInitial": {
+    "animations": [
+      {
+        "currentTime": 0,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:44:30.741Z",
+    "effects": "off",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "saveDataInitialLater": {
+    "animations": [
+      {
+        "currentTime": 0,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:44:32.073Z",
+    "effects": "off",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "saveDataOptIn": {
+    "animations": [
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 566.9469999993951,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:03.164Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "saveDataOptInHidden": {
+    "animations": [
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 683.6789999993939,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:04.041Z",
+    "effects": "on",
+    "hidden": true,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "hidden"
+  },
+  "saveDataOptInVisible": {
+    "animations": [
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 1717.9629999991662,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:05.147Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "saveDataUserPaused": {
+    "animations": [
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:06.039Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "true",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "saveDataDisabledAfterPause": {
+    "animations": [
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 1868.018999999165,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:06.098Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "true",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "restoredDefaults": {
+    "animations": [
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 134.25299999992788,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:06.361Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "instrumentationRemoved": true,
+  "logs": [],
+  "saveDataInitialForReturn": {
+    "animations": [
+      {
+        "currentTime": 0,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:51.645Z",
+    "effects": "off",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": true,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "dataPolicyReturned": {
+    "animations": [
+      {
+        "currentTime": 0,
+        "name": "water-light",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "paused"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:51.687Z",
+    "effects": "off",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Play animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "paused",
+    "visibility": "visible"
+  },
+  "finalRestored": {
+    "animations": [
+      {
+        "currentTime": 0,
+        "name": "water-light",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      },
+      {
+        "currentTime": 0,
+        "name": "water-particle",
+        "playState": "running"
+      }
+    ],
+    "checkedAt": "2026-10-11T23:45:51.790Z",
+    "effects": "on",
+    "hidden": false,
+    "imageReady": true,
+    "imageRect": {
+      "bottom": 355.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": -30,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": -30
+    },
+    "label": "Pause animation",
+    "optIn": "false",
+    "saveData": false,
+    "saveDataGetter": "function get saveData() { [native code] }",
+    "state": "playing",
+    "visibility": "visible"
+  },
+  "limits": [
+    "Save-Data is a native Chrome CDP signal override, not a physical phone/carrier preference test.",
+    "Native override changed the getter but produced zero connection change events during the bounded 1.6s observation; real live network-change delivery remains unverified.",
+    "No new site integration, paid generation, physical-phone or other-engine verification."
+  ],
+  "saveDataProofTop": {
+    "effects": "off",
+    "imageRect": {
+      "bottom": 521.171875,
+      "height": 385.171875,
+      "left": 527.8984375,
+      "right": 1395,
+      "top": 136,
+      "width": 867.1015625,
+      "x": 527.8984375,
+      "y": 136
+    },
+    "label": "Play animation",
+    "saveData": true,
+    "scrollY": 0,
+    "state": "paused"
+  },
+  "proofOverrideRestored": true
+}

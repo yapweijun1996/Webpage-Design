@@ -1,0 +1,252 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "brand": {
+    "name": "TIDAL ATELIER",
+    "tagline": "A QUIET STUDY OF WATER & FORM",
+    "homeHref": "#hero"
+  },
+  "location": {
+    "label": "Imagined tropical waterfront",
+    "isBusinessLocation": false
+  },
+  "seo": {
+    "title": "Tidal Atelier — Water, Form & Imagination",
+    "description": "A fictional aquatic design studio concept: five illustrative studies of water, colour, foliage and natural form. No live products or contact service.",
+    "lang": "en",
+    "robots": "noindex, nofollow",
+    "canonical": null,
+    "themeColor": "#061c26"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "closeMenu": "Close",
+    "navLabel": "Main navigation",
+    "footerNavLabel": "Footer navigation",
+    "closeDetail": "Close collection details",
+    "detailEyebrow": "COLLECTION STUDY",
+    "detailNote": "These AI-generated images are illustrative. They do not represent available products or verified species.",
+    "paletteLabel": "The palette",
+    "notesLabel": "A closer look",
+    "detailCta": "Enquiry information",
+    "demoLabel": "INDEPENDENT DESIGN CONCEPT",
+    "footerNote": "Fictional brand · AI-generated imagery · No live stock or orders",
+    "copyrightLabel": "Design concept",
+    "galleryLabel": "Selected illustrative studies"
+  },
+  "navigation": [
+    {
+      "label": "Studies",
+      "href": "#collections"
+    },
+    {
+      "label": "Inspiration",
+      "href": "#heritage"
+    },
+    {
+      "label": "Approach",
+      "href": "#quality"
+    },
+    {
+      "label": "Enquiry",
+      "href": "#enquiry"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "label": "Explore the Studies",
+      "href": "#collections"
+    },
+    "secondary": {
+      "label": "Enquiry Information",
+      "href": "#enquiry"
+    }
+  },
+  "hero": {
+    "enabled": true,
+    "eyebrow": "WATER. FORM. IMAGINATION.",
+    "kicker": "AN AQUATIC DESIGN STUDIO CONCEPT",
+    "title": "An Underwater World,\nComposed with Curiosity,",
+    "accent": "Made for Wonder.",
+    "description": "Explore five imagined aquatic studies through colour, foliage and sculptural forms. A quiet place for a closer look.",
+    "imageId": "hero-angelfish",
+    "sideNote": "A LITTLE\nCLOSER\nTO NATURE",
+    "bottomNote": "NATURE\nCONNECTS\nUS ALL",
+    "motifs": [
+      {
+        "icon": "leaf",
+        "label": "NATURAL FORMS"
+      },
+      {
+        "icon": "globe",
+        "label": "A WORLD TO EXPLORE"
+      },
+      {
+        "icon": "diamond",
+        "label": "BEAUTY IN THE DETAILS"
+      }
+    ]
+  },
+  "heritage": {
+    "enabled": true,
+    "eyebrow": "OUR HERITAGE · A DESIGN STORY",
+    "heading": "Where Water Meets\nOur Imagination.",
+    "body": "A fictional studio concept shaped by imagined waterscapes. The illustrated waterfront offers a creative setting for exploring colour, movement and the balance between natural and built forms.",
+    "imageId": "heritage-waterfront",
+    "imageAlt": "AI-generated tropical waterfront illustration; not a company location.",
+    "imageCaption": "A WATERFRONT REIMAGINED",
+    "aside": "Bringing the\nbeauty of nature\na little closer.",
+    "asideLabel": "THE DESIGN PHILOSOPHY",
+    "storyLabel": "The inspiration",
+    "storyBody": "This imagined waterfront is an AI-generated illustration. Tidal Atelier is a fictional design concept, with no premises, company history or verified operating location."
+  },
+  "collections": {
+    "enabled": true,
+    "eyebrow": "OUR COLLECTIONS",
+    "heading": "Five Ways to See\nWater & Form.",
+    "description": "Five illustrative studies of colour, texture and form, from ornamental silhouettes to a warmer botanical palette.",
+    "allLabel": "Take a Closer Look",
+    "items": [
+      {
+        "id": "fish",
+        "title": "Ornamental Fish",
+        "description": "Extraordinary colours.\nRemarkable forms.",
+        "imageId": "collection-ornamental-fish",
+        "alt": "Illustrative blue and crimson ornamental fish with flowing fins.",
+        "href": "#collection-fish",
+        "palette": "Crimson, iridescent blue and deep teal.",
+        "detail": "Flowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.",
+        "notes": "Look for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims."
+      },
+      {
+        "id": "plants",
+        "title": "Aquatic Plants",
+        "description": "Living textures.\nAn underwater garden.",
+        "imageId": "collection-aquatic-plants",
+        "alt": "Illustrative green aquatic leaves and moss around driftwood.",
+        "href": "#collection-plants",
+        "palette": "Emerald, moss green and soft turquoise.",
+        "detail": "Long leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.",
+        "notes": "Explore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide."
+      },
+      {
+        "id": "driftwood",
+        "title": "Driftwood",
+        "description": "Natural character.\nSculptural beauty.",
+        "imageId": "collection-driftwood",
+        "alt": "Illustrative branching driftwood in a dark planted aquarium.",
+        "href": "#collection-driftwood",
+        "palette": "Warm umber, weathered brown and ocean teal.",
+        "detail": "Twisted branches and weathered textures form a quiet natural sculpture. This material study celebrates the organic shapes that lend an aquatic scene its character.",
+        "notes": "Notice the branching silhouette, open space and warm wood grain. This image is a creative study, without claims about material safety, sourcing or stock."
+      },
+      {
+        "id": "crimson",
+        "title": "Crimson Fin Studies",
+        "description": "Flowing silhouettes.\nA warmer palette.",
+        "imageId": "highlight-red-betta",
+        "alt": "Illustrative crimson fish study.",
+        "href": "#collection-crimson",
+        "palette": "Crimson, rose and near-black teal.",
+        "detail": "Flowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.",
+        "notes": "Look for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims."
+      },
+      {
+        "id": "foliage",
+        "title": "Warm Aquatic Foliage",
+        "description": "Bronze leaves.\nA different rhythm.",
+        "imageId": "highlight-red-plants",
+        "alt": "Illustrative warm aquatic foliage.",
+        "href": "#collection-foliage",
+        "palette": "Bronze, burgundy and emerald.",
+        "detail": "Long leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.",
+        "notes": "Explore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide."
+      }
+    ]
+  },
+  "quality": {
+    "enabled": true,
+    "eyebrow": "OUR APPROACH · AN ILLUSTRATIVE STUDY",
+    "heading": "Considered in Every Detail.",
+    "description": "Colour, form and texture shape these aquatic studies. Each detail is part of the design, rather than a promise about products or services.",
+    "detailLabel": "About These Studies",
+    "detailText": "These five elements describe our visual composition. They are not sourcing standards, cultivation practices, certifications, packaging promises or delivery guarantees.",
+    "items": [
+      {
+        "icon": "fish",
+        "title": "COLOUR & FORM"
+      },
+      {
+        "icon": "leaf",
+        "title": "BOTANICAL TEXTURE"
+      },
+      {
+        "icon": "branch",
+        "title": "NATURAL SHAPES"
+      },
+      {
+        "icon": "frame",
+        "title": "QUIET COMPOSITION"
+      },
+      {
+        "icon": "wave",
+        "title": "AQUATIC ATMOSPHERE"
+      }
+    ]
+  },
+  "highlights": {
+    "enabled": true,
+    "eyebrow": "SELECTED HIGHLIGHTS",
+    "heading": "Exceptional Forms.\nBelow the Surface.",
+    "backgroundImageId": "enquiry-underwater-school",
+    "sideNote": "SMALL\nDETAILS.\nA WORLD\nOF WONDER.",
+    "items": [
+      {
+        "title": "Crimson Fin Study",
+        "imageId": "highlight-red-betta",
+        "href": "#collection-fish",
+        "fit": "contain",
+        "alt": "AI-generated crimson fish illustration with full flowing fins."
+      },
+      {
+        "title": "Silver & Stripe Study",
+        "imageId": "highlight-angelfish",
+        "href": "#collection-fish",
+        "fit": "contain",
+        "alt": "AI-generated silver and striped ornamental fish illustration."
+      },
+      {
+        "title": "Warm Leaf Study",
+        "imageId": "highlight-red-plants",
+        "href": "#collection-plants",
+        "fit": "cover",
+        "alt": "AI-generated red and bronze aquatic foliage illustration."
+      },
+      {
+        "title": "Sculptural Driftwood",
+        "imageId": "collection-driftwood",
+        "href": "#collection-driftwood",
+        "fit": "cover",
+        "alt": "AI-generated sculptural driftwood illustration."
+      }
+    ]
+  },
+  "enquiry": {
+    "enabled": true,
+    "eyebrow": "IMAGINE A QUIETER UNDERWATER WORLD",
+    "heading": "Start with a Little Wonder",
+    "description": "Beautiful possibilities begin with a conversation.\nFictional demo — real enquiries are unavailable.",
+    "backgroundImageId": "enquiry-underwater-school",
+    "actionLabel": "Enquiry Information",
+    "noteHeading": "A design preview, for now.",
+    "note": "There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.",
+    "returnLabel": "Back to Collections",
+    "returnHref": "#collections",
+    "sideNote": "NATURE\nPEOPLE\nPOSSIBILITY",
+    "signature": "Good things\nbegin with\nnature.",
+    "contactState": "unavailable"
+  },
+  "footer": {
+    "closing": "WATER, FORM & IMAGINATION"
+  }
+}

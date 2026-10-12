@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aquatic World · 导航与手机表单 · 修改前后比较</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#edf0ee;color:#17303b;font:15px/1.6 system-ui,sans-serif}
+    .wrap{max-width:1800px;margin:auto;padding:24px}h1{font-size:26px;margin:0 0 8px}p{margin:0 0 12px}
+    a{color:#164e60}a:focus-visible,select:focus-visible{outline:3px solid #a9771d;outline-offset:4px}
+    .controls{display:flex;flex-wrap:wrap;gap:16px;padding:16px 0 24px}.controls label{display:grid;gap:4px;font-weight:600}
+    select{font:inherit;border:1px solid #8b9c9e;border-radius:4px;background:white;color:inherit;padding:9px 36px 9px 10px;min-height:44px}
+    .pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}article{min-width:0;background:#fff;border:1px solid #c4cdca}
+    .caption{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-bottom:1px solid #c4cdca}.caption h2{font-size:18px;margin:0}
+    .caption a{font-weight:600;white-space:nowrap}.capture{display:block;background:#0a2430;text-align:center;line-height:0}
+    .capture img{display:block;width:100%;height:auto;margin:auto}.pair.mobile .capture img{max-width:390px}.pair.tablet .capture img{max-width:768px}
+    .hint{color:#50636a;font-size:13px}.notice{padding:12px 16px;background:#fff8e7;border-left:3px solid #b1822d}
+    footer{padding-top:24px}@media(max-width:800px){.pair{grid-template-columns:1fr}.wrap{padding:16px}.caption{padding:12px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Aquatic World · 导航与手机表单 · 修改前后比较</h1>
+    <p>第四轮：两边收到相同的具体反馈，分别修改自己的第三轮代码。切换「版本」查看修改前后，再切换页面与尺寸。</p>
+    <p class="notice">两边已通过独立的页面、导航、键盘与表单检查。本轮重点：更清楚的 top bar，以及第一屏就能开始填写的手机 Contact。点击「打开实际页面」可试用导航和本地 enquiry preview；最终视觉满意度仍待你反馈。</p>
+    <p class="hint">390px 手机首个字段距页面顶部：Codex 1,288 → 620px；Claude 1,344 → 414px。切换版本可查看原尺寸截图。</p>
+    <div class="controls">
+      <label for="stage">版本<select id="stage"><option value="after">第四轮 · 修改后</option><option value="before">第三轮 · 修改前</option></select></label>
+      <label for="page">页面<select id="page">
+        <option value="home">Home · 首页</option><option value="collections">Collections · 分类总览</option>
+        <option value="fish">Ornamental Fish · 观赏鱼</option><option value="plants">Aquatic Plants · 水草</option>
+        <option value="driftwood">Driftwood · 沉木</option><option value="story">Our Story · 品牌故事</option>
+        <option value="quality">Quality · 品质理念</option><option value="contact">Contact · 项目咨询</option>
+      </select></label>
+      <label for="viewport">画面<select id="viewport"><option value="desktop">Desktop · 1440px</option><option value="tablet">Tablet · 768px</option><option value="mobile">Mobile · 390px</option></select></label>
+      <label for="extent">截图范围<select id="extent"><option value="first">首屏</option><option value="full">完整页面</option></select></label>
+    </div>
+    <div class="pair" id="pair">
+      <article><div class="caption"><h2>Codex · GPT-6.1 Sol</h2><a id="codex-live" href="http://127.0.0.1:4201/" target="_blank" rel="noopener">打开实际页面 ↗</a></div><a class="capture" id="codex-capture" target="_blank" rel="noopener"><img id="codex-image" alt="Codex 首页桌面截图"></a></article>
+      <article><div class="caption"><h2>Claude · Opus 5.5</h2><a id="claude-live" href="http://127.0.0.1:4202/" target="_blank" rel="noopener">打开实际页面 ↗</a></div><a class="capture" id="claude-capture" target="_blank" rel="noopener"><img id="claude-image" alt="Claude 首页桌面截图"></a></article>
+    </div>
+    <footer><p class="hint">点击截图可查看原尺寸图片。实际页面链接需要本机 preview server；截图由相同的独立 Chrome 环境捕获。</p><p><a href="RESULTS.md">第四轮结果与检查记录</a> · <a href="../round-3/preview.html">第三轮完整比较</a> · <a href="../preview.html">前两轮历史比较</a></p></footer>
+  </main>
+  <script>
+    const routes={home:'/',collections:'/collections/',fish:'/collections/ornamental-fish/',plants:'/collections/aquatic-plants/',driftwood:'/collections/driftwood/',story:'/our-story/',quality:'/quality/',contact:'/contact/'};
+    const stage=document.getElementById('stage');
+    const page=document.getElementById('page'),viewport=document.getElementById('viewport'),extent=document.getElementById('extent');
+    const params=new URLSearchParams(location.search);
+    for(const control of [stage,page,viewport,extent])if([...control.options].some(option=>option.value===params.get(control.id)))control.value=params.get(control.id);
+    function update(){
+      document.getElementById('pair').className='pair '+viewport.value;
+      for(const [runner,port] of (stage.value==='before'?[['codex',4191],['claude',4192]]:[['codex',4201],['claude',4202]])){ 
+        const path=`${stage.value==='before'?'../round-3/':''}output/playwright/${runner}/${page.value}-${viewport.value}-${extent.value}.png`;
+        document.getElementById(runner+'-image').src=path;
+        document.getElementById(runner+'-image').alt=`${stage.selectedOptions[0].text} ${runner} ${page.selectedOptions[0].text} ${viewport.selectedOptions[0].text} ${extent.selectedOptions[0].text}`;
+        document.getElementById(runner+'-capture').href=path;
+        document.getElementById(runner+'-live').href=`http://127.0.0.1:${port}${routes[page.value]}`;
+      }
+      history.replaceState(null,'',`?stage=${stage.value}&page=${page.value}&viewport=${viewport.value}&extent=${extent.value}`);
+    }
+    for(const control of [stage,page,viewport,extent])control.addEventListener('change',update);
+    update();
+  </script>
+</body>
+</html>

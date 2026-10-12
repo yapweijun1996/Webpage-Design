@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "id": "7b25c8f259524381a1e19be837ace30a",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "hero-first-frame",
+    "version": 1,
+    "kind": "image",
+    "title": "Aquatic hero first frame",
+    "description": "Shared 1280x720 deterministic crop from the existing illustrative hero.",
+    "tags": [
+      "angelfish",
+      "aquatic",
+      "first-frame"
+    ],
+    "usage_notes": "Draft input for the authorized paired video trial; same bytes for both models; no claim of real inventory.",
+    "license_note": "Original built-in image generation 2026-10-10; requester-owned fictional local demo; crop provenance in Webpage-Design motion-v1.",
+    "source_artifact_id": null,
+    "sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+    "suffix": ".png",
+    "size_bytes": 1385006,
+    "status": "draft",
+    "created_at_utc": "2026-10-11T13:24:07.357390+00:00",
+    "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/30/306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8"
+  },
+  "project_id": "aquatic-world-homepage-motion-v1",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-homepage-motion-v1/assets/aquatic-world-motion/hero-first-frame/v1/asset.png",
+  "generation_performed": false
+}

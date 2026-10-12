@@ -1,0 +1,41 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "items": [
+    {
+      "id": "freshwater",
+      "title": "Freshwater Fish",
+      "description": "Example category — replace with approved copy.",
+      "imageId": "category_freshwater_to_replace",
+      "href": "/collections/freshwater",
+      "sortOrder": 10,
+      "enabled": true
+    },
+    {
+      "id": "marine",
+      "title": "Marine Fish",
+      "description": "Example category — replace with approved copy.",
+      "imageId": "category_marine_to_replace",
+      "href": "/collections/marine",
+      "sortOrder": 20,
+      "enabled": true
+    },
+    {
+      "id": "plants",
+      "title": "Aquatic Plants",
+      "description": "Example category — replace with approved copy.",
+      "imageId": "category_plants_to_replace",
+      "href": "/collections/plants",
+      "sortOrder": 30,
+      "enabled": true
+    },
+    {
+      "id": "wood",
+      "title": "Driftwood",
+      "description": "Example category — replace with approved copy.",
+      "imageId": "category_driftwood_to_replace",
+      "href": "/collections/driftwood",
+      "sortOrder": 40,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-12",
+  "codex": {
+    "version": "0.162.1",
+    "requested_model": "gpt-6.1-sol",
+    "local_catalog_match": true,
+    "catalog_visibility": "list",
+    "api_supported": true,
+    "serving_confirmation": "to_be_checked_in_actual_authorized_execution; no separate paid probe"
+  },
+  "claude": {
+    "version": "2.1.289",
+    "requested_model": "claude-opus-5-5",
+    "authenticated": true,
+    "auth_method": "claude.ai",
+    "subscription_type": "pro",
+    "prior_own_round5_exposed_model": "claude-opus-5-5",
+    "current_serving_confirmation": "to_be_checked_in_actual_authorized_init; halt_on_rejection_or_mismatch"
+  },
+  "model_fallback": "not_permitted",
+  "browser_method": "Same primary-agent CUA browser evaluation for both actual sites; no terminal browser automation in workers",
+  "cli_sessions": "ephemeral/no-session-persistence; no new orchestrator chats or projects"
+}

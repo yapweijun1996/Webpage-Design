@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Prepare an enquiry brief — Aquatic World</title>
+<meta name="description" content="Prepare an enquiry brief. This demo previews it locally; nothing is sent.">
+<meta name="theme-color" content="#061C26">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.replace("no-js", "js");</script>
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body class="page-contact" id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Aquatic World — Home"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M8 22c4-5 8-5 12 0s8 5 12 0M11 27c3-3.2 6-3.2 9 0s6 3.2 9 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M20 8.5c-2.8 2.6-2.8 6.4 0 9 2.8-2.6 2.8-6.4 0-9Z" fill="currentColor"/></svg><span class="brand-name">Aquatic World</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-toggle>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span><span class="menu-text">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu" data-menu>
+      <nav class="site-nav" aria-label="Main"><ul class="nav-list"><li><a class="nav-link" href="/"><span class="nav-label">Home</span></a></li><li><a class="nav-link" href="/collections/"><span class="nav-label">Collections</span></a></li><li><a class="nav-link" href="/our-story/"><span class="nav-label">Our Story</span></a></li><li><a class="nav-link" href="/quality/"><span class="nav-label">Quality</span></a></li><li><a class="nav-link" href="/contact/" aria-current="page"><span class="nav-label">Contact</span></a></li></ul></nav>
+      <a class="btn btn-gold header-cta" href="/contact/#enquiry">Discuss a project</a>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="contact-banner" aria-labelledby="contact-title">
+  <img class="contact-banner-bg" src="/assets/img/enquiry-underwater-school-1280.webp" srcset="/assets/img/enquiry-underwater-school-800.webp 800w, /assets/img/enquiry-underwater-school-1280.webp 1280w, /assets/img/enquiry-underwater-school-1920.webp 1920w" sizes="100vw" width="1983" height="793" alt="" fetchpriority="high" decoding="async">
+  <div class="wrap contact-banner-inner">
+    <p class="eyebrow eyebrow--gold">Contact</p>
+    <h1 id="contact-title" class="display">Prepare an enquiry brief</h1>
+    <p class="lead">Describe your project in a few fields and preview a tidy brief. This demo keeps everything in your browser.</p>
+  </div>
+</section>
+
+<section class="section contact-body" aria-label="Enquiry workspace">
+  <div class="wrap contact-grid">
+    <aside class="contact-aside" aria-labelledby="how-title">
+      <h2 id="how-title" class="h3">How this works</h2>
+      <ol class="steps-small">
+        <li>Describe the project and the families involved.</li>
+        <li>Preview the brief and check it reads well.</li>
+        <li>Nothing is sent: there is no enquiry service behind this demo.</li>
+      </ol>
+      <div class="context-card" data-context hidden>
+        <p class="eyebrow">Your context</p>
+        <p data-context-text></p>
+        <a class="text-link" data-context-link href="/collections/">Back to the collection <svg class="icon-arrow" viewBox="0 0 20 12" aria-hidden="true" focusable="false"><path d="M0 6h18M13 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      </div>
+      <div class="helpful">
+        <h3>What makes a brief useful</h3>
+        <ul class="checklist">
+          <li>Display size and viewing side</li>
+          <li>Existing or planned inhabitants and planting</li>
+          <li>The look and mood you want</li>
+          <li>Approximate quantities and timing</li>
+        </ul>
+      </div>
+      <p class="notice notice--quiet"><strong>Demo limitation.</strong> This concept has no email address, phone number or form endpoint. Real contact details would be added only once verified.</p>
+    </aside>
+
+    <div class="form-panel" id="enquiry" tabindex="-1">
+      <h2 class="h3" id="form-title">Your enquiry brief</h2>
+      <p class="form-note">Fields marked <span class="req-mark">Required</span> must be completed. Nothing you type leaves this page.</p>
+      <noscript><p class="notice">JavaScript is turned off, so the preview cannot run. You can still use these fields as a checklist for your own notes — nothing on this page is sent anywhere. Browse the <a href="/collections/">collections</a> for context.</p></noscript>
+      <div class="error-summary" data-error-summary role="alert" tabindex="-1" hidden>
+        <h3>Please check <span data-error-count>these fields</span></h3>
+        <ul data-error-list></ul>
+      </div>
+      <form class="enquiry-form" data-enquiry-form aria-labelledby="form-title" novalidate>
+        <div class="field-row">
+          <div class="field" data-field="name">
+            <label for="f-name">Name <span class="req-mark">Required</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-error">
+            <p class="field-error" id="f-name-error" data-error-for="name"></p>
+          </div>
+          <div class="field" data-field="organisation">
+            <label for="f-org">Organisation <span class="opt-mark">Optional</span></label>
+            <input id="f-org" name="organisation" type="text" autocomplete="organization">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field" data-field="email">
+            <label for="f-email">Email <span class="req-mark">Required</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-hint f-email-error">
+            <p class="field-hint" id="f-email-hint">Used only in the preview below.</p>
+            <p class="field-error" id="f-email-error" data-error-for="email"></p>
+          </div>
+          <div class="field" data-field="role">
+            <label for="f-role">You are <span class="opt-mark">Optional</span></label>
+            <select id="f-role" name="role">
+              <option value="">Choose one</option>
+              <option>Aquarium retailer</option>
+              <option>Aquascaping professional</option>
+              <option>Enthusiast</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <fieldset class="field" data-field="interest" aria-describedby="f-interest-error">
+          <legend>Collections involved <span class="req-mark">Required</span></legend>
+          <div class="choice-grid">
+            <label class="choice"><input type="checkbox" name="interest" value="ornamental-fish"><span>Ornamental Fish</span></label><label class="choice"><input type="checkbox" name="interest" value="aquatic-plants"><span>Aquatic Plants</span></label><label class="choice"><input type="checkbox" name="interest" value="driftwood"><span>Driftwood</span></label><label class="choice"><input type="checkbox" name="interest" value="not-sure"><span>Not sure yet</span></label>
+          </div>
+          <p class="field-error" id="f-interest-error" data-error-for="interest"></p>
+        </fieldset>
+        <div class="field" data-field="project">
+          <label for="f-project">About the project <span class="req-mark">Required</span></label>
+          <textarea id="f-project" name="project" rows="5" required aria-describedby="f-project-hint f-project-error"></textarea>
+          <p class="field-hint" id="f-project-hint">At least 20 characters. Display size, look and timing are a good start.</p>
+          <p class="field-error" id="f-project-error" data-error-for="project"></p>
+        </div>
+        <div class="field" data-field="timing">
+          <label for="f-timing">Timing <span class="opt-mark">Optional</span></label>
+          <select id="f-timing" name="timing">
+            <option value="">No fixed timing</option>
+            <option>Within a month</option>
+            <option>In one to three months</option>
+            <option>Later / exploring</option>
+          </select>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-gold" type="submit" data-requires-js disabled>Preview enquiry <svg class="icon-arrow" viewBox="0 0 20 12" aria-hidden="true" focusable="false"><path d="M0 6h18M13 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+          <p class="form-actions-note">Preview only. No message is sent.</p>
+        </div>
+      </form>
+      <section class="preview" data-preview tabindex="-1" aria-labelledby="preview-title" hidden>
+        <p class="preview-status"><strong>Nothing was sent.</strong> This is a local preview; the demo has no enquiry service.</p>
+        <h3 id="preview-title">Brief preview</h3>
+        <dl class="preview-list" data-preview-list></dl>
+        <div class="preview-actions">
+          <button class="btn btn-outline" type="button" data-edit>Edit brief</button>
+          <button class="btn btn-quiet" type="button" data-clear>Clear and start again</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="/" aria-label="Aquatic World — Home"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M8 22c4-5 8-5 12 0s8 5 12 0M11 27c3-3.2 6-3.2 9 0s6 3.2 9 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M20 8.5c-2.8 2.6-2.8 6.4 0 9 2.8-2.6 2.8-6.4 0-9Z" fill="currentColor"/></svg><span class="brand-name">Aquatic World</span></a>
+      <p class="footer-tagline">Nature connects us all</p>
+    </div>
+    <nav class="footer-col" aria-label="Footer: explore"><h2 class="footer-heading">Explore</h2><ul><li><a href="/">Home</a></li><li><a href="/collections/">Collections</a></li><li><a href="/our-story/">Our Story</a></li><li><a href="/quality/">Quality</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
+    <nav class="footer-col" aria-label="Footer: collections"><h2 class="footer-heading">Collections</h2><ul><li><a href="/collections/ornamental-fish/">Ornamental Fish</a></li><li><a href="/collections/aquatic-plants/">Aquatic Plants</a></li><li><a href="/collections/driftwood/">Driftwood</a></li></ul></nav>
+    <div class="footer-col footer-note"><h2 class="footer-heading">About this site</h2><p>Aquatic World is an illustrative design concept. Imagery is AI-generated, copy is proposed demo content, and no enquiry is ever sent.</p></div>
+  </div>
+  <div class="wrap footer-base"><p>Design concept · Illustrative content only</p><a href="#top" class="to-top">Back to top</a></div>
+</footer>
+</body>
+</html>

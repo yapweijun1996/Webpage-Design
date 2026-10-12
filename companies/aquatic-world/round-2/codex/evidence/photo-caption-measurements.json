@@ -1,0 +1,80 @@
+[
+  {
+    "captions": [
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 16,
+        "text": "A WATERFRONT REIMAGINED",
+        "width": 249.359375,
+        "x": 80,
+        "y": 210
+      },
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 16,
+        "text": "Singapore-inspired illustration",
+        "width": 249.359375,
+        "x": 80,
+        "y": 230
+      }
+    ],
+    "height": 290,
+    "overlay": "linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(2, 21, 28, 0.85))",
+    "position": "50% 47%",
+    "src": "heritage-waterfront-960.webp",
+    "viewport": 1440,
+    "width": 648
+  },
+  {
+    "captions": [
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 12.796875,
+        "text": "A WATERFRONT REIMAGINED",
+        "width": 278.5546875,
+        "x": 24,
+        "y": 216.40625
+      },
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 12.796875,
+        "text": "Singapore-inspired illustration",
+        "width": 278.5546875,
+        "x": 24,
+        "y": 233.203125
+      }
+    ],
+    "height": 290,
+    "overlay": "linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(2, 21, 28, 0.85))",
+    "position": "50% 47%",
+    "src": "heritage-waterfront-480.webp",
+    "viewport": 768,
+    "width": 322.5546875
+  },
+  {
+    "captions": [
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 14.3984375,
+        "text": "A WATERFRONT REIMAGINED",
+        "width": 346,
+        "x": 24,
+        "y": 158.203125
+      },
+      {
+        "color": "rgb(246, 244, 240)",
+        "height": 14.3984375,
+        "text": "Singapore-inspired illustration",
+        "width": 346,
+        "x": 24,
+        "y": 176.6015625
+      }
+    ],
+    "height": 235,
+    "overlay": "linear-gradient(rgba(0, 0, 0, 0) 35%, rgba(2, 21, 28, 0.7) 65%, rgba(2, 21, 28, 0.9))",
+    "position": "50% 44%",
+    "src": "heritage-waterfront-480.webp",
+    "viewport": 390,
+    "width": 390
+  }
+]

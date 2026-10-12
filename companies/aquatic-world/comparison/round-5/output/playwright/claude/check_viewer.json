@@ -1,0 +1,673 @@
+{
+  "checks": [
+    {
+      "stage": "before",
+      "viewport": "mobile",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=mobile&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-mobile-first.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        },
+        {
+          "src": "output/before/claude/contact-mobile-first.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "mobile",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=mobile&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-mobile-full.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        },
+        {
+          "src": "output/before/claude/contact-mobile-full.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone360",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone360&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone360-first.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        },
+        {
+          "src": "output/before/claude/contact-phone360-first.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone360",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone360&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone360-full.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        },
+        {
+          "src": "output/before/claude/contact-phone360-full.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone320",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone320&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone320-first.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        },
+        {
+          "src": "output/before/claude/contact-phone320-first.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone320",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone320&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone320-full.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        },
+        {
+          "src": "output/before/claude/contact-phone320-full.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone430",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone430&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone430-first.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        },
+        {
+          "src": "output/before/claude/contact-phone430-first.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "phone430",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=phone430&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-phone430-full.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        },
+        {
+          "src": "output/before/claude/contact-phone430-full.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "tablet",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=tablet&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-tablet-first.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        },
+        {
+          "src": "output/before/claude/contact-tablet-first.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "tablet",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=tablet&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-tablet-full.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        },
+        {
+          "src": "output/before/claude/contact-tablet-full.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "desktop",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=desktop&extent=first",
+      "images": [
+        {
+          "src": "output/before/codex/contact-desktop-first.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        },
+        {
+          "src": "output/before/claude/contact-desktop-first.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "before",
+      "viewport": "desktop",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=before&page=contact&viewport=desktop&extent=full",
+      "images": [
+        {
+          "src": "output/before/codex/contact-desktop-full.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        },
+        {
+          "src": "output/before/claude/contact-desktop-full.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4201/contact/",
+        "http://127.0.0.1:4202/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "mobile",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=mobile&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-mobile-first.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        },
+        {
+          "src": "output/playwright/claude/contact-mobile-first.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "mobile",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=mobile&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-mobile-full.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        },
+        {
+          "src": "output/playwright/claude/contact-mobile-full.png",
+          "loaded": true,
+          "natural": 390,
+          "maxWidth": "390px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone360",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone360&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone360-first.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone360-first.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone360",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone360&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone360-full.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone360-full.png",
+          "loaded": true,
+          "natural": 360,
+          "maxWidth": "360px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone320",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone320&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone320-first.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone320-first.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone320",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone320&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone320-full.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone320-full.png",
+          "loaded": true,
+          "natural": 320,
+          "maxWidth": "320px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone430",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone430&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone430-first.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone430-first.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "phone430",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=phone430&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-phone430-full.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        },
+        {
+          "src": "output/playwright/claude/contact-phone430-full.png",
+          "loaded": true,
+          "natural": 430,
+          "maxWidth": "430px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "tablet",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=tablet&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-tablet-first.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        },
+        {
+          "src": "output/playwright/claude/contact-tablet-first.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "tablet",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=tablet&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-tablet-full.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        },
+        {
+          "src": "output/playwright/claude/contact-tablet-full.png",
+          "loaded": true,
+          "natural": 768,
+          "maxWidth": "768px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "desktop",
+      "extent": "first",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=desktop&extent=first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-desktop-first.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        },
+        {
+          "src": "output/playwright/claude/contact-desktop-first.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "stage": "after",
+      "viewport": "desktop",
+      "extent": "full",
+      "url": "http://127.0.0.1:4170/comparison/round-5/preview.html?stage=after&page=contact&viewport=desktop&extent=full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-desktop-full.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        },
+        {
+          "src": "output/playwright/claude/contact-desktop-full.png",
+          "loaded": true,
+          "natural": 1440,
+          "maxWidth": "1440px"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4211/contact/",
+        "http://127.0.0.1:4212/contact/"
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "scenario": "Shareable URL and responsive viewer",
+      "stage": "after",
+      "viewport": "mobile",
+      "extent": "first",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": true,
+      "pass": true
+    },
+    {
+      "scenario": "Shareable URL and responsive viewer",
+      "stage": "after",
+      "viewport": "mobile",
+      "extent": "first",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "status": "not_run",
+  "method": "Playwright Chromium on loopback HTTP, when available",
+  "checks": [],
+  "screenshots": [],
+  "runtimeErrors": [],
+  "externalRequests": [],
+  "reason": "An existing Playwright module is unavailable: MODULE_NOT_FOUND. No install attempted."
+}

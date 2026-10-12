@@ -1,0 +1,343 @@
+{
+  "capturedAt": "2026-10-11T04:26:42.392Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "round": "1",
+      "viewport": "desktop",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/desktop-full.png",
+            "width": 1440
+          },
+          {
+            "src": "output/playwright/claude/desktop-full.png",
+            "width": 1440
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "1",
+      "viewport": "desktop",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/desktop-first.png",
+            "width": 1440
+          },
+          {
+            "src": "output/playwright/claude/desktop-first.png",
+            "width": 1440
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "1",
+      "viewport": "tablet",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/tablet-full.png",
+            "width": 768
+          },
+          {
+            "src": "output/playwright/claude/tablet-full.png",
+            "width": 768
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "1",
+      "viewport": "tablet",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/tablet-first.png",
+            "width": 768
+          },
+          {
+            "src": "output/playwright/claude/tablet-first.png",
+            "width": 768
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "1",
+      "viewport": "mobile",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/mobile-full.png",
+            "width": 390
+          },
+          {
+            "src": "output/playwright/claude/mobile-full.png",
+            "width": 390
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "1",
+      "viewport": "mobile",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "RESULTS.md",
+        "scores": [
+          "87.5 / 100",
+          "82.0 / 100"
+        ],
+        "images": [
+          {
+            "src": "output/playwright/codex/mobile-first.png",
+            "width": 390
+          },
+          {
+            "src": "output/playwright/claude/mobile-first.png",
+            "width": 390
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4171/",
+          "http://127.0.0.1:4172/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "desktop",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/desktop-full.png",
+            "width": 1440
+          },
+          {
+            "src": "round-2/output/playwright/claude/desktop-full.png",
+            "width": 1440
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "desktop",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/desktop-first.png",
+            "width": 1440
+          },
+          {
+            "src": "round-2/output/playwright/claude/desktop-first.png",
+            "width": 1440
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "tablet",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/tablet-full.png",
+            "width": 768
+          },
+          {
+            "src": "round-2/output/playwright/claude/tablet-full.png",
+            "width": 768
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "tablet",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/tablet-first.png",
+            "width": 768
+          },
+          {
+            "src": "round-2/output/playwright/claude/tablet-first.png",
+            "width": 768
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "mobile",
+      "extent": "full",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/mobile-full.png",
+            "width": 390
+          },
+          {
+            "src": "round-2/output/playwright/claude/mobile-full.png",
+            "width": 390
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "round": "2",
+      "viewport": "mobile",
+      "extent": "first",
+      "status": "pass",
+      "observed": {
+        "report": "round-2/RESULTS.md",
+        "scores": [
+          "93.5 / 100",
+          "92.5 / 100"
+        ],
+        "images": [
+          {
+            "src": "round-2/output/playwright/codex/mobile-first.png",
+            "width": 390
+          },
+          {
+            "src": "round-2/output/playwright/claude/mobile-first.png",
+            "width": 390
+          }
+        ],
+        "demos": [
+          "http://127.0.0.1:4181/",
+          "http://127.0.0.1:4182/"
+        ]
+      }
+    },
+    {
+      "id": "gallery-phone-layout",
+      "status": "pass",
+      "observed": {
+        "overflow": false,
+        "columns": "342px"
+      }
+    },
+    {
+      "id": "historical-round-deep-link",
+      "status": "pass"
+    }
+  ],
+  "errors": []
+}

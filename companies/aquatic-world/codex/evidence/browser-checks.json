@@ -1,0 +1,175 @@
+{
+  "status": "not_run",
+  "recorded_at": "2026-10-10T16:09:28.052268+00:00",
+  "reason": "The environment could not run or reach a local browser preview using the available authorized tools.",
+  "attempts": [
+    {
+      "tool": "exec_command",
+      "command": "python3 -m http.server 4173 --bind 127.0.0.1 --directory demo",
+      "result": "failed",
+      "observed": "PermissionError: [Errno 1] Operation not permitted during socket.bind"
+    },
+    {
+      "tool": "local Playwright CLI 0.1.22",
+      "command": "open local static demo using Chrome",
+      "result": "failed before page load",
+      "observed": "TargetClosedError; Chrome process aborted with SIGABRT under the terminal sandbox. No screenshot or interaction check completed."
+    },
+    {
+      "tool": "cua_repl.createBrowserTab",
+      "command": "Open demo/index.html as file:// URL",
+      "result": "rejected by browser security policy",
+      "observed": "The requested URL protocol is not allowed. Allowed protocols: http:, https:. No file access workaround was used."
+    },
+    {
+      "tool": "Code-MCP inspect_local_project",
+      "command": "Inspect local project via HTTP with desktop/tablet/mobile and accessibility/Lighthouse options",
+      "result": "approval unavailable",
+      "observed": "MCP tool call requires approval, but approval policy is never"
+    },
+    {
+      "tool": "exec_command",
+      "command": "npm run dev",
+      "result": "failed",
+      "observed": "listen EPERM: operation not permitted 127.0.0.1:4173",
+      "log": "preview-command.log"
+    },
+    {
+      "tool": "exec_command",
+      "command": "node demo/scripts/serve.mjs after adding graceful server error reporting",
+      "result": "failed with explicit message",
+      "observed": "Preview could not start (EPERM): listen EPERM: operation not permitted 127.0.0.1:4173",
+      "log": "preview-command-final.log"
+    }
+  ],
+  "required_layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "status": "not_run",
+      "screenshot": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "status": "not_run",
+      "screenshot": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "full-page-layout",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "horizontal-overflow",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "main-journey",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "mobile-menu",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "keyboard-focus-escape",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "cta-enquiry-state",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "runtime-console-network",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "image-link-resolution-in-browser",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "second-brand-and-category-fixtures",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "optional-section-visibility",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "reduced-motion",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "no-javascript",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "200-percent-zoom",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "accessibility-photo-contrast",
+      "status": "not_run",
+      "passing_evidence": null
+    },
+    {
+      "name": "performance-web-vitals",
+      "status": "not_run",
+      "passing_evidence": null
+    }
+  ],
+  "screenshot_artifacts": [],
+  "supplied_asset_contact_sheet": "assets-contact-sheet.jpg \u2014 inspected source imagery only, not rendered implementation evidence",
+  "required_next_validation": "On an unrestricted local host, start npm run dev. Run all listed browser checks and capture the three required full-page screenshots before treating browser acceptance as verified."
+}

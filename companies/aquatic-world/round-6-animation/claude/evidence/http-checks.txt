@@ -1,0 +1,17 @@
+# HTTP checks against owned preview (pid 8391) on 127.0.0.1:4232 — curl only, no browser
+200  text/html; charset=utf-8  14101B  /
+200  text/html; charset=utf-8  12596B  /collections/
+200  text/html; charset=utf-8  12623B  /collections/ornamental-fish/
+200  text/html; charset=utf-8  13164B  /collections/aquatic-plants/
+200  text/html; charset=utf-8  12733B  /collections/driftwood/
+200  text/html; charset=utf-8  8781B  /our-story/
+200  text/html; charset=utf-8  9286B  /quality/
+200  text/html; charset=utf-8  9441B  /contact/
+200  text/html; charset=utf-8  9441B  /contact/?interest=driftwood
+404  text/html; charset=utf-8  6417B  /missing-page/
+301    0B  /quality
+200  image/png  2205920B  /assets/motion/hero-angelfish.png
+200  text/css; charset=utf-8  47601B  /assets/site.css
+200  text/javascript; charset=utf-8  12054B  /assets/site.js
+served PNG sha256: 8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1
+owned server pid 8391 stopped; port 4232 free

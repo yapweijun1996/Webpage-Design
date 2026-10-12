@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-12",
+  "viewer_script_syntax": "pass after final CSS revision",
+  "after_captures_served_exactly": 20,
+  "before_references_exist": 6,
+  "live_site_ports": [
+    4231,
+    4232
+  ],
+  "preserved_historical_files": 1758,
+  "user_acceptance": "pending",
+  "actual_iab_size_switches": 5,
+  "actual_before_contact_fallback": true,
+  "comparison_capture": "evidence/comparison-viewer.jpg"
+}

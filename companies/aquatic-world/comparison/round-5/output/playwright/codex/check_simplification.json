@@ -1,0 +1,1203 @@
+{
+  "checks": [
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 390,
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 390,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 390,
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 390,
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 390,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 390,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FIRST-SCREEN",
+      "width": 390,
+      "scrollY": 0,
+      "height": 844,
+      "scrollWidth": 390,
+      "name": {
+        "top": 307.9453125,
+        "bottom": 357.9453125
+      },
+      "email": {
+        "top": 409.9453125,
+        "bottom": 459.9453125
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 275.9453125
+        },
+        {
+          "text": "Email (required)",
+          "top": 377.9453125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 360,
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 360,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 360,
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 360,
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 360,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 360,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FIRST-SCREEN",
+      "width": 360,
+      "scrollY": 0,
+      "height": 800,
+      "scrollWidth": 360,
+      "name": {
+        "top": 307.9453125,
+        "bottom": 357.9453125
+      },
+      "email": {
+        "top": 409.9453125,
+        "bottom": 459.9453125
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 275.9453125
+        },
+        {
+          "text": "Email (required)",
+          "top": 377.9453125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 320,
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 320,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 320,
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 320,
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 320,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 320,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 768,
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 768,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 230.796875,
+          "secondary": false
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 768,
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 768,
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 768,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 768,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 1440,
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 1440,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 198.796875,
+          "secondary": false
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 1440,
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 1440,
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 1440,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 1440,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "ornamental-fish",
+      "selected": [
+        "ornamental-fish"
+      ],
+      "name": {
+        "top": 256.4453125,
+        "bottom": 306.4453125
+      },
+      "email": {
+        "top": 358.4453125,
+        "bottom": 408.4453125
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "aquatic-plants",
+      "selected": [
+        "aquatic-plants"
+      ],
+      "name": {
+        "top": 233.4453125,
+        "bottom": 283.4453125
+      },
+      "email": {
+        "top": 335.4453125,
+        "bottom": 385.4453125
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "driftwood",
+      "selected": [
+        "driftwood"
+      ],
+      "name": {
+        "top": 193.9453125,
+        "bottom": 243.9453125
+      },
+      "email": {
+        "top": 295.9453125,
+        "bottom": 345.9453125
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-QUALITY-ENQUIRY",
+      "url": "http://127.0.0.1:4211/contact/#enquiry",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-UNKNOWN-CONTEXT",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-PREVIEW-ROWS",
+      "terms": [
+        "Name",
+        "Email",
+        "Collection",
+        "Project"
+      ],
+      "text": "Preview created. Nothing was sent.\nName\nAlex Example\nEmail\nalex@example.invalid\nCollection\nAquatic Plants\nProject\nAn illustrative planted display. <img src=x onerror=alert(1)> LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nReturn to edit\n\u2197\nClear brief",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-PREVIEW-NO-OVERFLOW",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-NO-JS",
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "disabled": true,
+      "pass": true
+    }
+  ],
+  "observations": [
+    {
+      "scrollY": 0,
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "name": {
+        "top": 307.9453125,
+        "bottom": 357.9453125
+      },
+      "email": {
+        "top": 409.9453125,
+        "bottom": 459.9453125
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 275.9453125
+        },
+        {
+          "text": "Email (required)",
+          "top": 377.9453125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "name": {
+        "top": 307.9453125,
+        "bottom": 357.9453125
+      },
+      "email": {
+        "top": 409.9453125,
+        "bottom": 459.9453125
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 275.9453125
+        },
+        {
+          "text": "Email (required)",
+          "top": 377.9453125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 320,
+      "height": 800,
+      "scrollWidth": 320,
+      "name": {
+        "top": 307.9453125,
+        "bottom": 357.9453125
+      },
+      "email": {
+        "top": 409.9453125,
+        "bottom": 459.9453125
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 275.9453125
+        },
+        {
+          "text": "Email (required)",
+          "top": 377.9453125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 161.1484375,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "name": {
+        "top": 373.390625,
+        "bottom": 423.390625
+      },
+      "email": {
+        "top": 373.390625,
+        "bottom": 423.390625
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 341.390625
+        },
+        {
+          "text": "Email (required)",
+          "top": 341.390625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 230.796875,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "name": {
+        "top": 341.390625,
+        "bottom": 391.390625
+      },
+      "email": {
+        "top": 341.390625,
+        "bottom": 391.390625
+      },
+      "labels": [
+        {
+          "text": "Name (required)",
+          "top": 309.390625
+        },
+        {
+          "text": "Email (required)",
+          "top": 309.390625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "category",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Your project brief",
+          "top": 198.796875,
+          "secondary": false
+        }
+      ],
+      "notices": [
+        "Local preview only. Nothing is sent or saved."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        },
+        {
+          "tag": "DETAILS",
+          "after": true
+        },
+        {
+          "tag": "FIGURE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "text",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "email",
+          "name": "email",
+          "type": "email",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "category",
+          "name": "category",
+          "type": "select-one",
+          "height": 50,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    }
+  ]
+}

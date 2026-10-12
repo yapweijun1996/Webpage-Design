@@ -1,0 +1,17 @@
+[
+  {
+    "level": "error",
+    "message": "TypeError: Failed to fetch dynamically imported module: chrome-extension://dbgbbkgdldgnbjcaelboahlffcjkfhao/assets/main.js-BBMFZTSG.js",
+    "timestamp": "2026-10-12T04:20:41.114Z"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Failed to fetch dynamically imported module: chrome-extension://dbgbbkgdldgnbjcaelboahlffcjkfhao/assets/main.js-BBMFZTSG.js",
+    "timestamp": "2026-10-12T04:27:30.045Z"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Failed to fetch dynamically imported module: chrome-extension://dbgbbkgdldgnbjcaelboahlffcjkfhao/assets/main.js-BBMFZTSG.js",
+    "timestamp": "2026-10-12T04:28:02.004Z"
+  }
+]

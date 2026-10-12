@@ -1,0 +1,44 @@
+{
+  "prepared_on": "2026-10-11",
+  "excluded_cache_directories": [
+    "__pycache__",
+    ".playwright-cli"
+  ],
+  "roots": [
+    {
+      "root": "companies/aquatic-world/codex",
+      "files": 112,
+      "sha256_of_path_hash_records": "d79ebc8b58ba625243980d7af0dfb0d408936fdee93463f278dfd8ec18ce6e44"
+    },
+    {
+      "root": "companies/aquatic-world/claude",
+      "files": 337,
+      "sha256_of_path_hash_records": "fe72682d5f6238ba6b51f246de0077e9affccaf7667d6acbc9018a1e189b9ba9"
+    },
+    {
+      "root": "companies/aquatic-world/round-2",
+      "files": 482,
+      "sha256_of_path_hash_records": "feb7f6c5f1d6c60690f52c23cf51cf15859e235607a4bdcf19bccfa52b85eed1"
+    },
+    {
+      "root": "companies/aquatic-world/round-3",
+      "files": 350,
+      "sha256_of_path_hash_records": "6e5e8356dd4611219ea1b69801af104b2d0a8213d5e6755e8cff9051df1cb883"
+    },
+    {
+      "root": "companies/aquatic-world/round-4",
+      "files": 423,
+      "sha256_of_path_hash_records": "4e9669393fa3b32c62028542240077b3d4df646cbf868e0740c006c7f0a72b52"
+    },
+    {
+      "root": "companies/aquatic-world/round-5",
+      "files": 347,
+      "sha256_of_path_hash_records": "2b0ec0b06a6e08600977573108e1c1127bab90753da6001dad526616edc78550"
+    },
+    {
+      "root": "companies/aquatic-world/comparison/assets-v1",
+      "files": 13,
+      "sha256_of_path_hash_records": "090e393ef42e76f25339d4cbab3bdd7f678565851e89cd14d9972fb9c7fcd2f5"
+    }
+  ]
+}

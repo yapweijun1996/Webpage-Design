@@ -1,0 +1,118 @@
+{
+  "round": 2,
+  "evaluated_on": "2026-10-11",
+  "timezone": "Asia/Singapore",
+  "feedback_submissions_per_runner": 1,
+  "additional_evaluator_correction_prompts": 0,
+  "feedback_sha256": "2bd19130d1c0571ef2e9a11f9a72aa7f5adf6f8f83cce1025c2adb9203698d11",
+  "input_manifest_sha256": "8b76e5cb1453492bbd75d9bb41b4099a417726fcfc1abc89a67d8d827cc15720",
+  "evaluator_browser": "Google Chrome 154.0.8037.99, headed, DPR 1, default zoom",
+  "runners": {
+    "codex": {
+      "model": "gpt-6.1-sol",
+      "cli_version": "0.160.0",
+      "started_at": "2026-10-11T03:28:53.462174+00:00",
+      "finished_at": "2026-10-11T03:58:24.056224+00:00",
+      "process_elapsed_seconds": 1770.58,
+      "exit_code": 0,
+      "permissions": "workspace-write / never",
+      "builder_evidence": "../../../round-2/codex/evidence/run.json",
+      "effort": "xhigh; observed native turn_context",
+      "model_observation": "Native turn_context matches requested CLI model setting; independent provider routing audit not performed.",
+      "usage": {
+        "input_tokens": 8999563,
+        "cached_input_tokens": 8783872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 64363,
+        "reasoning_output_tokens": 33292
+      },
+      "cost_usd": null,
+      "browser": "Connected Chrome via cua_repl; terminal Chromium unavailable",
+      "native_permission_rejection": "Raw CDP denied; actor unknown. Builder continued with ordinary documented browser APIs.",
+      "extra_model_review": {
+        "count": 0
+      },
+      "implementation_delegation_observed": false
+    },
+    "claude": {
+      "model": "claude-opus-5-5",
+      "cli_version": "2.1.289",
+      "started_at": "2026-10-11T03:28:53.481632+00:00",
+      "finished_at": "2026-10-11T04:08:29.120943+00:00",
+      "process_elapsed_seconds": 2375.63,
+      "exit_code": 0,
+      "permissions": "auto / no prompts",
+      "builder_evidence": "../../../round-2/claude/evidence/run.json",
+      "effort": "CLI default; named level unknown. Builder self-reports system-context reasoning_effort=10; named mapping not independently verified.",
+      "observed_init_model": "claude-opus-5-5",
+      "usage": {
+        "input_tokens": 144,
+        "cache_creation_input_tokens": 203974,
+        "cache_read_input_tokens": 9861841,
+        "output_tokens": 61752,
+        "output_tokens_details": {
+          "thinking_tokens": 17825
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 202822,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1574,
+            "cache_read_input_tokens": 210670,
+            "cache_creation_input_tokens": 404,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 404
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 159723,
+          "outputTokens": 69485,
+          "cacheReadInputTokens": 9861841,
+          "cacheCreationInputTokens": 203974,
+          "webSearchRequests": 0,
+          "costUSD": 5.629296199999998,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 17825,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "native_duration_api_ms": 717335,
+      "native_turns": 86,
+      "cost_usd": 5.629296199999998,
+      "cost_basis": "native list-price basis; actual billing unknown",
+      "permission_denials": [],
+      "extra_model_review": {
+        "kind": "builtin advisor",
+        "count": 1,
+        "serving_model": "unknown / redacted"
+      },
+      "implementation_delegation_observed": false,
+      "browser": "Builder Playwright Chromium 156.0.8078.4 headless",
+      "operational_issue": {
+        "cleanup_command": "pkill -f scripts/serve.mjs",
+        "observed_impact": "First-version Node preview services unavailable at final hosting probe; command selector matches both. Precise exit timeline and broader system impact not audited.",
+        "mitigation": "Evaluator restarted unchanged first previews on 4171/4172; final test harness closes only its spawned server handle.",
+        "artifact_score_handling": "Recorded separately from delivered artifact quality."
+      }
+    }
+  }
+}

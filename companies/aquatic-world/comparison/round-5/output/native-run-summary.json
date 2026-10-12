@@ -1,0 +1,111 @@
+{
+  "recorded_at": "2026-10-11T10:43:23.316841+00:00",
+  "runners": {
+    "codex": {
+      "exit_code": 0,
+      "elapsed_seconds": 1060.6,
+      "started_at": "2026-10-11T10:24:10.175732+00:00",
+      "finished_at": "2026-10-11T10:41:50.791993+00:00",
+      "launch_cli_version": "0.162.1",
+      "prompt_sha256": "76524c690b9811f3735a42437dc27045ee128cfdc21cf6fbde14ce8d3637f0eb",
+      "input_manifest_sha256": "b92295c3d590b835ac549cb9e0370f09e0de97b636c87ee595e275bfc1add967",
+      "starting_conditions_sha256": "f3e0fa776e06826035c994fea7fcca41529f995e9147c379dcd8b8a3b646307f",
+      "tool_calls": {
+        "command_execution": 29,
+        "cua_repl.js": 4
+      },
+      "exposed_assistant_models": [],
+      "native_final": {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 2337196,
+          "cached_input_tokens": 2186240,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 38909,
+          "reasoning_output_tokens": 10683
+        }
+      },
+      "primary_revision_interventions": 1,
+      "evaluator_implementation_repairs": 0
+    },
+    "claude": {
+      "exit_code": 0,
+      "elapsed_seconds": 979.0,
+      "started_at": "2026-10-11T10:24:10.190849+00:00",
+      "finished_at": "2026-10-11T10:40:29.199333+00:00",
+      "launch_cli_version": "2.1.289",
+      "prompt_sha256": "76524c690b9811f3735a42437dc27045ee128cfdc21cf6fbde14ce8d3637f0eb",
+      "input_manifest_sha256": "b92295c3d590b835ac549cb9e0370f09e0de97b636c87ee595e275bfc1add967",
+      "starting_conditions_sha256": "f3e0fa776e06826035c994fea7fcca41529f995e9147c379dcd8b8a3b646307f",
+      "tool_calls": {
+        "Bash": 42,
+        "Read": 13,
+        "Write": 2
+      },
+      "exposed_assistant_models": [
+        "claude-opus-5-5"
+      ],
+      "native_final": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "usage": {
+          "input_tokens": 98,
+          "cache_creation_input_tokens": 138700,
+          "cache_read_input_tokens": 5254904,
+          "output_tokens": 42121,
+          "output_tokens_details": {
+            "thinking_tokens": 10520
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 138700,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 1737,
+              "cache_read_input_tokens": 148052,
+              "cache_creation_input_tokens": 716,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 716
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "modelUsage": {
+          "claude-opus-5-5": {
+            "inputTokens": 98,
+            "outputTokens": 42121,
+            "cacheReadInputTokens": 5254904,
+            "cacheCreationInputTokens": 138700,
+            "webSearchRequests": 0,
+            "costUSD": 3.0033928000000003,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 10520,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "total_cost_usd": 3.0033928000000003,
+        "duration_ms": 973770,
+        "duration_api_ms": 412029
+      },
+      "primary_revision_interventions": 1,
+      "evaluator_implementation_repairs": 0
+    }
+  },
+  "cost_interpretation": "Claude reports a list-price USD estimate, not a verified invoice. Codex exposes token usage but no comparable USD cost. No direct cost winner is asserted."
+}

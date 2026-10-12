@@ -1,0 +1,199 @@
+{
+  "checks": [
+    {
+      "runner": "codex",
+      "source": "collection-aquatic-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "collection-driftwood.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "collection-ornamental-fish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "enquiry-underwater-school.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "heritage-waterfront.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-red-betta.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-red-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "source_hash_matches": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "source_hash_matches": true
+    }
+  ],
+  "unique_sources": {
+    "codex": 9,
+    "claude": 9
+  },
+  "pass": true
+}

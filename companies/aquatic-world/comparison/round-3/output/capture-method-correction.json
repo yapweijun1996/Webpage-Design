@@ -1,0 +1,6 @@
+{
+  "recorded_at": "2026-10-11T06:59:56.628187+00:00",
+  "issue": "First evaluator capture did not override smooth scrolling, so first-screen captures were scrolled and are rejected for scoring.",
+  "correction": "Use explicit instant scroll for lazy-load traversal and top reset; record/assert scrollY = 0; rerun all layouts/screenshots.",
+  "implementation_changed": false
+}

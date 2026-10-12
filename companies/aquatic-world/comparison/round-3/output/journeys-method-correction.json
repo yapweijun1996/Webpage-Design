@@ -1,0 +1,20 @@
+{
+  "finding": "The evaluator read checkbox state before the deferred enhancement script finished. Ten normal clicked journeys selected driftwood; a controlled one-second script delivery delay reproduced the early observation.",
+  "diagnostic": {
+    "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+    "immediate": {
+      "ready": "interactive",
+      "checked": false,
+      "enabled": false
+    },
+    "after_load": {
+      "ready": "complete",
+      "checked": true,
+      "enabled": true
+    }
+  },
+  "correction": "Wait for document load after each actual main-content navigation, then assert the same selected category. No arbitrary wait, implementation change, or weakened expected result.",
+  "controlled_delay_cleanup": "The evaluator route handler was removed in finally; normal network delivery restored.",
+  "normal_reproduction": "prefill-reproduction.json",
+  "rejected_report": "rejected-journeys/claude-journeys-checks.json"
+}

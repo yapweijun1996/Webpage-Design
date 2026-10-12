@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-10-11T09:34:00.098516+00:00",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/check_inputs.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 50 frozen files per workspace match the manifest.\nInput byte equality does not prove equal CLI tools or completed webpage QA.",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/verify_delivery.py",
+        "check",
+        "codex"
+      ],
+      "exit_code": 0,
+      "output": "PASS: codex initial delivery is unchanged (62 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/verify_delivery.py",
+        "check",
+        "claude"
+      ],
+      "exit_code": 0,
+      "output": "PASS: claude initial delivery is unchanged (109 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-2/check_inputs.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 51 frozen files per workspace match the manifest.\nInput byte equality does not prove equal CLI tools or completed webpage QA.",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-2/verify_delivery.py",
+        "check",
+        "codex"
+      ],
+      "exit_code": 0,
+      "output": "PASS: codex round-2 delivery is unchanged (84 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-2/verify_delivery.py",
+        "check",
+        "claude"
+      ],
+      "exit_code": 0,
+      "output": "PASS: claude round-2 delivery is unchanged (118 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-3/check_inputs.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 59 identical frozen files per round-3 workspace",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-3/verify_delivery.py",
+        "check",
+        "codex"
+      ],
+      "exit_code": 0,
+      "output": "PASS: codex round-3 delivery is unchanged (74 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-3/verify_delivery.py",
+        "check",
+        "claude"
+      ],
+      "exit_code": 0,
+      "output": "PASS: claude round-3 delivery is unchanged (158 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-4/check_inputs.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 60 identical frozen files per round-4 workspace",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-4/verify_delivery.py",
+        "check",
+        "codex"
+      ],
+      "exit_code": 0,
+      "output": "PASS: codex round-4 delivery is unchanged (76 files).",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-4/verify_delivery.py",
+        "check",
+        "claude"
+      ],
+      "exit_code": 0,
+      "output": "PASS: claude round-4 delivery is unchanged (215 files).",
+      "error": ""
+    }
+  ],
+  "pass": true
+}

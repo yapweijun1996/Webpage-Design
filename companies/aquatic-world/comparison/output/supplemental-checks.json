@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-10T16:32:50.553Z",
+  "checks": [
+    {
+      "runner": "codex",
+      "caption": {
+        "text": "A WATERFRONT REIMAGINED",
+        "color": "rgb(16, 36, 45)",
+        "fontSize": "8px"
+      },
+      "lastCategoryHref": "#collection-foliage",
+      "lastCategoryState": {
+        "hash": "#collection-foliage",
+        "open": true,
+        "overflow": false
+      },
+      "lastCategoryPass": true
+    },
+    {
+      "runner": "claude",
+      "caption": {
+        "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "11.2px"
+      },
+      "lastCategoryHref": "#collection-display-fish",
+      "lastCategoryState": {
+        "hash": "#collection-display-fish",
+        "open": true,
+        "overflow": false
+      },
+      "lastCategoryPass": true
+    }
+  ]
+}

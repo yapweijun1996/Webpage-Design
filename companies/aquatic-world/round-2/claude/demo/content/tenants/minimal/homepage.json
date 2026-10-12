@@ -1,0 +1,8 @@
+{
+  "extends": "aquatic-world",
+  "hero": { "sideNotes": null },
+  "heritage": { "enabled": false },
+  "collections": { "viewAll": null, "heading": ["One Collection,", "Clearly Presented."] },
+  "highlights": { "enabled": false },
+  "enquiry": { "signature": null }
+}

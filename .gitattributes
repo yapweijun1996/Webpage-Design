@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Comparison manifests depend on exact historical bytes, including CRLF fixtures.
+companies/aquatic-world/** -text

@@ -1,0 +1,205 @@
+{
+  "checks": [
+    {
+      "scenario": "PHONE-ERROR",
+      "width": 320,
+      "blank": {
+        "id": "",
+        "tag": "DIV",
+        "top": 79.8515625,
+        "bottom": 367.890625,
+        "visible": true,
+        "covered": false,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "errorLinks": 4,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 0,
+      "id": "f-name",
+      "tag": "INPUT",
+      "top": 430.2890625,
+      "bottom": 482.6875,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 1,
+      "id": "f-email",
+      "tag": "INPUT",
+      "top": 570.8359375,
+      "bottom": 623.234375,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 2,
+      "id": "",
+      "tag": "INPUT",
+      "top": 727.3828125,
+      "bottom": 745.3828125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 3,
+      "id": "f-project",
+      "tag": "TEXTAREA",
+      "top": 414.734375,
+      "bottom": 564.734375,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-PREVIEW",
+      "width": 320,
+      "state": {
+        "id": "",
+        "tag": "SECTION",
+        "top": 79.9375,
+        "bottom": 1084.65625,
+        "visible": true,
+        "covered": false,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-EDIT",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CLEAR",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR",
+      "width": 360,
+      "blank": {
+        "id": "",
+        "tag": "DIV",
+        "top": 79.828125,
+        "bottom": 339.8203125,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "errorLinks": 4,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 0,
+      "id": "f-name",
+      "tag": "INPUT",
+      "top": 402.21875,
+      "bottom": 454.6171875,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 1,
+      "id": "f-email",
+      "tag": "INPUT",
+      "top": 542.765625,
+      "bottom": 595.1640625,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 2,
+      "id": "",
+      "tag": "INPUT",
+      "top": 699.3125,
+      "bottom": 717.3125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 3,
+      "id": "f-project",
+      "tag": "TEXTAREA",
+      "top": 414.6640625,
+      "bottom": 564.6640625,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-PREVIEW",
+      "width": 360,
+      "state": {
+        "id": "",
+        "tag": "SECTION",
+        "top": 80.21875,
+        "bottom": 1056.890625,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-EDIT",
+      "width": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CLEAR",
+      "width": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CONTEXT-CLEAR",
+      "selected": [],
+      "state": {
+        "id": "f-name",
+        "tag": "INPUT",
+        "top": 178.2265625,
+        "bottom": 230.625,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "pass": true
+    }
+  ]
+}

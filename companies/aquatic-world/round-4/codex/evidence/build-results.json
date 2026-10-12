@@ -1,0 +1,6 @@
+{
+  "command": "python3 -B demo/build.py",
+  "exit_code": 0,
+  "files": 31,
+  "byte_identical_second_build": true
+}

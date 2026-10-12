@@ -1,0 +1,188 @@
+{
+  "finding": "The initial evaluator required each invalid checkbox to repeat aria-describedby. Claude describes the shared collection error on its fieldset; Chrome exposes that group name and error description in the accessibility tree. This is a semantic group association, not a missing message.",
+  "correction": "Accept direct error association for individual fields, or a described semantic fieldset with a legend for radio/checkbox groups. Error summary, invalid state, meaningful associated message and recovery requirements remain.",
+  "sources": [
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/html/H71",
+      "accessed": "2026-10-11",
+      "use": "Semantic grouping for a checkbox family."
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA1",
+      "accessed": "2026-10-11",
+      "use": "aria-describedby relates a description to a UI element."
+    }
+  ],
+  "accessibility_tree": [
+    {
+      "role": {
+        "type": "role",
+        "value": "group"
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Collections involved REQUIRED",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Collections involved REQUIRED"
+            },
+            "nativeSource": "legend",
+            "nativeSourceValue": {
+              "type": "nodeList",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 5486,
+                  "text": "Collections involved REQUIRED"
+                }
+              ]
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "Choose at least one collection, or “Not sure yet”."
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "describedby",
+          "value": {
+            "type": "idrefList",
+            "value": "f-interest-error",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 5496,
+                "idref": "f-interest-error"
+              }
+            ]
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 5486,
+                "text": "Collections involved REQUIRED"
+              }
+            ]
+          }
+        }
+      ],
+      "children": [
+        "5486",
+        "5352",
+        "5496"
+      ]
+    },
+    {
+      "role": {
+        "type": "role",
+        "value": "checkbox"
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Ornamental Fish",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Ornamental Fish"
+            },
+            "nativeSource": "labelwrapped",
+            "nativeSourceValue": {
+              "type": "nodeList",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 5488,
+                  "text": "Ornamental Fish"
+                }
+              ]
+            }
+          },
+          {
+            "type": "contents",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "true"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "checked",
+          "value": {
+            "type": "tristate",
+            "value": "false"
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 5488,
+                "text": "Ornamental Fish"
+              }
+            ]
+          }
+        }
+      ],
+      "children": []
+    }
+  ],
+  "rejected_report": "rejected-interactions/claude-interactions-checks.json",
+  "limit": "No screen-reader session or full WCAG audit; Chrome group exposure is the directly observed evidence.",
+  "implementation_modified": false
+}

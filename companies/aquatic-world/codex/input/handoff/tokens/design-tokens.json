@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Premium Aquatic Editorial",
+  "version": "1.0",
+  "status": "proposed_implementation_tokens",
+  "reference": "reference/selected-homepage-mockup.png",
+  "color": {
+    "ocean950": "#061C26",
+    "ocean900": "#0A3541",
+    "ocean800": "#0C4450",
+    "gold400": "#DFC087",
+    "gold500": "#C6A466",
+    "cream50": "#F6F4F0",
+    "ink900": "#10242D",
+    "slate700": "#43565B",
+    "fog200": "#C2D1D2",
+    "white": "#FFFFFF"
+  },
+  "font": {
+    "display": "Georgia, \"Times New Roman\", serif",
+    "body": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "h1": "clamp(2.5rem, 5vw, 5rem)",
+    "h2": "clamp(2rem, 3.4vw, 3.4rem)",
+    "bodySize": "clamp(1rem, 1.05vw, 1.125rem)",
+    "bodyLineHeight": 1.6,
+    "displayLineHeight": 1.1
+  },
+  "layout": {
+    "maxContentWidthPx": 1240,
+    "headerHeightDesktopPx": 82,
+    "headerHeightMobilePx": 68,
+    "gutterMobilePx": 20,
+    "gutterDesktopPx": 40,
+    "breakpointsPx": [
+      480,
+      768,
+      1024,
+      1440
+    ],
+    "spacingPx": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ],
+    "buttonMinHeightPx": 44,
+    "cardRadiusPx": 4
+  },
+  "motion": {
+    "hoverDurationMs": 200,
+    "reducedMotionRespect": true
+  },
+  "contrast": {
+    "gold400_on_ocean950": 10.01,
+    "cream50_on_ocean950": 15.91,
+    "ink900_on_cream50": 14.57,
+    "slate700_on_cream50": 7.03,
+    "note": "Ratios only apply to solid colors; photo backgrounds require separate audit."
+  },
+  "brandAgnostic": true
+}

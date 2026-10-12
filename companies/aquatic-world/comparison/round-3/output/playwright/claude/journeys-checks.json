@@ -1,0 +1,182 @@
+{
+  "checks": [
+    {
+      "scenario": "IA-03",
+      "step": "Home to index",
+      "url": "http://127.0.0.1:4192/collections/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Index to category",
+      "slug": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/collections/ornamental-fish/",
+      "heading": "Ornamental Fish",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Category to enquiry context",
+      "slug": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/contact/?interest=ornamental-fish#enquiry",
+      "selected": [
+        "",
+        "ornamental-fish",
+        ""
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Breadcrumb to index",
+      "slug": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/collections/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "ornamental-fish",
+      "sibling": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/collections/aquatic-plants/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "ornamental-fish",
+      "sibling": "driftwood",
+      "url": "http://127.0.0.1:4192/collections/driftwood/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Logo to Home",
+      "slug": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Index to category",
+      "slug": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/collections/aquatic-plants/",
+      "heading": "Aquatic Plants",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Category to enquiry context",
+      "slug": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/contact/?interest=aquatic-plants#enquiry",
+      "selected": [
+        "",
+        "aquatic-plants",
+        ""
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Breadcrumb to index",
+      "slug": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/collections/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "aquatic-plants",
+      "sibling": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/collections/ornamental-fish/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "aquatic-plants",
+      "sibling": "driftwood",
+      "url": "http://127.0.0.1:4192/collections/driftwood/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Logo to Home",
+      "slug": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Index to category",
+      "slug": "driftwood",
+      "url": "http://127.0.0.1:4192/collections/driftwood/",
+      "heading": "Driftwood",
+      "pass": true
+    },
+    {
+      "scenario": "IA-03",
+      "step": "Category to enquiry context",
+      "slug": "driftwood",
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "selected": [
+        "",
+        "driftwood",
+        ""
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Breadcrumb to index",
+      "slug": "driftwood",
+      "url": "http://127.0.0.1:4192/collections/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "driftwood",
+      "sibling": "ornamental-fish",
+      "url": "http://127.0.0.1:4192/collections/ornamental-fish/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Sibling category",
+      "slug": "driftwood",
+      "sibling": "aquatic-plants",
+      "url": "http://127.0.0.1:4192/collections/aquatic-plants/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-05",
+      "step": "Logo to Home",
+      "slug": "driftwood",
+      "url": "http://127.0.0.1:4192/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-04",
+      "step": "Back and Forward",
+      "back": "/collections/",
+      "forward": "/collections/ornamental-fish/",
+      "pass": true
+    },
+    {
+      "scenario": "IA-04",
+      "step": "Native modifier click opens a new tab",
+      "url": "http://127.0.0.1:4192/collections/aquatic-plants/",
+      "heading": "Aquatic Plants",
+      "pass": true
+    },
+    {
+      "scenario": "IA-06",
+      "status": 404,
+      "heading": "This page is not part of the collection.",
+      "recovery": "http://127.0.0.1:4192/",
+      "pass": true
+    }
+  ],
+  "runner": "claude"
+}

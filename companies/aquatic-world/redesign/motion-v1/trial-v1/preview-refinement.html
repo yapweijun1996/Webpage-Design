@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aquatic World — 两次 Runway 试片比较</title>
+<style>
+:root{color-scheme:dark;background:#072c31;color:#f8f6ed;font:16px/1.55 system-ui,sans-serif}*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:28px}a{color:#b9e7de}h1{font-size:clamp(25px,4vw,36px);line-height:1.2;margin:7px 0 10px}h2{font-size:20px;margin:0 0 5px}p{margin:7px 0}.eyebrow{font-size:12px;letter-spacing:.13em;color:#bbd7d2}.meta{font-size:14px;color:#c1d8d5}.toolbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:20px}button{border:1px solid #8fb5ad;border-radius:7px;background:#16434a;color:#e0efe9;font:inherit;min-height:44px;padding:8px 13px;cursor:pointer}button[aria-pressed=true],button.primary{background:#f4f0df;color:#123a3e}button:focus-visible,a:focus-visible{outline:3px solid #ffdb8c;outline-offset:4px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}.cards.single{grid-template-columns:1fr}.card{min-width:0;border:1px solid #426166;border-radius:13px;overflow:hidden;background:#00191d}.card[hidden]{display:none}.card header{padding:15px 16px 12px}video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#00191d}.card footer{padding:12px 16px;font-size:14px;color:#c9deda}output{display:block;font-variant-numeric:tabular-nums}.finding{border-left:3px solid #e5bc76;padding-left:16px;margin-top:25px}.finding p{color:#d2e2dc}.endpoints{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.endpoints figure{margin:0}.endpoints img{width:100%;display:block;border-radius:9px}.endpoints figcaption{font-size:14px;color:#bed8d3;margin-top:8px}.links{display:flex;flex-wrap:wrap;gap:12px 22px;margin:25px 0 8px;font-size:14px}@media(max-width:650px){main{padding:20px 16px}.cards,.endpoints{grid-template-columns:1fr}.card.refined{order:-1}.toolbar{gap:8px}button{font-size:14px}.card header{padding:12px}.card footer{padding:10px 12px}.finding{margin-top:22px}}
+</style>
+<main>
+<header><div class="eyebrow">AQUATIC WORLD / PROMPT REFINEMENT</div><h1>同一张图片，两次 Runway 试片</h1><p class="meta">同模型 · 六秒 · 720p · 无音轨 · 每支 US$0.72，合计 US$1.44</p><p class="meta">第二支调整了运动指令；这次比较尚未包含 Wan。</p></header>
+<nav class="toolbar" aria-label="比较视图"><button id="view-both" aria-pressed="true">并排比较</button><button id="view-01" aria-pressed="false">只看第一支</button><button id="view-02" aria-pressed="false">只看第二支</button></nav>
+<div class="cards" id="cards">
+<article class="card" id="card-01"><header><h2>01 / 原始 prompt</h2><p class="meta">轻微悬停、鳍和植物运动</p></header><video id="video-01" controls playsinline muted preload="metadata" poster="runway-01-poster.webp" src="runway-01-preview.mp4" aria-label="第一支 Runway 试片"></video><footer><output id="status-01" aria-live="off">等待播放</output><p>首支问题：构图漂移、后段鱼鳍越过边缘。</p></footer></article>
+<article class="card refined" id="card-02"><header><h2>02 / 调整后的 prompt</h2><p class="meta">固定位置与大小，仅胸鳍轻动</p></header><video id="video-02" controls playsinline muted preload="metadata" poster="runway-02-poster.webp" src="runway-02-preview.mp4" aria-label="第二支 Runway 试片"></video><footer><output id="status-02" aria-live="off">等待播放</output><p>抽帧：鱼鳍保留更好，鱼的大小与姿态仍变化。</p></footer></article>
+</div>
+<div class="toolbar" aria-label="播放复核"><button id="replay" class="primary">从头播放</button><button id="pause">暂停</button><button id="loop-review">检查 3 次循环衔接</button></div>
+<section class="finding"><h2>第二支有改善，仍未通过循环要求</h2><p>第二支的背景更稳定、鱼鳍保留更好；鱼的大小与姿态仍变化，三次循环复核均可见衔接跳变。两支均为草稿，尚未作为首页素材交给 Codex 或 Claude。</p></section>
+<section class="endpoints" aria-label="两支影片末帧"><figure><img src="frames/frame-4.png" width="1280" height="720" alt="第一支末帧：上方鱼鳍被画面边缘裁切"><figcaption>第一支 / 6.00 秒末帧</figcaption></figure><figure><img src="frames-02/frame-4.png" width="1280" height="720" alt="第二支末帧：鱼鳍仍在画面内，鱼的大小和姿态与首帧不同"><figcaption>第二支 / 6.00 秒末帧</figcaption></figure></section>
+<nav class="links" aria-label="试片记录"><a href="REFINEMENT.md">本次修改与复核</a><a href="contact-sheet-02.jpg">第二支抽帧</a><a href="runway-02-raw.mp4">第二支原片</a><a href="preview.html">首支复核</a><a href="../../../comparison/round-5/preview.html">现有网站比较</a></nav>
+</main>
+<script>
+const cards=document.querySelector('#cards');
+const states=['01','02'].map(id=>({id,card:document.querySelector(`#card-${id}`),video:document.querySelector(`#video-${id}`),status:document.querySelector(`#status-${id}`),joins:0,previous:0,review:false}));
+function display(s){s.status.textContent=`${s.video.paused?'已暂停':'播放中'} · ${s.video.currentTime.toFixed(2)} 秒 · 循环衔接 ${s.joins}/3`;s.status.dataset.joins=s.joins;s.status.dataset.paused=String(s.video.paused)}
+function pauseAll(){for(const s of states){s.video.pause();s.video.loop=false;s.review=false;display(s)}}
+function choose(view){pauseAll();for(const s of states)s.card.hidden=view!=='both'&&view!==s.id;cards.classList.toggle('single',view!=='both');for(const id of ['both','01','02'])document.querySelector(`#view-${id}`).setAttribute('aria-pressed',String(id===view))}
+for(const id of ['both','01','02'])document.querySelector(`#view-${id}`).addEventListener('click',()=>choose(id));
+async function play(review){pauseAll();await Promise.all(states.filter(s=>!s.card.hidden).map(async s=>{s.joins=0;s.previous=0;s.review=review;s.video.loop=review;s.video.currentTime=0;try{await s.video.play()}catch{s.status.textContent='请使用影片原生播放按钮'}}))}
+document.querySelector('#replay').addEventListener('click',()=>play(false));
+document.querySelector('#loop-review').addEventListener('click',()=>play(true));
+document.querySelector('#pause').addEventListener('click',pauseAll);
+for(const s of states){s.video.addEventListener('timeupdate',()=>{if(s.review&&s.video.currentTime<s.previous-1)s.joins++;s.previous=s.video.currentTime;if(s.review&&s.joins>=3&&s.video.currentTime>=1){s.video.pause();s.video.loop=false;s.review=false}display(s)});s.video.addEventListener('play',()=>display(s));s.video.addEventListener('pause',()=>display(s));s.video.addEventListener('error',()=>{s.status.textContent='加载失败，请查看抽帧或原片'})}
+const initial=new URLSearchParams(location.search).get('view');if(['01','02'].includes(initial))choose(initial);
+</script>
+</html>

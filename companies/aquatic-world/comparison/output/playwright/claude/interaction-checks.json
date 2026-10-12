@@ -1,0 +1,216 @@
+{
+  "runner": "claude",
+  "capturedAt": "2026-10-10T16:20:54.499Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "id": "keyboard-skip-focus",
+      "status": "pass",
+      "observed": {
+        "text": "Skip to content",
+        "outline": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "menu-open-focus",
+      "status": "pass",
+      "observed": {
+        "expanded": "true",
+        "focused": "Collections"
+      }
+    },
+    {
+      "id": "menu-escape-focus-return",
+      "status": "pass",
+      "observed": {
+        "expanded": "false",
+        "focused": "Menu"
+      }
+    },
+    {
+      "id": "menu-link-closes-and-navigates",
+      "status": "pass",
+      "observed": {
+        "hash": "#collections",
+        "expanded": "false"
+      }
+    },
+    {
+      "id": "collection-opens-focus-and-no-overflow",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-ornamental-fish",
+        "detailsOpen": true,
+        "focusedTag": "ARTICLE",
+        "focusedId": "collection-ornamental-fish",
+        "overflow": false
+      }
+    },
+    {
+      "id": "collection-escape-focus-return",
+      "status": "pass",
+      "observed": {
+        "detailsOpen": false,
+        "focusedHref": "#collection-ornamental-fish"
+      }
+    },
+    {
+      "id": "browser-back-restores-closed-details",
+      "status": "fail",
+      "observed": {
+        "hash": "",
+        "detailsOpen": true
+      }
+    },
+    {
+      "id": "collection-direct-link",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-ornamental-fish",
+        "detailsOpen": true
+      }
+    },
+    {
+      "id": "enquiry-cta-and-unavailable-state",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "text": "Let\u2019s grow a brighter aquatic world together\n      Business Enquiries\n      Partnership, trade and collection enquiries would be welcomed here.\n      Demo concept: Real enquiries are unavailable: this is a fictional demo with no verified contact route or backend.\n      Get in Touch\n    \n    \n      Enquiry form preview\n      Try the form locally. It validates your input but nothing is sent or stored.\n      \n        Please fix the following before continuing:\n        \n      \n      \n        \n          Your name *\n          \n          \n        \n        \n          Company (optional)\n          \n          \n        \n        \n          Email address *\n          \n          \n        \n        \n          Collection of interest\n          General enquiryOrnamental FishAquatic PlantsDriftwood\n          \n        \n        \n          Message *\n          \n          \n        \n      \n      Check enquiry\n      Preview only \u2014 nothing was sent. Your details passed local validation, but this demo has no enquiry destination, so no one will receive this message.\n    \n    GoodAquatic ThingsTravel Far\n    Naturepeoplea brighter tomorrow"
+      }
+    },
+    {
+      "id": "preview-form-invalid-input",
+      "status": "pass",
+      "observed": {
+        "errorsVisible": true,
+        "invalidFields": 3,
+        "focused": true
+      }
+    },
+    {
+      "id": "preview-form-honest-and-no-network",
+      "status": "pass",
+      "observed": {
+        "visible": true,
+        "text": "Preview only \u2014 nothing was sent. Your details passed local validation, but this demo has no enquiry destination, so no one will receive this message.",
+        "newRequests": []
+      }
+    },
+    {
+      "id": "fixture:default@1440",
+      "status": "pass",
+      "observed": {
+        "count": 3,
+        "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:default@390",
+      "status": "pass",
+      "observed": {
+        "count": 3,
+        "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/minimal/@1440",
+      "status": "pass",
+      "observed": {
+        "count": 1,
+        "title": "AQUATIC WORLD \u2014 Minimal Fixture (Demo)",
+        "overflow": false,
+        "optionalSections": [
+          false,
+          false
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/minimal/@390",
+      "status": "pass",
+      "observed": {
+        "count": 1,
+        "title": "AQUATIC WORLD \u2014 Minimal Fixture (Demo)",
+        "overflow": false,
+        "optionalSections": [
+          false,
+          false
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/tidewell/@1440",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Tidewell Studio \u2014 Aquascape Supply Fixture (Demo)",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": false
+      }
+    },
+    {
+      "id": "fixture:fixtures/tidewell/@390",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Tidewell Studio \u2014 Aquascape Supply Fixture (Demo)",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": false
+      }
+    },
+    {
+      "id": "reduced-motion-scroll",
+      "status": "pass",
+      "observed": {
+        "matched": true,
+        "scrollBehavior": "auto"
+      }
+    },
+    {
+      "id": "no-javascript-readable-layout",
+      "status": "pass",
+      "observed": {
+        "h1": "A World of Ornamental Beauty, Thoughtfully Curated.",
+        "mainTextLength": 3429,
+        "overflow": false,
+        "visibleHeaderLinks": 6
+      }
+    },
+    {
+      "id": "blocking-runtime-errors",
+      "status": "pass",
+      "observed": []
+    }
+  ],
+  "errors": [],
+  "unexpectedWrites": []
+}

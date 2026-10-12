@@ -1,0 +1,73 @@
+{
+  "buttons": 0,
+  "documentHeight": 2513,
+  "documentWidth": 1280,
+  "images": [
+    {
+      "alt": "Illustrative striped fish on the right of a dark teal underwater landscape, with quiet water on the left.",
+      "complete": true,
+      "naturalHeight": 836,
+      "naturalWidth": 1882,
+      "rect": {
+        "height": 524.1640625,
+        "width": 1180
+      }
+    },
+    {
+      "alt": "Right-aligned sixteen-to-nine framing study of the same source fish.",
+      "complete": true,
+      "naturalHeight": 836,
+      "naturalWidth": 1882,
+      "rect": {
+        "height": 265.046875,
+        "width": 471.1953125
+      }
+    },
+    {
+      "alt": "The same landscape frame follows the phone copy instead of becoming a tall cropped backdrop.",
+      "complete": true,
+      "naturalHeight": 836,
+      "naturalWidth": 1882,
+      "rect": {
+        "height": 218.25,
+        "width": 388
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:4170/redesign/motion-v1/BRIEF.md",
+      "text": "Motion brief"
+    },
+    {
+      "href": "http://127.0.0.1:4170/redesign/motion-v1/GENERATION-PROMPT.txt",
+      "text": "Generation prompt"
+    },
+    {
+      "href": "http://127.0.0.1:4170/redesign/motion-v1/INTEGRATION.md",
+      "text": "Integration contract"
+    },
+    {
+      "href": "http://127.0.0.1:4170/comparison/round-6/ACCEPTANCE.md",
+      "text": "Comparison requirements"
+    },
+    {
+      "href": "http://127.0.0.1:4170/comparison/round-6/PREPARATION-CHECK.md",
+      "text": "Preparation checks"
+    },
+    {
+      "href": "http://127.0.0.1:4170/redesign/motion-v1/README.md",
+      "text": "Package status"
+    },
+    {
+      "href": "http://127.0.0.1:4170/redesign/motion-v1/SOURCES.md",
+      "text": "Sources and provenance"
+    }
+  ],
+  "title": "Aquatic World — Homepage Motion Study",
+  "videos": 0,
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}

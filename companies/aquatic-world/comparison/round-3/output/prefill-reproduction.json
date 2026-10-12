@@ -1,0 +1,145 @@
+{
+  "method": "Ten fresh actual driftwood-to-contact clicks; observations before and after load. No implementation modification.",
+  "samples": [
+    {
+      "attempt": 1,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 2,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 3,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 4,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 5,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 6,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 7,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 8,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 9,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    },
+    {
+      "attempt": 10,
+      "url": "http://127.0.0.1:4192/contact/?interest=driftwood#enquiry",
+      "immediate": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      },
+      "loaded": {
+        "ready": "complete",
+        "checked": true,
+        "enabled": true
+      }
+    }
+  ]
+}

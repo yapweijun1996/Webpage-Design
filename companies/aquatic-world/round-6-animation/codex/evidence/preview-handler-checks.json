@@ -1,0 +1,9 @@
+{
+  "kind": "Offline handler methods; no socket/HTTP/browser evidence",
+  "passed": 3,
+  "checks": [
+    "Explicit PNG mapping and guess_type return image/png",
+    "GET 404 handler uses owned custom page and correct body behavior",
+    "HEAD 404 handler uses owned custom page and correct body behavior"
+  ]
+}

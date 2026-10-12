@@ -1,0 +1,249 @@
+{
+  "generated_by": "demo/scripts/images.mjs",
+  "encoder": "cwebp",
+  "quality": 78,
+  "derivatives": [
+    {
+      "file": "assets/img/hero-angelfish-1882.webp",
+      "source": "input/assets/hero-angelfish.png",
+      "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "crop": null,
+      "width": 1882,
+      "bytes": 135684
+    },
+    {
+      "file": "assets/img/hero-angelfish-1280.webp",
+      "source": "input/assets/hero-angelfish.png",
+      "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "crop": null,
+      "width": 1280,
+      "bytes": 71828
+    },
+    {
+      "file": "assets/img/hero-angelfish-800.webp",
+      "source": "input/assets/hero-angelfish.png",
+      "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "crop": null,
+      "width": 800,
+      "bytes": 36910
+    },
+    {
+      "file": "assets/img/hero-angelfish-fish-1000.webp",
+      "source": "input/assets/hero-angelfish.png",
+      "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "crop": [
+        860,
+        0,
+        1000,
+        836
+      ],
+      "width": 1000,
+      "bytes": 102274
+    },
+    {
+      "file": "assets/img/hero-angelfish-fish-640.webp",
+      "source": "input/assets/hero-angelfish.png",
+      "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "crop": [
+        860,
+        0,
+        1000,
+        836
+      ],
+      "width": 640,
+      "bytes": 50074
+    },
+    {
+      "file": "assets/img/heritage-waterfront-1586.webp",
+      "source": "input/assets/heritage-waterfront.png",
+      "source_sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "crop": null,
+      "width": 1586,
+      "bytes": 280608
+    },
+    {
+      "file": "assets/img/heritage-waterfront-1024.webp",
+      "source": "input/assets/heritage-waterfront.png",
+      "source_sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "crop": null,
+      "width": 1024,
+      "bytes": 125252
+    },
+    {
+      "file": "assets/img/heritage-waterfront-640.webp",
+      "source": "input/assets/heritage-waterfront.png",
+      "source_sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "crop": null,
+      "width": 640,
+      "bytes": 56220
+    },
+    {
+      "file": "assets/img/collection-ornamental-fish-1448.webp",
+      "source": "input/assets/collection-ornamental-fish.png",
+      "source_sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "crop": null,
+      "width": 1448,
+      "bytes": 113188
+    },
+    {
+      "file": "assets/img/collection-ornamental-fish-960.webp",
+      "source": "input/assets/collection-ornamental-fish.png",
+      "source_sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "crop": null,
+      "width": 960,
+      "bytes": 52630
+    },
+    {
+      "file": "assets/img/collection-ornamental-fish-640.webp",
+      "source": "input/assets/collection-ornamental-fish.png",
+      "source_sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "crop": null,
+      "width": 640,
+      "bytes": 27044
+    },
+    {
+      "file": "assets/img/collection-aquatic-plants-1448.webp",
+      "source": "input/assets/collection-aquatic-plants.png",
+      "source_sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "crop": null,
+      "width": 1448,
+      "bytes": 274356
+    },
+    {
+      "file": "assets/img/collection-aquatic-plants-960.webp",
+      "source": "input/assets/collection-aquatic-plants.png",
+      "source_sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "crop": null,
+      "width": 960,
+      "bytes": 144800
+    },
+    {
+      "file": "assets/img/collection-aquatic-plants-640.webp",
+      "source": "input/assets/collection-aquatic-plants.png",
+      "source_sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "crop": null,
+      "width": 640,
+      "bytes": 78452
+    },
+    {
+      "file": "assets/img/collection-driftwood-1448.webp",
+      "source": "input/assets/collection-driftwood.png",
+      "source_sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "crop": null,
+      "width": 1448,
+      "bytes": 201568
+    },
+    {
+      "file": "assets/img/collection-driftwood-960.webp",
+      "source": "input/assets/collection-driftwood.png",
+      "source_sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "crop": null,
+      "width": 960,
+      "bytes": 99380
+    },
+    {
+      "file": "assets/img/collection-driftwood-640.webp",
+      "source": "input/assets/collection-driftwood.png",
+      "source_sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "crop": null,
+      "width": 640,
+      "bytes": 51696
+    },
+    {
+      "file": "assets/img/highlight-red-betta-1448.webp",
+      "source": "input/assets/highlight-red-betta.png",
+      "source_sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "crop": null,
+      "width": 1448,
+      "bytes": 119536
+    },
+    {
+      "file": "assets/img/highlight-red-betta-960.webp",
+      "source": "input/assets/highlight-red-betta.png",
+      "source_sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "crop": null,
+      "width": 960,
+      "bytes": 56054
+    },
+    {
+      "file": "assets/img/highlight-red-betta-640.webp",
+      "source": "input/assets/highlight-red-betta.png",
+      "source_sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "crop": null,
+      "width": 640,
+      "bytes": 29122
+    },
+    {
+      "file": "assets/img/highlight-angelfish-1448.webp",
+      "source": "input/assets/highlight-angelfish.png",
+      "source_sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "crop": null,
+      "width": 1448,
+      "bytes": 136252
+    },
+    {
+      "file": "assets/img/highlight-angelfish-960.webp",
+      "source": "input/assets/highlight-angelfish.png",
+      "source_sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "crop": null,
+      "width": 960,
+      "bytes": 70886
+    },
+    {
+      "file": "assets/img/highlight-angelfish-640.webp",
+      "source": "input/assets/highlight-angelfish.png",
+      "source_sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "crop": null,
+      "width": 640,
+      "bytes": 40066
+    },
+    {
+      "file": "assets/img/highlight-red-plants-1448.webp",
+      "source": "input/assets/highlight-red-plants.png",
+      "source_sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "crop": null,
+      "width": 1448,
+      "bytes": 177774
+    },
+    {
+      "file": "assets/img/highlight-red-plants-960.webp",
+      "source": "input/assets/highlight-red-plants.png",
+      "source_sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "crop": null,
+      "width": 960,
+      "bytes": 94320
+    },
+    {
+      "file": "assets/img/highlight-red-plants-640.webp",
+      "source": "input/assets/highlight-red-plants.png",
+      "source_sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "crop": null,
+      "width": 640,
+      "bytes": 52400
+    },
+    {
+      "file": "assets/img/enquiry-underwater-school-1920.webp",
+      "source": "input/assets/enquiry-underwater-school.png",
+      "source_sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "crop": null,
+      "width": 1920,
+      "bytes": 151896
+    },
+    {
+      "file": "assets/img/enquiry-underwater-school-1280.webp",
+      "source": "input/assets/enquiry-underwater-school.png",
+      "source_sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "crop": null,
+      "width": 1280,
+      "bytes": 88404
+    },
+    {
+      "file": "assets/img/enquiry-underwater-school-800.webp",
+      "source": "input/assets/enquiry-underwater-school.png",
+      "source_sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "crop": null,
+      "width": 800,
+      "bytes": 42842
+    }
+  ]
+}

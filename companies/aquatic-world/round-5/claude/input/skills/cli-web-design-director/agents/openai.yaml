@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLI Web Design Director"
+  short_description: "Direct Codex and Claude from brief to verified web UX"
+  default_prompt: "Use $cli-web-design-director to turn my website ideas into a clear design brief and verify the chosen CLI implementation."

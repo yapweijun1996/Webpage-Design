@@ -1,0 +1,45 @@
+
+> premium-aquatic-local-demo@1.0.0 build
+> node scripts/build.mjs
+
+{
+  "status": "passed",
+  "fixtures": [
+    {
+      "fixture": "default",
+      "output": "index.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 3,
+      "quality": true,
+      "highlights": true,
+      "bytes": 18696
+    },
+    {
+      "fixture": "minimal",
+      "output": "fixtures/minimal.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 1,
+      "quality": false,
+      "highlights": false,
+      "bytes": 8966
+    },
+    {
+      "fixture": "five",
+      "output": "fixtures/five.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 5,
+      "quality": true,
+      "highlights": true,
+      "bytes": 22687
+    },
+    {
+      "fixture": "alternate",
+      "output": "fixtures/alternate.html",
+      "brand": "TIDAL ATELIER",
+      "categories": 5,
+      "quality": true,
+      "highlights": true,
+      "bytes": 22584
+    }
+  ]
+}

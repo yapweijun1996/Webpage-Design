@@ -1,0 +1,373 @@
+{
+  "runner": "claude",
+  "capturedAt": "2026-10-11T04:10:27.550Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "id": "back-to-empty-hash-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "forward-restores-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-ornamental-fish",
+        "open": true,
+        "panelHash": "#collection-ornamental-fish",
+        "overflow": false
+      }
+    },
+    {
+      "id": "switch-to-second-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-aquatic-plants",
+        "open": true,
+        "panelHash": "#collection-aquatic-plants",
+        "overflow": false
+      }
+    },
+    {
+      "id": "unrelated-enquiry-hash-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "back-from-enquiry-restores-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-aquatic-plants",
+        "open": true,
+        "panelHash": "#collection-aquatic-plants",
+        "overflow": false
+      }
+    },
+    {
+      "id": "forward-to-enquiry-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "fifth-category-mobile-exploration",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "hash": "#collection-display-fish",
+        "open": true,
+        "panelHash": "#collection-display-fish",
+        "overflow": false
+      }
+    }
+  ],
+  "photoText": [
+    {
+      "width": 1440,
+      "captions": [
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Sample brand line",
+          "color": "rgb(67, 86, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9.92px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "70% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 1440,
+            "height": 639
+          },
+          "rectangle": {
+            "width": 1440,
+            "height": 606.421875
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "top",
+          "height": 606.421875
+        },
+        {
+          "id": "heritage",
+          "height": 319.359375
+        },
+        {
+          "id": "collections",
+          "height": 327.4140625
+        },
+        {
+          "id": "quality",
+          "height": 239.28125
+        },
+        {
+          "id": "highlights",
+          "height": 234.953125
+        },
+        {
+          "id": "enquiry",
+          "height": 286.46875
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "captions": [
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Sample brand line",
+          "color": "rgb(67, 86, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9.92px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "100% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 1024,
+            "height": 455
+          },
+          "rectangle": {
+            "width": 1024,
+            "height": 520
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "top",
+          "height": 1031.5625
+        },
+        {
+          "id": "heritage",
+          "height": 411.4140625
+        },
+        {
+          "id": "collections",
+          "height": 307.9921875
+        },
+        {
+          "id": "quality",
+          "height": 245.6640625
+        },
+        {
+          "id": "highlights",
+          "height": 208.21875
+        },
+        {
+          "id": "enquiry",
+          "height": 268.7890625
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "captions": [
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Sample brand line",
+          "color": "rgb(67, 86, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9.92px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "95% 45%",
+          "objectFit": "cover",
+          "image": {
+            "width": 768,
+            "height": 341
+          },
+          "rectangle": {
+            "width": 768,
+            "height": 520
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "top",
+          "height": 1043.40625
+        },
+        {
+          "id": "heritage",
+          "height": 807.7890625
+        },
+        {
+          "id": "collections",
+          "height": 515.546875
+        },
+        {
+          "id": "quality",
+          "height": 367.3671875
+        },
+        {
+          "id": "highlights",
+          "height": 402.359375
+        },
+        {
+          "id": "enquiry",
+          "height": 268.7890625
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "captions": [
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Illustrative waterfront sceneGrown for a brighter tomorrow",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10.88px",
+          "rendered": true
+        },
+        {
+          "text": "Sample brand line",
+          "color": "rgb(67, 86, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9.92px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "95% 45%",
+          "objectFit": "cover",
+          "image": {
+            "width": 390,
+            "height": 173
+          },
+          "rectangle": {
+            "width": 390,
+            "height": 358.796875
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "top",
+          "height": 1036.0703125
+        },
+        {
+          "id": "heritage",
+          "height": 668.78125
+        },
+        {
+          "id": "collections",
+          "height": 783.53125
+        },
+        {
+          "id": "quality",
+          "height": 661.7109375
+        },
+        {
+          "id": "highlights",
+          "height": 586.21875
+        },
+        {
+          "id": "enquiry",
+          "height": 328.3125
+        }
+      ]
+    }
+  ],
+  "visualAssessment": "Computed geometry and colors support the separate human/evaluator screenshot review; they do not prove photographic contrast or crop quality."
+}

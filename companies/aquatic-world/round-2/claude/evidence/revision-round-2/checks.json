@@ -1,0 +1,979 @@
+{
+  "ranAt": "2026-10-11T04:07:32.589Z",
+  "environment": {
+    "browser": "Chromium 156.0.8078.4 (Playwright headless)"
+  },
+  "base": "http://127.0.0.1:4321",
+  "total": 60,
+  "passed": 60,
+  "failed": 0,
+  "results": [
+    {
+      "id": "runtime-clean:default@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@1280",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@1024",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@768",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@320",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:tidewell@768",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:tidewell@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:tidewell@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:minimal@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:minimal@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "no-horizontal-overflow:default",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1280, 1440, 1920"
+    },
+    {
+      "id": "no-horizontal-overflow:tidewell",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1280, 1440, 1920"
+    },
+    {
+      "id": "no-horizontal-overflow:minimal",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1280, 1440, 1920"
+    },
+    {
+      "id": "images-resolve:default",
+      "status": "pass",
+      "detail": "14 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:default",
+      "status": "pass",
+      "detail": "27 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:default",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "images-resolve:tidewell",
+      "status": "pass",
+      "detail": "17 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:tidewell",
+      "status": "pass",
+      "detail": "33 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:tidewell",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "images-resolve:minimal",
+      "status": "pass",
+      "detail": "4 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:minimal",
+      "status": "pass",
+      "detail": "11 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:minimal",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "cta-primary-reaches-collections",
+      "status": "pass"
+    },
+    {
+      "id": "cta-secondary-reaches-enquiry",
+      "status": "pass"
+    },
+    {
+      "id": "header-solid-on-scroll",
+      "status": "pass"
+    },
+    {
+      "id": "header-nav-reaches-sections",
+      "status": "pass",
+      "detail": [
+        {
+          "href": "#collections",
+          "top": 76,
+          "visible": true
+        },
+        {
+          "href": "#heritage",
+          "top": 76,
+          "visible": true
+        },
+        {
+          "href": "#quality",
+          "top": 76,
+          "visible": true
+        },
+        {
+          "href": "#enquiry",
+          "top": 540,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "header-cta-reaches-enquiry",
+      "status": "pass"
+    },
+    {
+      "id": "mobile-menu",
+      "status": "pass",
+      "detail": {
+        "menuHiddenInitially": true,
+        "expanded": "true",
+        "focusFirst": true,
+        "label": "Close",
+        "scrollLocked": true,
+        "tabWrapsToToggle": true,
+        "shiftTabWrapsToLast": true,
+        "escapeCloses": true,
+        "focusReturned": true,
+        "linkClickCloses": true,
+        "linkReachesQuality": true
+      }
+    },
+    {
+      "id": "skip-link-and-focus-ring",
+      "status": "pass",
+      "detail": {
+        "isSkip": true,
+        "visible": true,
+        "mainFocused": true,
+        "firstFocusOutline": "solid 3px"
+      }
+    },
+    {
+      "id": "collection-explorer",
+      "status": "pass",
+      "detail": {
+        "hiddenInitially": true,
+        "afterCardClick": {
+          "hash": "#collection-aquatic-plants",
+          "open": true,
+          "visiblePanels": [
+            "collection-aquatic-plants"
+          ],
+          "focus": "collection-aquatic-plants",
+          "current": "aquatic-plants"
+        },
+        "panelInView": true,
+        "afterIndexSwitch": [
+          "collection-driftwood"
+        ],
+        "afterEscape": {
+          "open": false,
+          "focus": "#collection-aquatic-plants"
+        },
+        "viewAll": {
+          "open": true,
+          "focus": "collection-explorer"
+        },
+        "askAboutCollection": {
+          "value": "ornamental-fish",
+          "formVisible": true,
+          "hash": "#enquiry",
+          "explorerOpen": false,
+          "enquiryInView": true
+        }
+      }
+    },
+    {
+      "id": "highlight-and-deeplink-open-collection",
+      "status": "pass",
+      "detail": {
+        "highlightOpens": "collection-driftwood",
+        "deepLinkOpens": "collection-ornamental-fish",
+        "deepInView": true
+      }
+    },
+    {
+      "id": "history-back-forward-sync",
+      "status": "pass",
+      "detail": {
+        "openFish": {
+          "hash": "#collection-ornamental-fish",
+          "open": true,
+          "panel": "collection-ornamental-fish",
+          "current": "ornamental-fish"
+        },
+        "switchDriftwood": {
+          "hash": "#collection-driftwood",
+          "open": true,
+          "panel": "collection-driftwood",
+          "current": "driftwood"
+        },
+        "backToFish": {
+          "hash": "#collection-ornamental-fish",
+          "open": true,
+          "panel": "collection-ornamental-fish",
+          "current": "ornamental-fish"
+        },
+        "backToEmpty": {
+          "hash": "",
+          "open": false,
+          "panel": null,
+          "current": null
+        },
+        "forwardToFish": {
+          "hash": "#collection-ornamental-fish",
+          "open": true,
+          "panel": "collection-ornamental-fish",
+          "current": "ornamental-fish"
+        },
+        "forwardFocus": "collection-ornamental-fish",
+        "navToQuality": {
+          "hash": "#quality",
+          "open": false,
+          "panel": null,
+          "current": null,
+          "qualityInView": true
+        },
+        "backFromQuality": {
+          "hash": "#collection-ornamental-fish",
+          "open": true,
+          "panel": "collection-ornamental-fish",
+          "current": "ornamental-fish"
+        },
+        "enquiryWhileOpen": {
+          "hash": "#enquiry",
+          "open": false,
+          "panel": null,
+          "current": null,
+          "enquiryInView": true
+        },
+        "backFromEnquiry": {
+          "hash": "#collection-ornamental-fish",
+          "open": true,
+          "panel": "collection-ornamental-fish",
+          "current": "ornamental-fish"
+        },
+        "closed": {
+          "hash": "#collections",
+          "open": false,
+          "panel": null,
+          "current": null,
+          "focus": "#collection-ornamental-fish"
+        }
+      }
+    },
+    {
+      "id": "history-initial-load-and-five-categories",
+      "status": "pass",
+      "detail": {
+        "defaultInitial": "collection-driftwood",
+        "tidewellInitial": "collection-display-fish",
+        "tidewellBackAfterSwitch": "collection-display-fish"
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@1920",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.53,
+          ".hero__eyebrow": 9.75,
+          ".hero__title": 14.41,
+          ".hero__accent": 9.46,
+          ".hero__lead": 13.36,
+          ".hero__proof li": 11.03,
+          ".hero__proof li[1]": 11.03,
+          ".hero__proof li[2]": 10.63,
+          ".demo-note": 10.52,
+          ".side-note--top": 10.91,
+          ".side-note--bottom": 9.62,
+          ".highlights .eyebrow": 7.71,
+          ".highlights .section-title": 13.86,
+          ".highlights__note": 9.79,
+          ".highlight-card__title": 14.9,
+          ".highlight-card__title[1]": 10.95,
+          ".highlight-card__title[2]": 15.07,
+          ".highlight-card__title[3]": 15.47,
+          ".side-note--highlights": 10.32,
+          ".enquiry .eyebrow": 10.59,
+          ".enquiry .section-title": 16.99,
+          ".enquiry__lead": 14.18,
+          ".enquiry__notice": 11.03,
+          ".side-note--enquiry": 9.19,
+          ".enquiry__signature": 9.14
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@1920",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.83,
+          ".hero__eyebrow": 9.21,
+          ".hero__title": 14.27,
+          ".hero__accent": 8.97,
+          ".hero__lead": 14.08,
+          ".demo-note": 10.52,
+          ".highlights .eyebrow": 6.81,
+          ".highlights .section-title": 13.6,
+          ".highlights__note": 10.08,
+          ".highlight-card__title": 14.73,
+          ".highlight-card__title[1]": 10.73,
+          ".highlight-card__title[2]": 14.87,
+          ".enquiry .eyebrow": 10.59,
+          ".enquiry .section-title": 16.99,
+          ".enquiry__lead": 14.18,
+          ".enquiry__notice": 11.02
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@1440",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.38,
+          ".hero__eyebrow": 10.01,
+          ".hero__title": 14.4,
+          ".hero__accent": 9.46,
+          ".hero__lead": 13.75,
+          ".hero__proof li": 10.75,
+          ".hero__proof li[1]": 11.13,
+          ".hero__proof li[2]": 9.79,
+          ".demo-note": 10.54,
+          ".side-note--top": 10.97,
+          ".side-note--bottom": 7.72,
+          ".highlights .eyebrow": 7.74,
+          ".highlights .section-title": 14.21,
+          ".highlights__note": 10.07,
+          ".highlight-card__title": 14.98,
+          ".highlight-card__title[1]": 11.21,
+          ".highlight-card__title[2]": 15.2,
+          ".highlight-card__title[3]": 15.35,
+          ".side-note--highlights": 9.26,
+          ".enquiry .eyebrow": 10.48,
+          ".enquiry .section-title": 16.83,
+          ".enquiry__lead": 13.92,
+          ".enquiry__notice": 11.02,
+          ".side-note--enquiry": 7,
+          ".enquiry__signature": 6.42
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@1440",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 13.44,
+          ".hero__eyebrow": 9.38,
+          ".hero__title": 14.21,
+          ".hero__accent": 8.99,
+          ".hero__lead": 14.23,
+          ".demo-note": 10.55,
+          ".highlights .eyebrow": 8.57,
+          ".highlights .section-title": 15.73,
+          ".highlights__note": 10.61,
+          ".highlight-card__title": 14.7,
+          ".highlight-card__title[1]": 11.26,
+          ".highlight-card__title[2]": 15.1,
+          ".enquiry .eyebrow": 10.58,
+          ".enquiry .section-title": 16.83,
+          ".enquiry__lead": 14.17,
+          ".enquiry__notice": 11.02
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@1280",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.54,
+          ".hero__eyebrow": 10.01,
+          ".hero__title": 14.59,
+          ".hero__accent": 9.54,
+          ".hero__lead": 13.42,
+          ".hero__proof li": 10.78,
+          ".hero__proof li[1]": 11.13,
+          ".hero__proof li[2]": 9.73,
+          ".demo-note": 10.56,
+          ".side-note--top": 11.05,
+          ".side-note--bottom": 6.48,
+          ".highlights .eyebrow": 7.88,
+          ".highlights .section-title": 14.7,
+          ".highlights__note": 9.4,
+          ".highlight-card__title": 14.63,
+          ".highlight-card__title[1]": 11.09,
+          ".highlight-card__title[2]": 15.17,
+          ".highlight-card__title[3]": 15.44,
+          ".side-note--highlights": 9.01,
+          ".enquiry .eyebrow": 10.27,
+          ".enquiry .section-title": 16.68,
+          ".enquiry__lead": 13.89,
+          ".enquiry__notice": 11.02,
+          ".side-note--enquiry": 6.21,
+          ".enquiry__signature": 5.36
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@1280",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 13.74,
+          ".hero__eyebrow": 9.38,
+          ".hero__title": 14.74,
+          ".hero__accent": 9.23,
+          ".hero__lead": 14.05,
+          ".demo-note": 10.39,
+          ".highlights .eyebrow": 8.83,
+          ".highlights .section-title": 16.22,
+          ".highlights__note": 9.45,
+          ".highlight-card__title": 14.92,
+          ".highlight-card__title[1]": 10.96,
+          ".highlight-card__title[2]": 14.78,
+          ".enquiry .eyebrow": 10.58,
+          ".enquiry .section-title": 16.81,
+          ".enquiry__lead": 14.05,
+          ".enquiry__notice": 11.02
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@1024",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.3,
+          ".hero__eyebrow": 10.01,
+          ".hero__title": 17.47,
+          ".hero__accent": 10.01,
+          ".hero__lead": 14.57,
+          ".hero__proof li": 11.1,
+          ".hero__proof li[1]": 11.1,
+          ".hero__proof li[2]": 11.1,
+          ".demo-note": 11.1,
+          ".highlights .eyebrow": 7.99,
+          ".highlights .section-title": 14.02,
+          ".highlights__note": 9.07,
+          ".highlight-card__title": 14.67,
+          ".highlight-card__title[1]": 11.36,
+          ".highlight-card__title[2]": 15.26,
+          ".highlight-card__title[3]": 15.58,
+          ".enquiry .eyebrow": 9.79,
+          ".enquiry .section-title": 16.66,
+          ".enquiry__lead": 13.63,
+          ".enquiry__notice": 10.93
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@1024",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.19,
+          ".hero__eyebrow": 9.38,
+          ".hero__title": 17.48,
+          ".hero__accent": 9.38,
+          ".hero__lead": 14.57,
+          ".demo-note": 11.11,
+          ".highlights .eyebrow": 7.49,
+          ".highlights .section-title": 16.07,
+          ".highlights__note": 9.04,
+          ".highlight-card__title": 15.13,
+          ".highlight-card__title[1]": 11.05,
+          ".highlight-card__title[2]": 14.77,
+          ".enquiry .eyebrow": 10.38,
+          ".enquiry .section-title": 16.66,
+          ".enquiry__lead": 13.89,
+          ".enquiry__notice": 10.93
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@768",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.13,
+          ".hero__eyebrow": 10.01,
+          ".hero__title": 17.47,
+          ".hero__accent": 10.01,
+          ".hero__lead": 14.57,
+          ".hero__proof li": 11.1,
+          ".hero__proof li[1]": 11.1,
+          ".hero__proof li[2]": 11.1,
+          ".demo-note": 11.1,
+          ".highlights .eyebrow": 8.85,
+          ".highlights .section-title": 14.91,
+          ".highlights__note": 9.55,
+          ".highlight-card__title": 15.15,
+          ".highlight-card__title[1]": 11.39,
+          ".highlight-card__title[2]": 15.02,
+          ".highlight-card__title[3]": 15.53,
+          ".enquiry .eyebrow": 9.21,
+          ".enquiry .section-title": 16.33,
+          ".enquiry__lead": 13.18,
+          ".enquiry__notice": 10.81
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@768",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 11.56,
+          ".hero__eyebrow": 9.38,
+          ".hero__title": 17.48,
+          ".hero__accent": 9.38,
+          ".hero__lead": 14.57,
+          ".demo-note": 11.11,
+          ".highlights .eyebrow": 8.2,
+          ".highlights .section-title": 14.18,
+          ".highlights__note": 8.85,
+          ".highlight-card__title": 14.8,
+          ".highlight-card__title[1]": 11.36,
+          ".highlight-card__title[2]": 15.23,
+          ".enquiry .eyebrow": 10.13,
+          ".enquiry .section-title": 16.48,
+          ".enquiry__lead": 13.61,
+          ".enquiry__notice": 10.8
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:default@390",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 11.41,
+          ".hero__eyebrow": 10.01,
+          ".hero__title": 17.47,
+          ".hero__accent": 10.01,
+          ".hero__lead": 14.57,
+          ".hero__proof li": 11.1,
+          ".hero__proof li[1]": 11.1,
+          ".hero__proof li[2]": 11.1,
+          ".demo-note": 11.1,
+          ".highlights .eyebrow": 7.86,
+          ".highlights .section-title": 15.19,
+          ".highlights__note": 10.36,
+          ".highlight-card__title": 15.52,
+          ".highlight-card__title[1]": 11.65,
+          ".highlight-card__title[2]": 14.74,
+          ".highlight-card__title[3]": 15.58,
+          ".enquiry .eyebrow": 8.03,
+          ".enquiry .section-title": 16.14,
+          ".enquiry__lead": 13.31,
+          ".enquiry__notice": 11.02
+        }
+      }
+    },
+    {
+      "id": "photo-text-contrast:tidewell@390",
+      "status": "pass",
+      "detail": {
+        "headingCaptionColor": "rgb(255, 255, 255)",
+        "ratios": {
+          ".heritage__caption span": 12.98,
+          ".hero__eyebrow": 9.38,
+          ".hero__title": 17.48,
+          ".hero__accent": 9.38,
+          ".hero__lead": 14.57,
+          ".demo-note": 11.11,
+          ".highlights .eyebrow": 7.56,
+          ".highlights .section-title": 15.22,
+          ".highlights__note": 9.9,
+          ".highlight-card__title": 14.51,
+          ".highlight-card__title[1]": 11.41,
+          ".highlight-card__title[2]": 15.39,
+          ".enquiry .eyebrow": 8.72,
+          ".enquiry .section-title": 15.58,
+          ".enquiry__lead": 13.17,
+          ".enquiry__notice": 10.93
+        }
+      }
+    },
+    {
+      "id": "hero-copy-clear-of-fish:default",
+      "status": "pass",
+      "detail": {
+        "320": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "390": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "430": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "768": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "1024": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "1200": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1280": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1440": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1920": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 0.983,
+          "headerOverFish": true
+        },
+        "note": "headerOverFish must be false below 1200px (stacked hero); the overlay at >=1200px is intended"
+      }
+    },
+    {
+      "id": "hero-copy-clear-of-fish:tidewell",
+      "status": "pass",
+      "detail": {
+        "320": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "390": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "430": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "768": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "1024": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": false
+        },
+        "1200": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1280": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1440": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 1,
+          "headerOverFish": true
+        },
+        "1920": {
+          "textOverlapsFish": false,
+          "fishVisibleShare": 0.983,
+          "headerOverFish": true
+        },
+        "note": "headerOverFish must be false below 1200px (stacked hero); the overlay at >=1200px is intended"
+      }
+    },
+    {
+      "id": "desktop-band-proportions",
+      "status": "pass",
+      "detail": {
+        "measured1440": {
+          "top": 606,
+          "heritage": 319,
+          "collections": 327,
+          "quality": 239,
+          "highlights": 235,
+          "enquiry": 286,
+          "footer": 73
+        },
+        "referenceScaled1440": {
+          "top": 558,
+          "heritage": 296,
+          "collections": 288,
+          "quality": 212,
+          "highlights": 207,
+          "enquiry": 240,
+          "footer": 61
+        },
+        "ratioToReference": {
+          "top": 1.09,
+          "heritage": 1.08,
+          "collections": 1.14,
+          "quality": 1.13,
+          "highlights": 1.14,
+          "enquiry": 1.19,
+          "footer": 1.2
+        },
+        "total": 2085,
+        "referenceTotal": 1862
+      }
+    },
+    {
+      "id": "enquiry-no-false-success",
+      "status": "pass",
+      "detail": {
+        "notice": "Demo concept: Real enquiries are unavailable: this is a fictional demo with no verified contact route or backend.",
+        "formOpen": true,
+        "emptySubmit": {
+          "summaryVisible": true,
+          "summaryFocused": true,
+          "role": "alert",
+          "invalidFields": [
+            "enq-name",
+            "enq-email",
+            "enq-message"
+          ],
+          "resultHidden": true
+        },
+        "badEmailSubmit": [
+          "enq-email"
+        ],
+        "validSubmit": {
+          "result": "Preview only — nothing was sent. Your details passed local validation, but this demo has no enquiry destination, so no one will receive this message.",
+          "summaryHidden": true,
+          "url": "http://127.0.0.1:4321/"
+        },
+        "networkRequestsAfterOpen": [],
+        "successWordsFound": []
+      }
+    },
+    {
+      "id": "brand-swap-no-residual-demo-brand",
+      "status": "pass",
+      "detail": {
+        "tidewellLeaks": []
+      }
+    },
+    {
+      "id": "components-and-shared-assets-brand-free",
+      "status": "pass",
+      "detail": {
+        "sharedLeaks": [],
+        "componentLeaks": []
+      }
+    },
+    {
+      "id": "no-location-claim-rendered",
+      "status": "pass",
+      "detail": "Singapore absent from all built pages"
+    },
+    {
+      "id": "unapproved-claims-suppressed",
+      "status": "pass",
+      "detail": "reference claims CLM-REF-001/002 not rendered"
+    },
+    {
+      "id": "category-count-3-default",
+      "status": "pass",
+      "detail": {
+        "cards": 3,
+        "sections": [
+          "top",
+          "heritage",
+          "collections",
+          "quality",
+          "highlights",
+          "enquiry"
+        ],
+        "nav": [
+          "Collections",
+          "Heritage",
+          "Quality",
+          "Contact"
+        ],
+        "proofPoints": 3,
+        "quote": true,
+        "formPreview": true,
+        "brand": "AQUATIC WORLD",
+        "accent": "#DFC087"
+      }
+    },
+    {
+      "id": "category-count-5-second-brand",
+      "status": "pass",
+      "detail": {
+        "cards": 5,
+        "sections": [
+          "top",
+          "heritage",
+          "collections",
+          "quality",
+          "highlights",
+          "enquiry"
+        ],
+        "nav": [
+          "The Range",
+          "Studio",
+          "Approach",
+          "Talk to Us"
+        ],
+        "proofPoints": 0,
+        "quote": false,
+        "formPreview": true,
+        "brand": "TIDEWELL STUDIO",
+        "accent": "#E7B394"
+      }
+    },
+    {
+      "id": "category-count-1-optional-sections-hidden",
+      "status": "pass",
+      "detail": {
+        "cards": 1,
+        "sections": [
+          "top",
+          "collections",
+          "enquiry"
+        ],
+        "nav": [
+          "Collections",
+          "Contact"
+        ],
+        "proofPoints": 0,
+        "quote": false,
+        "formPreview": false,
+        "brand": "AQUATIC WORLD",
+        "accent": "#DFC087"
+      }
+    },
+    {
+      "id": "no-js-content-visible",
+      "status": "pass",
+      "detail": {
+        "sections": 6,
+        "panelsVisible": 3,
+        "navVisible": true,
+        "toggleHidden": true,
+        "formHidden": true,
+        "overflow": 390
+      }
+    },
+    {
+      "id": "reduced-motion-respected",
+      "status": "pass",
+      "detail": {
+        "btnTransition": "0s",
+        "scrollBehavior": "auto",
+        "cardsVisible": true
+      }
+    },
+    {
+      "id": "image-delivery-weight",
+      "status": "pass",
+      "detail": {
+        "1440x900": {
+          "initialImageBytes": 549672,
+          "files": [
+            "hero-angelfish-1882.webp",
+            "enquiry-underwater-school-1600.webp",
+            "collection-ornamental-fish-480.webp",
+            "collection-driftwood-480.webp",
+            "heritage-waterfront-1080.webp",
+            "collection-aquatic-plants-480.webp",
+            "highlight-red-betta-400.webp",
+            "highlight-angelfish-400.webp",
+            "highlight-red-plants-400.webp"
+          ]
+        },
+        "390x844": {
+          "initialImageBytes": 301348,
+          "files": [
+            "hero-angelfish-720.webp",
+            "heritage-waterfront-640.webp",
+            "collection-ornamental-fish-480.webp",
+            "collection-aquatic-plants-480.webp",
+            "collection-driftwood-480.webp",
+            "enquiry-underwater-school-960.webp",
+            "highlight-red-betta-400.webp",
+            "highlight-angelfish-400.webp",
+            "highlight-red-plants-400.webp"
+          ]
+        }
+      }
+    }
+  ]
+}

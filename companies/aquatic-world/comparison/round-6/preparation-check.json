@@ -1,0 +1,289 @@
+{
+  "prepared_on": "2026-10-11",
+  "scope": "design_preparation_only",
+  "checks": [
+    {
+      "check": "source_asset_integrity",
+      "status": "pass",
+      "detail": {
+        "width": 1882,
+        "height": 836,
+        "bytes": 2205920,
+        "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+      }
+    },
+    {
+      "check": "prepared_contract_hashes",
+      "status": "pass",
+      "detail": [
+        {
+          "path": "redesign/motion-v1/BRIEF.md",
+          "pass": true
+        },
+        {
+          "path": "redesign/motion-v1/GENERATION-PROMPT.txt",
+          "pass": true
+        },
+        {
+          "path": "redesign/motion-v1/INTEGRATION.md",
+          "pass": true
+        },
+        {
+          "path": "redesign/motion-v1/SOURCES.md",
+          "pass": true
+        },
+        {
+          "path": "redesign/motion-v1/preview.html",
+          "pass": true
+        },
+        {
+          "path": "comparison/round-6/README.md",
+          "pass": true
+        },
+        {
+          "path": "comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+          "pass": true
+        },
+        {
+          "path": "comparison/round-6/ACCEPTANCE.md",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "check": "local_markdown_links",
+      "status": "pass",
+      "detail": {
+        "files": 10,
+        "links": 95,
+        "missing": []
+      }
+    },
+    {
+      "check": "static_study_references",
+      "status": "pass",
+      "detail": {
+        "references": 10,
+        "missing": []
+      }
+    },
+    {
+      "check": "served_study_references",
+      "status": "pass",
+      "detail": [
+        {
+          "url": "http://127.0.0.1:4170/comparison/assets-v1/hero-angelfish.png",
+          "status": 200,
+          "content_type": "image/png",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/comparison/round-6/ACCEPTANCE.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/comparison/round-6/PREPARATION-CHECK.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/redesign/motion-v1/BRIEF.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/redesign/motion-v1/GENERATION-PROMPT.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/redesign/motion-v1/INTEGRATION.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/redesign/motion-v1/README.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        },
+        {
+          "url": "http://127.0.0.1:4170/redesign/motion-v1/SOURCES.md",
+          "status": 200,
+          "content_type": "text/markdown",
+          "matches_local_bytes": true
+        }
+      ]
+    },
+    {
+      "check": "historical_worker_and_source_preservation",
+      "status": "pass",
+      "detail": [
+        {
+          "root": "companies/aquatic-world/codex",
+          "files": 112,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "d79ebc8b58ba625243980d7af0dfb0d408936fdee93463f278dfd8ec18ce6e44"
+        },
+        {
+          "root": "companies/aquatic-world/claude",
+          "files": 337,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "fe72682d5f6238ba6b51f246de0077e9affccaf7667d6acbc9018a1e189b9ba9"
+        },
+        {
+          "root": "companies/aquatic-world/round-2",
+          "files": 482,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "feb7f6c5f1d6c60690f52c23cf51cf15859e235607a4bdcf19bccfa52b85eed1"
+        },
+        {
+          "root": "companies/aquatic-world/round-3",
+          "files": 350,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "6e5e8356dd4611219ea1b69801af104b2d0a8213d5e6755e8cff9051df1cb883"
+        },
+        {
+          "root": "companies/aquatic-world/round-4",
+          "files": 423,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "4e9669393fa3b32c62028542240077b3d4df646cbf868e0740c006c7f0a72b52"
+        },
+        {
+          "root": "companies/aquatic-world/round-5",
+          "files": 347,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "2b0ec0b06a6e08600977573108e1c1127bab90753da6001dad526616edc78550"
+        },
+        {
+          "root": "companies/aquatic-world/comparison/assets-v1",
+          "files": 13,
+          "unchanged": true,
+          "sha256_of_path_hash_records": "090e393ef42e76f25339d4cbab3bdd7f678565851e89cd14d9972fb9c7fcd2f5"
+        }
+      ]
+    },
+    {
+      "check": "pending_execution_status",
+      "status": "pass",
+      "detail": {
+        "generation": "not_started",
+        "worker_folders_exist": [
+          false,
+          false
+        ],
+        "media_status": [
+          "not_created",
+          "not_created",
+          "not_created"
+        ]
+      }
+    },
+    {
+      "check": "static_browser_observation",
+      "status": "pass",
+      "detail": {
+        "buttons": 0,
+        "documentHeight": 2513,
+        "documentWidth": 1280,
+        "images": [
+          {
+            "alt": "Illustrative striped fish on the right of a dark teal underwater landscape, with quiet water on the left.",
+            "complete": true,
+            "naturalHeight": 836,
+            "naturalWidth": 1882,
+            "rect": {
+              "height": 524.1640625,
+              "width": 1180
+            }
+          },
+          {
+            "alt": "Right-aligned sixteen-to-nine framing study of the same source fish.",
+            "complete": true,
+            "naturalHeight": 836,
+            "naturalWidth": 1882,
+            "rect": {
+              "height": 265.046875,
+              "width": 471.1953125
+            }
+          },
+          {
+            "alt": "The same landscape frame follows the phone copy instead of becoming a tall cropped backdrop.",
+            "complete": true,
+            "naturalHeight": 836,
+            "naturalWidth": 1882,
+            "rect": {
+              "height": 218.25,
+              "width": 388
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "http://127.0.0.1:4170/redesign/motion-v1/BRIEF.md",
+            "text": "Motion brief"
+          },
+          {
+            "href": "http://127.0.0.1:4170/redesign/motion-v1/GENERATION-PROMPT.txt",
+            "text": "Generation prompt"
+          },
+          {
+            "href": "http://127.0.0.1:4170/redesign/motion-v1/INTEGRATION.md",
+            "text": "Integration contract"
+          },
+          {
+            "href": "http://127.0.0.1:4170/comparison/round-6/ACCEPTANCE.md",
+            "text": "Comparison requirements"
+          },
+          {
+            "href": "http://127.0.0.1:4170/comparison/round-6/PREPARATION-CHECK.md",
+            "text": "Preparation checks"
+          },
+          {
+            "href": "http://127.0.0.1:4170/redesign/motion-v1/README.md",
+            "text": "Package status"
+          },
+          {
+            "href": "http://127.0.0.1:4170/redesign/motion-v1/SOURCES.md",
+            "text": "Sources and provenance"
+          }
+        ],
+        "title": "Aquatic World \u2014 Homepage Motion Study",
+        "videos": 0,
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        }
+      }
+    },
+    {
+      "check": "existing_current_previews_reachable",
+      "status": "pass",
+      "detail": [
+        {
+          "url": "http://127.0.0.1:4170/comparison/round-5/preview.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4211/",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:4212/",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "all_pass": true,
+  "video_generation": "not_started",
+  "native_worker_runs": "not_started",
+  "video_behavior_and_performance": "not_run",
+  "user_design_acceptance": "pending"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "checked_links": 14,
+  "checks": [
+    {
+      "document": "README.md",
+      "link": "evidence/revision-review.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/design-plan.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/asset-notes.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/input-pack-contact-sheet.jpg",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/static-results.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/interaction-results.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/build-results.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "evidence/run-metadata.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "build-results.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "static-results.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "interaction-results.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "frozen-before.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "browser-results.json",
+      "exists": true
+    },
+    {
+      "document": "evidence/revision-review.md",
+      "link": "browser-qa.cjs",
+      "exists": true
+    }
+  ]
+}

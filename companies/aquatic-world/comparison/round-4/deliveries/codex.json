@@ -1,0 +1,315 @@
+{
+  "captured_at": "2026-10-11T09:30:37.175143+00:00",
+  "excluded_local_caches": [
+    ".DS_Store",
+    ".playwright-cli",
+    "__pycache__",
+    "node_modules"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 7800,
+      "sha256": "deb52bbb8d39214cd6b0d32125c0259d5c84de7751b943631e97294b2121eff3"
+    },
+    "demo/assets/collection-aquatic-plants-1600.webp": {
+      "bytes": 352342,
+      "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+    },
+    "demo/assets/collection-aquatic-plants-640.webp": {
+      "bytes": 107306,
+      "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+    },
+    "demo/assets/collection-driftwood-1600.webp": {
+      "bytes": 265502,
+      "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+    },
+    "demo/assets/collection-driftwood-640.webp": {
+      "bytes": 73010,
+      "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+    },
+    "demo/assets/collection-ornamental-fish-1600.webp": {
+      "bytes": 155548,
+      "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+    },
+    "demo/assets/collection-ornamental-fish-640.webp": {
+      "bytes": 39042,
+      "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+    },
+    "demo/assets/enquiry-underwater-school-1600.webp": {
+      "bytes": 172410,
+      "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+    },
+    "demo/assets/enquiry-underwater-school-640.webp": {
+      "bytes": 41050,
+      "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+    },
+    "demo/assets/heritage-waterfront-1600.webp": {
+      "bytes": 372596,
+      "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+    },
+    "demo/assets/heritage-waterfront-640.webp": {
+      "bytes": 76770,
+      "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+    },
+    "demo/assets/hero-angelfish-1600.webp": {
+      "bytes": 143388,
+      "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+    },
+    "demo/assets/hero-angelfish-640.webp": {
+      "bytes": 36188,
+      "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+    },
+    "demo/assets/highlight-angelfish-1600.webp": {
+      "bytes": 178334,
+      "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+    },
+    "demo/assets/highlight-angelfish-640.webp": {
+      "bytes": 54694,
+      "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+    },
+    "demo/assets/highlight-red-betta-1600.webp": {
+      "bytes": 165192,
+      "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+    },
+    "demo/assets/highlight-red-betta-640.webp": {
+      "bytes": 42558,
+      "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+    },
+    "demo/assets/highlight-red-plants-1600.webp": {
+      "bytes": 236558,
+      "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+    },
+    "demo/assets/highlight-red-plants-640.webp": {
+      "bytes": 73170,
+      "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+    },
+    "demo/assets/manifest.json": {
+      "bytes": 6056,
+      "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+    },
+    "demo/build.py": {
+      "bytes": 30020,
+      "sha256": "7e674020c63a9c455fdfef7ef349b9307e605cc60abf78dc289197d00ae9504f"
+    },
+    "demo/favicon.svg": {
+      "bytes": 258,
+      "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+    },
+    "demo/public/404.html": {
+      "bytes": 3704,
+      "sha256": "be7e1b2d0470f6eb44200525786012d46f32b2e80749db6a19ffeeb696032c42"
+    },
+    "demo/public/assets/collection-aquatic-plants-1600.webp": {
+      "bytes": 352342,
+      "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+    },
+    "demo/public/assets/collection-aquatic-plants-640.webp": {
+      "bytes": 107306,
+      "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+    },
+    "demo/public/assets/collection-driftwood-1600.webp": {
+      "bytes": 265502,
+      "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+    },
+    "demo/public/assets/collection-driftwood-640.webp": {
+      "bytes": 73010,
+      "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+    },
+    "demo/public/assets/collection-ornamental-fish-1600.webp": {
+      "bytes": 155548,
+      "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+    },
+    "demo/public/assets/collection-ornamental-fish-640.webp": {
+      "bytes": 39042,
+      "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+    },
+    "demo/public/assets/enquiry-underwater-school-1600.webp": {
+      "bytes": 172410,
+      "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+    },
+    "demo/public/assets/enquiry-underwater-school-640.webp": {
+      "bytes": 41050,
+      "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+    },
+    "demo/public/assets/heritage-waterfront-1600.webp": {
+      "bytes": 372596,
+      "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+    },
+    "demo/public/assets/heritage-waterfront-640.webp": {
+      "bytes": 76770,
+      "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+    },
+    "demo/public/assets/hero-angelfish-1600.webp": {
+      "bytes": 143388,
+      "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+    },
+    "demo/public/assets/hero-angelfish-640.webp": {
+      "bytes": 36188,
+      "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+    },
+    "demo/public/assets/highlight-angelfish-1600.webp": {
+      "bytes": 178334,
+      "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+    },
+    "demo/public/assets/highlight-angelfish-640.webp": {
+      "bytes": 54694,
+      "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+    },
+    "demo/public/assets/highlight-red-betta-1600.webp": {
+      "bytes": 165192,
+      "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+    },
+    "demo/public/assets/highlight-red-betta-640.webp": {
+      "bytes": 42558,
+      "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+    },
+    "demo/public/assets/highlight-red-plants-1600.webp": {
+      "bytes": 236558,
+      "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+    },
+    "demo/public/assets/highlight-red-plants-640.webp": {
+      "bytes": 73170,
+      "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+    },
+    "demo/public/assets/manifest.json": {
+      "bytes": 6056,
+      "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+    },
+    "demo/public/collections/aquatic-plants/index.html": {
+      "bytes": 8235,
+      "sha256": "5d095b1f58077193e42dab6072e08ce0344fa8ec94475f9936701216e8883423"
+    },
+    "demo/public/collections/driftwood/index.html": {
+      "bytes": 8304,
+      "sha256": "20a494bee42e6ca30b2ad4be2eae339d98d5de9fa0c8df02dd5ce40a08b6540d"
+    },
+    "demo/public/collections/index.html": {
+      "bytes": 7869,
+      "sha256": "a8ab87ddf8a88ff9e7a695c539b7179be12357b803d569066389e91e009b5907"
+    },
+    "demo/public/collections/ornamental-fish/index.html": {
+      "bytes": 8890,
+      "sha256": "52b5f3e23d11c521ac07ab90a588f42255c84d64920ceff635b8d45c330d3413"
+    },
+    "demo/public/contact/index.html": {
+      "bytes": 8106,
+      "sha256": "48fef2264250aa65f5bc2cb3025da1635d55e8e79f7cabd06a270d7204591ab2"
+    },
+    "demo/public/favicon.svg": {
+      "bytes": 258,
+      "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+    },
+    "demo/public/index.html": {
+      "bytes": 9259,
+      "sha256": "b6a5872b57b9eba011925660a23626f12ba25b07ee34026596938ace55bf0a7d"
+    },
+    "demo/public/our-story/index.html": {
+      "bytes": 6263,
+      "sha256": "f683681db15668c2a625841d94d8f308d8ea62757d2c6d7099ed904c2ffe43c5"
+    },
+    "demo/public/quality/index.html": {
+      "bytes": 8014,
+      "sha256": "417a34e204814cee3fa13b13b8658608222744cff1d24aff40bfcac8f7e877f0"
+    },
+    "demo/public/script.js": {
+      "bytes": 6336,
+      "sha256": "fcd21f912151b78d4eca8b7849e8b00100bd781964f533c049bf2638aa216a1a"
+    },
+    "demo/public/styles.css": {
+      "bytes": 42492,
+      "sha256": "399eddf98c6210d7a82b25032f290f758c78b8641bc9f7cd605a47de69997342"
+    },
+    "demo/script.js": {
+      "bytes": 6336,
+      "sha256": "fcd21f912151b78d4eca8b7849e8b00100bd781964f533c049bf2638aa216a1a"
+    },
+    "demo/serve.py": {
+      "bytes": 1515,
+      "sha256": "fe7fe773013d7d152636051e8e719c5674c38f686fd147ee90b151f37c8e1da2"
+    },
+    "demo/site_data.py": {
+      "bytes": 1804,
+      "sha256": "b765485a3add20e39b47f38aa168b558fa86bc6ecf3eb535232e726fdfa46a30"
+    },
+    "demo/styles.css": {
+      "bytes": 42492,
+      "sha256": "399eddf98c6210d7a82b25032f290f758c78b8641bc9f7cd605a47de69997342"
+    },
+    "demo/tools/prepare_assets.py": {
+      "bytes": 1632,
+      "sha256": "7b23c8bd8cc1a8607eac909c6f9801dc4d175fa8524983762d535e2f88a71064"
+    },
+    "evidence/asset-notes.md": {
+      "bytes": 1424,
+      "sha256": "6a5fd4e71a1e6b8ad8529a260c3f31987bc8b6dcd325e4333d30f3e6f0aeefbb"
+    },
+    "evidence/browser-qa.cjs": {
+      "bytes": 18470,
+      "sha256": "0cdd7f24117264757f58db8cce5fadb094b0656a47b863a5058acc786b215b5a"
+    },
+    "evidence/browser-results.json": {
+      "bytes": 165,
+      "sha256": "6695927657d75f18479b3efe5ea43e98bb9589e96c5a523394ae30caa0e9ed14"
+    },
+    "evidence/build-results.json": {
+      "bytes": 116,
+      "sha256": "4d37ce9db33c890cf2fac44f06fe5f6b131f2a75c078bc7ee47ea4f1b5101dba"
+    },
+    "evidence/cli-events.jsonl": {
+      "bytes": 410494,
+      "sha256": "4a4c1e6a17137fd83dac0b779502767e0906be49493a9267d9e2d6854ba8a7e6"
+    },
+    "evidence/cli-stderr.log": {
+      "bytes": 32271,
+      "sha256": "1f46506839ba6a0da21baa7bca99e5cdcadf889199b005fe083399035bc7db7a"
+    },
+    "evidence/delivery.md": {
+      "bytes": 398,
+      "sha256": "6bb89cc963251bb95554ad4dd7e5954163ca3ef4c24ebd90c219b570bf2d4c7b"
+    },
+    "evidence/design-plan.md": {
+      "bytes": 5498,
+      "sha256": "1032a8464b4df70bd3b52ad97d156694b9d6e25339014eec6a6371439c49cd64"
+    },
+    "evidence/documentation-results.json": {
+      "bytes": 1671,
+      "sha256": "2f0c2294e2879450f6f6aca55f6f1f4b93c006e83ef2a9541818a97e9bc9c4f2"
+    },
+    "evidence/frozen-before.json": {
+      "bytes": 7288,
+      "sha256": "fd9976e05948ef185d1811a09bbed5e27bbd59e58fa9613028efaaa6cad9d4d4"
+    },
+    "evidence/input-pack-contact-sheet.jpg": {
+      "bytes": 175206,
+      "sha256": "62a94fd57f1e3ccf58bc7e1daf6af86e0d6020ac711a153c402bb31d41957e0d"
+    },
+    "evidence/interaction-results.json": {
+      "bytes": 2871,
+      "sha256": "51de24db73bfd60c344431c3310bc5b1b78e973462b3f03dfbe13750215573b5"
+    },
+    "evidence/process-run.json": {
+      "bytes": 1487,
+      "sha256": "b069dc6058087db7abc9be0f4e23ffb502b25b2bb21f37b9232bb005276f1451"
+    },
+    "evidence/revision-review.md": {
+      "bytes": 12596,
+      "sha256": "4202b72b190c11195d07c502d836a2fdc1c127e06dac698bd0eed4717d12035a"
+    },
+    "evidence/run-metadata.json": {
+      "bytes": 1509,
+      "sha256": "7271f1527f2ef5ce8c28a81d05d9717ffb30c41bb9586db0d2408d8d9e8a4f1a"
+    },
+    "evidence/static-results.json": {
+      "bytes": 90032,
+      "sha256": "9b2f84b080914cc44411a2164c266c8c512c590d15a1916537e0307b8417ee24"
+    },
+    "evidence/verify-interactions.cjs": {
+      "bytes": 10429,
+      "sha256": "9e618cc5d6857429eea9bec4ee7df0f9941b2b7fe669e2406f73be1dffe68028"
+    },
+    "evidence/verify-static.py": {
+      "bytes": 10111,
+      "sha256": "b77474231c0eeb274e07345be6f5c6c189008e4f69fe161398250b2a9e9bb009"
+    }
+  }
+}

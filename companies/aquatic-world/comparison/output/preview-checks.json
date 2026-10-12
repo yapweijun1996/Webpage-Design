@@ -1,0 +1,31 @@
+[
+  {
+    "runner": "codex",
+    "command": [
+      "node",
+      "scripts/serve.mjs",
+      "--port",
+      "4175"
+    ],
+    "root_status": 200,
+    "body_matches_delivered_entry": true,
+    "sha256": "67c1f7157fff4367d9b65e7e29dd7b66146ea303b807a7ca7b71c8c1feab9bfa",
+    "fixture_status": 200,
+    "stdout": "Local preview: http://127.0.0.1:4175/",
+    "stderr": ""
+  },
+  {
+    "runner": "claude",
+    "command": [
+      "node",
+      "scripts/serve.mjs",
+      "4176"
+    ],
+    "root_status": 200,
+    "body_matches_delivered_entry": true,
+    "sha256": "60bb31cff731cc539e466438c3679d28f49d02992025a7efe137d66a817273a7",
+    "fixture_status": 200,
+    "stdout": "Serving dist/ at http://127.0.0.1:4176/",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,5 @@
+# Evaluator Method Correction
+
+The first Claude SIM-ONE-INTRO check failed only on desktop because it treated an aside help heading above the Name field Y-coordinate as a duplicate form introduction. The actual 1440px capture shows an allowed separate desktop help column, and DOM help order already passes. The assertion now excludes semantic secondary help from the task-heading check, while retaining one visible h1, no second pre-field task heading, phone first-field targets, and help-after-workspace DOM checks. The rejected script and raw report are preserved here. No contestant implementation was edited. Both runners are checked with the same corrected procedure.
+
+A second evaluator issue affected rapid viewer filter changes: networkidle can return before cached PNG decoding finishes, causing transient complete=false/naturalWidth=0 despite existing served assets. The same loaded/path/filter/link assertions now wait explicitly for both current images to decode. The rejected viewer script/report are preserved; no contestant code was edited.

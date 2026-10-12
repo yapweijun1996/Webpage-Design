@@ -1,0 +1,11 @@
+Read the applicable workspace instructions, BRIEF.md and ACCEPTANCE.md. Read input/skills/cli-web-design-director/SKILL.md and its relevant references. Inspect the original reference images and the same nine-image asset pack.
+
+Build the multi-page Aquatic World website defined by BRIEF.md in demo/. The handoff is a visual reference; the current brief determines product scope. Document your sitemap, page-specific content plans, header states and responsive design decisions before coding, then implement and verify them in the same authorized run.
+
+Deliver these independent routes: /, /collections/, /collections/ornamental-fish/, /collections/aquatic-plants/, /collections/driftwood/, /our-story/, /quality/, /contact/. Global navigation and collection links must navigate to the related pages, with meaningful page-specific content, direct loading, refresh, browser history and current navigation context. Do not substitute homepage hash scrolling or overlay-only category panels for these destinations.
+
+Improve the actual full-size header and visual detail: readable wordmark/nav/CTA hierarchy, deliberate alignment and spacing, stable active/hover/focus states, coherent mobile menu, carefully composed imagery and distinctive layouts suited to each page's purpose. Retain the supplied ocean-teal/champagne/cream direction while adapting layouts to the new website scope. Use concise illustrative copy; do not invent business facts or a live enquiry service.
+
+Exercise ACCEPTANCE.md using the tools actually available. Capture real desktop/phone and intermediate-width views, inspect them, and fix concrete defects before delivering. Record the commands, results, screenshots, unavailable checks, actual model/CLI/tool metadata and reproducible preview instructions. Worker self-scores do not establish user acceptance.
+
+Preserve all original and round-2 workspaces, inputs and evidence without reading them; this workspace starts fresh. In a paired experiment, use only your own code plus the shared frozen inputs and do not inspect the other builder's work. Stop only processes whose ownership is established; never use broad process-name cleanup. Do not deploy, publish, push, change global configuration, or send enquiries.

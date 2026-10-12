@@ -1,0 +1,18 @@
+{
+  "kind": "Loopback HTTP source/response checks, no browser",
+  "port": 4231,
+  "owned_server_pid": 10563,
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "demo/serve.py",
+    "--port",
+    "4231"
+  ],
+  "results": [],
+  "user_acceptance": "pending",
+  "status": "failed",
+  "error": "Owned preview did not start: Traceback (most recent call last):\n  File \"/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/round-6-animation/codex/demo/serve.py\", line 36, in <module>\n    server = ThreadingHTTPServer((\"127.0.0.1\", args.port), Handler)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py\", line 457, in __init__\n    self.server_bind()\n    ~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py\", line 148, in server_bind\n    socketserver.TCPServer.server_bind(self)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py\", line 478, in server_bind\n    self.socket.bind(self.server_address)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\nPermissionError: [Errno 1] Operation not permitted\n",
+  "owned_server_exit_code": 1,
+  "owned_server_stopped": true
+}

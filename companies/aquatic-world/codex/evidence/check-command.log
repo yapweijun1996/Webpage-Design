@@ -1,0 +1,222 @@
+
+> premium-aquatic-local-demo@1.0.0 check
+> node scripts/check.mjs
+
+{
+  "type": "static-and-build-checks",
+  "executedAt": "2026-10-10T16:11:49.562Z",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "default: generated output matches source",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "default: heading and semantic landmarks",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "default: IDs and anchor destinations",
+      "status": "passed",
+      "details": {
+        "ids": 19,
+        "links": 26
+      }
+    },
+    {
+      "name": "default: local resources resolve",
+      "status": "passed",
+      "details": {
+        "resolved": 48
+      }
+    },
+    {
+      "name": "default: data-driven category count",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "default: honest enquiry and SEO",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "minimal: generated output matches source",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "minimal: heading and semantic landmarks",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "minimal: IDs and anchor destinations",
+      "status": "passed",
+      "details": {
+        "ids": 13,
+        "links": 16
+      }
+    },
+    {
+      "name": "minimal: local resources resolve",
+      "status": "passed",
+      "details": {
+        "resolved": 20
+      }
+    },
+    {
+      "name": "minimal: data-driven category count",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "minimal: honest enquiry and SEO",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "five: generated output matches source",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "five: heading and semantic landmarks",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "five: IDs and anchor destinations",
+      "status": "passed",
+      "details": {
+        "ids": 21,
+        "links": 30
+      }
+    },
+    {
+      "name": "five: local resources resolve",
+      "status": "passed",
+      "details": {
+        "resolved": 60
+      }
+    },
+    {
+      "name": "five: data-driven category count",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "five: honest enquiry and SEO",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "alternate: generated output matches source",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "alternate: heading and semantic landmarks",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "alternate: IDs and anchor destinations",
+      "status": "passed",
+      "details": {
+        "ids": 21,
+        "links": 30
+      }
+    },
+    {
+      "name": "alternate: local resources resolve",
+      "status": "passed",
+      "details": {
+        "resolved": 60
+      }
+    },
+    {
+      "name": "alternate: data-driven category count",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "alternate: honest enquiry and SEO",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "default: all eight regions in reference order",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "alternate: no original brand or geographic residue",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "minimal: optional sections and navigation absent",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "empty optional sections: no section or navigation remains",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: duplicate categories rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: unsafe URL rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: unsupported contact state rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: missing asset rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: wrong fixed source rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: non-demo build rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "validation: nonexistent CTA destination rejected",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "rendering: text and attribute content escaped",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "assets: derivative and source hashes match manifest",
+      "status": "passed",
+      "details": {
+        "sourceBytes": 22350783,
+        "derivativeBytes": 1377298,
+        "variantCount": 20,
+        "reductionPercent": 93.84
+      }
+    }
+  ],
+  "limits": "These checks do not execute a browser, measure CSS layout, establish contrast on photographs, or verify keyboard interaction."
+}

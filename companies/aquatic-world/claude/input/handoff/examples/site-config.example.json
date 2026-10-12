@@ -1,0 +1,75 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "brand": {
+    "name": "YOUR BRAND",
+    "tagline": "Your approved brand tagline",
+    "logoAssetId": null,
+    "displayAsText": true
+  },
+  "location": {
+    "countryDisplayName": "YOUR COUNTRY",
+    "cityDisplayName": "YOUR CITY",
+    "regionClaimApproved": false
+  },
+  "site": {
+    "baseUrl": "https://example.invalid",
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "themeId": "premium-aquatic-editorial"
+  },
+  "navigation": [
+    {
+      "id": "collections",
+      "label": "Collections",
+      "href": "/#collections"
+    },
+    {
+      "id": "heritage",
+      "label": "Heritage",
+      "href": "/#heritage"
+    },
+    {
+      "id": "quality",
+      "label": "Quality",
+      "href": "/#quality"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "/#contact"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "label": "Explore Collections",
+      "href": "/#collections"
+    },
+    "secondary": {
+      "label": "Business Enquiry",
+      "href": "/#contact"
+    }
+  },
+  "contact": {
+    "email": null,
+    "phone": null,
+    "address": null,
+    "enquiryEndpoint": null,
+    "privacyPath": "/privacy"
+  },
+  "legal": {
+    "legalName": null,
+    "registration": null,
+    "footerNote": null
+  },
+  "socialLinks": [],
+  "features": {
+    "showProofPoints": false,
+    "showQualitySection": false,
+    "showHeritageQuote": false,
+    "showLocaleSwitcher": false,
+    "enableEnquiryForm": false,
+    "showSocialLinks": false
+  }
+}

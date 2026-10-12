@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Premium Landing Page Homepage Content",
+  "type": "object",
+  "required": [
+    "contentStatus",
+    "hero",
+    "heritage",
+    "collections",
+    "quality",
+    "highlights",
+    "enquiry"
+  ],
+  "properties": {
+    "contentStatus": {
+      "enum": [
+        "DEMO_ONLY_NOT_APPROVED",
+        "PRODUCTION_APPROVED"
+      ]
+    },
+    "hero": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "title",
+        "description",
+        "imageId"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "eyebrow": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accent": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "imageId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ctaIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "proofPoints": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "heritage": {
+      "$ref": "#/$defs/section"
+    },
+    "collections": {
+      "$ref": "#/$defs/section"
+    },
+    "quality": {
+      "$ref": "#/$defs/section"
+    },
+    "highlights": {
+      "$ref": "#/$defs/section"
+    },
+    "enquiry": {
+      "$ref": "#/$defs/section"
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "heading"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "eyebrow": {
+          "type": "string"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "body": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array"
+        },
+        "imageId": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

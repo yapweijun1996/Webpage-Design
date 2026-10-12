@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-11T04:09:28.389823+00:00",
+  "checks": [
+    {
+      "runner": "codex",
+      "status": "pass",
+      "build_exit_code": 0,
+      "generated_file_comparisons": [
+        {
+          "path": "fixtures/alternate.html",
+          "matches": true,
+          "sha256": "500318817bd272c36aa280fc7ea34aabb9aac21efa683bbbddbc15570c534861"
+        },
+        {
+          "path": "fixtures/five.html",
+          "matches": true,
+          "sha256": "10770c2fdca4be09f112354d9a4641692ac24843a137f944597359b88e3a9d3e"
+        },
+        {
+          "path": "fixtures/minimal.html",
+          "matches": true,
+          "sha256": "cf52be504149746b93e0f78772446a503a6a946bc0a1a69c82e916cd063e3d25"
+        },
+        {
+          "path": "index.html",
+          "matches": true,
+          "sha256": "e150f834ff4e9c2cc4132d91a45066070f877c6e9bc9a18d838b0f5c830bb390"
+        }
+      ],
+      "stdout": "\n> premium-aquatic-local-demo@1.0.0 build\n> node scripts/build.mjs\n\n{\n  \"status\": \"passed\",\n  \"fixtures\": [\n    {\n      \"fixture\": \"default\",\n      \"output\": \"index.html\",\n      \"brand\": \"AQUATIC WORLD\",\n      \"categories\": 3,\n      \"quality\": true,\n      \"highlights\": true,\n      \"bytes\": 18688\n    },\n    {\n      \"fixture\": \"minimal\",\n      \"output\": \"fixtures/minimal.html\",\n      \"brand\": \"AQUATIC WORLD\",\n      \"categories\": 1,\n      \"quality\": false,\n      \"highlights\": false,\n      \"bytes\": 8915\n    },\n    {\n      \"fixture\": \"five\",\n      \"output\": \"fixtures/five.html\",\n      \"brand\": \"AQUATIC WORLD\",\n      \"categories\": 5,\n      \"quality\": true,\n      \"highlights\": true,\n      \"bytes\": 22747\n    },\n    {\n      \"fixture\": \"alternate\",\n      \"output\": \"fixtures/alternate.html\",\n      \"brand\": \"TIDAL ATELIER\",\n      \"categories\": 5,\n      \"quality\": true,\n      \"highlights\": true,\n      \"bytes\": 22724\n    }\n  ]\n}\n",
+      "stderr": "",
+      "dependency_install": "No install required for the built-in Node static build; dev-only browser dependencies excluded.",
+      "temporary_copy_removed": true
+    },
+    {
+      "runner": "claude",
+      "status": "pass",
+      "build_exit_code": 0,
+      "generated_file_comparisons": [
+        {
+          "path": "assets/css/site.css",
+          "matches": true,
+          "sha256": "7559e1170c6f09630273bf5e2fcb08edfcd431ea1c5f6a30f8542dc9c9633abe"
+        },
+        {
+          "path": "assets/js/site.js",
+          "matches": true,
+          "sha256": "66d4bdee046a57a4568de1d32915fb2482d640cd637857c6604245367e81cf94"
+        },
+        {
+          "path": "fixtures/minimal/index.html",
+          "matches": true,
+          "sha256": "1fa728cab119d01cc130d5e4665e4700f92f8db57b31b6e24fec7dd8ad7d91fe"
+        },
+        {
+          "path": "fixtures/tidewell/index.html",
+          "matches": true,
+          "sha256": "dcbc55a69ced73fbab143f28984d371ca7a76db461357144e27f61aa3f9b4e3d"
+        },
+        {
+          "path": "index.html",
+          "matches": true,
+          "sha256": "61584afddf026a586c686624bdf1cfb86c9417b0a6dda244d5f180ccbcd0e1a9"
+        }
+      ],
+      "stdout": "\n> aquatic-landing-demo@1.0.0 build\n> node scripts/build.mjs\n\n[aquatic-world] warn: content is DEMO_ONLY_NOT_APPROVED: page marked noindex\n[aquatic-world] suppressed unapproved claim CLM-REF-001 at hero.proofPoints[3]\n[aquatic-world] suppressed unapproved claim CLM-REF-002 at quality.items[5]\n[aquatic-world] wrote dist/index.html\n[tidewell] warn: content is DEMO_ONLY_NOT_APPROVED: page marked noindex\n[tidewell] wrote dist/fixtures/tidewell/index.html\n[minimal] warn: content is DEMO_ONLY_NOT_APPROVED: page marked noindex\n[minimal] warn: navigation[1]: target #heritage not rendered; link hidden\n[minimal] warn: navigation[2]: target #quality not rendered; link hidden\n[minimal] suppressed unapproved claim CLM-REF-001 at hero.proofPoints[3]\n[minimal] suppressed unapproved claim CLM-REF-002 at quality.items[5]\n[minimal] wrote dist/fixtures/minimal/index.html\nBuild complete -> dist/\n",
+      "stderr": "",
+      "dependency_install": "No install required for the built-in Node static build; dev-only browser dependencies excluded.",
+      "temporary_copy_removed": true
+    }
+  ]
+}

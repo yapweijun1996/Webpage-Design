@@ -1,0 +1,7 @@
+{
+  "finding": "The initial geometry-only check classified Claude's skip link as behind the sticky header. Its computed z-index is 100; browser hit testing reaches the skip link itself at every recorded focused occurrence.",
+  "correction": "Check the actual topmost hit element when assessing header coverage. Preserve keyboard Tab traversal, visible focus, viewport visibility and error-recovery assertions.",
+  "evidence": "playwright/claude/focus-checks.json",
+  "rejected_report": "rejected-focus/claude-focus-checks.json",
+  "implementation_modified": false
+}

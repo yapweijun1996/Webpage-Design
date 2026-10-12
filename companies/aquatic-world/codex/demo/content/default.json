@@ -1,0 +1,230 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "brand": {
+    "name": "AQUATIC WORLD",
+    "tagline": "NATURE CONNECTS US ALL",
+    "homeHref": "#hero"
+  },
+  "location": {
+    "label": "Singapore-inspired illustration",
+    "isBusinessLocation": false
+  },
+  "seo": {
+    "title": "Aquatic World \u2014 An Aquatic Design Concept",
+    "description": "Explore an independent fictional aquatic design concept, with ornamental fish, aquatic plants and sculptural driftwood. AI-generated illustrations; no live products or enquiries.",
+    "lang": "en",
+    "robots": "noindex, nofollow",
+    "canonical": null,
+    "themeColor": "#061c26"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "closeMenu": "Close",
+    "navLabel": "Main navigation",
+    "footerNavLabel": "Footer navigation",
+    "closeDetail": "Close collection details",
+    "detailEyebrow": "COLLECTION STUDY",
+    "detailNote": "These AI-generated images are illustrative. They do not represent available products or verified species.",
+    "paletteLabel": "The palette",
+    "notesLabel": "A closer look",
+    "detailCta": "Enquiry information",
+    "demoLabel": "INDEPENDENT DESIGN CONCEPT",
+    "footerNote": "Fictional brand \u00b7 AI-generated imagery \u00b7 No live stock or orders",
+    "copyrightLabel": "Design concept",
+    "galleryLabel": "Selected illustrative studies"
+  },
+  "navigation": [
+    {
+      "label": "Collections",
+      "href": "#collections"
+    },
+    {
+      "label": "Heritage",
+      "href": "#heritage"
+    },
+    {
+      "label": "Quality",
+      "href": "#quality"
+    },
+    {
+      "label": "Contact",
+      "href": "#enquiry"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "label": "Explore Our Collections",
+      "href": "#collections"
+    },
+    "secondary": {
+      "label": "Business Enquiry",
+      "href": "#enquiry"
+    }
+  },
+  "hero": {
+    "enabled": true,
+    "eyebrow": "MORE THAN FISH",
+    "kicker": "A QUIETER WORLD, BEAUTIFULLY IMAGINED",
+    "title": "A World of\nOrnamental Beauty,",
+    "accent": "Inspired by Nature.",
+    "description": "Ornamental fish, aquatic plants and sculptural driftwood \u2014 an invitation to explore the beauty beneath the surface.",
+    "imageId": "hero-angelfish",
+    "sideNote": "A LITTLE\nCLOSER\nTO NATURE",
+    "bottomNote": "NATURE\nCONNECTS\nUS ALL",
+    "motifs": [
+      {
+        "icon": "leaf",
+        "label": "NATURAL FORMS"
+      },
+      {
+        "icon": "globe",
+        "label": "A WORLD TO EXPLORE"
+      },
+      {
+        "icon": "diamond",
+        "label": "BEAUTY IN THE DETAILS"
+      }
+    ]
+  },
+  "heritage": {
+    "enabled": true,
+    "eyebrow": "OUR HERITAGE \u00b7 A DESIGN STORY",
+    "heading": "A World of Inspiration.\nA Connection to Nature.",
+    "body": "Inspired by the meeting of water, greenery and city life, this fictional concept explores a simple idea: nature\u2019s beauty can bring us a little closer. A Singapore-inspired waterfront sets the scene for an imagined aquatic world.",
+    "imageId": "heritage-waterfront",
+    "imageAlt": "AI-generated tropical waterfront illustration; not a company location.",
+    "imageCaption": "A WATERFRONT REIMAGINED",
+    "aside": "Bringing the\nbeauty of nature\na little closer.",
+    "asideLabel": "THE DESIGN PHILOSOPHY",
+    "storyLabel": "The inspiration",
+    "storyBody": "The waterfront is a creative illustration, rather than a photograph of premises. The story, brand and collections belong to an independent local design demo; no company history or operating location is implied."
+  },
+  "collections": {
+    "enabled": true,
+    "eyebrow": "OUR COLLECTIONS",
+    "heading": "Nature\u2019s Finest,\nThoughtfully Composed.",
+    "description": "From vivid ornamental forms to lush aquatic leaves and natural textures, discover three expressions of an underwater world.",
+    "allLabel": "Take a Closer Look",
+    "items": [
+      {
+        "id": "fish",
+        "title": "Ornamental Fish",
+        "description": "Extraordinary colours.\nRemarkable forms.",
+        "imageId": "collection-ornamental-fish",
+        "alt": "Illustrative blue and crimson ornamental fish with flowing fins.",
+        "href": "#collection-fish",
+        "palette": "Crimson, iridescent blue and deep teal.",
+        "detail": "Flowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.",
+        "notes": "Look for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims."
+      },
+      {
+        "id": "plants",
+        "title": "Aquatic Plants",
+        "description": "Living textures.\nAn underwater garden.",
+        "imageId": "collection-aquatic-plants",
+        "alt": "Illustrative green aquatic leaves and moss around driftwood.",
+        "href": "#collection-plants",
+        "palette": "Emerald, moss green and soft turquoise.",
+        "detail": "Long leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.",
+        "notes": "Explore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide."
+      },
+      {
+        "id": "driftwood",
+        "title": "Driftwood",
+        "description": "Natural character.\nSculptural beauty.",
+        "imageId": "collection-driftwood",
+        "alt": "Illustrative branching driftwood in a dark planted aquarium.",
+        "href": "#collection-driftwood",
+        "palette": "Warm umber, weathered brown and ocean teal.",
+        "detail": "Twisted branches and weathered textures form a quiet natural sculpture. This material study celebrates the organic shapes that lend an aquatic scene its character.",
+        "notes": "Notice the branching silhouette, open space and warm wood grain. This image is a creative study, without claims about material safety, sourcing or stock."
+      }
+    ]
+  },
+  "quality": {
+    "enabled": true,
+    "eyebrow": "OUR APPROACH \u00b7 AN ILLUSTRATIVE STUDY",
+    "heading": "Considered in Every Detail.",
+    "description": "Colour, form and texture shape these aquatic studies. Each detail is part of the design, rather than a promise about products or services.",
+    "detailLabel": "About These Studies",
+    "detailText": "These five elements describe our visual composition. They are not sourcing standards, cultivation practices, certifications, packaging promises or delivery guarantees.",
+    "items": [
+      {
+        "icon": "fish",
+        "title": "COLOUR & FORM"
+      },
+      {
+        "icon": "leaf",
+        "title": "BOTANICAL TEXTURE"
+      },
+      {
+        "icon": "branch",
+        "title": "NATURAL SHAPES"
+      },
+      {
+        "icon": "frame",
+        "title": "QUIET COMPOSITION"
+      },
+      {
+        "icon": "wave",
+        "title": "AQUATIC ATMOSPHERE"
+      }
+    ]
+  },
+  "highlights": {
+    "enabled": true,
+    "eyebrow": "SELECTED HIGHLIGHTS",
+    "heading": "Exceptional Forms.\nBelow the Surface.",
+    "backgroundImageId": "enquiry-underwater-school",
+    "sideNote": "SMALL\nDETAILS.\nA WORLD\nOF WONDER.",
+    "items": [
+      {
+        "title": "Crimson Fin Study",
+        "imageId": "highlight-red-betta",
+        "href": "#collection-fish",
+        "fit": "contain",
+        "alt": "AI-generated crimson fish illustration with full flowing fins."
+      },
+      {
+        "title": "Silver & Stripe Study",
+        "imageId": "highlight-angelfish",
+        "href": "#collection-fish",
+        "fit": "contain",
+        "alt": "AI-generated silver and striped ornamental fish illustration."
+      },
+      {
+        "title": "Warm Leaf Study",
+        "imageId": "highlight-red-plants",
+        "href": "#collection-plants",
+        "fit": "cover",
+        "alt": "AI-generated red and bronze aquatic foliage illustration."
+      },
+      {
+        "title": "Sculptural Driftwood",
+        "imageId": "collection-driftwood",
+        "href": "#collection-driftwood",
+        "fit": "cover",
+        "alt": "AI-generated sculptural driftwood illustration."
+      }
+    ]
+  },
+  "enquiry": {
+    "enabled": true,
+    "eyebrow": "IMAGINE A BRIGHTER AQUATIC WORLD",
+    "heading": "Business Enquiries",
+    "description": "Beautiful possibilities begin with a conversation.\nThis fictional demo has no live contact channel; real enquiries are unavailable.",
+    "backgroundImageId": "enquiry-underwater-school",
+    "actionLabel": "Enquiry Information",
+    "noteHeading": "A design preview, for now.",
+    "note": "There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.",
+    "returnLabel": "Back to Collections",
+    "returnHref": "#collections",
+    "sideNote": "NATURE\nPEOPLE\nPOSSIBILITY",
+    "signature": "Good things\nbegin with\nnature.",
+    "contactState": "unavailable"
+  },
+  "footer": {
+    "closing": "A WORLD OF AQUATIC INSPIRATION"
+  }
+}

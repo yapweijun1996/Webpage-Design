@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "executed_at": "2026-10-10T16:05:00.518212+00:00",
+  "decoded_variants": 20,
+  "images": [
+    {
+      "asset_id": "hero-angelfish",
+      "file": "demo/assets/hero-angelfish-640.webp",
+      "dimensions": [
+        640,
+        284
+      ],
+      "format": "WEBP",
+      "bytes": 34446,
+      "status": "passed"
+    },
+    {
+      "asset_id": "hero-angelfish",
+      "file": "demo/assets/hero-angelfish-1280.webp",
+      "dimensions": [
+        1280,
+        569
+      ],
+      "format": "WEBP",
+      "bytes": 100716,
+      "status": "passed"
+    },
+    {
+      "asset_id": "hero-angelfish",
+      "file": "demo/assets/hero-angelfish-1882.webp",
+      "dimensions": [
+        1882,
+        836
+      ],
+      "format": "WEBP",
+      "bytes": 171474,
+      "status": "passed"
+    },
+    {
+      "asset_id": "heritage-waterfront",
+      "file": "demo/assets/heritage-waterfront-480.webp",
+      "dimensions": [
+        480,
+        300
+      ],
+      "format": "WEBP",
+      "bytes": 43748,
+      "status": "passed"
+    },
+    {
+      "asset_id": "heritage-waterfront",
+      "file": "demo/assets/heritage-waterfront-960.webp",
+      "dimensions": [
+        960,
+        600
+      ],
+      "format": "WEBP",
+      "bytes": 155284,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-ornamental-fish",
+      "file": "demo/assets/collection-ornamental-fish-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 11086,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-ornamental-fish",
+      "file": "demo/assets/collection-ornamental-fish-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 37696,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-aquatic-plants",
+      "file": "demo/assets/collection-aquatic-plants-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 30624,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-aquatic-plants",
+      "file": "demo/assets/collection-aquatic-plants-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 103188,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-driftwood",
+      "file": "demo/assets/collection-driftwood-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 20674,
+      "status": "passed"
+    },
+    {
+      "asset_id": "collection-driftwood",
+      "file": "demo/assets/collection-driftwood-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 70088,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-red-betta",
+      "file": "demo/assets/highlight-red-betta-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 13462,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-red-betta",
+      "file": "demo/assets/highlight-red-betta-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 41200,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-angelfish",
+      "file": "demo/assets/highlight-angelfish-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 18862,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-angelfish",
+      "file": "demo/assets/highlight-angelfish-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 52550,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-red-plants",
+      "file": "demo/assets/highlight-red-plants-320.webp",
+      "dimensions": [
+        320,
+        240
+      ],
+      "format": "WEBP",
+      "bytes": 23328,
+      "status": "passed"
+    },
+    {
+      "asset_id": "highlight-red-plants",
+      "file": "demo/assets/highlight-red-plants-640.webp",
+      "dimensions": [
+        640,
+        480
+      ],
+      "format": "WEBP",
+      "bytes": 70752,
+      "status": "passed"
+    },
+    {
+      "asset_id": "enquiry-underwater-school",
+      "file": "demo/assets/enquiry-underwater-school-640.webp",
+      "dimensions": [
+        640,
+        256
+      ],
+      "format": "WEBP",
+      "bytes": 39774,
+      "status": "passed"
+    },
+    {
+      "asset_id": "enquiry-underwater-school",
+      "file": "demo/assets/enquiry-underwater-school-1280.webp",
+      "dimensions": [
+        1280,
+        512
+      ],
+      "format": "WEBP",
+      "bytes": 119150,
+      "status": "passed"
+    },
+    {
+      "asset_id": "enquiry-underwater-school",
+      "file": "demo/assets/enquiry-underwater-school-1983.webp",
+      "dimensions": [
+        1983,
+        793
+      ],
+      "format": "WEBP",
+      "bytes": 219196,
+      "status": "passed"
+    }
+  ],
+  "limit": "Image decoding and source mapping only; not a rendered page screenshot."
+}

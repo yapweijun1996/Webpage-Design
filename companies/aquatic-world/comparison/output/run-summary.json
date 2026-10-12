@@ -1,0 +1,306 @@
+{
+  "recorded_at": "2026-10-10T16:25:28.219903+00:00",
+  "round": "initial_delivery",
+  "input_baseline_version": 2,
+  "evaluator_browser": "Google Chrome 154.0.8037.99, separate Playwright CLI session, headed, device pixel ratio 1, default zoom, local loopback previews",
+  "blind_review": false,
+  "builder_feedback_from_evaluator": 0,
+  "limitations": [
+    "Native permission policies and global instruction/tool environments differ. This is a comparison of artifacts produced by model + CLI combinations.",
+    "A session model identifier is observed CLI configuration, not an independent provider routing audit.",
+    "Claude used its built-in advisor review tool; its serving model is not exposed in the recorded redacted result.",
+    "Token usage schemas differ; list-price cost reporting is not proof of an amount billed."
+  ],
+  "codex": {
+    "process": {
+      "round": "initial_delivery",
+      "status": "process_finished",
+      "started_at": "2026-10-10T15:45:29.477573+00:00",
+      "command": [
+        "/opt/homebrew/bin/codex",
+        "--ask-for-approval",
+        "never",
+        "exec",
+        "--model",
+        "gpt-6.1-sol",
+        "--sandbox",
+        "workspace-write",
+        "--json",
+        "--image",
+        "input/handoff/reference/selected-homepage-mockup.png",
+        "--output-last-message",
+        "evidence/delivery.md",
+        "Read AGENTS.md and TASK.md. Inspect both reference images, then complete TASK.md in this workspace."
+      ],
+      "cwd": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/codex",
+      "effort": "CLI default; inspect exposed session metadata",
+      "human_interventions": [],
+      "input_baseline_version": 2,
+      "pid": 93387,
+      "exit_code": 0,
+      "finished_at": "2026-10-10T16:14:11.903738+00:00",
+      "elapsed_seconds": 1722.42
+    },
+    "builder_run_record": "../codex/evidence/run.json",
+    "observed_session_context": {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "approval_policy": "never",
+      "sandbox_policy": {
+        "type": "workspace-write",
+        "network_access": false,
+        "exclude_tmpdir_env_var": false,
+        "exclude_slash_tmp": false
+      }
+    },
+    "usage": {
+      "input_tokens": 3310992,
+      "cached_input_tokens": 3120384,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 40701,
+      "reasoning_output_tokens": 17211
+    },
+    "cost": "unknown",
+    "failed_mcp_tool_calls": [
+      {
+        "server": "cua_repl",
+        "tool": "js",
+        "status": "failed"
+      },
+      {
+        "server": "codex_apps",
+        "tool": "code_mcp.inspect_local_project",
+        "status": "failed"
+      }
+    ]
+  },
+  "claude": {
+    "process": {
+      "round": "initial_delivery",
+      "status": "process_finished",
+      "started_at": "2026-10-10T15:45:29.485745+00:00",
+      "command": [
+        "/Users/yapweijun/.local/bin/claude",
+        "--print",
+        "--model",
+        "claude-opus-5-5",
+        "--permission-mode",
+        "auto",
+        "--permission-prompts",
+        "none",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "Read AGENTS.md and TASK.md. Inspect both reference images, then complete TASK.md in this workspace."
+      ],
+      "cwd": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/claude",
+      "effort": "CLI default; inspect exposed session metadata",
+      "human_interventions": [],
+      "input_baseline_version": 2,
+      "pid": 93388,
+      "exit_code": 0,
+      "finished_at": "2026-10-10T16:08:59.809927+00:00",
+      "elapsed_seconds": 1410.32
+    },
+    "builder_run_record": "../claude/evidence/run.json",
+    "observed_session_context": {
+      "model": "claude-opus-5-5",
+      "permissionMode": "auto",
+      "claude_code_version": "2.1.289",
+      "per_turn_effort_active": true
+    },
+    "effort": "CLI default; named level unknown (builder reports reasoning_effort=10 in its context, mapping unknown)",
+    "exposed_mcp_statuses": [
+      {
+        "name": "plugin:engineering:slack",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:linear",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:asana",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:atlassian",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:notion",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:github",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:pagerduty",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:datadog",
+        "status": "needs-auth",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:google calendar",
+        "status": "failed",
+        "source": "plugin"
+      },
+      {
+        "name": "plugin:engineering:gmail",
+        "status": "failed",
+        "source": "plugin"
+      },
+      {
+        "name": "chrome-devtools",
+        "status": "pending",
+        "source": "user"
+      },
+      {
+        "name": "kb",
+        "status": "connected",
+        "source": "user"
+      },
+      {
+        "name": "codeloom",
+        "status": "failed",
+        "source": "user"
+      },
+      {
+        "name": "mcp-got",
+        "status": "failed",
+        "source": "user"
+      },
+      {
+        "name": "web-design-mcp",
+        "status": "failed",
+        "source": "user"
+      },
+      {
+        "name": "runpod",
+        "status": "pending",
+        "source": "user"
+      },
+      {
+        "name": "claude.ai Claude Docs",
+        "status": "connected",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai mac-mcp",
+        "status": "pending",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai sgdata-mcp",
+        "status": "pending",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai vmmcp",
+        "status": "failed",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai yap-mcp",
+        "status": "pending",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai kb-mcp",
+        "status": "pending",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai globe3-mcp",
+        "status": "failed",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Google Drive",
+        "status": "needs-auth",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Google Calendar",
+        "status": "needs-auth",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Gmail",
+        "status": "needs-auth",
+        "source": "claudeai"
+      }
+    ],
+    "result": {
+      "subtype": "success",
+      "duration_ms": 1404779,
+      "duration_api_ms": 1085940,
+      "num_turns": 75,
+      "total_cost_usd": 6.384226000000001,
+      "usage": {
+        "input_tokens": 128,
+        "cache_creation_input_tokens": 217994,
+        "cache_read_input_tokens": 9121655,
+        "output_tokens": 97450,
+        "output_tokens_details": {
+          "thinking_tokens": 21621
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 216807,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1527,
+            "cache_read_input_tokens": 224135,
+            "cache_creation_input_tokens": 924,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 924
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 191636,
+          "outputTokens": 102648,
+          "cacheReadInputTokens": 9121655,
+          "cacheCreationInputTokens": 217994,
+          "webSearchRequests": 0,
+          "costUSD": 6.384226000000001,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 21621,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "permission_denials": [],
+      "is_error": false
+    },
+    "advisor_calls": 1
+  }
+}

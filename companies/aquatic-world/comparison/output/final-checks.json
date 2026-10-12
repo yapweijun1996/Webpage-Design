@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-10T16:38:17.319797+00:00",
+  "previews": [
+    {
+      "runner": "codex",
+      "port": 4171,
+      "status": 200,
+      "delivered_html_matches": true,
+      "sha256": "67c1f7157fff4367d9b65e7e29dd7b66146ea303b807a7ca7b71c8c1feab9bfa"
+    },
+    {
+      "runner": "claude",
+      "port": 4172,
+      "status": 200,
+      "delivered_html_matches": true,
+      "sha256": "60bb31cff731cc539e466438c3679d28f49d02992025a7efe137d66a817273a7"
+    }
+  ],
+  "viewer": {
+    "url": "http://127.0.0.1:4170/comparison/preview.html",
+    "default_desktop_full_loaded": true,
+    "mobile_first_control_switch_loaded": [
+      {
+        "runner": "codex",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "runner": "claude",
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "mobile_viewer_overflow": false,
+    "favicon_error_fixed_in_viewer": true
+  },
+  "preservation": "Both initial delivery manifests and input baseline v2 passed after evaluation."
+}

@@ -1,0 +1,18 @@
+id,status,evidence,notes
+BRAND-01,VERIFIED,build-results.json; static-checks.json,Four independent JSON fixtures render through the same presentation source; visual adaptation remains not_run.
+BRAND-02,VERIFIED,static-checks.json,No original brand/geographic residue in alternate HTML. Production content is rejected by this local-demo builder.
+CONTENT-01,VERIFIED,../demo/content/default.json,"Fictional copy and illustrative quality statements; no factual business guarantees, approved quotations, stock or certifications."
+ASSET-01,VERIFIED,../demo/assets/manifest.json; image-audit.json,All eleven fixed slots; nine supplied sources; twenty checked derivatives. Local-demo provenance only.
+NAV-01,NOT_RUN,static-checks.json; browser-checks.json,"Every static anchor resolves, but no browser navigation was executed."
+NAV-02,NOT_RUN,browser-checks.json,"Menu, Escape and focus implemented; browser interaction unavailable."
+CTA-01,NOT_RUN,static-checks.json; browser-checks.json,Consistent collection/enquiry anchors resolve statically; click/scroll/focus remains unverified.
+FORM-01,VERIFIED,static-checks.json,"No form, contact endpoint or success UI exists; visible unavailable-contact wording and no-data-sent explanation."
+RESP-01,NOT_RUN,responsive-test-matrix.csv,CSS implemented; no measured viewport overflow.
+RESP-02,NOT_RUN,browser-checks.json,Required implementation screenshots could not be captured.
+A11Y-01,NOT_RUN,solid-color-contrast.json; browser-checks.json,"Seven solid pairs pass 4.5:1; landmarks and IDs checked. Browser keyboard, photo contrast and assistive-technology audit not_run."
+SEO-01,VERIFIED,static-checks.json,"Configured local-demo title and descriptions; noindex; no invented canonical domain, sitemap or structured business data."
+PERF-01,NOT_RUN,browser-checks.json,"Encoded byte sizes are measured; LCP, INP and CLS are not measured."
+QUALITY-01,NOT_RUN,browser-checks.json,JS syntax and resources pass static checks; browser console and requests were not observed.
+REVIEW-01,NOT_RUN,browser-checks.json,Both supplied references and asset sheet inspected; no rendered comparison or human business approval.
+RELEASE-01,NOT_APPLICABLE,../TASK.md,"No deployment, commit, push, account change or real enquiry authorized or performed."
+INPUT-01,VERIFIED,frozen-input-check.json,All fifty frozen inputs retain their original bytes.

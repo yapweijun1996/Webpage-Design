@@ -1,0 +1,75 @@
+{
+  "case_a": {
+    "site_type": "Multi-page company website with independent destinations for Collections, Quality and Contact.",
+    "routes": [
+      {
+        "path": "/",
+        "purpose": "Introduce the company using supplied facts, summarize its offering and guide visitors to Collections, Quality and Contact."
+      },
+      {
+        "path": "/collections/",
+        "purpose": "Support discovery and comparison through a meaningful collection index using confirmed categories, descriptions and assets."
+      },
+      {
+        "path": "/collections/:slug/",
+        "purpose": "Conditional detail route for confirmed collections that warrant individual pages; provide specific context and an enquiry next step. Do not create empty placeholders."
+      },
+      {
+        "path": "/quality/",
+        "purpose": "Explain confirmed quality practices and supporting evidence in greater depth than the homepage. Identify missing evidence without inventing certifications or guarantees."
+      },
+      {
+        "path": "/contact/",
+        "purpose": "Support enquiries with confirmed contact information and an appropriate contact action. Any form needs understandable validation and truthful submission feedback."
+      }
+    ],
+    "reference_role": "The cinematic mockup is visual evidence for mood, imagery, composition and typography. Select qualities worth retaining while revising the rejected header and details. The current request governs architecture; the reference and previous landing pages do not justify replacing page destinations with anchors.",
+    "header_review": [
+      "Inspect at full viewport size: readable branding, consistent baselines, usable label sizes, balanced spacing and a clear logo link to Home.",
+      "Check separation and contrast against cinematic imagery and inner-page backgrounds.",
+      "Use understandable page links and, if useful, one task-specific CTA. Avoid unnecessary search, language selectors or mega menus.",
+      "Provide clear current-page, hover and keyboard-focus states; retain Collections context on collection detail pages.",
+      "Switch to compact navigation before intermediate-width collisions or CTA wrapping; preserve readable text.",
+      "Preserve every destination on mobile. Define menu opening, closing, scrolling and keyboard behavior; modal drawers require focus management and dismissal.",
+      "Review hierarchy, text wrapping, imagery crops, alignment, whitespace, controls, captions and footer consistency. Give collection indexes, quality explanations and contact content appropriate distinct layouts.",
+      "Assess whether purposeful composition and coherent brand character address the user's dissatisfaction. Decoration or animation alone does not establish acceptance."
+    ],
+    "verification": [
+      "These are proposed pass/fail browser journeys; no browser checks or implementation inspection were performed in this trial.",
+      "From Home, click Collections, Quality and Contact separately: each must load its independent URL with meaningful page-specific content, rather than scroll within Home.",
+      "From Contact, navigate to Collections, then Quality and Home; verify all global links and current-page indicators.",
+      "Complete Home → Collections → a confirmed collection detail, if included → Quality → Contact, checking useful content and next steps throughout.",
+      "Directly load and refresh every required URL, including approved detail routes; each must remain accessible and show the intended page.",
+      "Use browser Back and Forward across several destinations; verify URL, content and navigation context.",
+      "Repeat required navigation on a narrow phone and intermediate width, including menu opening, destination selection and closing.",
+      "Use keyboard navigation to activate links and operate the menu, checking visible focus and appropriate dismissal.",
+      "Verify any enquiry action and its actual feedback; independently review full-size rendered layouts for visual acceptance."
+    ],
+    "unknowns": [
+      "Audience, primary visitor task, confirmed company offering and collection taxonomy.",
+      "Verified company copy, quality evidence, contact details, imagery rights and available assets.",
+      "Contact mechanism, backend availability and whether collection detail pages are warranted.",
+      "Current implementation behavior, rendered defects and agreed review viewports remain uninspected."
+    ]
+  },
+  "case_b": {
+    "site_type": "One-page event campaign with Overview, Schedule, FAQ and Register sections.",
+    "navigation": "Use intentional anchors such as #overview, #schedule, #faq and #register. Links scroll to their corresponding sections on the same page; preserve that behavior in mobile navigation and keyboard use.",
+    "scope_policy": "Honor this user's explicit one-page contract. Case A is independent and creates no requirement for standalone event pages."
+  },
+  "case_c": {
+    "cleanup": "Stop the preview through its retained owned process handle. Request graceful termination, wait for exit and escalate only against that owned process or a process group whose ownership is established. Leave the other user's preview running. Never use broad pkill -f matching the shared server command.",
+    "failure_reporting": "Capture the native command's actual exit status, stdout and stderr without allowing a filtering pipeline to mask failure. Report the failed execution, supported cause and which outputs or checks remain unavailable. Keep raw logs private and redact secrets from reported evidence. Another worker's success does not erase this failure."
+  },
+  "case_d": {
+    "historical_verification": "Preserve 93/100 as a historical reference-fidelity score for the original single-page scope. It supplies no evidence of functional navigation checks; those are unknown from the given information. New standalone-route verification has not been performed.",
+    "current_acceptance": "The user rejected the design, so design acceptance remains open. The clarified standalone-page contract requires implementation and fresh functional verification, followed by visual review and user acceptance. The old score cannot establish acceptance or a comparable improvement percentage for the new scope.",
+    "ready": false
+  },
+  "files_used": [
+    "input/SKILL.md",
+    "input/references/design-review.md",
+    "input/references/prompt-patterns.md",
+    "input/references/cli-operation.md"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-11 07:43:56 UTC",
+  "checks": [
+    {
+      "name": "round1-inputs",
+      "chunk_id": "6e0529",
+      "wall_time_seconds": 0.208797459,
+      "exit_code": 0,
+      "original_token_count": 33,
+      "output": "PASS: 50 frozen files per workspace match the manifest.\nInput byte equality does not prove equal CLI tools or completed webpage QA.\n"
+    },
+    {
+      "name": "round2-inputs",
+      "chunk_id": "93aa8a",
+      "wall_time_seconds": 0.189069625,
+      "exit_code": 0,
+      "original_token_count": 33,
+      "output": "PASS: 51 frozen files per workspace match the manifest.\nInput byte equality does not prove equal CLI tools or completed webpage QA.\n"
+    },
+    {
+      "name": "round3-inputs",
+      "chunk_id": "2702ab",
+      "wall_time_seconds": 0.208080958,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: 59 identical frozen files per round-3 workspace\n"
+    },
+    {
+      "name": "round1-codex",
+      "chunk_id": "7e6ade",
+      "wall_time_seconds": 0.095666459,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: codex initial delivery is unchanged (62 files).\n"
+    },
+    {
+      "name": "round1-claude",
+      "chunk_id": "da714b",
+      "wall_time_seconds": 0.390714917,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: claude initial delivery is unchanged (109 files).\n"
+    },
+    {
+      "name": "round2-codex",
+      "chunk_id": "f1b369",
+      "wall_time_seconds": 0.331121542,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: codex round-2 delivery is unchanged (84 files).\n"
+    },
+    {
+      "name": "round2-claude",
+      "chunk_id": "c30e3b",
+      "wall_time_seconds": 0.450928083,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: claude round-2 delivery is unchanged (118 files).\n"
+    },
+    {
+      "name": "round3-codex",
+      "chunk_id": "472bba",
+      "wall_time_seconds": 0.216766084,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: codex round-3 delivery is unchanged (74 files).\n"
+    },
+    {
+      "name": "round3-claude",
+      "chunk_id": "0bb4c3",
+      "wall_time_seconds": 0.483080292,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "PASS: claude round-3 delivery is unchanged (158 files).\n"
+    }
+  ],
+  "pass": true
+}

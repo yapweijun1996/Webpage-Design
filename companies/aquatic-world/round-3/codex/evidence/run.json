@@ -1,0 +1,98 @@
+{
+  "requested_model": "gpt-6.1-sol",
+  "model_source": "owned evidence/process-run.json command",
+  "exposed_serving_model": "not independently exposed by runtime",
+  "cli": {
+    "name": "codex-cli",
+    "version": "0.160.0"
+  },
+  "effort": "CLI default; numeric/configured reasoning effort not exposed",
+  "started_at": "2026-10-11T06:29:08.867823+00:00",
+  "implementation": "single selected CLI model; no subagents or advisors",
+  "permissions": {
+    "sandbox": "workspace-write",
+    "approval": "never",
+    "network": "restricted",
+    "owned_outputs": [
+      "demo/",
+      "evidence/",
+      "README.md"
+    ]
+  },
+  "tools_used": [
+    "functions.exec / exec_command / write_stdin",
+    "apply_patch",
+    "view_image",
+    "mcp__node_repl__js (local environment and failed launch checks)",
+    "mcp__cua_repl.js (inventory and rejected file URL)"
+  ],
+  "versions": {
+    "node": "23.10.0",
+    "npm": "10.9.2",
+    "python": "3.14.3",
+    "pillow": "12.2.0",
+    "os": "macOS-27.0.1-arm64-arm-64bit-Mach-O"
+  },
+  "preview_port": 4191,
+  "tool_gaps": [
+    "Cannot bind loopback sockets: PermissionError errno 1",
+    "Cannot launch Chrome in terminal/Node environment: SIGABRT",
+    "Browser security policy disallows file://; only HTTP/HTTPS allowed",
+    "No live preview, browser traversal, desktop/phone/tablet capture, real-device testing, screen-reader/a11y audit or performance result",
+    "Routed instruction-modules/investigation.md and verification.md absent"
+  ],
+  "user_acceptance": "pending explicit feedback",
+  "usage_cost": "not exposed; orchestration log may contain native usage later",
+  "status": "implementation delivered; browser acceptance incomplete",
+  "finished_at": "2026-10-11T06:57:01.078869+00:00",
+  "functional_verification": "not established: required browser gates not_run",
+  "visual_review": "not_run: no rendered screenshots could be obtained",
+  "evaluator_design_assessment": "pending independent evaluation",
+  "browser": {
+    "installed_chrome_version": "154.0.8037.99 (read from Info.plist)",
+    "engine_used": "none successfully launched",
+    "cached_playwright": "1.64.0-alpha-1790635538000",
+    "cached_playwright_cli": "0.1.22",
+    "wrapper_help": "timed out after 20 seconds",
+    "cached_cli_help": "exit 0",
+    "direct_terminal_launch": "failed: Chrome SIGABRT; server bind PermissionError",
+    "node_repl_launch": "failed: same socket restriction; Chrome SIGABRT",
+    "cua_file_navigation": "rejected: only HTTP/HTTPS protocols allowed; no workaround attempted",
+    "screenshots": []
+  },
+  "verification": {
+    "static_results": "evidence/static-results.json",
+    "static_pass": 537,
+    "static_fail": 0,
+    "javascript_syntax": "pass",
+    "browser_qa_syntax": "pass",
+    "browser_qa_execution": "not_run after confirmed environment restriction",
+    "build_reproducibility": "pass: 31 output files identical",
+    "frozen_inputs": "pass: 59 SHA-256 checks unchanged"
+  },
+  "processes": [
+    {
+      "kind": "Node-tool spawned Python preview",
+      "pid": 85052,
+      "port": 4191,
+      "exit_code": 1,
+      "status": "exited; no live server",
+      "ownership": "ownedServer handle retained in node_repl"
+    },
+    {
+      "kind": "terminal Chrome attempt",
+      "pid": 82841,
+      "status": "SIGABRT"
+    },
+    {
+      "kind": "Node-tool Chrome attempt",
+      "pid": 88452,
+      "status": "SIGABRT"
+    }
+  ],
+  "metadata_limits": [
+    "Serving model and reasoning-effort configuration not independently exposed; requested model from orchestration is gpt-6.1-sol",
+    "Native usage/cost not exposed to this worker; no efficiency/billing claim",
+    "No agents, external advisors, other model calls, previous workspaces or comparative evaluator material consulted"
+  ]
+}

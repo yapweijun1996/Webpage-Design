@@ -1,0 +1,373 @@
+{
+  "runner": "codex",
+  "capturedAt": "2026-10-11T04:00:11.264Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "id": "back-to-empty-hash-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "forward-restores-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-fish",
+        "open": true,
+        "panelHash": "#collection-fish",
+        "overflow": false
+      }
+    },
+    {
+      "id": "switch-to-second-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-plants",
+        "open": true,
+        "panelHash": "#collection-plants",
+        "overflow": false
+      }
+    },
+    {
+      "id": "unrelated-enquiry-hash-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "back-from-enquiry-restores-collection",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-plants",
+        "open": true,
+        "panelHash": "#collection-plants",
+        "overflow": false
+      }
+    },
+    {
+      "id": "forward-to-enquiry-closes",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "open": false,
+        "panelHash": null,
+        "overflow": false
+      }
+    },
+    {
+      "id": "fifth-category-mobile-exploration",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "hash": "#collection-foliage",
+        "open": true,
+        "panelHash": "#collection-foliage",
+        "overflow": false
+      }
+    }
+  ],
+  "photoText": [
+    {
+      "width": 1440,
+      "captions": [
+        {
+          "text": "A WATERFRONT REIMAGINEDSingapore-inspired illustration",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        },
+        {
+          "text": "A WATERFRONT REIMAGINED",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10px",
+          "rendered": true
+        },
+        {
+          "text": "Singapore-inspired illustration",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "70% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 1440,
+            "height": 639
+          },
+          "rectangle": {
+            "width": 1440,
+            "height": 561.59375
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "hero",
+          "height": 561.59375
+        },
+        {
+          "id": "heritage",
+          "height": 290
+        },
+        {
+          "id": "collections",
+          "height": 293.84375
+        },
+        {
+          "id": "quality",
+          "height": 205.34375
+        },
+        {
+          "id": "highlights",
+          "height": 209
+        },
+        {
+          "id": "enquiry",
+          "height": 232
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "captions": [
+        {
+          "text": "A WATERFRONT REIMAGINEDSingapore-inspired illustration",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        },
+        {
+          "text": "A WATERFRONT REIMAGINED",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10px",
+          "rendered": true
+        },
+        {
+          "text": "Singapore-inspired illustration",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "10px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "70% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 1024,
+            "height": 455
+          },
+          "rectangle": {
+            "width": 1024,
+            "height": 568.7578125
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "hero",
+          "height": 568.7578125
+        },
+        {
+          "id": "heritage",
+          "height": 312.3046875
+        },
+        {
+          "id": "collections",
+          "height": 312.3984375
+        },
+        {
+          "id": "quality",
+          "height": 223.046875
+        },
+        {
+          "id": "highlights",
+          "height": 209
+        },
+        {
+          "id": "enquiry",
+          "height": 232
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "captions": [
+        {
+          "text": "A WATERFRONT REIMAGINEDSingapore-inspired illustration",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        },
+        {
+          "text": "A WATERFRONT REIMAGINED",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "8px",
+          "rendered": true
+        },
+        {
+          "text": "Singapore-inspired illustration",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "8px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "50% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 768,
+            "height": 341
+          },
+          "rectangle": {
+            "width": 768,
+            "height": 341.1484375
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "hero",
+          "height": 766.2578125
+        },
+        {
+          "id": "heritage",
+          "height": 290
+        },
+        {
+          "id": "collections",
+          "height": 540.796875
+        },
+        {
+          "id": "quality",
+          "height": 363.09375
+        },
+        {
+          "id": "highlights",
+          "height": 415
+        },
+        {
+          "id": "enquiry",
+          "height": 259.8984375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "captions": [
+        {
+          "text": "A WATERFRONT REIMAGINEDSingapore-inspired illustration",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        },
+        {
+          "text": "A WATERFRONT REIMAGINED",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9px",
+          "rendered": true
+        },
+        {
+          "text": "Singapore-inspired illustration",
+          "color": "rgb(246, 244, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "9px",
+          "rendered": true
+        },
+        {
+          "text": "",
+          "color": "rgb(16, 36, 45)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "rendered": true
+        }
+      ],
+      "hero": [
+        {
+          "objectPosition": "100% 50%",
+          "objectFit": "cover",
+          "image": {
+            "width": 390,
+            "height": 173
+          },
+          "rectangle": {
+            "width": 390,
+            "height": 253.5
+          }
+        }
+      ],
+      "sectionHeights": [
+        {
+          "id": "hero",
+          "height": 774.2265625
+        },
+        {
+          "id": "heritage",
+          "height": 563.3671875
+        },
+        {
+          "id": "collections",
+          "height": 837.7890625
+        },
+        {
+          "id": "quality",
+          "height": 722.9765625
+        },
+        {
+          "id": "highlights",
+          "height": 565.59375
+        },
+        {
+          "id": "enquiry",
+          "height": 253.1953125
+        }
+      ]
+    }
+  ],
+  "visualAssessment": "Computed geometry and colors support the separate human/evaluator screenshot review; they do not prove photographic contrast or crop quality."
+}

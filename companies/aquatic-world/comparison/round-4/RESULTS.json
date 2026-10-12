@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-11",
+  "scope": "Focused own-code header and mobile Contact revision",
+  "assessment": "Observable before/after measurements plus non-blind design judgment; no new overall score",
+  "preference_for_phone_contact": "claude",
+  "user_acceptance": "pending",
+  "evaluator_implementation_repairs": 0,
+  "runners": {
+    "codex": {
+      "exercised_independent_gates": "pass",
+      "layout_views": 64,
+      "standard_captures": 48,
+      "checks": {
+        "revision": {
+          "checks": 54,
+          "passed": 54
+        },
+        "navigation": {
+          "checks": 96,
+          "passed": 96
+        },
+        "journeys": {
+          "checks": 22,
+          "passed": 22
+        },
+        "interactions": {
+          "checks": 21,
+          "passed": 21
+        },
+        "focus": {
+          "checks": 83,
+          "passed": 83
+        },
+        "header_states": {
+          "checks": 13,
+          "passed": 13
+        }
+      },
+      "measurements": {
+        "before": {
+          "header_heights": {
+            "1440": 97,
+            "1024": 92.140625,
+            "768": 92.140625,
+            "390": 85,
+            "360": 85,
+            "320": 85
+          },
+          "phone_first_name_field": {
+            "id": "name",
+            "top": 1288.2890625,
+            "bottom": 1339.8828125,
+            "height": 51.59375
+          },
+          "phone_first_name_label": {
+            "text": "Your name (required)",
+            "top": 1259.140625,
+            "bottom": 1279.2890625
+          },
+          "scroll_y": 0
+        },
+        "after": {
+          "header_heights": {
+            "1440": 80,
+            "1024": 80,
+            "768": 80,
+            "390": 68,
+            "360": 68,
+            "320": 68
+          },
+          "phone_first_name_field": {
+            "id": "name",
+            "top": 619.609375,
+            "bottom": 671.203125,
+            "height": 51.59375
+          },
+          "phone_first_name_label": {
+            "text": "Your name (required)",
+            "top": 590.4609375,
+            "bottom": 610.609375
+          },
+          "scroll_y": 0
+        }
+      }
+    },
+    "claude": {
+      "exercised_independent_gates": "pass",
+      "layout_views": 64,
+      "standard_captures": 48,
+      "checks": {
+        "revision": {
+          "checks": 54,
+          "passed": 54
+        },
+        "navigation": {
+          "checks": 99,
+          "passed": 99
+        },
+        "journeys": {
+          "checks": 22,
+          "passed": 22
+        },
+        "interactions": {
+          "checks": 21,
+          "passed": 21
+        },
+        "focus": {
+          "checks": 84,
+          "passed": 84
+        },
+        "header_states": {
+          "checks": 13,
+          "passed": 13
+        }
+      },
+      "measurements": {
+        "before": {
+          "header_heights": {
+            "1440": 77,
+            "1024": 77,
+            "768": 65,
+            "390": 65,
+            "360": 65,
+            "320": 65
+          },
+          "phone_first_name_field": {
+            "id": "f-name",
+            "top": 1344.25,
+            "bottom": 1396.6484375,
+            "height": 52.3984375
+          },
+          "phone_first_name_label": {
+            "text": "Name\nREQUIRED",
+            "top": 1310.640625,
+            "bottom": 1336.25
+          },
+          "scroll_y": 0
+        },
+        "after": {
+          "header_heights": {
+            "1440": 77,
+            "1024": 65,
+            "768": 65,
+            "390": 65,
+            "360": 65,
+            "320": 65
+          },
+          "phone_first_name_field": {
+            "id": "f-name",
+            "top": 413.8984375,
+            "bottom": 466.296875,
+            "height": 52.3984375
+          },
+          "phone_first_name_label": {
+            "text": "Name\nREQUIRED",
+            "top": 380.2890625,
+            "bottom": 405.8984375
+          },
+          "scroll_y": 0
+        }
+      }
+    }
+  }
+}

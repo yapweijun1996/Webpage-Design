@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-11T10:40:32.193058+00:00",
+  "task": "Focused Contact simplification against REVIEW.md",
+  "requested_native_model": "gpt-6.1-sol",
+  "serving_model_identity": "not independently exposed by tool results",
+  "reasoning_effort": "CLI default in launch record; actual value not exposed",
+  "launch_cli_version": "0.162.1",
+  "python": "3.14.3",
+  "node": "v23.10.0",
+  "tools_used": [
+    "Native exec/file tools, Python standard library, Node VM, PIL image inspection, CUA Chrome capability checks"
+  ],
+  "additional_models": false,
+  "delegates": false,
+  "advisors": false,
+  "writes": [
+    "demo/",
+    "evidence/",
+    "root README.md"
+  ],
+  "server_process_started": false,
+  "server_handle": null,
+  "other_servers_stopped": false,
+  "preview_port": 4211,
+  "browser_rendering": "not_run: loopback socket denied, CUA file URL blocked, Playwright missing",
+  "after_screenshots": [],
+  "public_or_external_actions": false,
+  "frozen_snapshot_files": 65
+}

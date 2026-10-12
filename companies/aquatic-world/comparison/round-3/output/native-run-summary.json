@@ -1,0 +1,107 @@
+{
+  "runners": {
+    "codex": {
+      "exit_code": 0,
+      "elapsed_seconds": 1690.01,
+      "started_at": "2026-10-11T06:29:08.867823+00:00",
+      "finished_at": "2026-10-11T06:57:18.890626+00:00",
+      "tool_calls": {
+        "node_repl.js": 3,
+        "cua_repl.js": 2
+      },
+      "exposed_assistant_models": [],
+      "connection_errors": [
+        "Reconnecting... 2/5 (stream disconnected before completion: websocket closed by server before response.completed)",
+        "Reconnecting... 3/5 (stream disconnected before completion: websocket closed by server before response.completed)",
+        "Reconnecting... 4/5 (stream disconnected before completion: websocket closed by server before response.completed)",
+        "Reconnecting... 5/5 (stream disconnected before completion: websocket closed by server before response.completed)",
+        "Reconnecting... 1/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"
+      ],
+      "native_final": {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 2726869,
+          "cached_input_tokens": 2604800,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 52768,
+          "reasoning_output_tokens": 10205
+        }
+      },
+      "primary_implementation_interventions": 1
+    },
+    "claude": {
+      "exit_code": 0,
+      "elapsed_seconds": 2648.85,
+      "started_at": "2026-10-11T06:29:08.875986+00:00",
+      "finished_at": "2026-10-11T07:13:17.745188+00:00",
+      "tool_calls": {
+        "Bash": 43,
+        "Read": 43,
+        "Write": 10
+      },
+      "exposed_assistant_models": [
+        "claude-opus-5-5"
+      ],
+      "connection_errors": [],
+      "native_final": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "usage": {
+          "input_tokens": 130,
+          "cache_creation_input_tokens": 285840,
+          "cache_read_input_tokens": 12256937,
+          "output_tokens": 133320,
+          "output_tokens_details": {
+            "thinking_tokens": 36596
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 285840,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 1410,
+              "cache_read_input_tokens": 293570,
+              "cache_creation_input_tokens": 522,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 522
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "modelUsage": {
+          "claude-opus-5-5": {
+            "inputTokens": 130,
+            "outputTokens": 133320,
+            "cacheReadInputTokens": 12256937,
+            "cacheCreationInputTokens": 285840,
+            "webSearchRequests": 0,
+            "costUSD": 7.4050273999999945,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 36596,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "total_cost_usd": 7.4050273999999945,
+        "duration_ms": 2642768,
+        "duration_api_ms": 1210551
+      },
+      "primary_implementation_interventions": 1
+    }
+  }
+}

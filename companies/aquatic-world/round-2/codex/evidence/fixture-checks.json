@@ -1,0 +1,119 @@
+[
+  {
+    "fixture": "/fixtures/minimal.html",
+    "status": "passed",
+    "observed": {
+      "brand": "AQUATIC WORLD",
+      "categories": 1,
+      "highlights": false,
+      "quality": false,
+      "qualityLink": false,
+      "residue": false,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "fixture": "/fixtures/minimal.html",
+    "status": "passed",
+    "observed": {
+      "brand": "AQUATIC WORLD",
+      "categories": 1,
+      "highlights": false,
+      "quality": false,
+      "qualityLink": false,
+      "residue": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "fixture": "/fixtures/minimal.html",
+    "name": "Last configured category opens",
+    "status": "passed",
+    "observed": {
+      "hash": "#collection-fish",
+      "open": [
+        "collection-fish"
+      ]
+    }
+  },
+  {
+    "fixture": "/fixtures/five.html",
+    "status": "passed",
+    "observed": {
+      "brand": "AQUATIC WORLD",
+      "categories": 5,
+      "highlights": true,
+      "quality": true,
+      "qualityLink": true,
+      "residue": false,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "fixture": "/fixtures/five.html",
+    "status": "passed",
+    "observed": {
+      "brand": "AQUATIC WORLD",
+      "categories": 5,
+      "highlights": true,
+      "quality": true,
+      "qualityLink": true,
+      "residue": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "fixture": "/fixtures/five.html",
+    "name": "Last configured category opens",
+    "status": "passed",
+    "observed": {
+      "hash": "#collection-foliage",
+      "open": [
+        "collection-foliage"
+      ]
+    }
+  },
+  {
+    "fixture": "/fixtures/alternate.html",
+    "status": "passed",
+    "observed": {
+      "brand": "TIDAL ATELIER",
+      "categories": 5,
+      "highlights": true,
+      "quality": true,
+      "qualityLink": true,
+      "residue": false,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "fixture": "/fixtures/alternate.html",
+    "status": "passed",
+    "observed": {
+      "brand": "TIDAL ATELIER",
+      "categories": 5,
+      "highlights": true,
+      "quality": true,
+      "qualityLink": true,
+      "residue": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "fixture": "/fixtures/alternate.html",
+    "name": "Last configured category opens",
+    "status": "passed",
+    "observed": {
+      "hash": "#collection-foliage",
+      "open": [
+        "collection-foliage"
+      ]
+    }
+  }
+]

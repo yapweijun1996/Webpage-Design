@@ -1,0 +1,187 @@
+{
+  "pack_version": 1,
+  "prepared_on": "2026-10-10",
+  "purpose": "Shared standalone imagery for input baseline v2",
+  "generation_mode": "built_in_image_gen",
+  "source_reference": "input/handoff/reference/selected-homepage-mockup.png",
+  "source_reference_sha256": "dee031878be3611c88a18b58cd587dcc5f8ffd138ae0a66ee84db73c28612c39",
+  "business_content_approval": "NOT_APPLICABLE_FICTIONAL_DEMO; no business or species facts verified",
+  "assets": [
+    {
+      "id": "hero-angelfish",
+      "file": "hero-angelfish.png",
+      "width": 1882,
+      "height": 836,
+      "bytes": 2205920,
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-53f008e4-2e44-48f7-89bd-bf74eac6668f",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "heritage-waterfront",
+      "file": "heritage-waterfront.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 2949536,
+      "sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-3faf0825-33f7-4e9c-bd22-58d12e2b869e",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "collection-ornamental-fish",
+      "file": "collection-ornamental-fish.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2214777,
+      "sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-3cdcd82b-58bf-4637-947b-f4c093cb8fa9",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "collection-aquatic-plants",
+      "file": "collection-aquatic-plants.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2899303,
+      "sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-3cbb7c35-7bda-4336-ab09-00f46abf4c92",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "collection-driftwood",
+      "file": "collection-driftwood.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2671303,
+      "sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-3f924dc3-f67e-4b26-8a55-c745ff78d080",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "highlight-red-betta",
+      "file": "highlight-red-betta.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2280998,
+      "sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-d4557d24-5567-4fc7-8e56-b37992f49b28",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "highlight-angelfish",
+      "file": "highlight-angelfish.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2273240,
+      "sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-becad607-996c-4acb-8cfc-bdc22ffae95d",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "highlight-red-plants",
+      "file": "highlight-red-plants.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2522902,
+      "sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-03bd4884-65a0-4d2b-83d9-fafd2813b815",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    },
+    {
+      "id": "enquiry-underwater-school",
+      "file": "enquiry-underwater-school.png",
+      "width": 1983,
+      "height": 793,
+      "bytes": 2332804,
+      "sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "origin": "AI-generated using the built-in image_gen tool",
+      "generation_record": "exec-df663944-7490-4c8b-97b4-34edcbde39aa",
+      "content_status": "ILLUSTRATIVE_DEMO_ONLY",
+      "rights_notes": "Generated for this requester-controlled local design comparison; not a licensed documentary product or location photograph.",
+      "visual_check": "Inspected returned image: standalone scene; no visible typography, logo, watermark, browser chrome or webpage layout."
+    }
+  ],
+  "slots": {
+    "hero.primary": {
+      "asset_id": "hero-angelfish",
+      "object_position": "70% 50%",
+      "fit": "cover"
+    },
+    "heritage.photo": {
+      "asset_id": "heritage-waterfront",
+      "object_position": "50% 50%",
+      "fit": "cover"
+    },
+    "collections.fish": {
+      "asset_id": "collection-ornamental-fish",
+      "object_position": "40% 50%",
+      "fit": "cover"
+    },
+    "collections.plants": {
+      "asset_id": "collection-aquatic-plants",
+      "object_position": "35% 50%",
+      "fit": "cover"
+    },
+    "collections.driftwood": {
+      "asset_id": "collection-driftwood",
+      "object_position": "35% 50%",
+      "fit": "cover"
+    },
+    "highlights.betta": {
+      "asset_id": "highlight-red-betta",
+      "object_position": "50% 50%",
+      "fit": "contain"
+    },
+    "highlights.angelfish": {
+      "asset_id": "highlight-angelfish",
+      "object_position": "50% 50%",
+      "fit": "contain"
+    },
+    "highlights.plants": {
+      "asset_id": "highlight-red-plants",
+      "object_position": "50% 50%",
+      "fit": "cover"
+    },
+    "highlights.driftwood": {
+      "asset_id": "collection-driftwood",
+      "object_position": "40% 50%",
+      "fit": "cover"
+    },
+    "highlights.background": {
+      "asset_id": "enquiry-underwater-school",
+      "object_position": "50% 50%",
+      "fit": "cover"
+    },
+    "enquiry.background": {
+      "asset_id": "enquiry-underwater-school",
+      "object_position": "50% 50%",
+      "fit": "cover"
+    }
+  },
+  "crop_notes": "Fit and object-position are shared starting suggestions. Builders may adapt CSS cropping and overlays to the viewport without replacing the fixed image content.",
+  "source_reference_path_base": "implementation_workspace"
+}

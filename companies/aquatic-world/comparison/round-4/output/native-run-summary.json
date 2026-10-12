@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-11T09:32:04.655716+00:00",
+  "runners": {
+    "codex": {
+      "exit_code": 0,
+      "elapsed_seconds": 1122.4,
+      "started_at": "2026-10-11T09:11:02.889754+00:00",
+      "finished_at": "2026-10-11T09:29:45.294159+00:00",
+      "launch_cli_version": "0.162.1",
+      "prompt_sha256": "442a09d247a3458db2db3e41c558553ddb5c08ce737befe869f1aba679c98565",
+      "input_manifest_sha256": "05373cb87db5416728bfd5eda40fc7911228e616054afb846f27d083c1a23c0d",
+      "starting_conditions_sha256": "6d70e0404716b74552f2ea95cf5467a954470bc9d87ef92bfc9a82b0b544a4d7",
+      "tool_calls": {
+        "command_execution": 26,
+        "node_repl.js": 2,
+        "cua_repl.js": 5
+      },
+      "exposed_assistant_models": [],
+      "native_final": {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 3474330,
+          "cached_input_tokens": 3328000,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 38263,
+          "reasoning_output_tokens": 10505
+        }
+      },
+      "primary_revision_interventions": 1,
+      "evaluator_implementation_repairs": 0
+    },
+    "claude": {
+      "exit_code": 0,
+      "elapsed_seconds": 1222.96,
+      "started_at": "2026-10-11T09:11:02.893544+00:00",
+      "finished_at": "2026-10-11T09:31:25.862219+00:00",
+      "launch_cli_version": "2.1.289",
+      "prompt_sha256": "442a09d247a3458db2db3e41c558553ddb5c08ce737befe869f1aba679c98565",
+      "input_manifest_sha256": "05373cb87db5416728bfd5eda40fc7911228e616054afb846f27d083c1a23c0d",
+      "starting_conditions_sha256": "6d70e0404716b74552f2ea95cf5467a954470bc9d87ef92bfc9a82b0b544a4d7",
+      "tool_calls": {
+        "Bash": 40,
+        "Read": 28,
+        "Write": 2,
+        "Edit": 4
+      },
+      "exposed_assistant_models": [
+        "claude-opus-5-5"
+      ],
+      "native_final": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "usage": {
+          "input_tokens": 112,
+          "cache_creation_input_tokens": 182453,
+          "cache_read_input_tokens": 7499827,
+          "output_tokens": 46069,
+          "output_tokens_details": {
+            "thinking_tokens": 10265
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 182453,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 1389,
+              "cache_read_input_tokens": 190258,
+              "cache_creation_input_tokens": 447,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 447
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "modelUsage": {
+          "claude-opus-5-5": {
+            "inputTokens": 112,
+            "outputTokens": 46069,
+            "cacheReadInputTokens": 7499827,
+            "cacheCreationInputTokens": 182453,
+            "webSearchRequests": 0,
+            "costUSD": 3.8814174000000015,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 10265,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "total_cost_usd": 3.8814174000000015,
+        "duration_ms": 1218510,
+        "duration_api_ms": 455382
+      },
+      "primary_revision_interventions": 1,
+      "evaluator_implementation_repairs": 0
+    }
+  },
+  "cost_interpretation": "Claude reports a list-price USD estimate, not a verified invoice. Codex exposes token usage but no comparable USD cost. No direct cost winner is asserted."
+}

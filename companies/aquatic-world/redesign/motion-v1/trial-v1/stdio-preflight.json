@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-11T13:24:07.374172+00:00",
+  "tool_count": 32,
+  "submit_description": "Submit one approved video after live capability, SKU and budget checks. Optional first_frame_path accepts a bounded local PNG under outputs/examples for MiniMax 480p/768p or Runway Gen-4.5 720p I2V. Wan stays paused pending billing reconciliation. Reusing request_id never retries a POST.",
+  "applicable_rules": [],
+  "existing_matching_videos": [],
+  "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8"
+}

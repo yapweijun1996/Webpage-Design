@@ -1,0 +1,405 @@
+{
+  "ranAt": "2026-10-10T16:08:08.109Z",
+  "environment": {
+    "browser": "Chromium 156.0.8078.4 (Playwright headless)"
+  },
+  "base": "http://127.0.0.1:4321",
+  "total": 40,
+  "passed": 40,
+  "failed": 0,
+  "results": [
+    {
+      "id": "runtime-clean:default@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@1024",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@768",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:default@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:tidewell@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:tidewell@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:minimal@1440",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "runtime-clean:minimal@390",
+      "status": "pass",
+      "detail": "no console errors/warnings, page errors or 4xx/5xx"
+    },
+    {
+      "id": "no-horizontal-overflow:default",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1440, 1920"
+    },
+    {
+      "id": "no-horizontal-overflow:tidewell",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1440, 1920"
+    },
+    {
+      "id": "no-horizontal-overflow:minimal",
+      "status": "pass",
+      "detail": "widths 320, 360, 390, 430, 768, 1024, 1440, 1920"
+    },
+    {
+      "id": "images-resolve:default",
+      "status": "pass",
+      "detail": "14 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:default",
+      "status": "pass",
+      "detail": "27 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:default",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "images-resolve:tidewell",
+      "status": "pass",
+      "detail": "17 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:tidewell",
+      "status": "pass",
+      "detail": "33 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:tidewell",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "images-resolve:minimal",
+      "status": "pass",
+      "detail": "4 images decoded"
+    },
+    {
+      "id": "in-page-links-resolve:minimal",
+      "status": "pass",
+      "detail": "11 links, all resolve to rendered ids"
+    },
+    {
+      "id": "semantics:minimal",
+      "status": "pass",
+      "detail": "h1 count 1; header/nav/main/footer present true"
+    },
+    {
+      "id": "cta-primary-reaches-collections",
+      "status": "pass"
+    },
+    {
+      "id": "cta-secondary-reaches-enquiry",
+      "status": "pass"
+    },
+    {
+      "id": "header-solid-on-scroll",
+      "status": "pass"
+    },
+    {
+      "id": "header-nav-reaches-sections",
+      "status": "pass",
+      "detail": [
+        {
+          "href": "#collections",
+          "top": 82,
+          "visible": true
+        },
+        {
+          "href": "#heritage",
+          "top": 82,
+          "visible": true
+        },
+        {
+          "href": "#quality",
+          "top": 82,
+          "visible": true
+        },
+        {
+          "href": "#enquiry",
+          "top": 310,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "header-cta-reaches-enquiry",
+      "status": "pass"
+    },
+    {
+      "id": "mobile-menu",
+      "status": "pass",
+      "detail": {
+        "menuHiddenInitially": true,
+        "expanded": "true",
+        "focusFirst": true,
+        "label": "Close",
+        "scrollLocked": true,
+        "tabWrapsToToggle": true,
+        "shiftTabWrapsToLast": true,
+        "escapeCloses": true,
+        "focusReturned": true,
+        "linkClickCloses": true,
+        "linkReachesQuality": true
+      }
+    },
+    {
+      "id": "skip-link-and-focus-ring",
+      "status": "pass",
+      "detail": {
+        "isSkip": true,
+        "visible": true,
+        "mainFocused": true,
+        "firstFocusOutline": "solid 3px"
+      }
+    },
+    {
+      "id": "collection-explorer",
+      "status": "pass",
+      "detail": {
+        "hiddenInitially": true,
+        "afterCardClick": {
+          "hash": "#collection-aquatic-plants",
+          "open": true,
+          "visiblePanels": [
+            "collection-aquatic-plants"
+          ],
+          "focus": "collection-aquatic-plants",
+          "current": "aquatic-plants"
+        },
+        "panelInView": true,
+        "afterIndexSwitch": [
+          "collection-driftwood"
+        ],
+        "afterEscape": {
+          "open": false,
+          "focus": "#collection-aquatic-plants"
+        },
+        "viewAll": {
+          "open": true,
+          "focus": "collection-explorer"
+        },
+        "askAboutCollection": {
+          "value": "ornamental-fish",
+          "formVisible": true,
+          "hash": "#enquiry"
+        }
+      }
+    },
+    {
+      "id": "highlight-and-deeplink-open-collection",
+      "status": "pass",
+      "detail": {
+        "highlightOpens": "collection-driftwood",
+        "deepLinkOpens": "collection-ornamental-fish",
+        "deepInView": true
+      }
+    },
+    {
+      "id": "enquiry-no-false-success",
+      "status": "pass",
+      "detail": {
+        "notice": "Demo concept: Real enquiries are unavailable: this is a fictional demo with no verified contact route or backend.",
+        "formOpen": true,
+        "emptySubmit": {
+          "summaryVisible": true,
+          "summaryFocused": true,
+          "role": "alert",
+          "invalidFields": [
+            "enq-name",
+            "enq-email",
+            "enq-message"
+          ],
+          "resultHidden": true
+        },
+        "badEmailSubmit": [
+          "enq-email"
+        ],
+        "validSubmit": {
+          "result": "Preview only — nothing was sent. Your details passed local validation, but this demo has no enquiry destination, so no one will receive this message.",
+          "summaryHidden": true,
+          "url": "http://127.0.0.1:4321/"
+        },
+        "networkRequestsAfterOpen": [],
+        "successWordsFound": []
+      }
+    },
+    {
+      "id": "brand-swap-no-residual-demo-brand",
+      "status": "pass",
+      "detail": {
+        "tidewellLeaks": []
+      }
+    },
+    {
+      "id": "components-and-shared-assets-brand-free",
+      "status": "pass",
+      "detail": {
+        "sharedLeaks": [],
+        "componentLeaks": []
+      }
+    },
+    {
+      "id": "no-location-claim-rendered",
+      "status": "pass",
+      "detail": "Singapore absent from all built pages"
+    },
+    {
+      "id": "unapproved-claims-suppressed",
+      "status": "pass",
+      "detail": "reference claims CLM-REF-001/002 not rendered"
+    },
+    {
+      "id": "category-count-3-default",
+      "status": "pass",
+      "detail": {
+        "cards": 3,
+        "sections": [
+          "top",
+          "heritage",
+          "collections",
+          "quality",
+          "highlights",
+          "enquiry"
+        ],
+        "nav": [
+          "Collections",
+          "Heritage",
+          "Quality",
+          "Contact"
+        ],
+        "proofPoints": 3,
+        "quote": true,
+        "formPreview": true,
+        "brand": "AQUATIC WORLD",
+        "accent": "#DFC087"
+      }
+    },
+    {
+      "id": "category-count-5-second-brand",
+      "status": "pass",
+      "detail": {
+        "cards": 5,
+        "sections": [
+          "top",
+          "heritage",
+          "collections",
+          "quality",
+          "highlights",
+          "enquiry"
+        ],
+        "nav": [
+          "The Range",
+          "Studio",
+          "Approach",
+          "Talk to Us"
+        ],
+        "proofPoints": 0,
+        "quote": false,
+        "formPreview": true,
+        "brand": "TIDEWELL STUDIO",
+        "accent": "#E7B394"
+      }
+    },
+    {
+      "id": "category-count-1-optional-sections-hidden",
+      "status": "pass",
+      "detail": {
+        "cards": 1,
+        "sections": [
+          "top",
+          "collections",
+          "enquiry"
+        ],
+        "nav": [
+          "Collections",
+          "Contact"
+        ],
+        "proofPoints": 0,
+        "quote": false,
+        "formPreview": false,
+        "brand": "AQUATIC WORLD",
+        "accent": "#DFC087"
+      }
+    },
+    {
+      "id": "no-js-content-visible",
+      "status": "pass",
+      "detail": {
+        "sections": 6,
+        "panelsVisible": 3,
+        "navVisible": true,
+        "toggleHidden": true,
+        "formHidden": true,
+        "overflow": 390
+      }
+    },
+    {
+      "id": "reduced-motion-respected",
+      "status": "pass",
+      "detail": {
+        "btnTransition": "0s",
+        "scrollBehavior": "auto",
+        "cardsVisible": true
+      }
+    },
+    {
+      "id": "image-delivery-weight",
+      "status": "pass",
+      "detail": {
+        "1440x900": {
+          "initialImageBytes": 549672,
+          "files": [
+            "hero-angelfish-1882.webp",
+            "heritage-waterfront-1080.webp",
+            "collection-ornamental-fish-480.webp",
+            "collection-aquatic-plants-480.webp",
+            "collection-driftwood-480.webp",
+            "highlight-red-betta-400.webp",
+            "enquiry-underwater-school-1600.webp",
+            "highlight-angelfish-400.webp",
+            "highlight-red-plants-400.webp"
+          ]
+        },
+        "390x844": {
+          "initialImageBytes": 301348,
+          "files": [
+            "hero-angelfish-720.webp",
+            "collection-ornamental-fish-480.webp",
+            "heritage-waterfront-640.webp",
+            "collection-aquatic-plants-480.webp",
+            "collection-driftwood-480.webp",
+            "enquiry-underwater-school-960.webp",
+            "highlight-red-betta-400.webp",
+            "highlight-angelfish-400.webp",
+            "highlight-red-plants-400.webp"
+          ]
+        }
+      }
+    }
+  ]
+}

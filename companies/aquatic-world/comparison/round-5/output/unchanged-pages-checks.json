@@ -1,0 +1,78 @@
+{
+  "codex": {
+    "unchanged_other_html": [
+      {
+        "path": "demo/public/404.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/collections/aquatic-plants/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/collections/driftwood/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/collections/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/collections/ornamental-fish/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/our-story/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/public/quality/index.html",
+        "matches_start": true
+      }
+    ],
+    "header_js_prefix_unchanged": true,
+    "pass": true
+  },
+  "claude": {
+    "unchanged_other_html": [
+      {
+        "path": "demo/dist/404.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/collections/aquatic-plants/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/collections/driftwood/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/collections/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/collections/ornamental-fish/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/our-story/index.html",
+        "matches_start": true
+      },
+      {
+        "path": "demo/dist/quality/index.html",
+        "matches_start": true
+      }
+    ],
+    "header_js_prefix_unchanged": true,
+    "pass": true
+  }
+}

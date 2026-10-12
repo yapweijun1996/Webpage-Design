@@ -1,0 +1,29 @@
+[
+  {
+    "hash": "#hero",
+    "headerTop": 0,
+    "height": 900,
+    "overflow": false,
+    "scrollY": 0,
+    "skipVisible": false,
+    "width": 1440
+  },
+  {
+    "hash": "#hero",
+    "headerTop": 0,
+    "height": 1024,
+    "overflow": false,
+    "scrollY": 0,
+    "skipVisible": false,
+    "width": 768
+  },
+  {
+    "hash": "#hero",
+    "headerTop": 0,
+    "height": 844,
+    "overflow": false,
+    "scrollY": 0,
+    "skipVisible": false,
+    "width": 390
+  }
+]

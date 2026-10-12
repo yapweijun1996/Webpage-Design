@@ -1,0 +1,70 @@
+{
+  "worker": "Claude Code (native CLI)",
+  "cli_version": "2.1.289 (Claude Code)",
+  "requested_model": "claude-opus-5-5",
+  "exposed_model": "claude-opus-5-5 (stated in the session system context: 'Opus 5.5')",
+  "effort": "unknown \u2014 not exposed to the model; process-run.json records 'CLI default'",
+  "permission_mode": "auto (per evidence/process-run.json command line)",
+  "date": "2026-10-11",
+  "tools_used": [
+    "Bash (shell, python3/sed edits, node scripts)",
+    "Read (text files and PNG images)",
+    "Write"
+  ],
+  "tools_not_used": {
+    "Agent/subagents": "not used \u2014 workspace CLAUDE.md forbids delegation",
+    "advisor": "available in the harness but not called \u2014 workspace CLAUDE.md forbids advisor delegation",
+    "MCP servers": "configured MCP tools (kb, mac-mcp, etc.) were not used; chrome-devtools MCP failed to connect",
+    "network": "no downloads, no web search, no external requests"
+  },
+  "browser_verification": {
+    "engine": "Google Chrome 154.0.8037.99, headless=new, driven by demo/scripts/cdp.mjs (Chrome DevTools Protocol over Node built-in WebSocket)",
+    "result": "39/39 checks passed",
+    "results_file": "evidence/verification.json"
+  },
+  "environment": {
+    "os": "macOS (Darwin 27.0.0)",
+    "node": "v23.10.0",
+    "npm": "10.9.2",
+    "cwebp": "1.6.0",
+    "preview_port": 4192,
+    "preview_server": "node demo/scripts/serve.mjs --port=4192 (PID recorded below; stopped by PID at end of run)"
+  },
+  "owned_processes": [
+    {
+      "pid": 39012,
+      "command": "node scripts/serve.mjs --port=4192",
+      "stopped": "by PID at delivery"
+    },
+    {
+      "pid": 1728,
+      "command": "node scripts/verify.mjs (hung run)",
+      "stopped": "by PID with its Chrome child 1734 after a hang caused by a script bug"
+    }
+  ],
+  "inputs_inspected": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "TASK.md",
+    "BRIEF.md",
+    "ACCEPTANCE.md",
+    "IMPLEMENTATION-PROMPT.txt",
+    "input/CONTEXT.md",
+    "input/skills/cli-web-design-director/SKILL.md and references/{design-review,prompt-patterns,cli-operation}.md",
+    "input/handoff/tokens/design-tokens.css",
+    "input/handoff/docs/01_VISUAL_DESIGN_SYSTEM.md",
+    "input/handoff/reference/REFERENCE_NOTES.md",
+    "input/handoff/reference/selected-homepage-mockup.png (viewed)",
+    "input/additional-reference.png (viewed; same mockup, different SHA-256)",
+    "input/assets/*.png \u2014 all nine viewed",
+    "input/assets/README.md",
+    "input/assets/asset-manifest.json"
+  ],
+  "not_read": "No sibling workspaces, previous rounds, comparison reports or evaluator files were read.",
+  "usage_cost": "not exposed to the model",
+  "unknowns_and_limitations": [
+    "Reasoning effort and token usage are not visible from inside the session.",
+    "Screen reader, axe/Lighthouse, Safari/Firefox, physical devices and 200% zoom checks were not run.",
+    "Worker self-verification is not user design acceptance."
+  ]
+}

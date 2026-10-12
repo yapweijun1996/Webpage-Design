@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "context": "Dark body",
+      "foreground": "#f6f4f0",
+      "background": "#061c26",
+      "contrast_ratio": 15.91,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Dark accent",
+      "foreground": "#dfc087",
+      "background": "#061c26",
+      "contrast_ratio": 10.01,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Dark secondary",
+      "foreground": "#c2d1d2",
+      "background": "#061c26",
+      "contrast_ratio": 11.1,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Cream body",
+      "foreground": "#10242d",
+      "background": "#f6f4f0",
+      "contrast_ratio": 14.57,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Cream secondary",
+      "foreground": "#43565b",
+      "background": "#f6f4f0",
+      "contrast_ratio": 7.03,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Cream accent",
+      "foreground": "#805c28",
+      "background": "#f6f4f0",
+      "contrast_ratio": 5.49,
+      "normal_text_4_5": true
+    },
+    {
+      "context": "Gold button",
+      "foreground": "#10242d",
+      "background": "#dfc087",
+      "contrast_ratio": 9.17,
+      "normal_text_4_5": true
+    }
+  ],
+  "photo_composites": "not_run \u2014 requires actual browser rendering"
+}

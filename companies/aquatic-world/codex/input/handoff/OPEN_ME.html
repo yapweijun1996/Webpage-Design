@@ -1,0 +1,1248 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Premium Aquatic — Design Handoff v1.0</title>
+<style>
+:root{--ocean:#061c26;--ocean2:#0a3541;--gold:#dfc087;--cream:#f6f4f0;--ink:#10242d;--muted:#54666b;--line:#dae0dd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65;background:var(--cream)}a{color:#0c5262}a:focus-visible,input:focus-visible{outline:3px solid #ba8c40;outline-offset:3px}
+.header{background:var(--ocean);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px clamp(16px,4vw,50px);position:relative;z-index:1}.mark{font:20px Georgia,serif;letter-spacing:.13em}.tag{font-size:11px;letter-spacing:.15em;color:var(--gold);text-transform:uppercase}.header .stat{color:#ddd;font-size:12px}
+.wrapper{display:grid;grid-template-columns:270px minmax(0,1fr);min-height:calc(100vh - 60px)}aside{position:sticky;top:0;height:100vh;overflow-y:auto;padding:24px 18px;background:#e8eee9;border-right:1px solid #d2dbd7}aside label{display:block;font-weight:700;font-size:12px;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.12em}input{padding:11px 12px;border:1px solid #b5c7c2;border-radius:6px;background:#fff;width:100%;font:inherit}nav{display:grid;gap:2px;margin-top:20px}.nav-link{text-decoration:none;color:#244753;display:block;padding:8px 10px;border-radius:6px;font-size:13px;line-height:1.4}.nav-link:hover,.nav-link:focus-visible{background:#d1dfdb;color:#061c26}.nav-link.hidden{display:none}.sidefooter{font-size:11px;color:#566e70;border-top:1px solid #c9d8d2;margin-top:24px;padding-top:14px}
+main{min-width:0;max-width:1250px;width:100%;padding:0 clamp(18px,4vw,72px) 80px;margin:auto}.cover{margin:34px 0 28px;background:var(--ocean);border-radius:12px;overflow:hidden;color:#fff;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center}.covercopy{padding:clamp(24px,4vw,56px)}.eyebrow{letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-size:12px}.cover h1{font:clamp(30px,3.7vw,54px)/1.08 Georgia,serif;margin:20px 0}.cover p{color:#d9e6e7;max-width:38ch}.cover .pill{border:1px solid var(--gold);padding:8px 12px;border-radius:5px;color:var(--gold);font-size:12px;display:inline-block;margin-top:8px}.cover img{width:100%;height:100%;max-height:550px;object-fit:cover;object-position:50% 9%;display:block}.intro{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px 24px;margin-bottom:32px;font-size:14px}.intro a{margin-right:18px}
+.doc-section{background:#fff;border:1px solid var(--line);padding:clamp(18px,4vw,44px);margin:22px 0;border-radius:8px;scroll-margin-top:20px;overflow-wrap:anywhere}.doc-section .doc-meta{font:12px ui-monospace,SFMono-Regular,monospace;color:#6f7f80;letter-spacing:.02em}.doc-section h1{font:clamp(27px,3vw,38px)/1.2 Georgia,serif;color:var(--ocean);margin:20px 0}.doc-section h2{font:26px/1.2 Georgia,serif;margin:35px 0 15px}.doc-section h3{font:19px/1.35 Georgia,serif;margin:24px 0 12px}.doc-section p,.doc-section li{font-size:14px}.doc-section code{font:12px/1.6 ui-monospace,monospace;background:#edf3f1;padding:1px 4px;border-radius:3px}.doc-section pre{background:#112b35;color:#f3f7f5;padding:20px;overflow:auto;border-radius:6px;line-height:1.6}.doc-section pre code{background:transparent;color:inherit;padding:0;font-size:12px}.doc-section table{width:100%;display:block;overflow:auto;border-collapse:collapse;font-size:12px}.doc-section th,.doc-section td{border:1px solid #d7e1df;padding:9px 12px;vertical-align:top;min-width:90px}.doc-section th{background:#edf3f1}.doc-section blockquote{border-left:4px solid var(--gold);padding:10px 20px;background:#f9f5eb;margin:20px 0;color:#304a51}.source-link{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:12px}
+@media(max-width:850px){.wrapper{display:block}aside{position:relative;height:auto;padding:15px}.nav-link{font-size:12px;display:inline-block;margin:2px}.cover{grid-template-columns:1fr}.cover img{height:300px;object-position:50% 3%}.header{padding:12px 20px}.header .stat{display:none}main{padding:0 14px 35px}.doc-section{padding:18px}.intro a{display:inline-block;margin-bottom:7px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{aside,.header,.cover,.intro{display:none}.wrapper{display:block}main{padding:0}.doc-section{border:0;break-before:page;margin:0;box-shadow:none;padding:14px}}
+</style></head><body>
+<header class="header"><div><div class="mark">DESIGN HANDOFF</div><div class="tag">Luxury Aquatic Editorial · Rebrandable</div></div><div class="stat">v1.0 · Documentation Only · Offline</div></header>
+<div class="wrapper"><aside><label for="filter">Find a document</label><input id="filter" type="search" placeholder="Search titles…" aria-label="Filter documentation titles"><nav aria-label="Documentation navigation"><a class="nav-link" href="#doc-00" data-title="aquatic world — premium aquatic landing page / design handoff v1.0">Aquatic World — Premium Aquatic Landing Page / Design Handoff v1.0</a><a class="nav-link" href="#doc-01" data-title="已选定设计 — 文档使用说明">已选定设计 — 文档使用说明</a><a class="nav-link" href="#doc-02" data-title="00 — project brief &amp; design contract">00 — Project Brief &amp; Design Contract</a><a class="nav-link" href="#doc-03" data-title="01 — visual design system">01 — Visual Design System</a><a class="nav-link" href="#doc-04" data-title="02 — homepage blueprint / information architecture">02 — Homepage Blueprint / Information Architecture</a><a class="nav-link" href="#doc-05" data-title="03 — component &amp; interaction specification">03 — Component &amp; Interaction Specification</a><a class="nav-link" href="#doc-06" data-title="04 — responsive, keyboard, accessibility &amp; seo">04 — Responsive, Keyboard, Accessibility &amp; SEO</a><a class="nav-link" href="#doc-07" data-title="05 — configuration &amp; content data contract (no hardcoded brand)">05 — Configuration &amp; Content Data Contract (No Hardcoded Brand)</a><a class="nav-link" href="#doc-08" data-title="06 — photography, content rights, asset manifest">06 — Photography, Content Rights, Asset Manifest</a><a class="nav-link" href="#doc-09" data-title="07 — implementation architecture &amp; engineering checklist">07 — Implementation Architecture &amp; Engineering Checklist</a><a class="nav-link" href="#doc-10" data-title="08 — definition of done &amp; qa acceptance criteria">08 — Definition of Done &amp; QA Acceptance Criteria</a><a class="nav-link" href="#doc-11" data-title="09 — copyable ai coding agent task prompt (implementation not yet authorized)">09 — Copyable AI Coding Agent Task Prompt (Implementation Not Yet Authorized)</a><a class="nav-link" href="#doc-12" data-title="10 — design decisions, open questions &amp; risk register">10 — Design Decisions, Open Questions &amp; Risk Register</a><a class="nav-link" href="#doc-13" data-title="11 — content strategy &amp; copywriting rules">11 — Content Strategy &amp; Copywriting Rules</a><a class="nav-link" href="#doc-14" data-title="12 — phased implementation roadmap &amp; exit gates">12 — Phased Implementation Roadmap &amp; Exit Gates</a></nav><div class="sidefooter">This is documentation, not a deployed website.<br>All brand names and business claims in the mockup are fictional / illustrative.</div></aside><main>
+<div class="cover"><div class="covercopy"><div class="eyebrow">Selected Design · Approved Direction</div><h1>Premium Aquatic<br><em style="color:var(--gold)">Editorial Landing Page</em></h1><p>Complete implementation handoff for the chosen cinematic underwater design — without hardcoded company or country data.</p><span class="pill">Design docs 100% · Website 0%</span></div><img src="reference/selected-homepage-mockup.png" alt="Selected full-length reference: dramatic fish hero, heritage, collections, quality icons, highlights and enquiry sections"></div>
+<div class="intro"><strong>Quick resources:</strong><p><a href="reference/selected-homepage-mockup.png">Open full reference ↗</a><a href="tokens/design-tokens.json">Design tokens ↗</a><a href="examples/site-config.example.json">Site configuration ↗</a><a href="qa/acceptance-checklist.csv">QA checklist ↗</a><a href="README_中文.md">中文说明 ↗</a></p><strong>Important:</strong> The image displays fictional example branding and claims. Verify real business content before publishing.</div>
+<section class="doc-section" id="doc-00"><div class="doc-meta">README.md</div><h1>Aquatic World — Premium Aquatic Landing Page / Design Handoff v1.0</h1>
+<p><strong>Status:</strong> Design selected by requester · Documentation handoff prepared · <strong>No website implementation or deployment performed</strong>.<br />
+<strong>Source of truth for visual direction:</strong> <a href="reference/selected-homepage-mockup.png"><code>reference/selected-homepage-mockup.png</code></a>.<br />
+<strong>Project intent:</strong> Turn the selected premium aquatic homepage concept into a reusable, <strong>configuration-driven</strong> site template for aquarium / aquatics B2B suppliers or related businesses.</p>
+<blockquote>
+<p><strong>Important:</strong> <code>AQUATIC WORLD</code>, Singapore, the imagery, product labels, and marketing claims inside the AI-generated reference are <strong>visual/demo placeholders</strong>, not verified commercial facts. Do not copy those claims into production unless approved by the actual business. No brand, country, domain, phone, product availability, achievements, testimonials, or certifications may be hardcoded.</p>
+</blockquote>
+<h2>Start here</h2>
+<ol>
+<li><strong>Open <code>OPEN_ME.html</code></strong> locally in a browser for an offline, illustrated document navigator. No installation, server, account, or internet is required.</li>
+<li>Inspect the selected mockup in <code>reference/selected-homepage-mockup.png</code>.</li>
+<li>Read <code>docs/00_PROJECT_BRIEF.md</code> and <code>docs/01_VISUAL_DESIGN_SYSTEM.md</code>.</li>
+<li>Read <code>docs/02_PAGE_STRUCTURE.md</code>, <code>docs/03_COMPONENT_INTERACTIONS.md</code>, and <code>docs/04_RESPONSIVE_ACCESSIBILITY.md</code>.</li>
+<li>For developers or coding agents, continue with <code>docs/05_CONFIG_DATA_CONTRACT.md</code>, <code>docs/07_ENGINEERING_GUIDE.md</code>, and <code>docs/09_AI_AGENT_IMPLEMENTATION_PROMPT.md</code>.</li>
+<li>Before deployment, follow <code>docs/08_QA_ACCEPTANCE.md</code> and the CSV checklists under <code>qa/</code>.</li>
+</ol>
+<h2>Files at a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Files</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reference</td>
+<td><code>reference/selected-homepage-mockup.png</code></td>
+<td>The <em>approved direction</em> for visual design; not a functional screenshot</td>
+</tr>
+<tr>
+<td>Specifications</td>
+<td><code>docs/00</code>–<code>docs/12</code></td>
+<td>Scope, layout, UX, content, accessibility, engineering, QA and handoff</td>
+</tr>
+<tr>
+<td>Tokens</td>
+<td><code>tokens/design-tokens.json</code>, <code>tokens/design-tokens.css</code></td>
+<td>Proposed consistent visual design variables</td>
+</tr>
+<tr>
+<td>Data examples</td>
+<td><code>examples/*.json</code></td>
+<td>Generic, editable content and site configuration</td>
+</tr>
+<tr>
+<td>Schemas</td>
+<td><code>schemas/*.json</code></td>
+<td>JSON Schema contracts to validate configuration and homepage content</td>
+</tr>
+<tr>
+<td>QA templates</td>
+<td><code>qa/*.csv</code></td>
+<td>Evidence ledger, responsive test matrix, acceptance tracking and asset audit</td>
+</tr>
+<tr>
+<td>Offline reader</td>
+<td><code>OPEN_ME.html</code></td>
+<td>Browse the entire spec without external dependencies</td>
+</tr>
+</tbody>
+</table>
+<h2>Locked design decisions</h2>
+<ul>
+<li>Chosen direction: <strong>Luxury Nature Storytelling</strong> / <strong>Premium Aquatic Editorial</strong>.</li>
+<li>Visual motif: cinematic tropical freshwater aquarium imagery, deep ocean teal, restrained champagne-gold accents, off-white editorial panels, serif display headings and clean sans-serif text.</li>
+<li>Sequence: <strong>Header → Hero → Heritage → Collections → Commitment/Quality → Selected Highlights → Enquiry CTA → Footer</strong>.</li>
+<li>Primary action: <strong>Explore Collections</strong>; secondary: <strong>Business Enquiry</strong>. No shopping cart or checkout in v1.</li>
+<li>Branding: replaceable via data configuration; no business name baked into HTML, CSS, JavaScript, assets or SEO templates.</li>
+<li>Content: source and approvals required. Product gallery is <em>not</em> a live inventory feed.</li>
+<li>Deliverable here: <strong>documentation + approved screenshot reference</strong>, not website source code, API integration, public deployment or production-ready photographs.</li>
+</ul>
+<h2>Operational notes / 使用提示</h2>
+<p>此 ZIP 是给开发者、Figma 设计师或 AI Coding Agent 的完整设计规格。你选中的图片是视觉方向，不代表真实公司的产品、出口国家、认证或地址。<code>Aquatic World</code> 只是图片中的示范品牌，实际网站的品牌、地点、产品分类及内容都应该通过 JSON 配置更换。实现前先看 <code>docs/10_DECISIONS_RISKS.md</code>，上线前必须经过 <code>qa/</code> 验收。</p>
+<p><strong>Progress:</strong> documentation package 100%; working website 0%; real business content approval pending.</p>
+<p class="source-link"><a href="README.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-01"><div class="doc-meta">README_中文.md</div><h1>已选定设计 — 文档使用说明</h1>
+<p>你选中的图片是 <strong>Premium Aquatic / Luxury Nature Storytelling</strong>。本项目要保留深海蓝 + 香槟金、真实感观赏鱼主视觉、大字标题、品牌故事、产品分类和询价入口。</p>
+<p><strong>最重要的决定：不要 hardcode 任何客户品牌，也不要把 Aquatic World 当作固定品牌。</strong> 画面里使用的 <code>AQUATIC WORLD</code> 和 <code>Singapore</code> 是示范内容。制作真正网页时，品牌、地区、Logo、CTA、图片、产品数据、联系电话和页尾资料全部由 configuration（配置）加载。换一家客户只需要换配置与核实过的资产，不应该修改页面组件。</p>
+<h2>推荐顺序</h2>
+<ol>
+<li>先打开 <code>OPEN_ME.html</code>，查看详细文档及所选设计图。</li>
+<li>确认品牌、公司所在国家、产品类别、图像和实际联络渠道。</li>
+<li>把 <code>examples/site-config.example.json</code> 换成该公司的真实配置。</li>
+<li>交给 Coding Agent，并附上 <code>docs/09_AI_AGENT_IMPLEMENTATION_PROMPT.md</code>。</li>
+<li>先实现 Desktop + Mobile，再开发搜索／询价，最后按 <code>qa/acceptance-checklist.csv</code> 验证。</li>
+</ol>
+<h2>特别注意</h2>
+<ul>
+<li>设计图内所有公司规模、品质保证、物流能力、认证及年份，未经公司确认一律不可视为事实。</li>
+<li>不要为了视觉效果使用错误鱼种名称，照片必须建立 Asset Manifest。</li>
+<li>询价按钮不可假装提交成功：没有可用 backend 时，必须使用经核实的 mailto 联系方式或者明确展示未启用状态。</li>
+<li>先完成可读、可用、Responsive 的网站，再考虑动画。</li>
+<li>本次交付只有设计文档包，没有擅自改动现有项目、GitHub 或部署。</li>
+</ul>
+<p class="source-link"><a href="README_中文.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-02"><div class="doc-meta">docs/00_PROJECT_BRIEF.md</div><h1>00 — Project Brief &amp; Design Contract</h1>
+<h2>Mission</h2>
+<p>Translate the <strong>chosen reference mockup</strong> into a production-capable design specification for a <strong>rebrandable, business-to-business aquatic supplier landing page</strong>. Prioritize high-end presentation, verified supplier information, product discovery, and a working enquiry pathway. Use content configuration instead of brand-specific or geographic assumptions.</p>
+<h2>User/visitor groups</h2>
+<table>
+<thead>
+<tr>
+<th>Audience</th>
+<th>Main question</th>
+<th>Page answer</th>
+<th>Primary route</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wholesaler / distributor</td>
+<td>What categories can you supply?</td>
+<td>Collection overview + request details</td>
+<td>Collections → Enquiry</td>
+</tr>
+<tr>
+<td>Retail shop purchaser</td>
+<td>Do you handle trade orders?</td>
+<td>Business capabilities <em>only if verified</em></td>
+<td>About / Enquiry</td>
+</tr>
+<tr>
+<td>Aquarium or aquascaping professional</td>
+<td>Can I find products by category?</td>
+<td>Clear fish, plant and material imagery and labels</td>
+<td>Collections</td>
+</tr>
+<tr>
+<td>Business credibility reviewer</td>
+<td>Is this a real, contactable company?</td>
+<td>Legal profile, approved process, reachable contact</td>
+<td>Heritage → Quality → Contact</td>
+</tr>
+<tr>
+<td>Mobile prospect</td>
+<td>Can I scan and contact quickly?</td>
+<td>Concise hero, accessible navigation, stable CTA</td>
+<td>Mobile menu → Enquiry</td>
+</tr>
+</tbody>
+</table>
+<h2>Jobs to be done</h2>
+<ol>
+<li>In under 5 seconds, convey what kind of business the site represents (audience and offering).</li>
+<li>In under 2 interactions, let a visitor reach a useful collection category.</li>
+<li>Present approved company provenance and responsible processing information without exaggeration.</li>
+<li>Provide a reliable enquiry route that acknowledges <em>only confirmed delivery</em>.</li>
+</ol>
+<h2>Scope v1</h2>
+<p><strong>In:</strong> homepage, standard navigation and footer, configurable branding, categories/selected highlights, heritage storytelling, quality/process statements subject to approvals, contact CTA, fully responsive styles, metadata, keyboard-accessible interactions, lightweight static delivery, QA.</p>
+<p><strong>Out (unless separately commissioned):</strong> checkout, shopping cart, live stock pricing/availability, customer accounts, custom CMS, multiple supplier integrations, payment, automated export compliance assurances, live multilingual translation, unverifiable awards and claims.</p>
+<h2>Source of truth and precedence</h2>
+<ol>
+<li><strong>Business-approved factual data</strong> for names, labels, imagery, contact details, legal and marketing claims.</li>
+<li><strong>Selected image reference</strong> for layout/style/composition only.</li>
+<li>This ZIP's specifications and design tokens for implementation details.</li>
+<li>Developer judgment for safe semantic HTML and accessible implementation when the static mockup conflicts with usability.</li>
+</ol>
+<h2>Success indicators (to measure after site exists)</h2>
+<ul>
+<li>Accessible navigation and CTA flows across desktop and mobile.</li>
+<li>Zero confirmed misleading business claims.</li>
+<li>100% required sections backed by valid config or explicitly hidden.</li>
+<li>Zero broken category links and zero false form-success messages.</li>
+<li>Web Vitals performance and accessibility gates in <code>08_QA_ACCEPTANCE.md</code>.</li>
+</ul>
+<h2>Non-negotiable guardrails</h2>
+<ul>
+<li><strong>No hardcoding company name, location, export facts or inventory data in components.</strong></li>
+<li>No unauthorized reuse of third-party photos or logos.</li>
+<li>AI-generated reference is a style target; it is not product availability proof.</li>
+<li>No live deployment, Git push or production content changes without distinct authorization.</li>
+<li>Content updates must not break headings, cards, responsiveness or keyboard interactions.</li>
+</ul>
+<p class="source-link"><a href="docs/00_PROJECT_BRIEF.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-03"><div class="doc-meta">docs/01_VISUAL_DESIGN_SYSTEM.md</div><h1>01 — Visual Design System</h1>
+<h2>Approved visual signature</h2>
+<p><strong>Direction:</strong> Cinematic aquatic elegance / Luxury Nature Storytelling. Dark underwater environments with large angelfish imagery; warm champagne-gold emphasis; editorial off-white narrative panels; high-density black-water gallery sections. The site should feel curated, sophisticated and business-focused—not childish, game-like or a crowded online shop.</p>
+<blockquote>
+<p>The supplied mockup has an outer browser chrome frame; <strong>do not implement the browser bar as part of the website</strong>.</p>
+</blockquote>
+<h2>Color palette (proposed implementation tokens)</h2>
+<table>
+<thead>
+<tr>
+<th>Token</th>
+<th>Hex</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--color-ocean-950</code></td>
+<td><code>#061C26</code></td>
+<td>Navigation/hero/footer base</td>
+</tr>
+<tr>
+<td><code>--color-ocean-900</code></td>
+<td><code>#0A3541</code></td>
+<td>Secondary dark sections</td>
+</tr>
+<tr>
+<td><code>--color-ocean-800</code></td>
+<td><code>#0C4450</code></td>
+<td>Gradients, interactive backgrounds</td>
+</tr>
+<tr>
+<td><code>--color-gold-400</code></td>
+<td><code>#DFC087</code></td>
+<td>Primary actions, italic emphasis, dividing accents</td>
+</tr>
+<tr>
+<td><code>--color-gold-500</code></td>
+<td><code>#C6A466</code></td>
+<td>Hover/secondary accent</td>
+</tr>
+<tr>
+<td><code>--color-cream-50</code></td>
+<td><code>#F6F4F0</code></td>
+<td>Heritage and quality panels</td>
+</tr>
+<tr>
+<td><code>--color-ink-900</code></td>
+<td><code>#10242D</code></td>
+<td>Text on light panels; button text on gold</td>
+</tr>
+<tr>
+<td><code>--color-slate-700</code></td>
+<td><code>#43565B</code></td>
+<td>Secondary text on cream</td>
+</tr>
+<tr>
+<td><code>--color-fog-200</code></td>
+<td><code>#C2D1D2</code></td>
+<td>Muted supporting text on dark surfaces</td>
+</tr>
+<tr>
+<td><code>--color-white</code></td>
+<td><code>#FFFFFF</code></td>
+<td>Primary body text on dark surfaces</td>
+</tr>
+</tbody>
+</table>
+<p>Verified static pair contrast ratios (calculated from proposed solid hex values, not the photo layer): cream/ocean-950 ≈15.91:1; gold/ocean-950 ≈10.01:1; ink/cream ≈14.57:1; ink/gold ≈9.17:1; slate/cream ≈7.03:1. <strong>Re-test composites and text overlays on the actual photographs.</strong></p>
+<h2>Typography</h2>
+<ul>
+<li>Editorial display: <code>Georgia</code>, optional licensed/approved serif family via CSS tokens. Main H1 approx <code>clamp(2.5rem, 5vw, 5rem)</code>, responsive line-height <code>1.05–1.14</code>, controlled line-wrap.</li>
+<li>Body/navigation: <code>system-ui</code>, optionally <code>Inter</code> after approving font delivery strategy. Body <code>1rem–1.125rem</code>, line-height <code>1.55–1.7</code>.</li>
+<li>Eyebrow labels: uppercase sans-serif, <code>0.7–0.8rem</code>, <code>letter-spacing: 0.14em–0.22em</code>.</li>
+<li>Hero accent line: gold italic serif, not an image or font screenshot.</li>
+<li>Maintain typographic hierarchy and text scaling at 200% browser zoom.</li>
+<li>Don't bundle commercial font files; use licensed fonts or system fallbacks.</li>
+</ul>
+<h2>Layout and spacing</h2>
+<ul>
+<li>Desktop content max width 1,200–1,280px; fluid gutters 24–40px.</li>
+<li>Header height ~76–88px; navigation inside hero on desktop, switch to solid high-contrast state while scrolling.</li>
+<li>Hero min-block-size ~620–720px at desktop, but adapt to short viewports and content without cropping text.</li>
+<li>Hero text ~45%; background photographic focal subject on right ~55%; dark gradient left ensures readable foreground text.</li>
+<li>Grid: 12-column desktop, 8-column tablet or CSS auto-grid, 4-column mobile; major split panels become one column on mobile.</li>
+<li>Spacing scale: 4, 8, 12, 16, 24, 32, 48, 64, 96px. Section padding desktop 64–104px, tablet 48–72px, mobile 40–56px.</li>
+<li>Cards: subtle borders and image overlays; radius 0–8px for polished editorial shape; no bubbly UI.</li>
+<li>Gold primary button: background gold, dark ink text, min 44px height, moderate horizontal padding, hover darker gold and strong focus ring.</li>
+<li>Outline button: transparent dark surface, gold outline, cream/gold text, 44px min touch height.</li>
+</ul>
+<h2>Imagery and composition</h2>
+<p><strong>Hero:</strong> dominant angelfish-like fish to the right with dark dramatic green aquarium plants; subject must remain visible across breakpoints, not hidden by overlaid text. <strong>Heritage:</strong> business-approved city/facility/company image on left, not fabricated proof of premises. <strong>Categories:</strong> one authentic photo per category. <strong>Highlights:</strong> product thumbnails with confirmed species labels. <strong>Enquiry:</strong> underwater panorama with dark wash that leaves readable copy.</p>
+<h2>Motion</h2>
+<ul>
+<li>Hover/focus transitions 150–250ms (opacity, border, slight translate); avoid continuous autoplay parallax or distracting bubbles.</li>
+<li>Card transform maximum about <code>translateY(-3px)</code> under hover-capable devices only.</li>
+<li>Respect <code>prefers-reduced-motion: reduce</code>: remove scrolling animations and transforms where appropriate.</li>
+<li><strong>No reliance on scroll animation for content visibility</strong>; all main content visible without JS.</li>
+</ul>
+<h2>Avoid</h2>
+<ul>
+<li>Gold text laid directly over a bright region of photography without a gradient.</li>
+<li>Generated pseudo-labels that imply verified exports, countries, quality certifications or years of experience.</li>
+<li>Excessively decorative paragraphs or handwritten slogans replacing useful factual content.</li>
+<li>Stretching low-resolution product thumbnails to hero sizes.</li>
+<li>Direct image export of the reference as the website itself (non-semantic, non-interactive, inaccessible).</li>
+</ul>
+<p class="source-link"><a href="docs/01_VISUAL_DESIGN_SYSTEM.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-04"><div class="doc-meta">docs/02_PAGE_STRUCTURE.md</div><h1>02 — Homepage Blueprint / Information Architecture</h1>
+<h2>Screenshot section mapping</h2>
+<table>
+<thead>
+<tr>
+<th>Order</th>
+<th>Reference region</th>
+<th>Section ID</th>
+<th>Layout and content</th>
+<th>Functional goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Dark top bar</td>
+<td><code>site-header</code></td>
+<td>Reconfigurable wordmark + tagline; Collections, Heritage, Quality, Contact; CTA; optional locale chooser</td>
+<td>Orient visitor</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Large photographic top</td>
+<td><code>hero</code></td>
+<td>Fish image on right, one H1 + optional italic accent line, intro, two actions, optional approved proof points</td>
+<td>Tell visitor what/why</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Photo + cream panel</td>
+<td><code>heritage</code></td>
+<td>Image left; heading, approved story and attributed quotation right</td>
+<td>Humanize credible business</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Dark teal 3-card area</td>
+<td><code>collections</code></td>
+<td>Editorial title + intro + configurable category cards</td>
+<td>Browse offering</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cream icon band</td>
+<td><code>quality</code></td>
+<td>Short statement + 4–5 approved process/quality steps</td>
+<td>Reduce uncertainty</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dark gallery/cards</td>
+<td><code>highlights</code></td>
+<td>Intro + 4 product/feature cards with accurately linked images</td>
+<td>Showcase examples</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Underwater CTA panel</td>
+<td><code>enquiry</code></td>
+<td>Headline, 1–2 lines of explanation, single main contact action</td>
+<td>Convert enquiry</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Light bottom strip</td>
+<td><code>site-footer</code></td>
+<td>Approved contact links, brand, legal/privacy, navigation, confirmed socials</td>
+<td>Support &amp; compliance</td>
+</tr>
+</tbody>
+</table>
+<h2>Section-level design decisions</h2>
+<h3>Header</h3>
+<p>Logo/wordmark left, primary links right. CTA prominently outlined in gold. Locale icon only when multilingual copy actually exists; otherwise hide it. Header on wide screens may overlay hero with a readable backdrop. Mobile collapses to a button-labelled menu; opened drawer/dialog must have keyboard and focus behavior.</p>
+<h3>Hero</h3>
+<p>One editable H1 containing the value proposition, plus a separate stylized accent span. Both are text—not baked into the image. Headline should remain understandable if the line wrap changes. Primary CTA routes to collections; secondary CTA routes to enquiry. Three credibility items <em>only if approved</em>, else omit to avoid fabricated claims. Decorative sidebar labels should be CSS text only if informative, otherwise remove on small displays.</p>
+<p><strong>Mockup example (NOT approved business copy):</strong> “A World of Ornamental Beauty, Curated from Singapore.” Production headline should use <code>{brand/location/offer}</code> values approved for that specific client.</p>
+<h3>Heritage</h3>
+<p>Use a business-approved premises, founder, team, farm or genuine region image. Do not imply that AI-generated architecture or staff photo documents a real company. On mobile, put headline and copy before or alongside the image as appropriate; the quote is optional and requires an approved author/source.</p>
+<h3>Collections</h3>
+<p>Cards must be data-driven; do <strong>not</strong> assume every business sells Fish + Plants + Driftwood. Card fields: id, title, description, imageId, alt, href, order, enabled. Desktop screenshot uses three cards, but the component must gracefully support 1–6 and wrap or scroll accessibly. If more than 6, display top categories and a <code>View All</code> link. No horizontal mouse-only carousel.</p>
+<h3>Quality</h3>
+<p>Each process step has an icon, title, short verified copy and optional detail link. If a step cannot be supported by a source, hide it. Do not display unlabeled certification badges or fabricated claims.</p>
+<h3>Highlights</h3>
+<p>Thumbnail list of approved products/services/projects. Treat <strong>featured</strong> as editorial selection, not live stock, new arrivals or a transaction offer. If species are identified, labels must match documented sources. Use stable aspect ratios and <code>object-fit</code> adapted to the subject.</p>
+<h3>Enquiry</h3>
+<p>Default to a real contact link (mailto or approved contact route) until secure server-side enquiry handling is available. A mock form is never allowed to show a success confirmation. Headline plus compact CTA panel; ensure actionable controls remain visible on 390px-wide screens.</p>
+<h3>Footer</h3>
+<p>Brand, actual legal identity when authorized, navigation, contact method, privacy policy, actual licensed social account links, copyright year generated at build/runtime. No fabricated social networks or dead links.</p>
+<h2>Cross-page extension plan</h2>
+<p>Suggested routes (all values configurable): <code>/</code>, <code>/collections</code>, <code>/collections/:slug</code>, <code>/about</code>, <code>/contact</code>, <code>/privacy</code>. v1 docs prioritize homepage; additional route design and data integration should be specified before building catalogue depth.</p>
+<p class="source-link"><a href="docs/02_PAGE_STRUCTURE.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-05"><div class="doc-meta">docs/03_COMPONENT_INTERACTIONS.md</div><h1>03 — Component &amp; Interaction Specification</h1>
+<h2>Reusable component inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Props / data contract</th>
+<th>States</th>
+<th>Keyboard/accessibility requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SiteHeader</code></td>
+<td><code>brand</code>, <code>navItems</code>, <code>cta</code>, <code>locales[]</code></td>
+<td>top, scrolled, menu-open</td>
+<td>semantic <code>&lt;nav&gt;</code>, visible menu label, Escape closes, focus managed</td>
+</tr>
+<tr>
+<td><code>Wordmark</code></td>
+<td><code>name</code>, <code>tagline</code>, <code>logoAssetId?</code></td>
+<td>image/text fallback</td>
+<td>linked home, meaningful accessible name</td>
+</tr>
+<tr>
+<td><code>Hero</code></td>
+<td><code>eyebrow</code>, <code>title</code>, <code>accent</code>, <code>body</code>, <code>imageId</code>, <code>actions[]</code>, <code>proofPoints[]</code></td>
+<td>default, image fallback</td>
+<td>h1 only, real text, sufficient overlay</td>
+</tr>
+<tr>
+<td><code>ActionButton</code></td>
+<td><code>label</code>, <code>href</code> or <code>action</code>, <code>kind</code></td>
+<td>idle, hover, focus, disabled</td>
+<td>use links for navigation, buttons for actions; focus visible</td>
+</tr>
+<tr>
+<td><code>HeritagePanel</code></td>
+<td><code>heading</code>, <code>body</code>, <code>photoId</code>, <code>quote?</code></td>
+<td>image loaded/fallback</td>
+<td>correct reading order and source reference</td>
+</tr>
+<tr>
+<td><code>CollectionGrid</code></td>
+<td><code>items[]</code></td>
+<td>0,1,3,6,overflow</td>
+<td>cards are linked, no nested clickable elements</td>
+</tr>
+<tr>
+<td><code>CollectionCard</code></td>
+<td><code>title</code>, <code>description</code>, <code>imageId</code>, <code>href</code></td>
+<td>idle, focus, hover</td>
+<td>alt text/thumbnail semantics; full-card link</td>
+</tr>
+<tr>
+<td><code>QualitySteps</code></td>
+<td><code>items[]</code></td>
+<td>0–5</td>
+<td>meaningful steps list, not pictograms only</td>
+</tr>
+<tr>
+<td><code>FeaturedGallery</code></td>
+<td><code>items[]</code></td>
+<td>empty/loading/ready</td>
+<td>figure captions; 1-click detail, keyboard reach</td>
+</tr>
+<tr>
+<td><code>EnquirySection</code></td>
+<td><code>heading</code>, <code>description</code>, <code>cta</code></td>
+<td>contact-link or enabled form</td>
+<td>no false success, error messages announced</td>
+</tr>
+<tr>
+<td><code>SiteFooter</code></td>
+<td><code>nav</code>, <code>contact</code>, <code>social</code>, <code>legal</code></td>
+<td>enabled data only</td>
+<td>no dead or placeholder links</td>
+</tr>
+</tbody>
+</table>
+<h2>Header states</h2>
+<ul>
+<li>On page load desktop: hero overlay background, transparent/dark underlay (always high contrast).</li>
+<li>On scroll: fixed or sticky header may become solid navy with border; maintain visible logo and button and reserve layout space to avoid CLS.</li>
+<li>Mobile: wordmark left, labelled menu button right. Menu opens below header in an accessible overlay (not behind content); Escape closes; clicking link closes and navigates; restore focus to trigger when appropriate. Lock background scrolling only while overlay open. No horizontal overflow at 320–430px.</li>
+<li>If language chooser is not backed by translated content, hide it rather than offering broken routes.</li>
+</ul>
+<h2>CTA rules</h2>
+<ol>
+<li>Hero primary → page section <code>#collections</code> or category index path, derived from config.</li>
+<li>Hero secondary → valid enquiry path or real mailto, derived from config.</li>
+<li>Card CTA → real collection detail/list page; if route is unavailable, omit the link/card or indicate not ready without deceptive affordance.</li>
+<li>CTA visual hierarchy: exactly one dominant filled gold action per context; outline is secondary.</li>
+<li>No custom approval modal for cosmetic UI changes; version control plus reviewable diffs/revert is preferred for design iteration. Deployment/production/business-data actions still require authorization.</li>
+</ol>
+<h2>Interaction states</h2>
+<p><strong>Buttons:</strong> default, hover, keyboard focus, active, loading, disabled. A disabled action must expose a helpful reason and never redirect to an unrelated page.<br />
+<strong>Cards:</strong> subtle lift/highlight on hover; keyboard focus outline; touch tap directly.<br />
+<strong>Images:</strong> load fallback is brand-neutral gradient and actual alt text; no broken icon clutter.<br />
+<strong>Form (only if enabled):</strong> empty → invalid (field errors) → submitting → confirmed success OR actionable failure. Success means a server acknowledged a real enquiry, not merely a client-side click.</p>
+<h2>Motion and progressive enhancement</h2>
+<ul>
+<li>CSS-first responsive components; JS enhances menus/form, not basic page visibility.</li>
+<li>Only enable transition when motion is allowed. No layout-affecting animations that cause reflow or CLS.</li>
+<li>Focus ring 2–3px visible over dark and cream backgrounds.</li>
+</ul>
+<h2>Component layout criteria</h2>
+<ul>
+<li><code>Hero</code>: at desktop, text width 40–50%, main image focal point at 65–80% x-position; at mobile, overlay gradient must cover entire text area and crop safely.</li>
+<li><code>HeritagePanel</code>: image/text each ~50% desktop, stacked mobile; quote becomes optional small aside.</li>
+<li><code>CollectionGrid</code>: desktop 3 columns for screenshot fidelity; tablet 2; mobile 1, unless space comfortably supports 2 without cramped captions.</li>
+<li><code>QualitySteps</code>: desktop 4–5 columns; tablet 2; mobile 1–2 depending actual text length; avoid microtype.</li>
+<li><code>FeaturedGallery</code>: desktop 4 compact cards; tablet 2; mobile 1–2; no invisible items behind a decorative gradient.</li>
+<li><code>Enquiry</code>: horizontal desktop, vertically centered on mobile; never overlap foreground copy with underwater focal animals.</li>
+</ul>
+<p class="source-link"><a href="docs/03_COMPONENT_INTERACTIONS.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-06"><div class="doc-meta">docs/04_RESPONSIVE_ACCESSIBILITY.md</div><h1>04 — Responsive, Keyboard, Accessibility &amp; SEO</h1>
+<h2>Breakpoints (implementation defaults; content-driven refinement allowed)</h2>
+<table>
+<thead>
+<tr>
+<th>Viewport</th>
+<th>Header</th>
+<th>Hero</th>
+<th>Collections</th>
+<th>Heritage</th>
+<th>Highlights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>320–479px</td>
+<td>compact + accessible menu</td>
+<td>text first, strategic photo crop, 1–2 CTAs stacked</td>
+<td>single column</td>
+<td>text/image stacked</td>
+<td>1 column or comfortable 2</td>
+</tr>
+<tr>
+<td>480–767px</td>
+<td>menu</td>
+<td>slightly wider text, controlled crop</td>
+<td>1–2 columns</td>
+<td>stacked</td>
+<td>2 columns</td>
+</tr>
+<tr>
+<td>768–1023px</td>
+<td>nav depending width, else menu</td>
+<td>compact split or overlay</td>
+<td>2 columns</td>
+<td>1–2 columns</td>
+<td>2 columns</td>
+</tr>
+<tr>
+<td>1024–1439px</td>
+<td>complete nav</td>
+<td>image-right split</td>
+<td>3 columns</td>
+<td>split</td>
+<td>4 columns</td>
+</tr>
+<tr>
+<td>&gt;=1440px</td>
+<td>max-width header content</td>
+<td>cinematic hero, proper max-width</td>
+<td>3 columns centered</td>
+<td>balanced</td>
+<td>4 columns</td>
+</tr>
+</tbody>
+</table>
+<p>Never assume viewport <em>height</em>: iPhone landscape and 200% browser zoom must not clip buttons or content. Use <code>clamp()</code>, <code>%</code>, <code>min()</code>, <code>max()</code>, <code>minmax()</code>, <code>aspect-ratio</code>, and constrained image position; avoid fixed text heights.</p>
+<h2>Quality targets</h2>
+<ul>
+<li>No horizontal overflow at 320, 360, 390, 430, 768, 1024, 1440, and 1920 CSS px.</li>
+<li>Tap target recommended min 44×44 CSS px (larger than WCAG 2.2 24×24 minimum where applicable).</li>
+<li>Text on images uses dark overlay/background with at least 4.5:1 contrast for normal-sized text and 3:1 for large text; nontext focus/UI distinguishable.</li>
+<li>Full keyboard navigation: Tab, Shift+Tab, Enter, Space for buttons, Escape for menu; skip-to-content link; no focus trap outside modal/drawer.</li>
+<li>Proper landmarks (<code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>footer</code>), one H1, sensible H2/H3 order.</li>
+<li>Form labels associated, required status communicated, error summary provided and announced, privacy link reachable.</li>
+<li>Images convey accurate alt text: decorative aquarium background gets <code>alt=&quot;&quot;</code> or CSS background; species photo alt names only after labels verified.</li>
+<li>Honor <code>prefers-reduced-motion</code>, font scaling, high contrast and low-bandwidth preference where feasible.</li>
+</ul>
+<h2>SEO and discoverability</h2>
+<ul>
+<li>Each page unique <code>title</code>, <code>meta description</code>, H1, and canonical derived from approved brand/site URL config; no fictional domain or SEO claims.</li>
+<li>Open Graph image must be an authorized site asset, not the screenshot mockup unless licensed and meaningful.</li>
+<li>Generate XML sitemap for actual published routes and crawlable links; implement redirects when replacing legacy URLs, preserving relevant route meaning.</li>
+<li>Add structured data (<code>Organization</code>) only with confirmed legal identity/contact. Do not fake credentials/reviews.</li>
+<li>Avoid injecting runtime-only article text if static generation can provide crawlable HTML.</li>
+</ul>
+<h2>Performance and runtime</h2>
+<ul>
+<li>Real-user Core Web Vitals targets at p75: LCP &lt;=2.5 seconds, INP &lt;=200 ms, CLS &lt;=0.1 (using accepted measurement methodology).</li>
+<li>Render hero as responsive AVIF/WebP with image dimensions and suitable <code>srcset/sizes</code>; eager/high-priority for LCP image, lazy-load below-the-fold images.</li>
+<li>Do not load huge full-resolution gallery images for tiny preview cards.</li>
+<li>Limit decorative scripts and avoid blocking third-party embeds and fonts.</li>
+<li>Header/menu/form failures must degrade gracefully; no broken first paint if JavaScript is disabled.</li>
+</ul>
+<h2>Mandatory test matrix</h2>
+<p>See <code>qa/responsive-test-matrix.csv</code> for device/interaction evidence rows. A generated screenshot alone <strong>does not prove</strong> these criteria.</p>
+<p class="source-link"><a href="docs/04_RESPONSIVE_ACCESSIBILITY.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-07"><div class="doc-meta">docs/05_CONFIG_DATA_CONTRACT.md</div><h1>05 — Configuration &amp; Content Data Contract (No Hardcoded Brand)</h1>
+<h2>Principle</h2>
+<p><strong>All customer-specific strings, links, geographic claims, imagery and business capabilities originate in validated content/configuration data.</strong> Components render typed data only; switching from a hypothetical <code>Aquatic World</code> demo to another client must not require modifying components. Screenshot text is a demo, not production source data.</p>
+<h2>Suggested source layout</h2>
+<pre><code class="language-text">src/
+  components/         # Presentational site components; no customer data
+  templates/          # Homepage, collections, about, contact templates
+  theme/              # CSS custom property tokens, replaceable theme
+content/
+  tenants/&lt;tenantId&gt;/
+    site.json          # Brand, navigation, domains, locales, contact, feature flags
+    homepage.json      # Section copy, approved claims, section visibility
+    collections.json   # Arbitrary set of categories / display ordering
+    assets.json        # Images and provenance
+    claims.json        # Evidence, reviewers, validity window
+</code></pre>
+<p>A static single-tenant implementation may flatten these folders; contract stays the same. Multi-tenant separation is an optional architecture decision requiring proper isolation. <strong>Do not infer that this spec authorizes deploying multiple tenants.</strong></p>
+<h2>Example configuration</h2>
+<ul>
+<li><code>examples/site-config.example.json</code> demonstrates location-independent brand and contacts.</li>
+<li><code>examples/home-page.example.json</code> demonstrates section data, hero headline and content with neutral placeholders.</li>
+<li><code>examples/collections.example.json</code> demonstrates categories based on the aquatic design theme.</li>
+<li><code>schemas/site-config.schema.json</code> and <code>schemas/home-content.schema.json</code> demonstrate useful validation constraints.</li>
+</ul>
+<h2>Key rules</h2>
+<table>
+<thead>
+<tr>
+<th>Source property</th>
+<th>Read at runtime/build from</th>
+<th>Must NOT live in component</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Brand, trademark, tagline, logo alt</td>
+<td><code>site.brand</code></td>
+<td>Static header/footer string</td>
+</tr>
+<tr>
+<td>Country and regional claim</td>
+<td><code>site.location</code></td>
+<td>Hero headline + world map copy</td>
+</tr>
+<tr>
+<td>Business email, phone, legal identity</td>
+<td><code>site.contact</code>, <code>site.legal</code></td>
+<td>Footer/CTA/JSON-LD</td>
+</tr>
+<tr>
+<td>CTA labels/links</td>
+<td><code>site.navigation</code>, <code>site.cta</code></td>
+<td>Hardcoded click handlers</td>
+</tr>
+<tr>
+<td>Hero photo and alt</td>
+<td><code>homepage.hero.imageId</code> + asset manifest</td>
+<td>CSS fixed image path</td>
+</tr>
+<tr>
+<td>Collections and routes</td>
+<td><code>collections.items[]</code></td>
+<td>Four hardcoded categories</td>
+</tr>
+<tr>
+<td>Heritage text + quotation</td>
+<td><code>homepage.heritage</code></td>
+<td>Static marketing paragraphs</td>
+</tr>
+<tr>
+<td>Quality points, country counts, credentials</td>
+<td><code>homepage.quality</code> + claim approvals</td>
+<td>Assumed proof points</td>
+</tr>
+<tr>
+<td>Copyright &amp; legal pages</td>
+<td><code>site.legal</code>, deployment metadata</td>
+<td>Fake © year or site name</td>
+</tr>
+</tbody>
+</table>
+<h2>Trust and evidence model</h2>
+<p>Any statement that implies <strong>verified fact</strong> (export count, founded year, source sustainability, certifications, successful logistics, handling procedure, quoted customer, social metrics) must have:</p>
+<ul>
+<li>Stable <code>claimId</code>;</li>
+<li>Source link / internal document path / owner attestation;</li>
+<li>Approval status <code>approved</code> (not <code>proposed</code>);</li>
+<li><code>verifiedOn</code> and review date if the claim can become stale;</li>
+<li>Copy exact enough to match evidence without overclaiming.</li>
+</ul>
+<p>Render only approved claims. When uncertain, omit claim and rebalance layout instead of replacing it with another boast.</p>
+<h2>Safe configuration validation</h2>
+<ul>
+<li>Verify required URL format and protocol: local route <code>/...</code> or <code>https://...</code>; disallow <code>javascript:</code> and untrusted injection.</li>
+<li>Validate duplicate IDs, empty titles, stale assets, and order collisions.</li>
+<li>Nonempty business CTA target required before enabling interactive enquiry.</li>
+<li>Strings must be escaped at render; never inject <code>innerHTML</code> from third-party content without a deliberate sanitizer.</li>
+<li>Maintain separation between <code>config</code> (business facts) and <code>style</code> (theme tokens).</li>
+<li>All mock copy flagged <code>demo_only</code> or unapproved must be blocked from production builds.</li>
+</ul>
+<h2>Example brand swap acceptance test</h2>
+<ol>
+<li>Supply a client fixture with <strong>entirely different</strong> logo, brand name, country, navigation labels, category count (one or five), and CTA paths.</li>
+<li>Build without editing any <code>src/components/*</code> or <code>src/templates/*</code> file.</li>
+<li>Search output HTML, JS and metadata for <code>AQUATIC WORLD</code>, previous-client brand names, <code>Singapore</code>, demo URLs and demo credentials; expect <strong>zero unintended occurrences</strong>.</li>
+<li>Visually verify header/hero/heritage/footer adapt without overflow.</li>
+<li>Render an empty optional quality section without phantom badge icons or claims.</li>
+</ol>
+<p class="source-link"><a href="docs/05_CONFIG_DATA_CONTRACT.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-08"><div class="doc-meta">docs/06_ASSET_CONTENT_POLICY.md</div><h1>06 — Photography, Content Rights, Asset Manifest</h1>
+<h2>Critical separation</h2>
+<p><code>reference/selected-homepage-mockup.png</code> = an <strong>AI-generated design reference</strong>, not a source of verified company facts. It can be used for design review, but it must not be decomposed into fake real company evidence. The screenshot contains realistic fish, Singapore skyline, visual badges, product descriptions, and a fictitious sample brand. Production assets must be supplied/licensed/created and approved independently.</p>
+<h2>Asset plan by section</h2>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Expected visual</th>
+<th>Suggested source size / safe crop</th>
+<th>Approval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hero.primary</code></td>
+<td>Premium angelfish / striking aquarium macro with subject on right</td>
+<td>2000×1200+ or responsive source set; text-safe left</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td><code>heritage.photo</code></td>
+<td>Real company facility/team or permitted region scene</td>
+<td>1400×1000+; meaningful license</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td><code>collections[n].image</code></td>
+<td>One accurately labeled collection example</td>
+<td>&gt;=900px long edge for cards</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td><code>highlights[n].image</code></td>
+<td>Correct species/product photo with traceable source</td>
+<td>&gt;=750px long edge</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td><code>enquiry.background</code></td>
+<td>Cinematic fish school / aquascape</td>
+<td>&gt;=1600px wide, dark-friendly crop</td>
+<td>Optional</td>
+</tr>
+<tr>
+<td><code>brand.logo</code></td>
+<td>Licensed logo or text wordmark</td>
+<td>SVG/approved raster, transparent where relevant</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td><code>social[n].icon</code></td>
+<td>Recognizable platform symbol</td>
+<td>Platform-compliant icon</td>
+<td>Optional</td>
+</tr>
+</tbody>
+</table>
+<p>Sizes are creative guidance, not strict image resolution QA requirements. Compression and art direction take priority over shipping massive files.</p>
+<h2>Asset manifest requirements</h2>
+<p>For each image: <code>asset_id</code>, local filename, source URL or owner, photographer/creator, rights/license, permission evidence, original context, subject/species, alt text, dimensions, crop/position, output variants, reviewer, approval. Template: <code>qa/asset-manifest-template.csv</code>.</p>
+<h2>Rights &amp; factual fidelity</h2>
+<ul>
+<li>Do not use photographs found by web search merely because they appear publicly accessible.</li>
+<li>Preserve original creator rights and attribution/usage limits.</li>
+<li>If an asset is AI-generated, mark it as illustrative and do not imply it is a genuine company farm, facility, employee, product offering or actual fish stock.</li>
+<li>Product captions must not invent species based on visual resemblance. When ambiguous, use approved category-level labels.</li>
+<li>Images must not imply shipping countries, health outcomes, certifications, or export practices not verified.</li>
+</ul>
+<h2>Implementation guidance</h2>
+<ul>
+<li>Render real image elements for collection cards for accessible alt text.</li>
+<li>Hero can be a CSS background if decorative, but ensure appropriate LCP strategy; text remains in semantic DOM.</li>
+<li>Convert and resize approved images to AVIF/WebP with fallbacks as needed.</li>
+<li>Write valid intrinsic dimensions to reduce CLS; use <code>object-fit: cover</code> for cinematic panoramas and <code>contain</code> where anatomical specimen visibility matters.</li>
+<li>On mobile, choose different art-directed crop or alternate approved image so the primary fish is not cut off.</li>
+</ul>
+<h2>Reference file usage</h2>
+<p>The provided screenshot may be included in design documentation and private implementation QA. Do <strong>not</strong> claim it is a working website. The browser address in the screenshot is a <strong>visual placeholder</strong>, not an owned/verified production domain.</p>
+<p class="source-link"><a href="docs/06_ASSET_CONTENT_POLICY.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-09"><div class="doc-meta">docs/07_ENGINEERING_GUIDE.md</div><h1>07 — Implementation Architecture &amp; Engineering Checklist</h1>
+<h2>Suggested v1 implementation</h2>
+<p>For the original goal of a light and maintainable site: <strong>static generated HTML + accessible CSS + minimal vanilla JavaScript</strong> driven by JSON content/configuration. Framework is optional; only adopt one if the actual application scope requires it. Keep build pipeline deterministic and page output server-rendered/static for SEO.</p>
+<h3>Modules</h3>
+<pre><code class="language-text">configuration -&gt; schema validation -&gt; content approval gate -&gt; page builder
+       |                     |                         |
+  brand/settings       stable IDs, links        evidence + licensing
+       |                     v                         |
+       +------------&gt; semantic HTML components &lt;-------+
+                              |
+                    tokens/CSS and assets
+                              |
+                     static production build
+                              |
+                  browser/SEO/accessibility QA
+</code></pre>
+<h2>Proposed repository structure (not included as implementation)</h2>
+<pre><code class="language-text">project/
+  public/assets/
+  src/components/{SiteHeader,Hero,Heritage,Collections,Quality,Highlights,Enquiry,Footer}/
+  src/templates/{Home,Collections,About,Contact}/
+  src/styles/{tokens,base,layout,components}.css
+  content/site.json
+  content/homepage.json
+  content/collections.json
+  content/assets.json
+  content/claims.json
+  scripts/{validate-content,build-site,validate-output}
+  tests/{unit,browser,accessibility}
+  docs/                                      # this handoff
+</code></pre>
+<h2>Development sequence</h2>
+<ol>
+<li>Set up component library and design tokens. Integrate an approved/placeholder brand config.</li>
+<li>Build semantic page regions with real HTML text. Add no images until text layout is acceptable at 390px and desktop.</li>
+<li>Add image manifest/source-mapped photos and photo overlays. Compare at 1440×900 + 390×844 using reference composition.</li>
+<li>Implement card dataset and responsive spacing; test 1/3/5 categories and long translated labels.</li>
+<li>Add accessible sticky header/mobile menu; test with mouse, touch and keyboard.</li>
+<li>Wire real collection navigation and enquiry CTA. Only enable a form after backend is operational.</li>
+<li>Run lint/build, content validation, routing test, browser QA, accessibility and Core Web Vitals measurement.</li>
+<li>Present before/after screenshot with review notes. Do not push, merge or deploy without requested permission.</li>
+</ol>
+<h2>Enquiry security contract</h2>
+<p>If using a form, its POST endpoint should handle server-side validation, bounded payload size, spam controls/rate limiting, CSRF mitigation as applicable, output encoding, secret management, PII retention policy, and minimal logging. Success UI must be shown only after authenticated/authorized backend acknowledgement of accepted delivery. Do not place third-party mail API secrets in client JavaScript. For v1 without backend, prefer an approved mailto or contact page and label the limitation.</p>
+<h2>Versioning &amp; undo</h2>
+<p>User-friendly iteration principle: cosmetic design changes can be applied without repeatedly seeking approval, but every change should be reviewable and revertible via source control / snapshots. Use a dedicated branch, small logical commits and annotated before/after screenshots. Production publish, external-system writes or irreversible operations require explicit authorization.</p>
+<h2>Visual fidelity checkpoints</h2>
+<ul>
+<li>Hero headline uses text and gold italic accent; avoid rasterizing the typographic block.</li>
+<li>Navy/teal photo depth stays legible; gold highlights do not become neon yellow.</li>
+<li>Heritage cream panel and photo align cleanly at desktop, stack without awkward crop on mobile.</li>
+<li>Collection cards appear editorial, photo-led, with dark overlay and gold arrow.</li>
+<li>Quality section uses off-white background, small line icons, simple dividers.</li>
+<li>Highlights row and enquiry band retain spacing in narrow screens.</li>
+</ul>
+<h2>Build review deliverables</h2>
+<ul>
+<li>Link to running preview or reproducible localhost commands.</li>
+<li><code>git diff</code> and changed-file list.</li>
+<li>Desktop/tablet/mobile screenshots vs this reference.</li>
+<li>Unit/component test results, Playwright/browser logs, accessibility output, content audit, missing-asset audit.</li>
+<li>Explicit status: Verified / Failed / Blocked; no unsupported 'all good' claims.</li>
+</ul>
+<p class="source-link"><a href="docs/07_ENGINEERING_GUIDE.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-10"><div class="doc-meta">docs/08_QA_ACCEPTANCE.md</div><h1>08 — Definition of Done &amp; QA Acceptance Criteria</h1>
+<p><strong>An image mockup is not an implementation.</strong> The entire homepage requires functional verification after coding; no tests in this package were run against a working implementation.</p>
+<h2>Release-gate policy</h2>
+<ul>
+<li><strong>G0 / Requirements:</strong> branding generic and editable; business owner approved actual launch content.</li>
+<li><strong>G1 / Content:</strong> every logo/photo licensed; all business claims approved; current contact routes confirmed; no placeholder domain or false product availability.</li>
+<li><strong>G2 / UX:</strong> screenshot fidelity judged with desktop/mobile captures, but legibility and responsiveness outrank pixel imitation.</li>
+<li><strong>G3 / Function:</strong> all navigation routes load; menu accessible; CTA works; form success is server-confirmed.</li>
+<li><strong>G4 / Quality:</strong> supported browsers, keyboard + screenreader smoke, no console/page errors, no horizontal overflow, performance acceptable.</li>
+<li><strong>G5 / Release:</strong> rollback, route redirects and canonical sitemap verified; deployment explicitly authorized.</li>
+</ul>
+<h2>P0 critical acceptance checklist</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Test</th>
+<th>Passing evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRAND-01</td>
+<td>Replace logo, name, tagline, country, domain, contact via data only</td>
+<td>No source component change</td>
+</tr>
+<tr>
+<td>BRAND-02</td>
+<td>Build has no residual demo brand/geo/URL text</td>
+<td>Generated output grep/report clean</td>
+</tr>
+<tr>
+<td>CONTENT-01</td>
+<td>All business/export/sustainability claims approved or hidden</td>
+<td>Completed claim register</td>
+</tr>
+<tr>
+<td>ASSET-01</td>
+<td>100% shown photography has valid license + mapping</td>
+<td>Asset manifest complete</td>
+</tr>
+<tr>
+<td>NAV-01</td>
+<td>Header/footers and in-page anchors work</td>
+<td>Browser interaction recording</td>
+</tr>
+<tr>
+<td>NAV-02</td>
+<td>Mobile menu opens, closes on Escape, and focus behaves</td>
+<td>Keyboard test video/report</td>
+</tr>
+<tr>
+<td>CTA-01</td>
+<td>Primary CTA reaches collections; secondary reaches real contact</td>
+<td>Valid destination or success evidence</td>
+</tr>
+<tr>
+<td>FORM-01</td>
+<td>Form never gives false success when backend unavailable</td>
+<td>Negative-path test</td>
+</tr>
+<tr>
+<td>RESP-01</td>
+<td>No horizontal overflow in prescribed width matrix</td>
+<td>Browser automation check</td>
+</tr>
+<tr>
+<td>RESP-02</td>
+<td>Headline/buttons/gallery remain readable and tappable</td>
+<td>Screenshots + interaction</td>
+</tr>
+<tr>
+<td>A11Y-01</td>
+<td>Contrast, keyboard, labels, semantic heading audit</td>
+<td>Axe or similar + manual test</td>
+</tr>
+<tr>
+<td>SEO-01</td>
+<td>Per-page title/canonical/OG/sitemap use real approved brand</td>
+<td>Output inspection</td>
+</tr>
+<tr>
+<td>PERF-01</td>
+<td>RUM target or lab proxy measured, no hero block</td>
+<td>Web Vitals report</td>
+</tr>
+<tr>
+<td>QUALITY-01</td>
+<td>Zero runtime console/page errors and broken key requests</td>
+<td>Browser/network report</td>
+</tr>
+</tbody>
+</table>
+<h2>Suggested test fixtures</h2>
+<ul>
+<li><code>default-aquatic</code>: 3 categories, full approved content, primary + secondary CTA.</li>
+<li><code>different-brand</code>: entirely different wordmark/tagline/logo/country, 5 categories, long marketing headline.</li>
+<li><code>minimal</code>: no optional proof points, quality section disabled, 1 collection card, no social links, mailto contact.</li>
+<li><code>unapproved</code>: explicitly unapproved claim must be suppressed and logged at build.</li>
+<li><code>broken-asset</code>: image missing; page remains readable, asset validator fails build.</li>
+<li><code>unavailable-backend</code>: enquiry form disabled and fallback contact shown.</li>
+</ul>
+<h2>Test commands (examples, not claims of completed runs)</h2>
+<pre><code class="language-sh"># Adapt to actual chosen build stack:
+npm run lint
+npm run test
+npm run build
+npm run test:e2e
+npm run test:a11y
+</code></pre>
+<h2>Status vocabulary</h2>
+<p><strong>Verified:</strong> screenshot, logs and reproducible test evidence exist.<br />
+<strong>Failed:</strong> test executed and did not meet its criterion.<br />
+<strong>Blocked:</strong> required source asset, environment, authorization or backend unavailable.<br />
+<strong>Not run:</strong> no test executed; never re-label as Verified.</p>
+<p>Use <code>qa/acceptance-checklist.csv</code> and <code>qa/responsive-test-matrix.csv</code> to record actual execution and artifact paths.</p>
+<p class="source-link"><a href="docs/08_QA_ACCEPTANCE.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-11"><div class="doc-meta">docs/09_AI_AGENT_IMPLEMENTATION_PROMPT.md</div><h1>09 — Copyable AI Coding Agent Task Prompt (Implementation Not Yet Authorized)</h1>
+<pre><code class="language-text">ROLE: Senior UI/UX Engineer + Front-End Architect + Content Integrity Reviewer.
+TASK: Implement a responsive, reusable business landing page based on the screenshot and specification in this ZIP.
+
+VISUAL REFERENCE:
+- reference/selected-homepage-mockup.png is the approved visual direction.
+- Preserve its dark underwater / champagne-gold editorial style, proportions, panel rhythm and photo-first hero.
+- The reference is a static AI-generated image, not runnable website source or verified company information.
+
+READ FIRST:
+- README.md
+- docs/00_PROJECT_BRIEF.md
+- docs/01_VISUAL_DESIGN_SYSTEM.md
+- docs/02_PAGE_STRUCTURE.md
+- docs/03_COMPONENT_INTERACTIONS.md
+- docs/04_RESPONSIVE_ACCESSIBILITY.md
+- docs/05_CONFIG_DATA_CONTRACT.md
+- docs/06_ASSET_CONTENT_POLICY.md
+- docs/08_QA_ACCEPTANCE.md
+- tokens/design-tokens.json and examples/*.json
+
+SCOPE:
+1. Build header, hero, heritage, collections, quality, highlights, enquiry CTA and footer.
+2. Use semantic HTML, CSS custom properties, minimal JS, and data-driven content.
+3. Brand, location, texts, links, product categories, social URLs, contact data, imagery and SEO MUST be loaded from config/content.
+4. Do not hardcode any client-specific brand (including 'Aquatic World' demo), country/location, domain, phone number, export reach, awards, years of experience, stock, scientific names or operational guarantees.
+5. Never turn AI-generated reference claims, company facilities or fish types into production facts.
+6. Only expose approved capabilities; hide sections with missing approval/data.
+7. Implement reliable mobile navigation and working action links. Do not fake enquiry submission success.
+8. Keep cosmetic iterations diffable and revertible. Do not deploy/push/merge without instruction.
+
+DELIVERABLES:
+- Editable source files + config examples + asset manifest.
+- Working local preview instructions.
+- Screenshots at desktop (1440x900), tablet (768x1024) and mobile (390x844).
+- Browser no-overflow/keyboard/functional/console test results.
+- Evidence-backed Completed/Failed/Blocked statuses; list all placeholders and approvals pending.
+
+GATES:
+- First output an implementation plan + unresolved content/asset dependencies.
+- Then implement after explicit task authorization.
+- Do not state QA passed without actual test output and screenshots.
+- Escalate missing brand assets, legal info, image licenses and real contact backend rather than invent values.
+</code></pre>
+<h2>Task interpretation guardrail</h2>
+<p>This file is <strong>a prompt for a future, separately authorized implementation</strong>. Merely generating a ZIP document does not authorize changing code or running development agents.</p>
+<p class="source-link"><a href="docs/09_AI_AGENT_IMPLEMENTATION_PROMPT.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-12"><div class="doc-meta">docs/10_DECISIONS_RISKS.md</div><h1>10 — Design Decisions, Open Questions &amp; Risk Register</h1>
+<h2>Confirmed design decision</h2>
+<p>Selected by user: <strong>the shown dark luxurious image with <code>AQUATIC WORLD</code> as demo placeholder</strong>. Specific visual characteristics are locked for the next design iteration; brand wording is deliberately <em>not</em> locked to any company.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Decision</th>
+<th>Status</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D01</td>
+<td>Choose premium underwater nature-storytelling direction</td>
+<td>Selected</td>
+<td>User</td>
+</tr>
+<tr>
+<td>D02</td>
+<td>Do not hardcode any client brand or the sample brand</td>
+<td>Required</td>
+<td>User</td>
+</tr>
+<tr>
+<td>D03</td>
+<td>No fixed country and no fake worldwide claims</td>
+<td>Required safeguard</td>
+<td>Implementation</td>
+</tr>
+<tr>
+<td>D04</td>
+<td>B2B collections + business enquiry as primary paths</td>
+<td>Proposed</td>
+<td>User to confirm per client</td>
+</tr>
+<tr>
+<td>D05</td>
+<td>Use JSON-driven content and CSS theme variables</td>
+<td>Recommended</td>
+<td>Engineering</td>
+</tr>
+<tr>
+<td>D06</td>
+<td>Provide documentation ZIP before any code changes</td>
+<td>Requested</td>
+<td>This deliverable</td>
+</tr>
+</tbody>
+</table>
+<h2>Open questions (do not block documentation)</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Question</th>
+<th>Safe temporary answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OQ01</td>
+<td>What is the actual deployment brand/logo?</td>
+<td>Show text <code>Your Brand</code> from config in development only</td>
+</tr>
+<tr>
+<td>OQ02</td>
+<td>Is Singapore actually the client's base?</td>
+<td>Remove geographic claims until configured and approved</td>
+</tr>
+<tr>
+<td>OQ03</td>
+<td>Which claims or quality process are real?</td>
+<td>Hide optional trust/process items</td>
+</tr>
+<tr>
+<td>OQ04</td>
+<td>Do photos document real listed products?</td>
+<td>Use licensed category-illustration photos + neutral descriptions</td>
+</tr>
+<tr>
+<td>OQ05</td>
+<td>Do you need working enquiry form or mailto?</td>
+<td>Verified contact link; form optional later</td>
+</tr>
+<tr>
+<td>OQ06</td>
+<td>What framework/hosting stack is required?</td>
+<td>Prefer small static build; confirm operational constraints</td>
+</tr>
+<tr>
+<td>OQ07</td>
+<td>Which pages beyond homepage are in first release?</td>
+<td>Plan routes, don't invent their contents</td>
+</tr>
+<tr>
+<td>OQ08</td>
+<td>Is language switching needed?</td>
+<td>Hide EN dropdown until translations exist</td>
+</tr>
+</tbody>
+</table>
+<h2>Risk register</h2>
+<table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Severity</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI mock shows fictitious staff/facilities/business claims</td>
+<td>Critical</td>
+<td>Require content approval; never publish as factual image</td>
+</tr>
+<tr>
+<td>Generated animal photo inaccurately identifies species</td>
+<td>High</td>
+<td>Human species/content audit, explicit asset tracking</td>
+</tr>
+<tr>
+<td>Brand or country hardcoded across sections</td>
+<td>High</td>
+<td>Config-swap integration test + build grep</td>
+</tr>
+<tr>
+<td>B2B enquiry button goes nowhere / false success</td>
+<td>High</td>
+<td>Verified target or working secure backend; negative-path test</td>
+</tr>
+<tr>
+<td>Dark photo obscures headline/CTAs</td>
+<td>Medium</td>
+<td>CSS left-to-right gradient, measured contrast on images</td>
+</tr>
+<tr>
+<td>Hero image becomes huge LCP</td>
+<td>Medium</td>
+<td>Art-direction, responsive encoding, measured performance</td>
+</tr>
+<tr>
+<td>Mobile header obscures content / scroll overflow</td>
+<td>High</td>
+<td>320–430px viewport QA, sticky offset handling</td>
+</tr>
+<tr>
+<td>Unapproved font or third-party photo redistributed</td>
+<td>High</td>
+<td>License check and manifest before production</td>
+</tr>
+<tr>
+<td>Company claims become stale</td>
+<td>Medium</td>
+<td>Dates + approval register + scheduled review owner</td>
+</tr>
+<tr>
+<td>Screenshot copied as flat background webpage</td>
+<td>High</td>
+<td>DOM text/components required; functional checks</td>
+</tr>
+</tbody>
+</table>
+<h2>Escalation criteria</h2>
+<p>Pause release (not necessarily design work) when legal identity, operating location, shipping/certification claims, photo permission, submitted enquiry destination or client ownership of domain remains unconfirmed.</p>
+<p class="source-link"><a href="docs/10_DECISIONS_RISKS.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-13"><div class="doc-meta">docs/11_COPYWRITING_CONTENT_GUIDE.md</div><h1>11 — Content Strategy &amp; Copywriting Rules</h1>
+<h2>Voice and tone</h2>
+<p><strong>Premium, credible, clear and economical.</strong> The visual design may be poetic, but commercial text must be concrete. Headline in editorial serif; explanation in simple professional English. Avoid unprovable superlatives such as “world-leading,” “certified,” “100% sustainable,” “export to 50+ countries,” or “best quality”.</p>
+<h2>Recommended copy hierarchy</h2>
+<ol>
+<li>Eyebrow: verified business descriptor (e.g. “ORNAMENTAL AQUATIC COLLECTIONS”).</li>
+<li>H1: product/service plus differentiator, not just abstract emotion.</li>
+<li>Accent line: optional poetic phrase approved for the brand.</li>
+<li>Supporting paragraph: one or two succinct sentences describing offering and intended customers.</li>
+<li>Primary CTA: action verb + object (“Explore Collections”).</li>
+<li>Secondary CTA: “Business Enquiry” or actual action label.</li>
+</ol>
+<h2>Fill-in templates (do not publish placeholders)</h2>
+<ul>
+<li>Hero descriptor: <code>[APPROVED_BUSINESS_CATEGORY]</code>.</li>
+<li>Headline: <code>Discover [APPROVED_OFFER] for [TARGET_CUSTOMERS].</code></li>
+<li>Accent: <code>[APPROVED_BRAND_POSITIONING]</code>.</li>
+<li>Intro: <code>[BRAND_NAME] provides [PRODUCT_CATEGORIES] to [CUSTOMER_GROUP] in [APPROVED_MARKETS].</code></li>
+<li>Heritage heading: <code>Our Story / [APPROVED_BRAND_STORY_TITLE]</code>.</li>
+<li>Quality heading: <code>Our Approach</code> (only publish steps backed by company approval).</li>
+<li>Collection CTA: <code>Explore [CATEGORY_NAME]</code>.</li>
+<li>Enquiry CTA: <code>Ask About Our Collections</code>.</li>
+</ul>
+<h2>Copy review checklist</h2>
+<ul>
+<li>Can we prove every factual claim?</li>
+<li>Does a sentence imply that an illustrative photo depicts a real workplace or stocked specimen?</li>
+<li>Are fish names derived from source metadata rather than guesswork?</li>
+<li>Is the primary headline clear to a first-time buyer in five seconds?</li>
+<li>Can visitor reach contact from mobile header without scrolling to footer?</li>
+<li>Do CTA labels describe the destination honestly?</li>
+<li>Is placeholder content excluded from the production build?</li>
+</ul>
+<h2>Editing workflow</h2>
+<p>Content author writes → business owner approves → evidence reference recorded → copy merged into JSON configuration → build rejects unapproved content → QA screenshot compares rendered copy and responsive line breaks.</p>
+<p class="source-link"><a href="docs/11_COPYWRITING_CONTENT_GUIDE.md">View original Markdown ↗</a></p></section><section class="doc-section" id="doc-14"><div class="doc-meta">docs/12_DELIVERY_ROADMAP.md</div><h1>12 — Phased Implementation Roadmap &amp; Exit Gates</h1>
+<h2>Phase 0 — Content &amp; source preparation (P0)</h2>
+<ul>
+<li>Approve logo, legal business identity, country, headline, contact routes, intended audiences.</li>
+<li>Audit photo rights, species captions and optional brand claims; fill <code>qa/asset-manifest-template.csv</code> and <code>qa/claim-approval-register.csv</code>.</li>
+<li>Decide whether catalogue routes and real contact endpoint exist.</li>
+<li><strong>Exit:</strong> zero unknown mandatory brand/contact fields for the planned release.</li>
+</ul>
+<h2>Phase 1 — Visual system and static homepage (P0)</h2>
+<ul>
+<li>Load tokens + set up config validation.</li>
+<li>Implement header, hero, heritage, collections, quality, highlights, enquiry and footer with real DOM.</li>
+<li>Create responsive variants and visual snapshots; keep reference image supplied only as the design target.</li>
+<li><strong>Exit:</strong> no static brand/geo values in templates; desktop/mobile preview matches section rhythm.</li>
+</ul>
+<h2>Phase 2 — Navigation, data and enquiry flow (P0)</h2>
+<ul>
+<li>Ensure every rendered card and CTA has a valid target.</li>
+<li>Implement menu states, accessible anchors and optional approved enquiry backend.</li>
+<li>Add real metadata, canonical pages, privacy link and content approval checks.</li>
+<li><strong>Exit:</strong> main conversion path working and no false-success state.</li>
+</ul>
+<h2>Phase 3 — Cross-browser QA and polish (P0/P1)</h2>
+<ul>
+<li>Audit responsive sizes, 200% zoom, keyboard, reduced motion, contrast, missing images, offline failure response and lighthouse/real user performance where accessible.</li>
+<li>Review copy with business owner and record Verified/Failed/Blocked.</li>
+<li><strong>Exit:</strong> all P0 gates green with evidence; no outstanding critical claim/rights risks.</li>
+</ul>
+<h2>Phase 4 — Optional launch (requires new authorization)</h2>
+<ul>
+<li>Set up hosting, SSL, owned domain, verified analytics choices, backup, redirect map and rollback plan.</li>
+<li>Production deployment and any Git push/merge happen only under a distinct request.</li>
+<li><strong>Exit:</strong> release evidence, rollback runbook and approved contact routing.</li>
+</ul>
+<h2>Change control</h2>
+<p>A new brand, new location, updated product assortment or different photo set should be a <strong>data/config edit</strong>, not a component rewrite. A new major layout concept should be versioned as a design revision and compared against the selected screenshot so it can be reverted.</p>
+<h2>Progress semantics</h2>
+<p>Documentation = 100% once this package passes integrity checks. UI implementation = 0% until a working site is built and tested. Company content approval = Pending; no QA claim is made merely from writing this document.</p>
+<p class="source-link"><a href="docs/12_DELIVERY_ROADMAP.md">View original Markdown ↗</a></p></section>
+</main></div><script>
+const filter=document.getElementById('filter');const links=[...document.querySelectorAll('.nav-link')];
+filter.addEventListener('input',()=>{const q=filter.value.trim().toLowerCase();for(const link of links){link.classList.toggle('hidden', !link.dataset.title.includes(q));}});
+</script></body></html>

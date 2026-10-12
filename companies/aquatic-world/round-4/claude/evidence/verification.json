@@ -1,0 +1,961 @@
+{
+  "run_at": "2026-10-11T09:30:48.337Z",
+  "origin": "http://127.0.0.1:4202",
+  "server_owned_by_script": true,
+  "chrome": "Chrome/154.0.8037.99",
+  "total": 56,
+  "passed": 56,
+  "results": [
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Aquatic World — Ornamental fish, aquatic plants and driftwood",
+      "h1": "A world of ornamental beauty, curated with care.",
+      "current": [
+        [
+          "Home",
+          "page"
+        ]
+      ],
+      "mainChars": 1707,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /collections/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Collections — Aquatic World",
+      "h1": "Three collection families",
+      "current": [
+        [
+          "Collections",
+          "page"
+        ]
+      ],
+      "mainChars": 2046,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /collections/ornamental-fish/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Ornamental Fish — Collections — Aquatic World",
+      "h1": "Ornamental Fish",
+      "current": [
+        [
+          "Collections",
+          "location"
+        ]
+      ],
+      "mainChars": 2141,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /collections/aquatic-plants/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Aquatic Plants — Collections — Aquatic World",
+      "h1": "Aquatic Plants",
+      "current": [
+        [
+          "Collections",
+          "location"
+        ]
+      ],
+      "mainChars": 1969,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /collections/driftwood/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Driftwood — Collections — Aquatic World",
+      "h1": "Driftwood",
+      "current": [
+        [
+          "Collections",
+          "location"
+        ]
+      ],
+      "mainChars": 2116,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /our-story/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Our Story — Aquatic World",
+      "h1": "Bringing the beauty of nature a little further.",
+      "current": [
+        [
+          "Our Story",
+          "page"
+        ]
+      ],
+      "mainChars": 1827,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /quality/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Quality — Aquatic World",
+      "h1": "A thoughtful selection process, explained.",
+      "current": [
+        [
+          "Quality",
+          "page"
+        ]
+      ],
+      "mainChars": 2001,
+      "broken": []
+    },
+    {
+      "id": "IA-01",
+      "name": "direct load + reload /contact/",
+      "pass": true,
+      "status": [
+        200,
+        200
+      ],
+      "title": "Contact — Prepare an enquiry brief — Aquatic World",
+      "h1": "Prepare an enquiry brief",
+      "current": [
+        [
+          "Contact",
+          "page"
+        ]
+      ],
+      "mainChars": 1291,
+      "broken": []
+    },
+    {
+      "id": "IA-02",
+      "name": "header/footer links from / (13 links)",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "id": "IA-02",
+      "name": "header/footer links from /quality/ (13 links)",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "id": "IA-02",
+      "name": "header/footer links from /contact/ (13 links)",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "id": "IA-03",
+      "name": "journey Home → Collections → ornamental-fish → Contact",
+      "pass": true,
+      "paths": [
+        "/collections/",
+        "/collections/ornamental-fish/",
+        "/contact/?interest=ornamental-fish"
+      ],
+      "ctx": {
+        "checked": [
+          "ornamental-fish"
+        ],
+        "context": "You came from Ornamental Fish. It is selected below; change it at any time.",
+        "back": "/collections/ornamental-fish/"
+      }
+    },
+    {
+      "id": "IA-03",
+      "name": "journey Home → Collections → aquatic-plants → Contact",
+      "pass": true,
+      "paths": [
+        "/collections/",
+        "/collections/aquatic-plants/",
+        "/contact/?interest=aquatic-plants"
+      ],
+      "ctx": {
+        "checked": [
+          "aquatic-plants"
+        ],
+        "context": "You came from Aquatic Plants. It is selected below; change it at any time.",
+        "back": "/collections/aquatic-plants/"
+      }
+    },
+    {
+      "id": "IA-03",
+      "name": "journey Home → Collections → driftwood → Contact",
+      "pass": true,
+      "paths": [
+        "/collections/",
+        "/collections/driftwood/",
+        "/contact/?interest=driftwood"
+      ],
+      "ctx": {
+        "checked": [
+          "driftwood"
+        ],
+        "context": "You came from Driftwood. It is selected below; change it at any time.",
+        "back": "/collections/driftwood/"
+      }
+    },
+    {
+      "id": "IA-04",
+      "name": "category link opens in a new tab as a native link",
+      "pass": true,
+      "path": "/collections/driftwood/",
+      "h1": "Driftwood",
+      "current": "location"
+    },
+    {
+      "id": "IA-04",
+      "name": "Back/Forward across pages keeps current navigation context",
+      "pass": true,
+      "back1": {
+        "path": "/collections/",
+        "search": "",
+        "title": "Collections — Aquatic World",
+        "h1": "Three collection families",
+        "current": [
+          [
+            "Collections",
+            "page"
+          ]
+        ],
+        "currentNote": null,
+        "mainText": 2046
+      },
+      "back2": {
+        "path": "/",
+        "search": "",
+        "title": "Aquatic World — Ornamental fish, aquatic plants and driftwood",
+        "h1": "A world of ornamental beauty, curated with care.",
+        "current": [
+          [
+            "Home",
+            "page"
+          ]
+        ],
+        "currentNote": null,
+        "mainText": 1707
+      },
+      "fwd": {
+        "path": "/collections/aquatic-plants/",
+        "search": "",
+        "title": "Aquatic Plants — Collections — Aquatic World",
+        "h1": "Aquatic Plants",
+        "current": [
+          [
+            "Collections",
+            "location"
+          ]
+        ],
+        "currentNote": "(current section)",
+        "mainText": 1969
+      }
+    },
+    {
+      "id": "IA-05",
+      "name": "logo/breadcrumbs/index/siblings from ornamental-fish",
+      "pass": true,
+      "failures": [],
+      "crumb": [
+        "Home",
+        "Collections",
+        "Ornamental Fish*"
+      ]
+    },
+    {
+      "id": "IA-05",
+      "name": "logo/breadcrumbs/index/siblings from aquatic-plants",
+      "pass": true,
+      "failures": [],
+      "crumb": [
+        "Home",
+        "Collections",
+        "Aquatic Plants*"
+      ]
+    },
+    {
+      "id": "IA-05",
+      "name": "logo/breadcrumbs/index/siblings from driftwood",
+      "pass": true,
+      "failures": [],
+      "crumb": [
+        "Home",
+        "Collections",
+        "Driftwood*"
+      ]
+    },
+    {
+      "id": "IA-06",
+      "name": "unknown path → honest 404 with recovery",
+      "pass": true,
+      "docStatus": 404,
+      "h1": "This page is not part of the collection.",
+      "links": [
+        "/",
+        "/collections/",
+        "/collections/ornamental-fish/",
+        "/collections/aquatic-plants/",
+        "/collections/driftwood/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "cssLoadedOnDeepPath": true,
+      "recoveredTo": "/collections/"
+    },
+    {
+      "id": "IA-06",
+      "name": "unknown path HTTP status",
+      "pass": true,
+      "status": 404
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 1440px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 1180px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 1100px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 1024px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 768px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 390px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 360px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-01",
+      "name": "header layout on all routes at 320px",
+      "pass": true,
+      "problems": []
+    },
+    {
+      "id": "NAV-02",
+      "name": "phone menu: pointer, Enter, Tab, Escape (focus returns), outside click, link",
+      "pass": true,
+      "open": {
+        "expanded": "true",
+        "label": "Close",
+        "links": [
+          {
+            "t": "Home",
+            "visible": true,
+            "cur": null
+          },
+          {
+            "t": "Collections",
+            "visible": true,
+            "cur": null
+          },
+          {
+            "t": "Our Story",
+            "visible": true,
+            "cur": null
+          },
+          {
+            "t": "Quality",
+            "visible": true,
+            "cur": "page"
+          },
+          {
+            "t": "Contact",
+            "visible": true,
+            "cur": null
+          }
+        ],
+        "cta": true,
+        "bodyLocked": true
+      },
+      "esc": {
+        "expanded": "false",
+        "focus": "menu-toggle",
+        "panel": "none"
+      },
+      "kOpen": "true",
+      "firstFocus": "Home",
+      "outside": "false",
+      "navigatedTo": "/our-story/"
+    },
+    {
+      "id": "NAV-03",
+      "name": "keyboard at 1440px: skip link first, focus visible and not under sticky header",
+      "pass": true,
+      "first": {
+        "cls": "skip-link",
+        "visible": true
+      },
+      "afterSkip": "main",
+      "hidden": [],
+      "order": [
+        "INPUT:name",
+        "INPUT:organisation",
+        "INPUT:email",
+        "SELECT:Choose one\n              Aquar",
+        "INPUT:interest",
+        "INPUT:interest",
+        "INPUT:interest",
+        "INPUT:interest",
+        "TEXTAREA:project",
+        "SELECT:No fixed timing\n            Wi",
+        "BUTTON:Preview enquiry",
+        "A:Aquatic World",
+        "A:Home",
+        "A:Collections",
+        "A:Our Story",
+        "A:Quality"
+      ]
+    },
+    {
+      "id": "NAV-03",
+      "name": "keyboard at 390px: skip link first, focus visible and not under sticky header",
+      "pass": true,
+      "first": {
+        "cls": "skip-link",
+        "visible": true
+      },
+      "afterSkip": "main",
+      "hidden": [],
+      "order": [
+        "INPUT:name",
+        "INPUT:organisation",
+        "INPUT:email",
+        "SELECT:Choose one\n              Aquar",
+        "INPUT:interest",
+        "INPUT:interest",
+        "INPUT:interest",
+        "INPUT:interest",
+        "TEXTAREA:project",
+        "SELECT:No fixed timing\n            Wi",
+        "BUTTON:Preview enquiry",
+        "A:Aquatic World",
+        "A:Home",
+        "A:Collections",
+        "A:Our Story",
+        "A:Quality"
+      ]
+    },
+    {
+      "id": "NAV-04",
+      "name": "no-JS: destinations visible, menu toggle hidden, contact preview honestly unavailable",
+      "pass": true,
+      "out": [
+        {
+          "path": "/quality/",
+          "cls": "no-js",
+          "h1": "A thoughtful selection process, explained.",
+          "links": [
+            "/",
+            "/collections/",
+            "/our-story/",
+            "/quality/",
+            "/contact/"
+          ],
+          "toggle": "none",
+          "noscript": false,
+          "submitDisabled": null
+        },
+        {
+          "path": "/collections/driftwood/",
+          "cls": "no-js",
+          "h1": "Driftwood",
+          "links": [
+            "/",
+            "/collections/",
+            "/our-story/",
+            "/quality/",
+            "/contact/"
+          ],
+          "toggle": "none",
+          "noscript": false,
+          "submitDisabled": null
+        },
+        {
+          "path": "/contact/",
+          "cls": "no-js",
+          "h1": "Prepare an enquiry brief",
+          "links": [
+            "/",
+            "/collections/",
+            "/our-story/",
+            "/quality/",
+            "/contact/"
+          ],
+          "toggle": "none",
+          "noscript": true,
+          "submitDisabled": true
+        }
+      ],
+      "navigatedTo": "/collections/"
+    },
+    {
+      "id": "FORM-01",
+      "name": "blank/invalid errors, summary links, recovery, honest preview, no outbound request at 1440px",
+      "pass": true,
+      "blank": {
+        "summaryVisible": true,
+        "focused": true,
+        "summaryClear": true,
+        "items": [
+          "Enter your name.",
+          "Enter an email address.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Describe the project in a sentence or two."
+        ],
+        "invalid": [
+          "f-name",
+          "f-email",
+          "ornamental-fish",
+          "aquatic-plants",
+          "driftwood",
+          "not-sure",
+          "f-project"
+        ],
+        "described": "f-name-error",
+        "nameErr": "Enter your name."
+      },
+      "linkFocus": "f-name",
+      "partial": {
+        "items": [
+          "Enter an email address in the format name@example.com.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Add a little more detail (9 of 20 characters)."
+        ],
+        "nameInvalid": null
+      },
+      "emailCleared": true,
+      "preview": {
+        "visible": true,
+        "formHidden": true,
+        "focus": true,
+        "status": "Nothing was sent. This is a local preview; the demo has no enquiry service.",
+        "rows": [
+          "NameAri Tan",
+          "Organisation—",
+          "Emailari@example.com",
+          "You are—",
+          "CollectionsAquatic Plants",
+          "ProjectToo short — a 120 cm planted display for a shop window, opening in spring. LongUnbrokenTokenWithoutSpacesToTestWrappingBehaviourInsideThePreviewList_________________________________",
+          "TimingNo fixed timing"
+        ],
+        "overflow": 0,
+        "path": "/contact/",
+        "statusClear": true
+      },
+      "edit": {
+        "focus": "f-name",
+        "kept": "Ari Tan"
+      },
+      "cleared": {
+        "name": "",
+        "formVisible": true
+      },
+      "outbound": []
+    },
+    {
+      "id": "FORM-01",
+      "name": "blank/invalid errors, summary links, recovery, honest preview, no outbound request at 390px",
+      "pass": true,
+      "blank": {
+        "summaryVisible": true,
+        "focused": true,
+        "summaryClear": true,
+        "items": [
+          "Enter your name.",
+          "Enter an email address.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Describe the project in a sentence or two."
+        ],
+        "invalid": [
+          "f-name",
+          "f-email",
+          "ornamental-fish",
+          "aquatic-plants",
+          "driftwood",
+          "not-sure",
+          "f-project"
+        ],
+        "described": "f-name-error",
+        "nameErr": "Enter your name."
+      },
+      "linkFocus": "f-name",
+      "partial": {
+        "items": [
+          "Enter an email address in the format name@example.com.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Add a little more detail (9 of 20 characters)."
+        ],
+        "nameInvalid": null
+      },
+      "emailCleared": true,
+      "preview": {
+        "visible": true,
+        "formHidden": true,
+        "focus": true,
+        "status": "Nothing was sent. This is a local preview; the demo has no enquiry service.",
+        "rows": [
+          "NameAri Tan",
+          "Organisation—",
+          "Emailari@example.com",
+          "You are—",
+          "CollectionsAquatic Plants",
+          "ProjectToo short — a 120 cm planted display for a shop window, opening in spring. LongUnbrokenTokenWithoutSpacesToTestWrappingBehaviourInsideThePreviewList_________________________________",
+          "TimingNo fixed timing"
+        ],
+        "overflow": 0,
+        "path": "/contact/",
+        "statusClear": true
+      },
+      "edit": {
+        "focus": "f-name",
+        "kept": "Ari Tan"
+      },
+      "cleared": {
+        "name": "",
+        "formVisible": true
+      },
+      "outbound": []
+    },
+    {
+      "id": "FORM-01",
+      "name": "blank/invalid errors, summary links, recovery, honest preview, no outbound request at 320px",
+      "pass": true,
+      "blank": {
+        "summaryVisible": true,
+        "focused": true,
+        "summaryClear": true,
+        "items": [
+          "Enter your name.",
+          "Enter an email address.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Describe the project in a sentence or two."
+        ],
+        "invalid": [
+          "f-name",
+          "f-email",
+          "ornamental-fish",
+          "aquatic-plants",
+          "driftwood",
+          "not-sure",
+          "f-project"
+        ],
+        "described": "f-name-error",
+        "nameErr": "Enter your name."
+      },
+      "linkFocus": "f-name",
+      "partial": {
+        "items": [
+          "Enter an email address in the format name@example.com.",
+          "Choose at least one collection, or “Not sure yet”.",
+          "Add a little more detail (9 of 20 characters)."
+        ],
+        "nameInvalid": null
+      },
+      "emailCleared": true,
+      "preview": {
+        "visible": true,
+        "formHidden": true,
+        "focus": true,
+        "status": "Nothing was sent. This is a local preview; the demo has no enquiry service.",
+        "rows": [
+          "NameAri Tan",
+          "Organisation—",
+          "Emailari@example.com",
+          "You are—",
+          "CollectionsAquatic Plants",
+          "ProjectToo short — a 120 cm planted display for a shop window, opening in spring. LongUnbrokenTokenWithoutSpacesToTestWrappingBehaviourInsideThePreviewList_________________________________",
+          "TimingNo fixed timing"
+        ],
+        "overflow": 0,
+        "path": "/contact/",
+        "statusClear": true
+      },
+      "edit": {
+        "focus": "f-name",
+        "kept": "Ari Tan"
+      },
+      "cleared": {
+        "name": "",
+        "formVisible": true
+      },
+      "outbound": []
+    },
+    {
+      "id": "REV-A",
+      "name": "contact order + first field at 390×844",
+      "pass": true,
+      "scrollY": 0,
+      "order": true,
+      "positiveTabindex": 0,
+      "labelTop": 380.296875,
+      "inputBottom": 466.28125,
+      "hdr": 65,
+      "vh": 844,
+      "hitIsInput": true,
+      "asideAfterVisually": true,
+      "preFormHelp": 0,
+      "disclosure": true,
+      "firstStop": "f-name",
+      "firstVisible": true
+    },
+    {
+      "id": "REV-A",
+      "name": "contact order + first field at 360×780",
+      "pass": true,
+      "scrollY": 0,
+      "order": true,
+      "positiveTabindex": 0,
+      "labelTop": 403.21875,
+      "inputBottom": 489.203125,
+      "hdr": 65,
+      "vh": 780,
+      "hitIsInput": true,
+      "asideAfterVisually": true,
+      "preFormHelp": 0,
+      "disclosure": true,
+      "firstStop": "f-name",
+      "firstVisible": true
+    },
+    {
+      "id": "REV-A",
+      "name": "contact order + first field at 320×700",
+      "pass": true,
+      "scrollY": 0,
+      "order": true,
+      "positiveTabindex": 0,
+      "labelTop": 435.4375,
+      "inputBottom": 521.421875,
+      "hdr": 65,
+      "vh": 700,
+      "hitIsInput": true,
+      "asideAfterVisually": true,
+      "preFormHelp": 0,
+      "disclosure": true,
+      "firstStop": "f-name",
+      "firstVisible": true
+    },
+    {
+      "id": "REV-A",
+      "name": "contact order + first field at 768×1024",
+      "pass": true,
+      "scrollY": 0,
+      "order": true,
+      "positiveTabindex": 0,
+      "labelTop": 461.71875,
+      "inputBottom": 547.703125,
+      "hdr": 65,
+      "vh": 1024,
+      "hitIsInput": true,
+      "asideAfterVisually": true,
+      "preFormHelp": 0,
+      "disclosure": true,
+      "firstStop": "f-name",
+      "firstVisible": true
+    },
+    {
+      "id": "REV-A",
+      "name": "contact order + first field at 1440×900",
+      "pass": true,
+      "scrollY": 0,
+      "order": true,
+      "positiveTabindex": 0,
+      "labelTop": 610.65625,
+      "inputBottom": 696.640625,
+      "hdr": 77,
+      "vh": 900,
+      "hitIsInput": true,
+      "asideAfterVisually": true,
+      "preFormHelp": 0,
+      "disclosure": true,
+      "firstStop": "f-name",
+      "firstVisible": true
+    },
+    {
+      "id": "REV-A",
+      "name": "prefill context inside panel, first field still visible at 390×844; Not sure yet hint associated",
+      "pass": true,
+      "inPanel": true,
+      "inputBottom": 602.4375,
+      "vh": 844,
+      "notSureHint": "Choose “Not sure yet” if you would like the families suggested from your description.",
+      "described": "f-interest-hint f-interest-error"
+    },
+    {
+      "id": "REV-B",
+      "name": "home hero copy clear of fish at 1440×900",
+      "pass": true,
+      "copyRight": 690,
+      "copyTop": 206.859375,
+      "mediaLeft": 0,
+      "mediaBottom": 797,
+      "mediaW": 1440,
+      "mouthX": 744,
+      "src": "hero-angelfish-1882.webp"
+    },
+    {
+      "id": "REV-B",
+      "name": "home hero copy clear of fish at 1180×820",
+      "pass": true,
+      "copyRight": 558,
+      "copyTop": 198.09375,
+      "mediaLeft": 590,
+      "mediaBottom": 777,
+      "mediaW": 590,
+      "mouthX": 1160,
+      "src": "hero-angelfish-fish-640.webp"
+    },
+    {
+      "id": "REV-B",
+      "name": "home hero copy clear of fish at 1024×768",
+      "pass": true,
+      "copyRight": 480,
+      "copyTop": 196.984375,
+      "mediaLeft": 512,
+      "mediaBottom": 765,
+      "mediaW": 512,
+      "mouthX": 1060,
+      "src": "hero-angelfish-fish-640.webp"
+    },
+    {
+      "id": "REV-B",
+      "name": "home hero copy clear of fish at 900×1000",
+      "pass": true,
+      "copyRight": 418,
+      "copyTop": 191.234375,
+      "mediaLeft": 450,
+      "mediaBottom": 765,
+      "mediaW": 450,
+      "mouthX": 981,
+      "src": "hero-angelfish-fish-640.webp"
+    },
+    {
+      "id": "REV-B",
+      "name": "home hero copy clear of fish at 768×1024",
+      "pass": true,
+      "copyRight": 670.71875,
+      "copyTop": 414.75,
+      "mediaLeft": 0,
+      "mediaBottom": 406.75,
+      "mediaW": 768,
+      "mouthX": 412,
+      "src": "hero-angelfish-800.webp"
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 320px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 360px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 390px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 430px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 768px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 1024px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-02",
+      "name": "no horizontal overflow / clipped labels at 1920px",
+      "pass": true,
+      "over": []
+    },
+    {
+      "id": "UI-03",
+      "name": "reduced motion removes transitions; no content hidden for animated reveal",
+      "pass": true,
+      "btn": "1e-05s",
+      "img": "1e-05s",
+      "hiddenContent": 0
+    },
+    {
+      "id": "BUILD-01",
+      "name": "no console errors, failed requests or broken images; phone hero uses art-directed crop",
+      "pass": true,
+      "consoleErrors": [],
+      "failed": [],
+      "broken": [],
+      "phoneHero": "http://127.0.0.1:4202/assets/img/hero-angelfish-fish-640.webp"
+    }
+  ]
+}

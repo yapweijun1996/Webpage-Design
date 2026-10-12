@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-11",
+  "status": "preparation_complete_two_runway_trials_reviewed_media_not_approved_wan_paused",
+  "manifest_kind": "preparation_input_plan_not_frozen_execution_manifest",
+  "source_image": {
+    "asset_id": "hero-angelfish",
+    "path": "comparison/assets-v1/hero-angelfish.png",
+    "width": 1882,
+    "height": 836,
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+    "provenance_manifest": "comparison/assets-v1/asset-manifest.json"
+  },
+  "generation": {
+    "status": "runway_refinement_completed_creative_gates_failed_wan_paused",
+    "model": "runway/gen-4.5",
+    "provider": null,
+    "budget_cap_usd": 3,
+    "job_id": "gen-vid-1791725078-59bCwFHQKzmhgz8Ruyyq",
+    "requested_target": {
+      "duration_seconds": 6,
+      "resolution": "720p",
+      "width": 1280,
+      "height": 720,
+      "aspect_ratio": "16:9",
+      "audio": false,
+      "first_frame_crop_hypothesis": {
+        "x": 396,
+        "y": 0,
+        "width": 1486,
+        "height": 836,
+        "reviewed_derivative": true
+      }
+    },
+    "trial_plan": "redesign/motion-v1/trial-v1/request-plan.json",
+    "initial_models": [
+      "alibaba/wan-3.0",
+      "runway/gen-4.5"
+    ],
+    "provider_reported_actual_cost_usd": "0.72",
+    "review": "redesign/motion-v1/trial-v1/RESULTS.md",
+    "refinement_request_id": "aquatic_runway_20261012_02",
+    "refinement_job_id": "gen-vid-1791758499-C4OTRnu5utdjMJRdYPbe",
+    "refinement_cost_usd": "0.72",
+    "total_trial_provider_reported_cost_usd": "1.44",
+    "current_review": "redesign/motion-v1/trial-v1/REFINEMENT.md"
+  },
+  "planned_media": [
+    {
+      "asset_id": "hero-first-frame",
+      "role": "shared_generation_input",
+      "status": "created_and_coordinator_visually_reviewed",
+      "sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+      "bytes": 1385006,
+      "path": "redesign/motion-v1/trial-v1/first-frame.png",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "asset_id": "hero-motion",
+      "planned_worker_path": "input/assets/hero-motion.mp4",
+      "role": "identical_final_web_delivery",
+      "status": "not_created",
+      "sha256": null,
+      "bytes": null,
+      "maximum_bytes": 3145728
+    },
+    {
+      "asset_id": "hero-poster",
+      "planned_worker_path": "input/assets/hero-poster.webp",
+      "role": "identical_final_web_poster",
+      "status": "not_created",
+      "sha256": null,
+      "bytes": null,
+      "maximum_bytes": 204800
+    }
+  ],
+  "native_workers": [
+    {
+      "runner": "codex",
+      "requested_model": "gpt-6.1-sol",
+      "starting_source": "round-5/codex",
+      "planned_workspace": "round-6/codex",
+      "status": "not_created_not_launched"
+    },
+    {
+      "runner": "claude",
+      "requested_model": "claude-opus-5-5",
+      "starting_source": "round-5/claude",
+      "planned_workspace": "round-6/claude",
+      "status": "not_created_not_launched"
+    }
+  ],
+  "shared_prepared_contracts": [
+    {
+      "path": "redesign/motion-v1/BRIEF.md",
+      "bytes": 7166,
+      "sha256": "a232b8d0c1a373d4470929cbf767a7ecbfa38057883e85139f395b6c4e314058"
+    },
+    {
+      "path": "redesign/motion-v1/GENERATION-PROMPT.txt",
+      "bytes": 1314,
+      "sha256": "14b4f31fa4ae22fc6b5fa93ae0f175fd1ba9ef033a482518b9c4ea3742cbb2c6"
+    },
+    {
+      "path": "redesign/motion-v1/INTEGRATION.md",
+      "bytes": 6672,
+      "sha256": "05d3c4953cc0f8e2649a939c4e5655eaa8f9ab6119b4615af55ec705438f1c74"
+    },
+    {
+      "path": "redesign/motion-v1/SOURCES.md",
+      "bytes": 3930,
+      "sha256": "e9390d5e8a4f36c32ff973b285a98ad9915b8fb2c3dd8df134042fd72543a6ac"
+    },
+    {
+      "path": "redesign/motion-v1/preview.html",
+      "bytes": 8845,
+      "sha256": "912828e50c4a13e77dc078370af83484fa7aca1b2e1c2f012bf46f1077580cff"
+    },
+    {
+      "path": "comparison/round-6/README.md",
+      "bytes": 6591,
+      "sha256": "971457ae5369e9bccd35c493f572619641e5461881c5d8ee64675c5c2e96136a"
+    },
+    {
+      "path": "comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+      "bytes": 2632,
+      "sha256": "a8a3d64d15524cb868868a3cdd70429359286995b87165dfb7e63c2a5efe38aa"
+    },
+    {
+      "path": "comparison/round-6/ACCEPTANCE.md",
+      "bytes": 6963,
+      "sha256": "8cd1788f5eec6c565d242a709e3967bb4d8f1de07d43c0f095352b65e499e1bf"
+    }
+  ],
+  "additional_execution_freeze_requirements": [
+    "materialize self-contained equal input references and verify links",
+    "approved first frame, final MP4, poster and video-manifest.json",
+    "current identical design-director skill snapshot",
+    "retained common source contracts, handoff and nine-image pack",
+    "own baseline captures/code hashed separately in starting-conditions.json",
+    "verified native CLI capabilities and actual run instructions"
+  ],
+  "functional_video_checks": "trial_review_viewer_passed_not_run_round_6_implementation",
+  "user_design_acceptance": "pending"
+}
