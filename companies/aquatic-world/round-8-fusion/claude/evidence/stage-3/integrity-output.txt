@@ -1,0 +1,13 @@
+## Integrity after stage 3
+original evidence:
+  identical
+stage-2 evidence:
+  identical
+input/, baseline/ and root contracts:
+  identical
+demo source/scripts (changed files):
+  < src/site.css
+  > src/site.css
+demo dist (changed files):
+  < dist/assets/site.css
+  > dist/assets/site.css

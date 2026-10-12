@@ -1,0 +1,1622 @@
+{
+  "claude/ACCEPTANCE.md": {
+    "bytes": 204,
+    "sha256": "40f1723c8286685240adcc27244298302e2d955a9a1352216beebfed5e423089"
+  },
+  "claude/AGENTS.md": {
+    "bytes": 1508,
+    "sha256": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf"
+  },
+  "claude/CLAUDE.md": {
+    "bytes": 1508,
+    "sha256": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf"
+  },
+  "claude/IMPLEMENTATION-PROMPT.txt": {
+    "bytes": 1956,
+    "sha256": "9ba7dfebc94cbcb5da5e9dd23d7ea53c4ed7babe36abe8aa5efefda8fe11bc5b"
+  },
+  "claude/README.md": {
+    "bytes": 10688,
+    "sha256": "48b4ba8f1903f027748e0485fc30df2df014ffd041491372d793728ad6e2370e"
+  },
+  "claude/TASK.md": {
+    "bytes": 3486,
+    "sha256": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c"
+  },
+  "claude/baseline/demo/assets/img/collection-aquatic-plants-1448.webp": {
+    "bytes": 274356,
+    "sha256": "283b5dcf8915bee958e0d6b4e71cbe53f0833d1d121a1daba4432739dc929bf0"
+  },
+  "claude/baseline/demo/assets/img/collection-aquatic-plants-640.webp": {
+    "bytes": 78452,
+    "sha256": "eb0fafb7594e8dd3d74803f24d2c4ec3feda64bb1aba35966d60eb4fbcbcecda"
+  },
+  "claude/baseline/demo/assets/img/collection-aquatic-plants-960.webp": {
+    "bytes": 144800,
+    "sha256": "c04ed581d8c2efe6fdc35ffeb49c51361d6f25c4c2960e5ccd39a0dcfbd79967"
+  },
+  "claude/baseline/demo/assets/img/collection-driftwood-1448.webp": {
+    "bytes": 201568,
+    "sha256": "f823d85977a000138ce1197a19ca29fcdd7224450887a7fae8cbfe9e1ddb065b"
+  },
+  "claude/baseline/demo/assets/img/collection-driftwood-640.webp": {
+    "bytes": 51696,
+    "sha256": "85861bcf9d614d708ac9cd548b40098083081f074e215646bdad92171f23da07"
+  },
+  "claude/baseline/demo/assets/img/collection-driftwood-960.webp": {
+    "bytes": 99380,
+    "sha256": "23d6670bfc4e5ecf0d4a3286f7817ee75cab10e9873ca59b0b88358c1f22fff1"
+  },
+  "claude/baseline/demo/assets/img/collection-ornamental-fish-1448.webp": {
+    "bytes": 113188,
+    "sha256": "a578d4d309f36a09e1a2269338c2f5d826fc0ffe126df5ddf8bb882beafcb6e3"
+  },
+  "claude/baseline/demo/assets/img/collection-ornamental-fish-640.webp": {
+    "bytes": 27044,
+    "sha256": "3aaef0844bab07f8ca83e6a4b6fab9ff88110f93f8b5007096e59425abcbe69c"
+  },
+  "claude/baseline/demo/assets/img/collection-ornamental-fish-960.webp": {
+    "bytes": 52630,
+    "sha256": "052e946dd860cacd7c2ceea6bfa9079a7a2dc65cbd5383e91dfe4205108b18ac"
+  },
+  "claude/baseline/demo/assets/img/enquiry-underwater-school-1280.webp": {
+    "bytes": 88404,
+    "sha256": "30f619b3b61b3ea0b8a151d1ca453ca08bb127d6713a1956499417ce5d9775c1"
+  },
+  "claude/baseline/demo/assets/img/enquiry-underwater-school-1920.webp": {
+    "bytes": 151896,
+    "sha256": "965789e0dc059e7b632efc31abdeec3fef27350dbea168158151989202bda7d6"
+  },
+  "claude/baseline/demo/assets/img/enquiry-underwater-school-800.webp": {
+    "bytes": 42842,
+    "sha256": "57b3a30d5878ff968707205803cf4bb1719baec16df043d3fedef3ea90201f5a"
+  },
+  "claude/baseline/demo/assets/img/heritage-waterfront-1024.webp": {
+    "bytes": 125252,
+    "sha256": "e41b94df7117133400bf21beb3e275b3281865764385a4ad66ca5758380b08b4"
+  },
+  "claude/baseline/demo/assets/img/heritage-waterfront-1586.webp": {
+    "bytes": 280608,
+    "sha256": "5c8417898b9dba4441abf7483d50a75a895fa73bb21360473841b04ca1233eb0"
+  },
+  "claude/baseline/demo/assets/img/heritage-waterfront-640.webp": {
+    "bytes": 56220,
+    "sha256": "8a6dd4c07f7fb01ca2ec2f1369929474bc02782ecd3982e749b1019e65f75388"
+  },
+  "claude/baseline/demo/assets/img/hero-angelfish-1280.webp": {
+    "bytes": 71828,
+    "sha256": "402faf32823c0a8dc1599e8f4219513a838ca7fced72f80cf9cdcd956360399a"
+  },
+  "claude/baseline/demo/assets/img/hero-angelfish-1882.webp": {
+    "bytes": 135684,
+    "sha256": "6aefc9af1430e123fe9456e8bcad87f124438c5b82898e31a8b088a382bc0e45"
+  },
+  "claude/baseline/demo/assets/img/hero-angelfish-800.webp": {
+    "bytes": 36910,
+    "sha256": "545ce03d47ae55ec48661cd9d1f169664ab2124146a2d501acf9a186eac75377"
+  },
+  "claude/baseline/demo/assets/img/hero-angelfish-fish-1000.webp": {
+    "bytes": 102274,
+    "sha256": "8a83a9a9cd97526abe474f3958cf1bcf4f26aa2cfe12116f930232167f34ae74"
+  },
+  "claude/baseline/demo/assets/img/hero-angelfish-fish-640.webp": {
+    "bytes": 50074,
+    "sha256": "f759828d4975cbe809e4bc39c8b32951a538b5be9232d815788d705c657700e2"
+  },
+  "claude/baseline/demo/assets/img/highlight-angelfish-1448.webp": {
+    "bytes": 136252,
+    "sha256": "fdb2a14fe3fac05e1d02f4f05797b5309c516f5b78deebfd50c868de9b80bde5"
+  },
+  "claude/baseline/demo/assets/img/highlight-angelfish-640.webp": {
+    "bytes": 40066,
+    "sha256": "f5b137d8d7aa955b0d8db8920621b25d5a9d036908e3911e597296732d0ac65e"
+  },
+  "claude/baseline/demo/assets/img/highlight-angelfish-960.webp": {
+    "bytes": 70886,
+    "sha256": "697499f08368aeae8986093ccf892c2c9efe72620443003dc71ab93e52db471b"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-betta-1448.webp": {
+    "bytes": 119536,
+    "sha256": "477a07caaeb3a61f824f1e0da378f7a654d1458433b1b58869ba5064cccbd6a1"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-betta-640.webp": {
+    "bytes": 29122,
+    "sha256": "34c0b3d4cb89d14df485cfa44aefc06ac912cb665a03df703380b683c8c4eb5c"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-betta-960.webp": {
+    "bytes": 56054,
+    "sha256": "27ceb193fc739892513b041ad3e161b5379b724060d6264d95b537c4dc72c46f"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-plants-1448.webp": {
+    "bytes": 177774,
+    "sha256": "2601bb45a74257584e556b18654b81ba85a8449482af7e49ace29815492e7b2e"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-plants-640.webp": {
+    "bytes": 52400,
+    "sha256": "63120ab35725008fbcd8d97353b307d1467606b76c578a0362121d63251db6a8"
+  },
+  "claude/baseline/demo/assets/img/highlight-red-plants-960.webp": {
+    "bytes": 94320,
+    "sha256": "451e00d06e03c05b64a9dc59498a204f68b401a6ab0d3bde656023f9e23190e6"
+  },
+  "claude/baseline/demo/assets/img/manifest.json": {
+    "bytes": 8406,
+    "sha256": "5176cd577d6225f3b94b44d563c376886ba0a264ff604fa2dddc38343ea37f0a"
+  },
+  "claude/baseline/demo/assets/motion/hero-angelfish.png": {
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+  },
+  "claude/baseline/demo/package.json": {
+    "bytes": 563,
+    "sha256": "a1cd208b36629b7741455867bd400672f31f0f3f44b2ae4702dd25cbdbebf2ab"
+  },
+  "claude/baseline/demo/scripts/build.mjs": {
+    "bytes": 2194,
+    "sha256": "57334f42d5c05b2373b9ae2b824531db54b043c7dcd46e75bfd7d878b9185ced"
+  },
+  "claude/baseline/demo/scripts/cdp.mjs": {
+    "bytes": 10159,
+    "sha256": "97a0aad04cd51cb6ed1747b4d004ca0a01c23b7d1ad5e65e4323429ac93f9bdf"
+  },
+  "claude/baseline/demo/scripts/check-motion-logic.mjs": {
+    "bytes": 8726,
+    "sha256": "bf19c976256796df9403bc622d81fd75439c375e39834a09251665360b1034da"
+  },
+  "claude/baseline/demo/scripts/check-motion.mjs": {
+    "bytes": 8067,
+    "sha256": "4a7b020acf1639cb740cf0c836c5fa23334e8daf6bb52881a73457a111cf1420"
+  },
+  "claude/baseline/demo/scripts/images.mjs": {
+    "bytes": 2743,
+    "sha256": "032e9d7642b9d30779a1b69c4812a94d708b6479f8e2117220fa1403e3a736cc"
+  },
+  "claude/baseline/demo/scripts/serve.mjs": {
+    "bytes": 2087,
+    "sha256": "b2d02e3cdd664d5b6e8d3606b19997638f67a3cd5f0d94ae4bc9ab81b8bb689d"
+  },
+  "claude/baseline/demo/scripts/server-handle.mjs": {
+    "bytes": 1055,
+    "sha256": "971411ac3ba37e7cd79711cd34a575b0f5636d083bf43417dda02917af624b48"
+  },
+  "claude/baseline/demo/scripts/shots.mjs": {
+    "bytes": 1932,
+    "sha256": "748b0072888c66df87a94d6c7ca91e1cf27733d377df063cd97dd4a687b3584a"
+  },
+  "claude/baseline/demo/scripts/verify.mjs": {
+    "bytes": 37512,
+    "sha256": "7a6c522bd785d1d70c0ba93692d756640e99677e795e280a14e0874753804371"
+  },
+  "claude/baseline/demo/src/content.mjs": {
+    "bytes": 7393,
+    "sha256": "a67959f316c58f52f0877eb2ef35dac1e0b4c36c277e7d81998a7a1b49b28795"
+  },
+  "claude/baseline/demo/src/favicon.svg": {
+    "bytes": 328,
+    "sha256": "cb56960f069d9528a32a18bcf55e3c4198e57c93fbe8cb044fa4c5b7ad500e13"
+  },
+  "claude/baseline/demo/src/layout.mjs": {
+    "bytes": 5624,
+    "sha256": "57bf4c0b76ff0e0e3f4ae0167c85bee5a7c11d2b31261fdaafed1feb84ec94b1"
+  },
+  "claude/baseline/demo/src/pages.mjs": {
+    "bytes": 37438,
+    "sha256": "665efcc864cfc75f8b6829a65e369aca9d8a1fa37f0a89e0631bfe992200e40a"
+  },
+  "claude/baseline/demo/src/site.css": {
+    "bytes": 47601,
+    "sha256": "8705820c501b08b38ef489341f0d3cf0ebea15ff843bb8bb4219f9a30704a168"
+  },
+  "claude/baseline/demo/src/site.js": {
+    "bytes": 12054,
+    "sha256": "c3c57ac7777ccef3934a27dd565d7c5174c459c6787697b2bd78f66605fe0cba"
+  },
+  "claude/demo/assets/img/collection-aquatic-plants-1448.webp": {
+    "bytes": 274356,
+    "sha256": "283b5dcf8915bee958e0d6b4e71cbe53f0833d1d121a1daba4432739dc929bf0"
+  },
+  "claude/demo/assets/img/collection-aquatic-plants-640.webp": {
+    "bytes": 78452,
+    "sha256": "eb0fafb7594e8dd3d74803f24d2c4ec3feda64bb1aba35966d60eb4fbcbcecda"
+  },
+  "claude/demo/assets/img/collection-aquatic-plants-960.webp": {
+    "bytes": 144800,
+    "sha256": "c04ed581d8c2efe6fdc35ffeb49c51361d6f25c4c2960e5ccd39a0dcfbd79967"
+  },
+  "claude/demo/assets/img/collection-driftwood-1448.webp": {
+    "bytes": 201568,
+    "sha256": "f823d85977a000138ce1197a19ca29fcdd7224450887a7fae8cbfe9e1ddb065b"
+  },
+  "claude/demo/assets/img/collection-driftwood-640.webp": {
+    "bytes": 51696,
+    "sha256": "85861bcf9d614d708ac9cd548b40098083081f074e215646bdad92171f23da07"
+  },
+  "claude/demo/assets/img/collection-driftwood-960.webp": {
+    "bytes": 99380,
+    "sha256": "23d6670bfc4e5ecf0d4a3286f7817ee75cab10e9873ca59b0b88358c1f22fff1"
+  },
+  "claude/demo/assets/img/collection-ornamental-fish-1448.webp": {
+    "bytes": 113188,
+    "sha256": "a578d4d309f36a09e1a2269338c2f5d826fc0ffe126df5ddf8bb882beafcb6e3"
+  },
+  "claude/demo/assets/img/collection-ornamental-fish-640.webp": {
+    "bytes": 27044,
+    "sha256": "3aaef0844bab07f8ca83e6a4b6fab9ff88110f93f8b5007096e59425abcbe69c"
+  },
+  "claude/demo/assets/img/collection-ornamental-fish-960.webp": {
+    "bytes": 52630,
+    "sha256": "052e946dd860cacd7c2ceea6bfa9079a7a2dc65cbd5383e91dfe4205108b18ac"
+  },
+  "claude/demo/assets/img/enquiry-underwater-school-1280.webp": {
+    "bytes": 88404,
+    "sha256": "30f619b3b61b3ea0b8a151d1ca453ca08bb127d6713a1956499417ce5d9775c1"
+  },
+  "claude/demo/assets/img/enquiry-underwater-school-1920.webp": {
+    "bytes": 151896,
+    "sha256": "965789e0dc059e7b632efc31abdeec3fef27350dbea168158151989202bda7d6"
+  },
+  "claude/demo/assets/img/enquiry-underwater-school-800.webp": {
+    "bytes": 42842,
+    "sha256": "57b3a30d5878ff968707205803cf4bb1719baec16df043d3fedef3ea90201f5a"
+  },
+  "claude/demo/assets/img/heritage-waterfront-1024.webp": {
+    "bytes": 125252,
+    "sha256": "e41b94df7117133400bf21beb3e275b3281865764385a4ad66ca5758380b08b4"
+  },
+  "claude/demo/assets/img/heritage-waterfront-1586.webp": {
+    "bytes": 280608,
+    "sha256": "5c8417898b9dba4441abf7483d50a75a895fa73bb21360473841b04ca1233eb0"
+  },
+  "claude/demo/assets/img/heritage-waterfront-640.webp": {
+    "bytes": 56220,
+    "sha256": "8a6dd4c07f7fb01ca2ec2f1369929474bc02782ecd3982e749b1019e65f75388"
+  },
+  "claude/demo/assets/img/hero-angelfish-1280.webp": {
+    "bytes": 71828,
+    "sha256": "402faf32823c0a8dc1599e8f4219513a838ca7fced72f80cf9cdcd956360399a"
+  },
+  "claude/demo/assets/img/hero-angelfish-1882.webp": {
+    "bytes": 135684,
+    "sha256": "6aefc9af1430e123fe9456e8bcad87f124438c5b82898e31a8b088a382bc0e45"
+  },
+  "claude/demo/assets/img/hero-angelfish-800.webp": {
+    "bytes": 36910,
+    "sha256": "545ce03d47ae55ec48661cd9d1f169664ab2124146a2d501acf9a186eac75377"
+  },
+  "claude/demo/assets/img/hero-angelfish-fish-1000.webp": {
+    "bytes": 102274,
+    "sha256": "8a83a9a9cd97526abe474f3958cf1bcf4f26aa2cfe12116f930232167f34ae74"
+  },
+  "claude/demo/assets/img/hero-angelfish-fish-640.webp": {
+    "bytes": 50074,
+    "sha256": "f759828d4975cbe809e4bc39c8b32951a538b5be9232d815788d705c657700e2"
+  },
+  "claude/demo/assets/img/highlight-angelfish-1448.webp": {
+    "bytes": 136252,
+    "sha256": "fdb2a14fe3fac05e1d02f4f05797b5309c516f5b78deebfd50c868de9b80bde5"
+  },
+  "claude/demo/assets/img/highlight-angelfish-640.webp": {
+    "bytes": 40066,
+    "sha256": "f5b137d8d7aa955b0d8db8920621b25d5a9d036908e3911e597296732d0ac65e"
+  },
+  "claude/demo/assets/img/highlight-angelfish-960.webp": {
+    "bytes": 70886,
+    "sha256": "697499f08368aeae8986093ccf892c2c9efe72620443003dc71ab93e52db471b"
+  },
+  "claude/demo/assets/img/highlight-red-betta-1448.webp": {
+    "bytes": 119536,
+    "sha256": "477a07caaeb3a61f824f1e0da378f7a654d1458433b1b58869ba5064cccbd6a1"
+  },
+  "claude/demo/assets/img/highlight-red-betta-640.webp": {
+    "bytes": 29122,
+    "sha256": "34c0b3d4cb89d14df485cfa44aefc06ac912cb665a03df703380b683c8c4eb5c"
+  },
+  "claude/demo/assets/img/highlight-red-betta-960.webp": {
+    "bytes": 56054,
+    "sha256": "27ceb193fc739892513b041ad3e161b5379b724060d6264d95b537c4dc72c46f"
+  },
+  "claude/demo/assets/img/highlight-red-plants-1448.webp": {
+    "bytes": 177774,
+    "sha256": "2601bb45a74257584e556b18654b81ba85a8449482af7e49ace29815492e7b2e"
+  },
+  "claude/demo/assets/img/highlight-red-plants-640.webp": {
+    "bytes": 52400,
+    "sha256": "63120ab35725008fbcd8d97353b307d1467606b76c578a0362121d63251db6a8"
+  },
+  "claude/demo/assets/img/highlight-red-plants-960.webp": {
+    "bytes": 94320,
+    "sha256": "451e00d06e03c05b64a9dc59498a204f68b401a6ab0d3bde656023f9e23190e6"
+  },
+  "claude/demo/assets/img/manifest.json": {
+    "bytes": 8406,
+    "sha256": "5176cd577d6225f3b94b44d563c376886ba0a264ff604fa2dddc38343ea37f0a"
+  },
+  "claude/demo/assets/immersive/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "claude/demo/assets/immersive/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "claude/demo/assets/immersive/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "claude/demo/assets/immersive/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "claude/demo/dist/404.html": {
+    "bytes": 6417,
+    "sha256": "c386149dd7c7b6eea3d8fc5d8ee7af7b5ba633b538b5bf7922830353551a7f3e"
+  },
+  "claude/demo/dist/assets/favicon.svg": {
+    "bytes": 328,
+    "sha256": "cb56960f069d9528a32a18bcf55e3c4198e57c93fbe8cb044fa4c5b7ad500e13"
+  },
+  "claude/demo/dist/assets/img/collection-aquatic-plants-1448.webp": {
+    "bytes": 274356,
+    "sha256": "283b5dcf8915bee958e0d6b4e71cbe53f0833d1d121a1daba4432739dc929bf0"
+  },
+  "claude/demo/dist/assets/img/collection-aquatic-plants-640.webp": {
+    "bytes": 78452,
+    "sha256": "eb0fafb7594e8dd3d74803f24d2c4ec3feda64bb1aba35966d60eb4fbcbcecda"
+  },
+  "claude/demo/dist/assets/img/collection-aquatic-plants-960.webp": {
+    "bytes": 144800,
+    "sha256": "c04ed581d8c2efe6fdc35ffeb49c51361d6f25c4c2960e5ccd39a0dcfbd79967"
+  },
+  "claude/demo/dist/assets/img/collection-driftwood-1448.webp": {
+    "bytes": 201568,
+    "sha256": "f823d85977a000138ce1197a19ca29fcdd7224450887a7fae8cbfe9e1ddb065b"
+  },
+  "claude/demo/dist/assets/img/collection-driftwood-640.webp": {
+    "bytes": 51696,
+    "sha256": "85861bcf9d614d708ac9cd548b40098083081f074e215646bdad92171f23da07"
+  },
+  "claude/demo/dist/assets/img/collection-driftwood-960.webp": {
+    "bytes": 99380,
+    "sha256": "23d6670bfc4e5ecf0d4a3286f7817ee75cab10e9873ca59b0b88358c1f22fff1"
+  },
+  "claude/demo/dist/assets/img/collection-ornamental-fish-1448.webp": {
+    "bytes": 113188,
+    "sha256": "a578d4d309f36a09e1a2269338c2f5d826fc0ffe126df5ddf8bb882beafcb6e3"
+  },
+  "claude/demo/dist/assets/img/collection-ornamental-fish-640.webp": {
+    "bytes": 27044,
+    "sha256": "3aaef0844bab07f8ca83e6a4b6fab9ff88110f93f8b5007096e59425abcbe69c"
+  },
+  "claude/demo/dist/assets/img/collection-ornamental-fish-960.webp": {
+    "bytes": 52630,
+    "sha256": "052e946dd860cacd7c2ceea6bfa9079a7a2dc65cbd5383e91dfe4205108b18ac"
+  },
+  "claude/demo/dist/assets/img/enquiry-underwater-school-1280.webp": {
+    "bytes": 88404,
+    "sha256": "30f619b3b61b3ea0b8a151d1ca453ca08bb127d6713a1956499417ce5d9775c1"
+  },
+  "claude/demo/dist/assets/img/enquiry-underwater-school-1920.webp": {
+    "bytes": 151896,
+    "sha256": "965789e0dc059e7b632efc31abdeec3fef27350dbea168158151989202bda7d6"
+  },
+  "claude/demo/dist/assets/img/enquiry-underwater-school-800.webp": {
+    "bytes": 42842,
+    "sha256": "57b3a30d5878ff968707205803cf4bb1719baec16df043d3fedef3ea90201f5a"
+  },
+  "claude/demo/dist/assets/img/heritage-waterfront-1024.webp": {
+    "bytes": 125252,
+    "sha256": "e41b94df7117133400bf21beb3e275b3281865764385a4ad66ca5758380b08b4"
+  },
+  "claude/demo/dist/assets/img/heritage-waterfront-1586.webp": {
+    "bytes": 280608,
+    "sha256": "5c8417898b9dba4441abf7483d50a75a895fa73bb21360473841b04ca1233eb0"
+  },
+  "claude/demo/dist/assets/img/heritage-waterfront-640.webp": {
+    "bytes": 56220,
+    "sha256": "8a6dd4c07f7fb01ca2ec2f1369929474bc02782ecd3982e749b1019e65f75388"
+  },
+  "claude/demo/dist/assets/img/hero-angelfish-1280.webp": {
+    "bytes": 71828,
+    "sha256": "402faf32823c0a8dc1599e8f4219513a838ca7fced72f80cf9cdcd956360399a"
+  },
+  "claude/demo/dist/assets/img/hero-angelfish-1882.webp": {
+    "bytes": 135684,
+    "sha256": "6aefc9af1430e123fe9456e8bcad87f124438c5b82898e31a8b088a382bc0e45"
+  },
+  "claude/demo/dist/assets/img/hero-angelfish-800.webp": {
+    "bytes": 36910,
+    "sha256": "545ce03d47ae55ec48661cd9d1f169664ab2124146a2d501acf9a186eac75377"
+  },
+  "claude/demo/dist/assets/img/hero-angelfish-fish-1000.webp": {
+    "bytes": 102274,
+    "sha256": "8a83a9a9cd97526abe474f3958cf1bcf4f26aa2cfe12116f930232167f34ae74"
+  },
+  "claude/demo/dist/assets/img/hero-angelfish-fish-640.webp": {
+    "bytes": 50074,
+    "sha256": "f759828d4975cbe809e4bc39c8b32951a538b5be9232d815788d705c657700e2"
+  },
+  "claude/demo/dist/assets/img/highlight-angelfish-1448.webp": {
+    "bytes": 136252,
+    "sha256": "fdb2a14fe3fac05e1d02f4f05797b5309c516f5b78deebfd50c868de9b80bde5"
+  },
+  "claude/demo/dist/assets/img/highlight-angelfish-640.webp": {
+    "bytes": 40066,
+    "sha256": "f5b137d8d7aa955b0d8db8920621b25d5a9d036908e3911e597296732d0ac65e"
+  },
+  "claude/demo/dist/assets/img/highlight-angelfish-960.webp": {
+    "bytes": 70886,
+    "sha256": "697499f08368aeae8986093ccf892c2c9efe72620443003dc71ab93e52db471b"
+  },
+  "claude/demo/dist/assets/img/highlight-red-betta-1448.webp": {
+    "bytes": 119536,
+    "sha256": "477a07caaeb3a61f824f1e0da378f7a654d1458433b1b58869ba5064cccbd6a1"
+  },
+  "claude/demo/dist/assets/img/highlight-red-betta-640.webp": {
+    "bytes": 29122,
+    "sha256": "34c0b3d4cb89d14df485cfa44aefc06ac912cb665a03df703380b683c8c4eb5c"
+  },
+  "claude/demo/dist/assets/img/highlight-red-betta-960.webp": {
+    "bytes": 56054,
+    "sha256": "27ceb193fc739892513b041ad3e161b5379b724060d6264d95b537c4dc72c46f"
+  },
+  "claude/demo/dist/assets/img/highlight-red-plants-1448.webp": {
+    "bytes": 177774,
+    "sha256": "2601bb45a74257584e556b18654b81ba85a8449482af7e49ace29815492e7b2e"
+  },
+  "claude/demo/dist/assets/img/highlight-red-plants-640.webp": {
+    "bytes": 52400,
+    "sha256": "63120ab35725008fbcd8d97353b307d1467606b76c578a0362121d63251db6a8"
+  },
+  "claude/demo/dist/assets/img/highlight-red-plants-960.webp": {
+    "bytes": 94320,
+    "sha256": "451e00d06e03c05b64a9dc59498a204f68b401a6ab0d3bde656023f9e23190e6"
+  },
+  "claude/demo/dist/assets/img/manifest.json": {
+    "bytes": 8406,
+    "sha256": "5176cd577d6225f3b94b44d563c376886ba0a264ff604fa2dddc38343ea37f0a"
+  },
+  "claude/demo/dist/assets/immersive/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "claude/demo/dist/assets/immersive/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "claude/demo/dist/assets/immersive/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "claude/demo/dist/assets/immersive/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "claude/demo/dist/assets/site.css": {
+    "bytes": 54065,
+    "sha256": "dacd5405787dd89bdef2bae955d86cbe757177021404a6083912eb4bcbb90f8b"
+  },
+  "claude/demo/dist/assets/site.js": {
+    "bytes": 14774,
+    "sha256": "81ac5ded9bde9d02db953453228b458ae8d7ab8963ef306c260965f4c2d823db"
+  },
+  "claude/demo/dist/collections/aquatic-plants/index.html": {
+    "bytes": 13164,
+    "sha256": "5139c2a9877841b87aa82030cea937c1f3dfb7e29cc3b1781560e23742648970"
+  },
+  "claude/demo/dist/collections/driftwood/index.html": {
+    "bytes": 12733,
+    "sha256": "5674548f7d5cca0482151bb341064d150a5d97c5868f73705d7f52c9de0b6ca0"
+  },
+  "claude/demo/dist/collections/index.html": {
+    "bytes": 12596,
+    "sha256": "64555cf12de2458de966cf03105f5062d79973a4a4bd9ffb5eecae1161b450c7"
+  },
+  "claude/demo/dist/collections/ornamental-fish/index.html": {
+    "bytes": 12623,
+    "sha256": "e7ecfc5370a2ed3412681af54b2eb94cf21cc39c63f5b5289acee20899348faf"
+  },
+  "claude/demo/dist/contact/index.html": {
+    "bytes": 9441,
+    "sha256": "3fbb069d1757d0d9ca45610bb1a3fd9dc0af726989b32852cc30150263addf6e"
+  },
+  "claude/demo/dist/index.html": {
+    "bytes": 8088,
+    "sha256": "17a030f93b5313b236508111c81d53a6ed9855d97fca291db6aaa2b58f60f3c5"
+  },
+  "claude/demo/dist/our-story/index.html": {
+    "bytes": 8781,
+    "sha256": "86bd6d278a5eccdc75bb410f8d1b72bce84fea446161a261883b725aac6ac076"
+  },
+  "claude/demo/dist/quality/index.html": {
+    "bytes": 9286,
+    "sha256": "bf146e076ce3c6a4e29ecc2a8a96a29b72fcc3e9fd6ec95614ccf443a89c3d69"
+  },
+  "claude/demo/package.json": {
+    "bytes": 563,
+    "sha256": "a1cd208b36629b7741455867bd400672f31f0f3f44b2ae4702dd25cbdbebf2ab"
+  },
+  "claude/demo/scripts/build.mjs": {
+    "bytes": 2416,
+    "sha256": "b5b1863daaf06454e96d3c8b07ac05dfbc521fd25d8bc9963321a9d3ae537041"
+  },
+  "claude/demo/scripts/cdp.mjs": {
+    "bytes": 10159,
+    "sha256": "97a0aad04cd51cb6ed1747b4d004ca0a01c23b7d1ad5e65e4323429ac93f9bdf"
+  },
+  "claude/demo/scripts/check-motion-logic.mjs": {
+    "bytes": 12191,
+    "sha256": "7189e97cad34dce3e7d40ce3a0d6cc1e6f1ea790bdd493bb1522b81dc66480b6"
+  },
+  "claude/demo/scripts/check-motion.mjs": {
+    "bytes": 16014,
+    "sha256": "9cd3f9e8e50055acceefe03633a5db52f85ce400a9ce02cca7fbc1c565564a93"
+  },
+  "claude/demo/scripts/images.mjs": {
+    "bytes": 2743,
+    "sha256": "032e9d7642b9d30779a1b69c4812a94d708b6479f8e2117220fa1403e3a736cc"
+  },
+  "claude/demo/scripts/serve.mjs": {
+    "bytes": 2913,
+    "sha256": "a0c2a0e4c5e614f2cbc9abb0ba3d3c05c6454951d6587f6599ce65521b81062a"
+  },
+  "claude/demo/scripts/server-handle.mjs": {
+    "bytes": 1055,
+    "sha256": "971411ac3ba37e7cd79711cd34a575b0f5636d083bf43417dda02917af624b48"
+  },
+  "claude/demo/scripts/shots.mjs": {
+    "bytes": 1932,
+    "sha256": "748b0072888c66df87a94d6c7ca91e1cf27733d377df063cd97dd4a687b3584a"
+  },
+  "claude/demo/scripts/verify.mjs": {
+    "bytes": 37829,
+    "sha256": "4b6057d9e37e21a952c7b36f122fcd4aba230b0b913cf487fd39cfe8101474fc"
+  },
+  "claude/demo/src/content.mjs": {
+    "bytes": 7393,
+    "sha256": "a67959f316c58f52f0877eb2ef35dac1e0b4c36c277e7d81998a7a1b49b28795"
+  },
+  "claude/demo/src/favicon.svg": {
+    "bytes": 328,
+    "sha256": "cb56960f069d9528a32a18bcf55e3c4198e57c93fbe8cb044fa4c5b7ad500e13"
+  },
+  "claude/demo/src/layout.mjs": {
+    "bytes": 6617,
+    "sha256": "479d936952d611cc41b6b5fa39d7f4f80bd9f7c2cbd350d9eca27a2a49625287"
+  },
+  "claude/demo/src/pages.mjs": {
+    "bytes": 35697,
+    "sha256": "cfb7ba828031faf6e1953b39f881dddb8358e7026c253966f44be541cde14896"
+  },
+  "claude/demo/src/site.css": {
+    "bytes": 54065,
+    "sha256": "dacd5405787dd89bdef2bae955d86cbe757177021404a6083912eb4bcbb90f8b"
+  },
+  "claude/demo/src/site.js": {
+    "bytes": 14774,
+    "sha256": "81ac5ded9bde9d02db953453228b458ae8d7ab8963ef306c260965f4c2d823db"
+  },
+  "claude/evidence/cli-events.jsonl": {
+    "bytes": 4291412,
+    "sha256": "b67da1e16a208e77fb6f81e63f395a57e8d2eebecb2949b079f3de92d89290cd"
+  },
+  "claude/evidence/cli-stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude/evidence/design-plan.md": {
+    "bytes": 8652,
+    "sha256": "16b89d547372e30d83c3d82b3a59cda0cd68776400050041b2d1b83b9b501449"
+  },
+  "claude/evidence/process-run.json": {
+    "bytes": 1467,
+    "sha256": "1d5dabd2ee4e5b49d439f0c64088f208ed4f474e60391186d43dbcac84fbf7cf"
+  },
+  "claude/evidence/stage-2/cli-events.jsonl": {
+    "bytes": 1737980,
+    "sha256": "66f9bc9b2cf612b78de2043611abb6d873afd514bf80edf20fa16b3978a557b7"
+  },
+  "claude/evidence/stage-2/cli-stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude/evidence/stage-2/design-plan.md": {
+    "bytes": 5902,
+    "sha256": "747c342e43945f21e249040cc5b4864a6708c32d80acd2a8bc46b8ead25b3e65"
+  },
+  "claude/evidence/stage-2/inspection/landscape-frames-0-36-72.jpg": {
+    "bytes": 144787,
+    "sha256": "faa6c333b22c61f15d4a4f82c0dc452d01f1bbee01ef160820a2bd8d3d23323c"
+  },
+  "claude/evidence/stage-2/inspection/portrait-frames-0-36-72.jpg": {
+    "bytes": 116185,
+    "sha256": "cf47144f239c551e96bc583d42c3fe093f18c0500075cad76618cc1bb309025f"
+  },
+  "claude/evidence/stage-2/process-run.json": {
+    "bytes": 1500,
+    "sha256": "02dbda82f6b6c1130a7947a7890fd7b1daa11064fcd986fed641cd6f2319ba45"
+  },
+  "claude/evidence/stage-2/self-review.md": {
+    "bytes": 8036,
+    "sha256": "f03d6f5cdb140551fe26c2ec6e97d3cf876c1ddb272365b54afae87ef88a1aa0"
+  },
+  "claude/evidence/stage-3/cli-events.jsonl": {
+    "bytes": 711733,
+    "sha256": "fb2ae5f071f76d062af315a2faf8c1e6779a36ac895ae2193fb1ff7632ccbd18"
+  },
+  "claude/evidence/stage-3/cli-stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude/evidence/stage-3/design-plan.md": {
+    "bytes": 4079,
+    "sha256": "faffb38bfdc016eb2fafc0a726c23af573a86472b8c911d9cdfb0e3bf5af9e3a"
+  },
+  "claude/evidence/stage-3/process-run.json": {
+    "bytes": 1501,
+    "sha256": "aeea136a90806e7e9b04c32774725bbbc25a3e8805040291ee332fac62f7dd4c"
+  },
+  "claude/evidence/stage-3/self-review.md": {
+    "bytes": 5078,
+    "sha256": "c7031a8da3fa99f5fa11acaee8a47d7793e1ddd33cf3bd442f6c93f41c9ba03f"
+  },
+  "claude/evidence/stage-3/stage2-dist-sha256.txt": {
+    "bytes": 4774,
+    "sha256": "9c2d7f33fd2683ddc5d7e4bf2389f689fdafb4042f1eff2a5e41ef30fe52bcfc"
+  },
+  "claude/evidence/stage-4/cli-events.jsonl": {
+    "bytes": 67366,
+    "sha256": "41d0ed3c2dead3a0322e2c00143d1e0f183e939183a15aa2942553b828ddc001"
+  },
+  "claude/evidence/stage-4/cli-stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude/evidence/stage-4/design-plan.md": {
+    "bytes": 590,
+    "sha256": "c0814046e0b8eb49fc42979872ab54d7a360f35107d29ed1088f851f42ccd8e3"
+  },
+  "claude/evidence/stage-4/process-run.json": {
+    "bytes": 1528,
+    "sha256": "1f385e985f01d032e6ac3faabca33757bcfb2e50f21efd4be4f18a3a00af3271"
+  },
+  "claude/evidence/stage-4/self-review.md": {
+    "bytes": 1210,
+    "sha256": "00dc1c08fc2b9d7030fb5b2d13016bc319f6659951fe1ecf077d49cb3d6fca84"
+  },
+  "claude/evidence/stage-5/cli-events.jsonl": {
+    "bytes": 58175,
+    "sha256": "f3141e90c096bf5924fa0e45847391544d0fbba1e65adb2984becd15e9360a2c"
+  },
+  "claude/evidence/stage-5/cli-stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude/evidence/stage-5/design-plan.md": {
+    "bytes": 745,
+    "sha256": "2901c197471818112a111d1d640bf0c1baf185e61b44add88eab61d5409f078f"
+  },
+  "claude/evidence/stage-5/process-run.json": {
+    "bytes": 1528,
+    "sha256": "7630131597c8da7c0afde2739c96f016d791e0fb21827f2a58e5865a5cc8875f"
+  },
+  "claude/evidence/stage-5/self-review.md": {
+    "bytes": 991,
+    "sha256": "7e76fef7c15a7b1d49fbfe37ca1795a47deeb8a73befa8099b5b191af79c2280"
+  },
+  "claude/input/immersive-home/BRIEF.md": {
+    "bytes": 19366,
+    "sha256": "c4e6cd5254e982f9f02125c77f7574d343143b85662604cd6d2e759297e7c1dd"
+  },
+  "claude/input/immersive-home/COMPARISON.md": {
+    "bytes": 7075,
+    "sha256": "6c697bcc3a3d254ea6b7cafc70c73728e73a864d3fbe010e7e01ecd2f2966ac2"
+  },
+  "claude/input/immersive-home/STAGE.md": {
+    "bytes": 3486,
+    "sha256": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c"
+  },
+  "claude/input/mcp-empty.json": {
+    "bytes": 18,
+    "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+  },
+  "claude/input/media/landscape-generation-frame.png": {
+    "bytes": 1380251,
+    "sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619"
+  },
+  "claude/input/media/landscape-poster.webp": {
+    "bytes": 136226,
+    "sha256": "1d156452355d2311f998ae7a9056bdded66bddffb7a05158b1f36c27f3dac35e"
+  },
+  "claude/input/media/portrait-generation-frame.png": {
+    "bytes": 1283769,
+    "sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96"
+  },
+  "claude/input/media/portrait-poster.webp": {
+    "bytes": 112686,
+    "sha256": "8c2187523c89cdede0a1e8b7fd2eec51dfa57bece5a61c011660caed755c39c9"
+  },
+  "claude/input/media/poster-manifest.json": {
+    "bytes": 553,
+    "sha256": "c78b2534ad1502f8d3311725f2a53f065236d5e0ca48b48016054f052f96eefc"
+  },
+  "claude/input/reference/desktop-v1.png": {
+    "bytes": 2371655,
+    "sha256": "3403272a0cfa5a918760a6746b912bf5a0f530dded0864e1ec1b9a71abea96e9"
+  },
+  "claude/input/reference/mobile-v1.png": {
+    "bytes": 2060442,
+    "sha256": "9232370d0b3ecf5169e25f4aa3a008e1938b8c3e3d3629d67d8068d609c5c6e5"
+  },
+  "claude/input/skills/cli-web-design-director/SKILL.md": {
+    "bytes": 4990,
+    "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+  },
+  "claude/input/skills/cli-web-design-director/agents/openai.yaml": {
+    "bytes": 272,
+    "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+  },
+  "claude/input/skills/cli-web-design-director/references/cli-operation.md": {
+    "bytes": 4771,
+    "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+  },
+  "claude/input/skills/cli-web-design-director/references/design-review.md": {
+    "bytes": 4605,
+    "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+  },
+  "claude/input/skills/cli-web-design-director/references/prompt-patterns.md": {
+    "bytes": 3259,
+    "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+  },
+  "claude/input-stage2/BRIEF.md": {
+    "bytes": 3123,
+    "sha256": "5ec912f2c7018dcd6e43763ee7b8a63e4d2d11890fdc3b009d08ebead41a66be"
+  },
+  "claude/input-stage2/PROMPT.txt": {
+    "bytes": 552,
+    "sha256": "b63994da18db8f7b012b55a13a4ea74c30d1a2402dfe9c05bfa898bd2c82ed0f"
+  },
+  "claude/input-stage2/media/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "claude/input-stage2/media/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "claude/input-stage2/media/manifest.json": {
+    "bytes": 6454,
+    "sha256": "a811fd2cdd403476c6e9a18ddc39b1b200308792447a138547fd408464eeccdc"
+  },
+  "claude/input-stage2/media/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "claude/input-stage2/media/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "claude/input-stage3/BRIEF.md": {
+    "bytes": 2151,
+    "sha256": "20ebfef620fb0120965523fb51a468c011861c65ff9eb40e9470d18a4afa37e9"
+  },
+  "claude/input-stage3/PROMPT.txt": {
+    "bytes": 435,
+    "sha256": "5cbd0b904e134a06d5dd09115f6680c02b844ad91eda8df654f2bdada99ecef6"
+  },
+  "claude/input-stage4/BRIEF.md": {
+    "bytes": 1757,
+    "sha256": "2efb043b851e4aff036dc1f1ae34e2632dd515b72fad37c7561f3e7b313bf014"
+  },
+  "claude/input-stage4/PROMPT.txt": {
+    "bytes": 440,
+    "sha256": "27a32f6f840ccac2963a4491282a92fde7c869030aaba3a8b2dfbb1bb25826cf"
+  },
+  "claude/input-stage5/BRIEF.md": {
+    "bytes": 1580,
+    "sha256": "e785a97036983fc3b14e51827b978163af19b05f1063d56b538bd0592948e62d"
+  },
+  "claude/input-stage5/PROMPT.txt": {
+    "bytes": 427,
+    "sha256": "5f7fe77340a707fa9352eaaa8ec39d1b8d6b7ce10860c01a235c455399be4830"
+  },
+  "codex/ACCEPTANCE.md": {
+    "bytes": 204,
+    "sha256": "40f1723c8286685240adcc27244298302e2d955a9a1352216beebfed5e423089"
+  },
+  "codex/AGENTS.md": {
+    "bytes": 1508,
+    "sha256": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf"
+  },
+  "codex/CLAUDE.md": {
+    "bytes": 1508,
+    "sha256": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf"
+  },
+  "codex/IMPLEMENTATION-PROMPT.txt": {
+    "bytes": 1956,
+    "sha256": "9ba7dfebc94cbcb5da5e9dd23d7ea53c4ed7babe36abe8aa5efefda8fe11bc5b"
+  },
+  "codex/README.md": {
+    "bytes": 10676,
+    "sha256": "7a1e8c5bf2e2b48aeed6d7a12388b2318973cde8cb7265b2dc0222a98ba0fe3c"
+  },
+  "codex/TASK.md": {
+    "bytes": 3486,
+    "sha256": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c"
+  },
+  "codex/baseline/demo/assets/animation-provenance.json": {
+    "bytes": 446,
+    "sha256": "d9eef2b9c9671d22456c8a378c2150c847c1f62e8017852fee2ca93cb5ea151a"
+  },
+  "codex/baseline/demo/assets/collection-aquatic-plants-1600.webp": {
+    "bytes": 352342,
+    "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+  },
+  "codex/baseline/demo/assets/collection-aquatic-plants-640.webp": {
+    "bytes": 107306,
+    "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+  },
+  "codex/baseline/demo/assets/collection-driftwood-1600.webp": {
+    "bytes": 265502,
+    "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+  },
+  "codex/baseline/demo/assets/collection-driftwood-640.webp": {
+    "bytes": 73010,
+    "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+  },
+  "codex/baseline/demo/assets/collection-ornamental-fish-1600.webp": {
+    "bytes": 155548,
+    "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+  },
+  "codex/baseline/demo/assets/collection-ornamental-fish-640.webp": {
+    "bytes": 39042,
+    "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+  },
+  "codex/baseline/demo/assets/enquiry-underwater-school-1600.webp": {
+    "bytes": 172410,
+    "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+  },
+  "codex/baseline/demo/assets/enquiry-underwater-school-640.webp": {
+    "bytes": 41050,
+    "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+  },
+  "codex/baseline/demo/assets/heritage-waterfront-1600.webp": {
+    "bytes": 372596,
+    "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+  },
+  "codex/baseline/demo/assets/heritage-waterfront-640.webp": {
+    "bytes": 76770,
+    "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+  },
+  "codex/baseline/demo/assets/hero-angelfish-1600.webp": {
+    "bytes": 143388,
+    "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+  },
+  "codex/baseline/demo/assets/hero-angelfish-640.webp": {
+    "bytes": 36188,
+    "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+  },
+  "codex/baseline/demo/assets/hero-angelfish.png": {
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+  },
+  "codex/baseline/demo/assets/highlight-angelfish-1600.webp": {
+    "bytes": 178334,
+    "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+  },
+  "codex/baseline/demo/assets/highlight-angelfish-640.webp": {
+    "bytes": 54694,
+    "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+  },
+  "codex/baseline/demo/assets/highlight-red-betta-1600.webp": {
+    "bytes": 165192,
+    "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+  },
+  "codex/baseline/demo/assets/highlight-red-betta-640.webp": {
+    "bytes": 42558,
+    "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+  },
+  "codex/baseline/demo/assets/highlight-red-plants-1600.webp": {
+    "bytes": 236558,
+    "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+  },
+  "codex/baseline/demo/assets/highlight-red-plants-640.webp": {
+    "bytes": 73170,
+    "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+  },
+  "codex/baseline/demo/assets/manifest.json": {
+    "bytes": 6056,
+    "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+  },
+  "codex/baseline/demo/build.py": {
+    "bytes": 30426,
+    "sha256": "a78cac03f0a41c6f5ff6a5c4f490b2d1baf90a0dc711c296be9620aa854d3eb3"
+  },
+  "codex/baseline/demo/favicon.svg": {
+    "bytes": 258,
+    "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+  },
+  "codex/baseline/demo/home-motion.css": {
+    "bytes": 5952,
+    "sha256": "ce6bc3ff2357b35d0144e7eb9a7f4be66b9e727dbba1a7add4461b8d7317c290"
+  },
+  "codex/baseline/demo/home-motion.js": {
+    "bytes": 3285,
+    "sha256": "221c5f6cf1f67274ead0ce7b19b37e8e057eacd4d4227e3f7d4f6c17bc54296b"
+  },
+  "codex/baseline/demo/script.js": {
+    "bytes": 6701,
+    "sha256": "0fc91c71453ebdc10278f683f6f89fe7ed865b77d285bc3e4287edda9efb71fa"
+  },
+  "codex/baseline/demo/serve.py": {
+    "bytes": 1602,
+    "sha256": "cdf58f06364636ce264bfcb7fcc3855857d028e4ce4d5714aed37cdfceb1973e"
+  },
+  "codex/baseline/demo/site_data.py": {
+    "bytes": 1804,
+    "sha256": "b765485a3add20e39b47f38aa168b558fa86bc6ecf3eb535232e726fdfa46a30"
+  },
+  "codex/baseline/demo/styles.css": {
+    "bytes": 40644,
+    "sha256": "7e9163e9cd904838b7c1f047e50c2626f3c018b6aef43ed29c252b6bd08faae0"
+  },
+  "codex/baseline/demo/tools/prepare_assets.py": {
+    "bytes": 1632,
+    "sha256": "7b23c8bd8cc1a8607eac909c6f9801dc4d175fa8524983762d535e2f88a71064"
+  },
+  "codex/demo/assets/animation-provenance.json": {
+    "bytes": 446,
+    "sha256": "d9eef2b9c9671d22456c8a378c2150c847c1f62e8017852fee2ca93cb5ea151a"
+  },
+  "codex/demo/assets/collection-aquatic-plants-1600.webp": {
+    "bytes": 352342,
+    "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+  },
+  "codex/demo/assets/collection-aquatic-plants-640.webp": {
+    "bytes": 107306,
+    "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+  },
+  "codex/demo/assets/collection-driftwood-1600.webp": {
+    "bytes": 265502,
+    "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+  },
+  "codex/demo/assets/collection-driftwood-640.webp": {
+    "bytes": 73010,
+    "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+  },
+  "codex/demo/assets/collection-ornamental-fish-1600.webp": {
+    "bytes": 155548,
+    "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+  },
+  "codex/demo/assets/collection-ornamental-fish-640.webp": {
+    "bytes": 39042,
+    "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+  },
+  "codex/demo/assets/enquiry-underwater-school-1600.webp": {
+    "bytes": 172410,
+    "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+  },
+  "codex/demo/assets/enquiry-underwater-school-640.webp": {
+    "bytes": 41050,
+    "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+  },
+  "codex/demo/assets/heritage-waterfront-1600.webp": {
+    "bytes": 372596,
+    "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+  },
+  "codex/demo/assets/heritage-waterfront-640.webp": {
+    "bytes": 76770,
+    "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+  },
+  "codex/demo/assets/hero-angelfish-1600.webp": {
+    "bytes": 143388,
+    "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+  },
+  "codex/demo/assets/hero-angelfish-640.webp": {
+    "bytes": 36188,
+    "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+  },
+  "codex/demo/assets/hero-angelfish.png": {
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+  },
+  "codex/demo/assets/highlight-angelfish-1600.webp": {
+    "bytes": 178334,
+    "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+  },
+  "codex/demo/assets/highlight-angelfish-640.webp": {
+    "bytes": 54694,
+    "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+  },
+  "codex/demo/assets/highlight-red-betta-1600.webp": {
+    "bytes": 165192,
+    "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+  },
+  "codex/demo/assets/highlight-red-betta-640.webp": {
+    "bytes": 42558,
+    "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+  },
+  "codex/demo/assets/highlight-red-plants-1600.webp": {
+    "bytes": 236558,
+    "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+  },
+  "codex/demo/assets/highlight-red-plants-640.webp": {
+    "bytes": 73170,
+    "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+  },
+  "codex/demo/assets/immersive/README.md": {
+    "bytes": 2623,
+    "sha256": "1950069fa91b9a986be687fb0555d3adf61de2e9853f5a643af4f87d07763b9a"
+  },
+  "codex/demo/assets/immersive/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "codex/demo/assets/immersive/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "codex/demo/assets/immersive/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "codex/demo/assets/immersive/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "codex/demo/assets/manifest.json": {
+    "bytes": 6056,
+    "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+  },
+  "codex/demo/build.py": {
+    "bytes": 31973,
+    "sha256": "b62f26b5730d3a44c56f089be53f03c8ce46d8c17d3294448c3c70c69bc28f72"
+  },
+  "codex/demo/favicon.svg": {
+    "bytes": 258,
+    "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+  },
+  "codex/demo/home-motion.css": {
+    "bytes": 12695,
+    "sha256": "ed571aee2ed2a12beb3602d2bb15ecd6b2f21479f697a0413e5890238c49cd72"
+  },
+  "codex/demo/home-motion.js": {
+    "bytes": 10107,
+    "sha256": "cc827afe4e891fd039b4651945e100b0425570878c4fc0349a3d0c108aa2831e"
+  },
+  "codex/demo/public/404.html": {
+    "bytes": 3704,
+    "sha256": "be7e1b2d0470f6eb44200525786012d46f32b2e80749db6a19ffeeb696032c42"
+  },
+  "codex/demo/public/assets/animation-provenance.json": {
+    "bytes": 446,
+    "sha256": "d9eef2b9c9671d22456c8a378c2150c847c1f62e8017852fee2ca93cb5ea151a"
+  },
+  "codex/demo/public/assets/collection-aquatic-plants-1600.webp": {
+    "bytes": 352342,
+    "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+  },
+  "codex/demo/public/assets/collection-aquatic-plants-640.webp": {
+    "bytes": 107306,
+    "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+  },
+  "codex/demo/public/assets/collection-driftwood-1600.webp": {
+    "bytes": 265502,
+    "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+  },
+  "codex/demo/public/assets/collection-driftwood-640.webp": {
+    "bytes": 73010,
+    "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+  },
+  "codex/demo/public/assets/collection-ornamental-fish-1600.webp": {
+    "bytes": 155548,
+    "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+  },
+  "codex/demo/public/assets/collection-ornamental-fish-640.webp": {
+    "bytes": 39042,
+    "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+  },
+  "codex/demo/public/assets/enquiry-underwater-school-1600.webp": {
+    "bytes": 172410,
+    "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+  },
+  "codex/demo/public/assets/enquiry-underwater-school-640.webp": {
+    "bytes": 41050,
+    "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+  },
+  "codex/demo/public/assets/heritage-waterfront-1600.webp": {
+    "bytes": 372596,
+    "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+  },
+  "codex/demo/public/assets/heritage-waterfront-640.webp": {
+    "bytes": 76770,
+    "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+  },
+  "codex/demo/public/assets/hero-angelfish-1600.webp": {
+    "bytes": 143388,
+    "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+  },
+  "codex/demo/public/assets/hero-angelfish-640.webp": {
+    "bytes": 36188,
+    "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+  },
+  "codex/demo/public/assets/hero-angelfish.png": {
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+  },
+  "codex/demo/public/assets/highlight-angelfish-1600.webp": {
+    "bytes": 178334,
+    "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+  },
+  "codex/demo/public/assets/highlight-angelfish-640.webp": {
+    "bytes": 54694,
+    "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+  },
+  "codex/demo/public/assets/highlight-red-betta-1600.webp": {
+    "bytes": 165192,
+    "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+  },
+  "codex/demo/public/assets/highlight-red-betta-640.webp": {
+    "bytes": 42558,
+    "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+  },
+  "codex/demo/public/assets/highlight-red-plants-1600.webp": {
+    "bytes": 236558,
+    "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+  },
+  "codex/demo/public/assets/highlight-red-plants-640.webp": {
+    "bytes": 73170,
+    "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+  },
+  "codex/demo/public/assets/immersive/README.md": {
+    "bytes": 2623,
+    "sha256": "1950069fa91b9a986be687fb0555d3adf61de2e9853f5a643af4f87d07763b9a"
+  },
+  "codex/demo/public/assets/immersive/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "codex/demo/public/assets/immersive/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "codex/demo/public/assets/immersive/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "codex/demo/public/assets/immersive/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "codex/demo/public/assets/manifest.json": {
+    "bytes": 6056,
+    "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+  },
+  "codex/demo/public/collections/aquatic-plants/index.html": {
+    "bytes": 8235,
+    "sha256": "5d095b1f58077193e42dab6072e08ce0344fa8ec94475f9936701216e8883423"
+  },
+  "codex/demo/public/collections/driftwood/index.html": {
+    "bytes": 8304,
+    "sha256": "20a494bee42e6ca30b2ad4be2eae339d98d5de9fa0c8df02dd5ce40a08b6540d"
+  },
+  "codex/demo/public/collections/index.html": {
+    "bytes": 7869,
+    "sha256": "a8ab87ddf8a88ff9e7a695c539b7179be12357b803d569066389e91e009b5907"
+  },
+  "codex/demo/public/collections/ornamental-fish/index.html": {
+    "bytes": 8890,
+    "sha256": "52b5f3e23d11c521ac07ab90a588f42255c84d64920ceff635b8d45c330d3413"
+  },
+  "codex/demo/public/contact/index.html": {
+    "bytes": 7350,
+    "sha256": "e3c6fb5b5b1e9ee73d1ff2741e72ca2f72a3b9119d24f47be13d82d81fac6a16"
+  },
+  "codex/demo/public/favicon.svg": {
+    "bytes": 258,
+    "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+  },
+  "codex/demo/public/home-motion.css": {
+    "bytes": 12695,
+    "sha256": "ed571aee2ed2a12beb3602d2bb15ecd6b2f21479f697a0413e5890238c49cd72"
+  },
+  "codex/demo/public/home-motion.js": {
+    "bytes": 10107,
+    "sha256": "cc827afe4e891fd039b4651945e100b0425570878c4fc0349a3d0c108aa2831e"
+  },
+  "codex/demo/public/index.html": {
+    "bytes": 6042,
+    "sha256": "880cf1199c3b5f03bcd33d518ca6b8e0845d0687f98e8986a4c67744d187cb9c"
+  },
+  "codex/demo/public/our-story/index.html": {
+    "bytes": 6263,
+    "sha256": "f683681db15668c2a625841d94d8f308d8ea62757d2c6d7099ed904c2ffe43c5"
+  },
+  "codex/demo/public/quality/index.html": {
+    "bytes": 8014,
+    "sha256": "417a34e204814cee3fa13b13b8658608222744cff1d24aff40bfcac8f7e877f0"
+  },
+  "codex/demo/public/script.js": {
+    "bytes": 6701,
+    "sha256": "0fc91c71453ebdc10278f683f6f89fe7ed865b77d285bc3e4287edda9efb71fa"
+  },
+  "codex/demo/public/styles.css": {
+    "bytes": 40644,
+    "sha256": "7e9163e9cd904838b7c1f047e50c2626f3c018b6aef43ed29c252b6bd08faae0"
+  },
+  "codex/demo/script.js": {
+    "bytes": 6701,
+    "sha256": "0fc91c71453ebdc10278f683f6f89fe7ed865b77d285bc3e4287edda9efb71fa"
+  },
+  "codex/demo/serve.py": {
+    "bytes": 1602,
+    "sha256": "cdf58f06364636ce264bfcb7fcc3855857d028e4ce4d5714aed37cdfceb1973e"
+  },
+  "codex/demo/site_data.py": {
+    "bytes": 1804,
+    "sha256": "b765485a3add20e39b47f38aa168b558fa86bc6ecf3eb535232e726fdfa46a30"
+  },
+  "codex/demo/styles.css": {
+    "bytes": 40644,
+    "sha256": "7e9163e9cd904838b7c1f047e50c2626f3c018b6aef43ed29c252b6bd08faae0"
+  },
+  "codex/demo/tools/prepare_assets.py": {
+    "bytes": 1632,
+    "sha256": "7b23c8bd8cc1a8607eac909c6f9801dc4d175fa8524983762d535e2f88a71064"
+  },
+  "codex/evidence/cli-events.jsonl": {
+    "bytes": 433050,
+    "sha256": "7804e81b5041a78f32f5518918d9bce6ab2c6a567cf5d904d88b9aa9d30dd0da"
+  },
+  "codex/evidence/cli-stderr.log": {
+    "bytes": 17788,
+    "sha256": "36da3afc3c9b57c1b1431272f28c9f01f16ba231ed9353e741bf2b1ff0e109eb"
+  },
+  "codex/evidence/controller-checks.cjs": {
+    "bytes": 14567,
+    "sha256": "d986ca88d6cac2d90abef8bf997711e321965c6305d20e28f7363772849d8578"
+  },
+  "codex/evidence/controller-checks.json": {
+    "bytes": 1895,
+    "sha256": "47e52f49a17108aa906d541573bf7de4c4544f1acce8bdb61daa62aaaa2d7d45"
+  },
+  "codex/evidence/delivery.md": {
+    "bytes": 446,
+    "sha256": "65336d80f0530f37d362f0e7309c569f755a47acaa36201c144c14e614eecd36"
+  },
+  "codex/evidence/design-plan.md": {
+    "bytes": 7928,
+    "sha256": "277852b515508b9d21259da4d6360a4fce5187de9787207d23a64e74ad189202"
+  },
+  "codex/evidence/immutable-before.json": {
+    "bytes": 5581,
+    "sha256": "f62783bec061060e30655ca7103cbe3851b46217cf217e9d8ae14c4bc6954084"
+  },
+  "codex/evidence/process-run.json": {
+    "bytes": 1482,
+    "sha256": "cd8171531e8af13bee6255f09ef98cea361d6b8e51902f7733e6558c76188723"
+  },
+  "codex/evidence/self-review.md": {
+    "bytes": 8159,
+    "sha256": "bdd1064c79b782851913610ccf1b70963d63a2a74457b9d44f85d0effbe04e95"
+  },
+  "codex/evidence/source-checks.json": {
+    "bytes": 11910,
+    "sha256": "b85743f0fcdc310a5f8fff4e81d2ace25fa19d9ec8a512b66a9b427d3e403e7e"
+  },
+  "codex/evidence/stage-2/cli-events.jsonl": {
+    "bytes": 381469,
+    "sha256": "c0ad03fbe4e42ca24a90215a071ed358a5f09324517c1081ae919846fcdea35c"
+  },
+  "codex/evidence/stage-2/cli-stderr.log": {
+    "bytes": 18628,
+    "sha256": "eccc036ad251ccfc7f732158d5555cb34b9d513970334e0819d1103375c30d09"
+  },
+  "codex/evidence/stage-2/controller-checks.cjs": {
+    "bytes": 15875,
+    "sha256": "37b6fa9e7999e1be5223c2bf46a3a71f078d9e33bf0a8bd3bded7cd646f63d8d"
+  },
+  "codex/evidence/stage-2/controller-checks.json": {
+    "bytes": 2059,
+    "sha256": "884ff8c803f1079de001ba22e8483ce4cba8c2ef1fdabb2c6984a8d3532c2078"
+  },
+  "codex/evidence/stage-2/delivery.md": {
+    "bytes": 454,
+    "sha256": "31c7b479d4976b54a45b0f6410d947b3e818d7f8fa2486ecec403552c266e835"
+  },
+  "codex/evidence/stage-2/demo-before.json": {
+    "bytes": 7948,
+    "sha256": "3e35242a9aa2e3088aecbf44e53601201bd5cb71578d6b7d65c6ed1253529ef7"
+  },
+  "codex/evidence/stage-2/design-plan.md": {
+    "bytes": 6625,
+    "sha256": "5821b4279b0ac69a94e0ace686d6ffe976326ff76edbb45fa868180d5eb92092"
+  },
+  "codex/evidence/stage-2/final-checks.json": {
+    "bytes": 957,
+    "sha256": "d9f0d90ba582dcb0557cba76ec5755aa116204ecfc7c6791a131adca88881ccf"
+  },
+  "codex/evidence/stage-2/geometry-checks.json": {
+    "bytes": 9193,
+    "sha256": "b6460bcd7cd7ca75248c1371a4a1c315557a707e2b4bbe92dbb7c32416ae8a32"
+  },
+  "codex/evidence/stage-2/geometry-checks.py": {
+    "bytes": 6139,
+    "sha256": "dd0e84d8b461d252a537bf15b37399fa9e834e34d4409995998461ce1496ade9"
+  },
+  "codex/evidence/stage-2/immutable-before.json": {
+    "bytes": 7595,
+    "sha256": "9a1210d3a09bc5e8da64195c4580a3c42be7d08e88aefc097a8b1592c76f5581"
+  },
+  "codex/evidence/stage-2/media-checks.json": {
+    "bytes": 2802,
+    "sha256": "eda9b98ad952b9d648329ff1a3f8caf7e515ac3aecd8711520442b2da7c360bb"
+  },
+  "codex/evidence/stage-2/media-checks.py": {
+    "bytes": 3739,
+    "sha256": "32208c6d26aff4a39115a07d46d2c0eb4f465b67ae0d9dcdce7ca4474ee3d06d"
+  },
+  "codex/evidence/stage-2/process-run.json": {
+    "bytes": 1518,
+    "sha256": "7647f3b6c4addeed7ef003a257d9afa9989d9d0d43721229cbdfaeee62910c81"
+  },
+  "codex/evidence/stage-2/self-review.md": {
+    "bytes": 9323,
+    "sha256": "bccff05f115cc62b2e41cb5ae117926262ab51eb11de24118be5ef3ee61d7afd"
+  },
+  "codex/evidence/stage-2/source-checks.json": {
+    "bytes": 13948,
+    "sha256": "89407e57e5ca27f0a307a42eb62186335a1f0acf0b43446c5d66d5c170594390"
+  },
+  "codex/evidence/stage-2/verify_stage2.py": {
+    "bytes": 11207,
+    "sha256": "89acff34f2bd8b0fd27740b0661e8e26ec7d3704bd86b773a83e2ee4a72780b7"
+  },
+  "codex/evidence/stage-3/cli-events.jsonl": {
+    "bytes": 339949,
+    "sha256": "bed8c7f8e7307280cff2f9804023b93c9dab39b816c65519a8e84e4e3c5551d0"
+  },
+  "codex/evidence/stage-3/cli-stderr.log": {
+    "bytes": 8507,
+    "sha256": "d9dddd20a1096db5570a8d871bded662cf2422ff3f58c8f5cdefb70fd75d1591"
+  },
+  "codex/evidence/stage-3/controller-checks.cjs": {
+    "bytes": 17610,
+    "sha256": "5a3b78e372d5a1da848bd6d0a42e331022d099c2d95997cf99d78e3871d2e69d"
+  },
+  "codex/evidence/stage-3/controller-checks.json": {
+    "bytes": 2363,
+    "sha256": "f63acea7bc0641f10b88af8a0a1dbbe2c7f3a686a5aa55841fc9425f1270e9af"
+  },
+  "codex/evidence/stage-3/delivery.md": {
+    "bytes": 448,
+    "sha256": "9e8767e04c742eabfabec4376fd68c3c38f9a66aadb7c0fb8ddfa2d0ebb8567d"
+  },
+  "codex/evidence/stage-3/demo-before.json": {
+    "bytes": 8396,
+    "sha256": "79c21e2b5976f41c75357db860ebccc9b5c2580b982c1a48204fa4904fa5936a"
+  },
+  "codex/evidence/stage-3/design-plan.md": {
+    "bytes": 4429,
+    "sha256": "80c948141ecc3a49c6c11033e81317fccc478b60d9977b1b562cf79d039ef439"
+  },
+  "codex/evidence/stage-3/final-checks.json": {
+    "bytes": 937,
+    "sha256": "f6921ac7d537abc5110db9b0cdc371273ad4215c677f75519a8ddbce4af4dac6"
+  },
+  "codex/evidence/stage-3/final-checks.py": {
+    "bytes": 4168,
+    "sha256": "8da38346db55c5ba9531baae8302752e9b96d597afa9cedb3a3fa708237138be"
+  },
+  "codex/evidence/stage-3/geometry-checks.json": {
+    "bytes": 21008,
+    "sha256": "6cca36b537750d4b7f748696ec7af5534ec71faebc5156cac124efd1bb576dc3"
+  },
+  "codex/evidence/stage-3/geometry-checks.py": {
+    "bytes": 9524,
+    "sha256": "f0f2f6b7991afea90d7c0d78e09d4207667bd390f9452623d4a549f013e17b1d"
+  },
+  "codex/evidence/stage-3/immutable-before.json": {
+    "bytes": 9620,
+    "sha256": "5add6676d8d16dd41bdfc9f91f4600fdc28b92120161fecd08a74aa32ff7cb04"
+  },
+  "codex/evidence/stage-3/process-run.json": {
+    "bytes": 1519,
+    "sha256": "bd85d41a276f1ebea20bb3065fc6825a90169c2fe3cc724c87b5e66424554db7"
+  },
+  "codex/evidence/stage-3/self-review.md": {
+    "bytes": 8393,
+    "sha256": "df1540f82a23ca09126f7f4554f56adeea8b255dcb998d2cf955789885987390"
+  },
+  "codex/evidence/stage-3/source-checks.json": {
+    "bytes": 14730,
+    "sha256": "8cfec57b935452cda8ec4a43b5fc43518dd19c357b49b80aa51cfcf530de7b81"
+  },
+  "codex/evidence/stage-3/verify_stage3.py": {
+    "bytes": 12328,
+    "sha256": "603a48b397ea7fbed5acc2796df7c44200619f240fdad5e0cc6e84859f3fcb97"
+  },
+  "codex/evidence/stage-4/attribute-check.cjs": {
+    "bytes": 2741,
+    "sha256": "a077610ace0c46db8ea32068a15ffab9b237f4827cf9211f60c154ff6e9be4a3"
+  },
+  "codex/evidence/stage-4/attribute-results.json": {
+    "bytes": 1236,
+    "sha256": "906f867309ace60311966c6e24261e96bb791f62c376776bda680fa2c1507839"
+  },
+  "codex/evidence/stage-4/cli-events.jsonl": {
+    "bytes": 35754,
+    "sha256": "750d2a8ad58c59ff2cbcb0a5a37c7c29eae80101ceef47662fca430387b950f1"
+  },
+  "codex/evidence/stage-4/cli-stderr.log": {
+    "bytes": 12718,
+    "sha256": "2a0390863eba938c6d3136702fc5d727ac976a584b5b43bdcc3a4d4e208190b7"
+  },
+  "codex/evidence/stage-4/delivery.md": {
+    "bytes": 368,
+    "sha256": "feeb95d120cbbab28a8f6953436c584eb187c38d6fdd08a3d14b478f97bed02a"
+  },
+  "codex/evidence/stage-4/design-plan.md": {
+    "bytes": 835,
+    "sha256": "361c6aa353d1f7c2dc17a262720f4d360667c8855c9553ecabfb013d21b2905d"
+  },
+  "codex/evidence/stage-4/process-run.json": {
+    "bytes": 1288,
+    "sha256": "b494d04701a7898e4bba2b52d268948616859d93c51362221ed75c02ad2acd6c"
+  },
+  "codex/evidence/stage-4/self-review.md": {
+    "bytes": 1501,
+    "sha256": "40647f9807e93518e71894198c533ad9f312027d46a135cfba6360e22a7f1aa4"
+  },
+  "codex/evidence/stage-5/check.py": {
+    "bytes": 2715,
+    "sha256": "8879664460b88416be71f5656d57671c2d1897eb37fff797622ae1503cd07970"
+  },
+  "codex/evidence/stage-5/cli-events.jsonl": {
+    "bytes": 73153,
+    "sha256": "81810968a006504b7a09881e1b0136867ace175db49230af527254e7f330cca3"
+  },
+  "codex/evidence/stage-5/cli-stderr.log": {
+    "bytes": 12927,
+    "sha256": "c42c85e6b6a70d7a2d033172cf619d812b921dcc0689ac4d12666082d97e21f4"
+  },
+  "codex/evidence/stage-5/delivery.md": {
+    "bytes": 419,
+    "sha256": "1193abea2c615cef70a3b12af6a15660404cd807123c92fe9c5126293d3520a5"
+  },
+  "codex/evidence/stage-5/design-plan.md": {
+    "bytes": 896,
+    "sha256": "561bea997bb63450cf8382125d0998791921252fbef53ba28d52569f3725cc92"
+  },
+  "codex/evidence/stage-5/process-run.json": {
+    "bytes": 1288,
+    "sha256": "87db6399961bf23f63b07144b0966b698c88d09586c313d34cdee860d2dd8557"
+  },
+  "codex/evidence/stage-5/results.json": {
+    "bytes": 644,
+    "sha256": "6272408cc01564d493f772e98b7f53d754fe2be22db6979b1f3cf2565e418c50"
+  },
+  "codex/evidence/stage-5/self-review.md": {
+    "bytes": 1900,
+    "sha256": "13e8f0c05f2b9038bcf9618bc35ffd31ac5ac40a4c3cfd5cbecbac7cc9220c27"
+  },
+  "codex/evidence/verify_stage1.py": {
+    "bytes": 10265,
+    "sha256": "c13770b73b401b4e7bf244ee42e00a4d612f5fdb9fa42f7112c37b773c083a3f"
+  },
+  "codex/input/immersive-home/BRIEF.md": {
+    "bytes": 19366,
+    "sha256": "c4e6cd5254e982f9f02125c77f7574d343143b85662604cd6d2e759297e7c1dd"
+  },
+  "codex/input/immersive-home/COMPARISON.md": {
+    "bytes": 7075,
+    "sha256": "6c697bcc3a3d254ea6b7cafc70c73728e73a864d3fbe010e7e01ecd2f2966ac2"
+  },
+  "codex/input/immersive-home/STAGE.md": {
+    "bytes": 3486,
+    "sha256": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c"
+  },
+  "codex/input/mcp-empty.json": {
+    "bytes": 18,
+    "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+  },
+  "codex/input/media/landscape-generation-frame.png": {
+    "bytes": 1380251,
+    "sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619"
+  },
+  "codex/input/media/landscape-poster.webp": {
+    "bytes": 136226,
+    "sha256": "1d156452355d2311f998ae7a9056bdded66bddffb7a05158b1f36c27f3dac35e"
+  },
+  "codex/input/media/portrait-generation-frame.png": {
+    "bytes": 1283769,
+    "sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96"
+  },
+  "codex/input/media/portrait-poster.webp": {
+    "bytes": 112686,
+    "sha256": "8c2187523c89cdede0a1e8b7fd2eec51dfa57bece5a61c011660caed755c39c9"
+  },
+  "codex/input/media/poster-manifest.json": {
+    "bytes": 553,
+    "sha256": "c78b2534ad1502f8d3311725f2a53f065236d5e0ca48b48016054f052f96eefc"
+  },
+  "codex/input/reference/desktop-v1.png": {
+    "bytes": 2371655,
+    "sha256": "3403272a0cfa5a918760a6746b912bf5a0f530dded0864e1ec1b9a71abea96e9"
+  },
+  "codex/input/reference/mobile-v1.png": {
+    "bytes": 2060442,
+    "sha256": "9232370d0b3ecf5169e25f4aa3a008e1938b8c3e3d3629d67d8068d609c5c6e5"
+  },
+  "codex/input/skills/cli-web-design-director/SKILL.md": {
+    "bytes": 4990,
+    "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+  },
+  "codex/input/skills/cli-web-design-director/agents/openai.yaml": {
+    "bytes": 272,
+    "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+  },
+  "codex/input/skills/cli-web-design-director/references/cli-operation.md": {
+    "bytes": 4771,
+    "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+  },
+  "codex/input/skills/cli-web-design-director/references/design-review.md": {
+    "bytes": 4605,
+    "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+  },
+  "codex/input/skills/cli-web-design-director/references/prompt-patterns.md": {
+    "bytes": 3259,
+    "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+  },
+  "codex/input-stage2/BRIEF.md": {
+    "bytes": 3123,
+    "sha256": "5ec912f2c7018dcd6e43763ee7b8a63e4d2d11890fdc3b009d08ebead41a66be"
+  },
+  "codex/input-stage2/PROMPT.txt": {
+    "bytes": 552,
+    "sha256": "b63994da18db8f7b012b55a13a4ea74c30d1a2402dfe9c05bfa898bd2c82ed0f"
+  },
+  "codex/input-stage2/media/landscape-poster.webp": {
+    "bytes": 121156,
+    "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+  },
+  "codex/input-stage2/media/landscape.mp4": {
+    "bytes": 1325946,
+    "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+  },
+  "codex/input-stage2/media/manifest.json": {
+    "bytes": 6454,
+    "sha256": "a811fd2cdd403476c6e9a18ddc39b1b200308792447a138547fd408464eeccdc"
+  },
+  "codex/input-stage2/media/portrait-poster.webp": {
+    "bytes": 93462,
+    "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+  },
+  "codex/input-stage2/media/portrait.mp4": {
+    "bytes": 1536090,
+    "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+  },
+  "codex/input-stage3/BRIEF.md": {
+    "bytes": 2151,
+    "sha256": "20ebfef620fb0120965523fb51a468c011861c65ff9eb40e9470d18a4afa37e9"
+  },
+  "codex/input-stage3/PROMPT.txt": {
+    "bytes": 435,
+    "sha256": "5cbd0b904e134a06d5dd09115f6680c02b844ad91eda8df654f2bdada99ecef6"
+  },
+  "codex/input-stage4/BRIEF.md": {
+    "bytes": 1757,
+    "sha256": "2efb043b851e4aff036dc1f1ae34e2632dd515b72fad37c7561f3e7b313bf014"
+  },
+  "codex/input-stage4/PROMPT.txt": {
+    "bytes": 440,
+    "sha256": "27a32f6f840ccac2963a4491282a92fde7c869030aaba3a8b2dfbb1bb25826cf"
+  },
+  "codex/input-stage5/BRIEF.md": {
+    "bytes": 1580,
+    "sha256": "e785a97036983fc3b14e51827b978163af19b05f1063d56b538bd0592948e62d"
+  },
+  "codex/input-stage5/PROMPT.txt": {
+    "bytes": 427,
+    "sha256": "5f7fe77340a707fa9352eaaa8ec39d1b8d6b7ce10860c01a235c455399be4830"
+  }
+}

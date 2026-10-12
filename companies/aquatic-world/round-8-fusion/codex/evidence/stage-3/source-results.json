@@ -1,0 +1,33 @@
+{
+  "passed": [
+    "Only root README and Home source/built CSS changed among all captured files",
+    "All new files stay within stage-3 evidence",
+    "Frozen inputs, own baseline, root contracts and original plus stage-2 evidence unchanged",
+    "Recorded pre-edit Home CSS matches initial integrity hash",
+    "Home source and rebuilt stylesheet match byte-for-byte",
+    "Saved patch describes the exact current stylesheet delta",
+    "Entire stage-2 compact header/menu block remains byte-identical",
+    "All existing typography declarations remain unchanged",
+    "Hero/header/media/motion anchor and primary sizing declarations retained",
+    "Both collection grids reserve content-sized outer tracks and a shrinkable middle",
+    "Lower Home reading content can break overlong words",
+    "Home action labels have bounded widths and natural wrapping",
+    "Footer brand is bounded and retains whole-word wrapping",
+    "Footer navigation can shrink and wrap within its parent",
+    "Patch adds no font shrinking, hiding, clipping, runtime hooks or global overflow mask",
+    "All eight content routes plus 404 retain exact HTML bytes after rebuilding",
+    "Inner pages retain shared presentation and do not load Home resources",
+    "Shared styles, controllers, route/content sources, serve/build tools and assets unchanged",
+    "Five disclosure destinations, current page, native details and nonmodal semantics retained",
+    "Category links and secondary local enquiry destination retained",
+    "Four runtime films/posters match frozen input bytes in source and built output"
+  ],
+  "captured_files": 163,
+  "protected_files": 87,
+  "changed": [
+    "README.md",
+    "demo/home-motion.css",
+    "demo/public/home-motion.css"
+  ],
+  "limits": "Source, built-output and hash inspection only. Text-node ink fit, rendering, focus, scrolling and ordinary/enlarged composition remain unverified pending coordinator browser review."
+}

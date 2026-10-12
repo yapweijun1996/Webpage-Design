@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "Header measurement follows synthetic reflow on resize/observer/open without media reload or page movement",
+    "Menu suspends and hides utility; eligible close resumes existing source",
+    "Manual Pause remains retained after disclosure closes",
+    "Policy poster default survives Menu without downloading film: {\"reduced\":true}",
+    "Policy poster default survives Menu without downloading film: {\"saveData\":true}",
+    "All five link focus targets stay in disclosure; ordinary Tab, Escape return and focus-exit dismissal remain",
+    "Outside/destination clicks preserve activation and desktop breakpoint restores corresponding focus"
+  ],
+  "environment": "Node vm, actual built scripts, DOM/event/media doubles; helper reused from own original evidence",
+  "limits": "Synthetic measurements only: no CSS rendering, native details default action, actual tab traversal, text enlargement, scroller reachability or playback verified."
+}

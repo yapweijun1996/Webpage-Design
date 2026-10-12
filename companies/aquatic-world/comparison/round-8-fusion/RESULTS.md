@@ -1,0 +1,47 @@
+# Round 8 — Fusion Home Actual-Site Review
+
+Reviewed 2026-10-12. Both native CLI implementations and two common bounded correction stages are complete. The coordinator reviewed the real rendered sites through CUA/Chromium. Human creative acceptance remains open; the case stays `building`. External delivery is recorded separately in [PUBLICATION.md](PUBLICATION.md).
+
+## Design judgement
+
+**Claude is a slight preference for this final phone experience; desktop is close, and film immersion is a tie.** Both now use the same stronger desktop wordmark, regular navigation, compact heading, one gold arrival action and outlined phone Menu. Both have an opaque, top-anchored disclosure; the old Codex centred/ghosted panel is gone. This evaluates the two recorded CLI workflows and different own-code baselines, not general model capability.
+
+At normal 390×844, Codex places the heading at y506.2 and CTA at y685.1–737.1; Claude uses y512.7 and y692–744. Both keep the complete fish/fin composition above readable copy, align copy and action at x20, and leave a usable next step in the first viewport. The difference is small. Claude's icon-before-label Menu reads more clearly to this reviewer; Codex uses the same outlined target with the icon after its label. At 844×390, Claude's CTA ends at y328.8, while Codex ends at y392.0 and requires slight scrolling. Short windows are allowed to scroll, but Claude leaves more comfortable space. At enlarged text, Claude's more compact disclosure is another small advantage.
+
+Desktop 1440×900 is close: both have a 32px wordmark, regular 16px navigation, 72px heading and 56px CTA. Heading/CTA top: Codex307.2/564.7, Claude312.1/569.7. Codex retains slightly closer heading tracking. Neither creates a visibly stronger film: both use the exact same six-second edited forward/return loops. The shot remains calm and subtle; this foreground revision does not establish a new cinematic shot or user satisfaction.
+
+[Compare actual stills](preview.html). [Codex phone](evidence/codex-390x844-final.jpg), [Claude phone](evidence/claude-390x844-final.jpg), [Codex desktop](evidence/codex-1440x900-final.jpg), [Claude desktop](evidence/claude-1440x900-final.jpg). Independent films/captures are not frame-synchronized. Generated concepts are references; these JPEGs are native browser evidence.
+
+## Equal inputs and native execution
+
+Seventeen common input files and four worker contracts match. Both received the three exact PNG references and four current media bytes. Each started from its own round-7 source, with an immutable baseline. [Input manifest](input-manifest.json), [starting conditions](starting-conditions.json), [final frozen checks](evidence/frozen-checks-final.json) and [reviewed CLI audit](evidence/cli-audit.json) retain the evidence. Previous round-7 files and initial/stage-2 worker evidence remain unchanged.
+
+Both ran high effort with exact model requests: Codex `gpt-6.1-sol`, Claude `claude-opus-5-5`. Claude's native init exposes that serving model with four allowed tools and no MCP servers. Codex's JSON does not expose an independently verified serving ID; its exact launch request is recorded. Codex 0.162.1 and Claude 2.1.289 were recorded at launch. All six native runs exited 0. Initial duration: Codex 1380.27s, Claude 617.53s; stage 2:414.58s/390.30s; stage 3:375.31s/392.26s. These task-specific times are not normalized capability or billing benchmarks. Native Claude dollar metadata is not a verified invoice and Codex has no comparable dollar field. No new image/video generation occurred.
+
+Codex attached the three PNGs natively; Claude Read inspected the same PNGs and both clean posters. Tool modes, account conditions and own-code baselines differ. Prompt restrictions plus Bash are not equivalent OS filesystem/network isolation. Raw transcripts remain private and ignored; reviewed metadata contains no credentials. The coordinator built, observed, packaged and published; it did not edit either worker's product source.
+
+## Corrections and verification
+
+The original brief and common [stage2 feedback](stage-2/BRIEF.txt) and [stage3 feedback](stage-3/BRIEF.txt) are retained. In a temporary 200% computed-font/line-height stress test, Claude's original brand pushed Menu outside the viewport; Codex retained controls but broke the brand inside words. Both received the same correction. Subsequent full-Home inspection found Codex enlarged text-arrow/heading ink overflow and Claude nowrap enquiry/footer overflow. Both received the same final correction. Each changed its own Home CSS; inner presentation, controllers, routes, Contact and media were preserved.
+
+| Actual-site check | Observed final result / evidence |
+| --- | --- |
+| 13 ordinary viewports per candidate | 26 rendered observations, no horizontal overflow. At390×844,360×800,320×800 the full arrival CTA fits. Near-square/short windows may scroll. [Final matrix](evidence/viewport-matrix-final.json) |
+| Normal phone Menu | Both panels end around369px, above the heading. Brand/control anchors and heading/CTA remain unchanged on opening; opaque coverage prevents ghost text. [Menu/motion record](evidence/normal-menu-motion-final.json) |
+| Enlarged and short navigation | At390×844,320×844,320×375, complete brand/Menu/Close remain reachable. Five Tab destinations are usable; the short panel scrolls internally. Tab into page content closes it. No enlarged text-node Range or document-width overflow in the final full Home. [Text reflow](evidence/text-reflow-final.json) |
+| Nonmodal state and intent | Escape returns focus to Menu. Manual Pause survives open/close and reload; eligible close resumes. Real Menu→Contact→Back returns closed. No trap or body lock. Source and actual traversal reviewed |
+| Scene continuity | Film remains fixed at y0 through arrival, collection and footer; time advances and only one source resource loads while scrolling. [Scene record](evidence/scene-continuity-final.json), [Codex footer](evidence/codex-mobile-footer-final.jpg), [Claude footer](evidence/claude-mobile-footer-final.jpg) |
+| Actual playback and joins | Four native screencasts cover three observed clock wraps each; full dimensions verified. No abrupt scene reset/black flash seen in sampled joins. [Recording metadata](evidence/codex-mobile-full-playback.json) |
+| Reduced motion / no JS | Initial reduced-motion state has no attached film or MP4 request; explicit Play loads film. With script execution disabled, Codex native disclosure and Claude visible links reach independent Contact. [Policy record](evidence/policy-records.json) |
+| Independent pages and Contact | Both eight pages+404 directly loaded/refreshed; inner pages have no video. Actual Home→Collections→Fish→Contact, required validation, four-group local preview, Edit/Clear exercised. Network observation during preview:0 requests. Plants/Driftwood context and Back/Forward also pass. [Routes](evidence/route-records.json), [contexts](evidence/category-contexts.json) |
+| Publication package | Disposable source rebuilds preserve runtime CSS/JS/media bytes;16 content pages,404s and679 local references resolve beneath `/Webpage-Design/`. Browser prefix navigation and deferred video URLs checked. Final public verification is separate |
+
+Viewport set:1440×900,1280×800,1120×800,1119×800,1024×768,768×1024,390×844,360×800,320×800,844×390,667×375,900×900,500×500. Navigation switches below1120 independently of aspect-only film selection. Standard-phone first-screen fit does not require short/square windows to force unreadably small text.
+
+Worker source/controller counts are documented separately: initial Codex42 assertions/21 scenario groups, Claude126 source/68 controller checks; stage2 Codex18/7 and Claude126 plus18 focused checks; stage3 Codex21 and Claude126 plus25 focused checks. They are unequal suites and are not quality scores. The coordinator's equal real-browser observations provide rendered evidence.
+
+[Codex phone recording](evidence/codex-mobile-full-playback.mp4), [Claude phone recording](evidence/claude-mobile-full-playback.mp4), [Codex desktop recording](evidence/codex-desktop-full-playback.mp4), [Claude desktop recording](evidence/claude-desktop-full-playback.mp4). Recordings precede the final lower-content reflow patch; media, playback controller and ordinary arrival composition remained unchanged, then final geometry and full-Home behavior were rechecked. Encoding retains real frame timestamps with H.264 compression; no synthesized motion, smoothing or crop. One still-state capture was rejected and replaced after explicit Play; its summary remains. An encoder assertion initially expected an old list viewport shape; it was corrected to the captured `{w,h}` schema and exact pixel dimensions verified. No product assertion was weakened.
+
+## Limits
+
+The 200% stress test doubles pre-captured computed sizes once on HTML elements; it is an injected text-resizing check, not native browser zoom. All temporary font/media/script emulations were restored. Physical iOS/Android, assistive technology, full moving-frame contrast certification and native live Save-Data preference changes were not run in this round. Unchanged data-saving/error/autoplay/hidden-tab logic has bounded worker coverage and prior historical browser evidence, not a new physical-device claim. No production enquiry backend exists. No pixel-perfect concept replication, general model ranking or human creative approval is asserted.

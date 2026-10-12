@@ -1,0 +1,22 @@
+PASS: Menu suspends and hides utility; closing resumes existing source without changing scroll or timeline
+PASS: Manual Pause survives menu, hidden tab and pageshow; session retention and explicit Resume work
+PASS: Policy poster default without film download, explicit opt-in and menu intent: {"reduced":true}
+PASS: Policy poster default without film download, explicit opt-in and menu intent: {"saveData":true}
+PASS: Policy poster default without film download, explicit opt-in and menu intent: {"retained":"policy"}
+PASS: Policy enabled during playback stops; disabling it or closing Menu never silently cancels stop
+PASS: Hidden tab/pagehide suspend, eligible visibility/pageshow resume; hidden initial tab attaches nothing
+PASS: Escape returns focus, Tab/Shift+Tab are not intercepted, focus exit closes without stealing focus
+PASS: Disclosure top follows measured header growth on resize/observer/open with no movie or scroll change
+PASS: Outside and destination clicks dismiss while preserving ordinary activation; desktop breakpoint returns matching focus
+PASS: Late pending play completion cannot cancel menu suspension or manual Pause
+PASS: Autoplay rejection yields explicit Play retry; unsupported source preserves matching poster and hides utility
+PASS: Decode/buffering/poster fallbacks and focus recovery do not introduce new playback intent
+PASS: Orientation selects exact HTML-owned rebased sources; changing while paused defers new film until opt-in
+PASS: Disabled storage still respects manual Pause; scrolling does not reload or restart film
+PASS: Home bypasses shared modal-era menu wiring; inner menu still retains baseline Escape behavior
+PASS: Contact category query context retained and unknown value ignored: ornamental-fish
+PASS: Contact category query context retained and unknown value ignored: aquatic-plants
+PASS: Contact category query context retained and unknown value ignored: driftwood
+PASS: Contact category query context retained and unknown value ignored: invalid
+PASS: Contact validates required fields, email validity and project limits; safe local preview/Edit/Clear retains four groups
+21 controller scenarios passed; these are logic checks only.

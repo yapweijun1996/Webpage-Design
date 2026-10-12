@@ -1,0 +1,8 @@
+PASS: Header measurement follows synthetic reflow on resize/observer/open without media reload or page movement
+PASS: Menu suspends and hides utility; eligible close resumes existing source
+PASS: Manual Pause remains retained after disclosure closes
+PASS: Policy poster default survives Menu without downloading film: {"reduced":true}
+PASS: Policy poster default survives Menu without downloading film: {"saveData":true}
+PASS: All five link focus targets stay in disclosure; ordinary Tab, Escape return and focus-exit dismissal remain
+PASS: Outside/destination clicks preserve activation and desktop breakpoint restores corresponding focus
+7 focused controller scenario groups passed; logic only.

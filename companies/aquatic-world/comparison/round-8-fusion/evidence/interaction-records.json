@@ -1,0 +1,297 @@
+[
+  {
+    "candidate": "claude",
+    "scenario": "manual Pause survives menu open/Escape",
+    "pass": true,
+    "states": {
+      "paused": true,
+      "open": true,
+      "closed": true
+    },
+    "copyShift": {
+      "title": 0,
+      "cta": 0
+    }
+  },
+  {
+    "candidate": "codex",
+    "scenario": "temporary computed-font 200% scaling",
+    "method": "font size and px line-height doubled for each HTML element; reload restores",
+    "overflow": true,
+    "closeVisible": true,
+    "layout": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 187.1875,
+        "display": "flex",
+        "font": "32px",
+        "h": 187.1875,
+        "letterSpacing": "normal",
+        "lineHeight": "51.2px",
+        "position": "static",
+        "w": 140,
+        "weight": "400",
+        "x": 20,
+        "y": 0
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 1218.1875,
+        "display": "inline-flex",
+        "font": "34px",
+        "h": 128,
+        "letterSpacing": "normal",
+        "lineHeight": "51px",
+        "position": "static",
+        "w": 350,
+        "weight": "600",
+        "x": 20,
+        "y": 1090.1875
+      },
+      "details": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 126.59375,
+          "display": "block",
+          "font": "32px",
+          "h": 66,
+          "letterSpacing": "normal",
+          "lineHeight": "51.2px",
+          "nav": {
+            "bg": "rgb(4, 29, 37)",
+            "bottom": 608.1796875,
+            "display": "grid",
+            "font": "32px",
+            "h": 420.9921875,
+            "letterSpacing": "normal",
+            "lineHeight": "51.2px",
+            "position": "absolute",
+            "w": 390,
+            "weight": "400",
+            "x": 0,
+            "y": 187.1875
+          },
+          "open": true,
+          "position": "static",
+          "w": 196,
+          "weight": "400",
+          "x": 174,
+          "y": 60.59375
+        }
+      ],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 896.3828125,
+        "display": "block",
+        "font": "79.56px",
+        "h": 337.34375,
+        "letterSpacing": "-2.7846px",
+        "lineHeight": "84.3336px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 559.0390625
+      },
+      "header": {
+        "bg": "rgb(4, 29, 37)",
+        "bottom": 187.1875,
+        "display": "block",
+        "font": "32px",
+        "h": 187.1875,
+        "letterSpacing": "normal",
+        "lineHeight": "51.2px",
+        "position": "fixed",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 0,
+          "class": "desktop-nav",
+          "display": "none",
+          "font": "32px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "51.2px",
+          "position": "static",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "bg": "rgb(4, 29, 37)",
+          "bottom": 608.1796875,
+          "class": "",
+          "display": "grid",
+          "font": "32px",
+          "h": 420.9921875,
+          "letterSpacing": "normal",
+          "lineHeight": "51.2px",
+          "position": "absolute",
+          "role": null,
+          "w": 390,
+          "weight": "400",
+          "x": 0,
+          "y": 187.1875
+        }
+      ],
+      "scroll": {
+        "width": 402,
+        "y": 0
+      },
+      "toggle": null,
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "32px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "51.2px",
+        "paused": true,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4251/assets/immersive/portrait.mp4",
+        "time": 0.585918,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    }
+  },
+  {
+    "candidate": "claude",
+    "scenario": "temporary computed-font 200% scaling",
+    "method": "font size and px line-height doubled for each HTML element; reload restores",
+    "overflow": true,
+    "closeVisible": false,
+    "layout": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "34px",
+        "h": 44,
+        "letterSpacing": "normal",
+        "lineHeight": "56.1px",
+        "position": "static",
+        "w": 362.4453125,
+        "weight": "400",
+        "x": 20,
+        "y": 10
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 787.7734375,
+        "display": "inline-flex",
+        "font": "34px",
+        "h": 83.59375,
+        "letterSpacing": "0.34px",
+        "lineHeight": "40.8px",
+        "position": "static",
+        "w": 350,
+        "weight": "600",
+        "x": 20,
+        "y": 704.1796875
+      },
+      "details": [],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 509.375,
+        "display": "block",
+        "font": "78.96px",
+        "h": 334.78125,
+        "letterSpacing": "-2.3688px",
+        "lineHeight": "83.6976px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 174.59375
+      },
+      "header": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 64,
+        "display": "block",
+        "font": "34px",
+        "h": 64,
+        "letterSpacing": "normal",
+        "lineHeight": "56.1px",
+        "position": "sticky",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 0,
+          "class": "site-nav",
+          "display": "block",
+          "font": "34px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "56.1px",
+          "position": "static",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "scroll": {
+        "width": 504,
+        "y": 0
+      },
+      "toggle": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "32px",
+        "h": 44,
+        "letterSpacing": "0.32px",
+        "lineHeight": "32px",
+        "position": "static",
+        "w": 17,
+        "weight": "400",
+        "x": 398.4453125,
+        "y": 10
+      },
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "34px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "56.1px",
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4252/assets/immersive/portrait.mp4",
+        "time": 4.740109,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    }
+  }
+]

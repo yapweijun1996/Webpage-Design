@@ -1,0 +1,19 @@
+PASS: Only Home source and built stylesheet changed among captured files
+PASS: New files stay in stage-2 or the permitted root README
+PASS: Frozen inputs, baseline, root contracts and original evidence remain byte-identical
+PASS: Source and built Home stylesheet match
+PASS: Compact header wraps naturally with existing column gap and 8px row gap
+PASS: Brand may use available row width and wraps only at ordinary word boundaries
+PASS: Menu/Close reserve their content width and align to the right in either row
+PASS: Panel remains absolute at header-inner bottom and scrollable within measured visible budget
+PASS: Opaque open state changes neither header minimum nor control layout
+PASS: Exact patch reversal matches pre-edit stylesheet; typography, scene and all other CSS unchanged
+PASS: Five independent Home destinations and current-page state remain
+PASS: Complete live wordmark and Menu/Close labels remain
+PASS: Native details fallback and nonmodal semantics remain
+PASS: Eight content routes plus 404 remain built
+PASS: Inner outputs remain byte-identical and load no Home film resources
+PASS: Shared styles, both controllers and build/content sources are byte-identical
+PASS: All four runtime media match frozen bytes in source and built output
+PASS: Existing resize/observer/open measurement still owns remaining-height variable
+18 focused source/integrity checks passed.

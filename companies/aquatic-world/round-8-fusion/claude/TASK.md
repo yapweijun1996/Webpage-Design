@@ -1,0 +1,11 @@
+# Current Implementation Task
+
+The user selected implementation: both native CLIs use the same fusion brief and static concepts, then compare actual desktop and phone behavior. Implement now; design-only and future-authorization wording in the frozen design documents describes the prior phase and is superseded by this task.
+
+Authority order: these workspace contracts and current task; input/design/BRIEF.md; input/design/REVIEW.md; concept notes; raster images. Preserve the own-code baseline and exact common runtime media. The generated open-menu concept's shorter panel and approximately 15px copy drift are not implementation targets. At 390x844 use the brief's 360–380px panel target, approximately 56px rows and unchanged hero anchors when opening. Make a nonmodal top disclosure, not a centered modal.
+
+Current orientation is `(min-aspect-ratio: 6/5)` at every width. Landscape cover 50% 50%, portrait cover 50% 30%. Near-square range `(4/5 <= aspect-ratio < 6/5)` places copy below roughly 70svh with normal scrolling. The older media manifest's 900px width guard is historical. Compact navigation starts below1120px and must fit its actual brand/labels.
+
+Preserve silent full-Home film through chapters/footer; manual pause session retention, reduced-motion/data-saving poster defaults without automatic film download, explicit opt-in, menu/tab suspension and useful no-JS navigation. Opening Menu hides the motion utility and closing restores the correct prior state. The hero, CTA and page scroll position never move just because Menu opens. On short windows retain a visible Close control and scrollable links. No modal semantics, focus trap or background scroll lock; close on Escape with focus return, outside interaction and focus leaving the header. Global links remain page destinations.
+
+Frozen document links refer to original provenance locations; use the named local input files instead of following links outside this workspace. Real interface text and controls must be implemented; raster concepts are never runtime media. All exact supplied media bytes stay unchanged. No publication or new generation by workers. Coordinator will build equivalent previews, review and perform authorized Git delivery.

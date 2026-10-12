@@ -1,0 +1,146 @@
+[
+  {
+    "candidate": "codex",
+    "route": "",
+    "refreshed": true,
+    "h1": "A world beneaththe surface.",
+    "title": "A closer connection to nature | Aquatic World",
+    "videoCount": 1
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/",
+    "refreshed": true,
+    "h1": "Three elements.Endless possibilities.",
+    "title": "Collections | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/ornamental-fish/",
+    "refreshed": true,
+    "h1": "OrnamentalFish",
+    "title": "Ornamental Fish | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/aquatic-plants/",
+    "refreshed": true,
+    "h1": "AquaticPlants",
+    "title": "Aquatic Plants | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/driftwood/",
+    "refreshed": true,
+    "h1": "Driftwood.Nature draws the line.",
+    "title": "Driftwood | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "our-story/",
+    "refreshed": true,
+    "h1": "Nature is closerthan we think.",
+    "title": "Our Story | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "quality/",
+    "refreshed": true,
+    "h1": "Thoughtful choices.From the start.",
+    "title": "Quality | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "contact/",
+    "refreshed": true,
+    "h1": "Your project brief",
+    "title": "Contact — Enquiry preview | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "codex",
+    "route": "404.html",
+    "refreshed": true,
+    "h1": "This page isout of the picture.",
+    "title": "Page not found | Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "",
+    "refreshed": true,
+    "h1": "A world beneath the surface.",
+    "title": "Aquatic World — Ornamental fish, aquatic plants and driftwood",
+    "videoCount": 1
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/",
+    "refreshed": true,
+    "h1": "Three collection families",
+    "title": "Collections — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/ornamental-fish/",
+    "refreshed": true,
+    "h1": "Ornamental Fish",
+    "title": "Ornamental Fish — Collections — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/aquatic-plants/",
+    "refreshed": true,
+    "h1": "Aquatic Plants",
+    "title": "Aquatic Plants — Collections — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/driftwood/",
+    "refreshed": true,
+    "h1": "Driftwood",
+    "title": "Driftwood — Collections — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "our-story/",
+    "refreshed": true,
+    "h1": "Bringing the beauty of nature a little further.",
+    "title": "Our Story — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "quality/",
+    "refreshed": true,
+    "h1": "A thoughtful selection process, explained.",
+    "title": "Quality — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "contact/",
+    "refreshed": true,
+    "h1": "Prepare an enquiry brief",
+    "title": "Contact — Prepare an enquiry brief — Aquatic World",
+    "videoCount": 0
+  },
+  {
+    "candidate": "claude",
+    "route": "404.html",
+    "refreshed": true,
+    "h1": "This page is not part of the collection.",
+    "title": "Page not found — Aquatic World",
+    "videoCount": 0
+  }
+]

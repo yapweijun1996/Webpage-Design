@@ -1,0 +1,81 @@
+{
+  "prepared_on": "2026-10-12",
+  "shared_input_files": {
+    "design/BRIEF.md": {
+      "bytes": 14267,
+      "sha256": "8c1510808b3f2db8165983a8f23e39579873a46750cef7b2db53d6fc89a5f6dd"
+    },
+    "design/CONCEPT-NOTES.md": {
+      "bytes": 6077,
+      "sha256": "26fa65f6cabc1f5eac8ddcf6b50ad008b2fbeef3b631f513202a0394c2d31bcf"
+    },
+    "design/REVIEW.md": {
+      "bytes": 5674,
+      "sha256": "a0beb460014bb0e9d2ba86d1d72a0fdb513321019e195f543ece0482eaefc8f0"
+    },
+    "mcp-empty.json": {
+      "bytes": 18,
+      "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+    },
+    "media/landscape-poster.webp": {
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+    },
+    "media/landscape.mp4": {
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+    },
+    "media/manifest.json": {
+      "bytes": 6454,
+      "sha256": "a811fd2cdd403476c6e9a18ddc39b1b200308792447a138547fd408464eeccdc"
+    },
+    "media/portrait-poster.webp": {
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+    },
+    "media/portrait.mp4": {
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+    },
+    "reference/desktop-v1.png": {
+      "bytes": 2238666,
+      "sha256": "5a4249c6f5663cffc81ec374df3d98e8dfbefd0d986b9b1ab4e0e08bfac22560"
+    },
+    "reference/mobile-menu-v1.png": {
+      "bytes": 1698105,
+      "sha256": "520779f86a34aa531f79cc6f8e517ee807b71be81cacfcd91e9435b7094b5237"
+    },
+    "reference/mobile-v1.png": {
+      "bytes": 2055279,
+      "sha256": "35208d2061125cc02dd162a147c8046be0f8e0ebe774746299404e115c9c5e65"
+    },
+    "skills/cli-web-design-director/SKILL.md": {
+      "bytes": 4990,
+      "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+    },
+    "skills/cli-web-design-director/agents/openai.yaml": {
+      "bytes": 272,
+      "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+    },
+    "skills/cli-web-design-director/references/cli-operation.md": {
+      "bytes": 4771,
+      "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+    },
+    "skills/cli-web-design-director/references/design-review.md": {
+      "bytes": 4605,
+      "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+    },
+    "skills/cli-web-design-director/references/prompt-patterns.md": {
+      "bytes": 3259,
+      "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+    }
+  },
+  "shared_root_contracts": {
+    "AGENTS.md": "fc3445caf3cb49cf70210e1e9fcde850bc59422d027bf46c5727c5cc69c5578b",
+    "CLAUDE.md": "fc3445caf3cb49cf70210e1e9fcde850bc59422d027bf46c5727c5cc69c5578b",
+    "TASK.md": "d806dedc22d8b99a40f7a379ede409c12fd09c97f6cdecd29951f527feac0b58",
+    "IMPLEMENTATION-PROMPT.txt": "215ab0d3271a90889f5974ae886f5b894dd1cbfb40b60164f465179146d0c277"
+  },
+  "user_acceptance": "open",
+  "media_generation": "none; current byte-identical media"
+}

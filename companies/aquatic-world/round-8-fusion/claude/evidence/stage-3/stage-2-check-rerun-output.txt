@@ -1,0 +1,20 @@
+PASS  compact Home bar may grow and wrap: flex-wrap, auto height, 64px minimum, 8px block padding
+PASS  wordmark row decision uses min-content (flex-basis 0) and never exceeds its one-line width
+PASS  wordmark wraps at word boundaries only (white-space normal, no anywhere/break-all)
+PASS  Menu/Close has minimum (not fixed) 98×44 size
+PASS  label box reserves both Menu and Close (hidden zero-height pseudo-elements, empty alt text)
+PASS  panel stays absolute at top: 100% of the header (starts under the actual bar)
+PASS  panel scroller cap subtracts the actual header height (100% of its containing block), not a 64px variable
+PASS  the sticky header is the panel's containing block (positioned; header-inner and .wrap are not)
+PASS  type sizes in the compact Home header are unchanged (18px / 17px wordmark, 16px control, 18px links)
+PASS  no text-size preference, runtime injection or QA stylesheet hooks
+PASS  no clipping/hiding introduced on the header controls or wordmark
+PASS  only assets/site.css differs from the pre-change build (changed: assets/site.css)
+PASS  four media files: input = dist, exact SHA-256
+PASS  new selectors are Home-scoped (inner pages keep their header CSS)
+PASS  model 390px normal: one-line 181px wordmark beside a 98×44 control, bar 64px, Menu 272–370
+PASS  model 320px normal: one-line 166px wordmark beside a 98×44 control, bar 64px, Menu 206–304
+PASS  model 390px 200%: AQUATIC 191px, control 134px; same row; wordmark 2 lines in 200px; bar ≈99px; Menu 236–370; panel content ≈321px within 745px cap (ends ≈420)
+PASS  model 320px 200%: AQUATIC 175px, control 134px; Menu on second row; wordmark 2 lines in 288px; bar ≈146px; Menu 170–304; panel content ≈321px within 698px cap (ends ≈467)
+
+18/18 stage-2 checks passed (source/output and arithmetic only; not rendered)

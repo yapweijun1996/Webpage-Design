@@ -1,0 +1,234 @@
+{
+  "scope": "Local reviewed execution metadata; raw transcripts remain private and ignored",
+  "candidates": {
+    "codex": [
+      {
+        "requested_model": "gpt-6.1-sol",
+        "serving_evidence": "Not exposed in native JSON event stream; exact launch model requested, no independently proven serving identity",
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "codex-cli 0.162.1",
+        "exit_code": 0,
+        "elapsed_seconds": 1380.27,
+        "started_at": "2026-10-12T13:32:55.371404+00:00",
+        "finished_at": "2026-10-12T13:55:55.716646+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": null,
+        "stage": "initial",
+        "success": true,
+        "native_image_attachments": [
+          "input/reference/desktop-v1.png",
+          "--image",
+          "input/reference/mobile-v1.png",
+          "--image",
+          "input/reference/mobile-menu-v1.png"
+        ],
+        "exposed_usage": [
+          {
+            "input_tokens": 1688437,
+            "cached_input_tokens": 1588352,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 28220,
+            "reasoning_output_tokens": 8838
+          }
+        ],
+        "completed_item_types": {
+          "agent_message": 8,
+          "command_execution": 40,
+          "file_change": 6
+        }
+      },
+      {
+        "requested_model": "gpt-6.1-sol",
+        "serving_evidence": "Not exposed in native JSON event stream; exact launch model requested, no independently proven serving identity",
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "codex-cli 0.162.1",
+        "exit_code": 0,
+        "elapsed_seconds": 414.58,
+        "started_at": "2026-10-12T13:59:24.698228+00:00",
+        "finished_at": "2026-10-12T14:06:19.346486+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": "42bee1c61f55239377a6e22b5981aa08c2b70ce23938b48faf1ccb9e09acd9ac",
+        "stage": "stage-2",
+        "success": true,
+        "native_image_attachments": [
+          "input/reference/desktop-v1.png",
+          "--image",
+          "input/reference/mobile-v1.png",
+          "--image",
+          "input/reference/mobile-menu-v1.png"
+        ],
+        "exposed_usage": [
+          {
+            "input_tokens": 801887,
+            "cached_input_tokens": 735872,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 11353,
+            "reasoning_output_tokens": 2882
+          }
+        ],
+        "completed_item_types": {
+          "agent_message": 6,
+          "command_execution": 13
+        }
+      },
+      {
+        "requested_model": "gpt-6.1-sol",
+        "serving_evidence": "Not exposed in native JSON event stream; exact launch model requested, no independently proven serving identity",
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "codex-cli 0.162.1",
+        "exit_code": 0,
+        "elapsed_seconds": 375.31,
+        "started_at": "2026-10-12T14:11:00.820503+00:00",
+        "finished_at": "2026-10-12T14:17:16.283605+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": "0832f5394f952fa7931cdab26dd446c760443fcdd6137811231b221ca0194d06",
+        "stage": "stage-3",
+        "success": true,
+        "native_image_attachments": [
+          "input/reference/desktop-v1.png",
+          "--image",
+          "input/reference/mobile-v1.png",
+          "--image",
+          "input/reference/mobile-menu-v1.png"
+        ],
+        "exposed_usage": [
+          {
+            "input_tokens": 626848,
+            "cached_input_tokens": 566784,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 10227,
+            "reasoning_output_tokens": 2869
+          }
+        ],
+        "completed_item_types": {
+          "agent_message": 5,
+          "command_execution": 15,
+          "file_change": 1
+        }
+      }
+    ],
+    "claude": [
+      {
+        "requested_model": "claude-opus-5-5",
+        "serving_evidence": {
+          "exposed_model": "claude-opus-5-5",
+          "tools": [
+            "Bash",
+            "Edit",
+            "Read",
+            "Write"
+          ],
+          "mcp_servers": [],
+          "permissionMode": "auto"
+        },
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "2.1.289 (Claude Code)",
+        "exit_code": 0,
+        "elapsed_seconds": 617.53,
+        "started_at": "2026-10-12T13:32:55.440106+00:00",
+        "finished_at": "2026-10-12T13:43:13.117333+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": null,
+        "stage": "initial",
+        "success": true,
+        "tool_calls": {
+          "Bash": 28,
+          "Read": 7,
+          "Write": 3,
+          "Edit": 4
+        },
+        "image_reads": [
+          "input/reference/desktop-v1.png",
+          "input/reference/mobile-v1.png",
+          "input/reference/mobile-menu-v1.png",
+          "input/media/landscape-poster.webp",
+          "input/media/portrait-poster.webp"
+        ],
+        "result": {
+          "subtype": "success",
+          "is_error": false,
+          "total_cost_usd": 2.9007317999999995,
+          "duration_ms": 616171,
+          "permission_denials": []
+        },
+        "billing_limit": "Native cost metadata is not a verified account invoice; Codex does not expose comparable dollars"
+      },
+      {
+        "requested_model": "claude-opus-5-5",
+        "serving_evidence": {
+          "exposed_model": "claude-opus-5-5",
+          "tools": [
+            "Bash",
+            "Edit",
+            "Read",
+            "Write"
+          ],
+          "mcp_servers": [],
+          "permissionMode": "auto"
+        },
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "2.1.289 (Claude Code)",
+        "exit_code": 0,
+        "elapsed_seconds": 390.3,
+        "started_at": "2026-10-12T13:59:24.771739+00:00",
+        "finished_at": "2026-10-12T14:05:55.202791+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": "42bee1c61f55239377a6e22b5981aa08c2b70ce23938b48faf1ccb9e09acd9ac",
+        "stage": "stage-2",
+        "success": true,
+        "tool_calls": {
+          "Bash": 19,
+          "Write": 3,
+          "Edit": 2
+        },
+        "image_reads": [],
+        "result": {
+          "subtype": "success",
+          "is_error": false,
+          "total_cost_usd": 1.6368290000000003,
+          "duration_ms": 388435,
+          "permission_denials": []
+        },
+        "billing_limit": "Native cost metadata is not a verified account invoice; Codex does not expose comparable dollars"
+      },
+      {
+        "requested_model": "claude-opus-5-5",
+        "serving_evidence": {
+          "exposed_model": "claude-opus-5-5",
+          "tools": [
+            "Bash",
+            "Edit",
+            "Read",
+            "Write"
+          ],
+          "mcp_servers": [],
+          "permissionMode": "auto"
+        },
+        "effort": "high (explicit process setting on both)",
+        "cli_version_at_launch": "2.1.289 (Claude Code)",
+        "exit_code": 0,
+        "elapsed_seconds": 392.26,
+        "started_at": "2026-10-12T14:11:00.981625+00:00",
+        "finished_at": "2026-10-12T14:17:33.402969+00:00",
+        "input_manifest_sha256": "48d4c2b9025b757c194b6d51adad40a872682b48b622a6653eb66af6ecda68b9",
+        "prompt_sha256": "0832f5394f952fa7931cdab26dd446c760443fcdd6137811231b221ca0194d06",
+        "stage": "stage-3",
+        "success": true,
+        "tool_calls": {
+          "Bash": 17,
+          "Write": 3,
+          "Edit": 1
+        },
+        "image_reads": [],
+        "result": {
+          "subtype": "success",
+          "is_error": false,
+          "total_cost_usd": 1.5988454000000003,
+          "duration_ms": 390382,
+          "permission_denials": []
+        },
+        "billing_limit": "Native cost metadata is not a verified account invoice; Codex does not expose comparable dollars"
+      }
+    ]
+  }
+}

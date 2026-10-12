@@ -1,0 +1,66 @@
+[
+  {
+    "candidate": "codex",
+    "scenario": "reduced motion initial still → explicit Play",
+    "pass": true,
+    "stopped": {
+      "source": null,
+      "videoRequests": 0
+    },
+    "opted": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "bottom": 844,
+      "display": "block",
+      "font": "16px",
+      "h": 844,
+      "letterSpacing": "normal",
+      "lineHeight": "25.6px",
+      "paused": false,
+      "position": "absolute",
+      "ready": 4,
+      "src": "http://127.0.0.1:4251/assets/immersive/portrait.mp4",
+      "time": 0.25635,
+      "w": 390,
+      "weight": "400",
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "candidate": "claude",
+    "scenario": "reduced motion initial still → explicit Play",
+    "pass": true,
+    "stopped": {
+      "source": null,
+      "videoRequests": 0
+    },
+    "opted": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "bottom": 844,
+      "display": "block",
+      "font": "17px",
+      "h": 844,
+      "letterSpacing": "normal",
+      "lineHeight": "28.05px",
+      "paused": false,
+      "position": "absolute",
+      "ready": 4,
+      "src": "http://127.0.0.1:4252/assets/immersive/portrait.mp4",
+      "time": 0.403185,
+      "w": 390,
+      "weight": "400",
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "candidate": "claude",
+    "scenario": "JS disabled: Home nav Contact opens independent page",
+    "pass": true
+  },
+  {
+    "candidate": "codex",
+    "scenario": "JS disabled: native disclosure Contact opens independent page",
+    "pass": true
+  }
+]

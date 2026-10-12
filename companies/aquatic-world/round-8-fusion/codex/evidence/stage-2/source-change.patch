@@ -1,0 +1,34 @@
+--- before/demo/home-motion.css
++++ after/demo/home-motion.css
+@@ -369,24 +369,28 @@
+     --home-header-height:72px;
+   }
+   .home-immersive .header-inner {
+-    grid-template-columns:minmax(0,1fr) max-content;
+-    grid-template-areas:'brand menu';
++    display:flex;
++    flex-wrap:wrap;
+     column-gap:20px;
++    row-gap:8px;
+     min-height:var(--home-header-height);
+   }
+   .home-immersive .desktop-nav {
+     display:none;
+   }
+   .home-immersive .site-header .brand {
++    flex:0 1 auto;
+     min-width:0;
+     max-width:100%;
+   }
+   .home-immersive .site-header .wordmark {
+     white-space:normal;
+-    overflow-wrap:anywhere;
++    overflow-wrap:normal;
+   }
+   .home-immersive .mobile-menu {
+     display:block;
++    flex:none;
++    margin-inline-start:auto;
+     grid-column:2;
+     grid-row:1;
+     min-width:0;

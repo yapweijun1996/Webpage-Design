@@ -1,0 +1,16 @@
+[
+  {
+    "candidate": "claude",
+    "scenario": "Home → Collections → Fish → Contact; required validation, local four-group preview, Edit, Clear",
+    "pass": true,
+    "networkRequestsDuringPreview": 0,
+    "clearUrl": "http://127.0.0.1:4252/contact/"
+  },
+  {
+    "candidate": "codex",
+    "scenario": "Home → Collections → Fish → Contact; validation/local four-group preview/Edit/Clear",
+    "pass": true,
+    "networkRequestsDuringPreview": 0,
+    "clearUrl": "http://127.0.0.1:4251/contact/?category=ornamental-fish#enquiry"
+  }
+]

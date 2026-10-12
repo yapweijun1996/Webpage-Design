@@ -11,11 +11,13 @@
 | Market / location | Unverified; location in the reference is sample content |
 | Official website | Unknown; the reference domain is not evidence |
 | Status | building |
-| Last updated | 2026-10-12 |
+| Last updated | 2026-10-13 |
 
 ## Purpose
 
-Develop a structured multi-page aquatic website with useful real destinations and professional visual detail. The current [round-7 immersive Home implementations](comparison/round-7-immersive/README.md) use the same real landscape/portrait films behind live top bar, typography, CTA, three chapters and footer. [Observed results](comparison/round-7-immersive/RESULTS.md) record fourteen viewport sizes, actual recordings, native tab suspension, fallback/control behavior and preserved Contact/navigation. The code and exercised checks are complete; human creative acceptance remains open for public testing.
+Develop a structured multi-page aquatic website with useful real destinations and professional visual detail. The current [round-8 Fusion Home implementations](comparison/round-8-fusion/README.md) use the same real landscape/portrait films behind live top bar, typography, CTA, three chapters and footer. Both native CLIs independently implemented the common [Fusion Home brief](redesign/fusion-home-v1/BRIEF.md) and [three static concepts](redesign/fusion-home-v1/visuals/README.md), followed by identical enlarged-text correction briefs. [Actual-site results](comparison/round-8-fusion/RESULTS.md) record thirteen viewport sizes per candidate, native recordings, usable opaque top navigation, 200% text stress checks and preserved Contact/navigation. Exercised checks are complete; human creative acceptance remains open for public testing.
+
+The [original round-7 immersive release](comparison/round-7-immersive/README.md) and its evidence remain unchanged. Fusion changes foreground layout/navigation while retaining the exact media and their disclosed edited return motion. [Publication evidence](comparison/round-8-fusion/PUBLICATION.md) separates local verification from external Pages delivery.
 
 The original framed animation was rejected. Its [historical comparison](comparison/round-6-animation/preview.html) and [results](comparison/round-6-animation/RESULTS.md), together with the [Contact before/after viewer](comparison/round-5/preview.html), remain preserved. Builds and functional checks do not substitute for design acceptance.
 
@@ -23,6 +25,8 @@ The two completed landing-page rounds remain independent historical comparisons 
 
 | Implementation folder | CLI | Requested model | State |
 | --- | --- | --- | --- |
+| [round-8-fusion/codex/](round-8-fusion/codex/README.md) | Codex CLI | GPT-6.1 Sol (`gpt-6.1-sol`, requested) | Fusion Home implemented and reviewed; user creative acceptance open |
+| [round-8-fusion/claude/](round-8-fusion/claude/README.md) | Claude Code CLI | Opus 5.5 (`claude-opus-5-5`, exposed) | Fusion Home implemented and reviewed; user creative acceptance open |
 | [round-7-immersive/codex/](round-7-immersive/codex/README.md) | Codex CLI | GPT-6.1 Sol (`gpt-6.1-sol`, requested) | Immersive video Home implemented and reviewed; user creative acceptance open |
 | [round-7-immersive/claude/](round-7-immersive/claude/README.md) | Claude Code CLI | Opus 5.5 (`claude-opus-5-5`, exposed) | Immersive video Home implemented and reviewed; user creative acceptance open |
 | [round-6-animation/codex/](round-6-animation/codex/README.md) | Codex CLI | GPT-6.1 Sol (`gpt-6.1-sol`) | Home controlled animation integrated; exercised actual-site gates verified with recorded limits; user rejected the presentation |
@@ -71,7 +75,8 @@ aquatic-world/
 │   ├── codex/
 │   └── claude/
 ├── round-6-animation/     # Preserved original-image Home animation integrations
-├── round-7-immersive/     # Current independent real-video Home implementations
+├── round-7-immersive/     # Preserved real-video Home implementations
+├── round-8-fusion/        # Current independent Fusion Home implementations
 └── comparison/            # Protocol, frozen manifests, results and evaluator evidence
     ├── round-2/           # Historical feedback protocol and evaluation
     ├── round-3/           # Multi-page baseline protocol, deliveries, viewer and evaluation
@@ -79,7 +84,8 @@ aquatic-world/
     ├── round-5/           # Contact simplification, deliveries, verification and viewer
     ├── round-6/           # Historical homepage video preparation
     ├── round-6-animation/ # Historical animation integrations and comparison
-    └── round-7-immersive/ # Current video integration, results and publication evidence
+    ├── round-7-immersive/ # Preserved video integration and evidence
+    └── round-8-fusion/    # Current protocol, results and publication evidence
 ```
 
 ## Context and preview
@@ -93,36 +99,37 @@ The [second-round results](comparison/round-2/RESULTS.md) and [two-round compari
 
 The case remains `building` while the user reviews the newly implemented immersive direction; technical completion and human creative acceptance are distinct. The two current eight-page websites preserve real navigation and useful page-specific content. Contact now has one heading, one concise editable-state disclosure and four field groups. At 390px, Codex Name moved 620→308px and its Preview button 1,260→896px; Claude Name moved 414→303px and its button 1,575→1,131px. Both pass the exercised independent gates. For that round-5 phone task, Codex was the evaluator preference because all four editable groups fit in the first viewport; Claude retains explicit multi-category checkbox choices at a larger vertical cost. This does not replace historical judgments with a general model ranking or assert user satisfaction.
 
-Worker READMEs are preserved original deliveries: Codex correctly records its own browser access as unavailable. The separate evaluator report supplies subsequent browser verification without rewriting that history. Original [Codex](codex/README.md) and [Claude](claude/README.md) first drafts remain preserved; see the [first-round report](comparison/RESULTS.md). No verified real-company profile, production business service, pixel-perfect rendering or full accessibility compliance is asserted. Current browser/device/accessibility limits are in the [round-7 results](comparison/round-7-immersive/RESULTS.md).
+Worker READMEs are preserved original deliveries: Codex correctly records its own browser access as unavailable. The separate evaluator report supplies subsequent browser verification without rewriting that history. Original [Codex](codex/README.md) and [Claude](claude/README.md) first drafts remain preserved; see the [first-round report](comparison/RESULTS.md). No verified real-company profile, production business service, pixel-perfect rendering or full accessibility compliance is asserted. Current browser/device/accessibility limits are in the [round-8 results](comparison/round-8-fusion/RESULTS.md).
 
 The [CLI design lessons](redesign/LEARNINGS.md) and [implementation prompt](redesign/IMPLEMENTATION-PROMPT.txt) support this workflow. A personal `cli-web-design-director` skill captures the cross-project procedure; both builders received its identical frozen snapshot. Company-specific evidence stays local. The Contact simplification remains preserved. Historical round-6 homepage animation delivery and its exercised independent verification are preserved; the user rejected its presentation. These functional checks do not establish design acceptance. Codex keeps its control within the first viewport at 360/320px; Claude is more compact at 390px and 768px. See the current report for evidence and limits.
 
 ### GitHub Pages publication
 
-The [immersive Home design package](redesign/immersive-home-v1/README.md) now has clean scene inputs, two newly authorized Runway outputs and centrally processed runtime return loops. New cost: **US$1.44**, separate from the historical trial's US$1.44. Both native CLIs completed five common stages; [actual-site results](comparison/round-7-immersive/RESULTS.md) and [publication evidence](comparison/round-7-immersive/PUBLICATION.md) distinguish local review, external deployment and user acceptance.
+The [immersive Home design package](redesign/immersive-home-v1/README.md) now has clean scene inputs, two newly authorized Runway outputs and centrally processed runtime return loops. New cost: **US$1.44**, separate from the historical trial's US$1.44. That preserved round-7 media integration completed five common stages. The later [Fusion Home comparison](comparison/round-8-fusion/README.md) completed one implementation and two common focused corrections with no new generation; [current results](comparison/round-8-fusion/RESULTS.md) and [publication evidence](comparison/round-8-fusion/PUBLICATION.md) distinguish local review, external deployment and user acceptance.
 
+- [Compare desktop/phone/menu captures](https://yapweijun1996.github.io/Webpage-Design/comparison/)
 - [Catalog](https://yapweijun1996.github.io/Webpage-Design/)
 - [Codex immersive website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/)
 - [Claude immersive website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/)
 
-The [deployment packager](../../scripts/prepare_pages.py) adjusts only HTML URL attributes for the GitHub project base, including deferred film URLs. CSS, JS and media bytes are preserved. The [workflow](../../.github/workflows/pages.yml) serves only current runtime trees and the catalog, while research/trials/raw logs/evaluator artifacts remain outside the Pages artifact. Contact creates a local preview and sends nothing.
+The [deployment packager](../../scripts/prepare_pages.py) adjusts only HTML URL attributes for the GitHub project base, including deferred film URLs. CSS, JS and media bytes are preserved. The [workflow](../../.github/workflows/pages.yml) serves current runtime trees, the catalog and a small comparison with ten selected native stills; research/trials/raw logs/recordings and other evaluator artifacts remain outside Pages. Contact creates a local preview and sends nothing.
 
 ### Run the current multi-page previews
 
 From the repository root, in separate terminal windows:
 
 ```sh
-python3 -B companies/aquatic-world/round-7-immersive/codex/demo/build.py
-AQUATIC_PREVIEW_PORT=4241 python3 -B companies/aquatic-world/round-7-immersive/codex/demo/serve.py
+python3 -B companies/aquatic-world/round-8-fusion/codex/demo/build.py
+AQUATIC_PREVIEW_PORT=4251 python3 -B companies/aquatic-world/round-8-fusion/codex/demo/serve.py
 ```
 
 ```sh
-cd companies/aquatic-world/round-7-immersive/claude/demo
+cd companies/aquatic-world/round-8-fusion/claude/demo
 npm run build
-AQUATIC_PREVIEW_PORT=4242 npm run serve
+AQUATIC_PREVIEW_PORT=4252 npm run serve
 ```
 
-Open [Codex immersive website](http://127.0.0.1:4241/) and [Claude immersive website](http://127.0.0.1:4242/). Python 3.10+ and Node.js 22+ are required respectively; no dependency install is needed. Each owns its four exact shared runtime media files and existing local inner-page assets. Source builds reproduce the static output; all content routes support direct load/refresh. Stop only the server you launched.
+Open [Codex immersive website](http://127.0.0.1:4251/) and [Claude immersive website](http://127.0.0.1:4252/). Python 3.10+ and Node.js 22+ are required respectively; no dependency install is needed. Each owns its four exact shared runtime media files and existing local inner-page assets. Source builds reproduce the static output; all content routes support direct load/refresh. Stop only the server you launched.
 
 To preview the Pages base from the repository root:
 
@@ -131,7 +138,7 @@ python3 -B scripts/prepare_pages.py --base=/Webpage-Design/
 python3 -B scripts/serve_pages.py --port=4240
 ```
 
-Open [the packaged catalog](http://127.0.0.1:4240/Webpage-Design/). Historical local animation previews use 4231/4232 and their unchanged round-6 sources. The comparison server below still serves preserved round-3/4/5/6 viewers; current round-7 screenshots/recordings are linked by its results report.
+Open [the packaged catalog](http://127.0.0.1:4240/Webpage-Design/). Historical local animation previews use 4231/4232 and their unchanged round-6 sources. The comparison server below still serves preserved round-3/4/5/6 viewers; current round-8 screenshots/recordings are linked by its results report.
 
 ### Run the historical landing-page previews
 

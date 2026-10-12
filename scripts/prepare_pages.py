@@ -12,7 +12,8 @@ import tempfile
 from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "companies/aquatic-world/round-7-immersive"
+SOURCE = ROOT / "companies/aquatic-world/round-8-fusion"
+COMPARISON = ROOT / "companies/aquatic-world/comparison/round-8-fusion"
 OUTPUT = ROOT / "_site"
 ROUTES = ("", "collections/", "collections/ornamental-fish/",
           "collections/aquatic-plants/", "collections/driftwood/",
@@ -83,6 +84,21 @@ with tempfile.TemporaryDirectory(prefix="webpage-pages-") as temp:
         assert (destination / "404.html").is_file()
         manifest["demos"][model] = {"url": prefix, "routes": [prefix + route for route in ROUTES], "sha256": hashes}
 
+    comparison = package / 'comparison'
+    (comparison / 'evidence').mkdir(parents=True)
+    viewer = (COMPARISON / 'preview.html').read_text().replace(
+        'href="RESULTS.md"',
+        'href="https://github.com/yapweijun1996/Webpage-Design/blob/main/companies/aquatic-world/comparison/round-8-fusion/RESULTS.md"')
+    (comparison / 'index.html').write_text(viewer)
+    for candidate in ('codex', 'claude'):
+        for state in ('390x844-final', 'mobile-menu-final', '1440x900-final',
+                      '390x844-text200-menu-final', 'mobile-footer-final'):
+            filename = f'{candidate}-{state}.jpg'
+            shutil.copyfile(COMPARISON / 'evidence' / filename, comparison / 'evidence' / filename)
+    manifest['comparison'] = {'url': base + 'comparison/', 'sha256': {
+        file.relative_to(comparison).as_posix(): hashlib.sha256(file.read_bytes()).hexdigest()
+        for file in sorted(comparison.rglob('*')) if file.is_file()}}
+
     (package / "index.html").write_text(f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Webpage Design — demos</title></head><body>
@@ -90,8 +106,10 @@ with tempfile.TemporaryDirectory(prefix="webpage-pages-") as temp:
 <p>Current comparison demos: eight independent pages per website.</p>
 <ul><li><a href="{base}aquatic-world/codex/">Codex · GPT-6.1 Sol</a></li>
 <li><a href="{base}aquatic-world/claude/">Claude · Opus 5.5</a></li></ul>
+<p><a href="{base}comparison/">Compare desktop, phone, Menu and enlarged text captures</a></p>
 <p>Immersive underwater Home: silent background film across the whole page, with live navigation, headings and actions. Desktop and mobile use individually composed scenes. Both implementations receive the same media and design brief.</p>
 <p>Use the small background-motion control to pause. Reduced motion or unavailable playback keeps a still underwater environment. Creative acceptance remains open for testing.</p>
+<p>Fusion Home uses the same foreground design references on both sites: stronger desktop branding, an outlined phone Menu and an opaque top-anchored disclosure.</p>
 <p>Fictional design case. Contact only creates a local preview; no enquiry is sent.</p>
 </main></body></html>''')
     (package / "404.html").write_text(f'''<!doctype html><html lang="en"><head><meta charset="utf-8">

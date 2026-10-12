@@ -1,0 +1,27 @@
+PASS  A: secondary enquiry action wraps inside the column (max-width 100%, white-space normal)
+PASS  B: footer brand wraps (white-space normal, line-height 1.15)
+PASS  B: no brand rule anywhere uses overflow-wrap/word-break/hyphens (word-boundary wrapping only)
+PASS  C: entry list is an inline-size container
+PASS  C: under 16em the entry stacks: num+arrow row, then full-width name and note
+PASS  C: ordinary entry grid unchanged (2.25rem / minmax(0,1fr) / auto, same areas)
+PASS  D: break-word safety net on Home reading content only (not header/footer brand)
+PASS  D: no overflow-wrap: anywhere / word-break in Home rules
+PASS  new rules change no font-size and add no clipping, hiding or overflow-x
+PASS  no overflow-x: hidden anywhere on html/body/Home
+PASS  no text-size preference, injection or QA hook in CSS/JS/HTML
+PASS  every new selector is Home-only (.page-home / .home-*)
+PASS  stage-2 header/menu rules still present (wordmark word-boundary wrap, 100% panel cap)
+PASS  only assets/site.css differs from the pre-change build (changed: assets/site.css)
+PASS  four Home media files byte-identical to input/media
+PASS  A normal: one line ≈220px fits 288 (unchanged)
+PASS  A 200% at 320: one line ≈374px end overflowed before; wrapped widest word row ≈193px ≤ 288
+PASS  B 320: normal one line ≈166px ≤ 288; 200% one line ≈331px, wraps to "AQUATIC" ≈175px ≤ 288
+PASS  B 390: normal one line ≈180px ≤ 350; 200% one line ≈360px, wraps to "AQUATIC" ≈190px ≤ 350
+PASS  C: 16em (256px at 16px) below every ordinary content width (min 284px)
+PASS  C: 16em (512px at 32px) reached at 390 and 320 with doubled text
+PASS  C 320: widest name word ≈258px overflowed the old ≈202px track; fits stacked full row 280px
+PASS  C normal 320: "Ornamental Fish" ≈180px fits the unchanged 202px track
+PASS  D 320: "connection" at 64px ≈325px > 288 needs break-word; at 32px ≈162px fits (normal unchanged)
+PASS  D 390: "connection" at 64px ≈325px fits 350 without breaking
+
+25/25 stage-3 checks passed (source/output and arithmetic only; not rendered)

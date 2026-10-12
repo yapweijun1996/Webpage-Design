@@ -1,0 +1,11 @@
+## Mutation: revert fixes A (enquiry nowrap), B (footer brand nowrap) and C (container query) in dist/assets/site.css only
+FAIL  A: secondary enquiry action wraps inside the column (max-width 100%, white-space normal)
+FAIL  B: footer brand wraps (white-space normal, line-height 1.15)
+FAIL  C: under 16em the entry stacks: num+arrow row, then full-width name and note
+22/25 stage-3 checks passed (source/output and arithmetic only; not rendered)
+exit 1
+
+## Clean rebuild
+Built 9 pages into /Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/round-8-fusion/claude/demo/dist
+25/25 stage-3 checks passed (source/output and arithmetic only; not rendered)
+exit 0

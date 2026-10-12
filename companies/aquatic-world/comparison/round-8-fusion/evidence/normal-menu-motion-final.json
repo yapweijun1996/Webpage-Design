@@ -1,0 +1,630 @@
+[
+  {
+    "candidate": "codex",
+    "base": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "16px",
+        "h": 44,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "position": "static",
+        "w": 174.203125,
+        "weight": "400",
+        "x": 20,
+        "y": 10
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 737.1484375,
+        "display": "inline-flex",
+        "font": "17px",
+        "h": 52,
+        "letterSpacing": "normal",
+        "lineHeight": "25.5px",
+        "position": "static",
+        "w": 278.109375,
+        "weight": "600",
+        "x": 20,
+        "y": 685.1484375
+      },
+      "details": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 54,
+          "display": "block",
+          "font": "16px",
+          "h": 44,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "nav": {
+            "bg": "rgb(4, 29, 37)",
+            "bottom": 0,
+            "display": "none",
+            "font": "16px",
+            "h": 0,
+            "letterSpacing": "normal",
+            "lineHeight": "25.6px",
+            "position": "absolute",
+            "w": 0,
+            "weight": "400",
+            "x": 0,
+            "y": 0
+          },
+          "open": false,
+          "position": "static",
+          "w": 98,
+          "weight": "400",
+          "x": 272,
+          "y": 10
+        }
+      ],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 590.5546875,
+        "display": "block",
+        "font": "39.78px",
+        "h": 84.328125,
+        "letterSpacing": "-1.3923px",
+        "lineHeight": "42.1668px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 506.2265625
+      },
+      "header": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 84,
+        "display": "block",
+        "font": "16px",
+        "h": 84,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "position": "fixed",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 0,
+          "class": "desktop-nav",
+          "display": "none",
+          "font": "16px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "position": "static",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "bg": "rgb(4, 29, 37)",
+          "bottom": 0,
+          "class": "",
+          "display": "none",
+          "font": "16px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "position": "absolute",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "scroll": {
+        "width": 390,
+        "y": 0
+      },
+      "toggle": null,
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "16px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4251/assets/immersive/portrait.mp4",
+        "time": 0.451043,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "open": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "16px",
+        "h": 44,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "position": "static",
+        "w": 174.203125,
+        "weight": "400",
+        "x": 20,
+        "y": 10
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 737.1484375,
+        "display": "inline-flex",
+        "font": "17px",
+        "h": 52,
+        "letterSpacing": "normal",
+        "lineHeight": "25.5px",
+        "position": "static",
+        "w": 278.109375,
+        "weight": "600",
+        "x": 20,
+        "y": 685.1484375
+      },
+      "details": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 54,
+          "display": "block",
+          "font": "16px",
+          "h": 44,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "nav": {
+            "bg": "rgb(4, 29, 37)",
+            "bottom": 369,
+            "display": "grid",
+            "font": "16px",
+            "h": 305,
+            "letterSpacing": "normal",
+            "lineHeight": "25.6px",
+            "position": "absolute",
+            "w": 390,
+            "weight": "400",
+            "x": 0,
+            "y": 64
+          },
+          "open": true,
+          "position": "static",
+          "w": 98,
+          "weight": "400",
+          "x": 272,
+          "y": 10
+        }
+      ],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 590.5546875,
+        "display": "block",
+        "font": "39.78px",
+        "h": 84.328125,
+        "letterSpacing": "-1.3923px",
+        "lineHeight": "42.1668px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 506.2265625
+      },
+      "header": {
+        "bg": "rgb(4, 29, 37)",
+        "bottom": 64,
+        "display": "block",
+        "font": "16px",
+        "h": 64,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "position": "fixed",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 0,
+          "class": "desktop-nav",
+          "display": "none",
+          "font": "16px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "position": "static",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "bg": "rgb(4, 29, 37)",
+          "bottom": 369,
+          "class": "",
+          "display": "grid",
+          "font": "16px",
+          "h": 305,
+          "letterSpacing": "normal",
+          "lineHeight": "25.6px",
+          "position": "absolute",
+          "role": null,
+          "w": 390,
+          "weight": "400",
+          "x": 0,
+          "y": 64
+        }
+      ],
+      "scroll": {
+        "width": 390,
+        "y": 0
+      },
+      "toggle": null,
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "16px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "25.6px",
+        "paused": true,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4251/assets/immersive/portrait.mp4",
+        "time": 0.512948,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "escaped": {
+      "bottom": 54,
+      "menuOpen": false,
+      "right": 370,
+      "scrollY": 0,
+      "scroller": {
+        "bottom": 0,
+        "client": 0,
+        "max": "780px",
+        "scroll": 0,
+        "scrollTop": 0,
+        "y": 0
+      },
+      "tag": "SUMMARY",
+      "text": "Menu",
+      "videoPaused": true,
+      "x": 272,
+      "y": 10
+    },
+    "manualPauseSurvivesReload": true,
+    "eligibleResume": true,
+    "returnFromMenuDestination": {
+      "bottom": 2306.28125,
+      "menuOpen": false,
+      "right": 390,
+      "scrollY": 0,
+      "scroller": {
+        "bottom": 0,
+        "client": 0,
+        "max": "780px",
+        "scroll": 0,
+        "scrollTop": 0,
+        "y": 0
+      },
+      "tag": "BODY",
+      "text": "Skip to content\nAQUATIC WORLD\nMenu\n\nFISH · PLANTS · DRIFTWOOD\n\nA world beneath\nthe surface.\n\nDiscover ornamental fish, aquatic plants and natural driftwood.\n\nExplore the collections\n→\n\nScroll to explore\n\nTHE COLLECTION\n\nThree elements.\nOne aquatic world.\n01\nOrnamental Fish\n\nColour, form and gentle movement.\n\n→\n02\nAquatic Plants\n\nTexture, depth and a living landscape.\n\n→\n03\nDriftwood\n\nNatural lines and structure.\n\n→\nView all collections\n→\n\nOUR PERSPECTIVE\n\nA closer connection\nto nature.\n\nExplore the elements of an aquatic landscape, and the questions that shape it.\n\nOur Story\n→\nQuality\n→\nDiscuss a project\n→\nAQUATIC WORLD\nHome\nCollections\nOur Story\nQuality\nContact\n\nFictional design demo. Imagery and copy are illustrative; enquiries are local previews only.\n\nPause background",
+      "videoPaused": false,
+      "x": 0,
+      "y": 0
+    },
+    "copyShift": {
+      "title": 0,
+      "cta": 0
+    }
+  },
+  {
+    "candidate": "claude",
+    "base": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "17px",
+        "h": 44,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "position": "static",
+        "w": 181.2265625,
+        "weight": "400",
+        "x": 20,
+        "y": 10
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 744,
+        "display": "inline-flex",
+        "font": "17px",
+        "h": 52,
+        "letterSpacing": "0.17px",
+        "lineHeight": "20.4px",
+        "position": "static",
+        "w": 282.015625,
+        "weight": "600",
+        "x": 20,
+        "y": 692
+      },
+      "details": [],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 596.40625,
+        "display": "block",
+        "font": "39.48px",
+        "h": 83.6875,
+        "letterSpacing": "-1.1844px",
+        "lineHeight": "41.8488px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 512.71875
+      },
+      "header": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 64,
+        "display": "block",
+        "font": "17px",
+        "h": 64,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "position": "sticky",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 0,
+          "class": "site-nav",
+          "display": "block",
+          "font": "17px",
+          "h": 0,
+          "letterSpacing": "normal",
+          "lineHeight": "28.05px",
+          "position": "static",
+          "role": null,
+          "w": 0,
+          "weight": "400",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "scroll": {
+        "width": 390,
+        "y": 0
+      },
+      "toggle": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "16px",
+        "h": 44,
+        "letterSpacing": "0.16px",
+        "lineHeight": "16px",
+        "position": "static",
+        "w": 98,
+        "weight": "400",
+        "x": 272,
+        "y": 10
+      },
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "17px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4252/assets/immersive/portrait.mp4",
+        "time": 0.517078,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "open": {
+      "brand": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "17px",
+        "h": 44,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "position": "static",
+        "w": 181.2265625,
+        "weight": "400",
+        "x": 20,
+        "y": 10
+      },
+      "cta": {
+        "bg": "rgb(212, 190, 137)",
+        "bottom": 744,
+        "display": "inline-flex",
+        "font": "17px",
+        "h": 52,
+        "letterSpacing": "0.17px",
+        "lineHeight": "20.4px",
+        "position": "static",
+        "w": 282.015625,
+        "weight": "600",
+        "x": 20,
+        "y": 692
+      },
+      "details": [],
+      "h1": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 596.40625,
+        "display": "block",
+        "font": "39.48px",
+        "h": 83.6875,
+        "letterSpacing": "-1.1844px",
+        "lineHeight": "41.8488px",
+        "position": "static",
+        "w": 350,
+        "weight": "400",
+        "x": 20,
+        "y": 512.71875
+      },
+      "header": {
+        "bg": "rgb(10, 53, 65)",
+        "bottom": 64,
+        "display": "block",
+        "font": "17px",
+        "h": 64,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "position": "sticky",
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "navs": [
+        {
+          "bg": "rgba(0, 0, 0, 0)",
+          "bottom": 344,
+          "class": "site-nav",
+          "display": "block",
+          "font": "17px",
+          "h": 280,
+          "letterSpacing": "normal",
+          "lineHeight": "28.05px",
+          "position": "static",
+          "role": null,
+          "w": 350,
+          "weight": "400",
+          "x": 20,
+          "y": 64
+        }
+      ],
+      "scroll": {
+        "width": 390,
+        "y": 0
+      },
+      "toggle": {
+        "bg": "rgba(223, 192, 135, 0.12)",
+        "bottom": 54,
+        "display": "flex",
+        "font": "16px",
+        "h": 44,
+        "letterSpacing": "0.16px",
+        "lineHeight": "16px",
+        "position": "static",
+        "w": 98,
+        "weight": "400",
+        "x": 272,
+        "y": 10
+      },
+      "video": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "bottom": 844,
+        "display": "block",
+        "font": "17px",
+        "h": 844,
+        "letterSpacing": "normal",
+        "lineHeight": "28.05px",
+        "paused": true,
+        "position": "absolute",
+        "ready": 4,
+        "src": "http://127.0.0.1:4252/assets/immersive/portrait.mp4",
+        "time": 0.582876,
+        "w": 390,
+        "weight": "400",
+        "x": 0,
+        "y": 0
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "escaped": {
+      "bottom": 54,
+      "menuOpen": false,
+      "right": 370,
+      "scrollY": 0,
+      "scroller": {
+        "bottom": 0,
+        "client": 0,
+        "max": "calc(-100% + 844px)",
+        "scroll": 0,
+        "scrollTop": 0,
+        "y": 0
+      },
+      "tag": "BUTTON",
+      "text": "Menu",
+      "videoPaused": true,
+      "x": 272,
+      "y": 10
+    },
+    "manualPauseSurvivesReload": true,
+    "eligibleResume": true,
+    "returnFromMenuDestination": {
+      "bottom": 2505.7265625,
+      "menuOpen": false,
+      "right": 390,
+      "scrollY": 0,
+      "scroller": {
+        "bottom": 0,
+        "client": 0,
+        "max": "calc(-100% + 844px)",
+        "scroll": 0,
+        "scrollTop": 0,
+        "y": 0
+      },
+      "tag": "BODY",
+      "text": "Skip to content\nAQUATIC WORLD\nMenu\nPause background\n\nFISH · PLANTS · DRIFTWOOD\n\nA world beneath\nthe surface.\n\nDiscover ornamental fish, aquatic plants and natural driftwood.\n\nExplore the collections\n\nScroll to explore\n\nThree elements. One aquatic world.\n01\nOrnamental Fish\nColour, form and gentle movement.\n02\nAquatic Plants\nTexture, depth and a living landscape.\n03\nDriftwood\nNatural lines and structure.\nView all collections\nA closer connection to nature.\n\nExplore the elements of an aquatic landscape, and the questions that shape it.\n\nOur Story\nQuality\nDiscuss a project\nAQUATIC WORLD\nHome\nCollections\nOur Story\nQuality\nContact\nOrnamental Fish\nAquatic Plants\nDriftwood\n\nAquatic World is an illustrative design concept. Imagery is AI-generated, copy is proposed demo content, and no enquiry is ever sent.\n\nBack to top",
+      "videoPaused": false,
+      "x": 0,
+      "y": 0
+    },
+    "copyShift": {
+      "title": 0,
+      "cta": 0
+    }
+  }
+]

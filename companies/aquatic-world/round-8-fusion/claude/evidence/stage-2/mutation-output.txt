@@ -1,0 +1,6 @@
+== mutation: restore fixed 64px panel cap and nowrap wordmark in dist/assets/site.css ==
+FAIL  wordmark wraps at word boundaries only (white-space normal, no anywhere/break-all)
+FAIL  panel scroller cap subtracts the actual header height (100% of its containing block), not a 64px variable
+16/18 stage-2 checks passed (source/output and arithmetic only; not rendered)
+== rebuild clean ==
+18/18 stage-2 checks passed (source/output and arithmetic only; not rendered)

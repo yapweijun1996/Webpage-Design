@@ -1,0 +1,17 @@
+{
+  "evidence/process-run.json": "2dc02fb62fae716d6ea578bbfe7166262a95dc5feb9b4cce5089be36a36b3ec3",
+  "evidence/check-output.txt": "e1a80cfbc187aad8e386b906f237ad464ba75f02bf0f4a1baacd7f6432ef53c8",
+  "evidence/design-plan.md": "7844354504c8e82f9269bac63dfccd6b79b0b83a23275ccbe68804e1efb08bd0",
+  "evidence/delivery.md": "d6396cae1e31a0901a1fe4bf415383617cf18255bcdbcc0ccf67f898e3bfed83",
+  "evidence/self-review.md": "75de535cc08b9b5fe37d3ca463055076c2e83689f77728528830a6927e7e0d39",
+  "evidence/stage-2/original-evidence-sha256.txt": "65b67abd938b3b75f188041b282b94462afd44e47760a18b230c2add50696190",
+  "evidence/stage-2/process-run.json": "cf299a314661b935ecc10ca37359c81a326f95668810064c40ff504c170453c1",
+  "evidence/stage-2/check-text-enlargement-output.txt": "3f23be21f6b394b4d7fff2cb1c8e78b3a2e767456b6c391fc0f5483206202e93",
+  "evidence/stage-2/pre-change-src-sha256.txt": "e1e32b62bd9978afdb3f8eab67bc80114715aec4e97d63f4373f3e62a266aa3d",
+  "evidence/stage-2/check-text-enlargement.mjs": "f9bbc3a57f638ed3cc7043da74b4e0b93e343879b02bdaf6b13afc66df59b098",
+  "evidence/stage-2/check-motion-output.txt": "f1f1ec4ec498543c8ae8731975b9de4996d236df64b2eb5ea83edd074c77fcfe",
+  "evidence/stage-2/pre-change-dist-sha256.txt": "a4dc68c516cbc7b3b1babe44006fe372a13747f15c56935c5bdcc36789fe0a3f",
+  "evidence/stage-2/design-plan.md": "a083a2655c1f95a1caed2adba6c97de717e0ec25e59c06558be2b8423853e1d3",
+  "evidence/stage-2/mutation-output.txt": "9ef8e6ff5b79bb4f07cce45c2bda933f2ef39528ddb476be8cbf99c0d59b4bab",
+  "evidence/stage-2/self-review.md": "9ddb4f765a6abeaa7125846fcfc4937dbf68e1ec4fd4e7e73b4da4cf467e618a"
+}

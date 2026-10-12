@@ -1,0 +1,28 @@
+{
+  "passed": [
+    "Only Home source and built stylesheet changed among captured files",
+    "New files stay in stage-2 or the permitted root README",
+    "Frozen inputs, baseline, root contracts and original evidence remain byte-identical",
+    "Source and built Home stylesheet match",
+    "Compact header wraps naturally with existing column gap and 8px row gap",
+    "Brand may use available row width and wraps only at ordinary word boundaries",
+    "Menu/Close reserve their content width and align to the right in either row",
+    "Panel remains absolute at header-inner bottom and scrollable within measured visible budget",
+    "Opaque open state changes neither header minimum nor control layout",
+    "Exact patch reversal matches pre-edit stylesheet; typography, scene and all other CSS unchanged",
+    "Five independent Home destinations and current-page state remain",
+    "Complete live wordmark and Menu/Close labels remain",
+    "Native details fallback and nonmodal semantics remain",
+    "Eight content routes plus 404 remain built",
+    "Inner outputs remain byte-identical and load no Home film resources",
+    "Shared styles, both controllers and build/content sources are byte-identical",
+    "All four runtime media match frozen bytes in source and built output",
+    "Existing resize/observer/open measurement still owns remaining-height variable"
+  ],
+  "captured_files": 146,
+  "changed": [
+    "demo/home-motion.css",
+    "demo/public/home-motion.css"
+  ],
+  "limits": "Source/output/hash assertions only. Normal and enlarged rendered fit, scrolling and actual keyboard reachability remain unrun."
+}

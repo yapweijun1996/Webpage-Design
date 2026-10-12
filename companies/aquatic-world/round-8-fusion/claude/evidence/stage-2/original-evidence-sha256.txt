@@ -1,0 +1,7 @@
+e1a80cfbc187aad8e386b906f237ad464ba75f02bf0f4a1baacd7f6432ef53c8  ./check-output.txt
+c5e349daecbc0643eb17a795e3da6c25489efcfdfe3e863af7a447f44ca956ca  ./cli-events.jsonl
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./cli-stderr.log
+d6396cae1e31a0901a1fe4bf415383617cf18255bcdbcc0ccf67f898e3bfed83  ./delivery.md
+7844354504c8e82f9269bac63dfccd6b79b0b83a23275ccbe68804e1efb08bd0  ./design-plan.md
+2dc02fb62fae716d6ea578bbfe7166262a95dc5feb9b4cce5089be36a36b3ec3  ./process-run.json
+75de535cc08b9b5fe37d3ca463055076c2e83689f77728528830a6927e7e0d39  ./self-review.md

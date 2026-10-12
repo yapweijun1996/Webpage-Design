@@ -1,0 +1,43 @@
+PASS: No new or removed files in protected input/baseline/root scope
+PASS: All recorded frozen input, baseline and root contracts unchanged
+PASS: Only three Home presentation/controller source files differ from baseline
+PASS: Shared inner navigation and complete Contact implementation preserved verbatim
+PASS: Exactly eight content HTML pages plus 404
+PASS: Unchanged generated markup/content: /
+PASS: Unchanged generated markup/content: /collections/
+PASS: No Home film or Home theme loaded: /collections/
+PASS: Unchanged generated markup/content: /collections/ornamental-fish/
+PASS: No Home film or Home theme loaded: /collections/ornamental-fish/
+PASS: Unchanged generated markup/content: /collections/aquatic-plants/
+PASS: No Home film or Home theme loaded: /collections/aquatic-plants/
+PASS: Unchanged generated markup/content: /collections/driftwood/
+PASS: No Home film or Home theme loaded: /collections/driftwood/
+PASS: Unchanged generated markup/content: /our-story/
+PASS: No Home film or Home theme loaded: /our-story/
+PASS: Unchanged generated markup/content: /quality/
+PASS: No Home film or Home theme loaded: /quality/
+PASS: Unchanged generated markup/content: /contact/
+PASS: No Home film or Home theme loaded: /contact/
+PASS: Unchanged generated markup/content: /404.html
+PASS: No Home film or Home theme loaded: /404.html
+PASS: Media identity across frozen source, baseline, demo and output: landscape.mp4
+PASS: Media identity across frozen source, baseline, demo and output: portrait.mp4
+PASS: Media identity across frozen source, baseline, demo and output: landscape-poster.webp
+PASS: Media identity across frozen source, baseline, demo and output: portrait-poster.webp
+PASS: Built resource matches source: styles.css
+PASS: Built resource matches source: script.js
+PASS: Built resource matches source: home-motion.css
+PASS: Built resource matches source: home-motion.js
+PASS: Built resource matches source: favicon.svg
+PASS: All 342 asset/page/deferred references resolve with coordinator base /
+PASS: All 342 asset/page/deferred references resolve with coordinator base /Webpage-Design/companies/aquatic-world/round-8-fusion/codex/demo/public
+PASS: Landscape policy exact and independent of width in HTML/CSS/controller
+PASS: Cover/crop and near-square policy retained
+PASS: No modal semantics, inert isolation, Home scroll lock or Tab interception
+PASS: Opaque top disclosure and bounded scrolling source contracts
+PASS: No-JS Home retains native details/summary, five destinations and no eager video src
+PASS: Conservative unrendered first-action budget fits 390x844
+PASS: Conservative unrendered first-action budget fits 360x800
+PASS: Conservative unrendered first-action budget fits 320x800
+PASS: Unrendered 390x844 disclosure budget ends in 360-380 above unchanged heading
+42 source/output checks passed. Phone/menu numbers are arithmetic estimates only.

@@ -1,0 +1,22 @@
+PASS: Only root README and Home source/built CSS changed among all captured files
+PASS: All new files stay within stage-3 evidence
+PASS: Frozen inputs, own baseline, root contracts and original plus stage-2 evidence unchanged
+PASS: Recorded pre-edit Home CSS matches initial integrity hash
+PASS: Home source and rebuilt stylesheet match byte-for-byte
+PASS: Saved patch describes the exact current stylesheet delta
+PASS: Entire stage-2 compact header/menu block remains byte-identical
+PASS: All existing typography declarations remain unchanged
+PASS: Hero/header/media/motion anchor and primary sizing declarations retained
+PASS: Both collection grids reserve content-sized outer tracks and a shrinkable middle
+PASS: Lower Home reading content can break overlong words
+PASS: Home action labels have bounded widths and natural wrapping
+PASS: Footer brand is bounded and retains whole-word wrapping
+PASS: Footer navigation can shrink and wrap within its parent
+PASS: Patch adds no font shrinking, hiding, clipping, runtime hooks or global overflow mask
+PASS: All eight content routes plus 404 retain exact HTML bytes after rebuilding
+PASS: Inner pages retain shared presentation and do not load Home resources
+PASS: Shared styles, controllers, route/content sources, serve/build tools and assets unchanged
+PASS: Five disclosure destinations, current page, native details and nonmodal semantics retained
+PASS: Category links and secondary local enquiry destination retained
+PASS: Four runtime films/posters match frozen input bytes in source and built output
+21 bounded source/integrity assertions passed.

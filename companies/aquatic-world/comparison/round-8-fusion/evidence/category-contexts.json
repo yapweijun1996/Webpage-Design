@@ -1,0 +1,30 @@
+[
+  {
+    "candidate": "codex",
+    "slug": "aquatic-plants",
+    "url": "http://127.0.0.1:4251/contact/?category=aquatic-plants#enquiry",
+    "contextPresent": true,
+    "historyPass": true
+  },
+  {
+    "candidate": "codex",
+    "slug": "driftwood",
+    "url": "http://127.0.0.1:4251/contact/?category=driftwood#enquiry",
+    "contextPresent": true,
+    "historyPass": true
+  },
+  {
+    "candidate": "claude",
+    "slug": "aquatic-plants",
+    "url": "http://127.0.0.1:4252/contact/?interest=aquatic-plants#enquiry",
+    "contextPresent": true,
+    "historyPass": true
+  },
+  {
+    "candidate": "claude",
+    "slug": "driftwood",
+    "url": "http://127.0.0.1:4252/contact/?interest=driftwood#enquiry",
+    "contextPresent": true,
+    "historyPass": true
+  }
+]

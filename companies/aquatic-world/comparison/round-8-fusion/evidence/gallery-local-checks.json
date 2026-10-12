@@ -1,0 +1,87 @@
+[
+  {
+    "choice": "menu",
+    "imgs": [
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/codex-mobile-menu-final.jpg",
+        "width": 390
+      },
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/claude-mobile-menu-final.jpg",
+        "width": 390
+      }
+    ]
+  },
+  {
+    "choice": "desktop",
+    "imgs": [
+      {
+        "height": 900,
+        "loaded": true,
+        "src": "evidence/codex-1440x900-final.jpg",
+        "width": 1440
+      },
+      {
+        "height": 900,
+        "loaded": true,
+        "src": "evidence/claude-1440x900-final.jpg",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "choice": "text",
+    "imgs": [
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/codex-390x844-text200-menu-final.jpg",
+        "width": 390
+      },
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/claude-390x844-text200-menu-final.jpg",
+        "width": 390
+      }
+    ]
+  },
+  {
+    "choice": "footer",
+    "imgs": [
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/codex-mobile-footer-final.jpg",
+        "width": 390
+      },
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/claude-mobile-footer-final.jpg",
+        "width": 390
+      }
+    ]
+  },
+  {
+    "choice": "mobile",
+    "imgs": [
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/codex-390x844-final.jpg",
+        "width": 390
+      },
+      {
+        "height": 844,
+        "loaded": true,
+        "src": "evidence/claude-390x844-final.jpg",
+        "width": 390
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "reason": "Retained policy stop from reduced-motion test; one still frame, zero wraps. Replaced after explicit Play.",
+  "frames": 1,
+  "wraps": 0
+}

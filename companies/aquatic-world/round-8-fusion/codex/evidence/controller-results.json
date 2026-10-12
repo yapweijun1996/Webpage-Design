@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "Menu suspends and hides utility; closing resumes existing source without changing scroll or timeline",
+    "Manual Pause survives menu, hidden tab and pageshow; session retention and explicit Resume work",
+    "Policy poster default without film download, explicit opt-in and menu intent: {\"reduced\":true}",
+    "Policy poster default without film download, explicit opt-in and menu intent: {\"saveData\":true}",
+    "Policy poster default without film download, explicit opt-in and menu intent: {\"retained\":\"policy\"}",
+    "Policy enabled during playback stops; disabling it or closing Menu never silently cancels stop",
+    "Hidden tab/pagehide suspend, eligible visibility/pageshow resume; hidden initial tab attaches nothing",
+    "Escape returns focus, Tab/Shift+Tab are not intercepted, focus exit closes without stealing focus",
+    "Disclosure top follows measured header growth on resize/observer/open with no movie or scroll change",
+    "Outside and destination clicks dismiss while preserving ordinary activation; desktop breakpoint returns matching focus",
+    "Late pending play completion cannot cancel menu suspension or manual Pause",
+    "Autoplay rejection yields explicit Play retry; unsupported source preserves matching poster and hides utility",
+    "Decode/buffering/poster fallbacks and focus recovery do not introduce new playback intent",
+    "Orientation selects exact HTML-owned rebased sources; changing while paused defers new film until opt-in",
+    "Disabled storage still respects manual Pause; scrolling does not reload or restart film",
+    "Home bypasses shared modal-era menu wiring; inner menu still retains baseline Escape behavior",
+    "Contact category query context retained and unknown value ignored: ornamental-fish",
+    "Contact category query context retained and unknown value ignored: aquatic-plants",
+    "Contact category query context retained and unknown value ignored: driftwood",
+    "Contact category query context retained and unknown value ignored: invalid",
+    "Contact validates required fields, email validity and project limits; safe local preview/Edit/Clear retains four groups"
+  ],
+  "environment": "Node vm with bounded DOM/event/media doubles; no browser or network",
+  "limits": "No native details default action, CSS layout, real focus traversal, download/decoder or rendering verified"
+}
