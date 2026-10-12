@@ -1,0 +1,527 @@
+{
+  "documents": 10,
+  "local_links": 104,
+  "checks": [
+    {
+      "document": "README.md",
+      "target": "companies/aquatic-world/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/aquatic-world/redesign/BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/aquatic-world/comparison/round-3/preview.html",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/aquatic-world/comparison/preview.html",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "companies/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "../templates/company/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/research.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/redesign/BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/comparison/round-3/preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/README.md",
+      "target": "aquatic-world/comparison/preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "redesign/BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/round-3/preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "round-3/codex/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "round-3/claude/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "round-2/codex/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "round-2/claude/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "research.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "design-brief.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/assets-v1/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/round-2/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "codex/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "claude/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "redesign/LEARNINGS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/README.md",
+      "target": "redesign/IMPLEMENTATION-PROMPT.txt",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "redesign/BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "redesign/ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "redesign/IMPLEMENTATION-PROMPT.txt",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "redesign/LEARNINGS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "comparison/assets-v1/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/design-brief.md",
+      "target": "comparison/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/research.md",
+      "target": "redesign/LEARNINGS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/research.md",
+      "target": "comparison/assets-v1/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/research.md",
+      "target": "comparison/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/BRIEF.md",
+      "target": "../comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/BRIEF.md",
+      "target": "../research.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/BRIEF.md",
+      "target": "../comparison/assets-v1/README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/BRIEF.md",
+      "target": "ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/BRIEF.md",
+      "target": "IMPLEMENTATION-PROMPT.txt",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/ACCEPTANCE.md",
+      "target": "../comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/LEARNINGS.md",
+      "target": "BRIEF.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/LEARNINGS.md",
+      "target": "ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/LEARNINGS.md",
+      "target": "IMPLEMENTATION-PROMPT.txt",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/LEARNINGS.md",
+      "target": "../comparison/round-3/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/redesign/LEARNINGS.md",
+      "target": "skill-validation/RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/README.md",
+      "target": "input-manifest.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/README.md",
+      "target": "../../round-3/codex/ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/README.md",
+      "target": "run_pair.py",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/README.md",
+      "target": "RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/README.md",
+      "target": "preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "../../README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "preview.html",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "input-manifest.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "deliveries/codex.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "deliveries/claude.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/environment.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/native-run-summary.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/layout-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/navigation-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/journeys-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/interactions-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/focus-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/layout-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/navigation-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/journeys-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/interactions-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/focus-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/fresh-build-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/codex-http-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/claude-http-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/asset-provenance-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "RESULTS.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/menu-mobile.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/menu-mobile.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/collections-desktop-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/collections-desktop-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/home-tablet-first.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/home-tablet-first.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/plants-desktop-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/driftwood-desktop-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/quality-desktop-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/codex/contact-mobile-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/playwright/claude/contact-mobile-full.png",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/capture-method-correction.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/navigation-method-correction.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/journeys-method-correction.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/interactions-method-correction.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/focus-method-correction.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/viewer-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/preservation-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/preview-health-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/document-link-checks.json",
+      "exists": true
+    },
+    {
+      "document": "companies/aquatic-world/comparison/round-3/RESULTS.md",
+      "target": "output/skill-update-validation.json",
+      "exists": true
+    }
+  ],
+  "pass": true
+}

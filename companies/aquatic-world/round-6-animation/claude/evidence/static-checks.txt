@@ -1,0 +1,82 @@
+
+> aquatic-world-multipage-demo@1.0.0 check
+> node scripts/check-motion.mjs && node scripts/check-motion-logic.mjs
+
+PASS  source PNG hash (demo/assets/motion)
+PASS  built PNG hash (dist/assets/motion)
+PASS  Home has one scene
+PASS  scene image is the owned PNG at 1882×836
+PASS  no <picture>/crop derivative in hero
+PASS  exactly one water-light layer
+PASS  exactly ten particles
+PASS  decorations aria-hidden
+PASS  button native, hidden until JS readiness, labelled
+PASS  copy and primary collection action precede media in source order
+PASS  initial state paused, effects off
+PASS  particle 1 position/delay/duration match reference
+PASS  particle 2 position/delay/duration match reference
+PASS  particle 3 position/delay/duration match reference
+PASS  particle 4 position/delay/duration match reference
+PASS  particle 5 position/delay/duration match reference
+PASS  particle 6 position/delay/duration match reference
+PASS  particle 7 position/delay/duration match reference
+PASS  particle 8 position/delay/duration match reference
+PASS  particle 9 position/delay/duration match reference
+PASS  particle 10 position/delay/duration match reference
+PASS  particle field inset matches reference
+PASS  water-light keyframes match reference
+PASS  particle keyframes match reference
+PASS  water-light geometry/timing
+PASS  particles 2px round, 16s ease-in-out base
+PASS  decorations non-interactive, clipped, hidden by visibility
+PASS  no-JS hides decorations
+PASS  frame reserves 1882/836, image contain
+PASS  no transform/crop on scene image
+PASS  global reduced-motion rule excludes decorations
+PASS  no runtime URL escapes into input/baseline/other workspaces or external hosts
+PASS  eight routes + 404 built
+PASS  distinct H1 and title per page
+PASS  scene only on Home
+PASS  header current-page indicator per route
+PASS  Contact keeps four field groups
+PASS  Contact keeps preview/edit/clear and no-send copy
+PASS  internal links, src and srcset resolve
+PASS  no dependencies declared
+
+40/40 static checks passed
+PASS  before image ready: no effects, button hidden
+PASS  image ready but not yet in view: paused, Play
+PASS  ready + in view: playing, Pause
+PASS  user Pause freezes, label Play
+PASS  offscreen → back keeps user Pause
+PASS  hidden tab → back keeps user Pause
+PASS  menu open/Escape keeps user Pause
+PASS  Escape returns focus to menu trigger
+PASS  explicit Play resumes
+PASS  fully offscreen suspends
+PASS  re-entry resumes when not paused by user
+PASS  hidden document suspends
+PASS  visible again resumes
+PASS  mobile menu open suspends
+PASS  menu close resumes
+PASS  Play while menu open opts in but menu gate holds
+PASS  …and runs once the menu closes
+PASS  live change to reduce stops and hides decorations
+PASS  change back alone cannot resume
+PASS  explicit Play after policy stop runs
+PASS  initial reduce: still image, Play offered
+PASS  opt-in flag false
+PASS  explicit opt-in under reduce runs
+PASS  opt-in flag true
+PASS  opt-in still respects hidden gate
+PASS  initial Save-Data: still until opt-in
+PASS  Play opts in under Save-Data
+PASS  Save-Data change event stops
+PASS  Save-Data off alone cannot resume
+PASS  image error: no effects, no button
+PASS  image error state exposed
+PASS  already-broken image at init: error
+PASS  already-loaded image at init: playing
+PASS  no IntersectionObserver: rect fallback runs without throwing
+
+34/34 simulated logic checks passed (stubbed DOM; not browser evidence)

@@ -1,0 +1,208 @@
+{
+  "generatedBy": "scripts/build-images.sh",
+  "sourcePackBytes": 22350783,
+  "derivativeBytesTotal": 1513038,
+  "slotReuse": "enquiry-underwater-school serves both highlights.background and enquiry.background; collection-driftwood serves collections.driftwood and highlights.driftwood (as recorded in the input manifest). Fixtures reuse supplied sources only.",
+  "derivatives": [
+    {
+      "file": "assets/img/hero-angelfish-720.webp",
+      "sourceAssetId": "hero-angelfish",
+      "source": "input/assets/hero-angelfish.png",
+      "sourceSha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "width": 720,
+      "height": 320,
+      "bytes": 30938,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/hero-angelfish-1280.webp",
+      "sourceAssetId": "hero-angelfish",
+      "source": "input/assets/hero-angelfish.png",
+      "sourceSha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "width": 1280,
+      "height": 569,
+      "bytes": 71828,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/hero-angelfish-1882.webp",
+      "sourceAssetId": "hero-angelfish",
+      "source": "input/assets/hero-angelfish.png",
+      "sourceSha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "width": 1882,
+      "height": 836,
+      "bytes": 135684,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/heritage-waterfront-640.webp",
+      "sourceAssetId": "heritage-waterfront",
+      "source": "input/assets/heritage-waterfront.png",
+      "sourceSha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "width": 640,
+      "height": 401,
+      "bytes": 56220,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/heritage-waterfront-1080.webp",
+      "sourceAssetId": "heritage-waterfront",
+      "source": "input/assets/heritage-waterfront.png",
+      "sourceSha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "width": 1080,
+      "height": 676,
+      "bytes": 137316,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/heritage-waterfront-1586.webp",
+      "sourceAssetId": "heritage-waterfront",
+      "source": "input/assets/heritage-waterfront.png",
+      "sourceSha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "width": 1586,
+      "height": 992,
+      "bytes": 280608,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-ornamental-fish-480.webp",
+      "sourceAssetId": "collection-ornamental-fish",
+      "source": "input/assets/collection-ornamental-fish.png",
+      "sourceSha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "width": 480,
+      "height": 360,
+      "bytes": 16364,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-ornamental-fish-960.webp",
+      "sourceAssetId": "collection-ornamental-fish",
+      "source": "input/assets/collection-ornamental-fish.png",
+      "sourceSha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "width": 960,
+      "height": 720,
+      "bytes": 52630,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-aquatic-plants-480.webp",
+      "sourceAssetId": "collection-aquatic-plants",
+      "source": "input/assets/collection-aquatic-plants.png",
+      "sourceSha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "width": 480,
+      "height": 360,
+      "bytes": 49030,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-aquatic-plants-960.webp",
+      "sourceAssetId": "collection-aquatic-plants",
+      "source": "input/assets/collection-aquatic-plants.png",
+      "sourceSha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "width": 960,
+      "height": 720,
+      "bytes": 144800,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-driftwood-480.webp",
+      "sourceAssetId": "collection-driftwood",
+      "source": "input/assets/collection-driftwood.png",
+      "sourceSha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "width": 480,
+      "height": 360,
+      "bytes": 31888,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/collection-driftwood-960.webp",
+      "sourceAssetId": "collection-driftwood",
+      "source": "input/assets/collection-driftwood.png",
+      "sourceSha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "width": 960,
+      "height": 720,
+      "bytes": 99380,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-red-betta-400.webp",
+      "sourceAssetId": "highlight-red-betta",
+      "source": "input/assets/highlight-red-betta.png",
+      "sourceSha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "width": 400,
+      "height": 300,
+      "bytes": 14054,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-red-betta-800.webp",
+      "sourceAssetId": "highlight-red-betta",
+      "source": "input/assets/highlight-red-betta.png",
+      "sourceSha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "width": 800,
+      "height": 600,
+      "bytes": 42180,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-angelfish-400.webp",
+      "sourceAssetId": "highlight-angelfish",
+      "source": "input/assets/highlight-angelfish.png",
+      "sourceSha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "width": 400,
+      "height": 300,
+      "bytes": 20536,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-angelfish-800.webp",
+      "sourceAssetId": "highlight-angelfish",
+      "source": "input/assets/highlight-angelfish.png",
+      "sourceSha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "width": 800,
+      "height": 600,
+      "bytes": 55430,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-red-plants-400.webp",
+      "sourceAssetId": "highlight-red-plants",
+      "source": "input/assets/highlight-red-plants.png",
+      "sourceSha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "width": 400,
+      "height": 300,
+      "bytes": 25110,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/highlight-red-plants-800.webp",
+      "sourceAssetId": "highlight-red-plants",
+      "source": "input/assets/highlight-red-plants.png",
+      "sourceSha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "width": 800,
+      "height": 600,
+      "bytes": 72144,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/enquiry-underwater-school-960.webp",
+      "sourceAssetId": "enquiry-underwater-school",
+      "source": "input/assets/enquiry-underwater-school.png",
+      "sourceSha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "width": 960,
+      "height": 384,
+      "bytes": 57208,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    },
+    {
+      "file": "assets/img/enquiry-underwater-school-1600.webp",
+      "sourceAssetId": "enquiry-underwater-school",
+      "source": "input/assets/enquiry-underwater-school.png",
+      "sourceSha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "width": 1600,
+      "height": 640,
+      "bytes": 119690,
+      "encoding": "WebP q78 m6 (cwebp), metadata stripped"
+    }
+  ]
+}

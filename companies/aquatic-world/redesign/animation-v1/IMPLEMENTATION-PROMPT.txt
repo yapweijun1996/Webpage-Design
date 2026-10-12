@@ -1,0 +1,11 @@
+Implement the selected Aquatic World homepage controlled-animation enhancement in an independent copy of your own round-5 website when native execution is authorized. Do not modify historical workspaces.
+
+Read the common INTEGRATION.md and input-manifest.json. Use the exact supplied hero-angelfish.png source bytes and deterministic motion parameters. The reference preview.html, styles.css and motion.js show the selected ambient direction. Integrate independently into your own existing homepage/build; preserve your site's copy, primary collection link and typography. Copy assets into your own build. Do not add runtime imports from the reference study or another worker.
+
+Keep the full original image and its natural ratio on desktop/mobile. Fish, fins, plants, wood and camera remain stationary. Use only the specified subtle water light and ten particles in the quiet left half. Preserve cycle endpoints and phase. Avoid tall crops, zoom, image transforms, random particles and motion over the fish/text/controls.
+
+Implement one real Play/Pause animation action. Respect initial/live reduced motion, exposed Save-Data, image failure, no JavaScript, fully offscreen hero, hidden document and open mobile menu. A user pause or policy stop survives automatic visibility/menu changes. Explicit Play can opt in but cannot override visibility/menu gates. Provide stable reserved dimensions and clear keyboard focus.
+
+Preserve all eight distinct routes, direct reload/history, current navigation/header, and the four-group Contact workflow. Scope shared CSS changes carefully. Do not generate videos, call any external API, install dependencies, alter credentials, publish, commit, push or run a different model.
+
+Deliver actual build/preview commands, paths, behavior-state description and performed desktop/intermediate/phone checks, including real moving and paused frames, menu focus/close, reduced motion, no-JavaScript fallback, console and page journeys. Record unavailable checks honestly. A build exit code is not visual acceptance. Leave user acceptance pending.

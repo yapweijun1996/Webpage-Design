@@ -1,0 +1,40 @@
+{
+  "native_models": {
+    "codex": {
+      "requested": "gpt-6.1-sol",
+      "exposed_turn_context_models": [
+        "gpt-6.1-sol"
+      ],
+      "exposed_efforts": [
+        "xhigh"
+      ],
+      "session_cli_version": "0.162.1",
+      "launch_cli_version": "0.162.1",
+      "session_metadata_found": true
+    },
+    "claude": {
+      "requested": "claude-opus-5-5",
+      "exposed_init_model": "claude-opus-5-5",
+      "exposed_assistant_models": [
+        "claude-opus-5-5"
+      ],
+      "exposed_effort": null,
+      "launch_cli_version": "2.1.289",
+      "permission_mode": "auto"
+    }
+  },
+  "effort_normalization": "None; native defaults retained",
+  "evaluator_browser": {
+    "product": "Google Chrome",
+    "version": "154.0.8037.99",
+    "mode": "headed",
+    "session": "aquatic-round-4"
+  },
+  "runtime_versions": {
+    "python": "Python 3.14.3",
+    "node": "v23.10.0",
+    "codex_installed_at_inspection": "codex-cli 0.162.1",
+    "claude_installed_at_inspection": "2.1.289 (Claude Code)",
+    "macos": "27.0.1"
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hans">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aquatic World — Runway 试片复核</title>
+<style>
+:root{color-scheme:dark;background:#072c31;color:#f8f6ed;font:16px/1.55 system-ui,sans-serif}*{box-sizing:border-box}body{margin:0}main{max-width:1056px;margin:auto;padding:28px}a{color:#b9e7de}h1{font-size:clamp(25px,4vw,38px);line-height:1.18;margin:8px 0 12px}p{margin:8px 0}.eyebrow{font-size:12px;letter-spacing:.13em;color:#bbd7d2}.meta{color:#c1d8d5;font-size:14px}.video-panel{margin:24px 0 0;border:1px solid #426166;border-radius:14px;overflow:hidden;background:#00191d}video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#00191d}.controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:14px}button{border:1px solid #aacbc3;border-radius:7px;background:#f4f0df;color:#123a3e;font:inherit;min-height:44px;padding:8px 14px;cursor:pointer}button.secondary{color:#dbece5;background:#15434a}button:focus-visible,a:focus-visible{outline:3px solid #ffdb8c;outline-offset:4px}output{font-size:14px;color:#c9deda}.findings{border-left:3px solid #e5bc76;margin-top:24px;padding:0 0 0 16px}.findings p{color:#d2e2dc}h2{font-size:20px;margin:0 0 8px}.evidence{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}.evidence figure{margin:0}.evidence img{width:100%;display:block;border-radius:9px}.evidence figcaption{font-size:14px;margin-top:8px;color:#bed8d3}.links{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;font-size:14px}@media(max-width:600px){main{padding:20px 16px}.evidence{grid-template-columns:1fr}.controls{padding:12px;gap:8px}button{font-size:14px}.video-panel{margin-top:18px}}
+</style>
+<main>
+<header><div class="eyebrow">AQUATIC WORLD / MOTION TRIAL 01</div><h1>Runway 试片复核</h1><p class="meta">Gen-4.5 · 1280 × 720 · 6.04 秒 · 无音轨 · 服务返回费用 US$0.72</p></header>
+<figure class="video-panel"><video id="trial-video" controls playsinline muted preload="metadata" poster="runway-01-poster.webp" src="runway-01-preview.mp4" aria-label="Runway 水族试片"></video><div class="controls"><button id="replay" type="button">从头播放</button><button id="pause" type="button" class="secondary">暂停</button><button id="loop-review" type="button" class="secondary">检查 3 次循环衔接</button><output id="playback-status" aria-live="off">等待播放</output></div></figure>
+<section class="findings"><h2>目前不通过首页循环要求</h2><p>鱼明显游动、背景构图变化、后段上方鱼鳍触及边缘。实际播放已观察到循环跳变；三次衔接已执行，首末帧如下。影片尚未获得用户认可，也未放入 Codex 或 Claude 网站。</p><p>Wan 的计费差异仍未解决，因此没有生成 Wan 试片；这页不代表两模型的实际胜负。</p></section>
+<section class="evidence" aria-label="首末帧比较"><figure><img src="frames/frame-0.png" width="1280" height="720" alt="影片首帧：鱼位于右侧，周围有水草和沉木"><figcaption>0.00 秒：首帧</figcaption></figure><figure><img src="frames/frame-4.png" width="1280" height="720" alt="影片末帧：鱼与背景位置已变化，上方鱼鳍接近边缘"><figcaption>6.00 秒：末帧</figcaption></figure></section>
+<nav class="links" aria-label="复核资料"><a href="runway-01-raw.mp4">原始影片（4.58 MB）</a><a href="contact-sheet.jpg">五张抽帧</a><a href="RESULTS.md">复核结果</a><a href="README.md">试片记录</a><a href="../../../comparison/round-5/preview.html">现有网站比较</a></nav>
+</main>
+<script>
+const video=document.querySelector('#trial-video');
+const status=document.querySelector('#playback-status');
+let loopReview=false,joins=0,previousTime=0;
+function display(){status.textContent=`${video.paused?'已暂停':'播放中'} · ${video.currentTime.toFixed(2)} 秒 · 循环衔接 ${joins}/3`;status.dataset.joins=joins;status.dataset.paused=String(video.paused)}
+async function start(review){video.pause();video.loop=review;loopReview=review;joins=0;previousTime=0;video.currentTime=0;try{await video.play()}catch{status.textContent='播放未开始，请使用影片原生播放按钮'}}
+document.querySelector('#replay').addEventListener('click',()=>start(false));
+document.querySelector('#loop-review').addEventListener('click',()=>start(true));
+document.querySelector('#pause').addEventListener('click',()=>video.pause());
+video.addEventListener('timeupdate',()=>{if(loopReview&&video.currentTime<previousTime-1){joins+=1}previousTime=video.currentTime;if(loopReview&&joins>=3&&video.currentTime>=1){video.pause();video.loop=false;loopReview=false}display()});
+video.addEventListener('play',display);video.addEventListener('pause',display);
+video.addEventListener('error',()=>{status.textContent='影片加载失败；可以查看抽帧或原始影片'});
+</script>
+</html>

@@ -1,0 +1,2692 @@
+{
+  "scope": "Static source/output and real HTTP handler in-process. No browser, no actual listening socket, no screenshot or visual acceptance is implied.",
+  "pass": 537,
+  "fail": 0,
+  "checks": [
+    {
+      "check": "/: one meaningful H1",
+      "result": "pass",
+      "detail": "A quieter world.A closer connection."
+    },
+    {
+      "check": "/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/hero-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/hero-angelfish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/hero-angelfish-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-ornamental-fish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-ornamental-fish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-aquatic-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-aquatic-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-driftwood-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/collection-driftwood-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/heritage-waterfront-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/heritage-waterfront-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/heritage-waterfront-1600.webp 1586w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: one meaningful H1",
+      "result": "pass",
+      "detail": "Three elements.Endless possibilities."
+    },
+    {
+      "check": "/collections/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: dimensioned local image /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-ornamental-fish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-ornamental-fish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: dimensioned local image /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-aquatic-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-aquatic-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: dimensioned local image /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-driftwood-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/collection-driftwood-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: one meaningful H1",
+      "result": "pass",
+      "detail": "OrnamentalFish"
+    },
+    {
+      "check": "/collections/ornamental-fish/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/?category=ornamental-fish#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: anchor resolves /contact/?category=ornamental-fish#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/?category=ornamental-fish#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: anchor resolves /contact/?category=ornamental-fish#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-ornamental-fish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-ornamental-fish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/highlight-red-betta-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/highlight-red-betta-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/highlight-red-betta-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/highlight-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/highlight-angelfish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/highlight-angelfish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-aquatic-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-aquatic-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-driftwood-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/collection-driftwood-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: breadcrumb hierarchy",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: enquiry preserves category",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/ornamental-fish/: both sibling links",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: one meaningful H1",
+      "result": "pass",
+      "detail": "AquaticPlants"
+    },
+    {
+      "check": "/collections/aquatic-plants/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/?category=aquatic-plants#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: anchor resolves /contact/?category=aquatic-plants#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/?category=aquatic-plants#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: anchor resolves /contact/?category=aquatic-plants#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: dimensioned local image /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-aquatic-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-aquatic-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: dimensioned local image /assets/highlight-red-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/highlight-red-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/highlight-red-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: dimensioned local image /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-ornamental-fish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-ornamental-fish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: dimensioned local image /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-driftwood-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/collection-driftwood-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: breadcrumb hierarchy",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: enquiry preserves category",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/aquatic-plants/: both sibling links",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: one meaningful H1",
+      "result": "pass",
+      "detail": "Driftwood.Nature draws the line."
+    },
+    {
+      "check": "/collections/driftwood/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/?category=driftwood#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: anchor resolves /contact/?category=driftwood#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/?category=driftwood#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: anchor resolves /contact/?category=driftwood#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: dimensioned local image /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-driftwood-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-driftwood-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: dimensioned local image /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-ornamental-fish-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-ornamental-fish-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: dimensioned local image /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-aquatic-plants-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/collection-aquatic-plants-1600.webp 1448w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: breadcrumb hierarchy",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: enquiry preserves category",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/collections/driftwood/: both sibling links",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: one meaningful H1",
+      "result": "pass",
+      "detail": "Nature is closerthan we think."
+    },
+    {
+      "check": "/our-story/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: dimensioned local image /assets/heritage-waterfront-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: responsive source /assets/heritage-waterfront-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: responsive source /assets/heritage-waterfront-1600.webp 1586w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/our-story/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: one meaningful H1",
+      "result": "pass",
+      "detail": "Thoughtful choices.From the start."
+    },
+    {
+      "check": "/quality/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/quality/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: one meaningful H1",
+      "result": "pass",
+      "detail": "Your aquatic worldstarts here."
+    },
+    {
+      "check": "/contact/: unique IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: title and description",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: semantic landmarks",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: header global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: footer global destinations",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: current global context",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: first link skips to main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: native no-JS menu",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: anchor resolves #main",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: anchor resolves /contact/#enquiry",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: link resolves /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: dimensioned local image /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: responsive source /assets/enquiry-underwater-school-640.webp 640w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: responsive source /assets/enquiry-underwater-school-1600.webp 1600w",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: local dependency /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: local dependency /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "/contact/: local dependency /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "All page titles distinct",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "All main content distinct",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: labeled field name",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: described-by IDs name",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: labeled field email",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: described-by IDs email",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: labeled field category",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: described-by IDs category",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: labeled field project",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: described-by IDs project",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: disabled initial submit and no-JS alternative",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Contact: explicit nothing-sent feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "JS source: no external submission or storage API",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "JS source: user input assigned as text",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "CSS source: reduced motion rule",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "CSS source: intermediate navigation breakpoint",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Exactly nine frozen image source IDs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: collection-aquatic-plants",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-aquatic-plants-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: collection-driftwood",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-driftwood-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: collection-ornamental-fish",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-ornamental-fish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: enquiry-underwater-school",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: enquiry-underwater-school-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: heritage-waterfront",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: heritage-waterfront-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: heritage-waterfront-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: hero-angelfish",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: hero-angelfish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: hero-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: highlight-angelfish",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-angelfish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: highlight-red-betta",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-red-betta-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-red-betta-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset provenance: highlight-red-plants",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-red-plants-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Asset derivative: highlight-red-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET / distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /collections/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /collections/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /collections/ornamental-fish/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /collections/aquatic-plants/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /collections/driftwood/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /collections/driftwood/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /our-story/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /our-story/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /quality/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /quality/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: GET /contact/ distinct content",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: HEAD /contact/",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: genuine 404 with recovery",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: no POST service",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /styles.css",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /script.js",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /favicon.svg",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/enquiry-underwater-school-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-aquatic-plants-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-ornamental-fish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/heritage-waterfront-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/heritage-waterfront-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-angelfish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-red-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-red-betta-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-driftwood-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-red-betta-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-driftwood-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/enquiry-underwater-school-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/hero-angelfish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-aquatic-plants-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/hero-angelfish-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/collection-ornamental-fish-1600.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "Handler in-process: asset /assets/highlight-red-plants-640.webp",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "check": "All 59 frozen files preserved byte-for-byte",
+      "result": "pass",
+      "detail": null
+    }
+  ]
+}

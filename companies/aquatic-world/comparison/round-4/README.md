@@ -1,0 +1,17 @@
+# Round 4 — Focused Paired Revision
+
+The user authorized B then A: improve both headers and move phone Contact forms ahead of secondary content. Both original native CLIs revise only their own copied round-3 code, independently, from identical REVIEW.md/prompt/brief/acceptance/reference/assets/skill bytes. This is a paired improvement exercise, not a clean-room model comparison.
+
+The shared input manifest excludes differing own implementation/README and baseline screenshots. Their exact bytes and source-delivery manifest hashes are recorded in starting-conditions.json and checked before launch. Five own screenshots are supplied equally (Home desktop/tablet/phone and Contact phone first/full); no competitor image or evaluator rating is supplied. Codex attaches three own images to its initial prompt; both are instructed to inspect all five using native tools. Historic fresh-start brief wording is superseded explicitly by current REVIEW.md and workspace instructions. Previous deliveries and evidence remain untouched.
+
+Native launch preflight: Codex CLI 0.162.1, gpt-6.1-sol, workspace-write/never approvals; Claude Code 2.1.289, claude-opus-5-5, auto/no permission prompt recipient. Defaults, tools and environment are not normalized. Requested/exposed metadata, tool limitations and runtime/cost gaps will be reported. No extra model/advisor is authorized. One identical revision prompt and autonomous self-review opportunity per worker; no asymmetric coaching or evaluator code edits.
+
+Preview ports: Codex 4201 and Claude 4202, supplied through AQUATIC_PREVIEW_PORT. Preserve existing servers 4170/4171/4172/4181/4182/4191/4192. Owned launch handles, private logs and atomic process records live in worker evidence/. The launcher refuses overwrites and checks shared and own starting bytes.
+
+Independent acceptance retains all eight routes and existing functional gates. Verify shared header across all pages/widths, DOM and keyboard Contact order, first labeled field visibility at 390×844/top zero, errors/preview/edit/clear/prefill/no-JS, related tablet hero subject/copy separation, navigation and reproducible builds. Capture the same headed Chrome desktop/phone/tablet views; compare preserved before with original delivered after. Freeze final original delivery before evaluator checks. Record failures before any separately documented repair stage. User visual acceptance remains pending regardless of functional pass.
+
+Use round-3's unchanged non-blind rubric (IA25, visual35 including header10/composition15/imagery10, responsive20, interactions15, reproducibility5) if an overall score is useful. Explain specific observed improvement and remaining weaknesses; scores do not isolate model capability or establish user satisfaction. Do not compare directly with the single-page rounds' different rubric.
+
+Status: both native processes finished with exit 0, original deliveries were frozen, and the exercised independent gates pass. The [results](RESULTS.md) and [before/after viewer](preview.html) record measurable improvement and remaining trade-offs. User design acceptance remains pending. No evaluator implementation repair was performed.
+
+The [viewer check](output/viewer-checks.json) exercises all 96 version/page/viewport/extent selections and two responsive/shareable-URL cases. The current evaluation assigns no new numerical overall score; it uses the measured before/after outcomes and supported visual reasons.

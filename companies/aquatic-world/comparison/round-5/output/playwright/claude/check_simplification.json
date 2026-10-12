@@ -1,0 +1,1611 @@
+{
+  "checks": [
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 390,
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 390,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1239.75,
+          "secondary": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 390,
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 390,
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 390,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 390,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FIRST-SCREEN",
+      "width": 390,
+      "scrollY": 0,
+      "height": 844,
+      "scrollWidth": 390,
+      "name": {
+        "top": 303.078125,
+        "bottom": 355.4765625
+      },
+      "email": {
+        "top": 413.875,
+        "bottom": 466.2734375
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 268.6796875
+        },
+        {
+          "text": "Email",
+          "top": 379.4765625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1239.75,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 360,
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 360,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1238.8984375,
+          "secondary": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 360,
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 360,
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 360,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 360,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FIRST-SCREEN",
+      "width": 360,
+      "scrollY": 0,
+      "height": 800,
+      "scrollWidth": 360,
+      "name": {
+        "top": 302.2265625,
+        "bottom": 354.625
+      },
+      "email": {
+        "top": 413.0234375,
+        "bottom": 465.421875
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 267.828125
+        },
+        {
+          "text": "Email",
+          "top": 378.625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1238.8984375,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 320,
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 320,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1317.921875,
+          "secondary": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 320,
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 320,
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 320,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 320,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 768,
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 768,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 113,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1057.109375,
+          "secondary": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 768,
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 768,
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 768,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 768,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-FOUR-GROUPS",
+      "width": 1440,
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-INTRO",
+      "width": 1440,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 157,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 397.1484375,
+          "secondary": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ONE-DISCLOSURE",
+      "width": 1440,
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-READABLE",
+      "width": 1440,
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-ACCESSIBLE-REFERENCES",
+      "width": 1440,
+      "missing": [],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-HELP-ORDER",
+      "width": 1440,
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "ornamental-fish",
+      "selected": [
+        "ornamental-fish"
+      ],
+      "name": {
+        "top": 279.078125,
+        "bottom": 331.4765625
+      },
+      "email": {
+        "top": 389.875,
+        "bottom": 442.2734375
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "aquatic-plants",
+      "selected": [
+        "aquatic-plants"
+      ],
+      "name": {
+        "top": 279.078125,
+        "bottom": 331.4765625
+      },
+      "email": {
+        "top": 389.875,
+        "bottom": 442.2734375
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-CONTEXT",
+      "category": "driftwood",
+      "selected": [
+        "driftwood"
+      ],
+      "name": {
+        "top": 279.078125,
+        "bottom": 331.4765625
+      },
+      "email": {
+        "top": 389.875,
+        "bottom": 442.2734375
+      },
+      "pass": true
+    },
+    {
+      "scenario": "SIM-QUALITY-ENQUIRY",
+      "url": "http://127.0.0.1:4212/contact/#enquiry",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-UNKNOWN-CONTEXT",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-PREVIEW-ROWS",
+      "terms": [
+        "Name",
+        "Email",
+        "Collections",
+        "Project"
+      ],
+      "text": "Nothing was sent. This is a local preview; the demo has no enquiry service.\n\nBrief preview\nNAME\nAlex Example\nEMAIL\nalex@example.invalid\nCOLLECTIONS\nAquatic Plants\nPROJECT\nAn illustrative planted display. <img src=x onerror=alert(1)> LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nEdit brief\nClear and start again",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-PREVIEW-NO-OVERFLOW",
+      "pass": true
+    },
+    {
+      "scenario": "SIM-NO-JS",
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "disabled": true,
+      "pass": true
+    }
+  ],
+  "observations": [
+    {
+      "scrollY": 0,
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "name": {
+        "top": 303.078125,
+        "bottom": 355.4765625
+      },
+      "email": {
+        "top": 413.875,
+        "bottom": 466.2734375
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 268.6796875
+        },
+        {
+          "text": "Email",
+          "top": 379.4765625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1239.75,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "name": {
+        "top": 302.2265625,
+        "bottom": 354.625
+      },
+      "email": {
+        "top": 413.0234375,
+        "bottom": 465.421875
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 267.828125
+        },
+        {
+          "text": "Email",
+          "top": 378.625
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1238.8984375,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 320,
+      "height": 800,
+      "scrollWidth": 320,
+      "name": {
+        "top": 381.25,
+        "bottom": 433.6484375
+      },
+      "email": {
+        "top": 492.046875,
+        "bottom": 544.4453125
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 346.8515625
+        },
+        {
+          "text": "Email",
+          "top": 457.6484375
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 83,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1317.921875,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "name": {
+        "top": 388.5703125,
+        "bottom": 440.96875
+      },
+      "email": {
+        "top": 388.5703125,
+        "bottom": 440.96875
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 354.171875
+        },
+        {
+          "text": "Email",
+          "top": 354.171875
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 113,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 1057.109375,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    },
+    {
+      "scrollY": 0,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "name": {
+        "top": 527.3515625,
+        "bottom": 579.75
+      },
+      "email": {
+        "top": 527.3515625,
+        "bottom": 579.75
+      },
+      "labels": [
+        {
+          "text": "Name",
+          "top": 492.953125
+        },
+        {
+          "text": "Email",
+          "top": 492.953125
+        }
+      ],
+      "groups": [
+        "name",
+        "email",
+        "interest",
+        "project"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Prepare an enquiry brief",
+          "top": 157,
+          "secondary": false
+        },
+        {
+          "tag": "H2",
+          "text": "What makes a brief useful",
+          "top": 397.1484375,
+          "secondary": true
+        }
+      ],
+      "notices": [
+        "All fields are required. This preview stays on this page; nothing is sent."
+      ],
+      "secondary": [
+        {
+          "tag": "ASIDE",
+          "after": true
+        }
+      ],
+      "missingReferences": [],
+      "controls": [
+        {
+          "id": "f-name",
+          "name": "name",
+          "type": "text",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "f-email",
+          "name": "email",
+          "type": "email",
+          "height": 52.3984375,
+          "font": 16,
+          "label": null
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "",
+          "name": "interest",
+          "type": "checkbox",
+          "height": 18,
+          "font": 13.3333,
+          "label": {
+            "font": 16,
+            "height": 50
+          }
+        },
+        {
+          "id": "f-project",
+          "name": "project",
+          "type": "textarea",
+          "height": 150,
+          "font": 16,
+          "label": null
+        }
+      ]
+    }
+  ]
+}

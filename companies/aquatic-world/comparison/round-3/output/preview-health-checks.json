@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-11T07:43:13.000933+00:00",
+  "checks": [
+    {
+      "port": 4170,
+      "url": "http://127.0.0.1:4170/comparison/preview.html",
+      "status": 200,
+      "sha256": "a3e584996f38bf40820151ea288648d7f3038bf4a342c9bf2f1e0d49026bdc4f",
+      "expectation": "updated historical viewer banner",
+      "pass": true
+    },
+    {
+      "port": 4171,
+      "url": "http://127.0.0.1:4171/",
+      "status": 200,
+      "sha256": "67c1f7157fff4367d9b65e7e29dd7b66146ea303b807a7ca7b71c8c1feab9bfa",
+      "expectation": "67c1f7157fff4367d9b65e7e29dd7b66146ea303b807a7ca7b71c8c1feab9bfa",
+      "pass": true
+    },
+    {
+      "port": 4172,
+      "url": "http://127.0.0.1:4172/",
+      "status": 200,
+      "sha256": "60bb31cff731cc539e466438c3679d28f49d02992025a7efe137d66a817273a7",
+      "expectation": "60bb31cff731cc539e466438c3679d28f49d02992025a7efe137d66a817273a7",
+      "pass": true
+    },
+    {
+      "port": 4181,
+      "url": "http://127.0.0.1:4181/",
+      "status": 200,
+      "sha256": "e150f834ff4e9c2cc4132d91a45066070f877c6e9bc9a18d838b0f5c830bb390",
+      "expectation": "e150f834ff4e9c2cc4132d91a45066070f877c6e9bc9a18d838b0f5c830bb390",
+      "pass": true
+    },
+    {
+      "port": 4182,
+      "url": "http://127.0.0.1:4182/",
+      "status": 200,
+      "sha256": "61584afddf026a586c686624bdf1cfb86c9417b0a6dda244d5f180ccbcd0e1a9",
+      "expectation": "61584afddf026a586c686624bdf1cfb86c9417b0a6dda244d5f180ccbcd0e1a9",
+      "pass": true
+    },
+    {
+      "port": 4191,
+      "url": "http://127.0.0.1:4191/quality/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "port": 4192,
+      "url": "http://127.0.0.1:4192/quality/",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

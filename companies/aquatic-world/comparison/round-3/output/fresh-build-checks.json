@@ -1,0 +1,403 @@
+{
+  "checked_at": "2026-10-11T07:14:29.005831+00:00",
+  "checks": [
+    {
+      "runner": "codex",
+      "status": "pass",
+      "command": [
+        "python3",
+        "build.py"
+      ],
+      "build_exit_code": 0,
+      "compared_files": [
+        {
+          "path": "404.html",
+          "matches": true,
+          "sha256": "0fd007eb32ece4a6b3cd7d18a86c5afec99004eae5f857c80ae1c13b5a674123"
+        },
+        {
+          "path": "assets/collection-aquatic-plants-1600.webp",
+          "matches": true,
+          "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+        },
+        {
+          "path": "assets/collection-aquatic-plants-640.webp",
+          "matches": true,
+          "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+        },
+        {
+          "path": "assets/collection-driftwood-1600.webp",
+          "matches": true,
+          "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+        },
+        {
+          "path": "assets/collection-driftwood-640.webp",
+          "matches": true,
+          "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+        },
+        {
+          "path": "assets/collection-ornamental-fish-1600.webp",
+          "matches": true,
+          "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+        },
+        {
+          "path": "assets/collection-ornamental-fish-640.webp",
+          "matches": true,
+          "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+        },
+        {
+          "path": "assets/enquiry-underwater-school-1600.webp",
+          "matches": true,
+          "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+        },
+        {
+          "path": "assets/enquiry-underwater-school-640.webp",
+          "matches": true,
+          "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+        },
+        {
+          "path": "assets/heritage-waterfront-1600.webp",
+          "matches": true,
+          "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+        },
+        {
+          "path": "assets/heritage-waterfront-640.webp",
+          "matches": true,
+          "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+        },
+        {
+          "path": "assets/hero-angelfish-1600.webp",
+          "matches": true,
+          "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+        },
+        {
+          "path": "assets/hero-angelfish-640.webp",
+          "matches": true,
+          "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+        },
+        {
+          "path": "assets/highlight-angelfish-1600.webp",
+          "matches": true,
+          "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+        },
+        {
+          "path": "assets/highlight-angelfish-640.webp",
+          "matches": true,
+          "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+        },
+        {
+          "path": "assets/highlight-red-betta-1600.webp",
+          "matches": true,
+          "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+        },
+        {
+          "path": "assets/highlight-red-betta-640.webp",
+          "matches": true,
+          "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+        },
+        {
+          "path": "assets/highlight-red-plants-1600.webp",
+          "matches": true,
+          "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+        },
+        {
+          "path": "assets/highlight-red-plants-640.webp",
+          "matches": true,
+          "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+        },
+        {
+          "path": "assets/manifest.json",
+          "matches": true,
+          "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec"
+        },
+        {
+          "path": "collections/aquatic-plants/index.html",
+          "matches": true,
+          "sha256": "029f07f34c7df519850adbc5789644b44027cd4fc43b875b22fb409d5377a615"
+        },
+        {
+          "path": "collections/driftwood/index.html",
+          "matches": true,
+          "sha256": "e4ab396baa76337fea01843da2856373a6fcd015f068316defe88f3d7b05c700"
+        },
+        {
+          "path": "collections/index.html",
+          "matches": true,
+          "sha256": "3972dc56cb2798882e1bfed508904fafa1e558b7a1b6e74809d56ad05d674bec"
+        },
+        {
+          "path": "collections/ornamental-fish/index.html",
+          "matches": true,
+          "sha256": "a2c40efd1e9aeea18c8c2adb74930d34ae74709239322c521057673b0e698189"
+        },
+        {
+          "path": "contact/index.html",
+          "matches": true,
+          "sha256": "9c38da455adca4b30c37d8bdfbe593ff6c5ca9f0dd2549f25abc9d0b3bc9e204"
+        },
+        {
+          "path": "favicon.svg",
+          "matches": true,
+          "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d"
+        },
+        {
+          "path": "index.html",
+          "matches": true,
+          "sha256": "8fed8b952ab4b155c422b88d72bd1c17745a4e507f2e967e72f7bbaeaa73e77b"
+        },
+        {
+          "path": "our-story/index.html",
+          "matches": true,
+          "sha256": "f4066aafab68b25b91844719ab0e86763befac3b07edf8960f84d1806460db22"
+        },
+        {
+          "path": "quality/index.html",
+          "matches": true,
+          "sha256": "cc592875676d211e27e70f4867e4eb900d79f84c52c254baddd583a7200fce01"
+        },
+        {
+          "path": "script.js",
+          "matches": true,
+          "sha256": "48be676544d13ac72ec21a8a3a436998dbaae0a6080eeb1005f5dc7ee364a71d"
+        },
+        {
+          "path": "styles.css",
+          "matches": true,
+          "sha256": "3eaf7be1c17b4cc5a49d049bceb5199bc7c6f2fdca29d5a2fae5830f6539333d"
+        }
+      ],
+      "stdout": "Built 8 independent pages plus 404 in /private/var/folders/tx/dx_7t0r56svcjld4fx5j_pwr0000gn/T/aquatic-r3-codex-vataoe3o/demo/public\n",
+      "stderr": "",
+      "dependency_install": "None; delivered local image derivatives retained.",
+      "image_regeneration": "Not part of the default build; optional encoder workflow not rerun.",
+      "temporary_copy_removed": true
+    },
+    {
+      "runner": "claude",
+      "status": "pass",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "build_exit_code": 0,
+      "compared_files": [
+        {
+          "path": "404.html",
+          "matches": true,
+          "sha256": "b4259e1c0a92db7f3413105b9390a6a8b29a33f5ab32a0872904db792e662704"
+        },
+        {
+          "path": "assets/favicon.svg",
+          "matches": true,
+          "sha256": "cb56960f069d9528a32a18bcf55e3c4198e57c93fbe8cb044fa4c5b7ad500e13"
+        },
+        {
+          "path": "assets/img/collection-aquatic-plants-1448.webp",
+          "matches": true,
+          "sha256": "283b5dcf8915bee958e0d6b4e71cbe53f0833d1d121a1daba4432739dc929bf0"
+        },
+        {
+          "path": "assets/img/collection-aquatic-plants-640.webp",
+          "matches": true,
+          "sha256": "eb0fafb7594e8dd3d74803f24d2c4ec3feda64bb1aba35966d60eb4fbcbcecda"
+        },
+        {
+          "path": "assets/img/collection-aquatic-plants-960.webp",
+          "matches": true,
+          "sha256": "c04ed581d8c2efe6fdc35ffeb49c51361d6f25c4c2960e5ccd39a0dcfbd79967"
+        },
+        {
+          "path": "assets/img/collection-driftwood-1448.webp",
+          "matches": true,
+          "sha256": "f823d85977a000138ce1197a19ca29fcdd7224450887a7fae8cbfe9e1ddb065b"
+        },
+        {
+          "path": "assets/img/collection-driftwood-640.webp",
+          "matches": true,
+          "sha256": "85861bcf9d614d708ac9cd548b40098083081f074e215646bdad92171f23da07"
+        },
+        {
+          "path": "assets/img/collection-driftwood-960.webp",
+          "matches": true,
+          "sha256": "23d6670bfc4e5ecf0d4a3286f7817ee75cab10e9873ca59b0b88358c1f22fff1"
+        },
+        {
+          "path": "assets/img/collection-ornamental-fish-1448.webp",
+          "matches": true,
+          "sha256": "a578d4d309f36a09e1a2269338c2f5d826fc0ffe126df5ddf8bb882beafcb6e3"
+        },
+        {
+          "path": "assets/img/collection-ornamental-fish-640.webp",
+          "matches": true,
+          "sha256": "3aaef0844bab07f8ca83e6a4b6fab9ff88110f93f8b5007096e59425abcbe69c"
+        },
+        {
+          "path": "assets/img/collection-ornamental-fish-960.webp",
+          "matches": true,
+          "sha256": "052e946dd860cacd7c2ceea6bfa9079a7a2dc65cbd5383e91dfe4205108b18ac"
+        },
+        {
+          "path": "assets/img/enquiry-underwater-school-1280.webp",
+          "matches": true,
+          "sha256": "30f619b3b61b3ea0b8a151d1ca453ca08bb127d6713a1956499417ce5d9775c1"
+        },
+        {
+          "path": "assets/img/enquiry-underwater-school-1920.webp",
+          "matches": true,
+          "sha256": "965789e0dc059e7b632efc31abdeec3fef27350dbea168158151989202bda7d6"
+        },
+        {
+          "path": "assets/img/enquiry-underwater-school-800.webp",
+          "matches": true,
+          "sha256": "57b3a30d5878ff968707205803cf4bb1719baec16df043d3fedef3ea90201f5a"
+        },
+        {
+          "path": "assets/img/heritage-waterfront-1024.webp",
+          "matches": true,
+          "sha256": "e41b94df7117133400bf21beb3e275b3281865764385a4ad66ca5758380b08b4"
+        },
+        {
+          "path": "assets/img/heritage-waterfront-1586.webp",
+          "matches": true,
+          "sha256": "5c8417898b9dba4441abf7483d50a75a895fa73bb21360473841b04ca1233eb0"
+        },
+        {
+          "path": "assets/img/heritage-waterfront-640.webp",
+          "matches": true,
+          "sha256": "8a6dd4c07f7fb01ca2ec2f1369929474bc02782ecd3982e749b1019e65f75388"
+        },
+        {
+          "path": "assets/img/hero-angelfish-1280.webp",
+          "matches": true,
+          "sha256": "402faf32823c0a8dc1599e8f4219513a838ca7fced72f80cf9cdcd956360399a"
+        },
+        {
+          "path": "assets/img/hero-angelfish-1882.webp",
+          "matches": true,
+          "sha256": "6aefc9af1430e123fe9456e8bcad87f124438c5b82898e31a8b088a382bc0e45"
+        },
+        {
+          "path": "assets/img/hero-angelfish-800.webp",
+          "matches": true,
+          "sha256": "545ce03d47ae55ec48661cd9d1f169664ab2124146a2d501acf9a186eac75377"
+        },
+        {
+          "path": "assets/img/hero-angelfish-fish-1000.webp",
+          "matches": true,
+          "sha256": "8a83a9a9cd97526abe474f3958cf1bcf4f26aa2cfe12116f930232167f34ae74"
+        },
+        {
+          "path": "assets/img/hero-angelfish-fish-640.webp",
+          "matches": true,
+          "sha256": "f759828d4975cbe809e4bc39c8b32951a538b5be9232d815788d705c657700e2"
+        },
+        {
+          "path": "assets/img/highlight-angelfish-1448.webp",
+          "matches": true,
+          "sha256": "fdb2a14fe3fac05e1d02f4f05797b5309c516f5b78deebfd50c868de9b80bde5"
+        },
+        {
+          "path": "assets/img/highlight-angelfish-640.webp",
+          "matches": true,
+          "sha256": "f5b137d8d7aa955b0d8db8920621b25d5a9d036908e3911e597296732d0ac65e"
+        },
+        {
+          "path": "assets/img/highlight-angelfish-960.webp",
+          "matches": true,
+          "sha256": "697499f08368aeae8986093ccf892c2c9efe72620443003dc71ab93e52db471b"
+        },
+        {
+          "path": "assets/img/highlight-red-betta-1448.webp",
+          "matches": true,
+          "sha256": "477a07caaeb3a61f824f1e0da378f7a654d1458433b1b58869ba5064cccbd6a1"
+        },
+        {
+          "path": "assets/img/highlight-red-betta-640.webp",
+          "matches": true,
+          "sha256": "34c0b3d4cb89d14df485cfa44aefc06ac912cb665a03df703380b683c8c4eb5c"
+        },
+        {
+          "path": "assets/img/highlight-red-betta-960.webp",
+          "matches": true,
+          "sha256": "27ceb193fc739892513b041ad3e161b5379b724060d6264d95b537c4dc72c46f"
+        },
+        {
+          "path": "assets/img/highlight-red-plants-1448.webp",
+          "matches": true,
+          "sha256": "2601bb45a74257584e556b18654b81ba85a8449482af7e49ace29815492e7b2e"
+        },
+        {
+          "path": "assets/img/highlight-red-plants-640.webp",
+          "matches": true,
+          "sha256": "63120ab35725008fbcd8d97353b307d1467606b76c578a0362121d63251db6a8"
+        },
+        {
+          "path": "assets/img/highlight-red-plants-960.webp",
+          "matches": true,
+          "sha256": "451e00d06e03c05b64a9dc59498a204f68b401a6ab0d3bde656023f9e23190e6"
+        },
+        {
+          "path": "assets/img/manifest.json",
+          "matches": true,
+          "sha256": "5176cd577d6225f3b94b44d563c376886ba0a264ff604fa2dddc38343ea37f0a"
+        },
+        {
+          "path": "assets/site.css",
+          "matches": true,
+          "sha256": "af405cfa6eb5014d8f84cf1dfd5ea1ba1db555f79803300cb31176229e3d852b"
+        },
+        {
+          "path": "assets/site.js",
+          "matches": true,
+          "sha256": "4100888e9c317d0bb82d3e2cf4d56ecb7cb6e1e448abfdc4547c3e53d17bf9f4"
+        },
+        {
+          "path": "collections/aquatic-plants/index.html",
+          "matches": true,
+          "sha256": "b09f5113557398d6432abca6378f123c1c291d5e1a55b18ffd01ddb8f04af613"
+        },
+        {
+          "path": "collections/driftwood/index.html",
+          "matches": true,
+          "sha256": "0ce0607d6d6901d0dcd4141ae134d495fde67fbff1b7dae89c7a7b3c6db40ac0"
+        },
+        {
+          "path": "collections/index.html",
+          "matches": true,
+          "sha256": "040aa2ee1906d96d386782dd5f19005450ef449da441e235511bdb90a7e0a5b3"
+        },
+        {
+          "path": "collections/ornamental-fish/index.html",
+          "matches": true,
+          "sha256": "1a81f160834ca80a40b89cff558a23907e772b384cc52f2e41573b74b52508b9"
+        },
+        {
+          "path": "contact/index.html",
+          "matches": true,
+          "sha256": "fba2e4a652887ad55366c62046589875b6437f73b20335c195b0681c6ffbf94b"
+        },
+        {
+          "path": "index.html",
+          "matches": true,
+          "sha256": "288a7262f07d7f8de95e92a1ec6edbb817489db3e0ba5f374a0f7a361bca2ed0"
+        },
+        {
+          "path": "our-story/index.html",
+          "matches": true,
+          "sha256": "690e98ab4983c9b441afb294666c47f2bd6e869f31cf82044f344b3284620000"
+        },
+        {
+          "path": "quality/index.html",
+          "matches": true,
+          "sha256": "9bf7aa91155a3b9d6efbda9119828017f7e0189ea6e5adc0e5d4a3cd3a1f4222"
+        }
+      ],
+      "stdout": "\n> aquatic-world-multipage-demo@1.0.0 build\n> node scripts/build.mjs\n\n  /\n  /collections/\n  /collections/ornamental-fish/\n  /collections/aquatic-plants/\n  /collections/driftwood/\n  /our-story/\n  /quality/\n  /contact/\n  /404.html\nBuilt 9 pages into /private/var/folders/tx/dx_7t0r56svcjld4fx5j_pwr0000gn/T/aquatic-r3-claude-51g45_wy/demo/dist\n",
+      "stderr": "",
+      "dependency_install": "None; delivered local image derivatives retained.",
+      "image_regeneration": "Not part of the default build; optional encoder workflow not rerun.",
+      "temporary_copy_removed": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Shared Revision Feedback — Round 2
+
+## Goal and boundaries
+
+Revise your own copied first delivery once, using the same original handoff, references, and nine supplied images. This document is identical for both builders. It defines shared acceptance criteria rather than competitor-specific instructions. Inspect both reference images again and review your own current code before revising.
+
+Only change this workspace's `demo/`, `evidence/`, and root `README.md`. Preserve `REVIEW.md`, `TASK.md`, `AGENTS.md`, `CLAUDE.md`, and `input/` byte-for-byte. Do not read parent comparison reports, the other implementation, or any other round's workspace. Your starting implementation is your own first delivery; no previous execution evidence is supplied. This supplemental task authorizes a revision and supersedes TASK.md's wording about an initial delivery. All other original requirements still apply.
+
+## Identical feedback
+
+1. **Composition and density.** Match the reference's compact editorial bands on desktop. Review hero, heritage, collections, quality, highlights, enquiry, and footer proportions together. Excessive section padding, enlarged secondary headings, long disclosures, and stretched secondary bands can weaken fidelity even when each section looks polished individually. Reduce unnecessary height where your implementation needs it, while keeping readable content, honest demo disclosures, and useful touch targets. Use the reference proportions, not a fixed total-page-height hack.
+2. **Photographic text contrast.** Inspect every caption and text layer over imagery, particularly the waterfront heritage caption at desktop and tablet widths. Ensure foreground colors, overlays, and CSS selector scope preserve readable text. Prevent light-panel text styles from overriding photo-caption treatment. Verify the computed result as well as the source rule. Keep the dark teal / champagne / cream palette and visible keyboard focus.
+3. **Responsive hero and crop.** At tablet widths, prevent hero headings and body copy from obscuring the main fish subject. At phone widths, retain as much of the subject and fins as practical and keep the header/navigation readable. Choose breakpoints and object positions deliberately using the supplied image. A responsive stack or carefully separated overlay is acceptable; preserve a coherent mobile hierarchy. Inspect 1440x900, 768x1024, and 390x844, plus overflow at 320, 360, 430, 1024, and 1920 widths.
+4. **History and exploration state.** Opening a collection, browser Back to an empty or unrelated hash, and browser Forward back to that collection must synchronize both the URL and visible explorer. No stale open panel after Back; a valid category hash should reopen the correct detail on Forward or initial load. Verify close/Escape/focus return, multiple categories, and navigation to enquiry while a detail is open.
+5. **Preserve the working contracts.** Keep the reference's eight sections and fixed image-slot mapping, independently served local assets, JSON-driven content, second brand, 1/3/5 categories, and clean optional-section hiding. Preserve keyboard menu behavior and enquiry navigation. Real enquiries remain unavailable: any preview form validates input and clearly states nothing was sent. Keep the page useful without JavaScript and respect reduced motion. Do not add new imagery, frameworks without need, unverified business claims, or inactive links.
+
+## Verification and delivery
+
+Use one autonomous revision opportunity, including your own self-review and repairs before final delivery. Do not seek comparative hints or delegate implementation to another model/agent. Test using the tools actually available to your CLI; record unavailable checks honestly as `not_run`. The evaluator will independently exercise both deliveries in the same browser after you finish.
+
+Write actual check results, screenshots when available, and a concise change/limitation record under `evidence/`. Record actual model, CLI version, effort, tooling, execution time, exposed usage/cost, and the one shared feedback submission in `evidence/run.json`; unknown values remain unknown. Update root README.md with reproducible build/preview commands for this directory. Do not commit, push, deploy, alter global configuration, or send real enquiries.
+
+The unchanged comparison rubric is visual fidelity 45, responsive layout/accessibility 20, functional correctness 15, configuration/content 10, and maintainability 10. Visual fidelity uses composition 20, typography/spacing 10, colors/panel rhythm 5, and imagery/crop/overlays 10. Passing a finite check set does not establish perfect rendering or universal browser support.

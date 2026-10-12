@@ -1,0 +1,2924 @@
+{
+  "evaluated_at": "2026-10-11T10:54:05.403834+00:00",
+  "status": "exercised_independent_gates_pass",
+  "user_design_acceptance": "pending",
+  "focus": "Contact simplification",
+  "overall_numeric_score": null,
+  "metrics": {
+    "codex": {
+      "before": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 900,
+          "scrollY": 0,
+          "pageHeight": 1701,
+          "scrollWidth": 1440,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 448.2421875,
+              "bottom": 498.2421875,
+              "height": 50,
+              "font": 15,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 551.9375,
+              "bottom": 601.9375,
+              "height": 50,
+              "font": 15,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 681.78125,
+              "bottom": 729.78125,
+              "height": 48,
+              "font": 15,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 809.625,
+              "bottom": 959.625,
+              "height": 150,
+              "font": 15,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 224.9921875
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 256.796875
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 532.7734375
+            }
+          ],
+          "submit": {
+            "top": 1068.0703125,
+            "bottom": 1119.0703125,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 80
+        },
+        {
+          "viewport": "tablet",
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "pageHeight": 1764,
+          "scrollWidth": 768,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 498.6796875,
+              "bottom": 548.6796875,
+              "height": 50,
+              "font": 15,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 619.421875,
+              "bottom": 669.421875,
+              "height": 50,
+              "font": 15,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 749.265625,
+              "bottom": 797.265625,
+              "height": 48,
+              "font": 15,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 912.3046875,
+              "bottom": 1062.3046875,
+              "height": 150,
+              "font": 15,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 258.9921875
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 274.796875
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 621.375
+            }
+          ],
+          "submit": {
+            "top": 1170.75,
+            "bottom": 1221.75,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 80
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "pageHeight": 2696,
+          "scrollWidth": 390,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 619.609375,
+              "bottom": 671.203125,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 723.3515625,
+              "bottom": 774.9453125,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 853.2421875,
+              "bottom": 901.2421875,
+              "height": 48,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 997.6875,
+              "bottom": 1151.65625,
+              "height": 153.96875,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 166.1484375
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 384.0234375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 1473.8984375
+            }
+          ],
+          "submit": {
+            "top": 1260.1015625,
+            "bottom": 1311.1015625,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone360",
+          "width": 360,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 2725,
+          "scrollWidth": 360,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 619.609375,
+              "bottom": 671.203125,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 723.3515625,
+              "bottom": 774.9453125,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 853.2421875,
+              "bottom": 901.2421875,
+              "height": 48,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 997.6875,
+              "bottom": 1151.65625,
+              "height": 153.96875,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 166.1484375
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 384.0234375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 1492.046875
+            }
+          ],
+          "submit": {
+            "top": 1278.25,
+            "bottom": 1329.25,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone320",
+          "width": 320,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 2776,
+          "scrollWidth": 320,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 609.5625,
+              "bottom": 661.15625,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 713.3046875,
+              "bottom": 764.8984375,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 861.34375,
+              "bottom": 909.34375,
+              "height": 48,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1005.7890625,
+              "bottom": 1159.7578125,
+              "height": 153.96875,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 166.1484375
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 378.4609375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 1517.296875
+            }
+          ],
+          "submit": {
+            "top": 1304.5,
+            "bottom": 1355.5,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone430",
+          "width": 430,
+          "height": 932,
+          "scrollY": 0,
+          "pageHeight": 2636,
+          "scrollWidth": 430,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 587.1328125,
+              "bottom": 638.7265625,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 690.875,
+              "bottom": 742.46875,
+              "height": 51.59375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 820.765625,
+              "bottom": 868.765625,
+              "height": 48,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 965.2109375,
+              "bottom": 1119.1796875,
+              "height": 153.96875,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your aquatic world\nstarts here.",
+              "visible": true,
+              "top": 166.1484375
+            },
+            {
+              "text": "Tell us what you imagine.",
+              "visible": true,
+              "top": 384.0234375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Not sure where to begin?",
+              "visible": true,
+              "top": 1441.421875
+            }
+          ],
+          "submit": {
+            "top": 1227.625,
+            "bottom": 1278.625,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        }
+      ],
+      "after": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 900,
+          "scrollY": 0,
+          "pageHeight": 1576,
+          "scrollWidth": 1440,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 341.390625,
+              "bottom": 391.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 341.390625,
+              "bottom": 391.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 443.390625,
+              "bottom": 493.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 577.390625,
+              "bottom": 727.390625,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 198.796875
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 779.390625,
+            "bottom": 831.390625,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 80
+        },
+        {
+          "viewport": "tablet",
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "pageHeight": 1584,
+          "scrollWidth": 768,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 373.390625,
+              "bottom": 423.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 373.390625,
+              "bottom": 423.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 475.390625,
+              "bottom": 525.390625,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 609.390625,
+              "bottom": 759.390625,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 230.796875
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 811.390625,
+            "bottom": 863.390625,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 80
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "pageHeight": 2006,
+          "scrollWidth": 390,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 307.9453125,
+              "bottom": 357.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 409.9453125,
+              "bottom": 459.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 511.9453125,
+              "bottom": 561.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 669.9453125,
+              "bottom": 819.9453125,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 161.1484375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 895.9453125,
+            "bottom": 947.9453125,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone360",
+          "width": 360,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 1993,
+          "scrollWidth": 360,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 307.9453125,
+              "bottom": 357.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 409.9453125,
+              "bottom": 459.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 511.9453125,
+              "bottom": 561.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 669.9453125,
+              "bottom": 819.9453125,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 161.1484375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 895.9453125,
+            "bottom": 947.9453125,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone320",
+          "width": 320,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 1995,
+          "scrollWidth": 320,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 307.9453125,
+              "bottom": 357.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 409.9453125,
+              "bottom": 459.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 511.9453125,
+              "bottom": 561.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 669.9453125,
+              "bottom": 819.9453125,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 161.1484375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 895.9453125,
+            "bottom": 947.9453125,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        },
+        {
+          "viewport": "phone430",
+          "width": 430,
+          "height": 932,
+          "scrollY": 0,
+          "pageHeight": 1975,
+          "scrollWidth": 430,
+          "fields": [
+            {
+              "id": "name",
+              "name": "name",
+              "type": "text",
+              "top": 283.9453125,
+              "bottom": 333.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "type": "email",
+              "top": 385.9453125,
+              "bottom": 435.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "type": "select-one",
+              "top": 487.9453125,
+              "bottom": 537.9453125,
+              "height": 50,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "project",
+              "name": "project",
+              "type": "textarea",
+              "top": 645.9453125,
+              "bottom": 795.9453125,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "category",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Your project brief",
+              "visible": true,
+              "top": 161.1484375
+            },
+            {
+              "text": "Preview created. Nothing was sent.",
+              "visible": false,
+              "top": 0
+            }
+          ],
+          "submit": {
+            "top": 847.9453125,
+            "bottom": 899.9453125,
+            "text": "Preview enquiry\n\u2197"
+          },
+          "headerHeight": 68
+        }
+      ]
+    },
+    "claude": {
+      "before": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 900,
+          "scrollY": 0,
+          "pageHeight": 2032,
+          "scrollWidth": 1440,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 644.28125,
+              "bottom": 696.6796875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 644.28125,
+              "bottom": 696.6796875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 754.2890625,
+              "bottom": 806.6875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 754.2890625,
+              "bottom": 806.6875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 909.5234375,
+              "bottom": 927.5234375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 909.5234375,
+              "bottom": 927.5234375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 969.5234375,
+              "bottom": 987.5234375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 969.5234375,
+              "bottom": 987.5234375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1090.359375,
+              "bottom": 1240.359375,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1334.7421875,
+              "bottom": 1387.140625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 194.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 515.0390625
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 466.0390625
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 725.765625
+            }
+          ],
+          "submit": {
+            "top": 1419.140625,
+            "bottom": 1467.140625,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 77
+        },
+        {
+          "viewport": "tablet",
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "pageHeight": 2587,
+          "scrollWidth": 768,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 495.34375,
+              "bottom": 547.7421875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 495.34375,
+              "bottom": 547.7421875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 605.3515625,
+              "bottom": 657.75,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 605.3515625,
+              "bottom": 657.75,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 760.5859375,
+              "bottom": 778.5859375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 760.5859375,
+              "bottom": 778.5859375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 820.5859375,
+              "bottom": 838.5859375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 820.5859375,
+              "bottom": 838.5859375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 941.421875,
+              "bottom": 1091.421875,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1185.8046875,
+              "bottom": 1238.203125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 150.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 372.8125
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 1388.3203125
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1614.28125
+            }
+          ],
+          "submit": {
+            "top": 1270.203125,
+            "bottom": 1318.203125,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "pageHeight": 3265,
+          "scrollWidth": 390,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 413.8984375,
+              "bottom": 466.296875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 523.90625,
+              "bottom": 576.3046875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 633.9140625,
+              "bottom": 686.3125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 773.1484375,
+              "bottom": 825.546875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 899.15625,
+              "bottom": 917.15625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 959.15625,
+              "bottom": 977.15625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1019.15625,
+              "bottom": 1037.15625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1079.15625,
+              "bottom": 1097.15625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1223.21875,
+              "bottom": 1373.21875,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1490.828125,
+              "bottom": 1543.2265625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 112.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 284.8671875
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 1719.9765625
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 2000.046875
+            }
+          ],
+          "submit": {
+            "top": 1575.2265625,
+            "bottom": 1623.2265625,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone360",
+          "width": 360,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 3400,
+          "scrollWidth": 360,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 436.796875,
+              "bottom": 489.1953125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 546.8046875,
+              "bottom": 599.203125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 656.8125,
+              "bottom": 709.2109375,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 796.046875,
+              "bottom": 848.4453125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 922.0546875,
+              "bottom": 940.0546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 982.0546875,
+              "bottom": 1000.0546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1042.0546875,
+              "bottom": 1060.0546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1102.0546875,
+              "bottom": 1120.0546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1246.1171875,
+              "bottom": 1396.1171875,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1513.7265625,
+              "bottom": 1566.125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 112.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 284.015625
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 1742.875
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 2050
+            }
+          ],
+          "submit": {
+            "top": 1598.125,
+            "bottom": 1646.125,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone320",
+          "width": 320,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 3508,
+          "scrollWidth": 320,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 469.015625,
+              "bottom": 521.4140625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 579.0234375,
+              "bottom": 631.421875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 689.03125,
+              "bottom": 741.4296875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 828.265625,
+              "bottom": 880.6640625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 954.2734375,
+              "bottom": 972.2734375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1014.2734375,
+              "bottom": 1032.2734375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1074.2734375,
+              "bottom": 1092.2734375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1134.2734375,
+              "bottom": 1152.2734375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1301.5625,
+              "bottom": 1451.5625,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1569.171875,
+              "bottom": 1621.5703125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 112.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 316.234375
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 1798.3203125
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 2133.4921875
+            }
+          ],
+          "submit": {
+            "top": 1653.5703125,
+            "bottom": 1701.5703125,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone430",
+          "width": 430,
+          "height": 932,
+          "scrollY": 0,
+          "pageHeight": 3192,
+          "scrollWidth": 430,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 393.2890625,
+              "bottom": 445.6875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-org",
+              "name": "organisation",
+              "type": "text",
+              "top": 503.296875,
+              "bottom": 555.6953125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 613.3046875,
+              "bottom": 665.703125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-role",
+              "name": "role",
+              "type": "select-one",
+              "top": 752.5390625,
+              "bottom": 804.9375,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 878.546875,
+              "bottom": 896.546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 938.546875,
+              "bottom": 956.546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 998.546875,
+              "bottom": 1016.546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 1058.546875,
+              "bottom": 1076.546875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 1202.609375,
+              "bottom": 1352.609375,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-timing",
+              "name": "timing",
+              "type": "select-one",
+              "top": 1470.21875,
+              "bottom": 1522.6171875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": false
+            }
+          ],
+          "groups": [
+            "name",
+            "organisation",
+            "email",
+            "role",
+            "interest",
+            "project",
+            "timing"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 112.796875
+            },
+            {
+              "text": "Your enquiry brief",
+              "visible": true,
+              "top": 264.2578125
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "How this works",
+              "visible": true,
+              "top": 1699.3671875
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1952.3828125
+            }
+          ],
+          "submit": {
+            "top": 1554.6171875,
+            "bottom": 1602.6171875,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        }
+      ],
+      "after": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 900,
+          "scrollY": 0,
+          "pageHeight": 1690,
+          "scrollWidth": 1440,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 527.3515625,
+              "bottom": 579.75,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 527.3515625,
+              "bottom": 579.75,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 654.1484375,
+              "bottom": 672.1484375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 654.1484375,
+              "bottom": 672.1484375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 714.1484375,
+              "bottom": 732.1484375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 714.1484375,
+              "bottom": 732.1484375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 835.7734375,
+              "bottom": 985.7734375,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 157
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 397.1484375
+            }
+          ],
+          "submit": {
+            "top": 1077.7734375,
+            "bottom": 1125.7734375,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 77
+        },
+        {
+          "viewport": "tablet",
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "pageHeight": 2022,
+          "scrollWidth": 768,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 388.5703125,
+              "bottom": 440.96875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 388.5703125,
+              "bottom": 440.96875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 515.3671875,
+              "bottom": 533.3671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 515.3671875,
+              "bottom": 533.3671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 575.3671875,
+              "bottom": 593.3671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 575.3671875,
+              "bottom": 593.3671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 696.9921875,
+              "bottom": 846.9921875,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 113
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1057.109375
+            }
+          ],
+          "submit": {
+            "top": 938.9921875,
+            "bottom": 986.9921875,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "pageHeight": 2498,
+          "scrollWidth": 390,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 303.078125,
+              "bottom": 355.4765625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 413.875,
+              "bottom": 466.2734375,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 540.671875,
+              "bottom": 558.671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 600.671875,
+              "bottom": 618.671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 660.671875,
+              "bottom": 678.671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 720.671875,
+              "bottom": 738.671875,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 865.5234375,
+              "bottom": 1015.5234375,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 83
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1239.75
+            }
+          ],
+          "submit": {
+            "top": 1130.75,
+            "bottom": 1178.75,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone360",
+          "width": 360,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 2582,
+          "scrollWidth": 360,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 302.2265625,
+              "bottom": 354.625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 413.0234375,
+              "bottom": 465.421875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 539.8203125,
+              "bottom": 557.8203125,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 599.8203125,
+              "bottom": 617.8203125,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 659.8203125,
+              "bottom": 677.8203125,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 719.8203125,
+              "bottom": 737.8203125,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 864.671875,
+              "bottom": 1014.671875,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 83
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1238.8984375
+            }
+          ],
+          "submit": {
+            "top": 1129.8984375,
+            "bottom": 1177.8984375,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone320",
+          "width": 320,
+          "height": 800,
+          "scrollY": 0,
+          "pageHeight": 2686,
+          "scrollWidth": 320,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 381.25,
+              "bottom": 433.6484375,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 492.046875,
+              "bottom": 544.4453125,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 618.84375,
+              "bottom": 636.84375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 678.84375,
+              "bottom": 696.84375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 738.84375,
+              "bottom": 756.84375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 798.84375,
+              "bottom": 816.84375,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 943.6953125,
+              "bottom": 1093.6953125,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 83
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1317.921875
+            }
+          ],
+          "submit": {
+            "top": 1208.921875,
+            "bottom": 1256.921875,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        },
+        {
+          "viewport": "phone430",
+          "width": 430,
+          "height": 932,
+          "scrollY": 0,
+          "pageHeight": 2476,
+          "scrollWidth": 430,
+          "fields": [
+            {
+              "id": "f-name",
+              "name": "name",
+              "type": "text",
+              "top": 306.46875,
+              "bottom": 358.8671875,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "f-email",
+              "name": "email",
+              "type": "email",
+              "top": 417.265625,
+              "bottom": 469.6640625,
+              "height": 52.3984375,
+              "font": 16,
+              "visible": true,
+              "required": true
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 544.0625,
+              "bottom": 562.0625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 604.0625,
+              "bottom": 622.0625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 664.0625,
+              "bottom": 682.0625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "",
+              "name": "interest",
+              "type": "checkbox",
+              "top": 724.0625,
+              "bottom": 742.0625,
+              "height": 18,
+              "font": 13.3333,
+              "visible": true,
+              "required": false
+            },
+            {
+              "id": "f-project",
+              "name": "project",
+              "type": "textarea",
+              "top": 868.9140625,
+              "bottom": 1018.9140625,
+              "height": 150,
+              "font": 16,
+              "visible": true,
+              "required": true
+            }
+          ],
+          "groups": [
+            "name",
+            "email",
+            "interest",
+            "project"
+          ],
+          "headings": [
+            {
+              "text": "Prepare an enquiry brief",
+              "visible": true,
+              "top": 83
+            },
+            {
+              "text": "Please check these fields",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "Brief preview",
+              "visible": false,
+              "top": 0
+            },
+            {
+              "text": "What makes a brief useful",
+              "visible": true,
+              "top": 1243.140625
+            }
+          ],
+          "submit": {
+            "top": 1134.140625,
+            "bottom": 1182.140625,
+            "text": "Preview enquiry"
+          },
+          "headerHeight": 65
+        }
+      ]
+    }
+  },
+  "independent_counts": {
+    "codex": {
+      "check_simplification": 40,
+      "check_interactions": 21,
+      "check_journeys": 22,
+      "check_focus": 83,
+      "navigation-checks": 96,
+      "check_phone_states": 15,
+      "layout_views": 16
+    },
+    "claude": {
+      "check_simplification": 40,
+      "check_interactions": 21,
+      "check_journeys": 22,
+      "check_focus": 84,
+      "navigation-checks": 99,
+      "check_phone_states": 17,
+      "layout_views": 16
+    }
+  },
+  "viewer_checks": 26,
+  "runtime": {
+    "native_models": {
+      "codex": {
+        "requested": "gpt-6.1-sol",
+        "exposed_turn_context_models": [
+          "gpt-6.1-sol"
+        ],
+        "exposed_efforts": [
+          "xhigh"
+        ],
+        "session_cli_version": "0.162.1",
+        "launch_cli_version": "0.162.1",
+        "session_metadata_found": true
+      },
+      "claude": {
+        "requested": "claude-opus-5-5",
+        "exposed_init_model": "claude-opus-5-5",
+        "exposed_assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "exposed_effort": null,
+        "launch_cli_version": "2.1.289",
+        "permission_mode": "auto"
+      }
+    },
+    "effort_normalization": "None; native defaults retained",
+    "evaluator_browser": {
+      "product": "Google Chrome",
+      "version": "154.0.8037.99",
+      "mode": "headed",
+      "session": "aquatic-round-5"
+    },
+    "runtime_versions": {
+      "python": "Python 3.14.3",
+      "node": "v23.10.0",
+      "codex_installed_at_inspection": "codex-cli 0.162.1",
+      "claude_installed_at_inspection": "2.1.289 (Claude Code)",
+      "macos": "27.0.1"
+    }
+  },
+  "native": {
+    "recorded_at": "2026-10-11T10:43:23.316841+00:00",
+    "runners": {
+      "codex": {
+        "exit_code": 0,
+        "elapsed_seconds": 1060.6,
+        "started_at": "2026-10-11T10:24:10.175732+00:00",
+        "finished_at": "2026-10-11T10:41:50.791993+00:00",
+        "launch_cli_version": "0.162.1",
+        "prompt_sha256": "76524c690b9811f3735a42437dc27045ee128cfdc21cf6fbde14ce8d3637f0eb",
+        "input_manifest_sha256": "b92295c3d590b835ac549cb9e0370f09e0de97b636c87ee595e275bfc1add967",
+        "starting_conditions_sha256": "f3e0fa776e06826035c994fea7fcca41529f995e9147c379dcd8b8a3b646307f",
+        "tool_calls": {
+          "command_execution": 29,
+          "cua_repl.js": 4
+        },
+        "exposed_assistant_models": [],
+        "native_final": {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 2337196,
+            "cached_input_tokens": 2186240,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 38909,
+            "reasoning_output_tokens": 10683
+          }
+        },
+        "primary_revision_interventions": 1,
+        "evaluator_implementation_repairs": 0
+      },
+      "claude": {
+        "exit_code": 0,
+        "elapsed_seconds": 979.0,
+        "started_at": "2026-10-11T10:24:10.190849+00:00",
+        "finished_at": "2026-10-11T10:40:29.199333+00:00",
+        "launch_cli_version": "2.1.289",
+        "prompt_sha256": "76524c690b9811f3735a42437dc27045ee128cfdc21cf6fbde14ce8d3637f0eb",
+        "input_manifest_sha256": "b92295c3d590b835ac549cb9e0370f09e0de97b636c87ee595e275bfc1add967",
+        "starting_conditions_sha256": "f3e0fa776e06826035c994fea7fcca41529f995e9147c379dcd8b8a3b646307f",
+        "tool_calls": {
+          "Bash": 42,
+          "Read": 13,
+          "Write": 2
+        },
+        "exposed_assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "native_final": {
+          "type": "result",
+          "subtype": "success",
+          "is_error": false,
+          "usage": {
+            "input_tokens": 98,
+            "cache_creation_input_tokens": 138700,
+            "cache_read_input_tokens": 5254904,
+            "output_tokens": 42121,
+            "output_tokens_details": {
+              "thinking_tokens": 10520
+            },
+            "server_tool_use": {
+              "web_search_requests": 0,
+              "web_fetch_requests": 0
+            },
+            "service_tier": "standard",
+            "cache_creation": {
+              "ephemeral_1h_input_tokens": 138700,
+              "ephemeral_5m_input_tokens": 0
+            },
+            "inference_geo": "global",
+            "iterations": [
+              {
+                "input_tokens": 2,
+                "output_tokens": 1737,
+                "cache_read_input_tokens": 148052,
+                "cache_creation_input_tokens": 716,
+                "cache_creation": {
+                  "ephemeral_5m_input_tokens": 0,
+                  "ephemeral_1h_input_tokens": 716
+                },
+                "type": "message"
+              }
+            ],
+            "speed": "standard",
+            "fallback_credit": null
+          },
+          "modelUsage": {
+            "claude-opus-5-5": {
+              "inputTokens": 98,
+              "outputTokens": 42121,
+              "cacheReadInputTokens": 5254904,
+              "cacheCreationInputTokens": 138700,
+              "webSearchRequests": 0,
+              "costUSD": 3.0033928000000003,
+              "contextWindow": 1000000,
+              "maxOutputTokens": 128000,
+              "thinkingTokens": 10520,
+              "canonicalModel": "claude-opus-5-5",
+              "provider": "firstParty",
+              "costBasis": "list"
+            }
+          },
+          "total_cost_usd": 3.0033928000000003,
+          "duration_ms": 973770,
+          "duration_api_ms": 412029
+        },
+        "primary_revision_interventions": 1,
+        "evaluator_implementation_repairs": 0
+      }
+    },
+    "cost_interpretation": "Claude reports a list-price USD estimate, not a verified invoice. Codex exposes token usage but no comparable USD cost. No direct cost winner is asserted."
+  },
+  "evaluator_implementation_repairs": 0,
+  "visual_judgment": "Codex preferred for the focused phone Contact task; Claude preserves explicit multi-category choices at a larger vertical cost. Not an overall model ranking.",
+  "limits": [
+    "Headed Chrome with emulated viewport sizes only",
+    "No real device, Safari/Firefox, screen reader or full contrast/zoom/performance audit",
+    "Native worker tool/sandbox/effort differences not normalized"
+  ]
+}

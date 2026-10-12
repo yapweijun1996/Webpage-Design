@@ -1,0 +1,13 @@
+Read input/SKILL.md and the relevant input/references files. This is a bounded, read-only interpretation trial, not a website implementation, design quality score or model ranking. Do not run browsers, build, edit files, use advisors/subagents or start other model sessions. Respond in English with one JSON object and no markdown fences, at most 1000 words.
+
+Apply the skill to these independent cases:
+
+A. A user supplied a cinematic homepage mockup. Two builders made section-anchor landing pages. The user now says: "I need a complete company website. Clicking Collections, Quality and Contact must open their related pages. The top bar and detail do not impress me." Give the site type, a sensible route/content map, the role of the old reference, concrete header/design review criteria and browser journeys that prove the requested navigation works. Do not assume additional real company facts or completed implementation.
+
+B. A different user explicitly requests a one-page event campaign: Overview, Schedule, FAQ and Register links should scroll within the same page. State the correct architecture and navigation behavior. Do not impose case A's multi-page requirement on this case.
+
+C. A worker started one local preview server with an owned process handle. Another user's preview runs the same server command. Explain safe cleanup and native execution failure reporting.
+
+D. A prior single-page demo scored 93/100 on a reference-fidelity rubric, but the user explicitly rejected the design and clarified standalone page requirements. State functional verification status, current product/design acceptance and whether it is appropriate to label the new scope ready.
+
+Use this JSON shape: {"case_a":{"site_type":"...","routes":[{"path":"...","purpose":"..."}],"reference_role":"...","header_review":["..."],"verification":["..."],"unknowns":["..."]},"case_b":{"site_type":"...","navigation":"...","scope_policy":"..."},"case_c":{"cleanup":"...","failure_reporting":"..."},"case_d":{"historical_verification":"...","current_acceptance":"...","ready":false},"files_used":["..."]}.

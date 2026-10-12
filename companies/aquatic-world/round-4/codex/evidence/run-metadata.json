@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-11T09:28:05.071302+00:00",
+  "launch_record": "evidence/process-run.json",
+  "selected_model": "gpt-6.1-sol",
+  "exposed_model": "gpt-6.1-sol",
+  "exposed_reasoning_effort": "xhigh",
+  "exposure_source": "native mcp__node_repl__js requestMeta.x-codex-turn-metadata",
+  "launch_cli_version": "0.162.1",
+  "installed_cli_version": "0.162.1",
+  "python_version": "3.14.3",
+  "node_version": "v23.10.0",
+  "tools_used": [
+    "functions.exec",
+    "exec_command",
+    "apply_patch",
+    "view_image",
+    "mcp__node_repl__js",
+    "mcp__cua_repl.js"
+  ],
+  "delegation": false,
+  "additional_model_runs": 0,
+  "sandbox": "workspace-write",
+  "approval_policy": "never",
+  "network": "restricted",
+  "browser_surface": "Chrome extension via native CUA; owned blank tab closed",
+  "python_listen": {
+    "port": 4201,
+    "status": "failed_before_listening",
+    "reason": "PermissionError EPERM"
+  },
+  "node_listen_probe": "EPERM",
+  "browser_file_navigation": "rejected by URL security policy; no circumvention",
+  "prepared_browser_runner": "not_run; Playwright module unavailable; exit 2",
+  "real_after_screenshots": 0,
+  "owned_running_servers": 0,
+  "serving_browser_version": null,
+  "token_usage": null,
+  "cost": null,
+  "frozen_file_count": 66,
+  "verification": {
+    "static_passed": 894,
+    "script_logic_passed": 27,
+    "failures": 0,
+    "browser_acceptance": "incomplete",
+    "independent_design_assessment": "pending",
+    "user_design_acceptance": "pending"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "stage": "after",
+    "page": "home",
+    "viewport": "390",
+    "sources": [
+      "evidence/codex/home-390.jpg",
+      "evidence/claude/home-390.jpg"
+    ]
+  },
+  {
+    "stage": "after",
+    "page": "home",
+    "viewport": "360",
+    "sources": [
+      "evidence/codex/home-360.jpg",
+      "evidence/claude/home-360.jpg"
+    ]
+  },
+  {
+    "stage": "after",
+    "page": "home",
+    "viewport": "320",
+    "sources": [
+      "evidence/codex/home-320.jpg",
+      "evidence/claude/home-320.jpg"
+    ]
+  },
+  {
+    "stage": "after",
+    "page": "home",
+    "viewport": "768",
+    "sources": [
+      "evidence/codex/home-768.jpg",
+      "evidence/claude/home-768.jpg"
+    ]
+  },
+  {
+    "stage": "after",
+    "page": "home",
+    "viewport": "1280",
+    "sources": [
+      "evidence/codex/home-1280.jpg",
+      "evidence/claude/home-1280.jpg"
+    ]
+  },
+  {
+    "stage": "before",
+    "page": "contact",
+    "viewport": "1280",
+    "sources": [
+      "../../round-6-animation/codex/baseline/contact-mobile-first.png",
+      "../../round-6-animation/claude/baseline/contact-mobile-first.png"
+    ],
+    "note": "修改前 Home 保留 1280px 桌面与 390px 手机原图，Contact 保留 390px 手机原图；没有对应尺寸时显示原 390px 参考，未伪造其他尺寸。"
+  }
+]

@@ -1,0 +1,411 @@
+[
+  {
+    "name": "Open fish from empty hash",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Ornamental Fish"
+      },
+      "groupHidden": false,
+      "hash": "#collection-fish",
+      "visible": [
+        "collection-fish"
+      ]
+    }
+  },
+  {
+    "name": "Back to empty hash closes explorer",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": "#collection-fish",
+        "tag": "A",
+        "text": "Ornamental FishExtraordinary colours.Remarkable forms.⟶"
+      },
+      "groupHidden": true,
+      "hash": "",
+      "visible": []
+    }
+  },
+  {
+    "name": "Forward reopens fish",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Ornamental Fish"
+      },
+      "groupHidden": false,
+      "hash": "#collection-fish",
+      "visible": [
+        "collection-fish"
+      ]
+    }
+  },
+  {
+    "name": "Close button clears panel and returns focus",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": "#collection-fish",
+        "tag": "A",
+        "text": "Take a Closer Look⟶"
+      },
+      "groupHidden": true,
+      "hash": "#collections",
+      "visible": []
+    }
+  },
+  {
+    "name": "Escape from plants closes and returns to its card",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": "#collection-plants",
+        "tag": "A",
+        "text": "Aquatic PlantsLiving textures.An underwater garden.⟶"
+      },
+      "groupHidden": true,
+      "hash": "#collections",
+      "visible": []
+    }
+  },
+  {
+    "name": "Open plants from unrelated section",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Aquatic Plants"
+      },
+      "groupHidden": false,
+      "hash": "#collection-plants",
+      "visible": [
+        "collection-plants"
+      ]
+    }
+  },
+  {
+    "name": "Back to quality closes panel",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H2",
+        "text": "Considered in Every Detail."
+      },
+      "groupHidden": true,
+      "hash": "#quality",
+      "visible": []
+    }
+  },
+  {
+    "name": "Forward from quality reopens plants",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Aquatic Plants"
+      },
+      "groupHidden": false,
+      "hash": "#collection-plants",
+      "visible": [
+        "collection-plants"
+      ]
+    }
+  },
+  {
+    "name": "Enquiry navigation while explorer is open",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H2",
+        "text": "Business Enquiries"
+      },
+      "groupHidden": true,
+      "hash": "#enquiry",
+      "visible": []
+    }
+  },
+  {
+    "name": "Back from enquiry reopens prior collection",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Aquatic Plants"
+      },
+      "groupHidden": false,
+      "hash": "#collection-plants",
+      "visible": [
+        "collection-plants"
+      ]
+    }
+  },
+  {
+    "name": "Initial valid driftwood hash opens correct detail",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "BODY",
+        "text": "\nSkip to content\nAQUATIC WORLDNATURE CONNECTS US ALLMenuCollectionsHeritageQualityContactBusiness Enquiry\n\nMORE THAN FISHA QUIETER WORLD, BEAUTIFULLY IMAGINEDA World ofOrnamental Beauty,Inspired by Nature.Ornamental fish, aquatic plants and sculptural driftwood — an invitation to explore the beauty beneath the surface.Explore Our Collections⟶Business EnquiryNATURAL FORMSA WORLD TO EXPLOREBEAUTY IN THE DETAILSINDEPENDENT DESIGN CONCEPTA LITTLECLOSERTO NATURENATURECONNECTSUS ALL\nA WATERFRONT REIMAGINEDSingapore-inspired illustrationOUR HERITAGE · A DESIGN STORYA World of Inspiration.A Connection to Nature.Water, greenery and city life inspire this imagined aquatic world. An illustrated waterfront sets the scene for a design story about colour, form and our connection to nature.The inspiration⟶The waterfront is a creative illustration, rather than a photograph of premises. The story, brand and collections belong to an independent local design demo; no company history or operating location is implied.✧Bringing thebeauty of naturecloser.THE DESIGN PHILOSOPHY\nOUR COLLECTIONSNature’s Finest,Thoughtfully Composed.From vivid ornamental forms to lush aquatic leaves and natural textures, discover three expressions of an underwater world.Take a Closer Look⟶Ornamental FishExtraordinary colours.Remarkable forms.⟶Aquatic PlantsLiving textures.An underwater garden.⟶DriftwoodNatural character.Sculptural beauty.⟶Ornamental FishCOLLECTION STUDYOrnamental FishFlowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.The paletteCrimson, iridescent blue and deep teal.A closer lookLook for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×Aquatic PlantsCOLLECTION STUDYAquatic PlantsLong leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.The paletteEmerald, moss green and soft turquoise.A closer lookExplore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×DriftwoodCOLLECTION STUDYDriftwoodTwisted branches and weathered textures form a quiet natural sculpture. This material study celebrates the organic shapes that lend an aquatic scene its character.The paletteWarm umber, weathered brown and ocean teal.A closer lookNotice the branching silhouette, open space and warm wood grain. This image is a creative study, without claims about material safety, sourcing or stock.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×\nOUR APPROACH · AN ILLUSTRATIVE STUDYConsidered in Every Detail.Colour, form and texture bring these illustrative aquatic studies to life. A closer look at the details behind the design.About These Studies⟶These five elements describe our visual composition. They are not sourcing standards, cultivation practices, certifications, packaging promises or delivery guarantees.COLOUR & FORMBOTANICAL TEXTURENATURAL SHAPESQUIET COMPOSITIONAQUATIC ATMOSPHERE\nSELECTED HIGHLIGHTSExceptional Forms.Below the Surface.Crimson Fin StudySilver & Stripe StudyWarm Leaf StudySculptural DriftwoodSMALLDETAILS.A WORLDOF WONDER.\nNATUREPEOPLEPOSSIBILITYIMAGINE A BRIGHTER AQUATIC WORLDBusiness EnquiriesBeautiful possibilities begin with a conversation.Fictional demo — real enquiries are unavailable.Enquiry Information⟶A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections⟶Good thingsbegin withnature.\nAQUATIC WORLDNATURE CONNECTS US ALLCollectionsHeritageQualityContactA WORLD OF AQUATIC INSPIRATIONFictional brand · AI-generated imagery · No live stock or ordersDesign concept · 2026\n"
+      },
+      "groupHidden": false,
+      "hash": "#collection-driftwood",
+      "visible": [
+        "collection-driftwood"
+      ]
+    }
+  },
+  {
+    "name": "Unknown collection hash leaves explorer closed",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "BODY",
+        "text": "\nSkip to content\nAQUATIC WORLDNATURE CONNECTS US ALLMenuCollectionsHeritageQualityContactBusiness Enquiry\n\nMORE THAN FISHA QUIETER WORLD, BEAUTIFULLY IMAGINEDA World ofOrnamental Beauty,Inspired by Nature.Ornamental fish, aquatic plants and sculptural driftwood — an invitation to explore the beauty beneath the surface.Explore Our Collections⟶Business EnquiryNATURAL FORMSA WORLD TO EXPLOREBEAUTY IN THE DETAILSINDEPENDENT DESIGN CONCEPTA LITTLECLOSERTO NATURENATURECONNECTSUS ALL\nA WATERFRONT REIMAGINEDSingapore-inspired illustrationOUR HERITAGE · A DESIGN STORYA World of Inspiration.A Connection to Nature.Water, greenery and city life inspire this imagined aquatic world. An illustrated waterfront sets the scene for a design story about colour, form and our connection to nature.The inspiration⟶The waterfront is a creative illustration, rather than a photograph of premises. The story, brand and collections belong to an independent local design demo; no company history or operating location is implied.✧Bringing thebeauty of naturecloser.THE DESIGN PHILOSOPHY\nOUR COLLECTIONSNature’s Finest,Thoughtfully Composed.From vivid ornamental forms to lush aquatic leaves and natural textures, discover three expressions of an underwater world.Take a Closer Look⟶Ornamental FishExtraordinary colours.Remarkable forms.⟶Aquatic PlantsLiving textures.An underwater garden.⟶DriftwoodNatural character.Sculptural beauty.⟶Ornamental FishCOLLECTION STUDYOrnamental FishFlowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.The paletteCrimson, iridescent blue and deep teal.A closer lookLook for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×Aquatic PlantsCOLLECTION STUDYAquatic PlantsLong leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.The paletteEmerald, moss green and soft turquoise.A closer lookExplore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×DriftwoodCOLLECTION STUDYDriftwoodTwisted branches and weathered textures form a quiet natural sculpture. This material study celebrates the organic shapes that lend an aquatic scene its character.The paletteWarm umber, weathered brown and ocean teal.A closer lookNotice the branching silhouette, open space and warm wood grain. This image is a creative study, without claims about material safety, sourcing or stock.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Close collection details ×\nOUR APPROACH · AN ILLUSTRATIVE STUDYConsidered in Every Detail.Colour, form and texture bring these illustrative aquatic studies to life. A closer look at the details behind the design.About These Studies⟶These five elements describe our visual composition. They are not sourcing standards, cultivation practices, certifications, packaging promises or delivery guarantees.COLOUR & FORMBOTANICAL TEXTURENATURAL SHAPESQUIET COMPOSITIONAQUATIC ATMOSPHERE\nSELECTED HIGHLIGHTSExceptional Forms.Below the Surface.Crimson Fin StudySilver & Stripe StudyWarm Leaf StudySculptural DriftwoodSMALLDETAILS.A WORLDOF WONDER.\nNATUREPEOPLEPOSSIBILITYIMAGINE A BRIGHTER AQUATIC WORLDBusiness EnquiriesBeautiful possibilities begin with a conversation.Fictional demo — real enquiries are unavailable.Enquiry Information⟶A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections⟶Good thingsbegin withnature.\nAQUATIC WORLDNATURE CONNECTS US ALLCollectionsHeritageQualityContactA WORLD OF AQUATIC INSPIRATIONFictional brand · AI-generated imagery · No live stock or ordersDesign concept · 2026\n"
+      },
+      "groupHidden": true,
+      "hash": "#collection-unknown",
+      "visible": []
+    }
+  },
+  {
+    "name": "Mobile menu opens with Enter and focuses first link",
+    "status": "passed",
+    "observed": {
+      "expanded": "true",
+      "focus": "#collections",
+      "hidden": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Mobile menu Escape closes and restores button focus",
+    "status": "passed",
+    "observed": {
+      "expanded": "false",
+      "focus": true,
+      "hidden": true
+    }
+  },
+  {
+    "name": "Mobile menu enquiry link closes menu and focuses enquiry",
+    "status": "passed",
+    "observed": {
+      "focus": "enquiry-title",
+      "hash": "#enquiry",
+      "menuHidden": true
+    }
+  },
+  {
+    "name": "Enquiry disclosure states that nothing is collected or sent",
+    "status": "passed",
+    "observed": {
+      "formCount": 0,
+      "message": "A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections⟶",
+      "open": true
+    }
+  },
+  {
+    "name": "Mobile collection opens without overflow and focuses title",
+    "status": "passed",
+    "observed": {
+      "focus": "Driftwood",
+      "hash": "#collection-driftwood",
+      "headerBottom": 76,
+      "open": true,
+      "overflow": false,
+      "titleTop": 439.3828125
+    }
+  },
+  {
+    "name": "Mobile detail Escape restores card with visible keyboard focus",
+    "status": "passed",
+    "observed": {
+      "hash": "#collections",
+      "hidden": true,
+      "href": "#collection-driftwood",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "Mobile collections CTA lands below sticky header",
+    "status": "passed",
+    "observed": {
+      "hash": "#collections",
+      "header": 76,
+      "scrollY": 1317.5,
+      "title": 151.09375
+    }
+  },
+  {
+    "name": "Mobile detail close control is visible on opening",
+    "status": "passed",
+    "observed": {
+      "close": {
+        "bottom": 160.8828125,
+        "height": 44,
+        "left": 184.3671875,
+        "right": 345,
+        "top": 116.8828125,
+        "width": 160.6328125,
+        "x": 184.3671875,
+        "y": 116.8828125
+      },
+      "header": 76,
+      "overflow": false,
+      "viewportHeight": 844
+    }
+  },
+  {
+    "name": "Visible mobile close button restores driftwood card",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": "#collection-driftwood",
+        "tag": "A",
+        "text": "DriftwoodNatural character.Sculptural beauty.⟶"
+      },
+      "groupHidden": true,
+      "hash": "#collections",
+      "visible": []
+    }
+  },
+  {
+    "name": "Close after Back/Forward returns to original collection card",
+    "status": "passed",
+    "observed": {
+      "class": "collection-card",
+      "hash": "#collections",
+      "hidden": true,
+      "href": "#collection-fish"
+    }
+  },
+  {
+    "name": "Invalid hash reached from an open panel clears it",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "BODY",
+        "text": "\nSkip to content\nAQUATIC WORLDNATURE CONNECTS US ALLMenuCollectionsHeritageQualityContactBusiness Enquiry\n\nMORE THAN FISHA QUIETER WORLD, BEAUTIFULLY IMAGINEDA World ofOrnamental Beauty,Inspired by Nature.Ornamental fish, aquatic plants and sculptural driftwood — an invitation to explore the beauty beneath the surface.Explore Our Collections⟶Business EnquiryNATURAL FORMSA WORLD TO EXPLOREBEAUTY IN THE DETAILSINDEPENDENT DESIGN CONCEPTA LITTLECLOSERTO NATURENATURECONNECTSUS ALL\nA WATERFRONT REIMAGINEDSingapore-inspired illustrationOUR HERITAGE · A DESIGN STORYA World of Inspiration.A Connection to Nature.Water, greenery and city life inspire this imagined aquatic world. An illustrated waterfront sets the scene for a design story about colour, form and our connection to nature.The inspiration⟶The waterfront is a creative illustration, rather than a photograph of premises. The story, brand and collections belong to an independent local design demo; no company history or operating location is implied.✧Bringing thebeauty of naturecloser.THE DESIGN PHILOSOPHY\nOUR COLLECTIONSNature’s Finest,Thoughtfully Composed.From vivid ornamental forms to lush aquatic leaves and natural textures, discover three expressions of an underwater world.Take a Closer Look⟶Ornamental FishExtraordinary colours.Remarkable forms.⟶Aquatic PlantsLiving textures.An underwater garden.⟶DriftwoodNatural character.Sculptural beauty.⟶Ornamental FishClose collection details ×COLLECTION STUDYOrnamental FishFlowing fins, subtle light and vivid colour bring movement to this collection study. Explore the visual character of ornamental fish through an imagined underwater scene.The paletteCrimson, iridescent blue and deep teal.A closer lookLook for the contrast between the quiet water and the intricate silhouette. This is an artistic category study, without species or availability claims.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶Aquatic PlantsClose collection details ×COLLECTION STUDYAquatic PlantsLong leaves, fine mosses and layered greens create a sense of depth. This plant study offers visual inspiration for an imagined aquatic landscape.The paletteEmerald, moss green and soft turquoise.A closer lookExplore the rhythm of the leaf shapes and the way light moves through the greenery. The illustration is not a plant catalogue or a care guide.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶DriftwoodClose collection details ×COLLECTION STUDYDriftwoodTwisted branches and weathered textures form a quiet natural sculpture. This material study celebrates the organic shapes that lend an aquatic scene its character.The paletteWarm umber, weathered brown and ocean teal.A closer lookNotice the branching silhouette, open space and warm wood grain. This image is a creative study, without claims about material safety, sourcing or stock.These AI-generated images are illustrative. They do not represent available products or verified species.Enquiry information⟶\nOUR APPROACH · AN ILLUSTRATIVE STUDYConsidered in Every Detail.Colour, form and texture bring these illustrative aquatic studies to life. A closer look at the details behind the design.About These Studies⟶These five elements describe our visual composition. They are not sourcing standards, cultivation practices, certifications, packaging promises or delivery guarantees.COLOUR & FORMBOTANICAL TEXTURENATURAL SHAPESQUIET COMPOSITIONAQUATIC ATMOSPHERE\nSELECTED HIGHLIGHTSExceptional Forms.Below the Surface.Crimson Fin StudySilver & Stripe StudyWarm Leaf StudySculptural DriftwoodSMALLDETAILS.A WORLDOF WONDER.\nNATUREPEOPLEPOSSIBILITYIMAGINE A BRIGHTER AQUATIC WORLDBusiness EnquiriesBeautiful possibilities begin with a conversation.Fictional demo — real enquiries are unavailable.Enquiry Information⟶A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections⟶Good thingsbegin withnature.\nAQUATIC WORLDNATURE CONNECTS US ALLCollectionsHeritageQualityContactA WORLD OF AQUATIC INSPIRATIONFictional brand · AI-generated imagery · No live stock or ordersDesign concept · 2026\n"
+      },
+      "groupHidden": true,
+      "hash": "#collection-unknown",
+      "visible": []
+    }
+  },
+  {
+    "name": "Back from invalid hash reopens valid fish",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": null,
+        "tag": "H3",
+        "text": "Ornamental Fish"
+      },
+      "groupHidden": false,
+      "hash": "#collection-fish",
+      "visible": [
+        "collection-fish"
+      ]
+    }
+  },
+  {
+    "name": "Forward to invalid hash closes explorer",
+    "status": "passed",
+    "observed": {
+      "focus": {
+        "href": "#collection-fish",
+        "tag": "A",
+        "text": "Ornamental FishExtraordinary colours.Remarkable forms.⟶"
+      },
+      "groupHidden": true,
+      "hash": "#collection-unknown",
+      "visible": []
+    }
+  },
+  {
+    "name": "Open mobile menu adapts to desktop navigation on resize",
+    "status": "passed",
+    "observed": {
+      "buttonHidden": true,
+      "navHidden": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Resize to tablet closes menu and restores visible trigger focus",
+    "status": "passed",
+    "observed": {
+      "buttonHidden": false,
+      "focus": true,
+      "navHidden": true
+    }
+  },
+  {
+    "name": "Application-script unavailable: content and native navigation remain useful",
+    "status": "passed",
+    "observed": {
+      "details": [
+        {
+          "hidden": false,
+          "id": "collection-fish",
+          "open": false
+        },
+        {
+          "hidden": false,
+          "id": "collection-plants",
+          "open": false
+        },
+        {
+          "hidden": false,
+          "id": "collection-driftwood",
+          "open": false
+        }
+      ],
+      "enhanced": false,
+      "menuButtonHidden": true,
+      "navigationVisible": true,
+      "overflow": false,
+      "sections": 6
+    }
+  },
+  {
+    "name": "Application-script unavailable: native collection disclosure opens",
+    "status": "passed",
+    "observed": {
+      "descriptionVisible": true,
+      "hash": "#collection-fish",
+      "open": true
+    }
+  },
+  {
+    "name": "Application-script unavailable: native enquiry disclosure works",
+    "status": "passed",
+    "observed": {
+      "hash": "#enquiry",
+      "nothingSent": true,
+      "open": true
+    }
+  },
+  {
+    "name": "Application script restored after negative-path check",
+    "status": "passed",
+    "observed": {
+      "closeControls": 3,
+      "detailsHidden": true,
+      "enhanced": true
+    }
+  }
+]

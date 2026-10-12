@@ -1,0 +1,11 @@
+{
+  "port": 4211,
+  "bind": "unavailable",
+  "browser": "not_run",
+  "server_handle": null,
+  "server_started": false,
+  "other_processes_stopped": false,
+  "reason": "[Errno 1] Operation not permitted",
+  "exception": "PermissionError",
+  "browser_reason": "CUA Chrome rejected file:// URL: browser security policy permits only http and https; no workaround attempted."
+}

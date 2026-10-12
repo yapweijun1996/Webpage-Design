@@ -1,0 +1,17 @@
+{
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+  "request_id": "aquatic_runway_20261012_02",
+  "model": "runway/gen-4.5",
+  "duration": 6,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "estimated_cost_usd": "0.72",
+  "actual_cost_usd": "0.72",
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "status": "completed",
+  "job_id": "gen-vid-1791758499-C4OTRnu5utdjMJRdYPbe",
+  "submitted_at_utc": "2026-10-11T22:41:38.988190+00:00"
+}

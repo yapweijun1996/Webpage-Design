@@ -1,0 +1,66 @@
+{
+  "kind": "synthetic_contract_signals_not_browser_evidence",
+  "count": 15,
+  "checks": [
+    {
+      "name": "Visible, ready scene starts",
+      "passed": true
+    },
+    {
+      "name": "Hidden document suspends",
+      "passed": true
+    },
+    {
+      "name": "Visible return resumes eligible motion",
+      "passed": true
+    },
+    {
+      "name": "Hidden/visible never erases user pause",
+      "passed": true
+    },
+    {
+      "name": "Menu/offscreen changes never erase user pause",
+      "passed": true
+    },
+    {
+      "name": "Open menu suspends",
+      "passed": true
+    },
+    {
+      "name": "Close menu resumes eligible motion",
+      "passed": true
+    },
+    {
+      "name": "Preference stop persists after return",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion/Save-Data initial state is still",
+      "passed": true
+    },
+    {
+      "name": "Explicit Play opts into motion",
+      "passed": true
+    },
+    {
+      "name": "Opt-in cannot override hidden document",
+      "passed": true
+    },
+    {
+      "name": "Live Save-Data stops motion",
+      "passed": true
+    },
+    {
+      "name": "Default policy return does not restart",
+      "passed": true
+    },
+    {
+      "name": "Image error hides misleading controls",
+      "passed": true
+    },
+    {
+      "name": "Image error removes decorations",
+      "passed": true
+    }
+  ]
+}

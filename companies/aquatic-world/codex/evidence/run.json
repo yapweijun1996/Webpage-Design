@@ -1,0 +1,122 @@
+{
+  "status": "implemented_with_verification_limits",
+  "round": "initial_delivery",
+  "cli": "Codex CLI",
+  "cli_version_observed": "0.160.0",
+  "requested_model": "gpt-6.1-sol",
+  "actual_model": null,
+  "cli_version_at_run": "codex-cli 0.160.0",
+  "effort_setting": null,
+  "started_at": "2026-10-10T15:45:29.477573+00:00",
+  "finished_at": "2026-10-10T16:13:20.295739+00:00",
+  "elapsed_seconds": 1670.818,
+  "tools_plugins_and_instruction_sources": [
+    "functions.exec / exec_command / apply_patch / view_image / clock.curr_time",
+    "Local Playwright CLI 0.1.22 with cached Playwright 1.64.0-alpha-1790635538000 copied temporarily into demo/; browser launch failed, tooling copies removed",
+    "cua_repl browser creation attempted; file protocol rejected by security policy",
+    "Code-MCP inspect_local_project attempted; unavailable because tool approval is required and policy is never",
+    "Workspace AGENTS.md, TASK.md, CLAUDE.md and supplied handoff docs/tokens/examples/schemas/QA/assets",
+    "html-css-javascript skill; playwright skill; kb-mcp-agent-brain skill read (no external memory retrieved because current task context was complete and independent comparison scope was preserved)",
+    "chrome-devtools-mcp-testing skill inspected during tool preflight; no Chrome DevTools MCP server available and no DevTools test performed"
+  ],
+  "browser_environment": {
+    "installed_chrome_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "chrome_version": null,
+    "local_cli_browser_launch": "failed before page load; SIGABRT",
+    "terminal_preview": "EPERM during loopback bind",
+    "computer_use": "file:// prohibited",
+    "http_inspection_tool": "requires unavailable approval",
+    "browser_checks_status": "not_run",
+    "screenshots_captured": 0
+  },
+  "reference_images_inspected": true,
+  "asset_decisions": [
+    "Use all nine fixed AI-generated sources and preserve the eleven-slot mapping.",
+    "No replacements, downloads, screenshot extraction or additional image generation.",
+    "Twenty deterministic WebP variants, quality 84, method 6, LANCZOS resizing.",
+    "Source PNGs: 22350783 bytes. Complete WebP variant set: 1377298 bytes (93.84% reduction).",
+    "Responsive srcset and intrinsic dimensions; high-priority hero; lazy images below; contain for fish highlights; intended reuse of driftwood and underwater panorama.",
+    "Source/variant hashes, dimensions, byte sizes and provenance in demo/assets/manifest.json."
+  ],
+  "human_interventions": [],
+  "usage_tokens": null,
+  "cost": null,
+  "checks_executed": [
+    {
+      "name": "npm run build",
+      "status": "passed",
+      "evidence": "build-command.log"
+    },
+    {
+      "name": "npm run check / static-and-build checks",
+      "status": "passed",
+      "count": 37,
+      "evidence": "static-checks.json"
+    },
+    {
+      "name": "JavaScript syntax for four implementation scripts",
+      "status": "passed"
+    },
+    {
+      "name": "Decode 20 WebP variants",
+      "status": "passed",
+      "evidence": "image-audit.json"
+    },
+    {
+      "name": "Seven solid-color contrast pairs",
+      "status": "passed",
+      "evidence": "solid-color-contrast.json"
+    },
+    {
+      "name": "Fifty frozen inputs unchanged",
+      "status": "passed",
+      "evidence": "frozen-input-check.json"
+    },
+    {
+      "name": "Preview startup and browser preflight attempts",
+      "status": "unavailable",
+      "evidence": "browser-checks.json"
+    },
+    {
+      "name": "Required browser layouts, journeys, screenshots, accessibility and performance",
+      "status": "not_run",
+      "evidence": "browser-checks.json"
+    }
+  ],
+  "limitations": [
+    "No rendered implementation screenshot, browser interaction result or viewport-overflow measurement was obtained.",
+    "Actual page console/network health, keyboard/focus/Escape, menu/CTA behavior, no-JavaScript behavior, zoom and photo contrast remain unverified in a browser.",
+    "LCP, INP, CLS and cross-browser/screen-reader results are not_run.",
+    "Model serving identity, effective effort, final usage and cost were not independently exposed.",
+    "Fictional local concept only; no verified business, inventory, scientific species, certifications, public contact, legal entity or public launch content."
+  ],
+  "input_baseline_version": 2,
+  "asset_pack_version": 1,
+  "input_manifest_sha256": "5bb6a7497bca8252f6fb365f1d6cf0219735d59e318d2805b4c3b613af22ab95",
+  "actual_model_observation": "The launcher explicitly requested gpt-6.1-sol. No independent serving-model identifier was exposed; actual_model remains unknown rather than inferred.",
+  "effort_observation": "CLI default; the effective reasoning effort value was not exposed by the run harness.",
+  "timing_scope": "From harness process start through this final delivery-record update; not total process lifetime after the final response.",
+  "timezone": "Asia/Singapore",
+  "started_at_local": "2026-10-10T23:45:29.477573+08:00",
+  "finished_at_local": "2026-10-11T00:13:20.295739+08:00",
+  "environment": {
+    "cwd": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/codex",
+    "platform": "Darwin",
+    "shell": "zsh",
+    "sandbox": "workspace-write",
+    "approval_policy": "never",
+    "node": "v23.10.0",
+    "npm": "10.9.2",
+    "python": "3.14.3",
+    "pillow": "12.2.0",
+    "webp_encoder": "1.6.0",
+    "runtime_dependencies": []
+  },
+  "references_inspected": [
+    "input/handoff/reference/selected-homepage-mockup.png",
+    "input/additional-reference.png"
+  ],
+  "standalone_assets_inspected": 9,
+  "delegation_used": false,
+  "usage_observation": "Final token/cost usage was not exposed before this delivery record. No fabricated totals."
+}

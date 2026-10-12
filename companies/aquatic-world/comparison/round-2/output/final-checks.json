@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "port": 4170,
+      "status": 200
+    },
+    {
+      "port": 4171,
+      "status": 200,
+      "matches_delivered_html": true
+    },
+    {
+      "port": 4172,
+      "status": 200,
+      "matches_delivered_html": true
+    },
+    {
+      "port": 4181,
+      "status": 200,
+      "matches_delivered_html": true
+    },
+    {
+      "port": 4182,
+      "status": 200,
+      "matches_delivered_html": true
+    }
+  ],
+  "shared_inputs": "50 first-round / 51 second-round files per workspace matched",
+  "preserved_deliveries": {
+    "first_codex": 62,
+    "first_claude": 109,
+    "second_codex": 84,
+    "second_claude": 118
+  },
+  "local_document_links_checked": 87,
+  "missing_document_links": [],
+  "score_totals": "passed",
+  "gallery_checks": 14,
+  "gallery_failures": 0,
+  "first_preview_restoration": "Original services restarted from preserved code; exact response bodies verified.",
+  "evaluator_temporary_caches_removed": true
+}

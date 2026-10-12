@@ -1,0 +1,19 @@
+{
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+  "request_id": "aquatic_runway_20261011_01",
+  "model": "runway/gen-4.5",
+  "duration": 6,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "estimated_cost_usd": "0.72",
+  "actual_cost_usd": "0.72",
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "status": "completed",
+  "job_id": "gen-vid-1791725078-59bCwFHQKzmhgz8Ruyyq",
+  "submitted_at_utc": "2026-10-11T13:24:38.037379+00:00",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_runway_20261011_01.mp4",
+  "bytes": 4582076
+}

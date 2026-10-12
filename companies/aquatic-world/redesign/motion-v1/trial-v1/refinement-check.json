@@ -1,0 +1,845 @@
+{
+  "checked_at_utc": "2026-10-11T22:59:22.312892+00:00",
+  "scope": "single_authorized_Runway_refinement_and_review",
+  "checks_passed": 191,
+  "document_links_checked": 136,
+  "checks": [
+    {
+      "name": "original_input_unchanged_first_frame",
+      "passed": true
+    },
+    {
+      "name": "original_input_unchanged_prompt",
+      "passed": true
+    },
+    {
+      "name": "original_input_unchanged_source",
+      "passed": true
+    },
+    {
+      "name": "refined_prompt_frozen",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-01-raw.mp4",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-01-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-01-poster.webp",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-02-raw.mp4",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-02-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "media_hash_and_size_runway-02-poster.webp",
+      "passed": true
+    },
+    {
+      "name": "studio_raw_pin_matches_trial",
+      "passed": true
+    },
+    {
+      "name": "complete_decode_and_faststart",
+      "passed": true
+    },
+    {
+      "name": "encoding_budget",
+      "passed": true
+    },
+    {
+      "name": "technical_properties_runway-02-raw.mp4",
+      "passed": true
+    },
+    {
+      "name": "technical_properties_runway-02-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "requested_refinement_completed",
+      "passed": true
+    },
+    {
+      "name": "exactly_two_paid_attempts",
+      "passed": true
+    },
+    {
+      "name": "total_actual_and_cap",
+      "passed": true
+    },
+    {
+      "name": "no_pending_cost_reservation",
+      "passed": true
+    },
+    {
+      "name": "wan_not_submitted",
+      "passed": true
+    },
+    {
+      "name": "latest_actual_receipt",
+      "passed": true
+    },
+    {
+      "name": "same_image_receipts",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_redesign/motion-v1/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_redesign/motion-v1/GENERATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_redesign/motion-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_redesign/motion-v1/SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_redesign/motion-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "shared_contract_unchanged_comparison/round-6/ACCEPTANCE.md",
+      "passed": true
+    },
+    {
+      "name": "workers_not_launched",
+      "passed": true
+    },
+    {
+      "name": "approved_worker_media_not_created",
+      "passed": true
+    },
+    {
+      "name": "previously_tested_core_unchanged_open_router_video_mcp/video.py",
+      "passed": true
+    },
+    {
+      "name": "previously_tested_core_unchanged_open_router_video_mcp/server.py",
+      "passed": true
+    },
+    {
+      "name": "previously_tested_core_unchanged_tests/test_video_image.py",
+      "passed": true
+    },
+    {
+      "name": "desktop_ended_both",
+      "passed": true
+    },
+    {
+      "name": "desktop_phone_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "phone_full_frame",
+      "passed": true
+    },
+    {
+      "name": "phone_loop_execution",
+      "passed": true
+    },
+    {
+      "name": "desktop_three_joins_captured",
+      "passed": true
+    },
+    {
+      "name": "pause_during_playback",
+      "passed": true
+    },
+    {
+      "name": "no_console_warn_error",
+      "passed": true
+    },
+    {
+      "name": "controller_syntax",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/redesign/motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/aquatic-world/redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_companies/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../templates/company/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/research.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/redesign/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/redesign/motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_aquatic-world/comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-5/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-5/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-4/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-4/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-3/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-3/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-2/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-2/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-4/codex/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-4/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-4/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_round-5/codex/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/motion-v1/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/motion-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/motion-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-6/PREPARATION-CHECK.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_research.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_design-brief.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/assets-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-2/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/LEARNINGS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_redesign/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_GENERATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_preview.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_MODEL-COMPARISON.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../comparison/round-6/ACCEPTANCE.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../comparison/round-6/input-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../comparison/round-6/PREPARATION-CHECK.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../../README.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_trial-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_model-api-snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_../../comparison/assets-v1/hero-angelfish.png",
+      "passed": true
+    },
+    {
+      "name": "link_MODEL-COMPARISON.md_BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_first-frame.png",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_live-models.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_PREFLIGHT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_../BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/docs/video-model-support-2026-10-11.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_budget-after-02.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_runway-submit.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_PROMPT-02.txt",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_runway-02-submit.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_media-check-02.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_browser-review-02.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_PREFLIGHT.md",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link_README.md_trial-check.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_PROMPT-02.txt",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_refinement-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_refinement-input-pin.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_refinement-quote.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-submit.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-status.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-download.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_media-check-02.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-raw.mp4",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-poster.webp",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-artifact.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_runway-02-output-pin.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_contact-sheet-02.jpg",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-1-before-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-1-after-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-2-before-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-2-after-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-3-before-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_full-join-3-after-02.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_browser-review-02.json",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_refinement-desktop.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_refinement-phone.png",
+      "passed": true
+    },
+    {
+      "name": "link_REFINEMENT.md_budget-after-02.json",
+      "passed": true
+    },
+    {
+      "name": "http_preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "http_runway-01-poster.webp",
+      "passed": true
+    },
+    {
+      "name": "http_runway-01-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "http_runway-02-poster.webp",
+      "passed": true
+    },
+    {
+      "name": "http_runway-02-preview.mp4",
+      "passed": true
+    },
+    {
+      "name": "http_frames/frame-4.png",
+      "passed": true
+    },
+    {
+      "name": "http_frames-02/frame-4.png",
+      "passed": true
+    },
+    {
+      "name": "http_REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "http_contact-sheet-02.jpg",
+      "passed": true
+    },
+    {
+      "name": "http_runway-02-raw.mp4",
+      "passed": true
+    },
+    {
+      "name": "http_preview.html",
+      "passed": true
+    },
+    {
+      "name": "http_../../../comparison/round-5/preview.html",
+      "passed": true
+    }
+  ],
+  "http": [
+    {
+      "path": "redesign/motion-v1/trial-v1/preview-refinement.html",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/runway-01-poster.webp",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/runway-01-preview.mp4",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/runway-02-poster.webp",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/runway-02-preview.mp4",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/frames/frame-4.png",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/frames-02/frame-4.png",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/contact-sheet-02.jpg",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/runway-02-raw.mp4",
+      "status": 200
+    },
+    {
+      "path": "redesign/motion-v1/trial-v1/preview.html",
+      "status": 200
+    },
+    {
+      "path": "comparison/round-5/preview.html",
+      "status": 200
+    }
+  ],
+  "duplicate_controller_submit_guard": "passed_refused_before_paid_tool_call_and_ledger_unchanged",
+  "core_verification": {
+    "historical_date": "2026-10-11",
+    "python_tests_passed": 91,
+    "catalog_ui": "passed",
+    "lock_check": "passed",
+    "tested_source_hashes_unchanged": true,
+    "new_fresh_stdio_preflight_tools": 32,
+    "full_suite_repeated": false
+  },
+  "movie_creative_outcome": "improved_but_failed_homepage_motion_brief",
+  "user_acceptance": "pending",
+  "total_trial_actual_usd": "1.44",
+  "paid_attempts": 2,
+  "key_remaining_usd": "0.5563175",
+  "final_media_approved": false,
+  "native_cli_integration_started": false,
+  "limitations": [
+    "No empirical Wan comparison",
+    "Both movies remain draft, loop brief unmet",
+    "No future website integration or reduced-motion checks",
+    "Single stochastic refinement does not establish causal prompt improvement"
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "runner": "claude",
+  "checks": [
+    {
+      "scenario": "NAV-03",
+      "step": "Keyboard skip link",
+      "skip": {
+        "text": "Skip to content",
+        "href": "#main",
+        "box": {
+          "x": 12,
+          "y": 12,
+          "width": 156.640625,
+          "height": 52.046875
+        },
+        "outline": "2px"
+      },
+      "focusTarget": "MAIN",
+      "pass": true
+    },
+    {
+      "scenario": "NAV-02",
+      "opened": {
+        "open": true,
+        "focused": true
+      },
+      "closed": {
+        "open": false,
+        "focused": true
+      },
+      "pointer": {
+        "open": true,
+        "focused": true
+      },
+      "destination": "http://127.0.0.1:4192/quality/",
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/",
+      "heading": "A world of ornamental beauty,\ncurated with care.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/",
+      "heading": "Three collection families",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/ornamental-fish/",
+      "heading": "Ornamental Fish",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/aquatic-plants/",
+      "heading": "Aquatic Plants",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/driftwood/",
+      "heading": "Driftwood",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/our-story/",
+      "heading": "Bringing the beauty of nature a little further.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/quality/",
+      "heading": "A thoughtful selection process, explained.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/contact/",
+      "heading": "Prepare an enquiry brief",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "step": "Actual no-JS page navigation",
+      "url": "http://127.0.0.1:4192/quality/",
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Blank fields",
+      "invalid": [
+        "f-name",
+        "f-email",
+        "",
+        "",
+        "",
+        "",
+        "f-project"
+      ],
+      "summary": "Please check 4 fields\nEnter your name.\nEnter an email address.\nChoose at least one collection, or \u201cNot sure yet\u201d.\nDescribe the project in a sentence or two.",
+      "focusSummary": true,
+      "associated": false,
+      "pass": false
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Invalid email and short project",
+      "invalid": [
+        "f-email",
+        "",
+        "",
+        "",
+        "",
+        "f-project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Valid honest preview",
+      "viewport": "desktop",
+      "visible": true,
+      "text": "Nothing was sent. This is a local preview; the demo has no enquiry service.\n\nBrief preview\nNAME\nAlex Example\nORGANISATION\n\u2014\nEMAIL\nalex@example.invalid\nYOU ARE\n\u2014\nCOLLECTIONS\nAquatic Plants\nPROJECT\nA planted aquarium display for an illustrative shop. Please help explore foliage and composition. LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nTIMING\nNo fixed timing\nEdit brief\nClear and start again",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "invalid": 0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Return to edit",
+      "viewport": "desktop",
+      "kept": "Alex Example",
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Valid honest preview",
+      "viewport": "mobile",
+      "visible": true,
+      "text": "Nothing was sent. This is a local preview; the demo has no enquiry service.\n\nBrief preview\nNAME\nAlex Example\nORGANISATION\n\u2014\nEMAIL\nalex@example.invalid\nYOU ARE\n\u2014\nCOLLECTIONS\nAquatic Plants\nPROJECT\nA planted aquarium display for an illustrative shop. Please help explore foliage and composition. LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nTIMING\nNo fixed timing\nEdit brief\nClear and start again",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "invalid": 0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Return to edit",
+      "viewport": "mobile",
+      "kept": "Alex Example",
+      "pass": true
+    },
+    {
+      "scenario": "UI-03",
+      "step": "Reduced motion",
+      "text": 1707,
+      "opacity": "1",
+      "transitions": [
+        "1e-05s",
+        "1e-05s",
+        "1e-05s",
+        "1e-05s",
+        "1e-05s",
+        "1e-05s",
+        "1e-05s",
+        "1e-05s"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "No outbound submission or external requests",
+      "outbound": [],
+      "pass": true
+    }
+  ]
+}

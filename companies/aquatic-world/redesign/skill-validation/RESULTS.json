@@ -1,0 +1,137 @@
+{
+  "recorded_at": "2026-10-11T04:55:22.980890+00:00",
+  "scope": "Read-only interpretation of four scenarios, not website implementation or visual quality validation",
+  "structural_validation": "skill-creator quick_validate.py passed using a disposable venv with PyYAML 6.0.3; venv removed",
+  "runners": {
+    "codex": {
+      "requested_model": "gpt-6.1-sol",
+      "exposed_model": "gpt-6.1-sol",
+      "elapsed_seconds": 71.45,
+      "exit_code": 0,
+      "input_files_read": [
+        "input/SKILL.md",
+        "input/references/cli-operation.md",
+        "input/references/design-review.md",
+        "input/references/prompt-patterns.md"
+      ],
+      "observed_tools_used": [
+        "command_execution"
+      ],
+      "native_usage": {
+        "input_tokens": 72625,
+        "cached_input_tokens": 59136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2212,
+        "reasoning_output_tokens": 764
+      },
+      "case_assessment": {
+        "a": "Core multi-page contract and header review correctly identified",
+        "b": "Explicit one-page scope retained",
+        "c": "Owned-process cleanup and truthful native exit status identified",
+        "d": "Historical fidelity score does not establish new-scope readiness"
+      },
+      "limitations": [
+        "Interpretation only; no new site or visual quality validated",
+        "Global instructions and tools differ; not a model ranking"
+      ]
+    },
+    "claude": {
+      "requested_model": "claude-opus-5-5",
+      "exposed_model": "claude-opus-5-5",
+      "elapsed_seconds": 47.3,
+      "exit_code": 0,
+      "input_files_read": [
+        "input/SKILL.md",
+        "input/references/cli-operation.md",
+        "input/references/design-review.md",
+        "input/references/prompt-patterns.md"
+      ],
+      "observed_tools_used": [
+        "Read"
+      ],
+      "native_usage": {
+        "usage": {
+          "input_tokens": 6,
+          "cache_creation_input_tokens": 397580,
+          "cache_read_input_tokens": 137652,
+          "output_tokens": 3889,
+          "output_tokens_details": {
+            "thinking_tokens": 1286
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 397580,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 3435,
+              "cache_read_input_tokens": 68826,
+              "cache_creation_input_tokens": 236307,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 236307
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "modelUsage": {
+          "claude-opus-5-5": {
+            "inputTokens": 6,
+            "outputTokens": 3889,
+            "cacheReadInputTokens": 137652,
+            "cacheCreationInputTokens": 397580,
+            "webSearchRequests": 0,
+            "costUSD": 3.2859743999999997,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 1286,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "total_cost_usd": 3.2859743999999997
+      },
+      "case_assessment": {
+        "a": "Core multi-page contract and header review correctly identified",
+        "b": "Explicit one-page scope retained",
+        "c": "Owned-process cleanup and truthful native exit status identified",
+        "d": "Historical fidelity score does not establish new-scope readiness"
+      },
+      "limitations": [
+        "Interpretation only; no new site or visual quality validated",
+        "Global instructions and tools differ; not a model ranking"
+      ]
+    }
+  },
+  "codex_exposed_context": {
+    "effort": "xhigh"
+  },
+  "follow_up": [
+    "Claude added an unsupported restriction against reusing past code; current skill clarifies that a new owned copy may reuse own prior code unless the experiment forbids it",
+    "Claude --tools Read limited built-in tools but exposed configured MCP tools; observed trial calls used Read only. Current skill warns that strict MCP configuration may be needed for containment",
+    "The two targeted clarifications postdate the frozen trial snapshot; they were manually reviewed, not rerun in another native trial"
+  ],
+  "current_skill_hashes": {
+    "SKILL.md": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b",
+    "references/cli-operation.md": "5abe83f51775294515746364e56dcf2e27ce473632943fcd289ea61a2371ffd0",
+    "references/prompt-patterns.md": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6",
+    "references/design-review.md": "6113fb17052c6e637a5e744294096f1949c7ffde17e58e49497022a2d8d40369",
+    "agents/openai.yaml": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+  },
+  "discovery": {
+    "claude_native_init_slash_command": true,
+    "codex_native_developer_skill_catalog": true,
+    "explicit_invocation_tested": false
+  }
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hans">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aquatic World · 首页动画比较</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101e21;color:#ecf5ef;font:16px/1.6 system-ui,sans-serif}header,main{max-width:1440px;margin:auto;padding:24px}h1{font-size:28px;margin:0 0 8px}p{margin:0 0 16px;color:#b8cfca}a{color:#d6d29b;text-underline-offset:4px}.controls{display:flex;gap:16px;flex-wrap:wrap;margin:20px 0}label{display:grid;gap:4px}select{min-height:44px;padding:8px;font:inherit;color:#102527;background:#edf3eb;border:1px solid #6f8f86;border-radius:5px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}.card{margin:0;min-width:0;background:#193035;padding:16px;border-radius:8px}.card h2{font-size:22px;margin:0}.card p{font-size:14px}.capture{background:#0a1718;overflow:auto;text-align:center}img{display:block;margin:auto;max-width:100%;height:auto}.capture.phone img{width:auto}.capture.tablet img{width:768px}.summary{margin-top:24px}a:focus-visible,select:focus-visible{outline:3px solid #e5c582;outline-offset:4px}@media(max-width:760px){header,main{padding:16px}.pair{grid-template-columns:1fr}}
+</style>
+<header>
+<h1>Aquatic World · 首页动画比较</h1>
+<p>相同原图、水光和 10 个固定粒子；两边独立修改自己的 round-5 网站。完整鱼身保留，手机先呈现标题与 CTA。</p>
+<a href="http://127.0.0.1:4231/" target="_blank" rel="noopener">打开 Codex 实际网站 ↗</a> · <a href="http://127.0.0.1:4232/" target="_blank" rel="noopener">打开 Claude 实际网站 ↗</a>
+</header>
+<main>
+<p>下面是实际网站截图。请打开实际网站体验动画与 Play / Pause；截图本身不播放动画。功能验证与视觉判断见 <a href="RESULTS.md">比较报告</a>，你的设计验收仍待确认。</p>
+<div class="controls">
+<label>版本<select id="stage"><option value="after">修改后 · 首页动画</option><option value="before">修改前 · round-5</option></select></label>
+<label>页面<select id="page"><option value="home">Home</option><option value="contact">Contact</option></select></label>
+<label>尺寸<select id="viewport"><option value="390">手机 390 × 844</option><option value="360">手机 360 × 800</option><option value="320">手机 320 × 800</option><option value="768">中间尺寸 768 × 1024</option><option value="1280">桌面 1280 × 800</option></select></label>
+</div>
+<div class="pair">
+<figure class="card"><h2>Codex · GPT-6.1 Sol</h2><p>Codex CLI · gpt-6.1-sol</p><div class="capture"><img id="codex" alt="Codex 实际网站截图"></div></figure>
+<figure class="card"><h2>Claude · Opus 5.5</h2><p>Claude Code CLI · claude-opus-5-5</p><div class="capture"><img id="claude" alt="Claude 实际网站截图"></div></figure>
+</div>
+<p class="summary" id="note"></p>
+<p><a href="../../README.md">公司案例与预览命令</a> · <a href="README.md">相同输入与执行记录</a> · <a href="../../redesign/animation-v1/preview.html">共享动画 study</a></p>
+</main>
+<script>
+const controls=[...document.querySelectorAll('select')];
+const params=new URLSearchParams(location.search);
+for(const control of controls) if([...control.options].some(option=>option.value===params.get(control.id))) control.value=params.get(control.id);
+function render(){
+ const stage=document.querySelector('#stage').value,page=document.querySelector('#page').value,width=document.querySelector('#viewport').value;
+ for(const name of ['codex','claude']){
+  const img=document.querySelector('#'+name),capture=img.parentElement;
+  capture.className='capture '+(Number(width)<768?'phone':width==='768'?'tablet':'desktop');
+  if(stage==='before'){
+   img.src='../../round-6-animation/'+name+'/baseline/'+page+'-'+(page==='home'&&width==='1280'?'desktop':'mobile')+'-first.png';
+  }else img.src='evidence/'+name+'/'+page+'-'+width+'.jpg';
+ }
+ document.querySelector('#note').textContent=stage==='before'?'修改前 Home 保留 1280px 桌面与 390px 手机原图，Contact 保留 390px 手机原图；没有对应尺寸时显示原 390px 参考，未伪造其他尺寸。':'修改后截图使用所选实际 viewport；其他内页与 Contact 保持原流程。';
+ history.replaceState(null,'','?'+new URLSearchParams({stage,page,viewport:width}));
+}
+for(const control of controls)control.addEventListener('change',render);
+render();
+</script>
+</html>

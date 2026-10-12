@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "fixtures": [
+    {
+      "fixture": "default",
+      "output": "index.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 3,
+      "quality": true,
+      "highlights": true,
+      "bytes": 18688
+    },
+    {
+      "fixture": "minimal",
+      "output": "fixtures/minimal.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 1,
+      "quality": false,
+      "highlights": false,
+      "bytes": 8915
+    },
+    {
+      "fixture": "five",
+      "output": "fixtures/five.html",
+      "brand": "AQUATIC WORLD",
+      "categories": 5,
+      "quality": true,
+      "highlights": true,
+      "bytes": 22747
+    },
+    {
+      "fixture": "alternate",
+      "output": "fixtures/alternate.html",
+      "brand": "TIDAL ATELIER",
+      "categories": 5,
+      "quality": true,
+      "highlights": true,
+      "bytes": 22724
+    }
+  ]
+}

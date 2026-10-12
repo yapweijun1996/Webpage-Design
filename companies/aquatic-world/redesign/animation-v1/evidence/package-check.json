@@ -1,0 +1,1201 @@
+{
+  "checked_on": "2026-10-12",
+  "count": 279,
+  "checks": [
+    {
+      "name": "Frozen input assets/hero-angelfish.png",
+      "passed": true
+    },
+    {
+      "name": "Frozen input preview.html",
+      "passed": true
+    },
+    {
+      "name": "Frozen input styles.css",
+      "passed": true
+    },
+    {
+      "name": "Frozen input motion.js",
+      "passed": true
+    },
+    {
+      "name": "Frozen input INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Original source bytes",
+      "passed": true
+    },
+    {
+      "name": "Preserved all historical implementation/trial files",
+      "passed": true
+    },
+    {
+      "name": "Preserved eight historical prepared video contracts",
+      "passed": true
+    },
+    {
+      "name": "No native workers launched",
+      "passed": true
+    },
+    {
+      "name": "No paid generation in this study",
+      "passed": true
+    },
+    {
+      "name": "Seven responsive widths checked",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 320px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 360px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 360px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 360px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 390px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 390px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 1060px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 1060px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 1060px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 1280px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 1280px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 1280px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 768px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 1059px",
+      "passed": true
+    },
+    {
+      "name": "Full source at 1059px",
+      "passed": true
+    },
+    {
+      "name": "First-view frame/control at 1059px",
+      "passed": true
+    },
+    {
+      "name": "Desktop source stable through full light cycle",
+      "passed": true
+    },
+    {
+      "name": "Phone source stable through longest particle cycle",
+      "passed": true
+    },
+    {
+      "name": "One light and ten particles",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 0",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 1",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 2",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 3",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 4",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 5",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 6",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 7",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 8",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 9",
+      "passed": true
+    },
+    {
+      "name": "Continuous endpoints for animation 10",
+      "passed": true
+    },
+    {
+      "name": "Pause freezes actual animation time",
+      "passed": true
+    },
+    {
+      "name": "Offscreen pauses actual time",
+      "passed": true
+    },
+    {
+      "name": "Re-entry resumes eligible motion",
+      "passed": true
+    },
+    {
+      "name": "User pause survives scroll/menu",
+      "passed": true
+    },
+    {
+      "name": "Policy state reducedLive",
+      "passed": true
+    },
+    {
+      "name": "Policy state reducedInitial",
+      "passed": true
+    },
+    {
+      "name": "Policy state reducedStopAfterOptIn",
+      "passed": true
+    },
+    {
+      "name": "Policy state preferenceReturned",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion explicit opt-in runs",
+      "passed": true
+    },
+    {
+      "name": "Keyboard playback and focus",
+      "passed": true
+    },
+    {
+      "name": "Menu keyboard cycles",
+      "passed": true
+    },
+    {
+      "name": "Menu close/Escape/backdrop",
+      "passed": true
+    },
+    {
+      "name": "Open modal menu390",
+      "passed": true
+    },
+    {
+      "name": "Open modal menu768",
+      "passed": true
+    },
+    {
+      "name": "Open modal menu1280",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript static fallback",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript HTML link navigation",
+      "passed": true
+    },
+    {
+      "name": "Image-error fallback",
+      "passed": true
+    },
+    {
+      "name": "Normal console clean",
+      "passed": true
+    },
+    {
+      "name": "Moving decorations stay in left half",
+      "passed": true
+    },
+    {
+      "name": "15 synthetic signal checks identified honestly",
+      "passed": true
+    },
+    {
+      "name": "Native evidence identified separately from mocks",
+      "passed": true
+    },
+    {
+      "name": "Real hidden document pauses",
+      "passed": true
+    },
+    {
+      "name": "Real hidden document freezes time",
+      "passed": true
+    },
+    {
+      "name": "Real visible return resumes eligible motion",
+      "passed": true
+    },
+    {
+      "name": "Real visibility changes preserve user pause",
+      "passed": true
+    },
+    {
+      "name": "Save-Data getter remains native",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data initial still fallback",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data freezes animation time",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data explicit opt-in",
+      "passed": true
+    },
+    {
+      "name": "Native opt-in still respects real visibility",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data return preserves policy stop",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data return preserves user pause",
+      "passed": true
+    },
+    {
+      "name": "Live native override limit retained honestly",
+      "passed": true
+    },
+    {
+      "name": "Temporary native observer and override removed",
+      "passed": true
+    },
+    {
+      "name": "Native Save-Data proof shows full static first view",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/animation-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/animation-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/aquatic-world/redesign/animation-v1/VERIFICATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: companies/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../templates/company/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/research.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/animation-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/redesign/animation-v1/VERIFICATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: aquatic-world/comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-5/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-5/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-4/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-4/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-3/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-3/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-2/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-2/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-4/codex/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-4/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: round-5/codex/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/motion-v1/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/motion-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/motion-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/animation-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/animation-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/animation-v1/VERIFICATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-6/PREPARATION-CHECK.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: research.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: design-brief.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/assets-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-2/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/LEARNINGS.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: redesign/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../animation-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: GENERATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: MODEL-COMPARISON.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/round-6/ACCEPTANCE.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/round-6/input-plan.json",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/round-6/PREPARATION-CHECK.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: preview.html",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: input-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: VERIFICATION.md",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../../comparison/assets-v1/asset-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Document link README.md: ../motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/browser-review.json",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/desktop.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/phone-390.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/phone-menu.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/phone-reduced-motion.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/phone-no-javascript.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/phone-image-failure.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/cycle-start.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/cycle-after.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/desktop-initial-fold.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/native-signal-review.json",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/chrome-save-data-static.png",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/state-check.json",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/state-check.mjs",
+      "passed": true
+    },
+    {
+      "name": "Document link VERIFICATION.md: evidence/package-check.json",
+      "passed": true
+    },
+    {
+      "name": "Preview target styles.css",
+      "passed": true
+    },
+    {
+      "name": "Preview target motion.js",
+      "passed": true
+    },
+    {
+      "name": "Preview target ../../README.md",
+      "passed": true
+    },
+    {
+      "name": "Preview target README.md",
+      "passed": true
+    },
+    {
+      "name": "Preview target ../../comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Preview target assets/hero-angelfish.png",
+      "passed": true
+    },
+    {
+      "name": "Preview target assets/hero-angelfish.png",
+      "passed": true
+    },
+    {
+      "name": "Preview target INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Preview target README.md",
+      "passed": true
+    },
+    {
+      "name": "Preview target ../../comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Preview target INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Preview target ../motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Preview target README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/assets-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/assets-v1/asset-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-2/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-3/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-4/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-4/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-5/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-5/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-5/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-6/ACCEPTANCE.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-6/PREPARATION-CHECK.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-6/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target comparison/round-6/input-plan.json",
+      "passed": true
+    },
+    {
+      "name": "Served target design-brief.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/LEARNINGS.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/IMPLEMENTATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/VERIFICATION.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/assets/hero-angelfish.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/browser-review.json",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/chrome-save-data-static.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/cycle-after.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/cycle-start.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/desktop-initial-fold.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/desktop.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/native-signal-review.json",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/package-check.json",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/phone-390.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/phone-image-failure.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/phone-menu.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/phone-no-javascript.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/phone-reduced-motion.png",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/state-check.json",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/evidence/state-check.mjs",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/input-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/motion.js",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/animation-v1/styles.css",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/BRIEF.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/GENERATION-PROMPT.txt",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/MODEL-COMPARISON.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/preview.html",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/trial-v1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/trial-v1/REFINEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/trial-v1/preview-refinement.html",
+      "passed": true
+    },
+    {
+      "name": "Served target redesign/motion-v1/trial-v1/request-plan.json",
+      "passed": true
+    },
+    {
+      "name": "Served target research.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-2/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-2/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-3/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-3/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-4/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-4/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-4/codex/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-5/claude/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-5/codex/README.md",
+      "passed": true
+    },
+    {
+      "name": "Served target round-5/codex/REVIEW.md",
+      "passed": true
+    }
+  ],
+  "preserved_files": 1758,
+  "served_targets": [
+    "README.md",
+    "claude/README.md",
+    "codex/README.md",
+    "comparison/README.md",
+    "comparison/RESULTS.md",
+    "comparison/assets-v1/README.md",
+    "comparison/assets-v1/asset-manifest.json",
+    "comparison/preview.html",
+    "comparison/round-2/RESULTS.md",
+    "comparison/round-3/preview.html",
+    "comparison/round-4/README.md",
+    "comparison/round-4/RESULTS.md",
+    "comparison/round-4/preview.html",
+    "comparison/round-5/README.md",
+    "comparison/round-5/RESULTS.md",
+    "comparison/round-5/preview.html",
+    "comparison/round-6/ACCEPTANCE.md",
+    "comparison/round-6/IMPLEMENTATION-PROMPT.txt",
+    "comparison/round-6/PREPARATION-CHECK.md",
+    "comparison/round-6/README.md",
+    "comparison/round-6/input-plan.json",
+    "design-brief.md",
+    "redesign/BRIEF.md",
+    "redesign/IMPLEMENTATION-PROMPT.txt",
+    "redesign/LEARNINGS.md",
+    "redesign/animation-v1/IMPLEMENTATION-PROMPT.txt",
+    "redesign/animation-v1/INTEGRATION.md",
+    "redesign/animation-v1/README.md",
+    "redesign/animation-v1/VERIFICATION.md",
+    "redesign/animation-v1/assets/hero-angelfish.png",
+    "redesign/animation-v1/evidence/browser-review.json",
+    "redesign/animation-v1/evidence/chrome-save-data-static.png",
+    "redesign/animation-v1/evidence/cycle-after.png",
+    "redesign/animation-v1/evidence/cycle-start.png",
+    "redesign/animation-v1/evidence/desktop-initial-fold.png",
+    "redesign/animation-v1/evidence/desktop.png",
+    "redesign/animation-v1/evidence/native-signal-review.json",
+    "redesign/animation-v1/evidence/package-check.json",
+    "redesign/animation-v1/evidence/phone-390.png",
+    "redesign/animation-v1/evidence/phone-image-failure.png",
+    "redesign/animation-v1/evidence/phone-menu.png",
+    "redesign/animation-v1/evidence/phone-no-javascript.png",
+    "redesign/animation-v1/evidence/phone-reduced-motion.png",
+    "redesign/animation-v1/evidence/state-check.json",
+    "redesign/animation-v1/evidence/state-check.mjs",
+    "redesign/animation-v1/input-manifest.json",
+    "redesign/animation-v1/motion.js",
+    "redesign/animation-v1/preview.html",
+    "redesign/animation-v1/styles.css",
+    "redesign/motion-v1/BRIEF.md",
+    "redesign/motion-v1/GENERATION-PROMPT.txt",
+    "redesign/motion-v1/INTEGRATION.md",
+    "redesign/motion-v1/MODEL-COMPARISON.md",
+    "redesign/motion-v1/README.md",
+    "redesign/motion-v1/SOURCES.md",
+    "redesign/motion-v1/preview.html",
+    "redesign/motion-v1/trial-v1/README.md",
+    "redesign/motion-v1/trial-v1/REFINEMENT.md",
+    "redesign/motion-v1/trial-v1/preview-refinement.html",
+    "redesign/motion-v1/trial-v1/request-plan.json",
+    "research.md",
+    "round-2/claude/README.md",
+    "round-2/codex/README.md",
+    "round-3/claude/README.md",
+    "round-3/codex/README.md",
+    "round-4/claude/README.md",
+    "round-4/codex/README.md",
+    "round-4/codex/REVIEW.md",
+    "round-5/claude/README.md",
+    "round-5/codex/README.md",
+    "round-5/codex/REVIEW.md"
+  ],
+  "limits": [
+    "Native Save-Data=true is a Chrome CDP signal override, not a physical device/carrier setting",
+    "Real live network preference change remains unverified: native override produced no change event in the bounded sample",
+    "No physical phone, other browser engine, performance/zoom audit or native contestant revision"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "port": 4191,
+  "command": [
+    "python3",
+    "demo/serve.py",
+    "--port",
+    "4191"
+  ],
+  "node_tool_pid": 85052,
+  "exit_code": 1,
+  "status": "exited with socket permission error; no owned preview is running",
+  "cleanup": "No broad process matching or cleanup performed. Failed browser processes exited with SIGABRT."
+}

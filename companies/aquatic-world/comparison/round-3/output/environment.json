@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-11T06:54:28.731953+00:00",
+  "evaluator_browser": {
+    "product": "Google Chrome",
+    "version": "154.0.8037.99",
+    "mode": "headed",
+    "session": "aquatic-round-3"
+  },
+  "native_models": {
+    "codex": {
+      "requested": "gpt-6.1-sol",
+      "exposed_turn_context_model": "gpt-6.1-sol",
+      "exposed_effort": "xhigh",
+      "session_cli_version": "0.160.0"
+    },
+    "claude": {
+      "requested": "claude-opus-5-5",
+      "exposed_init_and_assistant_model": "claude-opus-5-5",
+      "exposed_effort": null,
+      "launch_cli_version": "2.1.289"
+    }
+  },
+  "effort_normalization": "None; requested defaults retained",
+  "runtime_versions": {
+    "python": "Python 3.14.3",
+    "node": "v23.10.0",
+    "codex": "codex-cli 0.162.1",
+    "claude": "2.1.289 (Claude Code)",
+    "macos": "27.0.1"
+  },
+  "version_observation": "Codex session metadata identifies 0.160.0 at launch; the installed codex --version reports 0.162.1 at evaluator inspection. The original process has not been restarted. Cause of installed-version change is unverified."
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shared Aquatic Image Assets v1</title>
+<style>
+:root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f6f4f0; background: #061c26; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(1240px, 100%); margin: auto; padding: clamp(20px, 4vw, 56px); }
+.eyebrow { color: #dfc087; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; }
+h1 { font-family: Georgia, serif; font-size: clamp(32px, 4vw, 52px); font-weight: 400; margin: 12px 0; }
+p { max-width: 760px; color: #c2d1d2; line-height: 1.7; }
+a { color: #dfc087; }
+a:focus-visible { outline: 3px solid #dfc087; outline-offset: 4px; }
+nav { display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0 36px; }
+.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+figure { margin: 0; overflow: hidden; background: #0a3541; border: 1px solid #43565b; }
+figure.wide { grid-column: 1 / -1; }
+figure img { display: block; width: 100%; height: auto; }
+figcaption { padding: 16px; overflow-wrap: anywhere; }
+figcaption strong { display: block; font-size: 15px; font-weight: 500; }
+figcaption span { display: block; margin-top: 8px; color: #c2d1d2; font-size: 12px; }
+footer { margin-top: 32px; color: #c2d1d2; font-size: 13px; line-height: 1.6; }
+@media (max-width: 900px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 580px) { .gallery { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body><main>
+<div class="eyebrow">Shared inputs · baseline v2 · 9 standalone images</div>
+<h1>Premium Aquatic Image Assets</h1>
+<p>The same image sources are supplied to both CLI implementations. These AI-generated scenes are illustrative, not documentary evidence of a company or actual inventory. Click an image to inspect the original file.</p>
+<nav aria-label="Asset documentation"><a href="README.md">Usage notes</a><a href="asset-manifest.json">Slot map and provenance</a><a href="prompts.json">Generation prompts</a></nav>
+<section class="gallery" aria-label="Shared image gallery">
+<figure class="wide"><a href="hero-angelfish.png"><img src="hero-angelfish.png" width="1882" height="836" alt="Hero — dark left space, fish on right" loading="lazy"></a><figcaption><strong>Hero — dark left space, fish on right</strong><span>1882 × 836 · hero-angelfish.png</span></figcaption></figure>
+<figure><a href="heritage-waterfront.png"><img src="heritage-waterfront.png" width="1586" height="992" alt="Heritage — illustrative waterfront" loading="lazy"></a><figcaption><strong>Heritage — illustrative waterfront</strong><span>1586 × 992 · heritage-waterfront.png</span></figcaption></figure>
+<figure><a href="collection-ornamental-fish.png"><img src="collection-ornamental-fish.png" width="1448" height="1086" alt="Collection — ornamental fish" loading="lazy"></a><figcaption><strong>Collection — ornamental fish</strong><span>1448 × 1086 · collection-ornamental-fish.png</span></figcaption></figure>
+<figure><a href="collection-aquatic-plants.png"><img src="collection-aquatic-plants.png" width="1448" height="1086" alt="Collection — green aquatic plants" loading="lazy"></a><figcaption><strong>Collection — green aquatic plants</strong><span>1448 × 1086 · collection-aquatic-plants.png</span></figcaption></figure>
+<figure><a href="collection-driftwood.png"><img src="collection-driftwood.png" width="1448" height="1086" alt="Collection / highlight — driftwood" loading="lazy"></a><figcaption><strong>Collection / highlight — driftwood</strong><span>1448 × 1086 · collection-driftwood.png</span></figcaption></figure>
+<figure><a href="highlight-red-betta.png"><img src="highlight-red-betta.png" width="1448" height="1086" alt="Highlight — red ornamental fish" loading="lazy"></a><figcaption><strong>Highlight — red ornamental fish</strong><span>1448 × 1086 · highlight-red-betta.png</span></figcaption></figure>
+<figure><a href="highlight-angelfish.png"><img src="highlight-angelfish.png" width="1448" height="1086" alt="Highlight — striped ornamental fish" loading="lazy"></a><figcaption><strong>Highlight — striped ornamental fish</strong><span>1448 × 1086 · highlight-angelfish.png</span></figcaption></figure>
+<figure><a href="highlight-red-plants.png"><img src="highlight-red-plants.png" width="1448" height="1086" alt="Highlight — red aquatic plants" loading="lazy"></a><figcaption><strong>Highlight — red aquatic plants</strong><span>1448 × 1086 · highlight-red-plants.png</span></figcaption></figure>
+<figure class="wide"><a href="enquiry-underwater-school.png"><img src="enquiry-underwater-school.png" width="1983" height="793" alt="Enquiry / highlights — underwater panorama" loading="lazy"></a><figcaption><strong>Enquiry / highlights — underwater panorama</strong><span>1983 × 793 · enquiry-underwater-school.png</span></figcaption></figure>
+</section>
+<footer>This is an offline asset preview, not either contestant's implemented landing page. Layout fidelity and functionality remain untested until those pages exist.</footer>
+</main></body></html>

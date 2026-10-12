@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-11T09:34:46.306109+00:00",
+  "checks": [
+    {
+      "port": 4170,
+      "status": 200,
+      "bytes": 690,
+      "pass": true
+    },
+    {
+      "port": 4171,
+      "status": 200,
+      "bytes": 18696,
+      "pass": true
+    },
+    {
+      "port": 4172,
+      "status": 200,
+      "bytes": 28979,
+      "pass": true
+    },
+    {
+      "port": 4181,
+      "status": 200,
+      "bytes": 18688,
+      "pass": true
+    },
+    {
+      "port": 4182,
+      "status": 200,
+      "bytes": 28900,
+      "pass": true
+    },
+    {
+      "port": 4191,
+      "status": 200,
+      "bytes": 9310,
+      "pass": true
+    },
+    {
+      "port": 4192,
+      "status": 200,
+      "bytes": 12966,
+      "pass": true
+    },
+    {
+      "port": 4201,
+      "status": 200,
+      "bytes": 9259,
+      "pass": true
+    },
+    {
+      "port": 4202,
+      "status": 200,
+      "bytes": 13385,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

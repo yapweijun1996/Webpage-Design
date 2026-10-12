@@ -1,0 +1,123 @@
+{
+  "checked_at_utc": "2026-10-11T22:44:19.691579+00:00",
+  "request_id": "aquatic_runway_20261012_02",
+  "provider_reported_cost_usd": "0.72",
+  "user_video_acceptance": "pending",
+  "assets": [
+    {
+      "path": "runway-02-raw.mp4",
+      "bytes": 4109737,
+      "sha256": "eda0f79ed24290641e3110b8424f06920738f332aaec4a3980eb6527394ed1e3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "nb_frames": "145"
+          }
+        ],
+        "format": {
+          "duration": "6.041667",
+          "size": "4109737"
+        }
+      },
+      "role": "raw_provider_output"
+    },
+    {
+      "path": "runway-02-preview.mp4",
+      "bytes": 2199814,
+      "sha256": "07c87cb4c95f829d27ce8080356340213074600fdb6e63424f5681d594389641",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "nb_frames": "145"
+          }
+        ],
+        "format": {
+          "duration": "6.041667",
+          "size": "2199814"
+        }
+      },
+      "role": "draft_review_encoding"
+    },
+    {
+      "path": "runway-02-poster.webp",
+      "bytes": 78880,
+      "sha256": "2fe63b93ec4a77e08087136a1014ce81206fbf956b2405eae912607ad4d35c85",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "webp",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "size": "78880"
+        }
+      },
+      "role": "draft_review_poster"
+    }
+  ],
+  "full_decode": "passed_raw_and_preview",
+  "sample_times_seconds": [
+    0,
+    1.5,
+    3,
+    4.5,
+    6
+  ],
+  "preview_encoder_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-i",
+    "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/motion-v1/trial-v1/runway-02-raw.mp4",
+    "-map",
+    "0:v:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "22",
+    "-pix_fmt",
+    "yuv420p",
+    "-an",
+    "-movflags",
+    "+faststart",
+    "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/motion-v1/trial-v1/runway-02-preview.mp4"
+  ],
+  "poster_encoder": "Pillow 12.2.0 WebP quality75 method6 from decoded frame0",
+  "preview_faststart": true,
+  "top_level_atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+  ]
+}

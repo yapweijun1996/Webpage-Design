@@ -1,0 +1,6 @@
+{
+  "recorded_at": "2026-10-11T07:20:07.430699+00:00",
+  "issue": "The evaluator initially classified the explicitly labeled footer Back to top utility as global page navigation. Three failures were evaluator false positives.",
+  "correction": "Permit only a footer #top link labeled Back to top with an existing target and the same page heading/path; global navigation hashes still fail. Recheck Claude; Codex has no such utility and its covered conditions are unchanged.",
+  "implementation_changed": false
+}

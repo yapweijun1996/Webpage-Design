@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-11",
+  "scope": "Eight-page Aquatic World website; native round-3 deliveries",
+  "assessment": "Non-blind evaluator judgment; ratings are not user acceptance or a general model ranking",
+  "preference": "claude",
+  "user_acceptance": "pending",
+  "evaluator_implementation_repairs": 0,
+  "criteria": [
+    {
+      "key": "information_architecture",
+      "weight": 25,
+      "codex_rating": 4.2,
+      "codex_points": 21.0,
+      "claude_rating": 4.5,
+      "claude_points": 22.5
+    },
+    {
+      "key": "header",
+      "weight": 10,
+      "codex_rating": 4.2,
+      "codex_points": 8.4,
+      "claude_rating": 4.6,
+      "claude_points": 9.2
+    },
+    {
+      "key": "composition_type_rhythm",
+      "weight": 15,
+      "codex_rating": 3.9,
+      "codex_points": 11.7,
+      "claude_rating": 4.4,
+      "claude_points": 13.2
+    },
+    {
+      "key": "imagery_detail_continuity",
+      "weight": 10,
+      "codex_rating": 3.8,
+      "codex_points": 7.6,
+      "claude_rating": 4.5,
+      "claude_points": 9.0
+    },
+    {
+      "key": "responsive_accessibility",
+      "weight": 20,
+      "codex_rating": 4.3,
+      "codex_points": 17.2,
+      "claude_rating": 4.3,
+      "claude_points": 17.2
+    },
+    {
+      "key": "interactions",
+      "weight": 15,
+      "codex_rating": 4.7,
+      "codex_points": 14.1,
+      "claude_rating": 4.7,
+      "claude_points": 14.1
+    },
+    {
+      "key": "reproducibility_ownership",
+      "weight": 5,
+      "codex_rating": 5,
+      "codex_points": 5.0,
+      "claude_rating": 5,
+      "claude_points": 5.0
+    }
+  ],
+  "runners": {
+    "codex": {
+      "structural_exercised_interaction_result": "pass",
+      "design_score": 85.0,
+      "layout_views": 64,
+      "evaluator_captures": 48,
+      "assertions": {
+        "navigation": 96,
+        "journeys": 22,
+        "interactions": 19,
+        "focus": 83
+      },
+      "gate_evidence": "RESULTS.md"
+    },
+    "claude": {
+      "structural_exercised_interaction_result": "pass",
+      "design_score": 90.2,
+      "layout_views": 64,
+      "evaluator_captures": 48,
+      "assertions": {
+        "navigation": 99,
+        "journeys": 22,
+        "interactions": 19,
+        "focus": 84
+      },
+      "gate_evidence": "RESULTS.md"
+    }
+  }
+}

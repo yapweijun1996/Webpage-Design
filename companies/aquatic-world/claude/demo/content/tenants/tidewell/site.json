@@ -1,0 +1,100 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "demoNotice": "Fictional second-brand fixture. Tidewell Studio is invented for a configuration test; images are AI-generated illustrations and no real enquiries can be sent.",
+  "brand": {
+    "name": "TIDEWELL STUDIO",
+    "tagline": "Aquascape supply, calmly considered",
+    "displayAsText": true
+  },
+  "location": {
+    "countryDisplayName": null,
+    "cityDisplayName": null,
+    "regionClaimApproved": false
+  },
+  "site": {
+    "baseUrl": null,
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "themeId": "lagoon-copper"
+  },
+  "seo": {
+    "title": "Tidewell Studio — Aquascape Supply Fixture (Demo)",
+    "description": "Second-brand configuration fixture: five aquascape categories rendered by the same components with a different theme.",
+    "themeColor": "#0B1A2E"
+  },
+  "theme": {
+    "tokens": {
+      "--color-ocean-950": "#0B1A2E",
+      "--color-ocean-900": "#122A45",
+      "--color-ocean-800": "#1A3A5C",
+      "--color-gold-400": "#E7B394",
+      "--color-gold-500": "#CF916F",
+      "--color-cream-50": "#F4F1EC",
+      "--font-display": "\"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif"
+    }
+  },
+  "navigation": [
+    {
+      "id": "range",
+      "label": "The Range",
+      "href": "#collections"
+    },
+    {
+      "id": "studio",
+      "label": "Studio",
+      "href": "#heritage"
+    },
+    {
+      "id": "approach",
+      "label": "Approach",
+      "href": "#quality"
+    },
+    {
+      "id": "talk",
+      "label": "Talk to Us",
+      "href": "#enquiry"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "label": "Browse the Range",
+      "href": "#collections"
+    },
+    "secondary": {
+      "label": "Trade Enquiry",
+      "href": "#enquiry"
+    }
+  },
+  "contact": {
+    "email": null,
+    "phone": null,
+    "address": null,
+    "enquiryEndpoint": null,
+    "privacyPath": null
+  },
+  "legal": {
+    "legalName": null,
+    "footerNote": "Calm water, careful hands",
+    "demoDisclaimer": "Fictional configuration fixture · invented brand · illustrative AI-generated imagery · no real contact route"
+  },
+  "socialLinks": [],
+  "features": {
+    "showProofPoints": false,
+    "showQualitySection": true,
+    "showHeritageQuote": false,
+    "showLocaleSwitcher": false,
+    "enableEnquiryForm": false,
+    "enableEnquiryPreview": true,
+    "showSocialLinks": false
+  },
+  "ui": {
+    "skipLink": "Skip to main content",
+    "menuOpen": "Menu",
+    "menuClose": "Close menu",
+    "primaryNav": "Main",
+    "footerNav": "Footer links",
+    "demoLabel": "Test fixture"
+  }
+}

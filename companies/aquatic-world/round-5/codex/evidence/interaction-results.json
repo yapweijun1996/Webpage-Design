@@ -1,0 +1,199 @@
+{
+  "method": "Actual demo/script.js in Node VM with DOM doubles; native email validity represented explicitly, no browser rendering/keyboard claim",
+  "passes": 48,
+  "failures": 0,
+  "checks": [
+    {
+      "check": "Enhancement enables controls and shows one disclosure",
+      "status": "pass"
+    },
+    {
+      "check": "Fresh brief uses Not sure yet and compact category hint",
+      "status": "pass"
+    },
+    {
+      "check": "Known prefill: ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "Context matches selection: ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "Prefilled preview has four rows: ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "Clear drops incoming context: ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "Known prefill: aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "Context matches selection: aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "Prefilled preview has four rows: aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "Clear drops incoming context: aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "Known prefill: driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "Context matches selection: driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "Prefilled preview has four rows: driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "Clear drops incoming context: driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "Known prefill: general",
+      "status": "pass"
+    },
+    {
+      "check": "Prefilled preview has four rows: general",
+      "status": "pass"
+    },
+    {
+      "check": "Clear drops incoming context: general",
+      "status": "pass"
+    },
+    {
+      "check": "Unknown query safely falls back: ?category=unknown",
+      "status": "pass"
+    },
+    {
+      "check": "Unknown query safely falls back: ?category=%3Cscript%3Ealert(1)%3C%2Fscript%3E",
+      "status": "pass"
+    },
+    {
+      "check": "Unknown query safely falls back: ?category=",
+      "status": "pass"
+    },
+    {
+      "check": "Unknown query safely falls back: ?category=DRIFTWOOD",
+      "status": "pass"
+    },
+    {
+      "check": "Blank submission prevented with three associated errors",
+      "status": "pass"
+    },
+    {
+      "check": "Blank submission focuses visible summary",
+      "status": "pass"
+    },
+    {
+      "check": "Summary includes all three correct field links",
+      "status": "pass"
+    },
+    {
+      "check": "Summary link focuses name",
+      "status": "pass"
+    },
+    {
+      "check": "Summary link focuses email",
+      "status": "pass"
+    },
+    {
+      "check": "Summary link focuses project",
+      "status": "pass"
+    },
+    {
+      "check": "Invalid email, whitespace name and short project rejected",
+      "status": "pass"
+    },
+    {
+      "check": "Correcting inputs clears errors and summary",
+      "status": "pass"
+    },
+    {
+      "check": "Changing collection updates field-local context",
+      "status": "pass"
+    },
+    {
+      "check": "Valid preview replaces editable workspace and disclosure",
+      "status": "pass"
+    },
+    {
+      "check": "Preview receives focus",
+      "status": "pass"
+    },
+    {
+      "check": "Preview contains exactly Name/Email/Collection/Project",
+      "status": "pass"
+    },
+    {
+      "check": "Edit restores values, editable disclosure and project focus",
+      "status": "pass"
+    },
+    {
+      "check": "Editable Clear empties values, errors and output",
+      "status": "pass"
+    },
+    {
+      "check": "Clear restores Name focus and honest reset status",
+      "status": "pass"
+    },
+    {
+      "check": "Project trimmed-length boundary 19",
+      "status": "pass"
+    },
+    {
+      "check": "Project trimmed-length boundary 20",
+      "status": "pass"
+    },
+    {
+      "check": "Project trimmed-length boundary 2000",
+      "status": "pass"
+    },
+    {
+      "check": "Project trimmed-length boundary 2001",
+      "status": "pass"
+    },
+    {
+      "check": "Long HTML-like input is rendered as literal text",
+      "status": "pass"
+    },
+    {
+      "check": "Script has no network or browser-storage operations",
+      "status": "pass"
+    },
+    {
+      "check": "Menu Escape closes and restores focus (Contact=true)",
+      "status": "pass"
+    },
+    {
+      "check": "Outside click closes menu and restores in-menu focus (Contact=true)",
+      "status": "pass"
+    },
+    {
+      "check": "Desktop resize transfers focus to matching destination (Contact=true)",
+      "status": "pass"
+    },
+    {
+      "check": "Menu Escape closes and restores focus (Contact=false)",
+      "status": "pass"
+    },
+    {
+      "check": "Outside click closes menu and restores in-menu focus (Contact=false)",
+      "status": "pass"
+    },
+    {
+      "check": "Desktop resize transfers focus to matching destination (Contact=false)",
+      "status": "pass"
+    }
+  ]
+}

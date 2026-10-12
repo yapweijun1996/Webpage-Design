@@ -1,0 +1,158 @@
+[
+  {
+    "caption": [
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "A WATERFRONT REIMAGINED"
+      },
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "Singapore-inspired illustration"
+      }
+    ],
+    "height": 900,
+    "heroImage": {
+      "position": "70% 50%"
+    },
+    "scrollWidth": 1440,
+    "sections": [
+      {
+        "height": 88,
+        "id": "site-header"
+      },
+      {
+        "height": 665.7421875,
+        "id": "hero"
+      },
+      {
+        "height": 368.71875,
+        "id": "heritage"
+      },
+      {
+        "height": 360.1171875,
+        "id": "collections"
+      },
+      {
+        "height": 247.84375,
+        "id": "quality"
+      },
+      {
+        "height": 219,
+        "id": "highlights"
+      },
+      {
+        "height": 260,
+        "id": "enquiry"
+      },
+      {
+        "height": 112.5,
+        "id": "site-footer"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "caption": [
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "A WATERFRONT REIMAGINED"
+      },
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "Singapore-inspired illustration"
+      }
+    ],
+    "height": 1024,
+    "heroImage": {
+      "position": "64% 50%"
+    },
+    "scrollWidth": 768,
+    "sections": [
+      {
+        "height": 76,
+        "id": "site-header"
+      },
+      {
+        "height": 635,
+        "id": "hero"
+      },
+      {
+        "height": 310,
+        "id": "heritage"
+      },
+      {
+        "height": 551,
+        "id": "collections"
+      },
+      {
+        "height": 368.1953125,
+        "id": "quality"
+      },
+      {
+        "height": 415,
+        "id": "highlights"
+      },
+      {
+        "height": 267.1953125,
+        "id": "enquiry"
+      },
+      {
+        "height": 112.5,
+        "id": "site-footer"
+      }
+    ],
+    "width": 768
+  },
+  {
+    "caption": [
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "A WATERFRONT REIMAGINED"
+      },
+      {
+        "color": "rgb(16, 36, 45)",
+        "text": "Singapore-inspired illustration"
+      }
+    ],
+    "height": 844,
+    "heroImage": {
+      "position": "85% 50%"
+    },
+    "scrollWidth": 390,
+    "sections": [
+      {
+        "height": 76,
+        "id": "site-header"
+      },
+      {
+        "height": 886.7265625,
+        "id": "hero"
+      },
+      {
+        "height": 573.390625,
+        "id": "heritage"
+      },
+      {
+        "height": 847.7890625,
+        "id": "collections"
+      },
+      {
+        "height": 726.9765625,
+        "id": "quality"
+      },
+      {
+        "height": 565.59375,
+        "id": "highlights"
+      },
+      {
+        "height": 281.1953125,
+        "id": "enquiry"
+      },
+      {
+        "height": 202,
+        "id": "site-footer"
+      }
+    ],
+    "width": 390
+  }
+]

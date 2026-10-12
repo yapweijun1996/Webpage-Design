@@ -1,0 +1,200 @@
+{
+  "collection-aquatic-plants": {
+    "source": "collection-aquatic-plants.png",
+    "source_sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "collection-aquatic-plants-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 107306,
+        "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640"
+      },
+      {
+        "file": "collection-aquatic-plants-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 352342,
+        "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6"
+      }
+    ]
+  },
+  "collection-driftwood": {
+    "source": "collection-driftwood.png",
+    "source_sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "collection-driftwood-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 73010,
+        "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b"
+      },
+      {
+        "file": "collection-driftwood-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 265502,
+        "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7"
+      }
+    ]
+  },
+  "collection-ornamental-fish": {
+    "source": "collection-ornamental-fish.png",
+    "source_sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "collection-ornamental-fish-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 39042,
+        "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7"
+      },
+      {
+        "file": "collection-ornamental-fish-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 155548,
+        "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020"
+      }
+    ]
+  },
+  "enquiry-underwater-school": {
+    "source": "enquiry-underwater-school.png",
+    "source_sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+    "width": 1983,
+    "height": 793,
+    "variants": [
+      {
+        "file": "enquiry-underwater-school-640.webp",
+        "width": 640,
+        "height": 256,
+        "bytes": 41050,
+        "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c"
+      },
+      {
+        "file": "enquiry-underwater-school-1600.webp",
+        "width": 1600,
+        "height": 640,
+        "bytes": 172410,
+        "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707"
+      }
+    ]
+  },
+  "heritage-waterfront": {
+    "source": "heritage-waterfront.png",
+    "source_sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+    "width": 1586,
+    "height": 992,
+    "variants": [
+      {
+        "file": "heritage-waterfront-640.webp",
+        "width": 640,
+        "height": 400,
+        "bytes": 76770,
+        "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48"
+      },
+      {
+        "file": "heritage-waterfront-1600.webp",
+        "width": 1586,
+        "height": 992,
+        "bytes": 372596,
+        "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959"
+      }
+    ]
+  },
+  "hero-angelfish": {
+    "source": "hero-angelfish.png",
+    "source_sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+    "width": 1882,
+    "height": 836,
+    "variants": [
+      {
+        "file": "hero-angelfish-640.webp",
+        "width": 640,
+        "height": 284,
+        "bytes": 36188,
+        "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4"
+      },
+      {
+        "file": "hero-angelfish-1600.webp",
+        "width": 1600,
+        "height": 711,
+        "bytes": 143388,
+        "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2"
+      }
+    ]
+  },
+  "highlight-angelfish": {
+    "source": "highlight-angelfish.png",
+    "source_sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "highlight-angelfish-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 54694,
+        "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9"
+      },
+      {
+        "file": "highlight-angelfish-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 178334,
+        "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923"
+      }
+    ]
+  },
+  "highlight-red-betta": {
+    "source": "highlight-red-betta.png",
+    "source_sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "highlight-red-betta-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 42558,
+        "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc"
+      },
+      {
+        "file": "highlight-red-betta-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 165192,
+        "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd"
+      }
+    ]
+  },
+  "highlight-red-plants": {
+    "source": "highlight-red-plants.png",
+    "source_sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "highlight-red-plants-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 73170,
+        "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6"
+      },
+      {
+        "file": "highlight-red-plants-1600.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 236558,
+        "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4"
+      }
+    ]
+  }
+}

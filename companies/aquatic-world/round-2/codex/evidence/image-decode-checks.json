@@ -1,0 +1,82 @@
+[
+  {
+    "file": "demo/assets/collection-aquatic-plants-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/collection-aquatic-plants-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/collection-driftwood-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/collection-driftwood-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/collection-ornamental-fish-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/collection-ornamental-fish-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/enquiry-underwater-school-1280.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/enquiry-underwater-school-1983.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/enquiry-underwater-school-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/heritage-waterfront-480.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/heritage-waterfront-960.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/hero-angelfish-1280.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/hero-angelfish-1882.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/hero-angelfish-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-angelfish-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-angelfish-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-red-betta-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-red-betta-640.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-red-plants-320.webp",
+    "status": "passed"
+  },
+  {
+    "file": "demo/assets/highlight-red-plants-640.webp",
+    "status": "passed"
+  }
+]

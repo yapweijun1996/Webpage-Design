@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-10",
+  "input_baseline_version": 2,
+  "asset_pack_version": 1,
+  "frozen_files_per_workspace": 50,
+  "standalone_images": 9,
+  "mapped_slots": 11,
+  "checks": {
+    "canonical_and_runner_asset_hashes": "passed",
+    "png_chunks_crc_and_compressed_data": "passed",
+    "image_dimensions_and_manifest": "passed",
+    "slot_references": "passed",
+    "offline_preview_links_and_image_metadata": "passed",
+    "markdown_relative_links": "passed (57 links)",
+    "original_handoff_31_entries_in_each_runner": "passed",
+    "changed_and_extra_asset_negative_cases": "passed",
+    "run_records_not_started": "passed",
+    "visual_inspection_of_generated_source_images": "completed"
+  },
+  "not_checked": [
+    "Implemented landing pages do not exist; no model output, responsive page QA or comparison score is claimed.",
+    "Offline preview browser rendering was not tested."
+  ]
+}

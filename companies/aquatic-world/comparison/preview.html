@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:,">
+  <title>Aquatic World · 两轮网页比较</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.65 system-ui, sans-serif; background: #f6f4f0; color: #10242d; }
+    header { background: #061c26; color: #f6f4f0; padding: 32px max(24px, calc((100vw - 1440px)/2)); }
+    h1 { margin: 0 0 10px; font: 400 clamp(25px, 3vw, 40px)/1.2 Georgia, serif; }
+    header p { margin: 0; max-width: 1000px; color: #c2d1d2; }
+    main { max-width: 1490px; margin: auto; padding: 28px 24px 48px; }
+    a { color: #78561f; text-underline-offset: 4px; }
+    :focus-visible { outline: 3px solid #b18641; outline-offset: 4px; }
+    .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-bottom: 24px; }
+    label { display: grid; gap: 5px; font-size: 14px; }
+    select { min-height: 44px; padding: 8px 30px 8px 12px; border: 1px solid #adb9bb; border-radius: 4px; background: white; color: #10242d; font: inherit; }
+    .controls a { margin-left: auto; padding-block: 10px; }
+    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+    article { min-width: 0; background: white; border: 1px solid #d5dbdb; border-radius: 6px; overflow: hidden; }
+    .meta { padding: 20px; border-bottom: 1px solid #d5dbdb; }
+    h2 { margin: 0; font-size: 21px; }
+    .score { float: right; font-size: 25px; color: #78561f; }
+    .meta p { margin: 8px 0; color: #43565b; font-size: 14px; }
+    .shot-link { display: block; }
+    .shot { display: block; width: 100%; max-width: var(--shot-width, 100%); margin: auto; height: auto; }
+    details { margin-top: 24px; background: white; border: 1px solid #d5dbdb; padding: 16px 20px; }
+    summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+    .reference { display: block; max-width: 560px; width: 100%; height: auto; margin: 12px auto; }
+    .note { font-size: 14px; color: #43565b; }
+    .scope-note { margin: 0 0 24px; padding: 16px 20px; border-left: 4px solid #b18641; background: #fff; }
+    @media (max-width: 700px) { .pair { grid-template-columns: 1fr; } .controls a { margin-left: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aquatic World · 两轮网页比较</h1>
+    <p id="overview">第二轮：两边从各自初稿出发，收到完全相同的反馈，各有一次自主修订机会。Codex 仍更贴近紧凑的原设计；Claude 明显追近。两份第二版均通过独立复测，评分仅差 1 分。</p>
+  </header>
+  <main>
+    <aside class="scope-note" aria-label="当前设计状态">八页版本已完成，并通过独立功能检查。<a href="round-3/preview.html">打开新的多页面比较</a>。以下内容保留前两轮的单页版本与旧评分；新的设计是否满意仍待反馈。</aside>
+    <div class="controls">
+      <label for="round">比较轮次
+        <select id="round">
+          <option value="1">第一轮 · 原始交付</option>
+          <option value="2" selected>第二轮 · 相同反馈后</option>
+        </select>
+      </label>
+      <label for="viewport">屏幕尺寸
+        <select id="viewport">
+          <option value="desktop">Desktop · 1440 × 900</option>
+          <option value="tablet">Tablet · 768 × 1024</option>
+          <option value="mobile">Mobile · 390 × 844</option>
+        </select>
+      </label>
+      <label for="extent">截图范围
+        <select id="extent">
+          <option value="full">整页</option>
+          <option value="first">首屏</option>
+        </select>
+      </label>
+      <a id="report-link" href="round-2/RESULTS.md">查看本轮评分、证据与限制</a>
+    </div>
+    <div class="pair">
+      <article data-runner="codex">
+        <div class="meta">
+          <span class="score">93.5 / 100</span>
+          <h2>Codex · GPT-6.1 Sol</h2>
+          <p class="description">87.5 → 93.5。桌面约 1,874px 高，分区节奏更接近参考图。waterfront 标题、平板主体分离、历史同步与焦点均已复测。</p>
+          <a class="demo-link" href="http://127.0.0.1:4181/" target="_blank" rel="noopener">打开实际网页</a>
+        </div>
+        <a class="shot-link" href="round-2/output/playwright/codex/desktop-full.png" target="_blank" rel="noopener"><img class="shot" src="round-2/output/playwright/codex/desktop-full.png" alt="Codex 第二版的桌面整页截图"></a>
+      </article>
+      <article data-runner="claude">
+        <div class="meta">
+          <span class="score">92.5 / 100</span>
+          <h2>Claude · Opus 5.5</h2>
+          <p class="description">82.0 → 92.5。桌面约 2,086px 高，已大幅收紧排版。Back／Forward、照片文字、手机裁切及 header 衔接均已复测。</p>
+          <a class="demo-link" href="http://127.0.0.1:4182/" target="_blank" rel="noopener">打开实际网页</a>
+        </div>
+        <a class="shot-link" href="round-2/output/playwright/claude/desktop-full.png" target="_blank" rel="noopener"><img class="shot" src="round-2/output/playwright/claude/desktop-full.png" alt="Claude 第二版的桌面整页截图"></a>
+      </article>
+    </div>
+    <details>
+      <summary>查看原始设计参考</summary>
+      <p class="note">两轮均使用相同的设计文件和九张独立图片。参考图包含绘制的浏览器外框；实际网页没有实现外框。素材包与原图照片并非逐像素相同，比较重点是布局、裁切与融合方式。</p>
+      <img class="reference" src="../codex/input/handoff/reference/selected-homepage-mockup.png" alt="Aquatic World 原始 landing page 设计参考" loading="lazy">
+    </details>
+    <p class="note">第一轮原稿保持不变，第二轮代码在独立目录。相同权重的评分属于非盲评判断；两个 CLI 的权限、工具和默认推理设置不同，Claude 每轮均使用一次内置 advisor。Codex 第二轮通过连接的 Chrome 完成了更多自检，反馈效果无法单独分离。两份第二版的独立检查通过，但未检查 Safari、Firefox、真实设备、读屏、200% 缩放或完整无障碍审计。</p>
+  </main>
+  <script>
+    const round = document.getElementById('round');
+    const viewport = document.getElementById('viewport');
+    const extent = document.getElementById('extent');
+    const labels = { desktop: '桌面', tablet: '平板', mobile: '手机' };
+    const rounds = {
+      '1': {
+        prefix: 'output/playwright', report: 'RESULTS.md',
+        overview: '第一轮：两边收到相同的设计文件与九张图片，独立完成初稿。Codex 的桌面分区更紧凑；Claude 的平板图文分开。原稿的问题和评分原样保留。',
+        codex: { score: '87.5', port: 4171, description: '桌面约 2,234px 高，分区节奏更接近原设计。已发现 waterfront 图片标题颜色过深；平板标题与鱼主体有重叠。' },
+        claude: { score: '82.0', port: 4172, description: '桌面约 3,138px 高，留白更宽松。已发现浏览器返回后分类详情未关闭；手机裁切较多右侧鱼鳍。' },
+      },
+      '2': {
+        prefix: 'round-2/output/playwright', report: 'round-2/RESULTS.md',
+        overview: '第二轮：两边从各自初稿出发，收到完全相同的反馈，各有一次自主修订机会。Codex 仍更贴近紧凑的原设计；Claude 明显追近。两份第二版均通过独立复测，评分仅差 1 分。',
+        codex: { score: '93.5', port: 4181, description: '87.5 → 93.5。桌面约 1,874px 高，分区节奏更接近参考图。waterfront 标题、平板主体分离、历史同步与焦点均已复测。' },
+        claude: { score: '92.5', port: 4182, description: '82.0 → 92.5。桌面约 2,086px 高，已大幅收紧排版。Back／Forward、照片文字、手机裁切及 header 衔接均已复测。' },
+      },
+    };
+    const requested = new URLSearchParams(location.search).get('round');
+    if (rounds[requested]) round.value = requested;
+    function update() {
+      const data = rounds[round.value];
+      document.getElementById('overview').textContent = data.overview;
+      document.getElementById('report-link').href = data.report;
+      document.querySelectorAll('[data-runner]').forEach(article => {
+        const name = article.dataset.runner;
+        const file = `${data.prefix}/${name}/${viewport.value}-${extent.value}.png`;
+        const link = article.querySelector('.shot-link');
+        const picture = article.querySelector('img');
+        article.querySelector('.score').textContent = `${data[name].score} / 100`;
+        article.querySelector('.description').textContent = data[name].description;
+        article.querySelector('.demo-link').href = `http://127.0.0.1:${data[name].port}/`;
+        link.href = file;
+        picture.src = file;
+        picture.alt = `${name} 第${round.value}版的${labels[viewport.value]}${extent.value === 'full' ? '整页' : '首屏'}截图`;
+        picture.style.setProperty('--shot-width', viewport.value === 'mobile' ? '390px' : '100%');
+      });
+      const url = new URL(location.href);
+      url.searchParams.set('round', round.value);
+      history.replaceState(null, '', url);
+    }
+    [round, viewport, extent].forEach(control => control.addEventListener('change', update));
+    update();
+  </script>
+</body>
+</html>

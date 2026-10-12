@@ -1,0 +1,259 @@
+{
+  "captured_at": "2026-10-10T16:14:36.353693+00:00",
+  "excluded_local_caches": [
+    ".DS_Store",
+    ".playwright-cli",
+    "__pycache__",
+    "node_modules"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 6340,
+      "sha256": "d674dded04fb6ac55c9a889513ae76b4d4963dd9268cac3560f4461f8b4c0c10"
+    },
+    "demo/README.md": {
+      "bytes": 760,
+      "sha256": "a4644e013ad0ee7e086fc5164a9734fa6b73f8e457278680f48959d2632a2c5e"
+    },
+    "demo/app.js": {
+      "bytes": 3963,
+      "sha256": "53e954ee2c4afd89720f9154875d369581be8543fe243835da54b6af2df39a83"
+    },
+    "demo/assets/README.md": {
+      "bytes": 1499,
+      "sha256": "e2e7888b2280e27828ace42a6088aca2e47dde6598add230f9be5fd725187ad1"
+    },
+    "demo/assets/collection-aquatic-plants-320.webp": {
+      "bytes": 30624,
+      "sha256": "95dd577ae9ec0a89c1c0a404f80cefaa52c06ba33e4c5e3e12186f8cc529165f"
+    },
+    "demo/assets/collection-aquatic-plants-640.webp": {
+      "bytes": 103188,
+      "sha256": "e5eb97c62b8c67751d8cc5bad79db9ee8d31c33a9727112e2d2b0abf442573b9"
+    },
+    "demo/assets/collection-driftwood-320.webp": {
+      "bytes": 20674,
+      "sha256": "2d1de46cdde2e17d0ae0837cefee60aef43fb500081fd08700c6156daebf4b79"
+    },
+    "demo/assets/collection-driftwood-640.webp": {
+      "bytes": 70088,
+      "sha256": "31d7bd9196ad9b8cfce82bf1235208ff9de83ec6867e016b9eb82ef0de52bc09"
+    },
+    "demo/assets/collection-ornamental-fish-320.webp": {
+      "bytes": 11086,
+      "sha256": "264f773d3c5c008e395991e0193b47ccd92e1643cff83f0f2240b4c2cd7a36f2"
+    },
+    "demo/assets/collection-ornamental-fish-640.webp": {
+      "bytes": 37696,
+      "sha256": "c132c1e474f289b3daf997238c4a4ed7d5a9810d2375c515d3d9b5a4db003ed2"
+    },
+    "demo/assets/enquiry-underwater-school-1280.webp": {
+      "bytes": 119150,
+      "sha256": "7454e25d2ddf96fea8fa1cc8824b40a9bb6ff9eb3edc022b865b2c79f966afb6"
+    },
+    "demo/assets/enquiry-underwater-school-1983.webp": {
+      "bytes": 219196,
+      "sha256": "dd9a4fb6ba7a9f4cb377eae1e771f1ccb45b4626a030916728cc07ebbe8fc574"
+    },
+    "demo/assets/enquiry-underwater-school-640.webp": {
+      "bytes": 39774,
+      "sha256": "10dd6fe562d0c04430a095197abaa1a66651647831cc2647c6315abc057bf725"
+    },
+    "demo/assets/heritage-waterfront-480.webp": {
+      "bytes": 43748,
+      "sha256": "2c6015eead34b1a505148bdbed431cefc437269680018a24842fb3fe7b84899a"
+    },
+    "demo/assets/heritage-waterfront-960.webp": {
+      "bytes": 155284,
+      "sha256": "a629a4d4793951b34657c782c7448ab58b53ccaf2c7e28baefb87917e35bf48a"
+    },
+    "demo/assets/hero-angelfish-1280.webp": {
+      "bytes": 100716,
+      "sha256": "3b7d35130e7520c2d7fa64dedd55eaa3c7a93e5786555a259276d01b2d4344b9"
+    },
+    "demo/assets/hero-angelfish-1882.webp": {
+      "bytes": 171474,
+      "sha256": "75c00c33bfaad6406e7d6d73c3a85f3aae32ae2fe2f47b44437a589b9050252d"
+    },
+    "demo/assets/hero-angelfish-640.webp": {
+      "bytes": 34446,
+      "sha256": "fc8e6e88d5eb92164aadf764570448850bf51bac27a4e1dde95a1b4302438d69"
+    },
+    "demo/assets/highlight-angelfish-320.webp": {
+      "bytes": 18862,
+      "sha256": "43b80abef784ead145f1207f3c41a3da1c97eac24a62b11a37a546ab4e7e05ac"
+    },
+    "demo/assets/highlight-angelfish-640.webp": {
+      "bytes": 52550,
+      "sha256": "8781d78cf2e810aa31fd617a4cd432a1c1d2b384bd5e74d27e6087c78b24c24d"
+    },
+    "demo/assets/highlight-red-betta-320.webp": {
+      "bytes": 13462,
+      "sha256": "1870446bfde77f50cf78e4e747fd8b1f07e60ca6d52aecf1f996c38d77909dcb"
+    },
+    "demo/assets/highlight-red-betta-640.webp": {
+      "bytes": 41200,
+      "sha256": "091821073c27a2d00dd6d7c94a3e991e1d7cf03db68765a840b6cb764c2445d3"
+    },
+    "demo/assets/highlight-red-plants-320.webp": {
+      "bytes": 23328,
+      "sha256": "e3cd3823aea3825c384fc4d4519a0b84b8ce7614090a457e35274c49bf5c2601"
+    },
+    "demo/assets/highlight-red-plants-640.webp": {
+      "bytes": 70752,
+      "sha256": "4cde143e72c7583d793f7f922e17dc22c6cc2e38059c8f6e862d730e848e2c00"
+    },
+    "demo/assets/manifest.json": {
+      "bytes": 13992,
+      "sha256": "d27a7801637966c3983681f5744bcc77af8f0d14636cea4c39adf91d57bcca82"
+    },
+    "demo/content/alternate.json": {
+      "bytes": 10364,
+      "sha256": "b14c839955b0bd8ccb0a8f758e28f4d6e96f679f34e9275d9cea9879c0f8d4f7"
+    },
+    "demo/content/default.json": {
+      "bytes": 9129,
+      "sha256": "4f91541c907d2ef4eb83579905fa5933b7d5bebcd809bb372153f101c0deccab"
+    },
+    "demo/content/five.json": {
+      "bytes": 10481,
+      "sha256": "d20830bb08c536230447d75a7b3f8f5f4a43913e031c3d6e0fdfda8909b32136"
+    },
+    "demo/content/minimal.json": {
+      "bytes": 7354,
+      "sha256": "ae70b36234959907e1e7ca5b72609833cdfe26dbeae581476ee5d557c6604346"
+    },
+    "demo/fixtures/alternate.html": {
+      "bytes": 22584,
+      "sha256": "92577065144fcdb45abd0ea685b83c826aa0348137d80a83565ead6b40160886"
+    },
+    "demo/fixtures/five.html": {
+      "bytes": 22687,
+      "sha256": "e9a77cce9e5394224e893e388efe924909f1bea26d5ac46fb70c468e7ef5ae71"
+    },
+    "demo/fixtures/minimal.html": {
+      "bytes": 8966,
+      "sha256": "4cf62bd0e35d51e6e32e8b1aeac05af7dd7577a18d446f08de61e98e335e75fb"
+    },
+    "demo/index.html": {
+      "bytes": 18696,
+      "sha256": "67c1f7157fff4367d9b65e7e29dd7b66146ea303b807a7ca7b71c8c1feab9bfa"
+    },
+    "demo/package.json": {
+      "bytes": 316,
+      "sha256": "533470e66b78cdd87d9a8972405e437a5483c43fffa55657edbb638b7e18f8a5"
+    },
+    "demo/scripts/build.mjs": {
+      "bytes": 13559,
+      "sha256": "43cdb7f2599036cdd03db3c9a31c40288f573009a02dbe2d1b1ca5b79f93cc9b"
+    },
+    "demo/scripts/check.mjs": {
+      "bytes": 6683,
+      "sha256": "2f337b0307146cb7fd2aae7e51531a70903784f7f05b204e0e6cb3577ff5ed38"
+    },
+    "demo/scripts/prepare-assets.py": {
+      "bytes": 1611,
+      "sha256": "acf6738a11d32862c6a7f9a4ef46f0a1d63f4e643d7d3ebcd02a74c5cb152d71"
+    },
+    "demo/scripts/serve.mjs": {
+      "bytes": 1436,
+      "sha256": "26d5de777baa8e35f57b599005e35e956dbf38eb4e151e911428fea8a17cebf4"
+    },
+    "demo/styles.css": {
+      "bytes": 23198,
+      "sha256": "a070a43b0bb5387ba57f31cafcac8ec17ae6caaeed5059709bae860ce365f505"
+    },
+    "demo/tokens.css": {
+      "bytes": 660,
+      "sha256": "01acfc628a7d961e4c683de1d6ffda3cd7f0f3eabf93a3e6f53de25209352279"
+    },
+    "evidence/README.md": {
+      "bytes": 3904,
+      "sha256": "2a0ad3696361c4bbbbbe600f6d052b0d7cb5f2817c21dbaee6636059721d51ad"
+    },
+    "evidence/acceptance-checklist.csv": {
+      "bytes": 2386,
+      "sha256": "c9ac3a2768aba71b5540533018e9da0f9195a0413f112730979ec154221cc562"
+    },
+    "evidence/assets-contact-sheet.jpg": {
+      "bytes": 207548,
+      "sha256": "f57ec50c04cf4bcd80553863b546b2f22aa0cb14625c9042d47ccb258700fbfb"
+    },
+    "evidence/browser-checks.json": {
+      "bytes": 4822,
+      "sha256": "122fc0a2c742bb291663cf0b33d10de6eb9140b2f500e8e28e491547ed1aeee0"
+    },
+    "evidence/build-command.log": {
+      "bytes": 929,
+      "sha256": "9308c4be6b85f74286d49f5e9371511f3164944b574686c0b2d93d181e3a0bed"
+    },
+    "evidence/build-results.json": {
+      "bytes": 861,
+      "sha256": "95ccb429d0ff073eda6a52ed0b36bf50f2f91e4cd99d6fd08fb49881579ffe69"
+    },
+    "evidence/check-command.log": {
+      "bytes": 5096,
+      "sha256": "82da96683c03961417a0c1f65be3745bf75d6d7f12438b4f1523ce366582e6f2"
+    },
+    "evidence/cli-events.jsonl": {
+      "bytes": 644539,
+      "sha256": "747e8236ca0143b46c1a9e13692c81cbc7c6e6878aff73624cef109afeff21da"
+    },
+    "evidence/cli-stderr.log": {
+      "bytes": 15791,
+      "sha256": "1b92d551d523d62cc12ab1e04a52d69656ec8b119acaeba56f9852ff6f8384e0"
+    },
+    "evidence/delivery.md": {
+      "bytes": 373,
+      "sha256": "e92a546659306e5fe43a0bd3cb40f3ecf1630c96c09144b8bb8f16f14c154889"
+    },
+    "evidence/frozen-input-baseline.json": {
+      "bytes": 5565,
+      "sha256": "ae466b846b46457035041914792cda714decbe694810dc836514f6d541a14478"
+    },
+    "evidence/frozen-input-check.json": {
+      "bytes": 118,
+      "sha256": "f5c78822b197a0ee550547f33cbafd9b5f39c7638b4e7d05121650cb3efcea69"
+    },
+    "evidence/image-audit.json": {
+      "bytes": 5068,
+      "sha256": "c78d136b8f0fc86b4d6cf3a6908e2d5da0818bbb076d6d28eeb504e50a6fc06d"
+    },
+    "evidence/output-files.json": {
+      "bytes": 6831,
+      "sha256": "e27eb8e4b075bc486b1d531af479208f976c05b394c63da3f129d913db25bf5e"
+    },
+    "evidence/preview-command-final.log": {
+      "bytes": 86,
+      "sha256": "0344b058a29a96ac40a4a22c7c6d791b42c984186404ea18f2d8f3e4b5bc04f5"
+    },
+    "evidence/preview-command.log": {
+      "bytes": 682,
+      "sha256": "8050b7fa9bcd35e61947830a1ec75def8cf1d74b0c2f0ed086103ee56bb69bd7"
+    },
+    "evidence/process-run.json": {
+      "bytes": 875,
+      "sha256": "046840e7f1313130195235a83f9b0843af2d64a35c2550992cb81d9fa32e1a95"
+    },
+    "evidence/responsive-test-matrix.csv": {
+      "bytes": 5942,
+      "sha256": "725e1b63af55a022e011cc8eee07171fac1d3e0c32a30351b347e1cdeda00c36"
+    },
+    "evidence/run.json": {
+      "bytes": 5746,
+      "sha256": "8d3cf4e94aa1308f28e2b2af1a95d4b342c15c9da8e4e9ed0cc2e76127ac0f46"
+    },
+    "evidence/self-review/static-checks-before-fix.json": {
+      "bytes": 15621,
+      "sha256": "d84f5e6065e934128e7232f95dde514159dae5439009c0040f38a0e2d0af2eea"
+    },
+    "evidence/solid-color-contrast.json": {
+      "bytes": 1294,
+      "sha256": "b1b69a6e4bf87edc34d4c51834a6e9407e27bef92e86fde82172265e1c4a3e11"
+    },
+    "evidence/static-checks.json": {
+      "bytes": 5028,
+      "sha256": "b1311eb037666e28d3718a623ca0585b6799fd37c3ea076ce77a764b2d10db60"
+    }
+  }
+}

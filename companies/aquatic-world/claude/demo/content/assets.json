@@ -1,0 +1,79 @@
+{
+  "note": "Delivery derivatives of the frozen input image pack (input/assets, pack v1). All images are AI-generated illustrations for a fictional demo; they do not document real premises, stock or species. Regenerate with `npm run images`.",
+  "basePath": "assets/img",
+  "format": "webp",
+  "assets": {
+    "hero-angelfish": {
+      "source": "input/assets/hero-angelfish.png",
+      "sourceSha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "width": 1882,
+      "height": 836,
+      "widths": [720, 1280, 1882],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "heritage-waterfront": {
+      "source": "input/assets/heritage-waterfront.png",
+      "sourceSha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d",
+      "width": 1586,
+      "height": 992,
+      "widths": [640, 1080, 1586],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "collection-ornamental-fish": {
+      "source": "input/assets/collection-ornamental-fish.png",
+      "sourceSha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "width": 1448,
+      "height": 1086,
+      "widths": [480, 960],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "collection-aquatic-plants": {
+      "source": "input/assets/collection-aquatic-plants.png",
+      "sourceSha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "width": 1448,
+      "height": 1086,
+      "widths": [480, 960],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "collection-driftwood": {
+      "source": "input/assets/collection-driftwood.png",
+      "sourceSha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "width": 1448,
+      "height": 1086,
+      "widths": [480, 960],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "highlight-red-betta": {
+      "source": "input/assets/highlight-red-betta.png",
+      "sourceSha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d",
+      "width": 1448,
+      "height": 1086,
+      "widths": [400, 800],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "highlight-angelfish": {
+      "source": "input/assets/highlight-angelfish.png",
+      "sourceSha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285",
+      "width": 1448,
+      "height": 1086,
+      "widths": [400, 800],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "highlight-red-plants": {
+      "source": "input/assets/highlight-red-plants.png",
+      "sourceSha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620",
+      "width": 1448,
+      "height": 1086,
+      "widths": [400, 800],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    },
+    "enquiry-underwater-school": {
+      "source": "input/assets/enquiry-underwater-school.png",
+      "sourceSha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef",
+      "width": 1983,
+      "height": 793,
+      "widths": [960, 1600],
+      "status": "ILLUSTRATIVE_DEMO_ONLY"
+    }
+  }
+}

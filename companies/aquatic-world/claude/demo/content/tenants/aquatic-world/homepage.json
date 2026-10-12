@@ -1,0 +1,154 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "hero": {
+    "enabled": true,
+    "eyebrow": ["More than fish", "A brighter aquatic world"],
+    "title": "A World of Ornamental Beauty,",
+    "accent": "Thoughtfully Curated.",
+    "description": "Ornamental fish, aquatic plants and driftwood, presented as a calm, editorial collection for aquarium and aquascaping businesses.",
+    "image": {
+      "asset": "hero-angelfish",
+      "alt": "",
+      "position": "70% 50%",
+      "mobilePosition": "66% 50%",
+      "tabletPosition": "50% 50%"
+    },
+    "ctaIds": ["primary", "secondary"],
+    "proofPoints": [
+      { "icon": "fish", "lines": ["Ornamental", "fish"], "kind": "category" },
+      { "icon": "leaf", "lines": ["Aquatic", "plants"], "kind": "category" },
+      { "icon": "branch", "lines": ["Natural", "driftwood"], "kind": "category" },
+      {
+        "icon": "globe",
+        "lines": ["Trusted by", "global partners"],
+        "kind": "claim",
+        "claim": { "id": "CLM-REF-001", "status": "proposed", "note": "Reference mockup claim; no evidence supplied." }
+      }
+    ],
+    "sideNotes": {
+      "top": ["A cleaner", "brighter", "aquatic", "tomorrow"],
+      "bottom": ["Nature", "connects", "us"]
+    }
+  },
+  "heritage": {
+    "enabled": true,
+    "eyebrow": "Our Heritage",
+    "heading": ["A Story Shaped", "by the Water."],
+    "body": [
+      "AQUATIC WORLD is a fictional sample brand built around a simple belief — that nature’s beauty can bring people closer, across borders and cultures.",
+      "This panel shows where a real business would share its approved story: where it began, what it values and how it cares for the living collections it presents."
+    ],
+    "image": {
+      "asset": "heritage-waterfront",
+      "alt": "Illustrative waterfront skyline at sunset with gardens along the shore.",
+      "position": "50% 50%"
+    },
+    "imageCaption": ["Illustrative waterfront scene", "Grown for a brighter tomorrow"],
+    "link": null,
+    "quote": {
+      "text": "Bringing the beauty of nature further.",
+      "attribution": "Sample brand line"
+    }
+  },
+  "collections": {
+    "enabled": true,
+    "eyebrow": "Our Collections",
+    "heading": ["Nature’s Finest,", "Thoughtfully Curated."],
+    "description": "From vibrant ornamental fish to lush aquatic plants and nature-crafted driftwood, each collection is presented for beauty, balance and long-term enjoyment.",
+    "viewAll": { "label": "View All Collections", "href": "#collection-explorer" },
+    "explorer": {
+      "heading": "Collection details",
+      "intro": "Illustrative category overviews. No live stock, pricing or availability is shown in this demo.",
+      "closeLabel": "Close details",
+      "enquiryLabel": "Ask about {title}"
+    }
+  },
+  "quality": {
+    "enabled": true,
+    "eyebrow": "Our Commitment",
+    "heading": "Quality in Every Detail.",
+    "description": "An illustrative guide to how each collection is selected and presented — by colour, form and the way every piece fits a balanced aquascape.",
+    "note": "Selection notes are illustrative; this demo makes no sourcing, handling or delivery guarantees.",
+    "items": [
+      { "icon": "fish", "title": ["Colour", "& Form"], "kind": "illustrative" },
+      { "icon": "leaf", "title": ["Living", "Greenery"], "kind": "illustrative" },
+      { "icon": "branch", "title": ["Natural", "Texture"], "kind": "illustrative" },
+      { "icon": "layers", "title": ["Aquascape", "Balance"], "kind": "illustrative" },
+      { "icon": "compass", "title": ["Guided", "Selection"], "kind": "illustrative" },
+      {
+        "icon": "shield",
+        "title": ["Quality", "Checks"],
+        "kind": "claim",
+        "claim": { "id": "CLM-REF-002", "status": "proposed", "note": "Reference mockup process claim; no evidence supplied." }
+      }
+    ]
+  },
+  "highlights": {
+    "enabled": true,
+    "eyebrow": "Selected Highlights",
+    "heading": ["Exceptional Life", "Below the Surface."],
+    "note": "Editorial selection of illustrative images — not live stock.",
+    "background": { "asset": "enquiry-underwater-school", "position": "50% 50%" },
+    "sideNote": ["Small", "creatures", "a brighter", "tomorrow"],
+    "items": [
+      {
+        "id": "red-fins",
+        "title": ["Flowing", "Red Fins"],
+        "collectionId": "ornamental-fish",
+        "image": { "asset": "highlight-red-betta", "alt": "Illustrative red fish with long flowing fins.", "position": "50% 50%", "fit": "contain" }
+      },
+      {
+        "id": "striped-silhouette",
+        "title": ["Striped", "Silhouette"],
+        "collectionId": "ornamental-fish",
+        "image": { "asset": "highlight-angelfish", "alt": "Illustrative silver fish with black vertical stripes and long trailing fins.", "position": "50% 50%", "fit": "contain" }
+      },
+      {
+        "id": "red-foliage",
+        "title": ["Red Leaf", "Accents"],
+        "collectionId": "aquatic-plants",
+        "image": { "asset": "highlight-red-plants", "alt": "Illustrative red and bronze aquatic foliage.", "position": "50% 50%", "fit": "cover" }
+      },
+      {
+        "id": "branching-wood",
+        "title": ["Signature", "Driftwood"],
+        "collectionId": "driftwood",
+        "image": { "asset": "collection-driftwood", "alt": "Illustrative branching driftwood in a planted aquarium.", "position": "40% 50%", "fit": "cover" }
+      }
+    ]
+  },
+  "enquiry": {
+    "enabled": true,
+    "eyebrow": "Let’s grow a brighter aquatic world together",
+    "heading": "Business Enquiries",
+    "description": "Partnership, trade and collection enquiries would be welcomed here.",
+    "unavailableNotice": "Real enquiries are unavailable: this is a fictional demo with no verified contact route or backend.",
+    "previewToggleLabel": "Get in Touch",
+    "background": { "asset": "enquiry-underwater-school", "position": "50% 50%" },
+    "signature": ["Good", "Aquatic Things", "Travel Far"],
+    "sideNote": ["Nature", "people", "a brighter tomorrow"],
+    "form": {
+      "heading": "Enquiry form preview",
+      "intro": "Try the form locally. It validates your input but nothing is sent or stored.",
+      "fields": {
+        "name": "Your name",
+        "company": "Company (optional)",
+        "email": "Email address",
+        "topic": "Collection of interest",
+        "topicAny": "General enquiry",
+        "message": "Message"
+      },
+      "submitLabel": "Check enquiry",
+      "errorSummary": "Please fix the following before continuing:",
+      "errors": {
+        "name": "Enter your name.",
+        "email": "Enter an email address in the format name@example.com.",
+        "message": "Enter a message of at least 10 characters."
+      },
+      "previewResult": "Preview only — nothing was sent. Your details passed local validation, but this demo has no enquiry destination, so no one will receive this message."
+    }
+  },
+  "footer": {
+    "navigationIds": ["collections", "heritage", "quality", "contact"]
+  }
+}

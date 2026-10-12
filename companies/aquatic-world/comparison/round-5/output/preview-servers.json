@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-11T10:51:45.318417+00:00",
+  "servers": {
+    "codex": {
+      "origin": "http://127.0.0.1:4211",
+      "pid": 85931,
+      "exec_session": 96470,
+      "cwd": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/round-5/codex",
+      "command": [
+        "python3",
+        "-B",
+        "demo/serve.py",
+        "--port",
+        "4211"
+      ],
+      "owner": "primary evaluator"
+    },
+    "claude": {
+      "origin": "http://127.0.0.1:4212",
+      "pid": 85210,
+      "exec_session": 51444,
+      "cwd": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/round-5/claude/demo",
+      "command": [
+        "node",
+        "scripts/serve.mjs",
+        "--port=4212"
+      ],
+      "owner": "primary evaluator"
+    }
+  },
+  "preserved_older_ports": [
+    4170,
+    4171,
+    4172,
+    4181,
+    4182,
+    4191,
+    4192,
+    4201,
+    4202
+  ]
+}

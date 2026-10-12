@@ -1,0 +1,92 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "demoNotice": "Fictional design concept. AQUATIC WORLD is a sample brand; images are AI-generated illustrations and no real enquiries can be sent.",
+  "brand": {
+    "name": "AQUATIC WORLD",
+    "tagline": "Nature connects us all",
+    "displayAsText": true
+  },
+  "location": {
+    "countryDisplayName": null,
+    "cityDisplayName": null,
+    "regionClaimApproved": false
+  },
+  "site": {
+    "baseUrl": null,
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "themeId": "premium-aquatic-editorial"
+  },
+  "seo": {
+    "title": "AQUATIC WORLD — Ornamental Aquatic Collections (Demo Concept)",
+    "description": "A fictional design concept for an ornamental aquatic supplier: fish, aquatic plants and driftwood collections presented in a premium editorial style.",
+    "themeColor": "#061C26"
+  },
+  "theme": {
+    "tokens": {}
+  },
+  "navigation": [
+    {
+      "id": "collections",
+      "label": "Collections",
+      "href": "#collections"
+    },
+    {
+      "id": "heritage",
+      "label": "Heritage",
+      "href": "#heritage"
+    },
+    {
+      "id": "quality",
+      "label": "Quality",
+      "href": "#quality"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "#enquiry"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "label": "Explore Our Collections",
+      "href": "#collections"
+    },
+    "secondary": {
+      "label": "Business Enquiry",
+      "href": "#enquiry"
+    }
+  },
+  "contact": {
+    "email": null,
+    "phone": null,
+    "address": null,
+    "enquiryEndpoint": null,
+    "privacyPath": null
+  },
+  "legal": {
+    "legalName": null,
+    "footerNote": "A brighter aquatic world",
+    "demoDisclaimer": "Independent fictional design concept · sample brand · illustrative AI-generated imagery · no real contact route"
+  },
+  "socialLinks": [],
+  "features": {
+    "showProofPoints": true,
+    "showQualitySection": true,
+    "showHeritageQuote": true,
+    "showLocaleSwitcher": false,
+    "enableEnquiryForm": false,
+    "enableEnquiryPreview": true,
+    "showSocialLinks": false
+  },
+  "ui": {
+    "skipLink": "Skip to content",
+    "menuOpen": "Menu",
+    "menuClose": "Close",
+    "primaryNav": "Primary",
+    "footerNav": "Footer",
+    "demoLabel": "Demo concept"
+  }
+}

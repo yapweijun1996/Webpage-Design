@@ -1,0 +1,1175 @@
+{
+  "checks": [
+    {
+      "name": "home",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Home \u00b7 \u9996\u9875 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/home-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Home \u00b7 \u9996\u9875 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "home",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-desktop-full.png",
+          "width": 1440,
+          "height": 3264,
+          "alt": "codex Home \u00b7 \u9996\u9875 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/home-desktop-full.png",
+          "width": 1440,
+          "height": 3884,
+          "alt": "claude Home \u00b7 \u9996\u9875 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "home",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Home \u00b7 \u9996\u9875 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/home-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Home \u00b7 \u9996\u9875 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "home",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-tablet-full.png",
+          "width": 768,
+          "height": 3321,
+          "alt": "codex Home \u00b7 \u9996\u9875 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/home-tablet-full.png",
+          "width": 768,
+          "height": 4516,
+          "alt": "claude Home \u00b7 \u9996\u9875 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "home",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Home \u00b7 \u9996\u9875 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/home-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Home \u00b7 \u9996\u9875 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "home",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/home-mobile-full.png",
+          "width": 390,
+          "height": 4814,
+          "alt": "codex Home \u00b7 \u9996\u9875 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/home-mobile-full.png",
+          "width": 390,
+          "height": 6074,
+          "alt": "claude Home \u00b7 \u9996\u9875 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4192/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/collections-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-desktop-full.png",
+          "width": 1440,
+          "height": 2354,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/collections-desktop-full.png",
+          "width": 1440,
+          "height": 3352,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/collections-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-tablet-full.png",
+          "width": 768,
+          "height": 2635,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/collections-tablet-full.png",
+          "width": 768,
+          "height": 4257,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/collections-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "collections",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/collections-mobile-full.png",
+          "width": 390,
+          "height": 3844,
+          "alt": "codex Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/collections-mobile-full.png",
+          "width": 390,
+          "height": 5424,
+          "alt": "claude Collections \u00b7 \u5206\u7c7b\u603b\u89c8 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/",
+        "http://127.0.0.1:4192/collections/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/fish-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-desktop-full.png",
+          "width": 1440,
+          "height": 3540,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/fish-desktop-full.png",
+          "width": 1440,
+          "height": 3970,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/fish-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-tablet-full.png",
+          "width": 768,
+          "height": 3123,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/fish-tablet-full.png",
+          "width": 768,
+          "height": 4569,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/fish-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fish",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/fish-mobile-full.png",
+          "width": 390,
+          "height": 4487,
+          "alt": "codex Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/fish-mobile-full.png",
+          "width": 390,
+          "height": 6329,
+          "alt": "claude Ornamental Fish \u00b7 \u89c2\u8d4f\u9c7c Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/ornamental-fish/",
+        "http://127.0.0.1:4192/collections/ornamental-fish/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/plants-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-desktop-full.png",
+          "width": 1440,
+          "height": 3288,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/plants-desktop-full.png",
+          "width": 1440,
+          "height": 4269,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/plants-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-tablet-full.png",
+          "width": 768,
+          "height": 2845,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/plants-tablet-full.png",
+          "width": 768,
+          "height": 5048,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/plants-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "plants",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/plants-mobile-full.png",
+          "width": 390,
+          "height": 3978,
+          "alt": "codex Aquatic Plants \u00b7 \u6c34\u8349 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/plants-mobile-full.png",
+          "width": 390,
+          "height": 6011,
+          "alt": "claude Aquatic Plants \u00b7 \u6c34\u8349 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/aquatic-plants/",
+        "http://127.0.0.1:4192/collections/aquatic-plants/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-desktop-full.png",
+          "width": 1440,
+          "height": 3267,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-desktop-full.png",
+          "width": 1440,
+          "height": 3736,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-tablet-full.png",
+          "width": 768,
+          "height": 3171,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-tablet-full.png",
+          "width": 768,
+          "height": 4920,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "driftwood",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/driftwood-mobile-full.png",
+          "width": 390,
+          "height": 4064,
+          "alt": "codex Driftwood \u00b7 \u6c89\u6728 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/driftwood-mobile-full.png",
+          "width": 390,
+          "height": 6088,
+          "alt": "claude Driftwood \u00b7 \u6c89\u6728 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/collections/driftwood/",
+        "http://127.0.0.1:4192/collections/driftwood/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/story-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-desktop-full.png",
+          "width": 1440,
+          "height": 2981,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/story-desktop-full.png",
+          "width": 1440,
+          "height": 4169,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/story-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-tablet-full.png",
+          "width": 768,
+          "height": 2854,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/story-tablet-full.png",
+          "width": 768,
+          "height": 3545,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/story-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "story",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/story-mobile-full.png",
+          "width": 390,
+          "height": 3042,
+          "alt": "codex Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/story-mobile-full.png",
+          "width": 390,
+          "height": 4465,
+          "alt": "claude Our Story \u00b7 \u54c1\u724c\u6545\u4e8b Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/our-story/",
+        "http://127.0.0.1:4192/our-story/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/quality-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-desktop-full.png",
+          "width": 1440,
+          "height": 2972,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/quality-desktop-full.png",
+          "width": 1440,
+          "height": 3083,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/quality-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-tablet-full.png",
+          "width": 768,
+          "height": 3507,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/quality-tablet-full.png",
+          "width": 768,
+          "height": 4111,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/quality-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "quality",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/quality-mobile-full.png",
+          "width": 390,
+          "height": 3950,
+          "alt": "codex Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/quality-mobile-full.png",
+          "width": 390,
+          "height": 4938,
+          "alt": "claude Quality \u00b7 \u54c1\u8d28\u7406\u5ff5 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/quality/",
+        "http://127.0.0.1:4192/quality/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "desktop",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Desktop \u00b7 1440px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/contact-desktop-first.png",
+          "width": 1440,
+          "height": 900,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Desktop \u00b7 1440px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "desktop",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-desktop-full.png",
+          "width": 1440,
+          "height": 1698,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/contact-desktop-full.png",
+          "width": 1440,
+          "height": 2090,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Desktop \u00b7 1440px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "tablet",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Tablet \u00b7 768px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/contact-tablet-first.png",
+          "width": 768,
+          "height": 1024,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Tablet \u00b7 768px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "tablet",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-tablet-full.png",
+          "width": 768,
+          "height": 1679,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/contact-tablet-full.png",
+          "width": 768,
+          "height": 2614,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Tablet \u00b7 768px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "mobile",
+      "extent": "first",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Mobile \u00b7 390px \u9996\u5c4f"
+        },
+        {
+          "src": "output/playwright/claude/contact-mobile-first.png",
+          "width": 390,
+          "height": 844,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Mobile \u00b7 390px \u9996\u5c4f"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "name": "contact",
+      "viewport": "mobile",
+      "extent": "full",
+      "images": [
+        {
+          "src": "output/playwright/codex/contact-mobile-full.png",
+          "width": 390,
+          "height": 2666,
+          "alt": "codex Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        },
+        {
+          "src": "output/playwright/claude/contact-mobile-full.png",
+          "width": 390,
+          "height": 3445,
+          "alt": "claude Contact \u00b7 \u9879\u76ee\u54a8\u8be2 Mobile \u00b7 390px \u5b8c\u6574\u9875\u9762"
+        }
+      ],
+      "links": [
+        "http://127.0.0.1:4191/contact/",
+        "http://127.0.0.1:4192/contact/"
+      ],
+      "pass": true
+    },
+    {
+      "step": "Viewer layout and shareable selection",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "page": "quality",
+      "viewport": "mobile",
+      "extent": "first",
+      "pass": true
+    },
+    {
+      "step": "Viewer layout and shareable selection",
+      "width": 390,
+      "scrollWidth": 390,
+      "page": "quality",
+      "viewport": "mobile",
+      "extent": "first",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

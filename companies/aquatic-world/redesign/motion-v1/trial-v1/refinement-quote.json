@@ -1,0 +1,11 @@
+{
+  "quoted_at_utc": "2026-10-11T22:41:38.777340+00:00",
+  "model": "runway/gen-4.5",
+  "sku": "cents_per_second_output",
+  "live_price_value": "12",
+  "estimate_usd": "0.72",
+  "required_with_20_percent_margin_usd": "0.864",
+  "known_trial_cost_usd": "0.72",
+  "key_remaining_usd": "1.2763175",
+  "generation_cap_usd": "3.00"
+}

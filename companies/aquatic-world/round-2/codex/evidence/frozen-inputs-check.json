@@ -1,0 +1,261 @@
+{
+  "status": "passed",
+  "files": 51,
+  "results": [
+    {
+      "path": "AGENTS.md",
+      "status": "passed",
+      "sha256": "419f67f6413f2f19dde679fd07e3d00f17c32c232eae5cf9e2b42b2e32fcadec"
+    },
+    {
+      "path": "TASK.md",
+      "status": "passed",
+      "sha256": "f349817871e1f0868f1f61fb684908c90d40befbcc0fcfc916238f913105aa00"
+    },
+    {
+      "path": "REVIEW.md",
+      "status": "passed",
+      "sha256": "2bd19130d1c0571ef2e9a11f9a72aa7f5adf6f8f83cce1025c2adb9203698d11"
+    },
+    {
+      "path": "CLAUDE.md",
+      "status": "passed",
+      "sha256": "214a058103d58e1c52e80a7eb9b7938c004ac327e07e55a57d63bf4881011fc3"
+    },
+    {
+      "path": "input/additional-reference.png",
+      "status": "passed",
+      "sha256": "3c0d918b3d20b84260589de2352d558e4161457e892f2bb1f0bbfd7ae62218f8"
+    },
+    {
+      "path": "input/assets/README.md",
+      "status": "passed",
+      "sha256": "53ab0d60841f2e478a681aed28ab6db2c1ed8555dc343555354e47153c269cc4"
+    },
+    {
+      "path": "input/assets/asset-manifest.json",
+      "status": "passed",
+      "sha256": "ec04875d9fff0dfc5de29692c3075a7e53e665015e56c11292d8311ec10fe2de"
+    },
+    {
+      "path": "input/assets/collection-aquatic-plants.png",
+      "status": "passed",
+      "sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b"
+    },
+    {
+      "path": "input/assets/collection-driftwood.png",
+      "status": "passed",
+      "sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f"
+    },
+    {
+      "path": "input/assets/collection-ornamental-fish.png",
+      "status": "passed",
+      "sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617"
+    },
+    {
+      "path": "input/assets/enquiry-underwater-school.png",
+      "status": "passed",
+      "sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef"
+    },
+    {
+      "path": "input/assets/heritage-waterfront.png",
+      "status": "passed",
+      "sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d"
+    },
+    {
+      "path": "input/assets/hero-angelfish.png",
+      "status": "passed",
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+    },
+    {
+      "path": "input/assets/highlight-angelfish.png",
+      "status": "passed",
+      "sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285"
+    },
+    {
+      "path": "input/assets/highlight-red-betta.png",
+      "status": "passed",
+      "sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d"
+    },
+    {
+      "path": "input/assets/highlight-red-plants.png",
+      "status": "passed",
+      "sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620"
+    },
+    {
+      "path": "input/assets/preview.html",
+      "status": "passed",
+      "sha256": "36fb1ad4d13d258f51ca16321d34d845fd01ff29c5b8aaf0561a526c2fb574c6"
+    },
+    {
+      "path": "input/assets/prompts.json",
+      "status": "passed",
+      "sha256": "1f764a6c5f155b47845695f789ef14c5e9b92f7bdd8cf12c6b9f1de97966a025"
+    },
+    {
+      "path": "input/handoff/MANIFEST.json",
+      "status": "passed",
+      "sha256": "9c33190d87178c7e10add1bc765786734ae26b9ebd9e7deb842f3d17a8be46ac"
+    },
+    {
+      "path": "input/handoff/OPEN_ME.html",
+      "status": "passed",
+      "sha256": "bbc0dbdff97114a74ded333ab2627b6453e70ce6267ce454949e1b00d0789148"
+    },
+    {
+      "path": "input/handoff/README.md",
+      "status": "passed",
+      "sha256": "b5281578de15ab7386dcda17772b6dc83499b098341f2141bc4e6d018ce93244"
+    },
+    {
+      "path": "input/handoff/README_\u4e2d\u6587.md",
+      "status": "passed",
+      "sha256": "aff59511d6f24fa32fa838053920f9c76a18bfd5be0f559c14e1c830bb2cac33"
+    },
+    {
+      "path": "input/handoff/SHA256SUMS.txt",
+      "status": "passed",
+      "sha256": "45c9ad89f9afe43a09a8ac2ea72bca15164f0e1409540364e9478e94c6ffa1a3"
+    },
+    {
+      "path": "input/handoff/docs/00_PROJECT_BRIEF.md",
+      "status": "passed",
+      "sha256": "cce5bb831a06c76ae092a5a9f1562656d78d11296c1de9a8cfb2553da1165eaf"
+    },
+    {
+      "path": "input/handoff/docs/01_VISUAL_DESIGN_SYSTEM.md",
+      "status": "passed",
+      "sha256": "f7511b0d89a9ba4155a8bcecc9d46b673524fcbde48f7f57abb13add070bafc1"
+    },
+    {
+      "path": "input/handoff/docs/02_PAGE_STRUCTURE.md",
+      "status": "passed",
+      "sha256": "1ee189e6a28fabe7a2885eb91b05345c781e34b2d270d7a7890264a6f1fc2ea3"
+    },
+    {
+      "path": "input/handoff/docs/03_COMPONENT_INTERACTIONS.md",
+      "status": "passed",
+      "sha256": "b58ded2f356c192049d77e078b50936e0fe7322955c3ba46f81cd401936b21ff"
+    },
+    {
+      "path": "input/handoff/docs/04_RESPONSIVE_ACCESSIBILITY.md",
+      "status": "passed",
+      "sha256": "69d36e894e736515b912cea60944d8fe8460efd3a767ac0df93675d5c40fd928"
+    },
+    {
+      "path": "input/handoff/docs/05_CONFIG_DATA_CONTRACT.md",
+      "status": "passed",
+      "sha256": "5cc38d242d86c962f2dc9083fea5fe54ad42ce19d8d95c4ec206d3862f45a8bf"
+    },
+    {
+      "path": "input/handoff/docs/06_ASSET_CONTENT_POLICY.md",
+      "status": "passed",
+      "sha256": "5d008dd2e4ea5b61cd0248c048b1cda07a56de3d3d322cb59ece9a013c333aad"
+    },
+    {
+      "path": "input/handoff/docs/07_ENGINEERING_GUIDE.md",
+      "status": "passed",
+      "sha256": "4a789cbb672a5e17f273edca62516455395d624e95e2a831db7a6c945c27dd48"
+    },
+    {
+      "path": "input/handoff/docs/08_QA_ACCEPTANCE.md",
+      "status": "passed",
+      "sha256": "b7e058c1a3b4214ea702ffbd398775f913ad4b8fa3741d5f7e76efd649ec6794"
+    },
+    {
+      "path": "input/handoff/docs/09_AI_AGENT_IMPLEMENTATION_PROMPT.md",
+      "status": "passed",
+      "sha256": "77358a32f035e6532b6e79d47a260e0ec08d5332eed72a84ec1465e566a8f508"
+    },
+    {
+      "path": "input/handoff/docs/10_DECISIONS_RISKS.md",
+      "status": "passed",
+      "sha256": "b17fee4aa198a4e8926d5bbab475195caa65bdb8dc7fda2b30530072d2ccd02b"
+    },
+    {
+      "path": "input/handoff/docs/11_COPYWRITING_CONTENT_GUIDE.md",
+      "status": "passed",
+      "sha256": "50d5b21cab599c11c136437d0d3ac4ba65f40d325769e572e34cf39ac2ac4494"
+    },
+    {
+      "path": "input/handoff/docs/12_DELIVERY_ROADMAP.md",
+      "status": "passed",
+      "sha256": "1d9cc78480d5ab4525bdfd2690acc3a0bfeba5d9bbde56e393e29b83f8b18d1a"
+    },
+    {
+      "path": "input/handoff/examples/README.md",
+      "status": "passed",
+      "sha256": "82ac6342fb3b59a5c364937449df1065b480f8323cee9fcb15610a31212fced5"
+    },
+    {
+      "path": "input/handoff/examples/collections.example.json",
+      "status": "passed",
+      "sha256": "3aabbac76a851c491884fa69763d141159cea193bc812d957dd7af2085767a2d"
+    },
+    {
+      "path": "input/handoff/examples/home-page.example.json",
+      "status": "passed",
+      "sha256": "e9f4699cfcac10cb77046f0766d5c82017dcec9ba294dc59729c4093889c3a7a"
+    },
+    {
+      "path": "input/handoff/examples/site-config.example.json",
+      "status": "passed",
+      "sha256": "c9f2cf28ee564f075a63ffdf35632c8654e5edf34367386bbeddf01048980170"
+    },
+    {
+      "path": "input/handoff/qa/REVIEW_APPROVAL_TEMPLATE.md",
+      "status": "passed",
+      "sha256": "158cc036bcb745ec0a09429b9915a994264f433c5decffbbcd1e81fee1f4be59"
+    },
+    {
+      "path": "input/handoff/qa/acceptance-checklist.csv",
+      "status": "passed",
+      "sha256": "601bdc8c7608b0ea45a4d25ae9823acf65518ed26407181a079ae6d1e913156e"
+    },
+    {
+      "path": "input/handoff/qa/asset-manifest-template.csv",
+      "status": "passed",
+      "sha256": "59fe84ddc683a9bf4d87cfbf5c7937c9ea108dbc32d9611f2177c2c863903d5a"
+    },
+    {
+      "path": "input/handoff/qa/claim-approval-register.csv",
+      "status": "passed",
+      "sha256": "365d82ca1642cc56322c97d67f527ec6b6eece5720ab25bd0308b4b1a8187bdc"
+    },
+    {
+      "path": "input/handoff/qa/responsive-test-matrix.csv",
+      "status": "passed",
+      "sha256": "8b0d31f228cbe93c6f31ad2e91c1972c2adbe8f74097cb98efb5650d9eac010b"
+    },
+    {
+      "path": "input/handoff/reference/REFERENCE_NOTES.md",
+      "status": "passed",
+      "sha256": "79f545e013c85a403d21bc83a2c541e7f9aef5be726106fc9e59d969018d3f09"
+    },
+    {
+      "path": "input/handoff/reference/selected-homepage-mockup.png",
+      "status": "passed",
+      "sha256": "dee031878be3611c88a18b58cd587dcc5f8ffd138ae0a66ee84db73c28612c39"
+    },
+    {
+      "path": "input/handoff/schemas/home-content.schema.json",
+      "status": "passed",
+      "sha256": "e2d07c429fa91de99f7d94329e417f8cc0fb8ecf05a5061c65c8a538d5c6f298"
+    },
+    {
+      "path": "input/handoff/schemas/site-config.schema.json",
+      "status": "passed",
+      "sha256": "de5f37d467f2cd9f359f02157fc7ed196487daf036bce20eaa9baef6bdef08af"
+    },
+    {
+      "path": "input/handoff/tokens/design-tokens.css",
+      "status": "passed",
+      "sha256": "ac033fbc4e429bb7a80479803d74993c8e0fdebca17480570b740d05d7823310"
+    },
+    {
+      "path": "input/handoff/tokens/design-tokens.json",
+      "status": "passed",
+      "sha256": "97fe775f020f56cf4be67f27c3c419d3c5f7da7b788cef3c98dfbb8242177ec0"
+    }
+  ]
+}

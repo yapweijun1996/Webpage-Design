@@ -1,0 +1,41 @@
+{
+  "rubric": "Unchanged round-1 rubric; non-blind evaluator judgment, not an objective model benchmark.",
+  "visual_subweights": {
+    "composition": 20,
+    "typography_spacing": 10,
+    "colors_panel_rhythm": 5,
+    "imagery_crop_overlays": 10
+  },
+  "runners": {
+    "codex": {
+      "round_1": 87.5,
+      "visual_subscores_out_of_5": {
+        "composition": 5,
+        "typography_spacing": 4.5,
+        "colors_panel_rhythm": 4.5,
+        "imagery_crop_overlays": 4.5
+      },
+      "visual_points": 42.5,
+      "responsive_points": 18,
+      "functional_points": 15,
+      "configuration_points": 10,
+      "maintainability_points": 8,
+      "round_2_total": 93.5
+    },
+    "claude": {
+      "round_1": 82,
+      "visual_subscores_out_of_5": {
+        "composition": 4.5,
+        "typography_spacing": 4.5,
+        "colors_panel_rhythm": 4.5,
+        "imagery_crop_overlays": 4.5
+      },
+      "visual_points": 40.5,
+      "responsive_points": 18,
+      "functional_points": 15,
+      "configuration_points": 10,
+      "maintainability_points": 9,
+      "round_2_total": 92.5
+    }
+  }
+}

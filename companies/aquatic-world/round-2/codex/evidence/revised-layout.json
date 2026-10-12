@@ -1,0 +1,293 @@
+[
+  {
+    "headingCount": 1,
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 1440,
+        "src": "http://127.0.0.1:4186/assets/hero-angelfish-1882.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 648,
+        "src": "http://127.0.0.1:4186/assets/heritage-waterfront-960.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 220,
+        "src": "http://127.0.0.1:4186/assets/collection-ornamental-fish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 220,
+        "src": "http://127.0.0.1:4186/assets/collection-aquatic-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 220,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 1440,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 180,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-betta-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 180,
+        "src": "http://127.0.0.1:4186/assets/highlight-angelfish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 180,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 180,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 1440,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      }
+    ],
+    "scrollWidth": 1440,
+    "sections": [
+      {
+        "height": 88,
+        "id": "site-header"
+      },
+      {
+        "height": 561.59375,
+        "id": "hero"
+      },
+      {
+        "height": 290,
+        "id": "heritage"
+      },
+      {
+        "height": 293.84375,
+        "id": "collections"
+      },
+      {
+        "height": 205.34375,
+        "id": "quality"
+      },
+      {
+        "height": 209,
+        "id": "highlights"
+      },
+      {
+        "height": 232,
+        "id": "enquiry"
+      },
+      {
+        "height": 82.5,
+        "id": "site-footer"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "headingCount": 1,
+    "height": 1024,
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 768,
+        "src": "http://127.0.0.1:4186/assets/hero-angelfish-1882.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 345,
+        "src": "http://127.0.0.1:4186/assets/heritage-waterfront-960.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 276,
+        "src": "http://127.0.0.1:4186/assets/collection-ornamental-fish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 276,
+        "src": "http://127.0.0.1:4186/assets/collection-aquatic-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 276,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 768,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 230,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-betta-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 230,
+        "src": "http://127.0.0.1:4186/assets/highlight-angelfish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 230,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 230,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 768,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      }
+    ],
+    "scrollWidth": 768,
+    "sections": [
+      {
+        "height": 76,
+        "id": "site-header"
+      },
+      {
+        "height": 766.2578125,
+        "id": "hero"
+      },
+      {
+        "height": 290,
+        "id": "heritage"
+      },
+      {
+        "height": 540.796875,
+        "id": "collections"
+      },
+      {
+        "height": 363.09375,
+        "id": "quality"
+      },
+      {
+        "height": 415,
+        "id": "highlights"
+      },
+      {
+        "height": 259.8984375,
+        "id": "enquiry"
+      },
+      {
+        "height": 82.5,
+        "id": "site-footer"
+      }
+    ],
+    "width": 768
+  },
+  {
+    "headingCount": 1,
+    "height": 844,
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 390,
+        "src": "http://127.0.0.1:4186/assets/hero-angelfish-1882.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 389,
+        "src": "http://127.0.0.1:4186/assets/heritage-waterfront-960.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 195,
+        "src": "http://127.0.0.1:4186/assets/collection-ornamental-fish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 195,
+        "src": "http://127.0.0.1:4186/assets/collection-aquatic-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 195,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 390,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 175,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-betta-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 175,
+        "src": "http://127.0.0.1:4186/assets/highlight-angelfish-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 175,
+        "src": "http://127.0.0.1:4186/assets/highlight-red-plants-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 175,
+        "src": "http://127.0.0.1:4186/assets/collection-driftwood-320.webp"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 390,
+        "src": "http://127.0.0.1:4186/assets/enquiry-underwater-school-1983.webp"
+      }
+    ],
+    "scrollWidth": 390,
+    "sections": [
+      {
+        "height": 76,
+        "id": "site-header"
+      },
+      {
+        "height": 774.2265625,
+        "id": "hero"
+      },
+      {
+        "height": 563.3671875,
+        "id": "heritage"
+      },
+      {
+        "height": 837.7890625,
+        "id": "collections"
+      },
+      {
+        "height": 722.9765625,
+        "id": "quality"
+      },
+      {
+        "height": 565.59375,
+        "id": "highlights"
+      },
+      {
+        "height": 253.1953125,
+        "id": "enquiry"
+      },
+      {
+        "height": 185,
+        "id": "site-footer"
+      }
+    ],
+    "width": 390
+  }
+]

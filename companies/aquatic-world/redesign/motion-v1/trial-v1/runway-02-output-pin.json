@@ -1,0 +1,29 @@
+{
+  "asset": {
+    "id": "0270328eb6a747a994db597d58acea76",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "runway-hero-trial-02",
+    "version": 1,
+    "kind": "video",
+    "title": "Aquatic hero Runway refinement 02 raw",
+    "description": "Second Runway sample from the identical first-frame image with revised restrained-motion instructions.",
+    "tags": [
+      "aquatic",
+      "refinement",
+      "runway",
+      "trial"
+    ],
+    "usage_notes": "Draft comparison evidence. Sampled frames preserve full fins better than trial 01 but fish scale/orientation still change. Native playback and loop review pending; not an approved homepage asset.",
+    "license_note": "AI image-to-video via OpenRouter runway/gen-4.5 for the user-authorized local fictional demo; provider-reported cost USD0.72; human creative acceptance pending.",
+    "source_artifact_id": "f6ff8bedca7d4ad392376d64236a6506",
+    "sha256": "eda0f79ed24290641e3110b8424f06920738f332aaec4a3980eb6527394ed1e3",
+    "suffix": ".mp4",
+    "size_bytes": 4109737,
+    "status": "draft",
+    "created_at_utc": "2026-10-11T22:47:17.875733+00:00",
+    "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/ed/eda0f79ed24290641e3110b8424f06920738f332aaec4a3980eb6527394ed1e3"
+  },
+  "project_id": "aquatic-world-homepage-motion-v1",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-homepage-motion-v1/assets/aquatic-world-motion/runway-hero-trial-02/v1/asset.mp4",
+  "generation_performed": false
+}

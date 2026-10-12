@@ -1,0 +1,116 @@
+{
+  "kind": "actual-script-with-DOM-doubles",
+  "passed": 27,
+  "failed": 0,
+  "limits": "No browser layout, native email validity, hit testing, accessibility tree or real keyboard verified.",
+  "checks": [
+    {
+      "check": "allowlisted category prefill ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "category focus copy ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "clear retains incoming context ornamental-fish",
+      "status": "pass"
+    },
+    {
+      "check": "allowlisted category prefill aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "category focus copy aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "clear retains incoming context aquatic-plants",
+      "status": "pass"
+    },
+    {
+      "check": "allowlisted category prefill driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "category focus copy driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "clear retains incoming context driftwood",
+      "status": "pass"
+    },
+    {
+      "check": "unknown or missing context uses general ",
+      "status": "pass"
+    },
+    {
+      "check": "unknown or missing context uses general ?category=unknown",
+      "status": "pass"
+    },
+    {
+      "check": "unknown or missing context uses general ?category=%3Cscript%3E",
+      "status": "pass"
+    },
+    {
+      "check": "enhancement enables local preview",
+      "status": "pass"
+    },
+    {
+      "check": "blank submit is prevented with three associated errors",
+      "status": "pass"
+    },
+    {
+      "check": "summary link prevents jump and focuses named field",
+      "status": "pass"
+    },
+    {
+      "check": "live correction removes only corrected error",
+      "status": "pass"
+    },
+    {
+      "check": "valid preview is local, focused and literal",
+      "status": "pass"
+    },
+    {
+      "check": "edit returns to description without losing data",
+      "status": "pass"
+    },
+    {
+      "check": "editing invalidates stale preview",
+      "status": "pass"
+    },
+    {
+      "check": "category change updates context and invalidates preview",
+      "status": "pass"
+    },
+    {
+      "check": "length upper bound is enforced",
+      "status": "pass"
+    },
+    {
+      "check": "clear removes preview, errors and sample data",
+      "status": "pass"
+    },
+    {
+      "check": "Escape closes menu and returns focus",
+      "status": "pass"
+    },
+    {
+      "check": "resize transfers focused menu destination to desktop",
+      "status": "pass"
+    },
+    {
+      "check": "resize from summary has a visible brand fallback",
+      "status": "pass"
+    },
+    {
+      "check": "outside dismissal avoids focus left on hidden link",
+      "status": "pass"
+    },
+    {
+      "check": "enhancement works on pages without a form",
+      "status": "pass"
+    }
+  ]
+}

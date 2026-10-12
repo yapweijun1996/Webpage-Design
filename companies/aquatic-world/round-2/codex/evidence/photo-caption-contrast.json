@@ -1,0 +1,48 @@
+{
+  "method": "Conservative source-image composite check using measured browser rectangles.\n\nIgnores text shadow and tests the entire caption box, including spaces between\nletters. This is a background model, not a screenshot or accessibility audit.",
+  "results": [
+    {
+      "viewport": 1440,
+      "caption": "A WATERFRONT REIMAGINED",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 5.44,
+      "status": "passed"
+    },
+    {
+      "viewport": 1440,
+      "caption": "Singapore-inspired illustration",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 6.29,
+      "status": "passed"
+    },
+    {
+      "viewport": 768,
+      "caption": "A WATERFRONT REIMAGINED",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 5.67,
+      "status": "passed"
+    },
+    {
+      "viewport": 768,
+      "caption": "Singapore-inspired illustration",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 6.84,
+      "status": "passed"
+    },
+    {
+      "viewport": 390,
+      "caption": "A WATERFRONT REIMAGINED",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 7.81,
+      "status": "passed"
+    },
+    {
+      "viewport": 390,
+      "caption": "Singapore-inspired illustration",
+      "computed_color": "rgb(246, 244, 240)",
+      "minimum_modeled_ratio": 9.11,
+      "status": "passed"
+    }
+  ],
+  "status": "passed"
+}

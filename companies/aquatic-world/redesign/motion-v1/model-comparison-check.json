@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-11",
+  "snapshot_models": [
+    "alibaba/wan-3.0",
+    "runway/gen-4.5"
+  ],
+  "target_compatible": true,
+  "prices_and_budget_arithmetic_verified": true,
+  "local_links_checked": 15,
+  "prepared_contract_hashes_unchanged": true,
+  "model_and_budget_not_approved": true,
+  "generation_not_started": true
+}

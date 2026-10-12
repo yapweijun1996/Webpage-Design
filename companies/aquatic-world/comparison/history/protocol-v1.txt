@@ -1,0 +1,88 @@
+# Codex CLI vs Claude Code — Comparison Protocol v1
+
+Status: preparation complete; no model implementation run or page evaluation has occurred.
+
+## Fixed inputs and scope
+
+Each workspace starts with the same `AGENTS.md`, `CLAUDE.md`, `TASK.md`, handoff, selected mockup, and additional reference image. `input-manifest.json` records the frozen files and hashes. The initial demo and evidence README files are also identical; run records differ only to identify the intended runner.
+
+The task is a local, fictional aquatic landing page. The CLI launch commands are provided for the requester to run. No production deployment or actual business enquiry integration is part of this comparison setup.
+
+Verify both workspaces before either run and after both runs, from the repository root:
+
+```sh
+python3 companies/aquatic-world/comparison/check_inputs.py
+```
+
+## Startup commands
+
+Installed versions observed on 2026-10-10: Codex CLI `0.160.0`; Claude Code `2.1.289`. Help commands succeeded. Codex printed a local PATH-alias permission warning during inspection; model execution and account access have not been tested.
+
+Open two terminal windows. Use fresh sessions, not resumed conversations.
+
+### Codex CLI
+
+```sh
+cd "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/codex"
+codex --model gpt-6.1-sol --sandbox workspace-write --ask-for-approval on-request --image input/handoff/reference/selected-homepage-mockup.png "Read AGENTS.md and TASK.md. Inspect both reference images, then complete TASK.md in this workspace."
+```
+
+### Claude Code CLI
+
+```sh
+cd "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/claude"
+claude --model claude-opus-5-5 "Read AGENTS.md and TASK.md. Inspect both reference images, then complete TASK.md in this workspace."
+```
+
+The Claude task explicitly asks the agent to read the same image files using its local image-reading tool. Confirm that both sessions actually inspect the references before implementation. In each CLI, verify the active model and record it in `evidence/run.json`. Stop a run that cannot use the requested model; do not silently substitute another model.
+
+Codex flags were checked against local `codex --help` and the [official CLI reference](https://developers.openai.com/codex/cli/reference). Claude's model flag was checked against local `claude --help` and [model configuration](https://code.claude.com/docs/en/model-config); the explicit model ID is documented in the [Opus 5.5 overview](https://platform.claude.com/docs/en/models/opus-5-5/overview). Official model documentation does not prove access through this local account.
+
+## Fair comparison conditions
+
+1. Keep the frozen inputs unchanged. Builders may edit only their own demo, evidence, and implementation README.
+2. Use one initial task submission per runner. Both may inspect, test, and fix their own work before declaring their initial delivery complete.
+3. Do not share the other implementation, its findings, or model-specific improvement advice with either runner before the first comparison.
+4. Record actual model, effort setting, CLI version, enabled tools/plugins, instruction sources, browser access, asset acquisition, session times, human interventions, and exposed usage/cost. Use `unknown` for unavailable values.
+5. CLI defaults and tools can differ. Record those differences; do not claim this is a controlled model-only benchmark. The identical local task does not erase different global instructions, built-in prompts, memories, or permissions.
+6. Human-assisted revision is a separate round. If used, give both the same review criteria and number of opportunities, preserve the first-round evidence, and label the round.
+7. Do not rerun only the weaker result until it wins. One paired run supports a conclusion about these artifacts, not a general model ranking.
+
+The workspace boundaries are instructions, not an OS security boundary. Review changed paths after each run. A runner that reads the competitor's output or edits frozen inputs invalidates the blind comparison.
+
+## Missing independent imagery
+
+Both builders have full-page reference images but no standalone photo assets. They may select or create illustrative assets under the same policy in `TASK.md`; record that choice and its source. Asset availability or image quality can explain part of the visual difference. Do not equate a different fish photograph with worse layout implementation.
+
+If identical independent photo assets are required, prepare a new frozen input version for both builders before starting. Do not modify a started round's input manifest.
+
+## Rubric — 100 points
+
+| Dimension | Weight | Evaluate |
+| --- | ---: | --- |
+| Visual fidelity | 45 | Composition and section proportions (20), typography and spacing (10), colors and panel rhythm (5), imagery/crop/overlays (10). Compare against the selected mockup. |
+| Responsive layout and accessibility | 20 | Mobile/tablet behavior, crop, no overflow/overlap, readable content, keyboard/focus/menu behavior, contrast, and reduced motion. |
+| Functional correctness | 15 | Navigation, collection exploration, CTA destinations, honest enquiry state, links/assets, and absence of blocking runtime errors. |
+| Configuration and content | 10 | Brand/content swap without component edits, optional sections, 1/3/5 categories, neutral facts, and asset provenance. |
+| Maintainability | 10 | Clear structure, appropriate dependency size, semantic DOM, reproducible preview, understandable code, and recorded verification. |
+
+For each dimension, score from 0 to 5, then calculate `weight × score / 5`. Visual subweights should explain the visual score. `Not run` is unscored, not zero; publish a total only after every dimension has evidence. Record elapsed time, token usage, cost, and human correction count separately; do not fold unknown values into a quality score.
+
+## Essential acceptance checks
+
+A result remains incomplete if it has no runnable preview, uses the screenshot as the webpage, presents a false enquiry-success state, hardcodes client data in components, or leaves the main mobile journey unusable. Record the raw score and incomplete status separately; attractive visuals do not erase these failures.
+
+Check both pages using the same browser, zoom, viewport, scroll position, font-loading state, and capture method. Capture full-page and first-screen images at `1440×900`, `768×1024`, and `390×844`; inspect overflow at widths `320`, `360`, `430`, `1024`, and `1920` as well. Compare the webpage area of the reference; its illustrated browser bar and outer frame are not website UI.
+
+Test the main journey with pointer and keyboard, menu Escape/focus, image/link failures, optional section visibility, brand swap, and category counts. Record actual checks and limitations. Do not report unexecuted checks as passed.
+
+## Explain the differences
+
+Use the [results template](RESULTS.md). Every significant conclusion needs:
+
+- An observed difference at a specific viewport or interaction.
+- Screenshot or runtime evidence from both pages.
+- A relevant code/config/asset location explaining the implementation choice, when available.
+- A distinction between observed cause and inference. Do not invent hidden reasoning or training explanations.
+
+Prefer blind review labels A/B before revealing the builder. Keep the mapping private to the evaluator until scoring; the visible workspace names themselves are not blinded.

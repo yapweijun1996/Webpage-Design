@@ -1,0 +1,11 @@
+{
+  "cause": "The supplemental first-screen helper awaited decode() for rendered lazy images below the viewport without scrolling, so the promise did not settle. The helper now decodes only visible images intersecting the viewport for first-screen captures. Full-page capture still scrolls all content before decoding.",
+  "intervention": "Closed only the owned aquatic-round-4 evaluator session to cancel its pending evaluation, then reopened the same headed Chrome environment. No worker code, original delivery or earlier completed QA result changed.",
+  "rejected_script": "rejected-header-method/check_header_states.js",
+  "interrupted_error": "page.evaluate: Target page, context or browser has been closed",
+  "same_scenarios_rerun_for": [
+    "codex",
+    "claude"
+  ],
+  "product_failure": false
+}

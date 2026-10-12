@@ -1,0 +1,132 @@
+{
+  "desktop": {
+    "media": [
+      {
+        "currentTime": 6.041667,
+        "duration": 6.041667,
+        "ended": true,
+        "id": "video-01",
+        "objectFit": "contain",
+        "paused": true,
+        "rect": {
+          "bottom": 628.9375,
+          "height": 293.0625,
+          "left": 109,
+          "right": 630,
+          "top": 335.875,
+          "width": 521,
+          "x": 109,
+          "y": 335.875
+        }
+      },
+      {
+        "currentTime": 6.041667,
+        "duration": 6.041667,
+        "ended": true,
+        "id": "video-02",
+        "objectFit": "contain",
+        "paused": true,
+        "rect": {
+          "bottom": 628.9375,
+          "height": 293.0625,
+          "left": 650,
+          "right": 1171,
+          "top": 335.875,
+          "width": 521,
+          "x": 650,
+          "y": 335.875
+        }
+      }
+    ],
+    "overflow": false,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "phone": {
+    "currentTime": 1.050659,
+    "duration": 6.041667,
+    "objectFit": "contain",
+    "overflow": false,
+    "paused": true,
+    "status": "已暂停 · 1.05 秒 · 循环衔接 3/3",
+    "videoRect": {
+      "bottom": 533.625,
+      "height": 200.25,
+      "left": 17,
+      "right": 373,
+      "top": 333.375,
+      "width": 356,
+      "x": 17,
+      "y": 333.375
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "fullFrameLoopSamples": [
+    {
+      "name": "full-join-1-before",
+      "status": "播放中 · 5.31 秒 · 循环衔接 0/3"
+    },
+    {
+      "name": "full-join-1-after",
+      "status": "播放中 · 0.56 秒 · 循环衔接 1/3"
+    },
+    {
+      "name": "full-join-2-before",
+      "status": "播放中 · 5.08 秒 · 循环衔接 1/3"
+    },
+    {
+      "name": "full-join-2-after",
+      "status": "播放中 · 0.79 秒 · 循环衔接 2/3"
+    },
+    {
+      "name": "full-join-3-before",
+      "status": "播放中 · 5.20 秒 · 循环衔接 2/3"
+    },
+    {
+      "name": "full-join-3-after",
+      "status": "已暂停 · 1.14 秒 · 循环衔接 3/3"
+    }
+  ],
+  "initialLoopStatusSamples": [
+    "播放中 · 0.26 秒 · 循环衔接 0/3",
+    "播放中 · 0.57 秒 · 循环衔接 2/3",
+    "已暂停 · 1.05 秒 · 循环衔接 3/3"
+  ],
+  "pause": {
+    "running": [
+      {
+        "ended": false,
+        "id": "video-01",
+        "paused": false,
+        "time": 0.241914
+      },
+      {
+        "ended": false,
+        "id": "video-02",
+        "paused": false,
+        "time": 0.240282
+      }
+    ],
+    "paused": [
+      {
+        "ended": false,
+        "id": "video-01",
+        "paused": true,
+        "time": 0.263043
+      },
+      {
+        "ended": false,
+        "id": "video-02",
+        "paused": true,
+        "time": 0.261453
+      }
+    ]
+  },
+  "console": [],
+  "note": "Loop status text was sampled immediately before each screenshot; screenshot capture can advance currentTime slightly. Full-frame desktop boundaries were inspected for all three joins; phone counter executed three joins."
+}

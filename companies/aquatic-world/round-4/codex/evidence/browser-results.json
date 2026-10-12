@@ -1,0 +1,6 @@
+{
+  "status": "not_run",
+  "reason": "Playwright module unavailable in default Node resolution",
+  "base": "http://127.0.0.1:4201",
+  "detail": "MODULE_NOT_FOUND"
+}

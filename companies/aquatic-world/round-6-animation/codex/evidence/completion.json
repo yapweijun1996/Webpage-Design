@@ -1,0 +1,11 @@
+{
+  "documentation_file_links": 22,
+  "documentation_links_status": "pass",
+  "build": "passed: eight pages plus 404",
+  "static_checks": 51,
+  "motion_fixture_checks": 38,
+  "offline_preview_handler_checks": 3,
+  "http_status": "denied at socket bind before requests",
+  "browser_checks": "not run: expressly unavailable to worker",
+  "user_acceptance": "pending"
+}

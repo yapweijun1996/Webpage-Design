@@ -1,0 +1,258 @@
+{
+  "runner": "codex",
+  "checks": [
+    {
+      "scenario": "NAV-03",
+      "step": "Keyboard skip link",
+      "skip": {
+        "text": "Skip to content",
+        "href": "#main",
+        "box": {
+          "x": 12,
+          "y": 12,
+          "width": 149.7890625,
+          "height": 50.3984375
+        },
+        "outline": "3px"
+      },
+      "focusTarget": "MAIN",
+      "pass": true
+    },
+    {
+      "scenario": "NAV-02",
+      "opened": {
+        "open": true,
+        "focused": true
+      },
+      "closed": {
+        "open": false,
+        "focused": true
+      },
+      "pointer": {
+        "open": true,
+        "focused": true
+      },
+      "destination": "http://127.0.0.1:4191/quality/",
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/",
+      "heading": "A quieter world.\nA closer connection.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/",
+      "heading": "Three elements.\nEndless possibilities.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/ornamental-fish/",
+      "heading": "Ornamental\nFish",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/aquatic-plants/",
+      "heading": "Aquatic\nPlants",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/collections/driftwood/",
+      "heading": "Driftwood.\nNature draws the line.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/our-story/",
+      "heading": "Nature is closer\nthan we think.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/quality/",
+      "heading": "Thoughtful choices.\nFrom the start.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "path": "/contact/",
+      "heading": "Your aquatic world\nstarts here.",
+      "visible": [
+        "/",
+        "/",
+        "/collections/",
+        "/our-story/",
+        "/quality/",
+        "/contact/",
+        "/contact/#enquiry"
+      ],
+      "previewDisabled": true,
+      "pass": true
+    },
+    {
+      "scenario": "NAV-04",
+      "step": "Actual no-JS page navigation",
+      "url": "http://127.0.0.1:4191/quality/",
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Blank fields",
+      "invalid": [
+        "name",
+        "email",
+        "project"
+      ],
+      "summary": "Please check 3 fields before previewing.\nEnter a name for your sample brief.\nEnter a valid sample email address, such as name@example.com.\nDescribe your idea in at least 20 characters.",
+      "focusSummary": true,
+      "associated": true,
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Invalid email and short project",
+      "invalid": [
+        "email",
+        "project"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Valid honest preview",
+      "viewport": "desktop",
+      "visible": true,
+      "text": "YOUR BRIEF, READY TO REVIEW\n\nPreview created. Nothing was sent.\n\nNo enquiry service is connected. This brief exists only in this page.\n\nName\nAlex Example\nSample email\nalex@example.invalid\nCollection\nAquatic Plants\nProject or idea\nA planted aquarium display for an illustrative shop. Please help explore foliage and composition. LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nReturn to edit\n\u2197",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "invalid": 0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Return to edit",
+      "viewport": "desktop",
+      "kept": "Alex Example",
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Valid honest preview",
+      "viewport": "mobile",
+      "visible": true,
+      "text": "YOUR BRIEF, READY TO REVIEW\n\nPreview created. Nothing was sent.\n\nNo enquiry service is connected. This brief exists only in this page.\n\nName\nAlex Example\nSample email\nalex@example.invalid\nCollection\nAquatic Plants\nProject or idea\nA planted aquarium display for an illustrative shop. Please help explore foliage and composition. LongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectTokenLongUnbrokenProjectToken\nReturn to edit\n\u2197",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "invalid": 0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "Return to edit",
+      "viewport": "mobile",
+      "kept": "Alex Example",
+      "pass": true
+    },
+    {
+      "scenario": "UI-03",
+      "step": "Reduced motion",
+      "text": 1697,
+      "opacity": "1",
+      "transitions": [
+        "0s",
+        "0s",
+        "0s",
+        "0s",
+        "0s",
+        "0s",
+        "0s",
+        "0s"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "FORM-01",
+      "step": "No outbound submission or external requests",
+      "outbound": [],
+      "pass": true
+    }
+  ]
+}

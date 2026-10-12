@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-10-11T04:12:36.005Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "runner": "codex",
+      "route": "default",
+      "status": "pass",
+      "observed": {
+        "overflow": false,
+        "mainText": 1710,
+        "headerBottom": 318,
+        "photoTop": 318,
+        "headerLinks": 6
+      }
+    },
+    {
+      "runner": "codex",
+      "route": "fixtures/alternate.html",
+      "status": "pass",
+      "observed": {
+        "overflow": false,
+        "mainText": 1900,
+        "headerBottom": 318,
+        "photoTop": 318,
+        "headerLinks": 6
+      }
+    },
+    {
+      "runner": "claude",
+      "route": "default",
+      "status": "pass",
+      "observed": {
+        "overflow": false,
+        "mainText": 3349,
+        "headerBottom": 228,
+        "photoTop": 228,
+        "headerLinks": 6
+      }
+    },
+    {
+      "runner": "claude",
+      "route": "fixtures/tidewell/",
+      "status": "pass",
+      "observed": {
+        "overflow": false,
+        "mainText": 2611,
+        "headerBottom": 228,
+        "photoTop": 228,
+        "headerLinks": 6
+      }
+    }
+  ]
+}

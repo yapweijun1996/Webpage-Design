@@ -1,0 +1,386 @@
+{
+  "checks": [
+    {
+      "scenario": "REV-HEADER-HOVER",
+      "before": {
+        "x": 984.1171875,
+        "y": 17,
+        "width": 48.0546875,
+        "height": 45
+      },
+      "after": {
+        "x": 984.1171875,
+        "y": 17,
+        "width": 48.0546875,
+        "height": 45
+      },
+      "pass": true
+    },
+    {
+      "scenario": "REV-HEADER-SECTION",
+      "current": {
+        "current": "location",
+        "text": "Collections",
+        "decoration": "none",
+        "before": "none",
+        "after": "\"\""
+      },
+      "pass": true
+    },
+    {
+      "scenario": "REV-HEADER-COMPACT-SECTION",
+      "compact": {
+        "current": "location",
+        "text": "Collections",
+        "height": 61.296875
+      },
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 860,
+      "scrollY": 0,
+      "scrollWidth": 860,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 724.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 861,
+      "scrollY": 0,
+      "scrollWidth": 861,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 725.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1099,
+      "scrollY": 0,
+      "scrollWidth": 1099,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 963.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1100,
+      "scrollY": 0,
+      "scrollWidth": 1100,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 964.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1119,
+      "scrollY": 0,
+      "scrollWidth": 1119,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 983.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1120,
+      "scrollY": 0,
+      "scrollWidth": 1120,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17.5,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Home",
+          "x": 477.25,
+          "y": 17,
+          "width": 40.6796875,
+          "height": 45
+        },
+        {
+          "text": "Collections",
+          "x": 539.9296875,
+          "y": 17,
+          "width": 76.34375,
+          "height": 45
+        },
+        {
+          "text": "Our Story",
+          "x": 638.2734375,
+          "y": 17,
+          "width": 65.84375,
+          "height": 45
+        },
+        {
+          "text": "Quality",
+          "x": 726.1171875,
+          "y": 17,
+          "width": 48.0546875,
+          "height": 45
+        },
+        {
+          "text": "Contact",
+          "x": 796.171875,
+          "y": 17,
+          "width": 54.4296875,
+          "height": 45
+        },
+        {
+          "text": "Discuss a project\n\u2197",
+          "x": 895.6015625,
+          "y": 17.5,
+          "width": 184.3984375,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1199,
+      "scrollY": 0,
+      "scrollWidth": 1199,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17.5,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Home",
+          "x": 556.25,
+          "y": 17,
+          "width": 40.6796875,
+          "height": 45
+        },
+        {
+          "text": "Collections",
+          "x": 618.9296875,
+          "y": 17,
+          "width": 76.34375,
+          "height": 45
+        },
+        {
+          "text": "Our Story",
+          "x": 717.2734375,
+          "y": 17,
+          "width": 65.84375,
+          "height": 45
+        },
+        {
+          "text": "Quality",
+          "x": 805.1171875,
+          "y": 17,
+          "width": 48.0546875,
+          "height": 45
+        },
+        {
+          "text": "Contact",
+          "x": 875.171875,
+          "y": 17,
+          "width": 54.4296875,
+          "height": 45
+        },
+        {
+          "text": "Discuss a project\n\u2197",
+          "x": 974.6015625,
+          "y": 17.5,
+          "width": 184.3984375,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1200,
+      "scrollY": 0,
+      "scrollWidth": 1200,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 56,
+          "y": 17.5,
+          "width": 282.0703125,
+          "height": 44
+        },
+        {
+          "text": "Home",
+          "x": 507.25,
+          "y": 17,
+          "width": 40.6796875,
+          "height": 45
+        },
+        {
+          "text": "Collections",
+          "x": 573.9296875,
+          "y": 17,
+          "width": 76.34375,
+          "height": 45
+        },
+        {
+          "text": "Our Story",
+          "x": 676.2734375,
+          "y": 17,
+          "width": 65.84375,
+          "height": 45
+        },
+        {
+          "text": "Quality",
+          "x": 768.1171875,
+          "y": 17,
+          "width": 48.0546875,
+          "height": 45
+        },
+        {
+          "text": "Contact",
+          "x": 842.171875,
+          "y": 17,
+          "width": 54.4296875,
+          "height": 45
+        },
+        {
+          "text": "Discuss a project\n\u2197",
+          "x": 953.6015625,
+          "y": 17.5,
+          "width": 190.3984375,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 1024,
+      "scrollY": 0,
+      "scrollWidth": 1024,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 40,
+          "y": 17,
+          "width": 262.0625,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 888.0234375,
+          "y": 17,
+          "width": 95.9765625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "scenario": "REV-MEDIA-BOUNDARY",
+      "width": 320,
+      "scrollY": 0,
+      "scrollWidth": 320,
+      "controls": [
+        {
+          "text": "AQUATIC WORLD",
+          "x": 20,
+          "y": 11,
+          "width": 174.203125,
+          "height": 44
+        },
+        {
+          "text": "Menu",
+          "x": 217.34375,
+          "y": 11,
+          "width": 82.65625,
+          "height": 44
+        }
+      ],
+      "collisions": [],
+      "pass": true
+    }
+  ],
+  "runner": "codex"
+}

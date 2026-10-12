@@ -1,0 +1,181 @@
+{
+  "checks": [
+    {
+      "scenario": "PHONE-ERROR",
+      "width": 320,
+      "blank": {
+        "id": "error-summary",
+        "tag": "DIV",
+        "top": 132.4453125,
+        "bottom": 460.03125,
+        "visible": true,
+        "covered": false,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "errorLinks": 3,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 0,
+      "id": "name",
+      "tag": "INPUT",
+      "top": 302.03125,
+      "bottom": 352.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 1,
+      "id": "email",
+      "tag": "INPUT",
+      "top": 460.03125,
+      "bottom": 510.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 320,
+      "index": 2,
+      "id": "project",
+      "tag": "TEXTAREA",
+      "top": 398.03125,
+      "bottom": 548.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-PREVIEW",
+      "width": 320,
+      "state": {
+        "id": "preview-result",
+        "tag": "SECTION",
+        "top": -16.0546875,
+        "bottom": 775.9140625,
+        "visible": true,
+        "covered": false,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-EDIT",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CLEAR",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR",
+      "width": 360,
+      "blank": {
+        "id": "error-summary",
+        "tag": "DIV",
+        "top": 145.9453125,
+        "bottom": 473.53125,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "errorLinks": 3,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 0,
+      "id": "name",
+      "tag": "INPUT",
+      "top": 302.03125,
+      "bottom": 352.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 1,
+      "id": "email",
+      "tag": "INPUT",
+      "top": 436.03125,
+      "bottom": 486.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-ERROR-LINK",
+      "width": 360,
+      "index": 2,
+      "id": "project",
+      "tag": "TEXTAREA",
+      "top": 752.03125,
+      "bottom": 902.03125,
+      "visible": true,
+      "covered": false,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-PREVIEW",
+      "width": 360,
+      "state": {
+        "id": "preview-result",
+        "tag": "SECTION",
+        "top": 23.9453125,
+        "bottom": 789.515625,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-EDIT",
+      "width": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CLEAR",
+      "width": 360,
+      "pass": true
+    },
+    {
+      "scenario": "PHONE-CONTEXT-CLEAR",
+      "selected": [
+        "general"
+      ],
+      "state": {
+        "id": "name",
+        "tag": "INPUT",
+        "top": 307.9453125,
+        "bottom": 357.9453125,
+        "visible": true,
+        "covered": false,
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,1133 @@
+{
+  "runner": "codex",
+  "checks": [
+    {
+      "scenario": "NAV-01-current",
+      "path": "/",
+      "current": [
+        {
+          "href": "/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/",
+      "status": 200,
+      "title": "A closer connection to nature | Aquatic World",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/",
+      "status": 200,
+      "title": "Collections | Aquatic World",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/ornamental-fish/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/ornamental-fish/",
+      "status": 200,
+      "title": "Ornamental Fish | Aquatic World",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/aquatic-plants/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/aquatic-plants/",
+      "status": 200,
+      "title": "Aquatic Plants | Aquatic World",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/driftwood/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/driftwood/",
+      "status": 200,
+      "title": "Driftwood | Aquatic World",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/our-story/",
+      "current": [
+        {
+          "href": "/our-story/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/our-story/",
+      "status": 200,
+      "title": "Our Story | Aquatic World",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/quality/",
+      "current": [
+        {
+          "href": "/quality/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/quality/",
+      "status": 200,
+      "title": "Quality | Aquatic World",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/contact/",
+      "current": [
+        {
+          "href": "/contact/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/contact/",
+      "status": 200,
+      "title": "Contact \u2014 Enquiry preview | Aquatic World",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 0,
+      "source": "/",
+      "area": "header",
+      "href": "/",
+      "text": "AQUATIC WORLD",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 1,
+      "source": "/",
+      "area": "header",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 2,
+      "source": "/",
+      "area": "header",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 3,
+      "source": "/",
+      "area": "header",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 4,
+      "source": "/",
+      "area": "header",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 5,
+      "source": "/",
+      "area": "header",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 6,
+      "source": "/",
+      "area": "header",
+      "href": "/contact/#enquiry",
+      "text": "Discuss a project\n\u2197",
+      "url": "http://127.0.0.1:4211/contact/#enquiry",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 7,
+      "source": "/",
+      "area": "footer",
+      "href": "/",
+      "text": "AQUATIC WORLD\nNATURE CONNECTS US ALL",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 8,
+      "source": "/",
+      "area": "footer",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 9,
+      "source": "/",
+      "area": "footer",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 10,
+      "source": "/",
+      "area": "footer",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 11,
+      "source": "/",
+      "area": "footer",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 12,
+      "source": "/",
+      "area": "footer",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 13,
+      "source": "/",
+      "area": "footer",
+      "href": "/collections/ornamental-fish/",
+      "text": "Ornamental Fish",
+      "url": "http://127.0.0.1:4211/collections/ornamental-fish/",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 14,
+      "source": "/",
+      "area": "footer",
+      "href": "/collections/aquatic-plants/",
+      "text": "Aquatic Plants",
+      "url": "http://127.0.0.1:4211/collections/aquatic-plants/",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 15,
+      "source": "/",
+      "area": "footer",
+      "href": "/collections/driftwood/",
+      "text": "Driftwood",
+      "url": "http://127.0.0.1:4211/collections/driftwood/",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/",
+      "current": [
+        {
+          "href": "/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/",
+      "status": 200,
+      "title": "A closer connection to nature | Aquatic World",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/",
+      "status": 200,
+      "title": "Collections | Aquatic World",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/ornamental-fish/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/ornamental-fish/",
+      "status": 200,
+      "title": "Ornamental Fish | Aquatic World",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/aquatic-plants/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/aquatic-plants/",
+      "status": 200,
+      "title": "Aquatic Plants | Aquatic World",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/driftwood/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/driftwood/",
+      "status": 200,
+      "title": "Driftwood | Aquatic World",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/our-story/",
+      "current": [
+        {
+          "href": "/our-story/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/our-story/",
+      "status": 200,
+      "title": "Our Story | Aquatic World",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/quality/",
+      "current": [
+        {
+          "href": "/quality/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/quality/",
+      "status": 200,
+      "title": "Quality | Aquatic World",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/contact/",
+      "current": [
+        {
+          "href": "/contact/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/contact/",
+      "status": 200,
+      "title": "Contact \u2014 Enquiry preview | Aquatic World",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 0,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/",
+      "text": "AQUATIC WORLD",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 1,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 2,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 3,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 4,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 5,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 6,
+      "source": "/quality/",
+      "area": "header",
+      "href": "/contact/#enquiry",
+      "text": "Discuss a project\n\u2197",
+      "url": "http://127.0.0.1:4211/contact/#enquiry",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 7,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/",
+      "text": "AQUATIC WORLD\nNATURE CONNECTS US ALL",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 8,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 9,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 10,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 11,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 12,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 13,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/collections/ornamental-fish/",
+      "text": "Ornamental Fish",
+      "url": "http://127.0.0.1:4211/collections/ornamental-fish/",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 14,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/collections/aquatic-plants/",
+      "text": "Aquatic Plants",
+      "url": "http://127.0.0.1:4211/collections/aquatic-plants/",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 15,
+      "source": "/quality/",
+      "area": "footer",
+      "href": "/collections/driftwood/",
+      "text": "Driftwood",
+      "url": "http://127.0.0.1:4211/collections/driftwood/",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/",
+      "current": [
+        {
+          "href": "/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/",
+      "status": 200,
+      "title": "A closer connection to nature | Aquatic World",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/",
+      "status": 200,
+      "title": "Collections | Aquatic World",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/ornamental-fish/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/ornamental-fish/",
+      "status": 200,
+      "title": "Ornamental Fish | Aquatic World",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/aquatic-plants/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/aquatic-plants/",
+      "status": 200,
+      "title": "Aquatic Plants | Aquatic World",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/collections/driftwood/",
+      "current": [
+        {
+          "href": "/collections/",
+          "state": "location"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/collections/driftwood/",
+      "status": 200,
+      "title": "Driftwood | Aquatic World",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/our-story/",
+      "current": [
+        {
+          "href": "/our-story/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/our-story/",
+      "status": 200,
+      "title": "Our Story | Aquatic World",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/quality/",
+      "current": [
+        {
+          "href": "/quality/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/quality/",
+      "status": 200,
+      "title": "Quality | Aquatic World",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "NAV-01-current",
+      "path": "/contact/",
+      "current": [
+        {
+          "href": "/contact/",
+          "state": "page"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-01",
+      "path": "/contact/",
+      "status": 200,
+      "title": "Contact \u2014 Enquiry preview | Aquatic World",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 0,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/",
+      "text": "AQUATIC WORLD",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 1,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 2,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 3,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 4,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 5,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 6,
+      "source": "/contact/",
+      "area": "header",
+      "href": "/contact/#enquiry",
+      "text": "Discuss a project\n\u2197",
+      "url": "http://127.0.0.1:4211/contact/#enquiry",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 7,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/",
+      "text": "AQUATIC WORLD\nNATURE CONNECTS US ALL",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 8,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/",
+      "text": "Home",
+      "url": "http://127.0.0.1:4211/",
+      "headings": [
+        "A quieter world.A closer connection."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 9,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/collections/",
+      "text": "Collections",
+      "url": "http://127.0.0.1:4211/collections/",
+      "headings": [
+        "Three elements.Endless possibilities."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 10,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/our-story/",
+      "text": "Our Story",
+      "url": "http://127.0.0.1:4211/our-story/",
+      "headings": [
+        "Nature is closerthan we think."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 11,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/quality/",
+      "text": "Quality",
+      "url": "http://127.0.0.1:4211/quality/",
+      "headings": [
+        "Thoughtful choices.From the start."
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 12,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/contact/",
+      "text": "Contact",
+      "url": "http://127.0.0.1:4211/contact/",
+      "headings": [
+        "Your project brief"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 13,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/collections/ornamental-fish/",
+      "text": "Ornamental Fish",
+      "url": "http://127.0.0.1:4211/collections/ornamental-fish/",
+      "headings": [
+        "OrnamentalFish"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 14,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/collections/aquatic-plants/",
+      "text": "Aquatic Plants",
+      "url": "http://127.0.0.1:4211/collections/aquatic-plants/",
+      "headings": [
+        "AquaticPlants"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "IA-02",
+      "index": 15,
+      "source": "/contact/",
+      "area": "footer",
+      "href": "/collections/driftwood/",
+      "text": "Driftwood",
+      "url": "http://127.0.0.1:4211/collections/driftwood/",
+      "headings": [
+        "Driftwood.Nature draws the line."
+      ],
+      "pass": true
+    }
+  ]
+}

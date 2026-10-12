@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "runner": "codex",
+      "source": "collection-aquatic-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "collection-driftwood.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "collection-ornamental-fish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "enquiry-underwater-school.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "heritage-waterfront.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-red-betta.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "codex",
+      "source": "highlight-red-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "hero-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "heritage-waterfront.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-ornamental-fish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-aquatic-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "collection-driftwood.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-betta.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-angelfish.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "highlight-red-plants.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    },
+    {
+      "runner": "claude",
+      "source": "enquiry-underwater-school.png",
+      "matches_frozen_source": true,
+      "derivatives_exist": true
+    }
+  ],
+  "pass": true,
+  "source_images_per_runner": 9,
+  "note": "Source-manifest hashes and derivative existence checked; no new image regeneration was performed."
+}

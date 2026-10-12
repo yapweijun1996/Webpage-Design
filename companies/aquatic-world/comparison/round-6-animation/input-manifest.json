@@ -1,0 +1,144 @@
+{
+  "prepared_on": "2026-10-12",
+  "experiment": "own_round5_homepage_controlled_animation",
+  "native_execution": "authorized_by_current_request",
+  "shared_input_files": {
+    "animation/IMPLEMENTATION-PROMPT.txt": {
+      "bytes": 2074,
+      "sha256": "26e92dbd4c0b85cdf4c8d6b425cbe3128c5c34cb061a61989d748889eebe9531"
+    },
+    "animation/INTEGRATION.md": {
+      "bytes": 6181,
+      "sha256": "085f3e3877e748cd9a95027e709b5dfea40ee01258de08e442795b38dfc707fb"
+    },
+    "animation/assets/hero-angelfish.png": {
+      "bytes": 2205920,
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+    },
+    "animation/input-manifest.json": {
+      "bytes": 2330,
+      "sha256": "d90017c393aa5bd54d87f24b42d23323e914d200f196cd8f6d299a7b0b67cf6e"
+    },
+    "animation/motion.js": {
+      "bytes": 3975,
+      "sha256": "08b478f03f55e82874906fd43eeaaba3e2d7eb4acd6c4559b8ced0f6e4c16b2f"
+    },
+    "animation/preview.html": {
+      "bytes": 4940,
+      "sha256": "50e32d3e694974925c4b39e3f7c379904e60b65ac4d622a093768b2ec927e34d"
+    },
+    "animation/styles.css": {
+      "bytes": 8187,
+      "sha256": "e0866d2ff14de9a70c5c8a825f449aa0a13b04d31273568cc21d8f3f141f84ba"
+    },
+    "assets/README.md": {
+      "bytes": 3713,
+      "sha256": "53ab0d60841f2e478a681aed28ab6db2c1ed8555dc343555354e47153c269cc4"
+    },
+    "assets/asset-manifest.json": {
+      "bytes": 8700,
+      "sha256": "ec04875d9fff0dfc5de29692c3075a7e53e665015e56c11292d8311ec10fe2de"
+    },
+    "assets/collection-aquatic-plants.png": {
+      "bytes": 2899303,
+      "sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b"
+    },
+    "assets/collection-driftwood.png": {
+      "bytes": 2671303,
+      "sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f"
+    },
+    "assets/collection-ornamental-fish.png": {
+      "bytes": 2214777,
+      "sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617"
+    },
+    "assets/enquiry-underwater-school.png": {
+      "bytes": 2332804,
+      "sha256": "9bff4d299931cfa52dbc288b4ca4759f09927abcfb081dc008104b1c43834eef"
+    },
+    "assets/heritage-waterfront.png": {
+      "bytes": 2949536,
+      "sha256": "f4576fc1708f52fe54320aa6754c3941ad008b8b629b6ed78e0f9c5a8e209c2d"
+    },
+    "assets/hero-angelfish.png": {
+      "bytes": 2205920,
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+    },
+    "assets/highlight-angelfish.png": {
+      "bytes": 2273240,
+      "sha256": "bcf9e283401e59ae40efb1280129a97bc0e86a4a3ae6863a5152d03c2a15c285"
+    },
+    "assets/highlight-red-betta.png": {
+      "bytes": 2280998,
+      "sha256": "5fffaf100c88413e1b98ca7bc476af17dabe299f952168880c9c8c6e8696be1d"
+    },
+    "assets/highlight-red-plants.png": {
+      "bytes": 2522902,
+      "sha256": "5e81d87c158f013b07e64b3fceea3eb816ac31581a24689355e40cfd9e6c0620"
+    },
+    "assets/preview.html": {
+      "bytes": 5220,
+      "sha256": "36fb1ad4d13d258f51ca16321d34d845fd01ff29c5b8aaf0561a526c2fb574c6"
+    },
+    "assets/prompts.json": {
+      "bytes": 9053,
+      "sha256": "1f764a6c5f155b47845695f789ef14c5e9b92f7bdd8cf12c6b9f1de97966a025"
+    },
+    "mcp-empty.json": {
+      "bytes": 18,
+      "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+    },
+    "reference/desktop.png": {
+      "bytes": 100389,
+      "sha256": "7b63e344aec545b1c30d9366d8917c50897374d5179b112de5e1860e95e50f45"
+    },
+    "reference/phone-390.png": {
+      "bytes": 49531,
+      "sha256": "1fdfe07c1dba90b0a5e1e54a7bbeea00d71e24a6455758a631a0d64e68a51840"
+    },
+    "skills/cli-web-design-director/SKILL.md": {
+      "bytes": 4990,
+      "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+    },
+    "skills/cli-web-design-director/agents/openai.yaml": {
+      "bytes": 272,
+      "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+    },
+    "skills/cli-web-design-director/references/cli-operation.md": {
+      "bytes": 4771,
+      "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+    },
+    "skills/cli-web-design-director/references/design-review.md": {
+      "bytes": 4605,
+      "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+    },
+    "skills/cli-web-design-director/references/prompt-patterns.md": {
+      "bytes": 3259,
+      "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+    }
+  },
+  "shared_root_contracts": {
+    "AGENTS.md": {
+      "bytes": 1868,
+      "sha256": "e3ff5a83227c2b7855539e8b99b7eaa46ffb407681dcd96e01be03f0bfe6687e"
+    },
+    "CLAUDE.md": {
+      "bytes": 1868,
+      "sha256": "e3ff5a83227c2b7855539e8b99b7eaa46ffb407681dcd96e01be03f0bfe6687e"
+    },
+    "TASK.md": {
+      "bytes": 2777,
+      "sha256": "7540c3e3cd418c58ceaa8ee777e7b1d3a1a2830bd0e1b90207dcd24751a9686e"
+    },
+    "ACCEPTANCE.md": {
+      "bytes": 3168,
+      "sha256": "dde5767b0dab326897a88142dcd6f3c94227530c61d6746d46ced44c42c8606a"
+    },
+    "IMPLEMENTATION-PROMPT.txt": {
+      "bytes": 1290,
+      "sha256": "84d48c5dc5ef74c22339a67640d5df8416fee81864daeb63f5161b8317e0374f"
+    }
+  },
+  "canonical_manifest_sha256": "d90017c393aa5bd54d87f24b42d23323e914d200f196cd8f6d299a7b0b67cf6e",
+  "runtime_cross_imports": "prohibited",
+  "user_acceptance": "pending"
+}

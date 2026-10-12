@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "project_id": "aquatic-world-homepage-motion-v1",
+  "prepared_at_utc": "2026-10-11T13:12:17.203421+00:00",
+  "status": "runway_refinement_review_complete_creative_gates_failed_wan_paused",
+  "authorization": {
+    "source": "User selected plan A after the one-per-model proposal",
+    "generation_cap_usd": "3.00",
+    "initial_samples": 2,
+    "maximum_attempts": 4,
+    "maximum_preferred_model_refinements": 2,
+    "recharge_authorized": false,
+    "key_limit_change_authorized": false,
+    "tool_policy_expansion_authorized": true,
+    "native_cli_run_authorized": false,
+    "tool_work_source": "User selected A to modify Video Studio MCP model support and investigate Wan billing on 2026-10-11",
+    "runway_refinement_authorized": true,
+    "runway_refinement_source": "User selected A: adjust prompt and try one more Runway sample, estimated USD0.72, on 2026-10-12 Asia/Singapore"
+  },
+  "input": {
+    "first_frame": {
+      "path": "first-frame.png",
+      "bytes": 1385006,
+      "sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "crop": {
+        "x": 396,
+        "y": 0,
+        "width": 1486,
+        "height": 836
+      },
+      "resize": "Pillow 12.2.0 Lanczos",
+      "visually_reviewed": true
+    },
+    "prompt": {
+      "path": "PROMPT.txt",
+      "bytes": 401,
+      "sha256": "ebedfc891eabb545e814aa08ca4d801ba31f7902d68f331881cc4f348fd25082"
+    },
+    "source": {
+      "path": "../../../comparison/assets-v1/hero-angelfish.png",
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+    }
+  },
+  "common_parameters": {
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "frame_type": "first_frame",
+    "seed": null,
+    "provider_specific_controls": null
+  },
+  "planned_requests": [
+    {
+      "candidate_id": "wan-01",
+      "model": "alibaba/wan-3.0",
+      "estimated_cost_usd": "0.60",
+      "status": "not_submitted",
+      "job_id": null,
+      "actual_cost_usd": null,
+      "blocking_conditions": [
+        "PRICE_RECONCILIATION_REQUIRED"
+      ]
+    },
+    {
+      "candidate_id": "runway-01",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "status": "completed",
+      "job_id": "gen-vid-1791725078-59bCwFHQKzmhgz8Ruyyq",
+      "actual_cost_usd": "0.72",
+      "blocking_conditions": []
+    },
+    {
+      "candidate_id": "runway-02",
+      "request_id": "aquatic_runway_20261012_02",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "status": "completed",
+      "job_id": "gen-vid-1791758499-C4OTRnu5utdjMJRdYPbe",
+      "actual_cost_usd": "0.72",
+      "blocking_conditions": [],
+      "prompt": {
+        "path": "PROMPT-02.txt",
+        "bytes": 442,
+        "sha256": "66bd0ee2b1b7b3956e89e7c5707ad088a130940d73d5eedf9cb8134b1af73266"
+      },
+      "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+      "coordinator_review": "improved_but_failed_homepage_motion_brief"
+    }
+  ],
+  "budget_preflight": {
+    "checked_at_utc": "2026-10-11T13:08:14Z",
+    "initial_pair_estimate_usd": "1.32",
+    "initial_pair_with_20_percent_margin_usd": "1.584",
+    "account_funds_sufficient_for_initial_pair": true,
+    "key_remaining_usd_at_check": "2",
+    "all_proposed_refinements_funded": false,
+    "refresh_before_each_request": true
+  },
+  "submissions": [
+    {
+      "request_id": "aquatic_runway_20261011_01",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "status": "completed",
+      "recorded_at_utc": "2026-10-11T13:24:37.319802+00:00",
+      "job_id": "gen-vid-1791725078-59bCwFHQKzmhgz8Ruyyq",
+      "actual_cost_usd": "0.72"
+    },
+    {
+      "candidate_id": "runway-02",
+      "request_id": "aquatic_runway_20261012_02",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "status": "completed",
+      "recorded_at_utc": "2026-10-11T22:41:38.778415+00:00",
+      "job_id": "gen-vid-1791758499-C4OTRnu5utdjMJRdYPbe",
+      "actual_cost_usd": "0.72",
+      "prompt_sha256": "66bd0ee2b1b7b3956e89e7c5707ad088a130940d73d5eedf9cb8134b1af73266",
+      "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8"
+    }
+  ],
+  "submitted_generation_cost_usd": "1.44",
+  "reserved_submitted_estimate_usd": "0",
+  "provider_output_media": [
+    {
+      "path": "runway-01-raw.mp4",
+      "bytes": 4582076,
+      "sha256": "d54e56e9409456f96e9cc39e0adf907ead4fa2d6e9b226a0bf0ab1ff79b06657",
+      "role": "raw_provider_output"
+    },
+    {
+      "path": "runway-01-preview.mp4",
+      "bytes": 2509265,
+      "sha256": "01c8f6f14df81c2fd5ed999842cc813598dc22d55876c4491875dee29b7185ed",
+      "role": "draft_review_encoding"
+    },
+    {
+      "path": "runway-01-poster.webp",
+      "bytes": 78338,
+      "sha256": "ea10f39d854b95a925f714fd65e3f7175caa9eaff14f4e28f1d8c2864ce6c3d0",
+      "role": "draft_review_poster"
+    },
+    {
+      "path": "runway-02-raw.mp4",
+      "bytes": 4109737,
+      "sha256": "eda0f79ed24290641e3110b8424f06920738f332aaec4a3980eb6527394ed1e3",
+      "role": "raw_provider_output"
+    },
+    {
+      "path": "runway-02-preview.mp4",
+      "bytes": 2199814,
+      "sha256": "07c87cb4c95f829d27ce8080356340213074600fdb6e63424f5681d594389641",
+      "role": "draft_review_encoding"
+    },
+    {
+      "path": "runway-02-poster.webp",
+      "bytes": 78880,
+      "sha256": "2fe63b93ec4a77e08087136a1014ce81206fbf956b2405eae912607ad4d35c85",
+      "role": "draft_review_poster"
+    }
+  ],
+  "safety": {
+    "serial_submissions_only": true,
+    "unknown_post_outcome_auto_retry": false,
+    "automatic_model_fallback": false,
+    "estimated_cost_is_actual_cost": false,
+    "bypass_existing_tool_guards": false
+  },
+  "verification": {
+    "first_frame_decodes": true,
+    "first_frame_visual_review": "complete fish and extended fins inside frame",
+    "movie_playback": "passed_review_viewer_desktop_1280x720_and_phone_390x844",
+    "loop_review": "three_joins_executed_visible_first_join_jump_endpoints_reviewed",
+    "user_video_acceptance": "pending",
+    "creative_acceptance": "failed_homepage_motion_brief",
+    "failed_gates": [
+      "near_stationary_fish",
+      "stable_background_composition",
+      "full_fins_inside_frame",
+      "gentle_end_to_start_join"
+    ],
+    "technical_metadata_and_full_decode": "passed_raw_and_review_encoding",
+    "browser_console_warning_errors": 0,
+    "website_integration": "not_started",
+    "review_path": "RESULTS.md"
+  },
+  "studio_custody": {
+    "artifact_id": "3a723aefe0994db6b248b9315e8e3e62",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "runway-hero-trial-01",
+    "version": 1,
+    "asset_id": "b481edf23b744ac8850481d166a37f99",
+    "status": "draft"
+  },
+  "budget_after_first_sample": {
+    "checked_at_utc": "2026-10-11T13:43:39.243523+00:00",
+    "key_remaining_usd": "1.2763175",
+    "enough_for_runway_refinement_and_wan_with_existing_margins": false,
+    "priority": "user_prioritized_one_runway_refinement_over_preserving_wan_allocation",
+    "limits_changed": false
+  },
+  "refinement_studio_custody": {
+    "artifact_id": "f6ff8bedca7d4ad392376d64236a6506",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "runway-hero-trial-02",
+    "version": 1,
+    "asset_id": "0270328eb6a747a994db597d58acea76",
+    "status": "draft",
+    "output_pin": "runway-02-output-pin.json"
+  },
+  "budget_after_refinement": {
+    "checked_at_utc": "2026-10-11T22:46:14.722412+00:00",
+    "key_limit_usd": "2",
+    "key_remaining_usd": "0.5563175",
+    "account_balance_usd": "6.58046007",
+    "generation_total_actual_usd": "1.44",
+    "further_runway_funded_with_margin": false,
+    "wan_funded_at_base_quote": false,
+    "limits_changed": false
+  },
+  "refinement_verification": {
+    "completed_at_utc": "2026-10-11T22:56:25.461670+00:00",
+    "review_path": "REFINEMENT.md",
+    "browser_evidence": "browser-review-02.json",
+    "media_evidence": "media-check-02.json",
+    "technical_metadata_and_full_decode": "passed",
+    "desktop_three_full_frame_joins": "captured_before_after_each_join_and_visually_inspected",
+    "phone_three_joins": "executed_counter_paused_after_three",
+    "creative_acceptance": "failed_homepage_motion_brief",
+    "improved_conditions": [
+      "fin_margins",
+      "relative_background_stability"
+    ],
+    "remaining_failures": [
+      "fish_scale_position_and_orientation_change",
+      "long_fin_shape_changes",
+      "end_to_start_composition_jump"
+    ],
+    "user_video_acceptance": "pending",
+    "website_integration": "not_started"
+  }
+}

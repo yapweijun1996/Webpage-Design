@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-12T04:11:11.967160+00:00",
+  "worker": "Codex native CLI session, current workspace only",
+  "launch_command_source": "evidence/process-run.json (left unchanged; coordinator owns its completion status)",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "xhigh (preserved configured setting)",
+  "serving_model": "not independently exposed/verified to this worker; no substitution or additional model run",
+  "installed_cli_version_query": "codex-cli 0.162.1",
+  "cli_version_query_warning": "CLI reported it could not create PATH aliases: Operation not permitted. No permission/configuration change was made.",
+  "python_version": "3.14.3",
+  "node_version": "v23.10.0",
+  "tools_used": [
+    "local shell commands",
+    "local file patches",
+    "local supplied-image viewer",
+    "Python stdlib build/checks",
+    "Node syntax/VM fixtures"
+  ],
+  "browser": "unavailable and explicitly prohibited for worker",
+  "preview_port": 4231,
+  "preview_status": "attempt denied at loopback socket bind; no HTTP responses, no server left running",
+  "permissions": "workspace-write; approval never; no escalation requested",
+  "other_agents_models_services": false,
+  "writes": "demo/, evidence/, root README.md only",
+  "user_acceptance": "pending"
+}

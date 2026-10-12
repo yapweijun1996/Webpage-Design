@@ -1,0 +1,14 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "items": [
+    {
+      "id": "aquatic-plants",
+      "title": "Aquatic Plants",
+      "description": ["Livelier environments.", "Lush, layered greenery."],
+      "image": { "asset": "collection-aquatic-plants", "alt": "Illustrative green aquascape with broad leaves and mossy stones.", "position": "35% 50%" },
+      "details": { "summary": "Foreground carpets, mid-ground bushes and tall background stems.", "notes": ["Imagery is illustrative and does not identify specific plants."] },
+      "sortOrder": 10,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "change": "First-screen versus full-page lazy-image decoding guidance in existing design-review reference",
+  "evidence": "header-method-correction.json and both 13/13 supplemental header-state checks",
+  "main_skill_frontmatter_and_instructions_unchanged": true,
+  "main_skill_sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b",
+  "reference_before_sha256": "a341cefc3d9e3c176901221279263f2c6ba261216aec4e4bd3431340362d8a4c",
+  "reference_after_sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646",
+  "all_existing_reference_targets_present": true,
+  "codex_agents_and_claude_discovery_same_skill": true,
+  "frozen_worker_inputs_unchanged": "Verified separately by check_inputs.py",
+  "scope": "Generic browser evidence procedure only; no case facts, scores or private data stored globally."
+}

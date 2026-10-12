@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aquatic World — Homepage Motion Study</title>
+  <style>
+    :root { color-scheme: light; --ink: #113c42; --deep: #062b32; --cream: #f6f2e9; --gold: #dec79b; --muted: #52696c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--cream); color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+    main { width: min(1180px, calc(100% - 40px)); margin: 48px auto; }
+    h1, h2, h3 { line-height: 1.15; }
+    h1 { font: 500 clamp(32px, 4vw, 50px)/1.12 Georgia, serif; margin: 12px 0 20px; max-width: 800px; }
+    h2 { font-size: 24px; margin: 0 0 18px; }
+    h3 { font: 500 30px/1.18 Georgia, serif; }
+    a { color: var(--ink); text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #897039; outline-offset: 4px; }
+    .eyebrow { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
+    .intro { max-width: 850px; }
+    .notice { border-left: 3px solid #897039; padding: 12px 18px; background: #fffaf0; }
+    .links { display: flex; gap: 12px 24px; flex-wrap: wrap; margin: 24px 0 40px; }
+    section { margin-top: 40px; }
+    figure { margin: 0; }
+    figcaption { color: var(--muted); margin-top: 12px; }
+    .source img { display: block; width: 100%; height: auto; }
+    .layouts { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 390px); gap: 28px; align-items: start; }
+    .panel { min-width: 0; }
+    .sample { border: 1px solid #bbc6c1; background: var(--deep); color: var(--cream); }
+    .sample-header { padding: 16px 22px; display: flex; justify-content: space-between; gap: 14px; border-bottom: 1px solid #335159; font-size: 16px; }
+    .desktop-body { display: grid; grid-template-columns: 38% 62%; align-items: center; }
+    .sample-copy { padding: 26px 22px; }
+    .sample-copy h3 { margin: 10px 0 14px; }
+    .sample-copy p { margin: 0 0 20px; }
+    .sample-action { display: inline-block; padding: 12px 16px; color: var(--deep); background: var(--gold); font-size: 16px; line-height: 1.4; }
+    .media { position: relative; aspect-ratio: 16/9; background: #041e26; }
+    .media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 100% 50%; }
+    .position { padding: 12px 16px; border-top: 1px dashed #6d8385; font-size: 14px; color: #d3ded9; }
+    .phone { width: 390px; max-width: 100%; }
+    .phone .sample-copy { padding: 24px 22px; }
+    .phone h3 { font-size: 34px; }
+    .note { color: var(--muted); margin-top: 14px; }
+    .timeline { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+    .moment { border-top: 2px solid #897039; padding-top: 14px; }
+    .moment h3 { font: 600 20px/1.3 system-ui, sans-serif; margin: 0 0 12px; }
+    .moment p { margin: 0; }
+    .rules { padding-left: 22px; }
+    .rules li { margin-bottom: 12px; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #bbc6c1; color: var(--muted); }
+    @media (max-width: 1000px) { .layouts { grid-template-columns: 1fr; } }
+    @media (max-width: 580px) {
+      main { width: calc(100% - 32px); margin-top: 28px; }
+      .desktop-body { grid-template-columns: 1fr; }
+      .timeline { grid-template-columns: 1fr; }
+      .sample-header { padding-inline: 16px; }
+      .sample-copy { padding-inline: 16px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Aquatic World · Design preparation · 2026-10-11</p>
+  <h1>A calm homepage,<br>with a little life in the water.</h1>
+  <p class="intro">A shared image-to-video direction for the next Codex and Claude integration comparison. One approved clip, one poster and the same behavior requirements for both implementations.</p>
+  <p class="notice"><strong>Static composition study.</strong> These are still images and schematic layout labels. No video has been generated. The panels are not live websites; media and control behavior remain pending.</p>
+  <nav class="links" aria-label="Preparation documents">
+    <a href="BRIEF.md">Motion brief</a>
+    <a href="GENERATION-PROMPT.txt">Generation prompt</a>
+    <a href="INTEGRATION.md">Integration contract</a>
+    <a href="../../comparison/round-6/ACCEPTANCE.md">Comparison requirements</a>
+    <a href="../../comparison/round-6/PREPARATION-CHECK.md">Preparation checks</a>
+  </nav>
+  <section aria-labelledby="source-title">
+    <h2 id="source-title">Selected source · hero-angelfish.png</h2>
+    <figure class="source">
+      <img src="../../comparison/assets-v1/hero-angelfish.png" width="1882" height="836" alt="Illustrative striped fish on the right of a dark teal underwater landscape, with quiet water on the left.">
+      <figcaption>Original 1882 × 836 source, unchanged. Its single subject, quiet left area and soft water light support restrained movement. AI-generated illustrative imagery.</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="layout-title">
+    <h2 id="layout-title">Placement study</h2>
+    <div class="layouts">
+      <div class="panel">
+        <p class="eyebrow">Desktop · copy and media share the hero</p>
+        <div class="sample" aria-label="Schematic desktop composition">
+          <div class="sample-header"><span>Aquatic World</span><span>Existing navigation</span></div>
+          <div class="desktop-body">
+            <div class="sample-copy">
+              <h3>Headline stays in HTML.</h3>
+              <p>Keep the existing offer readable on a solid surface.</p>
+              <span class="sample-action">Collection CTA position</span>
+            </div>
+            <div>
+              <div class="media"><img src="../../comparison/assets-v1/hero-angelfish.png" width="1882" height="836" alt="Right-aligned sixteen-to-nine framing study of the same source fish."></div>
+              <div class="position">Playback control position · outside the fish</div>
+            </div>
+          </div>
+        </div>
+        <p class="note">Default safe treatment: separate copy and video. Intermediate widths stack before they collide. Actual worker copy, type and breakpoints are reviewed at full size.</p>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">Phone · task first, then landscape media</p>
+        <div class="sample phone" aria-label="Schematic phone composition">
+          <div class="sample-header"><span>Aquatic World</span><span>Menu</span></div>
+          <div class="sample-copy">
+            <h3>Headline stays in HTML.</h3>
+            <p>Keep the introduction concise and the next step clear.</p>
+            <span class="sample-action">Collection CTA position</span>
+          </div>
+          <div class="media"><img src="../../comparison/assets-v1/hero-angelfish.png" width="1882" height="836" alt="The same landscape frame follows the phone copy instead of becoming a tall cropped backdrop."></div>
+          <div class="position">Playback control position · readable and reachable</div>
+        </div>
+        <p class="note">The same clip serves phones. Full fish framing and first-view CTA visibility are checked at 390 and 360px; narrow 320px is also reviewed.</p>
+      </div>
+    </div>
+  </section>
+  <section aria-labelledby="motion-title">
+    <h2 id="motion-title">Six-second motion direction</h2>
+    <div class="timeline">
+      <div class="moment"><h3>0–1 s · Hold the scene</h3><p>Stable camera and light. Gentle fin motion begins without a sudden change.</p></div>
+      <div class="moment"><h3>1–5 s · Subtle life</h3><p>Near-stationary fish, small leaf sway and sparse drifting particles.</p></div>
+      <div class="moment"><h3>5–6 s · Review the join</h3><p>Similar composition at the end. Inspect repeated loops for jumps or ghosting.</p></div>
+    </div>
+  </section>
+  <section aria-labelledby="contract-title">
+    <h2 id="contract-title">The shared integration contract</h2>
+    <ul class="rules">
+      <li>Poster and collection action work immediately, including with JavaScript disabled or video unavailable.</li>
+      <li>Silent inline playback with a real Play/Pause control; a user pause survives automatic visibility changes.</li>
+      <li>Reduced motion and an exposed Save-Data preference begin with the poster and no video download.</li>
+      <li>Pause when the hero is fully offscreen, the tab is hidden or the mobile menu is open.</li>
+      <li>Compare desktop/phone framing, actual moving states, keyboard interaction, loading and unchanged eight-page journeys.</li>
+    </ul>
+  </section>
+  <footer>Prepared design direction only. Video model, budget, generated media, native CLI implementations and user design acceptance remain pending. <a href="README.md">Package status</a> · <a href="SOURCES.md">Sources and provenance</a></footer>
+</main>
+</body>
+</html>

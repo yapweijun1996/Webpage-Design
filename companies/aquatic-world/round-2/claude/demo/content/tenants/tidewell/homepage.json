@@ -1,0 +1,86 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "hero": {
+    "enabled": true,
+    "eyebrow": ["Aquascape supply studio"],
+    "title": "Living Materials for Quietly Remarkable Aquascapes and Display Tanks,",
+    "accent": "Chosen with Patience.",
+    "description": "Fish, plants, foliage and hardscape gathered into one considered range for studios, retailers and aquascape designers.",
+    "image": { "asset": "hero-angelfish", "alt": "", "position": "68% 50%", "mobilePosition": "95% 45%", "tabletPosition": "100% 50%" },
+    "ctaIds": ["primary", "secondary"],
+    "proofPoints": [],
+    "sideNotes": null
+  },
+  "heritage": {
+    "enabled": true,
+    "eyebrow": "The Studio",
+    "heading": ["Built Around", "Still Water."],
+    "body": [
+      "Tidewell Studio is an invented brand used to test that every name, label and colour comes from configuration rather than from the page components."
+    ],
+    "image": { "asset": "heritage-waterfront", "alt": "Illustrative waterfront skyline at sunset.", "position": "40% 50%" },
+    "imageCaption": ["Illustrative scene"],
+    "link": { "label": "See the range", "href": "#collections" },
+    "quote": null
+  },
+  "collections": {
+    "enabled": true,
+    "eyebrow": "The Range",
+    "heading": ["Five Ways", "Into the Water."],
+    "description": "Each category below is a configured item; this fixture uses five to test wrapping on every breakpoint.",
+    "viewAll": { "label": "Open range details", "href": "#collection-explorer" },
+    "explorer": {
+      "heading": "Range details",
+      "intro": "Illustrative overviews only — no stock, pricing or availability.",
+      "closeLabel": "Close range details",
+      "enquiryLabel": "Enquire about {title}"
+    }
+  },
+  "quality": {
+    "enabled": true,
+    "eyebrow": "Our Approach",
+    "heading": "Considered, Step by Step.",
+    "description": "Illustrative presentation principles for this fixture.",
+    "note": "Illustrative only; no guarantees are made.",
+    "items": [
+      { "icon": "compass", "title": ["Plan", "the Layout"], "kind": "illustrative" },
+      { "icon": "leaf", "title": ["Layer", "the Planting"], "kind": "illustrative" },
+      { "icon": "branch", "title": ["Shape", "the Hardscape"], "kind": "illustrative" },
+      { "icon": "layers", "title": ["Balance", "the Whole"], "kind": "illustrative" }
+    ]
+  },
+  "highlights": {
+    "enabled": true,
+    "eyebrow": "Studio Picks",
+    "heading": ["Quiet Details,", "Close Up."],
+    "note": "Illustrative images — not live stock.",
+    "background": { "asset": "enquiry-underwater-school", "position": "30% 50%" },
+    "sideNote": null,
+    "items": [
+      { "id": "copper-leaf", "title": ["Copper", "Foliage"], "collectionId": "coloured-foliage", "image": { "asset": "highlight-red-plants", "alt": "Illustrative red and bronze aquatic foliage.", "position": "50% 50%", "fit": "cover" } },
+      { "id": "silver-stripe", "title": ["Silver", "Stripes"], "collectionId": "display-fish", "image": { "asset": "highlight-angelfish", "alt": "Illustrative striped silver fish with trailing fins.", "position": "50% 50%", "fit": "contain" } },
+      { "id": "red-sail", "title": ["Red", "Sail Fins"], "collectionId": "freshwater-fish", "image": { "asset": "highlight-red-betta", "alt": "Illustrative red fish with long flowing fins.", "position": "50% 50%", "fit": "contain" } }
+    ]
+  },
+  "enquiry": {
+    "enabled": true,
+    "eyebrow": "Talk to the studio",
+    "heading": "Trade Enquiries",
+    "description": "Studios and retailers would contact the team here.",
+    "unavailableNotice": "Real enquiries are unavailable: Tidewell Studio is a fictional fixture with no contact route or backend.",
+    "previewToggleLabel": "Preview the enquiry form",
+    "background": { "asset": "enquiry-underwater-school", "position": "60% 50%" },
+    "signature": null,
+    "sideNote": null,
+    "form": {
+      "heading": "Trade enquiry preview",
+      "intro": "Local validation only — nothing is sent or stored.",
+      "fields": { "name": "Full name", "company": "Studio or shop (optional)", "email": "Work email", "topic": "Category", "topicAny": "Not sure yet", "message": "How can we help?" },
+      "submitLabel": "Validate enquiry",
+      "errorSummary": "Some details need attention:",
+      "errors": { "name": "Enter your full name.", "email": "Enter a valid email such as name@example.com.", "message": "Tell us a little more (10 characters or more)." },
+      "previewResult": "Preview only — nothing was sent. This fixture has no enquiry destination."
+    }
+  },
+  "footer": { "navigationIds": ["range", "studio", "approach", "talk"] }
+}

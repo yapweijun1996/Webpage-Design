@@ -1,0 +1,2083 @@
+{
+  "runner": "claude",
+  "origin": "http://127.0.0.1:4202",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "layouts": [
+    {
+      "runner": "claude",
+      "route": "/",
+      "page": "home",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Aquatic World \u2014 Ornamental fish, aquatic plants and driftwood",
+      "h1": [
+        "A world of ornamental beauty,\ncurated with care."
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3580,
+      "mainText": "FISH \u00b7 PLANTS \u00b7 DRIFTWOOD\n\nA world of ornamental beauty,\ncurated with care.\n\nA proposed home for living colour, planted landscapes and natural structure \u2014 for retailers, aquascapers and enthusiasts who plan with intent.\n\nBrowse the collections\nHow we think about quality\n\nTHE COLLECTIONS\n\nThree families, one composition.\n\nFish bring movement, plants build the landscape and driftwood gives it structure. Each family has its own page.\n\n01\n\nOrnamental Fish\n\nColour, finnage and movement \u2014 the living focal point of a display.\n\nEXPLORE\n\n02\n\nAquatic Plants\n\nLayers of leaf, texture and colour that turn a tank into a landscape.\n\nEXPLORE\n\n03\n\nDriftwood\n\nNatural structure that sets the lines and scale of the whole composition.\n\nEXPLORE\n\nView the collections overview\n\nILLUSTRATIVE SCENE\n\nOUR STORY\n\nNature, people and water.\n\nAquatic World starts from a simple idea: the beauty of a living landscape can travel, if it is chosen and handled with care. The story page sets out the perspective behind the brand.\n\nBringing the beauty of nature a little further.\n\nRead our story\n\nQUALITY\n\nCare in every step, stated plainly.\n\nFour proposed principles that guide selection and handling. They describe an approach, not a certification.\n\nSee the full approach\nSelect with questions\n\nEvery choice starts from the display it is meant for.\n\nObserve before offering\n\nCondition and behaviour are watched, not assumed.\n\nHandle with intent\n\nPacking is planned for the journey, not for appearance.\n\nFollow up honestly\n\nAsk how things settled and say what is unknown.\n\nPLAN A PROJECT\n\nTell us what you are building.\n\nPrepare a short enquiry brief. In this demo it is previewed in your browser and never sent.\n\nDiscuss a project",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/hero-angelfish-fish-640.webp",
+          "rendered": true,
+          "width": 512,
+          "alt": "A striped angelfish with long trailing fins glides over driftwood and dense green plants."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-ornamental-fish-640.webp",
+          "rendered": true,
+          "width": 307,
+          "alt": "A blue-bodied fish with sweeping red fins against dark water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-aquatic-plants-640.webp",
+          "rendered": true,
+          "width": 307,
+          "alt": "A planted aquascape: long green leaves, fine stems and moss growing over driftwood."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-driftwood-640.webp",
+          "rendered": true,
+          "width": 307,
+          "alt": "A large branching piece of driftwood rising from dark gravel under water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/heritage-waterfront-640.webp",
+          "rendered": true,
+          "width": 512,
+          "alt": "A green waterfront at golden hour, with a city skyline beyond calm water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/enquiry-underwater-school-1280.webp",
+          "rendered": true,
+          "width": 1024,
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": "page",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Browse the collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "How we think about quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "View the collections overview",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Read our story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "See the full approach",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/collections/",
+      "page": "collections",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Collections \u2014 Aquatic World",
+      "h1": [
+        "Three collection families"
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3118,
+      "mainText": "COLLECTIONS\n\nThree collection families\n\nA good aquatic display is a composition: something that moves, a landscape that grows and a structure that holds it together. Start with the family you need, or read how they work together below.\n\n01\nOrnamental Fish\n02\nAquatic Plants\n03\nDriftwood\n\n01 COLLECTION\n\nOrnamental Fish\n\nFish bring movement and colour to a composition. This family is presented as studies of form and finnage, with selection framed as questions to discuss rather than a stock list.\n\nColour and finnage\nForm and movement\nCommunity fit\nEXPLORE ORNAMENTAL FISH\n\n02 COLLECTION\n\nAquatic Plants\n\nPlants build depth and atmosphere. This family is organised around how foliage shapes a scape \u2014 layer, leaf form, colour and texture \u2014 not around a catalogue of species.\n\nLayer and depth\nLeaf form and texture\nColour contrast\nEXPLORE AQUATIC PLANTS\n\n03 COLLECTION\n\nDriftwood\n\nDriftwood is the structure of a scape. Each piece is discussed by its lines, branching and mass, and by how its surface reads under water and light.\n\nLine and branching\nMass and scale\nSurface and tone\nEXPLORE DRIFTWOOD\n\nHOW THE FAMILIES DIFFER\n\nEach family does a different job.\n01\nOrnamental Fish\nROLE IN A DISPLAY\nThe moving focal point that draws the eye first.\nWHAT TO LOOK AT\nColour depth, fin condition, how the fish carries itself.\nA QUESTION TO BRING\nWhich other inhabitants and what display size are planned?\nOrnamental Fish\n02\nAquatic Plants\nROLE IN A DISPLAY\nThe landscape: depth, softness and a sense of scale.\nWHAT TO LOOK AT\nLeaf shape, density, colour and how growth fills space.\nA QUESTION TO BRING\nWhich layer needs work, and what mood should the scape carry?\nAquatic Plants\n03\nDriftwood\nROLE IN A DISPLAY\nThe skeleton: lines, scale and the main direction of movement.\nWHAT TO LOOK AT\nSilhouette, branching, surface texture and tone.\nA QUESTION TO BRING\nWhat are the display dimensions and the intended viewing side?\nDriftwood\nNot sure which family you need?\n\nDescribe the display you have in mind and choose \u201cNot sure yet\u201d.\n\nStart an enquiry brief",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-ornamental-fish-640.webp",
+          "rendered": true,
+          "width": 593,
+          "alt": "A blue-bodied fish with sweeping red fins against dark water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-aquatic-plants-640.webp",
+          "rendered": true,
+          "width": 368,
+          "alt": "A planted aquascape: long green leaves, fine stems and moss growing over driftwood."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-driftwood-640.webp",
+          "rendered": true,
+          "width": 368,
+          "alt": "A large branching piece of driftwood rising from dark gravel under water."
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": "page",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "01\nOrnamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "02\nAquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "03\nDriftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Start an enquiry brief",
+          "href": "/contact/?interest=not-sure#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/collections/ornamental-fish/",
+      "page": "fish",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Ornamental Fish \u2014 Collections \u2014 Aquatic World",
+      "h1": [
+        "Ornamental Fish"
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3590,
+      "mainText": "Home\nCollections\nOrnamental Fish\n\nCOLLECTION 01\n\nOrnamental Fish\n\nFish bring movement and colour to a composition. This family is presented as studies of form and finnage, with selection framed as questions to discuss rather than a stock list.\n\nPrepare a fish enquiry\nAll collections\n\nSTUDIES\n\nColour and form, side by side.\n\nTwo illustrative studies. Descriptions note what is visible in the image; they are not confirmed species or available stock.\n\nSTUDY 01\nSingle-colour, long-finned form\nDeep red throughout; the spread of the fins carries most of the visual weight.\nSTUDY 02\nBanded, tall-bodied form\nVertical bands and long trailing fins read strongly against planted backgrounds.\n\nSELECTION CONSIDERATIONS\n\nWhat shapes a fish selection\n\nFramed as questions for a conversation. Care requirements vary by fish and should be confirmed for each case.\n\ni.\n\nColour and finnage\n\nIs colour meant to lead the display or accent it? Long fins read beautifully in calm water but change how a fish fits with others.\n\nii.\n\nForm and movement\n\nTall, slow-moving forms suit open water; small, quick fish bring life to planted edges. Movement is part of the composition.\n\niii.\n\nCommunity fit\n\nWhich inhabitants are already there or planned? Temperament and pace matter as much as appearance.\n\niv.\n\nDisplay context\n\nViewing distance, lighting and background colour all change how a fish is seen. A dark planted scape and a bright open tank ask for different choices.\n\nENQUIRY CONTEXT\n\nPreparing a fish enquiry\n\nA short, specific brief makes the first conversation useful. The contact page will start with ornamental fish selected.\n\nPrepare a fish enquiry\nDisplay size, layout and where it will be viewed from\nCurrent or planned inhabitants\nThe look you are after: colour, movement, calm or lively\nAn approximate quantity range and timing\nWhether plants or driftwood are part of the same plan\n\nCONTINUE EXPLORING\n\nOther collections\nBack to all collections\n\n02\n\nAquatic Plants\n\nLayers of leaf, texture and colour that turn a tank into a landscape.\n\nEXPLORE\n\n03\n\nDriftwood\n\nNatural structure that sets the lines and scale of the whole composition.\n\nEXPLORE",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-ornamental-fish-640.webp",
+          "rendered": true,
+          "width": 512,
+          "alt": "A blue-bodied fish with sweeping red fins against dark water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/highlight-red-betta-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A red long-finned fish with fully spread fins against a dark background."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/highlight-angelfish-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A silver and black striped angelfish in profile among green plants."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-aquatic-plants-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A planted aquascape: long green leaves, fine stems and moss growing over driftwood."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-driftwood-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A large branching piece of driftwood rising from dark gravel under water."
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections (current section)",
+          "href": "/collections/",
+          "current": "location",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a fish enquiry",
+          "href": "/contact/?interest=ornamental-fish#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "All collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a fish enquiry",
+          "href": "/contact/?interest=ornamental-fish#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Back to all collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/collections/aquatic-plants/",
+      "page": "plants",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Aquatic Plants \u2014 Collections \u2014 Aquatic World",
+      "h1": [
+        "Aquatic Plants"
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3787,
+      "mainText": "Home\nCollections\nAquatic Plants\n\nCOLLECTION 02\n\nAquatic Plants\n\nPlants build depth and atmosphere. This family is organised around how foliage shapes a scape \u2014 layer, leaf form, colour and texture \u2014 not around a catalogue of species.\n\nPrepare a plant enquiry\nAll collections\n\nCOMPOSITION\n\nHow plants shape an aquascape\n\nMost planted displays read in three layers. Thinking in layers makes it easier to describe what a scape needs.\n\n3\nBackground\n\nTall, upright growth that gives height and hides the back of the display.\n\n2\nMidground\n\nBushier forms that bridge the layers and soften hardscape edges.\n\n1\nForeground\n\nLow, fine growth that keeps the front open and creates a sense of depth.\n\n3\n2\n1\nFront view, simplified. Proportions are illustrative.\nIllustrative study: red and bronze foliage against green.\n\nVISUAL CHARACTERISTICS\n\nWhat to look at in a plant\nLeaf form\nBroad leaves read as calm surfaces; fine leaves and stems read as texture and movement.\nColour\nMost scapes are built on greens. A single group of red or bronze foliage becomes a focal point.\nTexture\nMixing coarse and fine textures helps each layer stay distinct from a distance.\nGrowth habit\nUpright, spreading or carpeting growth decides where a plant belongs in the layers.\n\nENQUIRY CONTEXT\n\nQuestions to plan a plant enquiry around\n\nA short, specific brief makes the first conversation useful. The contact page will start with aquatic plants selected.\n\nPrepare a plant enquiry\nWhich layer needs attention: background, midground or foreground?\nThe mood you want: lush and dense, or open and minimal\nDisplay dimensions and lighting, as far as you know them\nExisting hardscape the planting should work with\nApproximate quantities and timing\n\nCONTINUE EXPLORING\n\nOther collections\nBack to all collections\n\n01\n\nOrnamental Fish\n\nColour, finnage and movement \u2014 the living focal point of a display.\n\nEXPLORE\n\n03\n\nDriftwood\n\nNatural structure that sets the lines and scale of the whole composition.\n\nEXPLORE",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-aquatic-plants-1448.webp",
+          "rendered": true,
+          "width": 1024,
+          "alt": "A planted aquascape: long green leaves, fine stems and moss growing over driftwood."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/highlight-red-plants-640.webp",
+          "rendered": true,
+          "width": 430,
+          "alt": "Red and bronze leaves rising from a cluster of green aquatic plants."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-ornamental-fish-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A blue-bodied fish with sweeping red fins against dark water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-driftwood-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A large branching piece of driftwood rising from dark gravel under water."
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections (current section)",
+          "href": "/collections/",
+          "current": "location",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a plant enquiry",
+          "href": "/contact/?interest=aquatic-plants#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "All collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a plant enquiry",
+          "href": "/contact/?interest=aquatic-plants#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Back to all collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/collections/driftwood/",
+      "page": "driftwood",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Driftwood \u2014 Collections \u2014 Aquatic World",
+      "h1": [
+        "Driftwood"
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3430,
+      "mainText": "Home\nCollections\nDriftwood\n\nCOLLECTION 03\n\nDriftwood\n\nDriftwood is the structure of a scape. Each piece is discussed by its lines, branching and mass, and by how its surface reads under water and light.\n\nROLE\nThe skeleton: lines, scale and the main direction of movement.\nLOOK AT\nSilhouette, branching, surface texture and tone.\nPrepare a hardscape enquiry\nAll collections\nFocal point\nOpen water\nMain line\nSimplified front view with thirds marked.\n\nSTRUCTURE\n\nStructure sets the composition\nLines lead the eye\n\nThe main direction of a piece decides how a viewer moves through the display.\n\nMass sets the scale\n\nA heavy base grounds the scene; fine branches make a display feel larger than it is.\n\nSpace lets it breathe\n\nLeaving open water beside the structure gives fish room to be seen.\n\nMATERIAL\n\nReading the material\n\nVisual notes for choosing between pieces. Preparation and suitability depend on the individual piece and display, and should be confirmed case by case.\n\nSilhouette\nSeen from the main viewing side, does the outline have one clear direction or several competing ones?\nBranching\nDense, fine branching creates detail and shelter; few heavy limbs create a bolder, calmer shape.\nSurface\nDeep grooves and worn edges catch light differently from smooth wood, and plants attach to them differently.\nTone\nWarm brown tones contrast with green planting; darker wood recedes into a dark background.\n\nENQUIRY CONTEXT\n\nPlanning a hardscape enquiry\n\nA short, specific brief makes the first conversation useful. The contact page will start with driftwood selected.\n\nPrepare a hardscape enquiry\nDisplay dimensions and the main viewing side\nThe shape you imagine: upright, spreading or a single branch\nWhether one statement piece or several smaller pieces\nPlanting and fish planned around the structure\nPhotos or sketches of the space, if you have them\n\nCONTINUE EXPLORING\n\nOther collections\nBack to all collections\n\n01\n\nOrnamental Fish\n\nColour, finnage and movement \u2014 the living focal point of a display.\n\nEXPLORE\n\n02\n\nAquatic Plants\n\nLayers of leaf, texture and colour that turn a tank into a landscape.\n\nEXPLORE",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-driftwood-640.webp",
+          "rendered": true,
+          "width": 471,
+          "alt": "A large branching piece of driftwood rising from dark gravel under water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-ornamental-fish-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A blue-bodied fish with sweeping red fins against dark water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/collection-aquatic-plants-640.webp",
+          "rendered": true,
+          "width": 460,
+          "alt": "A planted aquascape: long green leaves, fine stems and moss growing over driftwood."
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections (current section)",
+          "href": "/collections/",
+          "current": "location",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a hardscape enquiry",
+          "href": "/contact/?interest=driftwood#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "All collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Prepare a hardscape enquiry",
+          "href": "/contact/?interest=driftwood#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Back to all collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/our-story/",
+      "page": "story",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Our Story \u2014 Aquatic World",
+      "h1": [
+        "Bringing the beauty of nature a little further."
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3672,
+      "mainText": "OUR STORY\n\nBringing the beauty of nature a little further.\n\nA proposed perspective for the Aquatic World brand: why living water matters, who it is for, and how it should be handled.\n\nIllustrative waterfront scene. It does not depict company premises or a confirmed location.\n\nI\n\nNature\n\nAplanted aquarium is a small landscape that keeps changing. Light moves through leaves, wood softens with time and fish settle into the spaces left for them. The brand begins from respect for that living quality \u2014 the idea that a display is grown and looked after, not simply assembled.\n\nII\n\nPeople\n\nThe people behind a beautiful display are rarely seen: the retailer who advises a first-time keeper, the aquascaper who spends weeks on a single layout, the enthusiast who rebuilds a tank until it feels right. Aquatic World is imagined as a partner to them \u2014 useful in conversation, careful in what it promises.\n\nGood aquatic things travel far \u2014 when they are chosen with care.\n\nIII\n\nWater\n\nWater connects every part of the work, from the place a plant grows to the display where it finally sits. Moving living things through water asks for patience and honesty about what can and cannot be known in advance. That is where quality starts.\n\nStill water. Slow decisions.\n\nPROPOSED VALUES\n\nWhat the brand would stand for\n\nDraft values for discussion; they would need to be confirmed by a real organisation before public use.\n\nComposition over collection\n\nHelp people build displays that work as a whole, not lists of items.\n\nCare that can be explained\n\nEvery handling decision should have a reason someone can ask about.\n\nHonesty about the unknown\n\nSay clearly what is illustrative, uncertain or still to be confirmed.\n\nSee where the story leads.\n\nThree collection families, each with its own page.\n\nExplore the collections\nRead about quality",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/heritage-waterfront-1024.webp",
+          "rendered": true,
+          "width": 1024,
+          "alt": "A green waterfront at golden hour, with a city skyline beyond calm water."
+        },
+        {
+          "src": "http://127.0.0.1:4202/assets/img/enquiry-underwater-school-1280.webp",
+          "rendered": true,
+          "width": 1024,
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": "page",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Explore the collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Read about quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/quality/",
+      "page": "quality",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Quality \u2014 Aquatic World",
+      "h1": [
+        "A thoughtful selection process, explained."
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 3333,
+      "mainText": "QUALITY\n\nA thoughtful selection process, explained.\n\nQuality in living goods is mostly about decisions made before anything moves. This page sets out what a careful process should consider and the questions worth asking.\n\nProposed principles. Aquatic World is an illustrative concept. Nothing on this page is a certification, guarantee or audited standard.\n\nTHE PROCESS\n\nFive considerations, in order\n\nEach step pairs a principle with a question a buyer can reasonably ask.\n\n01\nSourcing\n\nKnow where each item comes from and keep a record that can be shared.\n\nASK\nWhere does this come from, and how is that recorded?\n\n02\nObservation\n\nAllow time to watch condition and behaviour before anything is offered.\n\nASK\nHow long is something observed before it is offered?\n\n03\nPreparation\n\nPlan holding and acclimation around the receiving display, not a generic routine.\n\nASK\nWhat do you need to know about my setup?\n\n04\nHandling & packing\n\nPack for the journey and the conditions, and keep handling to a minimum.\n\nASK\nHow is packing adapted to distance and timing?\n\n05\nFollow-up\n\nAsk how things settled and record what should change next time.\n\nASK\nWhat happens if something does not settle well?\n\nIllustrative study image.\n\nPRACTICAL QUESTIONS\n\nQuestions worth asking any supplier\nWhat information comes with each item?\nHow are condition and behaviour checked?\nHow is packing chosen for distance and timing?\nWhat should be ready before arrival?\nWho can I talk to if something looks wrong?\nWhat cannot be known in advance?\n\nEXPECTATIONS\n\nReasonable expectations, on both sides\nWhat a supplier can describe\n\nHow items are selected, observed, packed and followed up \u2014 and what records exist.\n\nWhat depends on the receiver\n\nA prepared display, a plan for arrival and honest information about the setup.\n\nWhat no one can promise\n\nLiving things vary. Clear communication matters more than guarantees.\n\nHave specific requirements?\n\nNote them in an enquiry brief so they can be discussed first.\n\nDiscuss requirements",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/highlight-angelfish-640.webp",
+          "rendered": true,
+          "width": 389,
+          "alt": "A silver and black striped angelfish in profile among green plants."
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": "page",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss requirements",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    },
+    {
+      "runner": "claude",
+      "route": "/contact/",
+      "page": "contact",
+      "viewport": "overflow-1024",
+      "httpStatus": 200,
+      "title": "Contact \u2014 Prepare an enquiry brief \u2014 Aquatic World",
+      "h1": [
+        "Prepare an enquiry brief"
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 0,
+      "pageHeight": 1947,
+      "mainText": "CONTACT\n\nPrepare an enquiry brief\n\nDescribe your project and preview a tidy brief. Nothing is sent \u2014 the preview stays in your browser.\n\nYour enquiry brief\n\nFields marked REQUIRED must be completed. Nothing you type leaves this page.\n\nName\nREQUIRED\nOrganisation\nOPTIONAL\nEmail\nREQUIRED\n\nUsed only in the preview below.\n\nYou are\nOPTIONAL\nChoose one\nAquarium retailer\nAquascaping professional\nEnthusiast\nOther\nCollections involved\nREQUIRED\nOrnamental Fish\nAquatic Plants\nDriftwood\nNot sure yet\n\nChoose \u201cNot sure yet\u201d if you would like the families suggested from your description.\n\nAbout the project\nREQUIRED\n\nAt least 20 characters. Display size, look and timing are a good start.\n\nTiming\nOPTIONAL\nNo fixed timing\nWithin a month\nIn one to three months\nLater / exploring\nPreview enquiry\n\nPreview only. No message is sent.\n\nHow this works\nDescribe the project and the families involved.\nPreview the brief and check it reads well.\nNothing is sent: there is no enquiry service behind this demo.\nWhat makes a brief useful\nDisplay size and viewing side\nExisting or planned inhabitants and planting\nThe look and mood you want\nApproximate quantities and timing\n\nDemo limitation. This concept has no email address, phone number or form endpoint. Real contact details would be added only once verified.",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4202/assets/img/enquiry-underwater-school-1280.webp",
+          "rendered": true,
+          "width": 1024,
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": "page",
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Discuss a project",
+          "href": "/contact/#enquiry",
+          "current": null,
+          "inHeader": true,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "Back to the collection",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": false,
+          "visible": false
+        },
+        {
+          "text": "AQUATIC WORLD",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Collections",
+          "href": "/collections/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Our Story",
+          "href": "/our-story/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Quality",
+          "href": "/quality/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Contact",
+          "href": "/contact/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Ornamental Fish",
+          "href": "/collections/ornamental-fish/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Aquatic Plants",
+          "href": "/collections/aquatic-plants/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Driftwood",
+          "href": "/collections/driftwood/",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        },
+        {
+          "text": "Back to top",
+          "href": "#top",
+          "current": null,
+          "inHeader": false,
+          "inFooter": true,
+          "visible": true
+        }
+      ],
+      "brokenAnchors": [],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 65,
+        "position": "sticky"
+      },
+      "outside": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "text": "MENU",
+          "name": null,
+          "type": "button",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "text",
+          "id": "f-name"
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "text",
+          "id": "f-org"
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "email",
+          "id": "f-email"
+        },
+        {
+          "tag": "SELECT",
+          "text": "Choose one\nAquarium retailer\nAquascaping professional\nEnthusiast\nOther",
+          "name": null,
+          "type": null,
+          "id": "f-role"
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "checkbox",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "checkbox",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "checkbox",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "name": null,
+          "type": "checkbox",
+          "id": ""
+        },
+        {
+          "tag": "TEXTAREA",
+          "text": "",
+          "name": null,
+          "type": null,
+          "id": "f-project"
+        },
+        {
+          "tag": "SELECT",
+          "text": "No fixed timing\nWithin a month\nIn one to three months\nLater / exploring",
+          "name": null,
+          "type": null,
+          "id": "f-timing"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Preview enquiry",
+          "name": null,
+          "type": "submit",
+          "id": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Edit brief",
+          "name": null,
+          "type": "button",
+          "id": ""
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Clear and start again",
+          "name": null,
+          "type": "button",
+          "id": ""
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "errorResponses": []
+}

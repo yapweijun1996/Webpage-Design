@@ -1,0 +1,236 @@
+{
+  "runner": "codex",
+  "capturedAt": "2026-10-11T03:59:56.597Z",
+  "browser": "154.0.8037.99",
+  "checks": [
+    {
+      "id": "keyboard-skip-focus",
+      "status": "pass",
+      "observed": {
+        "text": "Skip to content",
+        "outline": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "menu-open-focus",
+      "status": "pass",
+      "observed": {
+        "expanded": "true",
+        "focused": "Collections"
+      }
+    },
+    {
+      "id": "menu-escape-focus-return",
+      "status": "pass",
+      "observed": {
+        "expanded": "false",
+        "focused": "Menu"
+      }
+    },
+    {
+      "id": "menu-link-closes-and-navigates",
+      "status": "pass",
+      "observed": {
+        "hash": "#collections",
+        "expanded": "false"
+      }
+    },
+    {
+      "id": "collection-opens-focus-and-no-overflow",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-fish",
+        "detailsOpen": true,
+        "focusedTag": "H3",
+        "focusedId": "",
+        "overflow": false
+      }
+    },
+    {
+      "id": "collection-escape-focus-return",
+      "status": "pass",
+      "observed": {
+        "detailsOpen": false,
+        "focusedHref": "#collection-fish"
+      }
+    },
+    {
+      "id": "browser-back-restores-closed-details",
+      "status": "pass",
+      "observed": {
+        "hash": "",
+        "detailsOpen": false
+      }
+    },
+    {
+      "id": "collection-direct-link",
+      "status": "pass",
+      "observed": {
+        "hash": "#collection-fish",
+        "detailsOpen": true
+      }
+    },
+    {
+      "id": "enquiry-cta-and-unavailable-state",
+      "status": "pass",
+      "observed": {
+        "hash": "#enquiry",
+        "text": "NATUREPEOPLEPOSSIBILITYIMAGINE A BRIGHTER AQUATIC WORLDBusiness EnquiriesBeautiful possibilities begin with a conversation.Fictional demo \u2014 real enquiries are unavailable.Enquiry Information\u27f6A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections\u27f6Good thingsbegin withnature."
+      }
+    },
+    {
+      "id": "enquiry-information-disclosure",
+      "status": "pass",
+      "observed": {
+        "open": true,
+        "text": "Enquiry Information\u27f6A design preview, for now.There is no verified business contact or enquiry backend connected to this concept. No message is collected, stored or sent. Explore the collection studies to continue the preview.Back to Collections\u27f6"
+      }
+    },
+    {
+      "id": "fixture:default@1440",
+      "status": "pass",
+      "observed": {
+        "count": 3,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:default@390",
+      "status": "pass",
+      "observed": {
+        "count": 3,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/minimal.html@1440",
+      "status": "pass",
+      "observed": {
+        "count": 1,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          false,
+          false
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/minimal.html@390",
+      "status": "pass",
+      "observed": {
+        "count": 1,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          false,
+          false
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/five.html@1440",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/five.html@390",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Aquatic World \u2014 An Aquatic Design Concept",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": null
+      }
+    },
+    {
+      "id": "fixture:fixtures/alternate.html@1440",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Tidal Atelier \u2014 Water, Form & Imagination",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": false
+      }
+    },
+    {
+      "id": "fixture:fixtures/alternate.html@390",
+      "status": "pass",
+      "observed": {
+        "count": 5,
+        "title": "Tidal Atelier \u2014 Water, Form & Imagination",
+        "overflow": false,
+        "optionalSections": [
+          true,
+          true
+        ],
+        "brokenAnchors": [],
+        "oldBrandPresent": false
+      }
+    },
+    {
+      "id": "reduced-motion-scroll",
+      "status": "pass",
+      "observed": {
+        "matched": true,
+        "scrollBehavior": "auto"
+      }
+    },
+    {
+      "id": "no-javascript-readable-layout",
+      "status": "pass",
+      "observed": {
+        "h1": "A World ofOrnamental Beauty,Inspired by Nature.",
+        "mainTextLength": 1710,
+        "overflow": false,
+        "visibleHeaderLinks": 6
+      }
+    },
+    {
+      "id": "blocking-runtime-errors",
+      "status": "pass",
+      "observed": []
+    }
+  ],
+  "errors": [],
+  "unexpectedWrites": []
+}

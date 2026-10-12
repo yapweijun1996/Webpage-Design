@@ -1,0 +1,16 @@
+{
+  "4170": {
+    "exec_session": 68186,
+    "command": "python3 -m http.server 4170 --bind 127.0.0.1 --directory companies/aquatic-world"
+  },
+  "4231": {
+    "exec_session": 98245,
+    "cwd": "companies/aquatic-world/round-6-animation/codex",
+    "command": "AQUATIC_PREVIEW_PORT=4231 python3 -B demo/serve.py"
+  },
+  "4232": {
+    "exec_session": 61186,
+    "cwd": "companies/aquatic-world/round-6-animation/claude/demo",
+    "command": "AQUATIC_PREVIEW_PORT=4232 npm run serve"
+  }
+}

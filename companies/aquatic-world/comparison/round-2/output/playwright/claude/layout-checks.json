@@ -1,0 +1,1777 @@
+{
+  "label": "claude",
+  "capturedAt": "2026-10-11T04:09:43.119Z",
+  "url": "http://127.0.0.1:4182/",
+  "browser": "154.0.8037.99",
+  "layouts": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 1440,
+      "pageHeight": 2086,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "48.96px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "33.12px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "33.12px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "33.12px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "33.12px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "33.12px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 76
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 606.421875
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 606.421875,
+          "height": 319.359375
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 925.78125,
+          "height": 327.4140625
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 1253.1953125,
+          "height": 239.28125
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 1492.4765625,
+          "height": 234.953125
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 1727.4296875,
+          "height": 286.46875
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 2013.8984375,
+          "height": 72.78125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 1440,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 720,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1440,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1440,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 768,
+        "height": 1024,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 768,
+      "pageHeight": 3498,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "44px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 68
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1043.40625
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1043.40625,
+          "height": 807.7890625
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1851.1953125,
+          "height": 515.546875
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 2366.7421875,
+          "height": 367.3671875
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 2734.109375,
+          "height": 402.359375
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 3136.46875,
+          "height": 268.7890625
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 3405.2578125,
+          "height": 92.65625
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 768,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 768,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 230,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 230,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 230,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 0,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 0,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 0,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 768,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 345,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 345,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 345,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 345,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 768,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 390,
+      "pageHeight": 4229,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "32.76px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 68
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1036.0703125
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1036.0703125,
+          "height": 668.78125
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1704.8515625,
+          "height": 783.53125
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 2488.3828125,
+          "height": 661.7109375
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 3150.09375,
+          "height": 586.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 3736.3125,
+          "height": 328.3125
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 4064.625,
+          "height": 164.9375
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 390,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 390,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 214,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 214,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 214,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 389,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 389,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 389,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 389,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 351,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 351,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 351,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 351,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 389,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "320",
+      "width": 320,
+      "height": 844,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 320,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 320,
+      "pageHeight": 4264,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "32px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 68
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1028.5625
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1028.5625,
+          "height": 653.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1681.78125,
+          "height": 820.3671875
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 2502.1484375,
+          "height": 706.3359375
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 3208.484375,
+          "height": 516.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 3724.703125,
+          "height": 328.3125
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 4053.015625,
+          "height": 211.171875
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 320,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 320,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 176,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 176,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 176,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 320,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 320,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 320,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 320,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 288,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 288,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 288,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 288,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 320,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "360",
+      "width": 360,
+      "height": 844,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 360,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 360,
+      "pageHeight": 4201,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "32px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 68
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1030.8046875
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1030.8046875,
+          "height": 675.71875
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1706.5234375,
+          "height": 783.53125
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 2490.0546875,
+          "height": 661.7109375
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 3151.765625,
+          "height": 556.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 3707.984375,
+          "height": 328.3125
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 4036.296875,
+          "height": 164.9375
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 360,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 360,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 198,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 198,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 198,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 360,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 360,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 360,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 360,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 324,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 324,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 324,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 324,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 360,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "430",
+      "width": 430,
+      "height": 844,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 430,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 430,
+      "pageHeight": 4242,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "36.12px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 68
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1067.5
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1067.5,
+          "height": 665.2890625
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1732.7890625,
+          "height": 760.71875
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 2493.5078125,
+          "height": 661.7109375
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 3155.21875,
+          "height": 626.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 3781.4375,
+          "height": 310.2265625
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 4091.6640625,
+          "height": 150.15625
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 430,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 430,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 236,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 236,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 236,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 430,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 430,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 430,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 430,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 387,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 387,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 387,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 387,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 430,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "1024",
+      "width": 1024,
+      "height": 900,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 1024,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 1024,
+      "pageHeight": 2546,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.816px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "25.6px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 76
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 1031.5625
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 1031.5625,
+          "height": 411.4140625
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 1442.9765625,
+          "height": 307.9921875
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 1750.96875,
+          "height": 245.6640625
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 1996.6328125,
+          "height": 208.21875
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 2204.8515625,
+          "height": 268.7890625
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 2473.640625,
+          "height": 72.78125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 1024,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 512,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1024,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1024,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    },
+    {
+      "name": "1920",
+      "width": 1920,
+      "height": 1080,
+      "title": "AQUATIC WORLD \u2014 Ornamental Aquatic Collections (Demo Concept)",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "scrollWidth": 1920,
+      "pageHeight": 2137,
+      "fontStatus": "loaded",
+      "headings": [
+        {
+          "level": "H1",
+          "text": "A World of Ornamental Beauty, Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "49.6px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "A Story Shapedby the Water.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.4px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Nature\u2019s Finest,Thoughtfully Curated.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.4px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Quality in Every Detail.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.4px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Exceptional LifeBelow the Surface.",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.4px",
+          "fontWeight": "400"
+        },
+        {
+          "level": "H2",
+          "text": "Business Enquiries",
+          "font": "Georgia, \"Times New Roman\", serif",
+          "fontSize": "34.4px",
+          "fontWeight": "400"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "HEADER",
+          "id": "site-header",
+          "class": "site-header",
+          "top": 0,
+          "height": 76
+        },
+        {
+          "tag": "SECTION",
+          "id": "top",
+          "class": "hero",
+          "top": 0,
+          "height": 660
+        },
+        {
+          "tag": "SECTION",
+          "id": "heritage",
+          "class": "heritage",
+          "top": 660,
+          "height": 300
+        },
+        {
+          "tag": "SECTION",
+          "id": "collections",
+          "class": "collections",
+          "top": 960,
+          "height": 332.34375
+        },
+        {
+          "tag": "SECTION",
+          "id": "quality",
+          "class": "quality",
+          "top": 1292.34375,
+          "height": 241.3828125
+        },
+        {
+          "tag": "SECTION",
+          "id": "highlights",
+          "class": "highlights",
+          "top": 1533.7265625,
+          "height": 240.28125
+        },
+        {
+          "tag": "SECTION",
+          "id": "enquiry",
+          "class": "enquiry",
+          "top": 1774.0078125,
+          "height": 290.8203125
+        },
+        {
+          "tag": "FOOTER",
+          "id": "",
+          "class": "site-footer",
+          "top": 2064.828125,
+          "height": 72.78125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/hero-angelfish-1280.webp",
+          "complete": true,
+          "width": 1920,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/heritage-waterfront-1080.webp",
+          "complete": true,
+          "width": 960,
+          "rendered": true,
+          "alt": "Illustrative waterfront skyline at sunset with gardens along the shore."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 219,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/collection-ornamental-fish-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative blue and red fish with flowing fins against dark water."
+        },
+        {
+          "src": "assets/img/collection-aquatic-plants-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative green aquascape with broad leaves and mossy stones."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": false,
+          "width": 460,
+          "rendered": false,
+          "alt": "Illustrative branching driftwood among aquarium plants."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1920,
+          "rendered": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/img/highlight-red-betta-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red fish with long flowing fins."
+        },
+        {
+          "src": "assets/img/highlight-angelfish-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative silver fish with black vertical stripes and long trailing fins."
+        },
+        {
+          "src": "assets/img/highlight-red-plants-800.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative red and bronze aquatic foliage."
+        },
+        {
+          "src": "assets/img/collection-driftwood-960.webp",
+          "complete": true,
+          "width": 180,
+          "rendered": true,
+          "alt": "Illustrative branching driftwood in a planted aquarium."
+        },
+        {
+          "src": "assets/img/enquiry-underwater-school-1600.webp",
+          "complete": true,
+          "width": 1920,
+          "rendered": true,
+          "alt": ""
+        }
+      ],
+      "brokenAnchors": [],
+      "unnamedButtons": 0,
+      "offscreenElements": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4182/assets/img/hero-angelfish-1882.webp",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4182/assets/img/hero-angelfish-1882.webp",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "errorResponses": [],
+  "output": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-2/output/playwright/claude"
+}

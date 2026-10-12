@@ -1,0 +1,30 @@
+{
+  "round": "round-2 shared feedback revision",
+  "model": "claude-opus-5-5 (Claude Opus 5.5, as reported by the session)",
+  "cli": "Claude Code 2.1.289 (`claude --version`), non-interactive --print, permission mode auto",
+  "effort": "reasoning_effort=10 (value shown in this session's system context; the CLI command in process-run.json passes no --effort flag)",
+  "tools_used": [
+    "Bash",
+    "Read",
+    "Edit/Write via shell (python3 replacements)",
+    "Node.js v23.10.0",
+    "Playwright 1.64.0 with Chromium 156.0.8078.4 headless",
+    "Python 3 + Pillow (screenshot cropping only)"
+  ],
+  "tools_not_used": "No subagents, no other models, no MCP servers, no web access. chrome-devtools MCP failed to connect and was not needed.",
+  "delegation": "none",
+  "started_at": "2026-10-11T03:28:53Z",
+  "finished_at": "2026-10-11T04:08:03Z",
+  "elapsed": "39 minutes wall clock (from process-run.json start to final test run)",
+  "human_interventions": [
+    {
+      "kind": "identical_feedback",
+      "path": "REVIEW.md",
+      "submissions": 1
+    }
+  ],
+  "usage_cost": "unknown \u2014 not exposed to the session",
+  "verification": "evidence/revision-round-2/checks.json \u2014 60/60 automated browser checks passed (final run after all code changes)",
+  "frozen_inputs_modified": false,
+  "self_review": "One advisor review before delivery (same session, no delegated implementation); its findings \u2014 header overlap at narrow widths, unmeasured text-over-image layers, total-height proportion check, effort field \u2014 were fixed and re-verified."
+}

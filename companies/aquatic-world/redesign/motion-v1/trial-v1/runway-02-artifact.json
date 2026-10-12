@@ -1,0 +1,23 @@
+{
+  "artifact": {
+    "id": "f6ff8bedca7d4ad392376d64236a6506",
+    "project_id": "aquatic-world-homepage-motion-v1",
+    "medium": "video",
+    "character_id": "hero-angelfish",
+    "style_id": "calm-aquarium",
+    "title": "Aquatic hero Runway refinement 02",
+    "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_runway_20261012_02.mp4",
+    "generation_settings": {
+      "aspect_ratio": "16:9",
+      "duration_seconds": 6,
+      "generate_audio": false,
+      "model": "runway/gen-4.5",
+      "request_id": "aquatic_runway_20261012_02",
+      "resolution": "720p"
+    },
+    "actual_cost_usd": "0.72",
+    "cost_source": "provider_job",
+    "created_at_utc": "2026-10-11T22:46:14.691142+00:00"
+  },
+  "reviews": []
+}

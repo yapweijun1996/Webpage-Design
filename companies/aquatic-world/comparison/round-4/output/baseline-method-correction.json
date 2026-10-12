@@ -1,0 +1,12 @@
+{
+  "correction": "The initial header measurement treated closed-details descendants as visible because Chrome gives them nonzero bounding rectangles. Browser checkVisibility() correctly reports them hidden. Only rendered header controls now participate in target/collision checks; all intended 44px and 15px expectations remain.",
+  "rejected_reports": [
+    "baseline/codex/revision-checks-before-visibility-fix.json",
+    "baseline/claude/revision-checks-before-visibility-fix.json"
+  ],
+  "final_reports": [
+    "baseline/codex/revision-checks.json",
+    "baseline/claude/revision-checks.json"
+  ],
+  "product_repair": false
+}

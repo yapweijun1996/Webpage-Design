@@ -1,0 +1,23 @@
+:root {
+  --ocean-950: #061c26;
+  --ocean-900: #0a3541;
+  --ocean-800: #0c4450;
+  --gold: #dfc087;
+  --gold-hover: #c6a466;
+  --gold-ink: #805c28;
+  --cream: #f6f4f0;
+  --ink: #10242d;
+  --slate: #43565b;
+  --fog: #c2d1d2;
+  --white: #fff;
+  --line-dark: #778b8f;
+  --line-light: #d8d5ce;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --content-width: 1280px;
+  --gutter: clamp(24px, 4.85vw, 70px);
+  --header-height: 88px;
+  --motion: 180ms;
+}
+@media (max-width: 899px) { :root { --header-height: 76px; } }
+@media (prefers-reduced-motion: reduce) { :root { --motion: 0ms; } }

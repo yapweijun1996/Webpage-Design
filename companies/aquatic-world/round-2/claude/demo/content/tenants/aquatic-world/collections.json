@@ -1,0 +1,53 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "items": [
+    {
+      "id": "ornamental-fish",
+      "title": "Ornamental Fish",
+      "description": ["Extraordinary colours.", "Remarkable variety."],
+      "image": { "asset": "collection-ornamental-fish", "alt": "Illustrative blue and red fish with flowing fins against dark water.", "position": "40% 50%" },
+      "details": {
+        "summary": "Colourful freshwater fish presented for their finnage, pattern and calm movement in a planted aquarium.",
+        "notes": [
+          "Grouped by colour, form and community suitability in a real catalogue.",
+          "Approved variety names, sizes and availability would appear here.",
+          "Imagery is illustrative and does not identify specific stock."
+        ]
+      },
+      "sortOrder": 10,
+      "enabled": true
+    },
+    {
+      "id": "aquatic-plants",
+      "title": "Aquatic Plants",
+      "description": ["Livelier environments.", "Lush, layered greenery."],
+      "image": { "asset": "collection-aquatic-plants", "alt": "Illustrative green aquascape with broad leaves and mossy stones.", "position": "35% 50%" },
+      "details": {
+        "summary": "Foreground carpets, mid-ground bushes and tall background stems for building depth in an aquascape.",
+        "notes": [
+          "Organised by placement, leaf shape and colour in a real catalogue.",
+          "Care level and growth notes would come from approved product data.",
+          "Imagery is illustrative and does not identify specific plants."
+        ]
+      },
+      "sortOrder": 20,
+      "enabled": true
+    },
+    {
+      "id": "driftwood",
+      "title": "Driftwood",
+      "description": ["Natural character.", "Lasting beauty."],
+      "image": { "asset": "collection-driftwood", "alt": "Illustrative branching driftwood among aquarium plants.", "position": "35% 50%" },
+      "details": {
+        "summary": "Sculptural branches and root forms that give an aquascape structure, shadow and a natural focal point.",
+        "notes": [
+          "Shown by shape, scale and branching style in a real catalogue.",
+          "Every natural piece differs; approved photos would show actual items.",
+          "Imagery is illustrative and does not depict a specific piece."
+        ]
+      },
+      "sortOrder": 30,
+      "enabled": true
+    }
+  ]
+}

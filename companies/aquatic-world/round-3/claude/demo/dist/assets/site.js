@@ -1,0 +1,187 @@
+// Progressive enhancement only: every page and link works without this file.
+(() => {
+  "use strict";
+
+  /* ---------- Header: scrolled state and compact menu ---------- */
+  const header = document.querySelector("[data-header]");
+  const toggle = document.querySelector("[data-menu-toggle]");
+  const compact = window.matchMedia("(max-width: 999.98px)");
+
+  const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 4);
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  const isOpen = () => toggle.getAttribute("aria-expanded") === "true";
+  function setMenu(open, { returnFocus = false } = {}) {
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.querySelector(".menu-text").textContent = open ? "Close" : "Menu";
+    header.classList.toggle("is-open", open);
+    document.body.classList.toggle("menu-open", open);
+    if (!open && returnFocus) toggle.focus();
+  }
+
+  toggle.addEventListener("click", () => setMenu(!isOpen()));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && isOpen()) setMenu(false, { returnFocus: true });
+  });
+  document.addEventListener("click", (event) => {
+    if (isOpen() && !header.contains(event.target)) setMenu(false);
+  });
+  header.addEventListener("focusout", (event) => {
+    if (isOpen() && event.relatedTarget && !header.contains(event.relatedTarget)) setMenu(false);
+  });
+  compact.addEventListener("change", () => isOpen() && setMenu(false));
+
+  /* ---------- Contact: enquiry brief preview ---------- */
+  const form = document.querySelector("[data-enquiry-form]");
+  if (!form) return;
+
+  const summary = document.querySelector("[data-error-summary]");
+  const summaryList = summary.querySelector("[data-error-list]");
+  const summaryCount = summary.querySelector("[data-error-count]");
+  const preview = document.querySelector("[data-preview]");
+  const previewList = preview.querySelector("[data-preview-list]");
+  const categoryNames = {
+    "ornamental-fish": "Ornamental Fish",
+    "aquatic-plants": "Aquatic Plants",
+    driftwood: "Driftwood",
+    "not-sure": "Not sure yet",
+  };
+
+  form.querySelectorAll("[data-requires-js]").forEach((el) => (el.disabled = false));
+
+  // Prefill collections from ?interest=slug (repeatable or comma separated).
+  const params = new URLSearchParams(window.location.search);
+  const requested = params.getAll("interest").flatMap((v) => v.split(",")).filter((v) => v in categoryNames);
+  requested.forEach((slug) => {
+    const box = form.querySelector(`input[name="interest"][value="${slug}"]`);
+    if (box) box.checked = true;
+  });
+  const context = document.querySelector("[data-context]");
+  if (requested.length && context) {
+    const first = requested[0];
+    const text = context.querySelector("[data-context-text]");
+    const link = context.querySelector("[data-context-link]");
+    if (first === "not-sure") {
+      text.textContent = "“Not sure yet” is selected. Describe the display and the families can be suggested later.";
+      link.textContent = "Browse the collections first";
+    } else {
+      text.textContent = `You came from ${categoryNames[first]}. It is selected below; change it at any time.`;
+      link.firstChild.textContent = `Back to ${categoryNames[first]} `;
+      link.href = link.getAttribute("href") + `${first}/`;
+    }
+    context.hidden = false;
+  }
+
+  // form.name is the form's own attribute, so controls are always read through form.elements.
+  const field = (name) => form.elements.namedItem(name);
+
+  const rules = {
+    name: () => (field("name").value.trim() ? "" : "Enter your name."),
+    email: () => {
+      const value = field("email").value.trim();
+      if (!value) return "Enter an email address.";
+      return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value) ? "" : "Enter an email address in the format name@example.com.";
+    },
+    interest: () => (form.querySelector('input[name="interest"]:checked') ? "" : "Choose at least one collection, or “Not sure yet”."),
+    project: () => {
+      const length = field("project").value.trim().length;
+      if (!length) return "Describe the project in a sentence or two.";
+      return length < 20 ? `Add a little more detail (${length} of 20 characters).` : "";
+    },
+  };
+  const fieldTarget = { name: "f-name", email: "f-email", project: "f-project", interest: null };
+  const firstControl = (name) =>
+    fieldTarget[name] ? document.getElementById(fieldTarget[name]) : form.querySelector(`input[name="${name}"]`);
+
+  function showFieldError(name, message) {
+    const wrapper = form.querySelector(`[data-field="${name}"]`);
+    wrapper.classList.toggle("has-error", Boolean(message));
+    wrapper.querySelector(`[data-error-for="${name}"]`).textContent = message;
+    const controls = name === "interest" ? form.querySelectorAll('input[name="interest"]') : [firstControl(name)];
+    controls.forEach((el) => (message ? el.setAttribute("aria-invalid", "true") : el.removeAttribute("aria-invalid")));
+  }
+
+  function renderSummary(errors) {
+    summaryList.replaceChildren(
+      ...errors.map(([name, message]) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = `#${firstControl(name).id || fieldTarget[name]}`;
+        a.textContent = message;
+        a.addEventListener("click", (event) => {
+          event.preventDefault();
+          firstControl(name).focus();
+        });
+        li.append(a);
+        return li;
+      }),
+    );
+    summaryCount.textContent = errors.length === 1 ? "1 field" : `${errors.length} fields`;
+    summary.hidden = errors.length === 0;
+  }
+
+  const validate = () =>
+    Object.entries(rules)
+      .map(([name, rule]) => [name, rule()])
+      .filter(([, message]) => message);
+
+  // Recover as the visitor corrects: re-check fields that already show an error.
+  form.addEventListener("input", (event) => {
+    const name = event.target.name;
+    if (!(name in rules)) return;
+    const wrapper = form.querySelector(`[data-field="${name}"]`);
+    if (!wrapper.classList.contains("has-error")) return;
+    showFieldError(name, rules[name]());
+    if (!summary.hidden) renderSummary(validate().filter(([n]) => form.querySelector(`[data-field="${n}"]`).classList.contains("has-error")));
+  });
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const errors = validate();
+    Object.keys(rules).forEach((name) => showFieldError(name, errors.find(([n]) => n === name)?.[1] ?? ""));
+    renderSummary(errors);
+    if (errors.length) {
+      summary.focus();
+      return;
+    }
+    const data = new FormData(form);
+    const rows = [
+      ["Name", data.get("name")],
+      ["Organisation", data.get("organisation") || "—"],
+      ["Email", data.get("email")],
+      ["You are", data.get("role") || "—"],
+      ["Collections", data.getAll("interest").map((v) => categoryNames[v]).join(", ")],
+      ["Project", data.get("project")],
+      ["Timing", data.get("timing") || "No fixed timing"],
+    ];
+    previewList.replaceChildren(
+      ...rows.map(([label, value]) => {
+        const div = document.createElement("div");
+        const dt = document.createElement("dt");
+        const dd = document.createElement("dd");
+        dt.textContent = label;
+        dd.textContent = String(value).trim();
+        div.append(dt, dd);
+        return div;
+      }),
+    );
+    form.hidden = true;
+    preview.hidden = false;
+    preview.focus();
+  });
+
+  preview.querySelector("[data-edit]").addEventListener("click", () => {
+    preview.hidden = true;
+    form.hidden = false;
+    field("name").focus();
+  });
+  preview.querySelector("[data-clear]").addEventListener("click", () => {
+    form.reset();
+    Object.keys(rules).forEach((name) => showFieldError(name, ""));
+    renderSummary([]);
+    preview.hidden = true;
+    form.hidden = false;
+    field("name").focus();
+  });
+})();

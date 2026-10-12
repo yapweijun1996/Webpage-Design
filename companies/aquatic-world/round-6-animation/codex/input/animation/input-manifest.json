@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-12",
+  "kind": "controlled_animation_reference_input",
+  "status": "local_study_verified_native_execution_pending_user_acceptance_pending",
+  "source": {
+    "path": "assets/hero-angelfish.png",
+    "width": 1882,
+    "height": 836,
+    "bytes": 2205920,
+    "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+    "original_company_path": "comparison/assets-v1/hero-angelfish.png",
+    "provenance": "AI-generated illustrative scene, 2026-10-10; no real-company or inventory claim"
+  },
+  "new_paid_generation_cost_usd": 0,
+  "native_workers": {
+    "codex": {
+      "requested_model": "gpt-6.1-sol",
+      "own_starting_source": "round-5/codex",
+      "status": "not_launched"
+    },
+    "claude": {
+      "requested_model": "claude-opus-5-5",
+      "own_starting_source": "round-5/claude",
+      "status": "not_launched"
+    }
+  },
+  "frozen_reference_inputs": [
+    {
+      "path": "assets/hero-angelfish.png",
+      "bytes": 2205920,
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1"
+    },
+    {
+      "path": "preview.html",
+      "bytes": 4940,
+      "sha256": "50e32d3e694974925c4b39e3f7c379904e60b65ac4d622a093768b2ec927e34d"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 8187,
+      "sha256": "e0866d2ff14de9a70c5c8a825f449aa0a13b04d31273568cc21d8f3f141f84ba"
+    },
+    {
+      "path": "motion.js",
+      "bytes": 3975,
+      "sha256": "08b478f03f55e82874906fd43eeaaba3e2d7eb4acd6c4559b8ced0f6e4c16b2f"
+    },
+    {
+      "path": "INTEGRATION.md",
+      "bytes": 6181,
+      "sha256": "085f3e3877e748cd9a95027e709b5dfea40ee01258de08e442795b38dfc707fb"
+    },
+    {
+      "path": "IMPLEMENTATION-PROMPT.txt",
+      "bytes": 2074,
+      "sha256": "26e92dbd4c0b85cdf4c8d6b425cbe3128c5c34cb061a61989d748889eebe9531"
+    }
+  ],
+  "future_execution_requirements": [
+    "User decision to start native integration",
+    "Equal self-contained worker input packages with no runtime cross-imports",
+    "Preserved own-baseline manifests and exact native model capability checks",
+    "Own build outputs and desktop/phone/page-journey evidence"
+  ],
+  "historical_video_preparation": "comparison/round-6/input-plan.json remains unchanged; historical prepared video contracts are not the new animation task"
+}

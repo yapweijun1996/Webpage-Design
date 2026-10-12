@@ -1,0 +1,54 @@
+{
+  "contentStatus": "DEMO_ONLY_NOT_APPROVED",
+  "hero": {
+    "enabled": true,
+    "eyebrow": "ORNAMENTAL AQUATIC COLLECTIONS",
+    "title": "A World of Ornamental Beauty",
+    "accent": "Thoughtfully Curated.",
+    "description": "Replace with an approved one or two sentence description of the actual business.",
+    "imageId": "hero_illustrative_reference_replacement_required",
+    "ctaIds": [
+      "primary",
+      "secondary"
+    ],
+    "proofPoints": []
+  },
+  "heritage": {
+    "enabled": true,
+    "eyebrow": "OUR STORY",
+    "heading": "Our Story",
+    "body": "Replace with the factual, business-approved company background.",
+    "imageId": "company_real_photo_required",
+    "quote": null,
+    "quoteAuthor": null
+  },
+  "collections": {
+    "enabled": true,
+    "eyebrow": "OUR COLLECTIONS",
+    "heading": "Explore Our Collections",
+    "description": "Browse the categories in the approved product catalogue.",
+    "collectionSource": "collections.items"
+  },
+  "quality": {
+    "enabled": false,
+    "eyebrow": "OUR APPROACH",
+    "heading": "Quality in Every Detail",
+    "description": null,
+    "items": []
+  },
+  "highlights": {
+    "enabled": true,
+    "eyebrow": "SELECTED HIGHLIGHTS",
+    "heading": "Discover Selected Products",
+    "description": "Illustrative display only until source-mapped catalogue assets are approved.",
+    "items": []
+  },
+  "enquiry": {
+    "enabled": true,
+    "eyebrow": "LET US CONNECT",
+    "heading": "Business Enquiries",
+    "description": "Contact our team using the verified business contact channel.",
+    "ctaId": "secondary",
+    "backgroundImageId": null
+  }
+}

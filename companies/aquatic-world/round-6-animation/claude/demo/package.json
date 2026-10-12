@@ -1,0 +1,16 @@
+{
+  "name": "aquatic-world-multipage-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static multi-page Aquatic World design concept. No runtime dependencies.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "images": "node scripts/images.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "verify": "node scripts/verify.mjs",
+    "check": "node scripts/check-motion.mjs && node scripts/check-motion-logic.mjs"
+  }
+}

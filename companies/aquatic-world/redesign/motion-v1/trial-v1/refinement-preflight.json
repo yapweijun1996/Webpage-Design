@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-11T22:41:23.805830+00:00",
+  "tool_count": 32,
+  "asset_search": {
+    "assets": [
+      {
+        "id": "b481edf23b744ac8850481d166a37f99",
+        "library_id": "aquatic-world-motion",
+        "asset_key": "runway-hero-trial-01",
+        "version": 1,
+        "kind": "video",
+        "title": "Aquatic hero Runway raw trial",
+        "description": "",
+        "tags": [
+          "aquatic",
+          "runway",
+          "trial"
+        ],
+        "usage_notes": "Draft comparison evidence; subject and camera move; endpoint mismatch and fin edge require review. Not approved homepage loop.",
+        "license_note": "AI image-to-video via OpenRouter runway/gen-4.5, user-authorized local fictional demo; provider reported USD0.72. Human creative acceptance pending.",
+        "source_artifact_id": "3a723aefe0994db6b248b9315e8e3e62",
+        "sha256": "d54e56e9409456f96e9cc39e0adf907ead4fa2d6e9b226a0bf0ab1ff79b06657",
+        "suffix": ".mp4",
+        "size_bytes": 4582076,
+        "status": "draft",
+        "created_at_utc": "2026-10-11T13:34:02.192184+00:00",
+        "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/d5/d54e56e9409456f96e9cc39e0adf907ead4fa2d6e9b226a0bf0ab1ff79b06657"
+      }
+    ],
+    "next_offset": null
+  },
+  "rejected_existing_asset": {
+    "asset_key": "runway-hero-trial-01",
+    "version": 1,
+    "sha256": "d54e56e9409456f96e9cc39e0adf907ead4fa2d6e9b226a0bf0ab1ff79b06657",
+    "reason": "Recorded motion and loop failures; user authorized a refinement"
+  },
+  "applicable_rules": [],
+  "key_remaining_usd": "1.2763175",
+  "key_limit_usd": "2",
+  "account_balance_usd": "7.30046007",
+  "first_frame_sha256": "306858e5c37d4c2373d3444d920ec57c0ec85db00f16543d10126272c59ec3a8",
+  "prompt_sha256": "66bd0ee2b1b7b3956e89e7c5707ad088a130940d73d5eedf9cb8134b1af73266"
+}

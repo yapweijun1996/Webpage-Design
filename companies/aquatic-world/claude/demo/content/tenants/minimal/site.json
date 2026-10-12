@@ -1,0 +1,11 @@
+{
+  "extends": "aquatic-world",
+  "demoNotice": "Minimal fixture: one collection, optional sections hidden. Fictional sample brand; no real enquiries can be sent.",
+  "seo": { "title": "AQUATIC WORLD — Minimal Fixture (Demo)" },
+  "features": {
+    "showProofPoints": false,
+    "showQualitySection": false,
+    "showHeritageQuote": false,
+    "enableEnquiryPreview": false
+  }
+}
