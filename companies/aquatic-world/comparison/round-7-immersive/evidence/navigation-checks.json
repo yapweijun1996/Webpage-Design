@@ -1,0 +1,946 @@
+{
+  "codex": [
+    {
+      "check": "global_Home",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 20,
+        "y": 506.2265625,
+        "width": 350,
+        "height": 85.125
+      },
+      "ctaRect": {
+        "x": 20,
+        "y": 687.3515625,
+        "width": 267.15625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.044432,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 324,
+            "y": 778,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "check": "global_Collections",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three elements.\nEndless possibilities.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Our Story",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/our-story/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Nature is closer\nthan we think.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 105.265625
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Quality",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/quality/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Thoughtful choices.\nFrom the start.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Contact",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/contact/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Your project brief",
+      "headingRect": {
+        "x": 45,
+        "y": 161.1484375,
+        "width": 300,
+        "height": 36.796875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "hero_primary",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three elements.\nEndless possibilities.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "history_back_home",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 289.5,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 20,
+        "y": 216.7265625,
+        "width": 350,
+        "height": 85.125
+      },
+      "ctaRect": {
+        "x": 20,
+        "y": 397.8515625,
+        "width": 267.15625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.301118,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 324,
+            "y": 778,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "check": "history_forward_collections",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three elements.\nEndless possibilities.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three elements.\nEndless possibilities.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/ornamental-fish/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/ornamental-fish/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Ornamental\nFish",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 138.875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/aquatic-plants/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/aquatic-plants/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Aquatic\nPlants",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 138.875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/driftwood/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/collections/driftwood/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Driftwood.\nNature draws the line.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 147.8203125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/our-story/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/our-story/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Nature is closer\nthan we think.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 105.265625
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/quality/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/quality/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Thoughtful choices.\nFrom the start.",
+      "headingRect": {
+        "x": 24,
+        "y": 182.1484375,
+        "width": 342,
+        "height": 144.46875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/contact/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/contact/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Your project brief",
+      "headingRect": {
+        "x": 45,
+        "y": 161.1484375,
+        "width": 300,
+        "height": 36.796875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    }
+  ],
+  "claude": [
+    {
+      "check": "global_Home",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 23.3984375,
+        "y": 523.953125,
+        "width": 343.203125,
+        "height": 79.359375
+      },
+      "ctaRect": {
+        "x": 23.3984375,
+        "y": 700,
+        "width": 272.015625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4242/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.088034,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "Pause background",
+          "label": null,
+          "hidden": false,
+          "rect": {
+            "x": 330,
+            "y": 784,
+            "width": 44,
+            "height": 44
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+          "transfer": 1536390
+        }
+      ]
+    },
+    {
+      "check": "global_Collections",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three collection families",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 83.109375
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Our Story",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/our-story/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Bringing the beauty of nature a little further.",
+      "headingRect": {
+        "x": 20,
+        "y": 166.796875,
+        "width": 350,
+        "height": 132.28125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Quality",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/quality/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A thoughtful selection process, explained.",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 124.6640625
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "global_Contact",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/contact/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Prepare an enquiry brief",
+      "headingRect": {
+        "x": 20,
+        "y": 83,
+        "width": 350,
+        "height": 33.0703125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "hero_primary",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three collection families",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 83.109375
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "history_back_home",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 264,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 23.3984375,
+        "y": 259.953125,
+        "width": 343.203125,
+        "height": 79.359375
+      },
+      "ctaRect": {
+        "x": 23.3984375,
+        "y": 436,
+        "width": 272.015625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4242/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.20457,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "Pause background",
+          "label": null,
+          "hidden": false,
+          "rect": {
+            "x": 330,
+            "y": 784,
+            "width": 44,
+            "height": 44
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+          "transfer": 1536390
+        }
+      ]
+    },
+    {
+      "check": "history_forward_collections",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three collection families",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 83.109375
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Three collection families",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 83.109375
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/ornamental-fish/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/ornamental-fish/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Ornamental Fish",
+      "headingRect": {
+        "x": 20,
+        "y": 213.890625,
+        "width": 350,
+        "height": 41.5546875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/aquatic-plants/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/aquatic-plants/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Aquatic Plants",
+      "headingRect": {
+        "x": 44,
+        "y": 460.890625,
+        "width": 302,
+        "height": 41.5546875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/collections/driftwood/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/collections/driftwood/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Driftwood",
+      "headingRect": {
+        "x": 20,
+        "y": 508.390625,
+        "width": 350,
+        "height": 41.5546875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/our-story/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/our-story/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Bringing the beauty of nature a little further.",
+      "headingRect": {
+        "x": 20,
+        "y": 166.796875,
+        "width": 350,
+        "height": 132.28125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/quality/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/quality/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A thoughtful selection process, explained.",
+      "headingRect": {
+        "x": 20,
+        "y": 158.796875,
+        "width": 350,
+        "height": 124.6640625
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    },
+    {
+      "check": "direct_refresh_/contact/",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/contact/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "Prepare an enquiry brief",
+      "headingRect": {
+        "x": 20,
+        "y": 83,
+        "width": 350,
+        "height": 33.0703125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "landscape": {
+    "file": "landscape-poster.webp",
+    "bytes": 136226,
+    "sha256": "1d156452355d2311f998ae7a9056bdded66bddffb7a05158b1f36c27f3dac35e",
+    "provenance": "WebP encoding of normalized clean first frame; final clip-opening match still requires review"
+  },
+  "portrait": {
+    "file": "portrait-poster.webp",
+    "bytes": 112686,
+    "sha256": "8c2187523c89cdede0a1e8b7fd2eec51dfa57bece5a61c011660caed755c39c9",
+    "provenance": "WebP encoding of normalized clean first frame; final clip-opening match still requires review"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "codex": [
+    {
+      "check": "native_browser_save_data_true_no_download",
+      "saveData": true,
+      "reducedMotion": false,
+      "src": null,
+      "paused": true,
+      "requests": 0
+    }
+  ],
+  "claude": [
+    {
+      "check": "native_browser_save_data_true_no_download",
+      "saveData": true,
+      "reducedMotion": false,
+      "src": null,
+      "paused": true,
+      "requests": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "implementation_change_needed": false,
+  "home_footer_class": "home-footer (generic site-footer does not match)",
+  "source_background_color": "transparent via background shorthand omitted color",
+  "wash_alpha_endpoints": [
+    0,
+    0.7607843137254902
+  ],
+  "footer_pseudo_element_wash": "none",
+  "source_output_css_identical": true,
+  "all_existing_demo_and_prior_evidence_hashes_unchanged": true,
+  "hashed_files": 127,
+  "viewport_source_rule": "same background at 390x844 and 1440x900; mobile changes padding only",
+  "computed_style_and_rendered_viewports": "not tested; coordinator verification required"
+}

@@ -1,0 +1,102 @@
+{
+  "prepared_on": "2026-10-12",
+  "selection": "coordinator technical/visual candidate; human acceptance open",
+  "processing": "First 37 source frames (0\u20131.5s) traverse forward then backward with cosine easing; six-second return loop. No frame blending, generated pixels, crop, recoloring or extra provider call.",
+  "media_query": "(min-width: 900px) and (min-aspect-ratio: 6/5)",
+  "fit": "cover",
+  "landscape_position": "50% 50%",
+  "portrait_position": "50% 30%",
+  "new_provider_cost_usd": "1.44",
+  "assets": {
+    "landscape.mp4": {
+      "bytes": 1377867,
+      "sha256": "1ae4ef5dff88040da0a4574775893db54b1bac5c8f4583870d12c1fa05d7208a",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 6.0,
+      "fps": 24,
+      "frames": 144,
+      "audio": false,
+      "raw_source": "landscape-raw.mp4",
+      "raw_sha256": "8c0bb25ab676a1d729487b05f7fdabfb6d8844937838d30b67297e9c786d27b2",
+      "source_frames": "0\u201336 inclusive"
+    },
+    "landscape-poster.webp": {
+      "bytes": 128194,
+      "sha256": "f6ece25b7620e1fb635d4f513988173872635f9b9413dd3fb770380dcd5b5f2f",
+      "width": 1280,
+      "height": 720
+    },
+    "portrait.mp4": {
+      "bytes": 1569372,
+      "sha256": "6725ba5f6c1174f138af23fb64148a80c753532305d32403f677f5c1312c033c",
+      "width": 720,
+      "height": 1280,
+      "duration_seconds": 6.0,
+      "fps": 24,
+      "frames": 144,
+      "audio": false,
+      "raw_source": "portrait-raw.mp4",
+      "raw_sha256": "c337f40472cb095f0e7a932ec611c73dfb0541738af1be84b4b77bc595f2cedf",
+      "source_frames": "0\u201336 inclusive"
+    },
+    "portrait-poster.webp": {
+      "bytes": 103318,
+      "sha256": "2b6835b03aa2f962388bf1f7959109cafe0c141677bad38307d0432f9a4b9bdb",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "commands": {
+    "landscape": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/immersive-home-v1/media/landscape-raw.mp4",
+      "-filter_complex",
+      "[0:v]trim=start_frame=0:end_frame=37,setpts=PTS-STARTPTS,split=2[a][b];[a]setpts='(3/PI*acos(1-2*N/36))/TB'[forward];[b]reverse,setpts='(3/PI*acos(1-2*N/36))/TB'[backward];[forward][backward]concat=n=2:v=1:a=0,fps=24,format=yuv420p[v]",
+      "-map",
+      "[v]",
+      "-an",
+      "-t",
+      "6",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "slow",
+      "-crf",
+      "23",
+      "-movflags",
+      "+faststart",
+      "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/immersive-home-v1/media/runtime/landscape.mp4"
+    ],
+    "portrait": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-n",
+      "-i",
+      "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/immersive-home-v1/media/portrait-raw.mp4",
+      "-filter_complex",
+      "[0:v]trim=start_frame=0:end_frame=37,setpts=PTS-STARTPTS,split=2[a][b];[a]setpts='(3/PI*acos(1-2*N/36))/TB'[forward];[b]reverse,setpts='(3/PI*acos(1-2*N/36))/TB'[backward];[forward][backward]concat=n=2:v=1:a=0,fps=24,format=yuv420p[v]",
+      "-map",
+      "[v]",
+      "-an",
+      "-t",
+      "6",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "slow",
+      "-crf",
+      "23",
+      "-movflags",
+      "+faststart",
+      "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/immersive-home-v1/media/runtime/portrait.mp4"
+    ]
+  }
+}

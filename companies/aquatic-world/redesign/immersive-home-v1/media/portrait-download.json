@@ -1,0 +1,19 @@
+{
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96",
+  "request_id": "aquatic_immersive_portrait_20261012_01",
+  "model": "runway/gen-4.5",
+  "duration": 6,
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "estimated_cost_usd": "0.72",
+  "actual_cost_usd": "0.72",
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "status": "completed",
+  "job_id": "gen-vid-1791791498-tQEks1ZOAaz6WZIcnYiC",
+  "submitted_at_utc": "2026-10-12T07:51:38.524530+00:00",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_immersive_portrait_20261012_01.mp4",
+  "bytes": 5088874
+}

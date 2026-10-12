@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "title": "Aquatic immersive landscape environment",
+  "character_id": "hero-angelfish",
+  "style_id": "calm-aquarium",
+  "duration_min_seconds": 6,
+  "duration_max_seconds": 6.1,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "audio": "silent",
+  "references": [
+    {
+      "library_id": "aquatic-world-motion",
+      "asset_key": "immersive-landscape-first-frame-v1",
+      "version": 1,
+      "role": "first_frame"
+    }
+  ],
+  "allow_draft_assets": true,
+  "constraints": {
+    "character": "One same silver/black striped angelfish facing left with gold dorsal tint, entire long fins intact; preserve scale, position, orientation and anatomy from exact reference. No new fish.",
+    "materials": "Preserve natural fish stripes, delicate fins, plant texture, wood grain and photographic deep teal habitat.",
+    "lighting": "Gentle stationary surface light and slight natural water shimmer, no pumping exposure or flashing. Reading zone remains dark.",
+    "camera": "Locked single camera, no travel, zoom, reframing, shake or cuts.",
+    "motion": "Fish hovers at its exact reference position with only subtle pectoral fin breathing; restrained natural plant and water motion. No swimming through copy zone. Return to opening pose for a quiet loop.",
+    "environment": "Quiet dark left half and full fish at right with all fin margins intact. No text, UI, logo, particles added, animal or foreground props."
+  },
+  "acceptance": [
+    {
+      "id": "decode",
+      "category": "technical",
+      "criterion": "Full file decodes; exact metadata, hashes and provider cost preserved."
+    },
+    {
+      "id": "format",
+      "category": "technical",
+      "criterion": "Native target dimensions, approximately six seconds, 24fps, silent H264 fast-start web derivative with matching poster."
+    },
+    {
+      "id": "framing",
+      "category": "visual",
+      "criterion": "Complete fish and fine fins retain margins throughout actual desktop/tablet/phone cover crops; no overlap with quiet text zones."
+    },
+    {
+      "id": "identity",
+      "category": "visual",
+      "criterion": "Retain one recognizable striped fish, stable anatomy and natural habitat; no UI or text burned into movie."
+    },
+    {
+      "id": "motion",
+      "category": "visual",
+      "criterion": "Subtle actual fin and habitat motion, no dramatic camera/subject movement; inspect three loop joins, no flash, jump or doubled subject."
+    }
+  ]
+}

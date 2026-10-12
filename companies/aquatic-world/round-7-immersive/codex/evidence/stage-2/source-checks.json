@@ -1,0 +1,426 @@
+{
+  "scope": "Source and generated-file invariants only; no browser, native media, motion or rendered acceptance claims.",
+  "checks": [
+    {
+      "check": "Built route /",
+      "result": "pass",
+      "detail": "index.html"
+    },
+    {
+      "check": "Built route /collections/",
+      "result": "pass",
+      "detail": "collections/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /collections/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /collections/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": "collections/ornamental-fish/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /collections/ornamental-fish/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": "collections/aquatic-plants/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /collections/aquatic-plants/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /collections/driftwood/",
+      "result": "pass",
+      "detail": "collections/driftwood/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /collections/driftwood/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /collections/driftwood/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /our-story/",
+      "result": "pass",
+      "detail": "our-story/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /our-story/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /our-story/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /quality/",
+      "result": "pass",
+      "detail": "quality/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /quality/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /quality/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /contact/",
+      "result": "pass",
+      "detail": "contact/index.html"
+    },
+    {
+      "check": "Preserved baseline HTML /contact/",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /contact/",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Built route /404.html",
+      "result": "pass",
+      "detail": "404.html"
+    },
+    {
+      "check": "Preserved baseline HTML /404.html",
+      "result": "pass",
+      "detail": "Byte-identical rendered HTML from baseline definitions, evaluated without baseline writes."
+    },
+    {
+      "check": "No Home resources /404.html",
+      "result": "pass",
+      "detail": "Inner page does not load the Home controller, styles, or media."
+    },
+    {
+      "check": "Eight pages plus 404",
+      "result": "pass",
+      "detail": "All independent static route entry points exist."
+    },
+    {
+      "check": "Built resource matches source styles.css",
+      "result": "pass",
+      "detail": "Generated output contains the final source bytes."
+    },
+    {
+      "check": "Built resource matches source script.js",
+      "result": "pass",
+      "detail": "Generated output contains the final source bytes."
+    },
+    {
+      "check": "Built resource matches source home-motion.css",
+      "result": "pass",
+      "detail": "Generated output contains the final source bytes."
+    },
+    {
+      "check": "Built resource matches source home-motion.js",
+      "result": "pass",
+      "detail": "Generated output contains the final source bytes."
+    },
+    {
+      "check": "Built resource matches source favicon.svg",
+      "result": "pass",
+      "detail": "Generated output contains the final source bytes."
+    },
+    {
+      "check": "Preserved shared source styles.css",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Preserved shared source script.js",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Preserved shared source site_data.py",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Preserved shared source serve.py",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Preserved shared source favicon.svg",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Preserved shared source tools/prepare_assets.py",
+      "result": "pass",
+      "detail": "Byte-identical to own baseline."
+    },
+    {
+      "check": "Exact copy: FISH \u00b7 PLANTS \u00b7 DRIFTWOOD",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Discover ornamental fish, aquatic plants and natural driftwood.",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Explore the collections",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Scroll to explore",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Colour, form and gentle movement.",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Texture, depth and a living landscape.",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Natural lines and structure.",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Explore the elements of an aquatic landscape, and the questions that shape it.",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Exact copy: Discuss a project",
+      "result": "pass",
+      "detail": "Live HTML text."
+    },
+    {
+      "check": "Heading: A world beneath / the surface.",
+      "result": "pass",
+      "detail": "Intended line break in real HTML."
+    },
+    {
+      "check": "Heading: Three elements. / One aquatic world.",
+      "result": "pass",
+      "detail": "Intended line break in real HTML."
+    },
+    {
+      "check": "Heading: A closer connection / to nature.",
+      "result": "pass",
+      "detail": "Intended line break in real HTML."
+    },
+    {
+      "check": "Single decorative deferred video",
+      "result": "pass",
+      "detail": "One background persists behind all Home chapters."
+    },
+    {
+      "check": "No eager video source",
+      "result": "pass",
+      "detail": "Only literal deferred data attributes are present."
+    },
+    {
+      "check": "Inline silent looping contract",
+      "result": "pass",
+      "detail": "Decorative, inline, silent media without player chrome."
+    },
+    {
+      "check": "Shared responsive picture query",
+      "result": "pass",
+      "detail": "(min-width: 900px) and (min-aspect-ratio: 6/5)"
+    },
+    {
+      "check": "Deferred MP4 URL landscape",
+      "result": "pass",
+      "detail": "Literal HTML URL available for packaging."
+    },
+    {
+      "check": "Own poster URL landscape",
+      "result": "pass",
+      "detail": "Literal HTML URL."
+    },
+    {
+      "check": "Poster byte identity landscape",
+      "result": "pass",
+      "detail": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+    },
+    {
+      "check": "Supplied real MP4 bytes landscape",
+      "result": "pass",
+      "detail": "Identical supplied film bytes in final output; no film repair or substitution."
+    },
+    {
+      "check": "Deferred MP4 URL portrait",
+      "result": "pass",
+      "detail": "Literal HTML URL available for packaging."
+    },
+    {
+      "check": "Own poster URL portrait",
+      "result": "pass",
+      "detail": "Literal HTML URL."
+    },
+    {
+      "check": "Poster byte identity portrait",
+      "result": "pass",
+      "detail": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+    },
+    {
+      "check": "Supplied real MP4 bytes portrait",
+      "result": "pass",
+      "detail": "Identical supplied film bytes in final output; no film repair or substitution."
+    },
+    {
+      "check": "Manifest identity demo/assets/immersive/landscape.mp4",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/public/assets/immersive/landscape.mp4",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/assets/immersive/landscape-poster.webp",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/public/assets/immersive/landscape-poster.webp",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/assets/immersive/portrait.mp4",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/public/assets/immersive/portrait.mp4",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/assets/immersive/portrait-poster.webp",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Manifest identity demo/public/assets/immersive/portrait-poster.webp",
+      "result": "pass",
+      "detail": "Supplied byte size and SHA-256 match frozen Stage 2 manifest."
+    },
+    {
+      "check": "Preserved Stage 1 implementation demo/build.py",
+      "result": "pass",
+      "detail": "Existing literal media attributes and playback controller retained byte-for-byte."
+    },
+    {
+      "check": "Preserved Stage 1 implementation demo/home-motion.js",
+      "result": "pass",
+      "detail": "Existing literal media attributes and playback controller retained byte-for-byte."
+    },
+    {
+      "check": "Three continuous foreground chapters",
+      "result": "pass",
+      "detail": "Arrival, collection and perspective; footer follows in same Home body."
+    },
+    {
+      "check": "No rejected runtime presentation",
+      "result": "pass",
+      "detail": "No framed scene, particles, concept screenshots, extra photos, or immutable runtime imports."
+    },
+    {
+      "check": "Native no-JS menu and hidden motion utility",
+      "result": "pass",
+      "detail": "Useful native disclosure navigation; controller shows the utility only with JS."
+    },
+    {
+      "check": "Real global destinations: Main navigation",
+      "result": "pass",
+      "detail": "Five independent page links; Home alone is current."
+    },
+    {
+      "check": "Real global destinations: Mobile navigation",
+      "result": "pass",
+      "detail": "Five independent page links; Home alone is current."
+    },
+    {
+      "check": "Real global destinations: Footer navigation",
+      "result": "pass",
+      "detail": "Five independent page links; Home alone is current."
+    },
+    {
+      "check": "One arrival CTA and no header CTA",
+      "result": "pass",
+      "detail": "One gold collection action in arrival; Contact stays a page link."
+    },
+    {
+      "check": "Static runtime references resolve",
+      "result": "pass",
+      "detail": "351 link/asset/fragment references checked; no missing-film exceptions."
+    },
+    {
+      "check": "Shared Stage 2 cover positions",
+      "result": "pass",
+      "detail": "Portrait 50% 30%; landscape 50% 50%. Source geometry is checked separately; rendered subject safety remains open."
+    },
+    {
+      "check": "No replacement effects or root URLs in controller/theme",
+      "result": "pass",
+      "detail": "No generated effects, seeking, scroll-linked playback, external fetches or JS/CSS asset root URLs."
+    },
+    {
+      "check": "Home typography scope",
+      "result": "pass",
+      "detail": "Shared inner-page typography untouched."
+    },
+    {
+      "check": "CSS block delimiters balanced",
+      "result": "pass",
+      "detail": "Basic syntax invariant, not a CSS rendering test."
+    },
+    {
+      "check": "Protected inputs/baseline/contracts intact",
+      "result": "pass",
+      "detail": "69 frozen file hashes match."
+    }
+  ],
+  "count": 84
+}

@@ -1,0 +1,20 @@
+{
+  "landscape": {
+    "runtime_full_decode": "pass (make_loops.py)",
+    "first_last_ssim": 0.980406,
+    "frames": 144,
+    "duration_seconds": 6,
+    "source_range": "1\u201336 inclusive",
+    "metric_scope": "Decoded endpoint similarity only; rendered playback joins separately reviewed",
+    "processing": "Explicit cosine-eased frame sequence, same first/last source frame, no pixel blending"
+  },
+  "portrait": {
+    "runtime_full_decode": "pass (make_loops.py)",
+    "first_last_ssim": 0.98029,
+    "frames": 144,
+    "duration_seconds": 6,
+    "source_range": "1\u201336 inclusive",
+    "metric_scope": "Decoded endpoint similarity only; rendered playback joins separately reviewed",
+    "processing": "Explicit cosine-eased frame sequence, same first/last source frame, no pixel blending"
+  }
+}

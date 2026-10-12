@@ -7,3 +7,5 @@ _site/
 # Keep raw CLI transcripts local; public evidence uses the reviewed summaries.
 **/evidence/cli-events.jsonl
 **/evidence/cli-stderr.log
+**/evidence/**/cli-events.jsonl
+**/evidence/**/cli-stderr.log

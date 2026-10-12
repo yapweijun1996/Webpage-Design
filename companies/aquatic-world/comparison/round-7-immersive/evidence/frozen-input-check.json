@@ -1,0 +1,7 @@
+{
+  "frozen_inputs": "verified",
+  "historical_delivery": "unchanged",
+  "initial_sources": false,
+  "all_five_shared_input_stages": "verified identical and immutable",
+  "four_runtime_assets": "identical in both demos and canonical master"
+}

@@ -1,0 +1,29 @@
+{
+  "asset": {
+    "id": "acbecf5fcb3349dd82237cbe5b9483cc",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "immersive-portrait-first-frame-v1",
+    "version": 1,
+    "kind": "image",
+    "title": "Aquatic immersive portrait clean first frame",
+    "description": "UI-free scene derived from the shared static concept; full fish with quiet reading space.",
+    "tags": [
+      "aquatic",
+      "first-frame",
+      "immersive",
+      "portrait"
+    ],
+    "usage_notes": "Coordinator selected draft input for the requested website. No human final-media acceptance or paid authorization implied.",
+    "license_note": "Built-in image_gen derivatives of the existing illustrative Aquatic World concept on 2026-10-12. Technical FFmpeg resizing to provider input dimensions; no real inventory.",
+    "source_artifact_id": null,
+    "sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96",
+    "suffix": ".png",
+    "size_bytes": 1283769,
+    "status": "draft",
+    "created_at_utc": "2026-10-12T07:42:18.346380+00:00",
+    "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/a1/a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96"
+  },
+  "project_id": "aquatic-world-immersive-home-v1",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v1/assets/aquatic-world-motion/immersive-portrait-first-frame-v1/v1/asset.png",
+  "generation_performed": false
+}

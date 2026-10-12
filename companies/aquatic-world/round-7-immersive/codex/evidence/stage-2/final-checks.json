@@ -1,0 +1,28 @@
+{
+  "result": "pass",
+  "scope": "Final source/file integrity only; browser and publication checks not run.",
+  "protected_hashes": 69,
+  "all_stage_1_evidence_unchanged": true,
+  "changed_demo_files": [
+    "demo/assets/immersive/README.md",
+    "demo/assets/immersive/landscape-poster.webp",
+    "demo/assets/immersive/portrait-poster.webp",
+    "demo/home-motion.css",
+    "demo/public/assets/immersive/README.md",
+    "demo/public/assets/immersive/landscape-poster.webp",
+    "demo/public/assets/immersive/portrait-poster.webp",
+    "demo/public/home-motion.css"
+  ],
+  "new_demo_files": [
+    "demo/assets/immersive/landscape.mp4",
+    "demo/assets/immersive/portrait.mp4",
+    "demo/public/assets/immersive/landscape.mp4",
+    "demo/public/assets/immersive/portrait.mp4"
+  ],
+  "removed_demo_files": [],
+  "source_assertions": 84,
+  "controller_scenarios": 12,
+  "viewport_source_cases": 21,
+  "decoded_films": 2,
+  "updated_document_links": "pass"
+}

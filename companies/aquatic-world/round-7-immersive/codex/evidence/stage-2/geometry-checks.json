@@ -1,0 +1,406 @@
+{
+  "scope": "Source CSS evaluation and cover mathematics only. No browser, computed DOM layout, fish bounds, motion or visual acceptance.",
+  "assumption": "For numerical arrival offsets, svh equals the listed viewport height; actual browser chrome and text layout are untested.",
+  "count": 21,
+  "checks": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 1.25,
+      "source_rectangle_xywh": [
+        64.0,
+        -0.0,
+        1152.0,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 270.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 1.111111,
+      "source_rectangle_xywh": [
+        64.0,
+        -0.0,
+        1152.0,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 240.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 1.066667,
+      "source_rectangle_xywh": [
+        160.0,
+        -0.0,
+        960.0,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 230.4,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.066667,
+      "source_rectangle_xywh": [
+        -0.0,
+        96.0,
+        720.0,
+        960.0
+      ],
+      "arrival_padding_top": "56svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 573.44,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.728125,
+      "source_rectangle_xywh": [
+        64.721,
+        -0.0,
+        590.558,
+        1280.0
+      ],
+      "arrival_padding_top": "56svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 521.92,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.659375,
+      "source_rectangle_xywh": [
+        64.265,
+        -0.0,
+        591.469,
+        1280.0
+      ],
+      "arrival_padding_top": "56svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 472.64,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.625,
+      "source_rectangle_xywh": [
+        72.0,
+        -0.0,
+        576.0,
+        1280.0
+      ],
+      "arrival_padding_top": "56svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 448.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        320,
+        800
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.625,
+      "source_rectangle_xywh": [
+        104.0,
+        -0.0,
+        512.0,
+        1280.0
+      ],
+      "arrival_padding_top": "53svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 424.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        900,
+        900
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.25,
+      "source_rectangle_xywh": [
+        -0.0,
+        168.0,
+        720.0,
+        720.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 630.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        900,
+        800
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.25,
+      "source_rectangle_xywh": [
+        -0.0,
+        192.0,
+        720.0,
+        640.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 560.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        1000,
+        900
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.388889,
+      "source_rectangle_xywh": [
+        -0.0,
+        189.6,
+        720.0,
+        648.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 630.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        900,
+        750
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 1.041667,
+      "source_rectangle_xywh": [
+        208.0,
+        -0.0,
+        864.0,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 225.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        900,
+        751
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.25,
+      "source_rectangle_xywh": [
+        -0.0,
+        203.76,
+        720.0,
+        600.8
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 525.7,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        899,
+        749
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.248611,
+      "source_rectangle_xywh": [
+        -0.0,
+        204.04,
+        720.0,
+        599.867
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 524.3,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        1000,
+        833
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 1.156944,
+      "source_rectangle_xywh": [
+        207.827,
+        0.0,
+        864.346,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 249.9,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        1000,
+        834
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 1.388889,
+      "source_rectangle_xywh": [
+        -0.0,
+        203.856,
+        720.0,
+        600.48
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 583.8,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        640,
+        800
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.888889,
+      "source_rectangle_xywh": [
+        -0.0,
+        114.0,
+        720.0,
+        900.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 560.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        639,
+        800
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.8875,
+      "source_rectangle_xywh": [
+        -0.0,
+        113.577,
+        720.0,
+        901.408
+      ],
+      "arrival_padding_top": "56svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 448.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        390,
+        390
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.541667,
+      "source_rectangle_xywh": [
+        -0.0,
+        168.0,
+        720.0,
+        720.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 273.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        320,
+        320
+      ],
+      "media": "portrait",
+      "position": "50% 30%",
+      "scale": 0.444444,
+      "source_rectangle_xywh": [
+        -0.0,
+        168.0,
+        720.0,
+        720.0
+      ],
+      "arrival_padding_top": "70svh",
+      "arrival_top_px_if_svh_equals_viewport_height": 224.0,
+      "near_square_portrait": true,
+      "chapter_may_expand": true
+    },
+    {
+      "viewport": [
+        900,
+        600
+      ],
+      "media": "landscape",
+      "position": "50% 50%",
+      "scale": 0.833333,
+      "source_rectangle_xywh": [
+        100.0,
+        -0.0,
+        1080.0,
+        720.0
+      ],
+      "arrival_padding_top": "clamp(190px,30svh,340px)",
+      "arrival_top_px_if_svh_equals_viewport_height": 190.0,
+      "near_square_portrait": false,
+      "chapter_may_expand": true
+    }
+  ]
+}

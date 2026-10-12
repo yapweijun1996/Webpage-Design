@@ -1,0 +1,16 @@
+{
+  "landscape": {
+    "raw_full_decode": "pass",
+    "runtime_full_decode": "pass",
+    "first_last_ssim": 0.787626,
+    "metric_scope": "Decoded endpoint similarity only; actual browser playback and all three joins require review",
+    "processing": "Disclosed cosine-eased forward/return traverse of first 1.5 seconds; no dissolve or frame blending"
+  },
+  "portrait": {
+    "raw_full_decode": "pass",
+    "runtime_full_decode": "pass",
+    "first_last_ssim": 0.80066,
+    "metric_scope": "Decoded endpoint similarity only; actual browser playback and all three joins require review",
+    "processing": "Disclosed cosine-eased forward/return traverse of first 1.5 seconds; no dissolve or frame blending"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "project_id": "aquatic-world-immersive-home-v1",
+  "shot_id": "landscape-v1",
+  "revision": 1,
+  "plan_sha256": "aecadec1abf93c177213544ee2770ab2f9a68b1377864dde905805abcf2ae95c",
+  "plan": {
+    "acceptance": [
+      {
+        "category": "technical",
+        "criterion": "Full file decodes; exact metadata, hashes and provider cost preserved.",
+        "id": "decode"
+      },
+      {
+        "category": "technical",
+        "criterion": "Native target dimensions, approximately six seconds, 24fps, silent H264 fast-start web derivative with matching poster.",
+        "id": "format"
+      },
+      {
+        "category": "visual",
+        "criterion": "Complete fish and fine fins retain margins throughout actual desktop/tablet/phone cover crops; no overlap with quiet text zones.",
+        "id": "framing"
+      },
+      {
+        "category": "visual",
+        "criterion": "Retain one recognizable striped fish, stable anatomy and natural habitat; no UI or text burned into movie.",
+        "id": "identity"
+      },
+      {
+        "category": "visual",
+        "criterion": "Subtle actual fin and habitat motion, no dramatic camera/subject movement; inspect three loop joins, no flash, jump or doubled subject.",
+        "id": "motion"
+      }
+    ],
+    "allow_draft_assets": true,
+    "audio": "silent",
+    "character_id": "hero-angelfish",
+    "constraints": {
+      "camera": "Locked single camera, no travel, zoom, reframing, shake or cuts.",
+      "character": "One same silver/black striped angelfish facing left with gold dorsal tint, entire long fins intact; preserve scale, position, orientation and anatomy from exact reference. No new fish.",
+      "environment": "Quiet dark left half and full fish at right with all fin margins intact. No text, UI, logo, particles added, animal or foreground props.",
+      "lighting": "Gentle stationary surface light and slight natural water shimmer, no pumping exposure or flashing. Reading zone remains dark.",
+      "materials": "Preserve natural fish stripes, delicate fins, plant texture, wood grain and photographic deep teal habitat.",
+      "motion": "Fish hovers at its exact reference position with only subtle pectoral fin breathing; restrained natural plant and water motion. No swimming through copy zone. Return to opening pose for a quiet loop."
+    },
+    "duration_max_seconds": 6.1,
+    "duration_min_seconds": 6,
+    "fps": 24,
+    "height": 720,
+    "references": [
+      {
+        "asset_key": "immersive-landscape-first-frame-v1",
+        "library_id": "aquatic-world-motion",
+        "role": "first_frame",
+        "version": 1
+      }
+    ],
+    "schema_version": 1,
+    "style_id": "calm-aquarium",
+    "title": "Aquatic immersive landscape environment",
+    "width": 1280
+  },
+  "references": [
+    {
+      "asset_key": "immersive-landscape-first-frame-v1",
+      "library_id": "aquatic-world-motion",
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v1/assets/aquatic-world-motion/immersive-landscape-first-frame-v1/v1/asset.png",
+      "role": "first_frame",
+      "sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619",
+      "status_at_creation": "draft",
+      "usage_notes": "Coordinator selected draft input for the requested website. No human final-media acceptance or paid authorization implied.",
+      "version": 1,
+      "current_status": "draft",
+      "integrity": "ok"
+    }
+  ],
+  "approved_rules_snapshot": [],
+  "current_approved_rules": [],
+  "rules_changed": false,
+  "preparation_state": "ready",
+  "blockers": [],
+  "generation_brief": "Aquatic immersive landscape environment\nDuration 6–6.1s; 1280x720, 24fps, audio silent.\ncamera: Locked single camera, no travel, zoom, reframing, shake or cuts.\ncharacter: One same silver/black striped angelfish facing left with gold dorsal tint, entire long fins intact; preserve scale, position, orientation and anatomy from exact reference. No new fish.\nenvironment: Quiet dark left half and full fish at right with all fin margins intact. No text, UI, logo, particles added, animal or foreground props.\nlighting: Gentle stationary surface light and slight natural water shimmer, no pumping exposure or flashing. Reading zone remains dark.\nmaterials: Preserve natural fish stripes, delicate fins, plant texture, wood grain and photographic deep teal habitat.\nmotion: Fish hovers at its exact reference position with only subtle pectoral fin breathing; restrained natural plant and water motion. No swimming through copy zone. Return to opening pose for a quiet loop.",
+  "results": [],
+  "generation_performed": false,
+  "inspection_provenance": "caller_reported_with_hashed_evidence",
+  "global_asset_approval": false
+}

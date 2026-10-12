@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "path": "demo/home-motion.js",
+      "state": "eligible motion",
+      "action": "Pause background",
+      "pauseHidden": false,
+      "playHidden": true
+    },
+    {
+      "path": "demo/home-motion.js",
+      "state": "manual Pause",
+      "action": "Resume background",
+      "pauseHidden": true,
+      "playHidden": false
+    },
+    {
+      "path": "demo/home-motion.js",
+      "state": "explicit Resume",
+      "action": "Pause background",
+      "pauseHidden": false,
+      "playHidden": true
+    },
+    {
+      "path": "demo/public/home-motion.js",
+      "state": "eligible motion",
+      "action": "Pause background",
+      "pauseHidden": false,
+      "playHidden": true
+    },
+    {
+      "path": "demo/public/home-motion.js",
+      "state": "manual Pause",
+      "action": "Resume background",
+      "pauseHidden": true,
+      "playHidden": false
+    },
+    {
+      "path": "demo/public/home-motion.js",
+      "state": "explicit Resume",
+      "action": "Pause background",
+      "pauseHidden": false,
+      "playHidden": true
+    }
+  ],
+  "limitation": "Focused render/attribute check; native SVG rendering and real playback transitions remain for coordinator browser review."
+}

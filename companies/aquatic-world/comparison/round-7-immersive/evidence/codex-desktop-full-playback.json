@@ -1,0 +1,6440 @@
+{
+  "source": "Native CDP Page screencast; unaltered page frames with original timestamps",
+  "frames": [
+    {
+      "frame": 0,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796103.733661
+      }
+    },
+    {
+      "frame": 1,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796103.768703
+      }
+    },
+    {
+      "frame": 2,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796103.802896
+      }
+    },
+    {
+      "frame": 3,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.281318
+      }
+    },
+    {
+      "frame": 4,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.466969
+      }
+    },
+    {
+      "frame": 5,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.499679
+      }
+    },
+    {
+      "frame": 6,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.534895
+      }
+    },
+    {
+      "frame": 7,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.60214
+      }
+    },
+    {
+      "frame": 8,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.633138
+      }
+    },
+    {
+      "frame": 9,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.666606
+      }
+    },
+    {
+      "frame": 10,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.769589
+      }
+    },
+    {
+      "frame": 11,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.804127
+      }
+    },
+    {
+      "frame": 12,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.834878
+      }
+    },
+    {
+      "frame": 13,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.933956
+      }
+    },
+    {
+      "frame": 14,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796104.964856
+      }
+    },
+    {
+      "frame": 15,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.033743
+      }
+    },
+    {
+      "frame": 16,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.102031
+      }
+    },
+    {
+      "frame": 17,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.166105
+      }
+    },
+    {
+      "frame": 18,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.2003
+      }
+    },
+    {
+      "frame": 19,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.269045
+      }
+    },
+    {
+      "frame": 20,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.303203
+      }
+    },
+    {
+      "frame": 21,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.37003
+      }
+    },
+    {
+      "frame": 22,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.435761
+      }
+    },
+    {
+      "frame": 23,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.468747
+      }
+    },
+    {
+      "frame": 24,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.536673
+      }
+    },
+    {
+      "frame": 25,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.60047
+      }
+    },
+    {
+      "frame": 26,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.634453
+      }
+    },
+    {
+      "frame": 27,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.664382
+      }
+    },
+    {
+      "frame": 28,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.69738
+      }
+    },
+    {
+      "frame": 29,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.767652
+      }
+    },
+    {
+      "frame": 30,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.800799
+      }
+    },
+    {
+      "frame": 31,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.870972
+      }
+    },
+    {
+      "frame": 32,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.935287
+      }
+    },
+    {
+      "frame": 33,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796105.967046
+      }
+    },
+    {
+      "frame": 34,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.100524
+      }
+    },
+    {
+      "frame": 35,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.134097
+      }
+    },
+    {
+      "frame": 36,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.168254
+      }
+    },
+    {
+      "frame": 37,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.26727
+      }
+    },
+    {
+      "frame": 38,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.302411
+      }
+    },
+    {
+      "frame": 39,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.375371
+      }
+    },
+    {
+      "frame": 40,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.433802
+      }
+    },
+    {
+      "frame": 41,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.607184
+      }
+    },
+    {
+      "frame": 42,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.642477
+      }
+    },
+    {
+      "frame": 43,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.675539
+      }
+    },
+    {
+      "frame": 44,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.775423
+      }
+    },
+    {
+      "frame": 45,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.806996
+      }
+    },
+    {
+      "frame": 46,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.86973
+      }
+    },
+    {
+      "frame": 47,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796106.934888
+      }
+    },
+    {
+      "frame": 48,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.001005
+      }
+    },
+    {
+      "frame": 49,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.034758
+      }
+    },
+    {
+      "frame": 50,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.164277
+      }
+    },
+    {
+      "frame": 51,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.202518
+      }
+    },
+    {
+      "frame": 52,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.270737
+      }
+    },
+    {
+      "frame": 53,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.334239
+      }
+    },
+    {
+      "frame": 54,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.437214
+      }
+    },
+    {
+      "frame": 55,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.468728
+      }
+    },
+    {
+      "frame": 56,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.501968
+      }
+    },
+    {
+      "frame": 57,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.642573
+      }
+    },
+    {
+      "frame": 58,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.668609
+      }
+    },
+    {
+      "frame": 59,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.700912
+      }
+    },
+    {
+      "frame": 60,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.77027
+      }
+    },
+    {
+      "frame": 61,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.802847
+      }
+    },
+    {
+      "frame": 62,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.835341
+      }
+    },
+    {
+      "frame": 63,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.871132
+      }
+    },
+    {
+      "frame": 64,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796107.937324
+      }
+    },
+    {
+      "frame": 65,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.000225
+      }
+    },
+    {
+      "frame": 66,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.030432
+      }
+    },
+    {
+      "frame": 67,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.099813
+      }
+    },
+    {
+      "frame": 68,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.166668
+      }
+    },
+    {
+      "frame": 69,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.302462
+      }
+    },
+    {
+      "frame": 70,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.335627
+      }
+    },
+    {
+      "frame": 71,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.441733
+      }
+    },
+    {
+      "frame": 72,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.469973
+      }
+    },
+    {
+      "frame": 73,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.504217
+      }
+    },
+    {
+      "frame": 74,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.599873
+      }
+    },
+    {
+      "frame": 75,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.636543
+      }
+    },
+    {
+      "frame": 76,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.669342
+      }
+    },
+    {
+      "frame": 77,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.702935
+      }
+    },
+    {
+      "frame": 78,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.809013
+      }
+    },
+    {
+      "frame": 79,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.840554
+      }
+    },
+    {
+      "frame": 80,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.935125
+      }
+    },
+    {
+      "frame": 81,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796108.967282
+      }
+    },
+    {
+      "frame": 82,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.001773
+      }
+    },
+    {
+      "frame": 83,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.109021
+      }
+    },
+    {
+      "frame": 84,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.142353
+      }
+    },
+    {
+      "frame": 85,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.169479
+      }
+    },
+    {
+      "frame": 86,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.267465
+      }
+    },
+    {
+      "frame": 87,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.300906
+      }
+    },
+    {
+      "frame": 88,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.333207
+      }
+    },
+    {
+      "frame": 89,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.433514
+      }
+    },
+    {
+      "frame": 90,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.466733
+      }
+    },
+    {
+      "frame": 91,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.496752
+      }
+    },
+    {
+      "frame": 92,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.603119
+      }
+    },
+    {
+      "frame": 93,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.639716
+      }
+    },
+    {
+      "frame": 94,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.668318
+      }
+    },
+    {
+      "frame": 95,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.703889
+      }
+    },
+    {
+      "frame": 96,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.769891
+      }
+    },
+    {
+      "frame": 97,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.801251
+      }
+    },
+    {
+      "frame": 98,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.837906
+      }
+    },
+    {
+      "frame": 99,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.932994
+      }
+    },
+    {
+      "frame": 100,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.965788
+      }
+    },
+    {
+      "frame": 101,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796109.99831
+      }
+    },
+    {
+      "frame": 102,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.032132
+      }
+    },
+    {
+      "frame": 103,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.098743
+      }
+    },
+    {
+      "frame": 104,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.166534
+      }
+    },
+    {
+      "frame": 105,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.276559
+      }
+    },
+    {
+      "frame": 106,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.30241
+      }
+    },
+    {
+      "frame": 107,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.368894
+      }
+    },
+    {
+      "frame": 108,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.434778
+      }
+    },
+    {
+      "frame": 109,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.469534
+      }
+    },
+    {
+      "frame": 110,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.505977
+      }
+    },
+    {
+      "frame": 111,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.599977
+      }
+    },
+    {
+      "frame": 112,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.633772
+      }
+    },
+    {
+      "frame": 113,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.665474
+      }
+    },
+    {
+      "frame": 114,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.701546
+      }
+    },
+    {
+      "frame": 115,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.762568
+      }
+    },
+    {
+      "frame": 116,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.798495
+      }
+    },
+    {
+      "frame": 117,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.934362
+      }
+    },
+    {
+      "frame": 118,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796110.970446
+      }
+    },
+    {
+      "frame": 119,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.00625
+      }
+    },
+    {
+      "frame": 120,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.100997
+      }
+    },
+    {
+      "frame": 121,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.165104
+      }
+    },
+    {
+      "frame": 122,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.200127
+      }
+    },
+    {
+      "frame": 123,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.332769
+      }
+    },
+    {
+      "frame": 124,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.366397
+      }
+    },
+    {
+      "frame": 125,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.43343
+      }
+    },
+    {
+      "frame": 126,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.600222
+      }
+    },
+    {
+      "frame": 127,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.635872
+      }
+    },
+    {
+      "frame": 128,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.669177
+      }
+    },
+    {
+      "frame": 129,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.772921
+      }
+    },
+    {
+      "frame": 130,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.803525
+      }
+    },
+    {
+      "frame": 131,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.834012
+      }
+    },
+    {
+      "frame": 132,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.936605
+      }
+    },
+    {
+      "frame": 133,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796111.968884
+      }
+    },
+    {
+      "frame": 134,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.00107
+      }
+    },
+    {
+      "frame": 135,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.101196
+      }
+    },
+    {
+      "frame": 136,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.136416
+      }
+    },
+    {
+      "frame": 137,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.169266
+      }
+    },
+    {
+      "frame": 138,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.204907
+      }
+    },
+    {
+      "frame": 139,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.267093
+      }
+    },
+    {
+      "frame": 140,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.332106
+      }
+    },
+    {
+      "frame": 141,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.364239
+      }
+    },
+    {
+      "frame": 142,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.46485
+      }
+    },
+    {
+      "frame": 143,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.534152
+      }
+    },
+    {
+      "frame": 144,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.633103
+      }
+    },
+    {
+      "frame": 145,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.667568
+      }
+    },
+    {
+      "frame": 146,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.700876
+      }
+    },
+    {
+      "frame": 147,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.77493
+      }
+    },
+    {
+      "frame": 148,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.804853
+      }
+    },
+    {
+      "frame": 149,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.870565
+      }
+    },
+    {
+      "frame": 150,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.935052
+      }
+    },
+    {
+      "frame": 151,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796112.968628
+      }
+    },
+    {
+      "frame": 152,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.000942
+      }
+    },
+    {
+      "frame": 153,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.104442
+      }
+    },
+    {
+      "frame": 154,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.136426
+      }
+    },
+    {
+      "frame": 155,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.17045
+      }
+    },
+    {
+      "frame": 156,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.268432
+      }
+    },
+    {
+      "frame": 157,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.309073
+      }
+    },
+    {
+      "frame": 158,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.335455
+      }
+    },
+    {
+      "frame": 159,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.368374
+      }
+    },
+    {
+      "frame": 160,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.436818
+      }
+    },
+    {
+      "frame": 161,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.469822
+      }
+    },
+    {
+      "frame": 162,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.499311
+      }
+    },
+    {
+      "frame": 163,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.532164
+      }
+    },
+    {
+      "frame": 164,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.666596
+      }
+    },
+    {
+      "frame": 165,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.700708
+      }
+    },
+    {
+      "frame": 166,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.732589
+      }
+    },
+    {
+      "frame": 167,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.800868
+      }
+    },
+    {
+      "frame": 168,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.836352
+      }
+    },
+    {
+      "frame": 169,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.902677
+      }
+    },
+    {
+      "frame": 170,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796113.970619
+      }
+    },
+    {
+      "frame": 171,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.000416
+      }
+    },
+    {
+      "frame": 172,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.034168
+      }
+    },
+    {
+      "frame": 173,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.066972
+      }
+    },
+    {
+      "frame": 174,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.133502
+      }
+    },
+    {
+      "frame": 175,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.167159
+      }
+    },
+    {
+      "frame": 176,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.200004
+      }
+    },
+    {
+      "frame": 177,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.299732
+      }
+    },
+    {
+      "frame": 178,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.333098
+      }
+    },
+    {
+      "frame": 179,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.370973
+      }
+    },
+    {
+      "frame": 180,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.401616
+      }
+    },
+    {
+      "frame": 181,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.469523
+      }
+    },
+    {
+      "frame": 182,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.507424
+      }
+    },
+    {
+      "frame": 183,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.533875
+      }
+    },
+    {
+      "frame": 184,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.635071
+      }
+    },
+    {
+      "frame": 185,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.66933
+      }
+    },
+    {
+      "frame": 186,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.702862
+      }
+    },
+    {
+      "frame": 187,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.736516
+      }
+    },
+    {
+      "frame": 188,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.802079
+      }
+    },
+    {
+      "frame": 189,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.837066
+      }
+    },
+    {
+      "frame": 190,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.866948
+      }
+    },
+    {
+      "frame": 191,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.897457
+      }
+    },
+    {
+      "frame": 192,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796114.967203
+      }
+    },
+    {
+      "frame": 193,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.001065
+      }
+    },
+    {
+      "frame": 194,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.131367
+      }
+    },
+    {
+      "frame": 195,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.164986
+      }
+    },
+    {
+      "frame": 196,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.201552
+      }
+    },
+    {
+      "frame": 197,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.308256
+      }
+    },
+    {
+      "frame": 198,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.341593
+      }
+    },
+    {
+      "frame": 199,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.373461
+      }
+    },
+    {
+      "frame": 200,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.471252
+      }
+    },
+    {
+      "frame": 201,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.503151
+      }
+    },
+    {
+      "frame": 202,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.534305
+      }
+    },
+    {
+      "frame": 203,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.632416
+      }
+    },
+    {
+      "frame": 204,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.664068
+      }
+    },
+    {
+      "frame": 205,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.697192
+      }
+    },
+    {
+      "frame": 206,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.731622
+      }
+    },
+    {
+      "frame": 207,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.797488
+      }
+    },
+    {
+      "frame": 208,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.835713
+      }
+    },
+    {
+      "frame": 209,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.902859
+      }
+    },
+    {
+      "frame": 210,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796115.970329
+      }
+    },
+    {
+      "frame": 211,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.002195
+      }
+    },
+    {
+      "frame": 212,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.037806
+      }
+    },
+    {
+      "frame": 213,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.134476
+      }
+    },
+    {
+      "frame": 214,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.166901
+      }
+    },
+    {
+      "frame": 215,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.19714
+      }
+    },
+    {
+      "frame": 216,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.29839
+      }
+    },
+    {
+      "frame": 217,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.366273
+      }
+    },
+    {
+      "frame": 218,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.399364
+      }
+    },
+    {
+      "frame": 219,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.50794
+      }
+    },
+    {
+      "frame": 220,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.567339
+      }
+    },
+    {
+      "frame": 221,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.635069
+      }
+    },
+    {
+      "frame": 222,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.700461
+      }
+    },
+    {
+      "frame": 223,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.734611
+      }
+    },
+    {
+      "frame": 224,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.806884
+      }
+    },
+    {
+      "frame": 225,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.83647
+      }
+    },
+    {
+      "frame": 226,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.902808
+      }
+    },
+    {
+      "frame": 227,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796116.969434
+      }
+    },
+    {
+      "frame": 228,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.002555
+      }
+    },
+    {
+      "frame": 229,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.034032
+      }
+    },
+    {
+      "frame": 230,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.132815
+      }
+    },
+    {
+      "frame": 231,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.167345
+      }
+    },
+    {
+      "frame": 232,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.298013
+      }
+    },
+    {
+      "frame": 233,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.333949
+      }
+    },
+    {
+      "frame": 234,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.367442
+      }
+    },
+    {
+      "frame": 235,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.46588
+      }
+    },
+    {
+      "frame": 236,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.500098
+      }
+    },
+    {
+      "frame": 237,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.534011
+      }
+    },
+    {
+      "frame": 238,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.633332
+      }
+    },
+    {
+      "frame": 239,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.668761
+      }
+    },
+    {
+      "frame": 240,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.736825
+      }
+    },
+    {
+      "frame": 241,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.802976
+      }
+    },
+    {
+      "frame": 242,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.836306
+      }
+    },
+    {
+      "frame": 243,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.867061
+      }
+    },
+    {
+      "frame": 244,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.900758
+      }
+    },
+    {
+      "frame": 245,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796117.975281
+      }
+    },
+    {
+      "frame": 246,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.001961
+      }
+    },
+    {
+      "frame": 247,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.037307
+      }
+    },
+    {
+      "frame": 248,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.135882
+      }
+    },
+    {
+      "frame": 249,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.168112
+      }
+    },
+    {
+      "frame": 250,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.196031
+      }
+    },
+    {
+      "frame": 251,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.299965
+      }
+    },
+    {
+      "frame": 252,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.334111
+      }
+    },
+    {
+      "frame": 253,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.364986
+      }
+    },
+    {
+      "frame": 254,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.468411
+      }
+    },
+    {
+      "frame": 255,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.501297
+      }
+    },
+    {
+      "frame": 256,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.533929
+      }
+    },
+    {
+      "frame": 257,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.563287
+      }
+    },
+    {
+      "frame": 258,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.629927
+      }
+    },
+    {
+      "frame": 259,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.663824
+      }
+    },
+    {
+      "frame": 260,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.732469
+      }
+    },
+    {
+      "frame": 261,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.80294
+      }
+    },
+    {
+      "frame": 262,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.869956
+      }
+    },
+    {
+      "frame": 263,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.900447
+      }
+    },
+    {
+      "frame": 264,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796118.966539
+      }
+    },
+    {
+      "frame": 265,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.003587
+      }
+    },
+    {
+      "frame": 266,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.033461
+      }
+    },
+    {
+      "frame": 267,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.066998
+      }
+    },
+    {
+      "frame": 268,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.16283
+      }
+    },
+    {
+      "frame": 269,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.198481
+      }
+    },
+    {
+      "frame": 270,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.232794
+      }
+    },
+    {
+      "frame": 271,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.299423
+      }
+    },
+    {
+      "frame": 272,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.33642
+      }
+    },
+    {
+      "frame": 273,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.473312
+      }
+    },
+    {
+      "frame": 274,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.502514
+      }
+    },
+    {
+      "frame": 275,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.533726
+      }
+    },
+    {
+      "frame": 276,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.566337
+      }
+    },
+    {
+      "frame": 277,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.668532
+      }
+    },
+    {
+      "frame": 278,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.697771
+      }
+    },
+    {
+      "frame": 279,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.731941
+      }
+    },
+    {
+      "frame": 280,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.796795
+      }
+    },
+    {
+      "frame": 281,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.831637
+      }
+    },
+    {
+      "frame": 282,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.868439
+      }
+    },
+    {
+      "frame": 283,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796119.969997
+      }
+    },
+    {
+      "frame": 284,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.001605
+      }
+    },
+    {
+      "frame": 285,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.036786
+      }
+    },
+    {
+      "frame": 286,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.070753
+      }
+    },
+    {
+      "frame": 287,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.136458
+      }
+    },
+    {
+      "frame": 288,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.166667
+      }
+    },
+    {
+      "frame": 289,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.19544
+      }
+    },
+    {
+      "frame": 290,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.299221
+      }
+    },
+    {
+      "frame": 291,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.366976
+      }
+    },
+    {
+      "frame": 292,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.399318
+      }
+    },
+    {
+      "frame": 293,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.560996
+      }
+    },
+    {
+      "frame": 294,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.633926
+      }
+    },
+    {
+      "frame": 295,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.664484
+      }
+    },
+    {
+      "frame": 296,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.697456
+      }
+    },
+    {
+      "frame": 297,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.799539
+      }
+    },
+    {
+      "frame": 298,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.832568
+      }
+    },
+    {
+      "frame": 299,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.865168
+      }
+    },
+    {
+      "frame": 300,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.896062
+      }
+    },
+    {
+      "frame": 301,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796120.965757
+      }
+    },
+    {
+      "frame": 302,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.029536
+      }
+    },
+    {
+      "frame": 303,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.063536
+      }
+    },
+    {
+      "frame": 304,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.135509
+      }
+    },
+    {
+      "frame": 305,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.170043
+      }
+    },
+    {
+      "frame": 306,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.235343
+      }
+    },
+    {
+      "frame": 307,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.30561
+      }
+    },
+    {
+      "frame": 308,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.335635
+      }
+    },
+    {
+      "frame": 309,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.467196
+      }
+    },
+    {
+      "frame": 310,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.498571
+      }
+    },
+    {
+      "frame": 311,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.637394
+      }
+    },
+    {
+      "frame": 312,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.668548
+      }
+    },
+    {
+      "frame": 313,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.735279
+      }
+    },
+    {
+      "frame": 314,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.80695
+      }
+    },
+    {
+      "frame": 315,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.84122
+      }
+    },
+    {
+      "frame": 316,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.90159
+      }
+    },
+    {
+      "frame": 317,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796121.967403
+      }
+    },
+    {
+      "frame": 318,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.000649
+      }
+    },
+    {
+      "frame": 319,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.030653
+      }
+    },
+    {
+      "frame": 320,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.06559
+      }
+    },
+    {
+      "frame": 321,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.132557
+      }
+    },
+    {
+      "frame": 322,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.167419
+      }
+    },
+    {
+      "frame": 323,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.233014
+      }
+    },
+    {
+      "frame": 324,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.30035
+      }
+    },
+    {
+      "frame": 325,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.336556
+      }
+    },
+    {
+      "frame": 326,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.369387
+      }
+    },
+    {
+      "frame": 327,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.473083
+      }
+    },
+    {
+      "frame": 328,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.504161
+      }
+    },
+    {
+      "frame": 329,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.633443
+      }
+    },
+    {
+      "frame": 330,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.665928
+      }
+    },
+    {
+      "frame": 331,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.700238
+      }
+    },
+    {
+      "frame": 332,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.801258
+      }
+    },
+    {
+      "frame": 333,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.834054
+      }
+    },
+    {
+      "frame": 334,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.901193
+      }
+    },
+    {
+      "frame": 335,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796122.969648
+      }
+    },
+    {
+      "frame": 336,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796123.000388
+      }
+    },
+    {
+      "frame": 337,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796123.031329
+      }
+    },
+    {
+      "frame": 338,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796123.133005
+      }
+    },
+    {
+      "frame": 339,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796123.165699
+      }
+    },
+    {
+      "frame": 340,
+      "metadata": {
+        "deviceHeight": 900,
+        "deviceWidth": 1440,
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1791796123.197358
+      }
+    }
+  ],
+  "states": [
+    {
+      "elapsed": 0.543,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.754236,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 1.207,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.330261,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 1.714,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.831728,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 2.246,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.371276,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 2.735,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.871568,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 3.306,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.437495,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 3.867,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.982855,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 4.452,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.595408,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 4.98,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.085667,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 5.466,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.577906,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 5.99,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.099144,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 6.557,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.677704,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 7.066,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.177079,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 7.722,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.856446,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 8.27,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.381574,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 8.804,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.919911,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 9.3,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.4195,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 9.829,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.949154,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 10.323,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.41279,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 10.814,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.911013,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 11.306,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.409675,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 11.807,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.896045,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 12.314,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.423168,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 12.889,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.979619,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 13.443,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.550625,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 13.938,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.041874,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 14.471,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 4.570701,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 15.062,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.150725,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 15.631,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 5.726361,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 16.132,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.234742,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 16.714,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.813645,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 17.223,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.303808,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 17.74,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 1.831062,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 18.234,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.30768,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 18.768,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 2.87122,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "elapsed": 19.325,
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 0,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": 307.1953125,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": 564.7421875,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 3.404212,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    }
+  ],
+  "encoded_file": "codex-desktop-full-playback.mp4",
+  "encoded_bytes": 3655448,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1440,
+        "height": 900,
+        "coded_width": 1440,
+        "coded_height": 900,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "8:5",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "8525/488",
+        "time_base": "1/12800",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 249856,
+        "duration": "19.520000",
+        "bit_rate": "1495465",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "341",
+        "extradata_size": 50,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.102 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/comparison/round-7-immersive/evidence/codex-desktop-full-playback.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "19.520000",
+      "size": "3655448",
+      "bit_rate": "1498134",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.12.102"
+      }
+    }
+  },
+  "observed_clock_wraps": [
+    {
+      "before_seconds": 3.867,
+      "after_seconds": 4.452,
+      "video_before": 5.982855,
+      "video_after": 0.595408
+    },
+    {
+      "before_seconds": 9.829,
+      "after_seconds": 10.323,
+      "video_before": 5.949154,
+      "video_after": 0.41279
+    },
+    {
+      "before_seconds": 15.631,
+      "after_seconds": 16.132,
+      "video_before": 5.726361,
+      "video_after": 0.234742
+    }
+  ],
+  "editing": "Real timestamp durations, H.264 compression only; no frame synthesis, crop or smoothing"
+}

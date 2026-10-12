@@ -1,0 +1,79 @@
+{
+  "stage": 1,
+  "prepared_on": "2026-10-12",
+  "shared_input_files": {
+    "immersive-home/BRIEF.md": {
+      "bytes": 19366,
+      "sha256": "c4e6cd5254e982f9f02125c77f7574d343143b85662604cd6d2e759297e7c1dd"
+    },
+    "immersive-home/COMPARISON.md": {
+      "bytes": 7075,
+      "sha256": "6c697bcc3a3d254ea6b7cafc70c73728e73a864d3fbe010e7e01ecd2f2966ac2"
+    },
+    "immersive-home/STAGE.md": {
+      "bytes": 3486,
+      "sha256": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c"
+    },
+    "mcp-empty.json": {
+      "bytes": 18,
+      "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+    },
+    "media/landscape-generation-frame.png": {
+      "bytes": 1380251,
+      "sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619"
+    },
+    "media/landscape-poster.webp": {
+      "bytes": 136226,
+      "sha256": "1d156452355d2311f998ae7a9056bdded66bddffb7a05158b1f36c27f3dac35e"
+    },
+    "media/portrait-generation-frame.png": {
+      "bytes": 1283769,
+      "sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96"
+    },
+    "media/portrait-poster.webp": {
+      "bytes": 112686,
+      "sha256": "8c2187523c89cdede0a1e8b7fd2eec51dfa57bece5a61c011660caed755c39c9"
+    },
+    "media/poster-manifest.json": {
+      "bytes": 553,
+      "sha256": "c78b2534ad1502f8d3311725f2a53f065236d5e0ca48b48016054f052f96eefc"
+    },
+    "reference/desktop-v1.png": {
+      "bytes": 2371655,
+      "sha256": "3403272a0cfa5a918760a6746b912bf5a0f530dded0864e1ec1b9a71abea96e9"
+    },
+    "reference/mobile-v1.png": {
+      "bytes": 2060442,
+      "sha256": "9232370d0b3ecf5169e25f4aa3a008e1938b8c3e3d3629d67d8068d609c5c6e5"
+    },
+    "skills/cli-web-design-director/SKILL.md": {
+      "bytes": 4990,
+      "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+    },
+    "skills/cli-web-design-director/agents/openai.yaml": {
+      "bytes": 272,
+      "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+    },
+    "skills/cli-web-design-director/references/cli-operation.md": {
+      "bytes": 4771,
+      "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+    },
+    "skills/cli-web-design-director/references/design-review.md": {
+      "bytes": 4605,
+      "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+    },
+    "skills/cli-web-design-director/references/prompt-patterns.md": {
+      "bytes": 3259,
+      "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+    }
+  },
+  "shared_root_contracts": {
+    "AGENTS.md": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf",
+    "CLAUDE.md": "9434cfed1e156435f454c0c820b77cc4a06642a44657952fd1e243202a4b82bf",
+    "TASK.md": "cefca1cba819aa87b70e634c4abd77188b67cf75effb7669d1fc50616602975c",
+    "ACCEPTANCE.md": "40f1723c8286685240adcc27244298302e2d955a9a1352216beebfed5e423089",
+    "IMPLEMENTATION-PROMPT.txt": "9ba7dfebc94cbcb5da5e9dd23d7ea53c4ed7babe36abe8aa5efefda8fe11bc5b"
+  },
+  "video_readiness": "pending paid authorization; no final video comparison",
+  "user_acceptance": "open"
+}

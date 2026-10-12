@@ -1,0 +1,54 @@
+{
+  "scope": "Controller logic with DOM/event/video stubs only. No native browser, real media, network or rendered behavior tested.",
+  "count": 12,
+  "checks": [
+    {
+      "name": "Eligible entry uses only the rebased landscape URL, reveals a playing frame and leaves scroll timeline unchanged",
+      "result": "pass"
+    },
+    {
+      "name": "Eligible portrait entry and both orientation changes pair the selected real-film path with its matching poster",
+      "result": "pass"
+    },
+    {
+      "name": "Manual Pause freezes frame, survives menu/tab/page events and remains a source-free poster on another Home document",
+      "result": "pass"
+    },
+    {
+      "name": "Reduced motion starts with zero source/load/play; reversal alone preserves stop and explicit opt-in is revocable",
+      "result": "pass"
+    },
+    {
+      "name": "Exposed Save-Data prevents initial attachment and does not resume on reversal; explicit Play can opt in",
+      "result": "pass"
+    },
+    {
+      "name": "Menu suspension isolates/restores background, contains Tab focus and never attaches while initially open",
+      "result": "pass"
+    },
+    {
+      "name": "Hidden entry avoids loading; visibility and page suspension resume eligible intent without reloading",
+      "result": "pass"
+    },
+    {
+      "name": "Autoplay denial retains poster and explicit Play; lifecycle events do not retry either denied attempt",
+      "result": "pass"
+    },
+    {
+      "name": "Missing/invalid video hides utility, retains poster, avoids same-source retries and can try the other orientation",
+      "result": "pass"
+    },
+    {
+      "name": "Orientation change during retained pause switches to matching poster without attaching another MP4",
+      "result": "pass"
+    },
+    {
+      "name": "Late play promise and playing event cannot override a newer manual or policy stop",
+      "result": "pass"
+    },
+    {
+      "name": "Loading/stall preserves usable frame and unavailable storage/connection does not break control",
+      "result": "pass"
+    }
+  ]
+}

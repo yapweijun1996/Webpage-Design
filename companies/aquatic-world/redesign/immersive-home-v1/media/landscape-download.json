@@ -1,0 +1,19 @@
+{
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619",
+  "request_id": "aquatic_immersive_landscape_20261012_01",
+  "model": "runway/gen-4.5",
+  "duration": 6,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "estimated_cost_usd": "0.72",
+  "actual_cost_usd": "0.72",
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "status": "completed",
+  "job_id": "gen-vid-1791791413-DFI0tqVqgWi1aEbNov4G",
+  "submitted_at_utc": "2026-10-12T07:50:13.328601+00:00",
+  "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_immersive_landscape_20261012_01.mp4",
+  "bytes": 3743853
+}
