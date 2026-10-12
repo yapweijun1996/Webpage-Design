@@ -15,7 +15,7 @@ The local Pages package builds 16 content pages plus the two candidate 404 pages
 
 [Actual public browser verification](evidence/publication-browser-checks.json) used CUA at the public HTTPS origin, at 1440×900 and 390×844. Each Home loaded the correct full-viewport landscape/portrait film with real advancing playback, muted/inline looping and no horizontal overflow. Pause/Resume agreed with playback, the hero action opened the real Collections page, and phone Menu suspended playback before its Contact link opened the independent Contact page. The observed inner pages did not contain/download Home films. Claude Contact also survived an explicit public refresh. Policy/fallback/native-lifecycle cases were exercised locally with the identical published runtime bytes; they were not all repeated at the public origin.
 
-Actual public first-screen captures: [Codex desktop](evidence/codex-public-desktop.png), [Codex phone](evidence/codex-public-mobile.png), [Claude desktop](evidence/claude-public-desktop.png), [Claude phone](evidence/claude-public-mobile.png).
+Actual public first-screen captures: [Codex desktop](evidence/codex-public-desktop.jpg), [Codex phone](evidence/codex-public-mobile.jpg), [Claude desktop](evidence/claude-public-desktop.jpg), [Claude phone](evidence/claude-public-mobile.jpg).
 
 This publication record and its evidence are a documentation-only follow-up to the verified runtime release. Its subsequent push triggers the same Pages workflow; it does not alter the verified HTML, CSS, JS or media. The live manifest identifies the latest deployment commit.
 
