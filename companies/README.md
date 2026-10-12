@@ -14,6 +14,8 @@ Current demo/testing publication: [GitHub Pages catalog](https://yapweijun1996.g
 
 Aquatic World's [immersive Home brief](aquatic-world/redesign/immersive-home-v1/BRIEF.md), [future common CLI prompt](aquatic-world/redesign/immersive-home-v1/CLI-HANDOFF.txt) and [comparison requirements](aquatic-world/redesign/immersive-home-v1/COMPARISON.md) are prepared. The case remains `building`: this is design documentation, with approved landscape/portrait media and implementation still pending.
 
+The [desktop and mobile static concepts](aquatic-world/redesign/immersive-home-v1/visuals/README.md) are now available for visual review. The current published implementations are unchanged.
+
 Add one row per company. Take the company name, industry, and status from that company's README. Link research and design files as they are added; use `Pending` for a demo until an actual entry point exists.
 
 For a company folder named `example-company`, a research link from this catalog points to `example-company/research.md`. The folder name here is an example, not an existing case study.

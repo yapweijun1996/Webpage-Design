@@ -31,6 +31,8 @@ There is no video card, border, rounded frame, media caption, timestamp, timelin
 
 These are starting composition targets. Real poster/video frames and typography must later be reviewed at the specified viewports; percentages do not establish a usable crop.
 
+The [desktop and mobile static concepts](visuals/README.md) now illustrate this first-screen direction. They are shared visual references with rasterized UI, not runtime posters, video-generation first frames or evidence of implemented responsive behavior.
+
 | Area | Desktop / landscape | Phone / portrait |
 | --- | --- | --- |
 | Environment | Edge-to-edge water, filling the visible viewport. Use a landscape master with ample water around the fish. | Edge-to-edge water, filling the visible viewport, from a separately composed portrait master. |
@@ -110,7 +112,7 @@ The [selected source image](../../comparison/assets-v1/hero-angelfish.png) was v
 | Approved landscape loop and matching poster | Not available. |
 | Approved portrait loop and matching poster | Not available. |
 
-Do not simply enlarge the current 16:9 trial or center-crop it into a tall phone viewport. A portrait cover crop would lose the left copy space and long fins. Prepare two centrally art-directed compositions from the same illustrative source: landscape with the fish right and copy space left; portrait with the fish above and copy space below. Expanding the water environment is preferable to stretching the subject. These new compositions are planned, not generated or visually verified in this design task.
+Do not simply enlarge the current 16:9 trial or center-crop it into a tall phone viewport. A portrait cover crop would lose the left copy space and long fins. Prepare two centrally art-directed compositions from the same illustrative source: landscape with the fish right and copy space left; portrait with the fish above and copy space below. Expanding the water environment is preferable to stretching the subject. Static interface mockups now illustrate the proposed compositions; clean scene masters, video-generation first frames and runtime posters have not been prepared or approved.
 
 Target one locked-camera shot: restrained fin motion, slight plant movement and soft water light. Hold fish identity, scale, orientation and subject position. Avoid new animals, deforming stripes, dramatic camera travel, rapid lighting changes and motion that enters the text zones. Prefer an approximately 8–12 second natural loop; duration and supported output resolution are preparation decisions to verify against the chosen provider before any later quote or generation. No provider recommendation or spending approval is implied here.
 

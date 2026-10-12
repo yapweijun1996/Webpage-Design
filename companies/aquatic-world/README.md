@@ -93,7 +93,9 @@ The [CLI design lessons](redesign/LEARNINGS.md) and [implementation prompt](rede
 
 ### GitHub Pages publication
 
-The [new immersive Home design package](redesign/immersive-home-v1/README.md) is prepared for a future iteration. Its [shared brief](redesign/immersive-home-v1/BRIEF.md) makes the whole Home viewport an underwater environment through all three chapters and the footer; top bar, headline and CTA are integrated with that scene. The [common CLI handoff](redesign/immersive-home-v1/CLI-HANDOFF.txt) and [comparison protocol](redesign/immersive-home-v1/COMPARISON.md) are ready as design documents. No new implementation or media generation has run. Approved landscape/portrait loops and posters are still needed before a fair paired implementation. This preparation does not update the current published demos.
+The [new immersive Home design package](redesign/immersive-home-v1/README.md) is prepared for a future iteration. Its [shared brief](redesign/immersive-home-v1/BRIEF.md) makes the whole Home viewport an underwater environment through all three chapters and the footer; top bar, headline and CTA are integrated with that scene. The [common CLI handoff](redesign/immersive-home-v1/CLI-HANDOFF.txt) and [comparison protocol](redesign/immersive-home-v1/COMPARISON.md) are ready as design documents. No new implementation or video generation has run. Approved landscape/portrait loops and posters are still needed before a fair paired implementation. This preparation does not update the current published demos.
+
+The [desktop and mobile static visual drafts](redesign/immersive-home-v1/visuals/README.md) now illustrate the proposed first screen. Built-in image generation produced both; one targeted mobile edit restores fin breathing room. These are concept references with rasterized UI, not browser evidence or runtime media. Video generation and website implementation have not started for this direction; the company remains `building` while design acceptance is open.
 
 The repository [Pages workflow](../../.github/workflows/pages.yml) publishes the current implementations for demo/testing:
 
