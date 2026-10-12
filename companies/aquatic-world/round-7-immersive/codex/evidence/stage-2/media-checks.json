@@ -1,0 +1,94 @@
+{
+  "scope": "Offline read-only media metadata/decode checks. No browser or visually observed playback.",
+  "count": 2,
+  "checks": [
+    {
+      "film": "landscape.mp4",
+      "result": "pass",
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "6.000000",
+            "nb_frames": "144",
+            "nb_read_frames": "144"
+          }
+        ],
+        "format": {
+          "duration": "6.000000",
+          "size": "1325946"
+        }
+      },
+      "poster_probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "webp",
+            "width": 1280,
+            "height": 720
+          }
+        ]
+      },
+      "decoded_frames": 144,
+      "distinct_decoded_frame_hashes": 144,
+      "first_frame_md5": "95fe941d35e589600497d0cb43208b6b",
+      "last_frame_md5": "82ac77bcfb1b76cc4e77ccf293e7de3c",
+      "decoded_first_last_identical": false,
+      "limit": "Decode integrity and frame variation do not prove browser advancement, perceptually seamless joins, poster handoff or subject safety."
+    },
+    {
+      "film": "portrait.mp4",
+      "result": "pass",
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1280,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "6.000000",
+            "nb_frames": "144",
+            "nb_read_frames": "144"
+          }
+        ],
+        "format": {
+          "duration": "6.000000",
+          "size": "1536090"
+        }
+      },
+      "poster_probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "webp",
+            "width": 720,
+            "height": 1280
+          }
+        ]
+      },
+      "decoded_frames": 144,
+      "distinct_decoded_frame_hashes": 144,
+      "first_frame_md5": "4a9763385b218376d91d95b89d4b6b4a",
+      "last_frame_md5": "d5aef1bd2259fa29b359e9a923c3002e",
+      "decoded_first_last_identical": false,
+      "limit": "Decode integrity and frame variation do not prove browser advancement, perceptually seamless joins, poster handoff or subject safety."
+    }
+  ]
+}

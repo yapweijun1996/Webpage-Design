@@ -1,0 +1,1 @@
+Stage 1: source/build and posterior layout only. Actual film checks remain not run. Final acceptance is input/immersive-home/COMPARISON.md; input/immersive-home/STAGE.md owns the current execution phase.

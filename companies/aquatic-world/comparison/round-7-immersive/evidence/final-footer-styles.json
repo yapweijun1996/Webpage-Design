@@ -1,0 +1,294 @@
+{
+  "codex": [
+    {
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(4, 29, 37, 0), rgba(4, 29, 37, 0.76))",
+        "pseudoBackground": "rgba(0, 0, 0, 0)",
+        "pseudoImage": "none",
+        "paddingBottom": "28px"
+      },
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 1462.5,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 20,
+        "y": -956.2734375,
+        "width": 350,
+        "height": 85.125
+      },
+      "ctaRect": {
+        "x": 20,
+        "y": -775.1484375,
+        "width": 267.15625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.373748,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 324,
+            "y": 778,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/portrait.mp4",
+          "transfer": 0
+        }
+      ]
+    },
+    {
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(4, 29, 37, 0), rgba(4, 29, 37, 0.76))",
+        "pseudoBackground": "rgba(0, 0, 0, 0)",
+        "pseudoImage": "none",
+        "paddingBottom": "30px"
+      },
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 1586,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": -1278.8046875,
+        "width": 660,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": -1021.2578125,
+        "width": 281.15625,
+        "height": 56
+      },
+      "poster": "http://127.0.0.1:4241/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.469504,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "",
+          "label": "Pause background",
+          "hidden": false,
+          "rect": {
+            "x": 1368,
+            "y": 828,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4241/assets/immersive/landscape.mp4",
+          "transfer": 0
+        }
+      ]
+    }
+  ],
+  "claude": [
+    {
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "pseudoBackground": "rgba(2, 14, 19, 0.8)",
+        "pseudoImage": "none",
+        "paddingBottom": "96px"
+      },
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 1665,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 23.3984375,
+        "y": -1141.046875,
+        "width": 343.203125,
+        "height": 79.359375
+      },
+      "ctaRect": {
+        "x": 23.3984375,
+        "y": -965,
+        "width": 272.015625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4242/assets/immersive/portrait-poster.webp",
+      "posterPosition": "50% 30%",
+      "video": {
+        "src": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+        "attribute": "/assets/immersive/portrait.mp4",
+        "time": 0.410183,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 30%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "control": [
+        {
+          "text": "Pause background",
+          "label": null,
+          "hidden": false,
+          "rect": {
+            "x": 330,
+            "y": 784,
+            "width": 44,
+            "height": 44
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4242/assets/immersive/portrait.mp4",
+          "transfer": 1536390
+        }
+      ]
+    },
+    {
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "pseudoBackground": "rgba(0, 0, 0, 0)",
+        "pseudoImage": "linear-gradient(90deg, rgba(2, 14, 19, 0.86) 0%, rgba(2, 14, 19, 0.72) 55%, rgba(2, 14, 19, 0.4) 100%)",
+        "paddingBottom": "96px"
+      },
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollY": 1790,
+      "overflow": false,
+      "heading": "A world beneath\nthe surface.",
+      "headingRect": {
+        "x": 100.796875,
+        "y": -1465.0546875,
+        "width": 604.796875,
+        "height": 149.75
+      },
+      "ctaRect": {
+        "x": 100.796875,
+        "y": -1205.5078125,
+        "width": 272.015625,
+        "height": 52
+      },
+      "poster": "http://127.0.0.1:4242/assets/immersive/landscape-poster.webp",
+      "posterPosition": "50% 50%",
+      "video": {
+        "src": "http://127.0.0.1:4242/assets/immersive/landscape.mp4",
+        "attribute": "/assets/immersive/landscape.mp4",
+        "time": 0.448035,
+        "duration": 6,
+        "paused": false,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "ready": 4,
+        "position": "50% 50%",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "control": [
+        {
+          "text": "Pause background",
+          "label": null,
+          "hidden": false,
+          "rect": {
+            "x": 1364.3203125,
+            "y": 824.3203125,
+            "width": 44,
+            "height": 44
+          }
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4242/assets/immersive/landscape.mp4",
+          "transfer": 1326246
+        }
+      ]
+    }
+  ]
+}

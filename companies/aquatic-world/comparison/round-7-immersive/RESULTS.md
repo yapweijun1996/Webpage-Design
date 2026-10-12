@@ -1,0 +1,45 @@
+# Immersive Home — observed results
+
+Reviewed 2026-10-12. Both native CLI implementations now use real silent aquarium films as the fixed Home environment, with live navigation, type and actions. The scene continues through the collection chapter, perspective chapter and transparent footer. Eight independent content pages and the existing local Contact journey remain. **User creative acceptance is open for the public test.**
+
+## Experiment and media
+
+Each CLI started from its own immutable round-6 baseline, with 16 identical initial inputs. Stage 2 supplied the same four runtime assets and matching posters. Every subsequent corrective brief was supplied identically to both builders. [Execution summary](evidence/execution-summary.json) records all five runs, exact commands, accepted requests, exposed evidence, timing and protocol deviations. Codex requested `gpt-6.1-sol`; its serving model was not exposed in CLI events. Claude exposed `claude-opus-5-5` in every run. Stage 1–3 used Codex xhigh / Claude native default effort; the narrowly bounded Stage 4–5 repairs requested low effort on both. Global configuration was unchanged.
+
+The two new Runway Gen-4.5 jobs cost **US$1.44 total**, inside the separately approved US$1.75 cap. There were exactly two requests, with no retry. The historical trial cost was also US$1.44 and is separate. [Media provenance](../../redesign/immersive-home-v1/media/README.md) records raw receipts and local processing: frames 1–36 of each raw shot traverse forward and return with eased timing. These are edited six-second return loops, not untouched naturally repeating provider shots. No dissolve, substitute still film or additional paid generation was used. Technical endpoint SSIM is about 0.980 for both; this metric alone does not prove visual continuity.
+
+[Frozen-input checks](evidence/frozen-input-check.json) verify equal/unchanged inputs at all five stages, identical runtime assets, each immutable baseline, and unchanged historical round-6 files. Claude disclosed a transient deleted `/tmp` file in Stage 1 and read-only Git inspection in Stage 2 despite the worker restrictions. No Git mutation or retained outside edit resulted. The comparison concerns these recorded CLI workflows and different own baselines, not isolated model capability.
+
+## Browser observations
+
+CUA controlled the same actual in-app browser for both viewport/composition reviews. The [final matrix](evidence/final-viewport-matrix.json) covers 1440×900, 1280×800, 1024×768, 768×1024, 430×932, 390×844, 360×800, 320×800, 900×900, 900×800, 1000×900, 844×390, 667×375 and 500×500. No horizontal overflow was observed. Full subject/fins and readable live first-screen copy were inspected in the captures and common moving-frame range. Standard portrait phones show the complete collection CTA in the first viewport. Near-square windows deliberately scroll to the action to leave the fish clear. At 844×390 the Codex CTA extends about 2px past the initial viewport; ordinary scrolling exposes it. Claude's action fits at that short size.
+
+| Gate | Observed result and evidence |
+| --- | --- |
+| Continuous environment | Pass in exercised states. [Scroll continuity](evidence/scroll-continuity.json) shows advancing video with the same viewport-sized rectangle at later chapters. [Final footer styles](evidence/final-footer-styles.json) and final desktop/phone captures confirm transparent footer backgrounds with translucent washes. |
+| Composition and responsive action | Pass at the recorded sizes, with the short/near-square scrolling behavior above. Shared final selection is `(min-aspect-ratio: 6/5)` at every width; portrait crop is 50% 30%, landscape 50% 50%. |
+| Actual motion and joins | Real native screencasts retain original frame timestamps, without synthesized smoothing. Desktop and phone recordings for both candidates cover three observed clock wraps each. Sampled before/after frames show no abrupt composition reset, flash or doubled subject. The subtle return motion is disclosed. |
+| Real destinations | [Navigation checks](evidence/navigation-checks.json) exercise five global links, logo/hero paths, Back/Forward and direct refresh of all seven inner pages. [Category context](evidence/category-context.json) exercises all three category-to-Contact paths and the Home enquiry action. Inner pages contain/download no Home film. |
+| Contact | [Contact checks](evidence/contact-checks.json): empty validation, filled local preview, retained values on Edit and cleared values on Clear. Sample details are fictional. No enquiry network request occurred during the exercised preview/edit/clear flows. |
+| Controls and fallback | [Final controls](evidence/final-controls.json), [policy checks](evidence/policy-checks.json), [native Save-Data signals](evidence/native-policy-signals.json), [fault/no-JS checks](evidence/fallback-checks.json) and [packaged-path checks](evidence/packaged-base-checks.json) cover Pause/Resume, Menu suspension/Escape, session stop across Back/reload, poster defaults without an MP4 request, explicit opt-in, live reduced-motion revocation, missing-file fallback and usable no-JS navigation. Autoplay refusal was explicitly injected by the loopback QA server; it is not claimed as a physical-device native denial. |
+| Native lifecycle | [Actual Chrome tab evidence](evidence/native-tab-visibility.json) uses real adjacent owned tabs and real `document.hidden`, after disabling the harness's focus emulation. Hidden suspends, visible resumes eligible playback, and manual Pause remains stopped. No visibility value was patched and no synthetic visibility event dispatched. |
+| Keyboard | Native Tab reaches the primary link with visible 2px focus; Menu/Escape work. Dedicated focused-control/menu captures are retained. This is a task check, not a full accessibility certification. |
+| Reproducibility/publication base | The Pages packager rebuilds disposable independent copies, changes only root URL attributes, verifies all 16 content pages plus 404s and 676 local references, and leaves media/CSS/JS bytes unchanged. Local actual-browser checks use `/Webpage-Design/aquatic-world/<candidate>/`, including deferred MP4 paths. |
+
+Recordings: [Codex desktop](evidence/codex-desktop-full-playback.mp4), [Codex phone](evidence/codex-mobile-full-playback.mp4), [Claude desktop](evidence/claude-desktop-full-playback.mp4), [Claude phone](evidence/claude-mobile-full-playback.mp4). Claude's recordings precede the footer-only selector repair; their recorded first-screen markup, media, controller and layout remain unchanged. The final footer captures separately verify that repair. A pair of early inactive-tab screencasts were rejected as cropped and replaced; rejection summaries remain, temporary raw frames were removed after timestamp-preserving encoding.
+
+## Findings corrected before publication
+
+1. Both original selection queries used a 900px width guard, so 844×390 selected a heavily cropped portrait film. The identical [Stage 3 brief](stage-3/BRIEF.md) moved selection to aspect ratio alone; actual final narrow-landscape captures retain the fish and left reading zone.
+2. Codex's visible icon disagreed with its accessible Pause action because SVG `.hidden` was an expando. The identical [Stage 4 brief](stage-4/BRIEF.md) led Codex to toggle real attributes; Claude's action-state CSS already worked. The final rendered Pause/Resume/Pause cycle agrees in both.
+3. A later generic footer declaration overrode Claude's transparent Home rule. The identical [Stage 5 brief](stage-5/BRIEF.md) led to a Home-specific specificity fix. Codex's distinct footer class already isolated its translucent gradient. Both final computed backgrounds are transparent.
+
+These failures were caught in actual rendering despite successful builds and worker stubs. Build counts are not evidence of immersive design quality.
+
+## Design judgment and limits
+
+Both now meet the intended environmental composition in the reviewed states. Claude is the evaluator's slight preference for phone Menu clarity and the compact short-landscape offer/action; at 844×390 its CTA ends at about 330px versus Codex 392px. Codex places its portrait-tablet action earlier (878px versus Claude 932px at 768×1024), while both fit the first screen. These concrete trade-offs do not establish a general model winner or the user's satisfaction.
+
+Physical iOS Safari/Android Chrome, physical live data-saving/network preference changes, assistive-technology audits and dedicated 200% text-enlargement checks were not run. Desktop viewport emulation and injected failure cases are labeled as such. Sampled visual readability was inspected; full moving-frame contrast/accessibility compliance is not asserted. AI imagery/copy represent a fictional design case, not verified stock or a real company's operations. Contact is a local preview with no delivery service.
+
+Public deployment verification is recorded separately in PUBLICATION.md after the actual GitHub deployment, not inferred from this local report.

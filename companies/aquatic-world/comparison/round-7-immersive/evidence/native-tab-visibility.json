@@ -1,0 +1,69 @@
+{
+  "source": "Actual adjacent owned Chrome tabs activated with native keyboard. Native focus emulation disabled for this test; real document.hidden and video states. No fake property values or manually dispatched events.",
+  "checks": {
+    "claude": [
+      {
+        "check": "real_visible",
+        "hidden": false,
+        "time": 0.281969,
+        "paused": false
+      },
+      {
+        "check": "real_hidden_other_owned_tab",
+        "hidden": true,
+        "time": 0.353955,
+        "paused": true
+      },
+      {
+        "check": "real_visible_return",
+        "hidden": false,
+        "time": 1.360095,
+        "paused": false
+      },
+      {
+        "check": "manual_pause_real_hidden",
+        "hidden": true,
+        "time": 2.200763,
+        "paused": true
+      },
+      {
+        "check": "manual_pause_visible_retained",
+        "hidden": false,
+        "time": 2.200763,
+        "paused": true
+      }
+    ],
+    "codex": [
+      {
+        "check": "real_visible",
+        "hidden": false,
+        "time": 0.369169,
+        "paused": false
+      },
+      {
+        "check": "real_hidden_other_owned_tab",
+        "hidden": true,
+        "time": 0.405635,
+        "paused": true
+      },
+      {
+        "check": "real_visible_return",
+        "hidden": false,
+        "time": 1.565977,
+        "paused": false
+      },
+      {
+        "check": "manual_pause_real_hidden",
+        "hidden": true,
+        "time": 1.967615,
+        "paused": true
+      },
+      {
+        "check": "manual_pause_visible_retained",
+        "hidden": false,
+        "time": 1.967615,
+        "paused": true
+      }
+    ]
+  }
+}

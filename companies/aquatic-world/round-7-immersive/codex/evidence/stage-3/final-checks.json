@@ -1,0 +1,26 @@
+{
+  "result": "pass",
+  "scope": "Final source/file/document integrity only; no browser acceptance or publication.",
+  "protected_hashes": 88,
+  "all_historical_evidence_unchanged": true,
+  "changed_demo_files": [
+    "demo/assets/immersive/README.md",
+    "demo/build.py",
+    "demo/home-motion.css",
+    "demo/home-motion.js",
+    "demo/public/assets/immersive/README.md",
+    "demo/public/home-motion.css",
+    "demo/public/home-motion.js",
+    "demo/public/index.html"
+  ],
+  "new_demo_files": [],
+  "removed_demo_files": [],
+  "preserved_inner_and_404_html_files": 8,
+  "home_html_query_only_change": true,
+  "source_assertions": 89,
+  "controller_scenarios": 14,
+  "viewport_source_cases": 37,
+  "documentation_links_checked": 32,
+  "supplied_media_bytes": "unchanged in source/output; verified against frozen Stage 2 manifest by source checks",
+  "rendered_browser_checks": "not run; prohibited in this restricted worker stage"
+}

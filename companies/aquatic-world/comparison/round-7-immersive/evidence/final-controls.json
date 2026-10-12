@@ -1,0 +1,164 @@
+{
+  "codex": [
+    {
+      "check": "eligible_motion",
+      "paused": false,
+      "buttons": [
+        {
+          "label": "Pause background",
+          "icons": [
+            {
+              "class": null,
+              "pause": true,
+              "display": "block",
+              "hiddenAttribute": false
+            },
+            {
+              "class": null,
+              "pause": false,
+              "display": "none",
+              "hiddenAttribute": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "manual_pause",
+      "paused": true,
+      "buttons": [
+        {
+          "label": "Resume background",
+          "icons": [
+            {
+              "class": null,
+              "pause": true,
+              "display": "none",
+              "hiddenAttribute": true
+            },
+            {
+              "class": null,
+              "pause": false,
+              "display": "block",
+              "hiddenAttribute": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "explicit_resume",
+      "paused": false,
+      "buttons": [
+        {
+          "label": "Pause background",
+          "icons": [
+            {
+              "class": null,
+              "pause": true,
+              "display": "block",
+              "hiddenAttribute": false
+            },
+            {
+              "class": null,
+              "pause": false,
+              "display": "none",
+              "hiddenAttribute": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "native_tab_focus",
+      "state": {
+        "tag": "A",
+        "text": "Explore the collections\n→",
+        "outline": "rgb(212, 190, 137) solid 2px",
+        "outlineOffset": "6px",
+        "scrollY": 0
+      }
+    }
+  ],
+  "claude": [
+    {
+      "check": "eligible_motion",
+      "paused": false,
+      "buttons": [
+        {
+          "label": "Pause background",
+          "icons": [
+            {
+              "class": "bg-icon bg-icon--pause",
+              "pause": false,
+              "display": "block",
+              "hiddenAttribute": false
+            },
+            {
+              "class": "bg-icon bg-icon--play",
+              "pause": false,
+              "display": "none",
+              "hiddenAttribute": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "manual_pause",
+      "paused": true,
+      "buttons": [
+        {
+          "label": "Resume background",
+          "icons": [
+            {
+              "class": "bg-icon bg-icon--pause",
+              "pause": false,
+              "display": "none",
+              "hiddenAttribute": false
+            },
+            {
+              "class": "bg-icon bg-icon--play",
+              "pause": false,
+              "display": "block",
+              "hiddenAttribute": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "explicit_resume",
+      "paused": false,
+      "buttons": [
+        {
+          "label": "Pause background",
+          "icons": [
+            {
+              "class": "bg-icon bg-icon--pause",
+              "pause": false,
+              "display": "block",
+              "hiddenAttribute": false
+            },
+            {
+              "class": "bg-icon bg-icon--play",
+              "pause": false,
+              "display": "none",
+              "hiddenAttribute": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "native_tab_focus",
+      "state": {
+        "tag": "A",
+        "text": "Explore the collections",
+        "outline": "rgb(212, 190, 137) solid 2px",
+        "outlineOffset": "3px",
+        "scrollY": 0
+      }
+    }
+  ]
+}

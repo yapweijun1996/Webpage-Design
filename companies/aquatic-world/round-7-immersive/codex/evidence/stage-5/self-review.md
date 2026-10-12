@@ -1,0 +1,9 @@
+# Stage 5 self-review
+
+Result: no implementation fix needed. The reported equal-specificity `.site-footer` override does not apply to this implementation: generated Home has only `home-footer`, while inner pages use `site-footer`. The Home theme loads after shared styles. Its background shorthand resets background color to transparent and supplies a continuous translucent gradient from `#041d2500` to `#041d25c2` (maximum alpha about 0.761). No footer pseudo-element introduces an opaque boundary. The existing Home selector already isolates this wash from the shared inner-page footer.
+
+The footer background declaration applies at both requested widths; the mobile footer override changes padding only. Footer links, concise fictional/local-preview disclosure, stacking, 70px disclosure clearance and motion-control rules remain unchanged. No code or media was edited.
+
+Verification: `python3 -B evidence/stage-5/check.py` invoked `python3 -B demo/build.py`, which built eight pages plus 404. Focused markup, stylesheet order, background/wash, absence of footer pseudo-elements, links, disclosure and source/output CSS checks passed. All 127 pre-existing demo and prior evidence file hashes were identical before and after the build, including inner-page output, shared CSS and all media. The only new artifacts are this Stage 5 evidence directory; root README.md was updated separately.
+
+Limits: source checks establish applicable declarations, not measured browser computed styles or rendered contrast. Actual computed Home footer background, visible water/plant/light detail, boundary softness and readability at 390×844 and 1440×900 are not tested here. Coordinator browser review remains required. No browser automation, server, network, MCP, external service/model/agent, Git, dependency/configuration change, media operation, outside write or historical evidence rewrite was performed.

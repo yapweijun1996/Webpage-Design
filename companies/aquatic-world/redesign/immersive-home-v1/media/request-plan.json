@@ -1,0 +1,98 @@
+{
+  "status": "both-generation-jobs-completed; runtime-loop-review-pending",
+  "project_id": "aquatic-world-immersive-home-v1",
+  "prepared_on": "2026-10-12",
+  "authorization": {
+    "authorized": true,
+    "generation_cap_usd": "1.75",
+    "maximum_attempts": 2,
+    "auto_retry": false,
+    "source": "Explicit user reply: 授权，新增上限 US$1.75（推荐）",
+    "recorded_at_utc": "2026-10-12T07:49:19.175830+00:00"
+  },
+  "model": "runway/gen-4.5",
+  "live_quote": {
+    "source": "https://openrouter.ai/api/v1/videos/models",
+    "queried_on": "2026-10-12",
+    "cents_per_second_output": "12",
+    "seconds_each": 6,
+    "estimated_each_usd": "0.72",
+    "estimated_total_usd": "1.44",
+    "with_20_percent_margin_usd": "1.728"
+  },
+  "requests": [
+    {
+      "orientation": "landscape",
+      "request_id": "aquatic_immersive_landscape_20261012_01",
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration": 6,
+      "generate_audio": false,
+      "status": "completed",
+      "first_frame_sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619",
+      "generation_mode": "image-to-video",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "actual_cost_usd": "0.72",
+      "price_sku": "cents_per_second_output",
+      "price_value": "12",
+      "job_id": "gen-vid-1791791413-DFI0tqVqgWi1aEbNov4G",
+      "submitted_at_utc": "2026-10-12T07:50:13.328601+00:00"
+    },
+    {
+      "orientation": "portrait",
+      "request_id": "aquatic_immersive_portrait_20261012_01",
+      "aspect_ratio": "9:16",
+      "resolution": "720p",
+      "duration": 6,
+      "generate_audio": false,
+      "status": "completed",
+      "first_frame_sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96",
+      "generation_mode": "image-to-video",
+      "model": "runway/gen-4.5",
+      "estimated_cost_usd": "0.72",
+      "actual_cost_usd": "0.72",
+      "price_sku": "cents_per_second_output",
+      "price_value": "12",
+      "job_id": "gen-vid-1791791498-tQEks1ZOAaz6WZIcnYiC",
+      "submitted_at_utc": "2026-10-12T07:51:38.524530+00:00"
+    }
+  ],
+  "submissions": [
+    {
+      "request_id": "aquatic_immersive_landscape_20261012_01",
+      "status": "completed",
+      "estimated_cost_usd": "0.72",
+      "actual_cost_usd": "0.72",
+      "generate_audio": false,
+      "generation_mode": "image-to-video",
+      "first_frame_sha256": "abfda24b701135670050754cd9184af8123384113e3ade210cdd401c23484619",
+      "model": "runway/gen-4.5",
+      "duration": 6,
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "price_sku": "cents_per_second_output",
+      "price_value": "12",
+      "job_id": "gen-vid-1791791413-DFI0tqVqgWi1aEbNov4G",
+      "submitted_at_utc": "2026-10-12T07:50:13.328601+00:00"
+    },
+    {
+      "request_id": "aquatic_immersive_portrait_20261012_01",
+      "status": "completed",
+      "estimated_cost_usd": "0.72",
+      "actual_cost_usd": "0.72",
+      "generate_audio": false,
+      "generation_mode": "image-to-video",
+      "first_frame_sha256": "a146bc8656a269bf50bea42eccf7c5bb080ecd771c148eed1fe1f1aec2c20e96",
+      "model": "runway/gen-4.5",
+      "duration": 6,
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "price_sku": "cents_per_second_output",
+      "price_value": "12",
+      "job_id": "gen-vid-1791791498-tQEks1ZOAaz6WZIcnYiC",
+      "submitted_at_utc": "2026-10-12T07:51:38.524530+00:00"
+    }
+  ],
+  "actual_new_cost_usd": "1.44"
+}

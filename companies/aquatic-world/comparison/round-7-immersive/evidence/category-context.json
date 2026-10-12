@@ -1,0 +1,106 @@
+{
+  "codex": [
+    {
+      "category": "ornamental-fish",
+      "url": "http://127.0.0.1:4241/contact/?category=ornamental-fish#enquiry",
+      "selected": [
+        "ornamental-fish"
+      ],
+      "hasVideo": false
+    },
+    {
+      "category": "aquatic-plants",
+      "url": "http://127.0.0.1:4241/contact/?category=aquatic-plants#enquiry",
+      "selected": [
+        "aquatic-plants"
+      ],
+      "hasVideo": false
+    },
+    {
+      "category": "driftwood",
+      "url": "http://127.0.0.1:4241/contact/?category=driftwood#enquiry",
+      "selected": [
+        "driftwood"
+      ],
+      "hasVideo": false
+    },
+    {
+      "check": "home_enquiry_action",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4241/contact/#enquiry",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 114,
+      "overflow": false,
+      "heading": "Your project brief",
+      "headingRect": {
+        "x": 45,
+        "y": 47.1484375,
+        "width": 300,
+        "height": 36.796875
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    }
+  ],
+  "claude": [
+    {
+      "category": "ornamental-fish",
+      "url": "http://127.0.0.1:4242/contact/?interest=ornamental-fish#enquiry",
+      "selected": [
+        "ornamental-fish"
+      ],
+      "hasVideo": false
+    },
+    {
+      "category": "aquatic-plants",
+      "url": "http://127.0.0.1:4242/contact/?interest=aquatic-plants#enquiry",
+      "selected": [
+        "aquatic-plants"
+      ],
+      "hasVideo": false
+    },
+    {
+      "category": "driftwood",
+      "url": "http://127.0.0.1:4242/contact/?interest=driftwood#enquiry",
+      "selected": [
+        "driftwood"
+      ],
+      "hasVideo": false
+    },
+    {
+      "check": "home_enquiry_action",
+      "preferences": {
+        "reducedMotion": false,
+        "saveData": false
+      },
+      "url": "http://127.0.0.1:4242/contact/#enquiry",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollY": 24,
+      "overflow": false,
+      "heading": "Prepare an enquiry brief",
+      "headingRect": {
+        "x": 20,
+        "y": 59,
+        "width": 350,
+        "height": 33.0703125
+      },
+      "ctaRect": null,
+      "posterPosition": null,
+      "video": null,
+      "control": [],
+      "resources": []
+    }
+  ]
+}

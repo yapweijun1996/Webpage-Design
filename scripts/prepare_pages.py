@@ -12,7 +12,7 @@ import tempfile
 from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "companies/aquatic-world/round-6-animation"
+SOURCE = ROOT / "companies/aquatic-world/round-7-immersive"
 OUTPUT = ROOT / "_site"
 ROUTES = ("", "collections/", "collections/ornamental-fish/",
           "collections/aquatic-plants/", "collections/driftwood/",
@@ -43,7 +43,8 @@ class References(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         for name, value in attrs:
-            if value and name in {"href", "src", "action", "poster"}:
+            if value and (name in {"href", "src", "action", "poster"}
+                          or name.endswith("-src") or name.endswith("-poster")):
                 self.urls.append(value)
             elif value and name == "srcset":
                 self.urls.extend(part.strip().split()[0] for part in value.split(","))
@@ -89,7 +90,8 @@ with tempfile.TemporaryDirectory(prefix="webpage-pages-") as temp:
 <p>Current comparison demos: eight independent pages per website.</p>
 <ul><li><a href="{base}aquatic-world/codex/">Codex · GPT-6.1 Sol</a></li>
 <li><a href="{base}aquatic-world/claude/">Claude · Opus 5.5</a></li></ul>
-<p>These versions use a static aquarium image with animated light and particles. The requested immersive video experience is not implemented; design acceptance was rejected.</p>
+<p>Immersive underwater Home: silent background film across the whole page, with live navigation, headings and actions. Desktop and mobile use individually composed scenes. Both implementations receive the same media and design brief.</p>
+<p>Use the small background-motion control to pause. Reduced motion or unavailable playback keeps a still underwater environment. Creative acceptance remains open for testing.</p>
 <p>Fictional design case. Contact only creates a local preview; no enquiry is sent.</p>
 </main></body></html>''')
     (package / "404.html").write_text(f'''<!doctype html><html lang="en"><head><meta charset="utf-8">

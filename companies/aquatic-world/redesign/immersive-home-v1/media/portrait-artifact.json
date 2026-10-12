@@ -1,0 +1,39 @@
+{
+  "registration": {
+    "artifact": {
+      "id": "0402f3df484d4dccb3d9d3cd8190e865",
+      "project_id": "aquatic-world-immersive-home-v1",
+      "medium": "video",
+      "character_id": "hero-angelfish",
+      "style_id": "calm-aquarium",
+      "title": "Immersive portrait raw v1",
+      "file_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_immersive_portrait_20261012_01.mp4",
+      "generation_settings": {
+        "aspect_ratio": "9:16",
+        "duration_seconds": 6,
+        "generate_audio": false,
+        "model": "runway/gen-4.5",
+        "request_id": "aquatic_immersive_portrait_20261012_01",
+        "resolution": "720p"
+      },
+      "actual_cost_usd": "0.72",
+      "cost_source": "provider_job",
+      "created_at_utc": "2026-10-12T08:23:14.127121+00:00"
+    },
+    "reviews": []
+  },
+  "shot_result": {
+    "result_id": "efd7d5c4ee2f47bcaf2c0372bf0df0db",
+    "project_id": "aquatic-world-immersive-home-v1",
+    "shot_id": "portrait-v1",
+    "revision": 1,
+    "artifact_id": "0402f3df484d4dccb3d9d3cd8190e865",
+    "output": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/c3/c337f40472cb095f0e7a932ec611c73dfb0541738af1be84b4b77bc595f2cedf.mp4",
+      "sha256": "c337f40472cb095f0e7a932ec611c73dfb0541738af1be84b4b77bc595f2cedf",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_immersive_portrait_20261012_01.mp4",
+      "asset": null
+    },
+    "state": "awaiting_inspection"
+  }
+}

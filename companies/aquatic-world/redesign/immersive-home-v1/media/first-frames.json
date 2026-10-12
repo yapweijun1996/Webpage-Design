@@ -1,0 +1,22 @@
+{
+  "prepared": "2026-10-12",
+  "method": "built-in image_gen; source mockups edited to remove UI and reframe full fish",
+  "assets": {
+    "landscape-first-frame.png": {
+      "width": 1672,
+      "height": 941,
+      "bytes": 2196430,
+      "sha256": "e6f14becb9f6defeca079f27ded0ce8f4a21be72c0c1e09e73a47ecc32b98777",
+      "status": "coordinator-selected-clean-scene; video generation pending",
+      "source_generation_output": "exec-a7fc01e3-9007-464f-9fba-18099f1a4e28.png"
+    },
+    "portrait-first-frame.png": {
+      "width": 941,
+      "height": 1672,
+      "bytes": 2057139,
+      "sha256": "5d4c39e4d27a90690972a63b1f2ae56540c2f18a8de55076b97249f14bfae9b7",
+      "status": "coordinator-selected-clean-scene; video generation pending",
+      "source_generation_output": "exec-edd8cc93-b52c-4cae-af12-2d44400040c2.png"
+    }
+  }
+}
