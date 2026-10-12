@@ -18,6 +18,8 @@ The [Aquatic World homepage video preparation](companies/aquatic-world/redesign/
 
 The next direction is prepared in the [immersive Home design package](companies/aquatic-world/redesign/immersive-home-v1/README.md): continuous full-page underwater video with integrated navigation, typography and actions. It includes one common brief, future CLI prompt and comparison protocol. This is design-only; implementation has not started, and approved landscape/portrait loops and posters remain unavailable. The published demos below are unchanged.
 
+The [desktop and mobile static concepts](companies/aquatic-world/redesign/immersive-home-v1/visuals/README.md) show the proposed first-screen composition. They were made with the built-in image tool, including one phone fin-margin refinement. They are shared design references, not browser captures or usable video posters; no website code was changed.
+
 The current Codex and Claude demos are packaged by [the Pages workflow](.github/workflows/pages.yml) on pushes to `main`. The publication catalog is at <https://yapweijun1996.github.io/Webpage-Design/>; it links to both independent eight-page sites.
 
 The [packager](scripts/prepare_pages.py) builds disposable copies, adjusts root HTML URLs for the project subdirectory, verifies local references, and publishes only the current website runtimes. CSS, JavaScript, images, and original implementation folders stay unchanged. Run `python3 -B scripts/prepare_pages.py --base=/Webpage-Design/` to reproduce `_site/` locally. Raw CLI transcripts are kept locally and excluded from Git; reviewed execution summaries remain in the repository.
