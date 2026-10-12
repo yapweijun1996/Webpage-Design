@@ -1,0 +1,13 @@
+Aquatic World — common future implementation handoff
+
+Preparation status: design-only. This file does not launch a CLI or authorize implementation, generation or spending. Use it identically for both workers when the user later requests implementation and the coordinator has frozen the complete approved media package.
+
+Read repository instructions, input/immersive-home/BRIEF.md, input/immersive-home/COMPARISON.md, the frozen media manifest and shared cli-web-design-director skill snapshot. Inspect both landscape and portrait safe-area references and your own current baseline.
+
+Build the brief's continuous immersive Home environment in your independent workspace. Video fills the Home viewport from top bar through the final chapter/footer. Live navigation, headings and CTA sit within that scene. A boxed video, split opaque copy/media layout or giant Play overlay fails the product requirement. Use the same exact copy, approved media, shared fonts and motion policies supplied to the other worker.
+
+Document your composition, header, responsive media choices and state plan before editing, then implement within the authorized run. Preserve the eight true page destinations, the other seven pages and four-group Contact journey. Keep all runtime assets inside your own demo; do not read the other worker or change historical inputs. Do not generate media, make provider calls, substitute a clip, use another model or silently alter the shared crop contract.
+
+Build and verify the actual visitor journey and the COMPARISON.md states with genuinely available tools. If browser access is unavailable, say so; source checks are not rendered verification. Save real desktop/phone captures and playback evidence when available. Report changed files, source/build paths, preview instructions, performed checks, defects and unavailable coverage. A passing build alone is not an immersive-design delivery.
+
+No commit, push, deployment or external message belongs to either worker run; the coordinator owns delivery after both candidates have been reviewed.
