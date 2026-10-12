@@ -1,0 +1,878 @@
+{
+  "checked_at": "2026-10-12T09:41:29.772909+00:00",
+  "release_commit": "6d6b36c9ed57a42f83d58835671b01a2ed14cf0a",
+  "action_run": "https://github.com/yapweijun1996/Webpage-Design/actions/runs/38231271703",
+  "manifest_url": "https://yapweijun1996.github.io/Webpage-Design/manifest.json",
+  "manifest_commit_matches": true,
+  "local_and_live_manifest_runtime_match": true,
+  "verified_local_references": 676,
+  "catalog_status": 200,
+  "content_pages": 16,
+  "candidate_404_pages": 2,
+  "public_missing_path": {
+    "status": 404,
+    "catalog_return_link": true
+  },
+  "files": [
+    {
+      "candidate": "codex",
+      "file": "404.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/404.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4649,
+      "sha256": "55a4c9640e5d5492e5954d86efeeab51d0d9b1bdaad21e743a72eac9092afc70",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/animation-provenance.json",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/animation-provenance.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 446,
+      "sha256": "d9eef2b9c9671d22456c8a378c2150c847c1f62e8017852fee2ca93cb5ea151a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-aquatic-plants-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-aquatic-plants-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 352342,
+      "sha256": "51369e1ce64afd9a8b904e86989dbd52e6185b90e6ee953267f53851cdcea2f6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-aquatic-plants-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-aquatic-plants-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 107306,
+      "sha256": "ed4ce742c42014f8714148d7fe19340a56eb04b7371e026d6ce0d13f7440a640",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-driftwood-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-driftwood-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 265502,
+      "sha256": "119741f3dbcb4333dc5bc9b23ab59cac6d1251384fb82bd084e018933cb0d0d7",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-driftwood-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-driftwood-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 73010,
+      "sha256": "daa21be75f233b91007bc198eb91c41722c978c4d4735fea42f28a7423fea16b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-ornamental-fish-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-ornamental-fish-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 155548,
+      "sha256": "de8467d85ea2c762e07e9bf74339f2b49c5e620bd4f8e22e514b03441036c020",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/collection-ornamental-fish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/collection-ornamental-fish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 39042,
+      "sha256": "555c4d14df1251a8ddde9ff6dc0ae497784dd4952bf5d3cf67a1a4fa865d43d7",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/enquiry-underwater-school-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/enquiry-underwater-school-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 172410,
+      "sha256": "989e290ac1e74a771b2d9537d55c80bbcc535247528f3e66901795e3fe1cc707",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/enquiry-underwater-school-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/enquiry-underwater-school-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 41050,
+      "sha256": "98a2dc1238abc63de6fabe81418b2b37f471ebf155999d1645f8770e08b3846c",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/heritage-waterfront-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/heritage-waterfront-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 372596,
+      "sha256": "5a65dd4ddab4320807b4d157d97717da41e480cf6787f629914c48809fce9959",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/heritage-waterfront-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/heritage-waterfront-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 76770,
+      "sha256": "dba68038a215e1f86f90b3186e1d54217009759dfc3eb8bb40c5ec8c42a9ba48",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/hero-angelfish-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/hero-angelfish-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 143388,
+      "sha256": "9347b3a6dfdcbc08d26b3726341adbff431f5fb99a4d97dc37432ebe9a123fa2",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/hero-angelfish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/hero-angelfish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 36188,
+      "sha256": "477c5822e721bd93ebfe7e55231b0aa67e8920898f33a3328e8349d7a92003d4",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/hero-angelfish.png",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/hero-angelfish.png",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 2205920,
+      "sha256": "8e69f724fd29a138a438afa05739a77b81bc01e795eb115532fb8416efbeb3d1",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-angelfish-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-angelfish-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 178334,
+      "sha256": "828ffa7def6c4af8c8bc37cd61df4b00bad719014cdd31aa1956bbf4c785a923",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-angelfish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-angelfish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 54694,
+      "sha256": "826ceaf4f243a2ad9c1b1cc4cd93fffd11cc04beeaa333356d985ade1906bbd9",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-red-betta-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-red-betta-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 165192,
+      "sha256": "a69d1c2344ac8185a3ae6594e7dc1cc47f7dc6db5a85f7f01254febd724c21cd",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-red-betta-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-red-betta-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 42558,
+      "sha256": "42cbb74584fb49b25d83d0788205dde9ef1def1129252796b685f76132c670bc",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-red-plants-1600.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-red-plants-1600.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 236558,
+      "sha256": "ed9a76a2ca657148802ae132cb5673199338c04c1e166932670597da2edd34d4",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/highlight-red-plants-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/highlight-red-plants-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 73170,
+      "sha256": "6bef07adec3407827d7d890e8e49d079bbd89b8ce7d66cca3e88f453dc3c77d6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/immersive/README.md",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/README.md",
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 2623,
+      "sha256": "1950069fa91b9a986be687fb0555d3adf61de2e9853f5a643af4f87d07763b9a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/immersive/landscape-poster.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape-poster.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/immersive/landscape.mp4",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/immersive/portrait-poster.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait-poster.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/immersive/portrait.mp4",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "assets/manifest.json",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/manifest.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 6056,
+      "sha256": "c234c58b6fac0885810acaf0585099754cd71307f3f6f62ba033e27be4d34aec",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "collections/aquatic-plants/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/aquatic-plants/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9880,
+      "sha256": "0a4e45975a162ab84fa09b09efe1e18f1c4a6eca44d75b35dba846b04d7a06b7",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "collections/driftwood/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/driftwood/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9879,
+      "sha256": "fb725d49d3599ff86fad883ae70701532ced81aecbca1b5e742fa0184cb9db41",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "collections/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9339,
+      "sha256": "a92da13e869811bc39f39a235b477200a32995f91c39be70022ee91501ad8b8b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "collections/ornamental-fish/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/ornamental-fish/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10675,
+      "sha256": "e06fc591301c8ab70ae7c9f27dad66ab3927d90be5d1ac791fcb9680002c9657",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "contact/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/contact/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8400,
+      "sha256": "b44c66a2f57ae5ce9ab5b2b6e26b09c351f598a581ac91d6f1a156cc954677fe",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "favicon.svg",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/favicon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 258,
+      "sha256": "a41093292010f3e9a3fb1b87a90f877b3218a39fb39b94e66670e532ff2f481d",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "home-motion.css",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/home-motion.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 12695,
+      "sha256": "ed571aee2ed2a12beb3602d2bb15ecd6b2f21479f697a0413e5890238c49cd72",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "home-motion.js",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/home-motion.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 10107,
+      "sha256": "cc827afe4e891fd039b4651945e100b0425570878c4fc0349a3d0c108aa2831e",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7302,
+      "sha256": "c69f5eff8b7c48ac461eca21737716745fb9c533f5cb3f59ee1daba34fbe6beb",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "our-story/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/our-story/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7418,
+      "sha256": "a202d92bf0aa9ac7cc85d3aa4172d0e131a394dafbe9c48a9b3beeaeadb3caa5",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "quality/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/quality/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9099,
+      "sha256": "fb98aeb35d49051e1a92dca785bdcd93a42cdbdaa0c77a8cb6fc34ba8c7317c2",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "script.js",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/script.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 6701,
+      "sha256": "0fc91c71453ebdc10278f683f6f89fe7ed865b77d285bc3e4287edda9efb71fa",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "codex",
+      "file": "styles.css",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 40644,
+      "sha256": "7e9163e9cd904838b7c1f047e50c2626f3c018b6aef43ed29c252b6bd08faae0",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "404.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/404.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7389,
+      "sha256": "a296b05dd6cfbb609fc953fd25518f38be86d5a4be2b7fdb8b914ec8e9516488",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/favicon.svg",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/favicon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 328,
+      "sha256": "cb56960f069d9528a32a18bcf55e3c4198e57c93fbe8cb044fa4c5b7ad500e13",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-aquatic-plants-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-aquatic-plants-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 274356,
+      "sha256": "283b5dcf8915bee958e0d6b4e71cbe53f0833d1d121a1daba4432739dc929bf0",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-aquatic-plants-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-aquatic-plants-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 78452,
+      "sha256": "eb0fafb7594e8dd3d74803f24d2c4ec3feda64bb1aba35966d60eb4fbcbcecda",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-aquatic-plants-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-aquatic-plants-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 144800,
+      "sha256": "c04ed581d8c2efe6fdc35ffeb49c51361d6f25c4c2960e5ccd39a0dcfbd79967",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-driftwood-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-driftwood-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 201568,
+      "sha256": "f823d85977a000138ce1197a19ca29fcdd7224450887a7fae8cbfe9e1ddb065b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-driftwood-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-driftwood-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 51696,
+      "sha256": "85861bcf9d614d708ac9cd548b40098083081f074e215646bdad92171f23da07",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-driftwood-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-driftwood-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 99380,
+      "sha256": "23d6670bfc4e5ecf0d4a3286f7817ee75cab10e9873ca59b0b88358c1f22fff1",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-ornamental-fish-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-ornamental-fish-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 113188,
+      "sha256": "a578d4d309f36a09e1a2269338c2f5d826fc0ffe126df5ddf8bb882beafcb6e3",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-ornamental-fish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-ornamental-fish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 27044,
+      "sha256": "3aaef0844bab07f8ca83e6a4b6fab9ff88110f93f8b5007096e59425abcbe69c",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/collection-ornamental-fish-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/collection-ornamental-fish-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 52630,
+      "sha256": "052e946dd860cacd7c2ceea6bfa9079a7a2dc65cbd5383e91dfe4205108b18ac",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/enquiry-underwater-school-1280.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/enquiry-underwater-school-1280.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 88404,
+      "sha256": "30f619b3b61b3ea0b8a151d1ca453ca08bb127d6713a1956499417ce5d9775c1",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/enquiry-underwater-school-1920.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/enquiry-underwater-school-1920.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 151896,
+      "sha256": "965789e0dc059e7b632efc31abdeec3fef27350dbea168158151989202bda7d6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/enquiry-underwater-school-800.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/enquiry-underwater-school-800.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 42842,
+      "sha256": "57b3a30d5878ff968707205803cf4bb1719baec16df043d3fedef3ea90201f5a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/heritage-waterfront-1024.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/heritage-waterfront-1024.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 125252,
+      "sha256": "e41b94df7117133400bf21beb3e275b3281865764385a4ad66ca5758380b08b4",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/heritage-waterfront-1586.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/heritage-waterfront-1586.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 280608,
+      "sha256": "5c8417898b9dba4441abf7483d50a75a895fa73bb21360473841b04ca1233eb0",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/heritage-waterfront-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/heritage-waterfront-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 56220,
+      "sha256": "8a6dd4c07f7fb01ca2ec2f1369929474bc02782ecd3982e749b1019e65f75388",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/hero-angelfish-1280.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/hero-angelfish-1280.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 71828,
+      "sha256": "402faf32823c0a8dc1599e8f4219513a838ca7fced72f80cf9cdcd956360399a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/hero-angelfish-1882.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/hero-angelfish-1882.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 135684,
+      "sha256": "6aefc9af1430e123fe9456e8bcad87f124438c5b82898e31a8b088a382bc0e45",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/hero-angelfish-800.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/hero-angelfish-800.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 36910,
+      "sha256": "545ce03d47ae55ec48661cd9d1f169664ab2124146a2d501acf9a186eac75377",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/hero-angelfish-fish-1000.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/hero-angelfish-fish-1000.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 102274,
+      "sha256": "8a83a9a9cd97526abe474f3958cf1bcf4f26aa2cfe12116f930232167f34ae74",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/hero-angelfish-fish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/hero-angelfish-fish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 50074,
+      "sha256": "f759828d4975cbe809e4bc39c8b32951a538b5be9232d815788d705c657700e2",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-angelfish-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-angelfish-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 136252,
+      "sha256": "fdb2a14fe3fac05e1d02f4f05797b5309c516f5b78deebfd50c868de9b80bde5",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-angelfish-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-angelfish-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 40066,
+      "sha256": "f5b137d8d7aa955b0d8db8920621b25d5a9d036908e3911e597296732d0ac65e",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-angelfish-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-angelfish-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 70886,
+      "sha256": "697499f08368aeae8986093ccf892c2c9efe72620443003dc71ab93e52db471b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-betta-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-betta-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 119536,
+      "sha256": "477a07caaeb3a61f824f1e0da378f7a654d1458433b1b58869ba5064cccbd6a1",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-betta-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-betta-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 29122,
+      "sha256": "34c0b3d4cb89d14df485cfa44aefc06ac912cb665a03df703380b683c8c4eb5c",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-betta-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-betta-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 56054,
+      "sha256": "27ceb193fc739892513b041ad3e161b5379b724060d6264d95b537c4dc72c46f",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-plants-1448.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-plants-1448.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 177774,
+      "sha256": "2601bb45a74257584e556b18654b81ba85a8449482af7e49ace29815492e7b2e",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-plants-640.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-plants-640.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 52400,
+      "sha256": "63120ab35725008fbcd8d97353b307d1467606b76c578a0362121d63251db6a8",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/highlight-red-plants-960.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/highlight-red-plants-960.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 94320,
+      "sha256": "451e00d06e03c05b64a9dc59498a204f68b401a6ab0d3bde656023f9e23190e6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/img/manifest.json",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/img/manifest.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 8406,
+      "sha256": "5176cd577d6225f3b94b44d563c376886ba0a264ff604fa2dddc38343ea37f0a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/immersive/landscape-poster.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape-poster.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/immersive/landscape.mp4",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/immersive/portrait-poster.webp",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait-poster.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/immersive/portrait.mp4",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+      "status": 200,
+      "content_type": "video/mp4",
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/site.css",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/site.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 54065,
+      "sha256": "dacd5405787dd89bdef2bae955d86cbe757177021404a6083912eb4bcbb90f8b",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "assets/site.js",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/site.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 14774,
+      "sha256": "81ac5ded9bde9d02db953453228b458ae8d7ab8963ef306c260965f4c2d823db",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "collections/aquatic-plants/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/aquatic-plants/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 14712,
+      "sha256": "fd925053f813f3110908489b65b5f972b01b4f5f8d6ba20ef262f951ff445fc4",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "collections/driftwood/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/driftwood/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 14137,
+      "sha256": "a0a8f7b2dbd180855dfdc37b02b5a9933da3d3d44f0a28d19e3cbc30beebe4de",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "collections/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 14072,
+      "sha256": "7cbfee42cd32da98dd285c213f46c7d2ed7e2eb22f8e95e06a150b23bc659b19",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "collections/ornamental-fish/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/ornamental-fish/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 14315,
+      "sha256": "15d49c6acc663d4cbb12918d4ad4ea38d08513ce7590850070c3847ba4e0d150",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "contact/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/contact/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10305,
+      "sha256": "69abb0db55da2ae1912ced23cb8394cd17e81bbc7548c69163fb655b51a7001f",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9168,
+      "sha256": "cf7a5bc1ca80ed6cd77f72a56a9fb8f77fe79ed8467a55f9eaa27bd37f09e3b8",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "our-story/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/our-story/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9825,
+      "sha256": "3b8a5285c301c3ace9244819dfb5dc1c8c9eb4a072f351ec56784a2b86c6e12d",
+      "matches_manifest": true
+    },
+    {
+      "candidate": "claude",
+      "file": "quality/index.html",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/quality/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10150,
+      "sha256": "61672e3c6d0c735ff97d0567117b3eae9cda92876d748d88f78fce42fd8fab12",
+      "matches_manifest": true
+    }
+  ]
+}

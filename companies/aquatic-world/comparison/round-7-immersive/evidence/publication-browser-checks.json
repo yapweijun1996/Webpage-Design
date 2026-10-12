@@ -1,0 +1,830 @@
+{
+  "checked_at": "2026-10-12T09:44:08.600Z",
+  "release_commit": "6d6b36c9ed57a42f83d58835671b01a2ed14cf0a",
+  "browser": "Codex in-app browser, actual public HTTPS origin; desktop and portrait-phone viewport emulation",
+  "checks": [
+    {
+      "candidate": "codex",
+      "case": "desktop-home",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 307.1953125,
+          "width": 660,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 564.7421875,
+          "width": 281.15625,
+          "height": 56
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "time": 0.067872,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "",
+            "label": "Pause background",
+            "hidden": false,
+            "rect": {
+              "x": 1368,
+              "y": 828,
+              "width": 48,
+              "height": 48
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "public-pause",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 307.1953125,
+          "width": 660,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 564.7421875,
+          "width": 281.15625,
+          "height": 56
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "time": 0.400422,
+          "duration": 6,
+          "paused": true,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "",
+            "label": "Resume background",
+            "hidden": false,
+            "rect": {
+              "x": 1368,
+              "y": 828,
+              "width": 48,
+              "height": 48
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "public-resume",
+      "state": {
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 307.1953125,
+          "width": 660,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 564.7421875,
+          "width": 281.15625,
+          "height": 56
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+          "time": 1.261813,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "",
+            "label": "Pause background",
+            "hidden": false,
+            "rect": {
+              "x": 1368,
+              "y": 828,
+              "width": 48,
+              "height": 48
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "hero-real-collections",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "Three elements.\nEndless possibilities.",
+        "headingRect": {
+          "x": 80,
+          "y": 224.9921875,
+          "width": 570.8203125,
+          "height": 151.59375
+        },
+        "ctaRect": null,
+        "posterPosition": null,
+        "video": null,
+        "control": [],
+        "resources": []
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "phone-home",
+      "state": {
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 20,
+          "y": 506.2265625,
+          "width": 350,
+          "height": 85.125
+        },
+        "ctaRect": {
+          "x": 20,
+          "y": 687.3515625,
+          "width": 267.15625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait-poster.webp",
+        "posterPosition": "50% 30%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+          "time": 1.24518,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 30%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        },
+        "control": [
+          {
+            "text": "",
+            "label": "Pause background",
+            "hidden": false,
+            "rect": {
+              "x": 324,
+              "y": 778,
+              "width": 48,
+              "height": 48
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+            "transfer": 0
+          },
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+            "transfer": 1536390
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "phone-menu-suspends",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 20,
+          "y": 506.2265625,
+          "width": 350,
+          "height": 85.125
+        },
+        "ctaRect": {
+          "x": 20,
+          "y": 687.3515625,
+          "width": 267.15625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait-poster.webp",
+        "posterPosition": "50% 30%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+          "time": 3.783496,
+          "duration": 6,
+          "paused": true,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 30%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        },
+        "control": [
+          {
+            "text": "",
+            "label": "Pause background",
+            "hidden": false,
+            "rect": {
+              "x": 324,
+              "y": 778,
+              "width": 48,
+              "height": 48
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+            "transfer": 0
+          },
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+            "transfer": 1536390
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "codex",
+      "case": "phone-menu-real-contact",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/contact/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "Your project brief",
+        "headingRect": {
+          "x": 45,
+          "y": 161.1484375,
+          "width": 300,
+          "height": 36.796875
+        },
+        "ctaRect": null,
+        "posterPosition": null,
+        "video": null,
+        "control": [],
+        "resources": []
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "desktop-home",
+      "state": {
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 324.9453125,
+          "width": 604.796875,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 584.4921875,
+          "width": 272.015625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "time": 1.022047,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "Pause background",
+            "label": null,
+            "hidden": false,
+            "rect": {
+              "x": 1364.3203125,
+              "y": 824.3203125,
+              "width": 44,
+              "height": 44
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "public-pause",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 324.9453125,
+          "width": 604.796875,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 584.4921875,
+          "width": 272.015625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "time": 2.319546,
+          "duration": 6,
+          "paused": true,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "Resume background",
+            "label": null,
+            "hidden": false,
+            "rect": {
+              "x": 1364.3203125,
+              "y": 824.3203125,
+              "width": 44,
+              "height": 44
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "public-resume",
+      "state": {
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 100.796875,
+          "y": 324.9453125,
+          "width": 604.796875,
+          "height": 149.75
+        },
+        "ctaRect": {
+          "x": 100.796875,
+          "y": 584.4921875,
+          "width": 272.015625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape-poster.webp",
+        "posterPosition": "50% 50%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+          "time": 2.775101,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 50%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "control": [
+          {
+            "text": "Pause background",
+            "label": null,
+            "hidden": false,
+            "rect": {
+              "x": 1364.3203125,
+              "y": 824.3203125,
+              "width": 44,
+              "height": 44
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+            "transfer": 1326246
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "hero-real-collections",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "Three collection families",
+        "headingRect": {
+          "x": 100,
+          "y": 310.859375,
+          "width": 576.796875,
+          "height": 140.421875
+        },
+        "ctaRect": null,
+        "posterPosition": null,
+        "video": null,
+        "control": [],
+        "resources": []
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "phone-home",
+      "state": {
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 23.3984375,
+          "y": 523.953125,
+          "width": 343.203125,
+          "height": 79.359375
+        },
+        "ctaRect": {
+          "x": 23.3984375,
+          "y": 700,
+          "width": 272.015625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait-poster.webp",
+        "posterPosition": "50% 30%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+          "time": 0.8855,
+          "duration": 6,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 30%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        },
+        "control": [
+          {
+            "text": "Pause background",
+            "label": null,
+            "hidden": false,
+            "rect": {
+              "x": 330,
+              "y": 784,
+              "width": 44,
+              "height": 44
+            }
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+            "transfer": 0
+          },
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+            "transfer": 1536390
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "phone-menu-suspends",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "A world beneath\nthe surface.",
+        "headingRect": {
+          "x": 23.3984375,
+          "y": 523.953125,
+          "width": 343.203125,
+          "height": 79.359375
+        },
+        "ctaRect": {
+          "x": 23.3984375,
+          "y": 700,
+          "width": 272.015625,
+          "height": 52
+        },
+        "poster": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait-poster.webp",
+        "posterPosition": "50% 30%",
+        "video": {
+          "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+          "attribute": "/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+          "time": 0.756363,
+          "duration": 6,
+          "paused": true,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "ready": 4,
+          "position": "50% 30%",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        },
+        "control": [],
+        "resources": [
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+            "transfer": 0
+          },
+          {
+            "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+            "transfer": 1536390
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "phone-menu-real-contact",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/contact/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "Prepare an enquiry brief",
+        "headingRect": {
+          "x": 20,
+          "y": 83,
+          "width": 350,
+          "height": 33.0703125
+        },
+        "ctaRect": null,
+        "posterPosition": null,
+        "video": null,
+        "control": [],
+        "resources": []
+      }
+    },
+    {
+      "candidate": "claude",
+      "case": "public-direct-contact-refresh",
+      "state": {
+        "preferences": {
+          "reducedMotion": false,
+          "saveData": false
+        },
+        "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/contact/",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "overflow": false,
+        "heading": "Prepare an enquiry brief",
+        "headingRect": {
+          "x": 20,
+          "y": 83,
+          "width": 350,
+          "height": 33.0703125
+        },
+        "ctaRect": null,
+        "posterPosition": null,
+        "video": null,
+        "control": [],
+        "resources": []
+      }
+    }
+  ],
+  "limitations": [
+    "No physical iOS Safari/Android Chrome run",
+    "Other policy/fallback/native-lifecycle cases verified locally with identical published runtime bytes, not rerun at the public origin"
+  ]
+}
