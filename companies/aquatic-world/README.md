@@ -93,6 +93,8 @@ The [CLI design lessons](redesign/LEARNINGS.md) and [implementation prompt](rede
 
 ### GitHub Pages publication
 
+The [new immersive Home design package](redesign/immersive-home-v1/README.md) is prepared for a future iteration. Its [shared brief](redesign/immersive-home-v1/BRIEF.md) makes the whole Home viewport an underwater environment through all three chapters and the footer; top bar, headline and CTA are integrated with that scene. The [common CLI handoff](redesign/immersive-home-v1/CLI-HANDOFF.txt) and [comparison protocol](redesign/immersive-home-v1/COMPARISON.md) are ready as design documents. No new implementation or media generation has run. Approved landscape/portrait loops and posters are still needed before a fair paired implementation. This preparation does not update the current published demos.
+
 The repository [Pages workflow](../../.github/workflows/pages.yml) publishes the current implementations for demo/testing:
 
 - Catalog: <https://yapweijun1996.github.io/Webpage-Design/>
