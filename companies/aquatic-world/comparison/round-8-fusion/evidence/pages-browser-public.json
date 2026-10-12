@@ -1,0 +1,267 @@
+{
+  "capturedAt": "2026-10-12T22:28:56.228Z",
+  "servedCommit": "0f1acbe755c38d4687dd10d6315d5fcc9f0ce6df",
+  "gallery": [
+    {
+      "value": "mobile",
+      "captures": [
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/codex-390x844-final.jpg",
+          "width": 390
+        },
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/claude-390x844-final.jpg",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "value": "menu",
+      "captures": [
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/codex-mobile-menu-final.jpg",
+          "width": 390
+        },
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/claude-mobile-menu-final.jpg",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "value": "desktop",
+      "captures": [
+        {
+          "height": 900,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/codex-1440x900-final.jpg",
+          "width": 1440
+        },
+        {
+          "height": 900,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/claude-1440x900-final.jpg",
+          "width": 1440
+        }
+      ]
+    },
+    {
+      "value": "text",
+      "captures": [
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/codex-390x844-text200-menu-final.jpg",
+          "width": 390
+        },
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/claude-390x844-text200-menu-final.jpg",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "value": "footer",
+      "captures": [
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/codex-mobile-footer-final.jpg",
+          "width": 390
+        },
+        {
+          "height": 844,
+          "loaded": true,
+          "src": "https://yapweijun1996.github.io/Webpage-Design/comparison/evidence/claude-mobile-footer-final.jpg",
+          "width": 390
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "candidate": "codex",
+      "state": "mobile",
+      "cta": {
+        "bottom": 737.1484375,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+        "time": 5.569688
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "candidate": "codex",
+      "state": "mobile-menu",
+      "cta": {
+        "bottom": 737.1484375,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": true,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+        "time": 3.217332
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "candidate": "codex",
+      "state": "cta-navigation",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/"
+    },
+    {
+      "candidate": "codex",
+      "state": "desktop",
+      "cta": {
+        "bottom": 620.7421875,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 0.451802
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "candidate": "claude",
+      "state": "desktop",
+      "cta": {
+        "bottom": 625.671875,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": false,
+        "position": "absolute",
+        "ready": 0,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 0
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "candidate": "claude",
+      "state": "mobile",
+      "cta": {
+        "bottom": 744,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+        "time": 0.065984
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "candidate": "claude",
+      "state": "mobile-menu",
+      "cta": {
+        "bottom": 744,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": true,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+        "time": 4.408964
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "candidate": "claude",
+      "state": "cta-navigation",
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/"
+    },
+    {
+      "candidate": "claude",
+      "state": "desktop-ready",
+      "cta": {
+        "bottom": 625.671875,
+        "href": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/collections/"
+      },
+      "horizontalOverflow": false,
+      "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "controls": false,
+        "muted": true,
+        "paused": false,
+        "position": "absolute",
+        "ready": 4,
+        "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 0.464554
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "scope": "Desktop 1440x900 and phone 390x844 public smoke checks; full responsive and controller coverage remains in final local evidence.",
+  "temporaryViewportRestored": true
+}

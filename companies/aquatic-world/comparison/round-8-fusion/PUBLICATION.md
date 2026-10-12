@@ -1,5 +1,15 @@
 # Fusion Home Publication
 
-Prepared 2026-10-13 (Asia/Singapore). Local verification is complete; the authorized commit/merge/push and external Pages verification are in progress. This record will be completed after observing the remote deployment.
+Verified 2026-10-13, approximately 06:29 Asia/Singapore (2026-10-12 22:29 UTC). The implementation branch was committed, fast-forward merged into `main` and pushed under the user's existing authorization.
+
+- Release commit: `0f1acbe755c38d4687dd10d6315d5fcc9f0ce6df`. `git ls-remote` confirmed the remote `main` SHA.
+- GitHub Actions [run 38316431384](https://github.com/yapweijun1996/Webpage-Design/actions/runs/38316431384) completed both build and deployment successfully. The public manifest identifies the same release commit.
+- [Comparison](https://yapweijun1996.github.io/Webpage-Design/comparison/), [Codex](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/) and [Claude](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/) are live. All five comparison states load both native captures.
+- [Public byte verification](evidence/pages-public.json) confirms 99 served files match the disposable source build, including 16 content routes, both 404 pages, runtime films/posters and ten comparison stills. The package verifies 679 local references. [Local verification](evidence/pages-local.json) repeats the same content checks.
+- The empty `.nojekyll` packaging marker returns 200 locally and 404 on the observed public host. The first public check stopped on that difference. The verifier now checks this marker separately, records its response, and still requires exact bytes for every user-facing file. Neither a product assertion nor a product source was changed to pass the deployment check.
+- [Public browser observations](evidence/pages-browser-public.json) confirm the two actual sites at 1440×900 and 390×844: eligible landscape/portrait film sources load and play without player controls, no horizontal overflow, phone Menu pauses the film, and the primary CTA navigates to its independent Collections page. Claude's first desktop sample was still loading; a later explicit readiness observation confirms ready state 4 and advancing playback. Observed console warnings/errors are empty. Temporary viewport overrides were restored.
+- [Native public comparison screenshot](evidence/comparison-public-full.png) records the actual published phone comparison at the browser's default size. Full responsive, controller and text-reflow coverage remains in [RESULTS.md](RESULTS.md); this public pass is a delivery smoke check, not a new physical-device claim.
+
+This publication record and its evidence are committed separately from the release above. They do not change the runtime/package content hashes. A later documentation-only deployment may therefore identify a newer `main` SHA with the same website bytes. Human creative acceptance remains open and the company status remains `building`.
 
 The packager publishes fresh round-8 source builds plus a small comparison page and ten selected native browser stills. Research, raw trials, input/evaluator manifests, recordings and CLI transcripts remain outside the Pages artifact. Only the comparison stills intentionally enter that artifact. The demos retain local-only Contact behavior.

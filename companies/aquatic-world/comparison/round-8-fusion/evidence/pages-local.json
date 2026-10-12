@@ -1,9 +1,14 @@
 {
   "origin": "http://127.0.0.1:4250/Webpage-Design/",
   "served_commit": null,
-  "files": 100,
+  "files": 99,
   "content_routes": 16,
   "local_references": 679,
+  "publication_marker": {
+    "file": ".nojekyll",
+    "status": 200,
+    "exposed": true
+  },
   "checks": [
     {
       "file": "aquatic-world/codex/404.html",
@@ -498,11 +503,6 @@
     {
       "file": "404.html",
       "sha256": "91a39bf5d42bff19e2d53338b665ed107f5697c0188c6544352e61c340394c3b",
-      "status": 200
-    },
-    {
-      "file": ".nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "status": 200
     }
   ]

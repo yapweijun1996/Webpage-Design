@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[4]
@@ -33,8 +34,19 @@ expected = {}
 for name, demo in local['demos'].items():
     expected.update({f'aquatic-world/{name}/{file}': sha for file, sha in demo['sha256'].items()})
 expected.update({f'comparison/{file}': sha for file, sha in local['comparison']['sha256'].items()})
-for file in ('index.html', '404.html', '.nojekyll'):
+for file in ('index.html', '404.html'):
     expected[file] = hashlib.sha256((ROOT / '_site' / file).read_bytes()).hexdigest()
+
+# This empty build marker is not user-facing content. The observed Pages host
+# hides it (404), while the local static server exposes its empty bytes (200).
+marker = ROOT / '_site/.nojekyll'
+assert marker.is_file() and marker.read_bytes() == b'', 'Invalid publication marker'
+try:
+    assert fetch('.nojekyll') == b'', 'Served marker is not empty'
+    marker_result = {'file': '.nojekyll', 'status': 200, 'exposed': True}
+except HTTPError as error:
+    assert error.code == 404, ('Unexpected marker response', error.code)
+    marker_result = {'file': '.nojekyll', 'status': 404, 'exposed': False}
 
 
 def verify(item):
@@ -48,6 +60,7 @@ with ThreadPoolExecutor(max_workers=5) as pool:
     checked = list(pool.map(verify, expected.items()))
 result = {'origin': origin, 'served_commit': served.get('commit'), 'files': len(checked),
           'content_routes': sum(len(demo['routes']) for demo in served['demos'].values()),
-          'local_references': served['verified_local_references'], 'checks': checked}
+          'local_references': served['verified_local_references'],
+          'publication_marker': marker_result, 'checks': checked}
 Path(args.output).write_text(json.dumps(result, indent=2) + '\n')
 print(json.dumps({key: result[key] for key in ('origin', 'served_commit', 'files', 'content_routes', 'local_references')}))
