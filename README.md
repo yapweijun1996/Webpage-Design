@@ -14,6 +14,8 @@ The [Aquatic World case](companies/aquatic-world/README.md) now has two independ
 
 [Current actual-site results](companies/aquatic-world/comparison/round-8-fusion/RESULTS.md) record thirteen viewport sizes per candidate, native desktop/phone screencasts, three joins per recording, enlarged-text corrections, motion policies and preserved navigation/Contact checks. [Media provenance](companies/aquatic-world/redesign/immersive-home-v1/media/README.md) records the previously authorized US$1.44 video cost and disclosed local return-loop editing. Human creative acceptance remains open for public testing. The [company catalog](companies/README.md) owns browsing navigation.
 
+A later phone review found text bleeding through both scrolled top bars and insufficient Codex CTA clearance in narrow landscape. The [shared refinement v2 brief](companies/aquatic-world/redesign/fusion-home-v2/README.md) is prepared with common acceptance scenarios and native references. It is design-only; those fixes have not yet been implemented or published.
+
 ## GitHub Pages demo publication
 
 [Compare actual desktop/phone captures](https://yapweijun1996.github.io/Webpage-Design/comparison/), [open the demo catalog](https://yapweijun1996.github.io/Webpage-Design/), [Codex website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/) or [Claude website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/).

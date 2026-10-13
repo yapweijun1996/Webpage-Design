@@ -19,6 +19,8 @@ Develop a structured multi-page aquatic website with useful real destinations an
 
 The [original round-7 immersive release](comparison/round-7-immersive/README.md) and its evidence remain unchanged. Fusion changes foreground layout/navigation while retaining the exact media and their disclosed edited return motion. [Publication evidence](comparison/round-8-fusion/PUBLICATION.md) separates local verification from external Pages delivery.
 
+The 2026-10-13 phone review found body headings visible through both closed scrolled headers and limited CTA clearance in Codex's narrow landscape layout. The [shared Fusion Home refinement v2](redesign/fusion-home-v2/README.md) now defines the same focused correction and acceptance scenarios for both CLIs. This step is design preparation only: implementation and browser acceptance of the proposed fixes remain pending; the public demos still show round 8. Normal-phone Menu heights are similar, so the earlier broad description of Claude as more compact is narrowed to the observed landscape advantage.
+
 The original framed animation was rejected. Its [historical comparison](comparison/round-6-animation/preview.html) and [results](comparison/round-6-animation/RESULTS.md), together with the [Contact before/after viewer](comparison/round-5/preview.html), remain preserved. Builds and functional checks do not substitute for design acceptance.
 
 The two completed landing-page rounds remain independent historical comparisons using the same supplied handoff, images and original task. They evaluate each model together with its CLI environment, not isolated model capability. Their scores measure the earlier single-page rubric and do not constitute acceptance of the current requirement.

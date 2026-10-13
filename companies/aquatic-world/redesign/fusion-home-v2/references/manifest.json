@@ -1,0 +1,48 @@
+{
+  "capture_date": "2026-10-13",
+  "timezone": "Asia/Singapore",
+  "baseline_commit": "0aa3f689834b8975596fe9a18d2a6c6e13116137",
+  "viewport_css_pixels": [
+    390,
+    844
+  ],
+  "kind": "Native in-app Chromium screenshots; independent film phases",
+  "files": [
+    {
+      "file": "codex-home.jpg",
+      "bytes": 62575,
+      "sha256": "aca1ba4645767b29889a28da5badb0e04cceff0c0a3d4ddf905a6bf888a1c241",
+      "unchanged_native_capture": true
+    },
+    {
+      "file": "claude-home.jpg",
+      "bytes": 62685,
+      "sha256": "476f8ff016a0113d6ef4702e714313ec4076ac57b82967d88b0e93a738970530",
+      "unchanged_native_capture": true
+    },
+    {
+      "file": "codex-menu.jpg",
+      "bytes": 48246,
+      "sha256": "3329910c689b3033b12244dae25dca9e73975882fed9157cae21fab1eb65423c",
+      "unchanged_native_capture": true
+    },
+    {
+      "file": "claude-menu.jpg",
+      "bytes": 44916,
+      "sha256": "dc06bc0d31fe722373aa3eaf96e8a7651bc2d937839dc5df2ad0e16808e388c1",
+      "unchanged_native_capture": true
+    },
+    {
+      "file": "codex-scrolled-header.jpg",
+      "bytes": 53133,
+      "sha256": "f3059b544e9f4090e7e72a5df010b6eb80554cc0ff0e81ec6b332b6c5f03f6aa",
+      "unchanged_native_capture": true
+    },
+    {
+      "file": "claude-footer.jpg",
+      "bytes": 51415,
+      "sha256": "4ecfcbbca2d22d70c024cd0fae77ffbb3dac38d6e666a4e71b166ba564bb46f1",
+      "unchanged_native_capture": true
+    }
+  ]
+}
