@@ -1,0 +1,60 @@
+{
+  "source": "https://artificialanalysis.ai/video/leaderboard/image-to-video/?audio-output=false",
+  "accessed_on_singapore": "2026-10-14",
+  "board": "AA-Video-I2V-Silent v1.0",
+  "filters": {
+    "audio_output": false,
+    "hide_research_previews": true,
+    "hide_derived_models": false
+  },
+  "limitations": [
+    "Human preference on general source-image prompts, not an aquarium or loop benchmark.",
+    "Resolution and creator/API route differ from the OpenRouter cost estimates.",
+    "MiniMax H3 and MiniMax H3 Max are distinct variants; their results are not interchangeable.",
+    "Seedance 2.5 and H3 Max were absent from the inspected silent board."
+  ],
+  "observations": [
+    {
+      "display_rank": "1",
+      "rank_range": "1-3",
+      "model": "Gemini Omni Flash",
+      "elo_and_95_percent_interval": "1368\n±11\n95% interval 1357 to 1379",
+      "samples": "5,821"
+    },
+    {
+      "display_rank": "3",
+      "rank_range": "1-4",
+      "model": "Wan 3.0",
+      "elo_and_95_percent_interval": "1362\n±13\n95% interval 1349 to 1375",
+      "samples": "3,137"
+    },
+    {
+      "display_rank": "4",
+      "rank_range": "2-5",
+      "model": "MiniMax H3",
+      "elo_and_95_percent_interval": "1356\n±11\n95% interval 1345 to 1367",
+      "samples": "5,745"
+    },
+    {
+      "display_rank": "6",
+      "rank_range": "6-8",
+      "model": "Dreamina Seedance 2.0 720p",
+      "elo_and_95_percent_interval": "1339\n±9\n95% interval 1330 to 1348",
+      "samples": "7,258"
+    },
+    {
+      "display_rank": "17",
+      "rank_range": "15-23",
+      "model": "Kling 3.0 1080p (Pro)",
+      "elo_and_95_percent_interval": "1277\n±9\n95% interval 1268 to 1286",
+      "samples": "7,240"
+    },
+    {
+      "display_rank": "25",
+      "rank_range": "19-30",
+      "model": "Runway Gen-4.5 (720p)",
+      "elo_and_95_percent_interval": "1265\n±10\n95% interval 1255 to 1275",
+      "samples": "3,578"
+    }
+  ]
+}

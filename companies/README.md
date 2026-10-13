@@ -14,6 +14,8 @@ Both current eight-page Fusion Home demos use identical AI-generated landscape/p
 
 The user has now selected an AI cinematic replacement and authorized the full improvement workflow plus a new US$3 video cap. [Cinematic Home v2](aquatic-world/redesign/cinematic-home-v2/README.md) contains new desktop/phone concepts, clean scene inputs, a shared brief and film storyboard. The first landscape request has an unknown submission outcome and no task ID; no retry, portrait request or native CLI implementation/publication has occurred. Current website runtime and historical deliveries are preserved while that request is reconciled.
 
+The [2026-10-14 model study](aquatic-world/redesign/cinematic-home-v2/research/video-models-2026-10-14/README.md) compares 30 current catalog models, relevant silent I2V evidence and resolution-aware pricing. Recommended future trials and current tool limitations are explicit; no new generation or runtime change occurred.
+
 Both native CLIs applied the [shared refinement](aquatic-world/redesign/fusion-home-v2/BRIEF.md) and identical bounded feedback. Scrolled headers now mask body lettering; narrow-landscape CTAs fit with margin; enlarged motion labels wrap without clipping. [Actual-site results](aquatic-world/comparison/round-9-refinement/RESULTS.md) separate browser evidence, visual judgments and device limitations. The earlier Fusion Home designs and all previous implementations remain preserved.
 
 The earlier framed animation and rejected video trials remain historical evidence. [Static visual references](aquatic-world/redesign/immersive-home-v1/visuals/README.md) are concepts, not runtime images or browser proof. Physical-phone and full accessibility limits are recorded in the current results.

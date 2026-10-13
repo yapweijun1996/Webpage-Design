@@ -26,3 +26,5 @@ python3 -m http.server 4270 --bind 127.0.0.1 --directory companies/aquatic-world
 Open `http://127.0.0.1:4270/preview.html`. The [actual design-board browser capture](visuals/design-board-browser.jpg) shows the preparation display, not an implemented Home.
 
 The [motion study](../immersive-motion-study/README.md) supplies photographic references and the cause of the previous wallpaper-like result. Green Aqua videos are references only; none is copied into the site. This remains a fictional aquarium brand, not verified inventory or an operating enquiry service.
+
+The [2026-10-14 video model study](research/video-models-2026-10-14/README.md) compares the live 30-model catalog, silent I2V evidence, exact resolution-aware cost estimates and current integration limits. It recommends H3 Max and Seedance 2.5 as future controlled-trial candidates, with Kling Pro for endpoint-control study. No model, spending scope, original job state or runtime was changed by that research.

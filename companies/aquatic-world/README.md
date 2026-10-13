@@ -11,7 +11,7 @@
 | Market / location | Unverified; location in the reference is sample content |
 | Official website | Unknown; the reference domain is not evidence |
 | Status | building |
-| Last updated | 2026-10-13 |
+| Last updated | 2026-10-14 |
 
 ## Purpose
 
@@ -20,6 +20,8 @@ Develop a structured multi-page aquatic website with useful real destinations an
 On 2026-10-13 the user rejected the published video experience and selected real aquarium photography research before choosing a replacement media source. The [motion reference study](redesign/immersive-motion-study/README.md) records sampled original-player reviews, source links, composition judgments and the proposed acceptance criteria. No runtime media or website code has been revised by that study. Creative acceptance of the current video is rejected; the case remains `building`.
 
 The user subsequently chose an AI cinematic replacement and authorized the complete redesign/film-review/paired-CLI/browser/publication workflow, then explicitly approved a new US$3.00 cap for at most two video requests without automatic retry. The new [Cinematic Home v2 package](redesign/cinematic-home-v2/README.md) has desktop/phone static concepts, clean landscape/portrait scene inputs, a shared brief, natural-motion storyboard and acceptance criteria. The first landscape submission returned an unknown outcome with no task ID or settled cost. It has not been retried and portrait has not been submitted. No playable replacement film has been retrieved; native CLI implementation and publication await recovery of the original request.
+
+On 2026-10-14 the user requested a study of the best video models. The [model study](redesign/cinematic-home-v2/research/video-models-2026-10-14/README.md) records current capability/price evidence and task-fit recommendations separately from actual aquarium trials. This research does not resolve or retry the original submission, replace the chosen model, or incur new generation charges.
 
 The scrolled top bars now fully mask underlying text. Both normal narrow-landscape actions exceed the required16px lower clearance, while normal portrait placements remain. The normal phone Menu heights are similar; Claude has a thinner protected header row, while Codex retains lighter body typography and more landscape clearance. These are observed details, not a general model ranking.
 
