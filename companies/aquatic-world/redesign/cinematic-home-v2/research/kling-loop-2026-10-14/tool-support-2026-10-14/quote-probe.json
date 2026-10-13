@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "server_name": "open-router-video-mcp",
+  "fresh_stdio_schema": {
+    "prepare_video_quote": {
+      "last_frame_path_discovered": true,
+      "last_frame_path_optional": true
+    },
+    "submit_video": {
+      "last_frame_path_discovered": true,
+      "last_frame_path_optional": true
+    }
+  },
+  "observed_provider_requests": [
+    {
+      "method": "GET",
+      "path": "/api/v1/videos/models"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/videos/models"
+    }
+  ],
+  "provider_posts": 0,
+  "new_jobs": 0,
+  "job_ledger_inventory_unchanged": true,
+  "prior_runway_ledger_unchanged": true,
+  "production_endpoint_assets_selected": false,
+  "quote_role": "transport_and_catalog_cost_probe_using_existing_reference_assets",
+  "provider_acceptance_paid_tested": false,
+  "identical_image_transport_quoted_locally": true,
+  "actual_two_frame_billing_verified": false,
+  "new_kling_spending_authorization": false,
+  "quote_files": [
+    "landscape-quote.json",
+    "portrait-quote.json"
+  ]
+}

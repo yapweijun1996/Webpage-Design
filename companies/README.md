@@ -18,6 +18,8 @@ The [2026-10-14 model study](aquatic-world/redesign/cinematic-home-v2/research/v
 
 The selected [Kling endpoint-loop study](aquatic-world/redesign/cinematic-home-v2/research/kling-loop-2026-10-14/README.md) prepares a natural occlusion route, independent desktop/phone endpoint-frame briefs and motion prompts. It records current route pricing and missing execution prerequisites; endpoint assets and paid trials have not been generated.
 
+The subsequent [Kling endpoint tool delivery](aquatic-world/redesign/cinematic-home-v2/research/kling-loop-2026-10-14/tool-support-2026-10-14/README.md) implements local two-image custody/quotes and optional shot tail pins. Fresh MCP and 117 Python tests passed; GET-only quotes estimate US$2.24 for both ten-second silent 720p takes using existing reference assets. Production frames, new spending scope and provider-film acceptance remain pending; runtime and original request records are unchanged.
+
 Both native CLIs applied the [shared refinement](aquatic-world/redesign/fusion-home-v2/BRIEF.md) and identical bounded feedback. Scrolled headers now mask body lettering; narrow-landscape CTAs fit with margin; enlarged motion labels wrap without clipping. [Actual-site results](aquatic-world/comparison/round-9-refinement/RESULTS.md) separate browser evidence, visual judgments and device limitations. The earlier Fusion Home designs and all previous implementations remain preserved.
 
 The earlier framed animation and rejected video trials remain historical evidence. [Static visual references](aquatic-world/redesign/immersive-home-v1/visuals/README.md) are concepts, not runtime images or browser proof. Physical-phone and full accessibility limits are recorded in the current results.

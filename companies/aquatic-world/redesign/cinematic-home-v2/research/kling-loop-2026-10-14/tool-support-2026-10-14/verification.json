@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "source_repository": "Open-Router-Video-MCP",
+  "git_baseline": "Only .gitattributes was tracked before this task; source files were already untracked.",
+  "changed_files": [
+    {
+      "path": "open_router_video_mcp/video.py",
+      "before_sha256": "0149420c7f8667013d6e95a0659c65ba76d1cd979a70780d838308aa4ac3c0a7",
+      "after_sha256": "e1a5bee8a29edce691941073e510547bcc273012d025e031450f51bf1fb9f074"
+    },
+    {
+      "path": "open_router_video_mcp/server.py",
+      "before_sha256": "5bede9ca8e53c7df84913e0cfb3491f6e43ae29c065b6e1859599614d061caba",
+      "after_sha256": "cc0949fd04f589524800dc56f2af16d37ef45b5e620f595723a0a6cc4a04124b"
+    },
+    {
+      "path": "tests/test_mcp.py",
+      "before_sha256": "c130979fd24272df6a3568a825b345caaf78522f7cdcf8ee4e854b92ef06cb08",
+      "after_sha256": "d37938de109469a2d25ea48ab8895467c7b36139787632a4569ddf325bf5db77"
+    },
+    {
+      "path": "docs/studio.md",
+      "before_sha256": "0307e2990c4c9f2a9ffe4bc3ab9486a2e717d6d0ce19d9b0b8d5c8bbd99bdc6e",
+      "after_sha256": "b24def03f4d11b2f2142b74f3a6dabd01b0eb9f0bfe29b4f7ef37048f05c464a"
+    },
+    {
+      "path": "docs/video.md",
+      "before_sha256": "8dd31cb1fe4f47ba7f4cd137d965b149fed0cf3d9e2a5e999dd5ae66f9c4c9c5",
+      "after_sha256": "ee32a4cff67de81ca4210671ca731ec9d01382c6a7bbe45899e282de55f9c90b"
+    },
+    {
+      "path": "open_router_video_mcp/shot_contract.py",
+      "before_sha256": "8eb3e052f3bf03ba5c4cecfd7797d444539f30048c7ccd4591feee529d08eee1",
+      "after_sha256": "95c247e4ff96f97558239e1437cd9496fd54e4ed1a9210855093116885af398d"
+    },
+    {
+      "path": "open_router_video_mcp/shots.py",
+      "before_sha256": "f15826596f04640fd8d1391171e42779dbb09af22205892e0d0809100b7b9aa6",
+      "after_sha256": "d2bf766229a73bf92c8834a18b5cc265eac9deabbad376e84db048cd28ef1edf"
+    },
+    {
+      "path": "docs/shot-workflow.md",
+      "before_sha256": "5e724b279cd36a1a15bcbb717ce747ad0f3348a84bd1887e9fe306a4ecb7d0e0",
+      "after_sha256": "abd18a4a0ca8bf652faddc86e3b98491f09091ddd8fd10b1ea883175c1813ab3"
+    },
+    {
+      "path": "tests/test_video_endpoints.py",
+      "before_sha256": null,
+      "after_sha256": "b4b5c1b19c0fc9fa00ab29db692ba7165229d319fe08edf9f4bb133954f72d49"
+    },
+    {
+      "path": "tests/test_shot_endpoints.py",
+      "before_sha256": null,
+      "after_sha256": "07c732f902b9d3f914d48bd16eb092583379fc07987b2333fde6776b51be68b5"
+    }
+  ],
+  "patch_sha256": "936705acd142ab352cd70e4ae710780284d7eb6c30b9008819545323666c446d",
+  "patch_forward_and_reverse_verified": true,
+  "checks": {
+    "python_full_suite": {
+      "tests": 117,
+      "exit_code": 0
+    },
+    "fresh_stdio_endpoint_pin_test": {
+      "tests": 1,
+      "exit_code": 0
+    },
+    "catalog_ui": {
+      "exit_code": 0
+    },
+    "uv_lock_check": {
+      "exit_code": 0
+    }
+  },
+  "new_paid_requests": 0,
+  "new_production_assets": 0,
+  "limits": [
+    "No paid provider acceptance or settled two-image bill",
+    "Current chat connection retains its cached schema; fresh sessions expose the additive input",
+    "Production endpoint assets remain unselected"
+  ],
+  "quote_probe_path": "quote-probe.json",
+  "quote_hashes_and_arithmetic_verified": true,
+  "python_syntax_verified": true,
+  "added_patch_lines_whitespace_checked": true,
+  "skill_reflection": "Existing studio workflow reused; scoped contracts/docs updated. No global skill or memory created."
+}

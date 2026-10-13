@@ -45,11 +45,13 @@ Use `kwaivgi/kling-v3.0-pro`, 10 seconds, 720p, `generate_audio: false`, first a
 
 These are output estimates, not live bound quotes, settled bills or new spending authorization. Recheck capability, exact two-image pricing and a bounded quote before proposing a paid trial. The existing US$3 authorization applies to the original Runway scope and is not transferred to Kling. [Trial specification](trial-spec.json) explicitly records missing assets, unavailable tool support, zero new submissions and unknown prior Runway cost.
 
-## Tool readiness
+## Tool readiness at initial study
 
 The current Video Studio `submit_video` schema exposes a single `first_frame_path`; it has no last-frame argument and does not allow Kling submission. The local implementation was inspected read-only. Model-native support, gateway support and local-tool support are different layers. No allowlist, billing validator or provider code was changed, and no direct POST bypass was used.
 
 This plan therefore does not become execution-ready merely by selecting Kling. A later integration task must provide checked two-frame transport, model/SKU validation and a bounded quote. It must durably record the returned job ID, polling URL and actual cost; an unknown submission must remain reserved and must not be automatically retried. The original Runway outcome remains unresolved in the [existing ledger](../../media/request-plan.json).
+
+The user's subsequent selected follow-up implemented the [Kling endpoint tool extension](tool-support-2026-10-14/README.md). Fresh MCP sessions now support the two inputs, checked quotes and optional tail asset pins; existing cached connections need reconnection. Read-only quotes using the old reference images estimate $1.12 per orientation. New production endpoint assets, provider acceptance and settled two-frame billing remain unverified. The original `trial-spec.json` records the proposal's pre-extension state, not current tool readiness.
 
 ## Standalone acceptance before either CLI
 
