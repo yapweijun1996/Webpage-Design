@@ -1,0 +1,92 @@
+{
+  "status": "research_proposal_not_execution_ready",
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "paid_requests_submitted_by_this_study": 0,
+  "new_endpoint_images_generated_by_this_study": 0,
+  "new_spending_authorized_for_kling": false,
+  "prior_runway_request": {
+    "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+    "status": "submission_unknown",
+    "actual_cost_usd": null,
+    "ledger_path": "../../media/request-plan.json",
+    "retry_authorized": false
+  },
+  "proposal": {
+    "model": "kwaivgi/kling-v3.0-pro",
+    "duration_seconds": 10,
+    "resolution": "720p",
+    "generate_audio": false,
+    "camera": "fixed",
+    "shot_count": 1,
+    "endpoint_strategy": "same habitat image in both roles, lead fish fully concealed at the join",
+    "endpoint_input_roles": [
+      "first_frame",
+      "last_frame"
+    ],
+    "identical_image_acceptance_verified": false,
+    "endpoint_assets": {
+      "landscape": null,
+      "portrait": null
+    },
+    "orientations": [
+      {
+        "name": "landscape",
+        "aspect_ratio": "16:9",
+        "size": "1280x720",
+        "motion_prompt_path": "landscape-VIDEO-PROMPT.txt"
+      },
+      {
+        "name": "portrait",
+        "aspect_ratio": "9:16",
+        "size": "720x1280",
+        "motion_prompt_path": "portrait-VIDEO-PROMPT.txt",
+        "requires_passing_landscape_review": true
+      }
+    ],
+    "reference_frames": [
+      {
+        "orientation": "landscape",
+        "reference_path": "../../media/landscape-generation-frame.png",
+        "sha256": "6092b74fc6d4c25e83a5ab889ff06a9409b3e55815b308309165b98c9fc4b651",
+        "usage": "Habitat reference only; not the proposed concealed-fish endpoint input."
+      },
+      {
+        "orientation": "portrait",
+        "reference_path": "../../media/portrait-generation-frame.png",
+        "sha256": "eec8b4374114f7d72e0107cb5e07d980c88dcae150f93d3a4c97401c870661da",
+        "usage": "Habitat reference only; not the proposed concealed-fish endpoint input."
+      }
+    ]
+  },
+  "output_estimates": {
+    "currency": "USD",
+    "pricing_source_path": "catalog.json",
+    "sku": "image_to_video_duration_seconds_720p",
+    "usd_per_output_second": "0.112",
+    "ten_second_one_orientation": "1.120",
+    "ten_second_two_orientations": "2.240",
+    "fifteen_second_one_orientation": "1.680",
+    "two_input_image_fees_verified": false,
+    "live_bound_quote": null,
+    "limitations": "Catalog output estimates only; no actual job or settled price. Native Kling credit-pack prices are not converted into gateway USD estimates."
+  },
+  "local_tool": {
+    "kling_submission_exposed": false,
+    "last_frame_argument_exposed": false,
+    "configuration_changed": false
+  },
+  "missing_prerequisites": [
+    "Reviewed orientation-specific endpoint assets",
+    "Supported and validated two-frame tool transport",
+    "Confirmed acceptance of identical image inputs",
+    "Current bounded quote covering the exact request",
+    "Explicit new Kling spending scope"
+  ],
+  "standalone_review": {
+    "complete_plays_minimum": 4,
+    "consecutive_joins_minimum": 3,
+    "critical_failures_block_integration": true,
+    "acceptance_record": null
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "source_url": "https://openrouter.ai/api/v1/videos/models",
+  "access_date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "fetched_at_utc": "2026-10-13T22:36:50.525902+00:00",
+  "data": [
+    {
+      "id": "kwaivgi/kling-v3.0-pro",
+      "canonical_slug": "kwaivgi/kling-v3.0-pro-20260429",
+      "name": "Kling: Video v3.0 Pro",
+      "supported_resolutions": [
+        "720p"
+      ],
+      "supported_aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "supported_sizes": [
+        "1280x720",
+        "720x1280",
+        "720x720"
+      ],
+      "supported_durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "supported_frame_images": [
+        "first_frame",
+        "last_frame"
+      ],
+      "generate_audio": true,
+      "seed": false,
+      "pricing_skus": {
+        "duration_seconds": "0.112",
+        "duration_seconds_with_audio": "0.168",
+        "text_to_video_duration_seconds_480p": "0.112",
+        "text_to_video_duration_seconds_720p": "0.112",
+        "image_to_video_duration_seconds_720p": "0.112",
+        "text_to_video_duration_seconds_1080p": "0.112",
+        "image_to_video_duration_seconds_1080p": "0.112"
+      },
+      "allowed_passthrough_parameters": [
+        "negative_prompt",
+        "cfg_scale"
+      ]
+    },
+    {
+      "id": "kwaivgi/kling-v3.0-std",
+      "canonical_slug": "kwaivgi/kling-v3.0-std-20260429",
+      "name": "Kling: Video v3.0 Standard",
+      "supported_resolutions": [
+        "720p"
+      ],
+      "supported_aspect_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "supported_sizes": [
+        "1280x720",
+        "720x1280",
+        "720x720"
+      ],
+      "supported_durations": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "supported_frame_images": [
+        "first_frame",
+        "last_frame"
+      ],
+      "generate_audio": true,
+      "seed": false,
+      "pricing_skus": {
+        "duration_seconds": "0.084",
+        "duration_seconds_with_audio": "0.126",
+        "text_to_video_duration_seconds_480p": "0.084",
+        "text_to_video_duration_seconds_720p": "0.084",
+        "image_to_video_duration_seconds_720p": "0.084",
+        "text_to_video_duration_seconds_1080p": "0.084",
+        "image_to_video_duration_seconds_1080p": "0.084"
+      },
+      "allowed_passthrough_parameters": [
+        "negative_prompt",
+        "cfg_scale"
+      ]
+    }
+  ]
+}

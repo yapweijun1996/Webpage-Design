@@ -23,6 +23,8 @@ The user subsequently chose an AI cinematic replacement and authorized the compl
 
 On 2026-10-14 the user requested a study of the best video models. The [model study](redesign/cinematic-home-v2/research/video-models-2026-10-14/README.md) records current capability/price evidence and task-fit recommendations separately from actual aquarium trials. This research does not resolve or retry the original submission, replace the chosen model, or incur new generation charges.
 
+The user then selected [Kling endpoint-loop research](redesign/cinematic-home-v2/research/kling-loop-2026-10-14/README.md). The proposed route conceals the fish behind habitat at the join rather than forcing visible animals back to fixed poses. Independent endpoint-frame briefs, motion prompts, public capability/SKU evidence and standalone acceptance are prepared; new endpoint images and paid trials remain unexecuted. Tool support and new spending scope are explicit prerequisites.
+
 The scrolled top bars now fully mask underlying text. Both normal narrow-landscape actions exceed the required16px lower clearance, while normal portrait placements remain. The normal phone Menu heights are similar; Claude has a thinner protected header row, while Codex retains lighter body typography and more landscape clearance. These are observed details, not a general model ranking.
 
 The original [round-7 release](comparison/round-7-immersive/README.md) and [round-8 Fusion Home](comparison/round-8-fusion/README.md) remain unchanged. The v2 package records its earlier design-only preparation; the latest user request authorized the current implementation and publication. [Publication evidence](comparison/round-9-refinement/PUBLICATION.md) separates local verification from external delivery.
