@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "model": "runway/gen-4.5",
+  "duration": 10,
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "generate_audio": false,
+  "prompt_sha256": "7fefa132d494a306f7bbb171fefa2efbdb94823f6fa8240bbba588683d191e41",
+  "first_frame_sha256": "eec8b4374114f7d72e0107cb5e07d980c88dcae150f93d3a4c97401c870661da",
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "estimated_cost_usd": "1.200000",
+  "capability_digest": "e6190dd3a9542fde52f296d594f7b2f1269d5f6c7a59e4eb1b668644e3e37251",
+  "quote_digest": "6aa8a71bf30ce08167baafa2f2678f6c5208a49b7c17945d55657462f52a60fa",
+  "observed_at_utc": "2026-10-13T15:25:36.614115+00:00",
+  "expires_at_utc": "2026-10-13T15:30:36.614115+00:00",
+  "paid_authorization": false
+}

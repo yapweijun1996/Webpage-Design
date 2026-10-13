@@ -1,0 +1,51 @@
+{
+  "prepared_on": "2026-10-13",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "status": "blocked-original-landscape-submission-outcome-unknown",
+  "authorization": {
+    "authorized": true,
+    "generation_cap_usd": "3.00",
+    "maximum_new_requests": 2,
+    "auto_retry": false,
+    "source": "Explicit user reply: 授权：新增上限 US$3.00，最多两次（推荐）",
+    "recorded_at_utc": "2026-10-13 15:34:08 UTC",
+    "prior_authorizations": "completed scopes; not reused"
+  },
+  "model": "runway/gen-4.5",
+  "generation_mode": "image-to-video",
+  "duration_each_seconds": 10,
+  "resolution": "720p",
+  "generate_audio": false,
+  "estimated_total_usd": "2.40",
+  "reserved_ceiling_each_usd": "1.50",
+  "order": "landscape first; if its standalone technical or visual review clearly fails, stop before portrait. No automatic retry.",
+  "requests": [
+    {
+      "orientation": "landscape",
+      "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+      "shot_id": "cinematic-landscape-v2",
+      "shot_revision": 2,
+      "first_frame_sha256": "6092b74fc6d4c25e83a5ab889ff06a9409b3e55815b308309165b98c9fc4b651",
+      "prompt_sha256": "1808465edfe0caa45b4f58c9f3db0a7e4c39dfdf1e71745a8bb5e185ada4919f",
+      "estimated_cost_usd": "1.200000",
+      "aspect_ratio": "16:9",
+      "status": "submission_unknown",
+      "job_id": null,
+      "actual_cost_usd": null
+    },
+    {
+      "orientation": "portrait",
+      "request_id": "aquatic_cinematic_portrait_video_20261013_01",
+      "shot_id": "cinematic-portrait-v2",
+      "shot_revision": 2,
+      "first_frame_sha256": "eec8b4374114f7d72e0107cb5e07d980c88dcae150f93d3a4c97401c870661da",
+      "prompt_sha256": "7fefa132d494a306f7bbb171fefa2efbdb94823f6fa8240bbba588683d191e41",
+      "estimated_cost_usd": "1.200000",
+      "aspect_ratio": "9:16",
+      "status": "not-submitted"
+    }
+  ],
+  "total_new_video_cost_usd": null,
+  "quote_policy": "Quotes expire after five minutes. Refresh before each submission, preserve exact prompt/first-frame identity, and stop if either reserved ceiling or the new total cap would be exceeded.",
+  "cost_note": "Original landscape POST outcome is unknown. Its US$1.50 reservation remains unresolved; settled charges are not known. No retry and no portrait request."
+}

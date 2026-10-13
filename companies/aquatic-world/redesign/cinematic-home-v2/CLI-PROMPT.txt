@@ -1,0 +1,9 @@
+Implement the accepted Aquatic World Cinematic Home v2 brief in your independent owned workspace.
+
+Read the common BRIEF.md, STORYBOARD.md, ACCEPTANCE.md, media/details manifests and frozen cli-web-design-director skill. Inspect both desktop/phone static UI concepts and accepted film posters through the actually available image inputs/tools. Use only your own final round-9 baseline; do not inspect any sibling implementation or coordinator evaluator source.
+
+Write evidence/layout-plan.md before coding, then implement in the same authorized run. Build a full-Home film environment with live HTML UI, compact integrated header, clear outlined primary CTA and distinct image-led category chapters. Preserve all eight independent routes plus 404, current inner-page content and Contact local Preview/Edit/Clear behavior. Keep all production media bytes identical to the accepted shared manifest; do not regenerate, re-edit or replace them. Preserve reduced-motion/Save-Data/poster/manual-pause/menu/tab policies.
+
+Write only your demo/, evidence/ and workspace README.md. Frozen input/ and baseline/ are immutable. Do not use other agents/models, APIs, MCPs, network, new dependencies, credentials, Git, servers, uploads, publication or media generation/editing. No browser automation is available to this worker; source checks do not count as rendered verification. The coordinator supplies the same independent real-browser acceptance to both candidates.
+
+Run the existing native build and bounded relevant checks. Save evidence/self-review.md with actual checks, source-level limitations and preview instructions. Do not claim creative acceptance or deployed success. Requested native model must remain the launch model; do not silently substitute it.

@@ -1,0 +1,134 @@
+{
+  "prepared_on": "2026-10-13",
+  "status": "static-design-ready; original-landscape-submission-unknown; no-runtime-film",
+  "assets": [
+    {
+      "path": "details/collection-aquatic-plants.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2899303,
+      "sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "provenance": {
+        "method": "exact byte copy",
+        "source": "../../comparison/assets-v1/collection-aquatic-plants.png",
+        "source_date": "2026-10-10",
+        "kind": "AI-generated illustrative category asset"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "details/collection-driftwood.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2671303,
+      "sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "provenance": {
+        "method": "exact byte copy",
+        "source": "../../comparison/assets-v1/collection-driftwood.png",
+        "source_date": "2026-10-10",
+        "kind": "AI-generated illustrative category asset"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "details/collection-ornamental-fish.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2214777,
+      "sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "provenance": {
+        "method": "exact byte copy",
+        "source": "../../comparison/assets-v1/collection-ornamental-fish.png",
+        "source_date": "2026-10-10",
+        "kind": "AI-generated illustrative category asset"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "media/landscape-first-frame.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2394345,
+      "sha256": "1afd57d3ba11366fc05b15072a1ae92c6289e6e704a8ed3455c1fa5628beec02",
+      "provenance": {
+        "method": "built-in image_gen",
+        "source_date": "2026-10-13",
+        "kind": "UI-free scene",
+        "serving_model": "not exposed",
+        "monetary_cost": "not exposed"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "media/landscape-generation-frame.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1471076,
+      "sha256": "6092b74fc6d4c25e83a5ab889ff06a9409b3e55815b308309165b98c9fc4b651",
+      "provenance": {
+        "method": "FFmpeg proportional fit and pad",
+        "source": "media/landscape-first-frame.png",
+        "kind": "UI-free provider input; no semantic retouching"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "media/portrait-first-frame.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2371154,
+      "sha256": "999b3b1362dbf0e7f50c2813d8e732d727b4a0cd60a6f0d4758ec0ccdd93e704",
+      "provenance": {
+        "method": "built-in image_gen",
+        "source_date": "2026-10-13",
+        "kind": "UI-free scene",
+        "serving_model": "not exposed",
+        "monetary_cost": "not exposed"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "media/portrait-generation-frame.png",
+      "width": 720,
+      "height": 1280,
+      "bytes": 1458322,
+      "sha256": "eec8b4374114f7d72e0107cb5e07d980c88dcae150f93d3a4c97401c870661da",
+      "provenance": {
+        "method": "FFmpeg proportional fit and pad",
+        "source": "media/portrait-first-frame.png",
+        "kind": "UI-free provider input; no semantic retouching"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "visuals/desktop.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2316484,
+      "sha256": "36702449c284a71280fd1ddb24a4ec1ca7b691456a8cdbc9566152836acc3add",
+      "provenance": {
+        "method": "built-in image_gen",
+        "source_date": "2026-10-13",
+        "kind": "static UI concept",
+        "serving_model": "not exposed",
+        "monetary_cost": "not exposed"
+      },
+      "human_creative_acceptance": "pending"
+    },
+    {
+      "path": "visuals/mobile.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2193153,
+      "sha256": "1e60a2542dcba187891430a1e27727a86c90b34014744245d8f780513c3cf78a",
+      "provenance": {
+        "method": "built-in image_gen",
+        "source_date": "2026-10-13",
+        "kind": "static UI concept",
+        "serving_model": "not exposed",
+        "monetary_cost": "not exposed"
+      },
+      "human_creative_acceptance": "pending"
+    }
+  ]
+}

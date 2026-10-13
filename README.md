@@ -14,6 +14,8 @@ The [Aquatic World case](companies/aquatic-world/README.md) has two independent 
 
 [Current actual-site results](companies/aquatic-world/comparison/round-9-refinement/RESULTS.md) record twelve normal viewports per candidate, heading masking, enlarged text, keyboard/menu behavior, movie policies and the preserved multi-page Contact journey. [Media provenance](companies/aquatic-world/redesign/immersive-home-v1/media/README.md) records the earlier authorized US$1.44 video cost and disclosed return-loop editing; no new generation occurred in this round. Human creative acceptance remains open for public testing. The [company catalog](companies/README.md) owns browsing navigation.
 
+The user subsequently rejected that film and chose an AI cinematic replacement. [Cinematic Home v2 preparation](companies/aquatic-world/redesign/cinematic-home-v2/README.md) supplies new static concepts, clean scene inputs and a common natural-motion/design contract. The improvement workflow and a new US$3 video cap are authorized. The first landscape request returned an unknown submission outcome with no task ID; it has not been retried, and no replacement website is published yet.
+
 ## GitHub Pages demo publication
 
 [Compare actual desktop/phone captures](https://yapweijun1996.github.io/Webpage-Design/comparison/), [open the demo catalog](https://yapweijun1996.github.io/Webpage-Design/), [Codex website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/) or [Claude website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/).

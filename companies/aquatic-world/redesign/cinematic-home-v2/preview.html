@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aquatic World — Cinematic v2 static concepts</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101b1e; color: #f3efe4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1600px; margin: auto; padding: 32px 24px 48px; }
+    h1 { margin: 0 0 12px; font-size: clamp(24px, 3vw, 36px); font-weight: 500; }
+    p { max-width: 80ch; line-height: 1.6; color: #c0cdce; }
+    a { color: #e6d5ae; text-underline-offset: 3px; }
+    .concepts { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 24px; align-items: start; margin: 32px 0; }
+    figure { margin: 0; min-width: 0; }
+    figcaption { margin-bottom: 12px; font-size: 16px; }
+    img { display: block; width: 100%; height: auto; }
+    .details { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
+    .details img { aspect-ratio: 4 / 3; object-fit: cover; }
+    h2 { margin-top: 40px; font-size: 24px; font-weight: 500; }
+    .links { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; }
+    @media (max-width: 700px) { main { padding: 24px 16px; } .concepts, .details { grid-template-columns: 1fr; } .phone { max-width: 420px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Aquatic World — Cinematic Home v2</h1>
+    <p>Static art-direction concepts. These images are not a functioning website or playable video. A new US$3 video budget is authorized, but the first submission returned an unknown outcome. No retry or portrait submission has occurred; motion quality and responsive behavior remain to be reviewed.</p>
+    <nav class="links" aria-label="Design documents">
+      <a href="README.md">Progress</a><a href="BRIEF.md">Shared brief</a><a href="STORYBOARD.md">Film storyboard</a><a href="ACCEPTANCE.md">Acceptance</a>
+    </nav>
+    <div class="concepts">
+      <figure><figcaption>Desktop first viewport · <a href="visuals/desktop.png">Open original</a></figcaption><img src="visuals/desktop.png" alt="Desktop static concept: a layered freshwater environment behind cream typography and an outlined collection action."></figure>
+      <figure class="phone"><figcaption>Phone first viewport · <a href="visuals/mobile.png">Open original</a></figcaption><img src="visuals/mobile.png" alt="Phone static concept: complete fish in the upper habitat, live-UI placement below, and quiet Menu navigation."></figure>
+    </div>
+    <h2>Existing category imagery for the lower Home chapters</h2>
+    <p>These are original shared AI-generated illustrative assets from 2026-10-10, selected for reuse. Their final page layout is defined in the shared brief.</p>
+    <div class="details">
+      <figure><figcaption>Ornamental Fish</figcaption><img src="details/collection-ornamental-fish.png" alt="Illustrative ornamental fish detail."></figure>
+      <figure><figcaption>Aquatic Plants</figcaption><img src="details/collection-aquatic-plants.png" alt="Illustrative planted freshwater aquascape."></figure>
+      <figure><figcaption>Driftwood</figcaption><img src="details/collection-driftwood.png" alt="Illustrative natural branching driftwood."></figure>
+    </div>
+    <h2>Clean film inputs</h2>
+    <p><a href="media/landscape-first-frame.png">Landscape scene</a> · <a href="media/portrait-first-frame.png">Portrait scene</a>. Production video will contain no burned-in text, navigation or controls.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "relative_links_checked": 143,
+  "missing_links": [],
+  "image_asset_hashes_verified": 9,
+  "latest_composite_shot_fingerprints": "passed",
+  "quote_input_and_prompt_identity": "passed",
+  "new_authorization_ledger": "passed",
+  "known_paid_submission_attempts": 1,
+  "settled_cost_usd": null,
+  "portrait_submitted": false,
+  "credential_like_value_files": [],
+  "browser_capture": {
+    "path": "visuals/design-board-browser.jpg",
+    "width": 1280,
+    "height": 1654,
+    "sha256": "812107636b17631fc3fe94ad1988215ca2913e3bdd5744abdd2e004995d64bc3"
+  }
+}

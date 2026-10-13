@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "title": "Aquatic cinematic v2 portrait living habitat",
+  "character_id": "habitat-angelfish",
+  "style_id": "cinematic-freshwater",
+  "duration_min_seconds": 9.8,
+  "duration_max_seconds": 10.2,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "audio": "silent",
+  "references": [
+    {
+      "library_id": "aquatic-world-motion",
+      "asset_key": "cinematic-portrait-first-frame-v2",
+      "version": 1,
+      "role": "first_frame"
+    }
+  ],
+  "allow_draft_assets": true,
+  "constraints": {
+    "character": "Recognizable modest-scale striped freshwater angelfish within a living habitat; coherent bodies, eyes and complete fins, with natural turns and genuine forward propulsion. Position may change.",
+    "materials": "Realistic fish scales and fine fins, natural plant leaves and wood grain; no morphing or melting background geometry.",
+    "lighting": "Stable soft underwater daylight, subtle current-driven shimmer, quiet shaded live-UI areas; no flash, exposure pumping or artificial neon.",
+    "camera": "One continuous steady underwater environmental view; no cuts, zoom, shake or forced reframing.",
+    "motion": "Visible slow natural swimming, tail/fin propulsion, depth-appropriate occlusion and gently moving leaves. No hovering-only brief, reference-position lock, reverse motion, forced opening-pose return or held-frame stretch.",
+    "environment": "Independently composed full portrait habitat; fish in central upper-middle swimming space, protected top navigation and shaded lower live-copy areas. No edge-clipped mascot."
+  },
+  "acceptance": [
+    {
+      "id": "decode",
+      "category": "technical",
+      "criterion": "Full raw shot decodes; native dimensions, actual FPS/duration, audio absence, source hash and actual cost recorded honestly."
+    },
+    {
+      "id": "motion",
+      "category": "visual",
+      "criterion": "Complete normal-speed playback shows actual forward swimming, believable propulsion/anatomy, stable habitat and natural depth."
+    },
+    {
+      "id": "loop",
+      "category": "visual",
+      "criterion": "At least three repeated runtime joins show no distracting jump, flash, double fish or reverse/held movement. Failure blocks integration."
+    },
+    {
+      "id": "reading",
+      "category": "visual",
+      "criterion": "Main fish framing and quiet live-copy zones survive actual desktop/phone/near-square/landscape crops throughout the take."
+    },
+    {
+      "id": "acceptance-record",
+      "category": "technical",
+      "criterion": "Record technical checks, coordinator visual judgment and human acceptance separately. After standalone technical and coordinator visual gates pass, authorized implementation may proceed; human acceptance remains pending unless explicitly provided."
+    }
+  ]
+}

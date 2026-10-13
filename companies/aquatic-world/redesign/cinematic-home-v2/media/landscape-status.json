@@ -1,0 +1,19 @@
+{
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "6092b74fc6d4c25e83a5ab889ff06a9409b3e55815b308309165b98c9fc4b651",
+  "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+  "model": "runway/gen-4.5",
+  "duration": 10,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "estimated_cost_usd": "1.200000",
+  "actual_cost_usd": null,
+  "price_sku": "cents_per_second_output",
+  "price_value": "12",
+  "status": "submission_unknown",
+  "job_id": null,
+  "submitted_at_utc": "2026-10-13T15:34:08.620165+00:00",
+  "quote_digest": "97873ba47125e05ce69dceb8bbf9b877227a2336573fa92ce4edec9f33165263",
+  "reserved_cost_ceiling_usd": "1.50"
+}

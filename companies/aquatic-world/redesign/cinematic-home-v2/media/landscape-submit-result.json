@@ -1,0 +1,7 @@
+{
+  "is_error": true,
+  "error_code": "SUBMISSION_OUTCOME_UNKNOWN_DO_NOT_RETRY",
+  "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+  "attempts": 1,
+  "retried": false
+}

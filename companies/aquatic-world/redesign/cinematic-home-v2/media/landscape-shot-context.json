@@ -1,0 +1,27 @@
+{
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "cinematic-landscape-v2",
+  "revision": 2,
+  "plan_sha256": "65a46b0d4a83fb9a5b919f24db02714135ad9dd60991d5ce55662898d0ae2a22",
+  "preparation_state": "ready",
+  "references": [
+    {
+      "asset_key": "cinematic-landscape-first-frame-v2",
+      "library_id": "aquatic-world-motion",
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v2/assets/aquatic-world-motion/cinematic-landscape-first-frame-v2/v1/asset.png",
+      "role": "first_frame",
+      "sha256": "6092b74fc6d4c25e83a5ab889ff06a9409b3e55815b308309165b98c9fc4b651",
+      "status_at_creation": "draft",
+      "usage_notes": "Draft for the user-authorized replacement design and prospective paid sample. Coordinator selection is not human creative acceptance or paid authorization.",
+      "version": 1,
+      "current_status": "draft",
+      "integrity": "ok"
+    }
+  ],
+  "approved_rules_snapshot": [],
+  "results": [],
+  "generation_performed": false,
+  "human_acceptance": "pending",
+  "paid_authorization": "pending",
+  "fingerprint_contract": "SHA-256 of canonical JSON containing the validated plan, pinned creation references, and approved rule snapshot; not plan JSON alone."
+}
