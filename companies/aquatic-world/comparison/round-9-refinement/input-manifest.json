@@ -1,0 +1,105 @@
+{
+  "prepared_on": "2026-10-13",
+  "shared_input_files": {
+    "mcp-empty.json": {
+      "bytes": 18,
+      "sha256": "e93fc8db2b1bd77107fe6c758bca9545fa864cf7cce8ab93a7b2b93a1d566a7b"
+    },
+    "media/landscape-poster.webp": {
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+    },
+    "media/landscape.mp4": {
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+    },
+    "media/manifest.json": {
+      "bytes": 6454,
+      "sha256": "a811fd2cdd403476c6e9a18ddc39b1b200308792447a138547fd408464eeccdc"
+    },
+    "media/portrait-poster.webp": {
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+    },
+    "media/portrait.mp4": {
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+    },
+    "refinement/ACCEPTANCE.md": {
+      "bytes": 6082,
+      "sha256": "a4890dc25af59f472b8165583d85a1ee50bca02f085577c9100b5601e653a06b"
+    },
+    "refinement/BRIEF.md": {
+      "bytes": 9378,
+      "sha256": "d5ab00fa16f045b4075961b109e721460335eb24d98e6574db0449e9835640fa"
+    },
+    "refinement/CLI-PROMPT.txt": {
+      "bytes": 2039,
+      "sha256": "64a28a432512ebff0841d7d284af6754707a0756a051bd7f442d28e766c4da74"
+    },
+    "refinement/README.md": {
+      "bytes": 3788,
+      "sha256": "d2d05c3cbfc490bcadee4a84264c639814bb4be4a27652c4460218e1f96b1971"
+    },
+    "refinement/references/README.md": {
+      "bytes": 2887,
+      "sha256": "4afcc6ad6eced6036bdac3fa677c188f0e3682297dd2a651ac551fe2430e9d11"
+    },
+    "refinement/references/claude-footer.jpg": {
+      "bytes": 51415,
+      "sha256": "4ecfcbbca2d22d70c024cd0fae77ffbb3dac38d6e666a4e71b166ba564bb46f1"
+    },
+    "refinement/references/claude-home.jpg": {
+      "bytes": 62685,
+      "sha256": "476f8ff016a0113d6ef4702e714313ec4076ac57b82967d88b0e93a738970530"
+    },
+    "refinement/references/claude-menu.jpg": {
+      "bytes": 44916,
+      "sha256": "dc06bc0d31fe722373aa3eaf96e8a7651bc2d937839dc5df2ad0e16808e388c1"
+    },
+    "refinement/references/codex-home.jpg": {
+      "bytes": 62575,
+      "sha256": "aca1ba4645767b29889a28da5badb0e04cceff0c0a3d4ddf905a6bf888a1c241"
+    },
+    "refinement/references/codex-menu.jpg": {
+      "bytes": 48246,
+      "sha256": "3329910c689b3033b12244dae25dca9e73975882fed9157cae21fab1eb65423c"
+    },
+    "refinement/references/codex-scrolled-header.jpg": {
+      "bytes": 53133,
+      "sha256": "f3059b544e9f4090e7e72a5df010b6eb80554cc0ff0e81ec6b332b6c5f03f6aa"
+    },
+    "refinement/references/manifest.json": {
+      "bytes": 1427,
+      "sha256": "77d7e13a2a9141b5b26aaea3221035be413f68094949749338c7f4704ed3e044"
+    },
+    "skills/cli-web-design-director/SKILL.md": {
+      "bytes": 4990,
+      "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+    },
+    "skills/cli-web-design-director/agents/openai.yaml": {
+      "bytes": 272,
+      "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+    },
+    "skills/cli-web-design-director/references/cli-operation.md": {
+      "bytes": 4771,
+      "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+    },
+    "skills/cli-web-design-director/references/design-review.md": {
+      "bytes": 4605,
+      "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+    },
+    "skills/cli-web-design-director/references/prompt-patterns.md": {
+      "bytes": 3259,
+      "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+    }
+  },
+  "shared_root_contracts": {
+    "AGENTS.md": "9e24cdc183cb0b82648156fd5c9ecfc23231a31816ebff39f04bc8d93d33c747",
+    "CLAUDE.md": "9e24cdc183cb0b82648156fd5c9ecfc23231a31816ebff39f04bc8d93d33c747",
+    "TASK.md": "94cc36420d9bfd72f94dc89a515cb0351d63b77d6b4ec90c9fee2d0f25e39b30",
+    "IMPLEMENTATION-PROMPT.txt": "041a02ba95ee7b1560e5e589c27f265b429ffbbb4b15fc93717e371ca954cc37"
+  },
+  "user_acceptance": "open",
+  "media_generation": "none; current byte-identical media"
+}

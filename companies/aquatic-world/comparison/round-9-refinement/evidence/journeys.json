@@ -1,0 +1,196 @@
+[
+  {
+    "candidate": "codex",
+    "step": "Home CTA to collections",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/collections/"
+  },
+  {
+    "candidate": "codex",
+    "step": "category enquiry",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/contact/?category=ornamental-fish#enquiry"
+  },
+  {
+    "candidate": "codex",
+    "step": "empty validation",
+    "invalid": [
+      "name",
+      "email",
+      "project"
+    ]
+  },
+  {
+    "candidate": "codex",
+    "step": "local preview",
+    "copy": "Preview created. Nothing was sent."
+  },
+  {
+    "candidate": "codex",
+    "step": "edit retained",
+    "values": [
+      {
+        "name": "name",
+        "value": "Demo Reviewer"
+      },
+      {
+        "name": "email",
+        "value": "reviewer@example.com"
+      },
+      {
+        "name": "category",
+        "value": "ornamental-fish"
+      },
+      {
+        "name": "project",
+        "value": "Illustrative aquarium composition with ornamental fish and aquatic plants."
+      }
+    ]
+  },
+  {
+    "candidate": "codex",
+    "step": "clear",
+    "values": [
+      {
+        "name": "name",
+        "value": ""
+      },
+      {
+        "name": "email",
+        "value": ""
+      },
+      {
+        "name": "category",
+        "value": "general"
+      },
+      {
+        "name": "project",
+        "value": ""
+      }
+    ],
+    "network": []
+  },
+  {
+    "candidate": "codex",
+    "step": "back",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/collections/ornamental-fish/"
+  },
+  {
+    "candidate": "codex",
+    "step": "forward",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/contact/?category=ornamental-fish#enquiry"
+  },
+  {
+    "candidate": "claude",
+    "step": "Home CTA to collections",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/collections/"
+  },
+  {
+    "candidate": "claude",
+    "step": "category enquiry",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/contact/?interest=ornamental-fish#enquiry"
+  },
+  {
+    "candidate": "claude",
+    "step": "empty validation",
+    "invalid": [
+      "name",
+      "email",
+      "project"
+    ]
+  },
+  {
+    "candidate": "claude",
+    "step": "local preview",
+    "copy": "Brief preview"
+  },
+  {
+    "candidate": "claude",
+    "step": "edit retained",
+    "values": [
+      {
+        "checked": false,
+        "name": "name",
+        "value": "Demo Reviewer"
+      },
+      {
+        "checked": false,
+        "name": "email",
+        "value": "reviewer@example.com"
+      },
+      {
+        "checked": true,
+        "name": "interest",
+        "value": "ornamental-fish"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "aquatic-plants"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "driftwood"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "not-sure"
+      },
+      {
+        "name": "project",
+        "value": "Illustrative aquarium composition with ornamental fish and aquatic plants."
+      }
+    ]
+  },
+  {
+    "candidate": "claude",
+    "step": "clear",
+    "values": [
+      {
+        "checked": false,
+        "name": "name",
+        "value": ""
+      },
+      {
+        "checked": false,
+        "name": "email",
+        "value": ""
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "ornamental-fish"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "aquatic-plants"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "driftwood"
+      },
+      {
+        "checked": false,
+        "name": "interest",
+        "value": "not-sure"
+      },
+      {
+        "name": "project",
+        "value": ""
+      }
+    ],
+    "network": []
+  },
+  {
+    "candidate": "claude",
+    "step": "back",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/collections/ornamental-fish/"
+  },
+  {
+    "candidate": "claude",
+    "step": "forward",
+    "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/contact/"
+  }
+]

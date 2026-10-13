@@ -1,0 +1,899 @@
+[
+  {
+    "candidate": "codex",
+    "state": "reduced-motion-initial",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 16,
+      "right": 168.765625,
+      "top": 10,
+      "width": 152.765625,
+      "x": 16,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 206,
+      "right": 304,
+      "top": 10,
+      "width": 98,
+      "x": 206,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 525.359375,
+      "height": 52,
+      "left": 16,
+      "right": 284.109375,
+      "top": 473.359375,
+      "width": 268.109375,
+      "x": 16,
+      "y": 473.359375
+    },
+    "details": false,
+    "expanded": "false",
+    "focus": "BODY:Skip to content\n    \n      AQUATIC WORLD\n      Hom",
+    "h1": {
+      "bottom": 378.765625,
+      "height": 82.671875,
+      "left": 16,
+      "right": 304,
+      "top": 296.09375,
+      "width": 288,
+      "x": 16,
+      "y": 296.09375
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "claude",
+    "state": "reduced-motion-initial",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 201.2265625,
+      "top": 10,
+      "width": 181.2265625,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 744,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 692,
+      "width": 282.015625,
+      "x": 20,
+      "y": 692
+    },
+    "expanded": "false",
+    "focus": "BODY:Skip to content\n\n  \n    \n    \n  \n  \n\n\n  \n    Aquat",
+    "h1": {
+      "bottom": 596.40625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 512.71875,
+      "width": 350,
+      "x": 20,
+      "y": 512.71875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "codex",
+    "state": "reduced-motion-explicit-opt-in",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 16,
+      "right": 168.765625,
+      "top": 10,
+      "width": 152.765625,
+      "x": 16,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 206,
+      "right": 304,
+      "top": 10,
+      "width": 98,
+      "x": 206,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 525.359375,
+      "height": 52,
+      "left": 16,
+      "right": 284.109375,
+      "top": 473.359375,
+      "width": 268.109375,
+      "x": 16,
+      "y": 473.359375
+    },
+    "details": false,
+    "expanded": "false",
+    "focus": "BUTTON:Pause background",
+    "h1": {
+      "bottom": 378.765625,
+      "height": 82.671875,
+      "left": 16,
+      "right": 304,
+      "top": 296.09375,
+      "width": 288,
+      "x": 16,
+      "y": 296.09375
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": false,
+    "requests": [
+      "http://127.0.0.1:4261/assets/immersive/portrait.mp4"
+    ],
+    "scroll": 0,
+    "src": "http://127.0.0.1:4261/assets/immersive/portrait.mp4",
+    "time": 0.335161
+  },
+  {
+    "candidate": "codex",
+    "state": "no-js-scrolled",
+    "cta": {
+      "bottom": 170.359375,
+      "height": 52,
+      "left": 16,
+      "right": 284.109375,
+      "top": 118.359375,
+      "width": 268.109375,
+      "x": 16,
+      "y": 118.359375
+    },
+    "documentWidth": 320,
+    "h1": {
+      "bottom": 23.765625,
+      "height": 82.671875,
+      "left": 16,
+      "right": 304,
+      "top": -58.90625,
+      "width": 288,
+      "x": 16,
+      "y": -58.90625
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgb(4, 29, 37)",
+    "headerImage": "none",
+    "headings": [
+      {
+        "rect": {
+          "bottom": 23.765625,
+          "height": 82.671875,
+          "left": 16,
+          "right": 304,
+          "top": -58.90625,
+          "width": 288,
+          "x": 16,
+          "y": -58.90625
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": 448.109375,
+          "height": 76.15625,
+          "left": 16,
+          "right": 304,
+          "top": 371.953125,
+          "width": 288,
+          "x": 16,
+          "y": 371.953125
+        },
+        "text": "Three elements.One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 1165.84375,
+          "height": 76.15625,
+          "left": 16,
+          "right": 304,
+          "top": 1089.6875,
+          "width": 288,
+          "x": 16,
+          "y": 1089.6875
+        },
+        "text": "A closer connectionto nature."
+      }
+    ],
+    "scroll": 355,
+    "url": "http://127.0.0.1:4261/",
+    "video": {
+      "paused": true,
+      "ready": 0,
+      "src": "",
+      "time": 0
+    },
+    "viewport": [
+      320,
+      375
+    ],
+    "surface": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 84,
+        "height": 84,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 355
+    }
+  },
+  {
+    "candidate": "claude",
+    "state": "reduced-motion-explicit-opt-in",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 201.2265625,
+      "top": 10,
+      "width": 181.2265625,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 744,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 692,
+      "width": 282.015625,
+      "x": 20,
+      "y": 692
+    },
+    "expanded": "false",
+    "focus": "BUTTON:Pause background",
+    "h1": {
+      "bottom": 596.40625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 512.71875,
+      "width": 350,
+      "x": 20,
+      "y": 512.71875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": false,
+    "requests": [
+      "http://127.0.0.1:4262/assets/immersive/portrait.mp4"
+    ],
+    "scroll": 0,
+    "src": "http://127.0.0.1:4262/assets/immersive/portrait.mp4",
+    "time": 0.397335
+  },
+  {
+    "candidate": "claude",
+    "state": "no-js-scrolled",
+    "cta": {
+      "bottom": 34,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": -18,
+      "width": 282.015625,
+      "x": 20,
+      "y": -18
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": -113.59375,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": -197.28125,
+      "width": 350,
+      "x": 20,
+      "y": -197.28125
+    },
+    "header": {
+      "bottom": 98,
+      "height": 98,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(0, 0, 0, 0)",
+    "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+    "headings": [
+      {
+        "rect": {
+          "bottom": -113.59375,
+          "height": 83.6875,
+          "left": 20,
+          "right": 370,
+          "top": -197.28125,
+          "width": 350,
+          "x": 20,
+          "y": -197.28125
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": 284.390625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 214,
+          "width": 350,
+          "x": 20,
+          "y": 214
+        },
+        "text": "Three elements. One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 985.8515625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 915.4609375,
+          "width": 350,
+          "x": 20,
+          "y": 915.4609375
+        },
+        "text": "A closer connection to nature."
+      }
+    ],
+    "scroll": 744,
+    "url": "http://127.0.0.1:4262/",
+    "video": {
+      "paused": true,
+      "ready": 0,
+      "src": "",
+      "time": 0
+    },
+    "viewport": [
+      390,
+      844
+    ],
+    "surface": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "98px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 98,
+        "height": 98,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 744
+    }
+  },
+  {
+    "candidate": "claude",
+    "state": "no-js-destination",
+    "url": "http://127.0.0.1:4262/contact/",
+    "heading": [
+      "Prepare an enquiry brief",
+      "What makes a brief useful",
+      "Explore",
+      "Collections",
+      "About this site"
+    ]
+  },
+  {
+    "candidate": "codex",
+    "state": "no-js-destination",
+    "url": "http://127.0.0.1:4261/contact/"
+  }
+]

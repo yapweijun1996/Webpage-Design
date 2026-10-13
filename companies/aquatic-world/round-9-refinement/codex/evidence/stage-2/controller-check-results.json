@@ -1,0 +1,17 @@
+{
+  "check_type": "Node VM mocks; no browser or decoded film",
+  "passed_scenarios": [
+    "Scroll changes only header state, including exactly 24px and return to top",
+    "Initial scrolled load is protected",
+    "History pageshow closes cached menu and rechecks restored scroll next frame",
+    "Live wrapped header geometry remains available to menu and short offer",
+    "Playing menu open/close suspends/resumes without reloading source",
+    "Manual Pause survives menu, visibility and history restoration",
+    "Escape returns focus; focus leaving header and outside clicks dismiss",
+    "Reduced-motion and data-saving start without movie loading; opt-in works",
+    "Hidden tabs suspend playback without losing intent or loading again",
+    "Aspect-only orientation selects matching source; failed film retains poster",
+    "All three full action labels match visible text, accessible name and title"
+  ],
+  "rendered_acceptance": "not run; coordinator required"
+}

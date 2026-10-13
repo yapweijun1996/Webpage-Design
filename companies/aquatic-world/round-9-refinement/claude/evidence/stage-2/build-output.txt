@@ -1,0 +1,14 @@
+
+> aquatic-world-multipage-demo@1.0.0 build
+> node scripts/build.mjs
+
+  /
+  /collections/
+  /collections/ornamental-fish/
+  /collections/aquatic-plants/
+  /collections/driftwood/
+  /our-story/
+  /quality/
+  /contact/
+  /404.html
+Built 9 pages into /Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/round-9-refinement/claude/demo/dist

@@ -1,0 +1,588 @@
+[
+  {
+    "candidate": "codex",
+    "state": "clean-reduced-initial",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 16,
+      "right": 168.765625,
+      "top": 10,
+      "width": 152.765625,
+      "x": 16,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 206,
+      "right": 304,
+      "top": 10,
+      "width": 98,
+      "x": 206,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 525.359375,
+      "height": 52,
+      "left": 16,
+      "right": 284.109375,
+      "top": 473.359375,
+      "width": 268.109375,
+      "x": 16,
+      "y": 473.359375
+    },
+    "details": false,
+    "expanded": "false",
+    "focus": "BODY:Skip to content\n    \n      AQUATIC WORLD\n      Hom",
+    "h1": {
+      "bottom": 378.765625,
+      "height": 82.671875,
+      "left": 16,
+      "right": 304,
+      "top": 296.09375,
+      "width": 288,
+      "x": 16,
+      "y": 296.09375
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "codex",
+    "action": "Play",
+    "box": {
+      "bottom": 357,
+      "height": 95.203125,
+      "left": 30,
+      "right": 242,
+      "top": 261.796875,
+      "width": 212,
+      "x": 30,
+      "y": 261.796875
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 302.796875,
+        "height": 29,
+        "left": 40,
+        "right": 90.578125,
+        "top": 273.796875,
+        "width": 50.578125,
+        "x": 40,
+        "y": 273.796875
+      },
+      {
+        "bottom": 344.3984375,
+        "height": 29,
+        "left": 40,
+        "right": 175.8828125,
+        "top": 315.3984375,
+        "width": 135.8828125,
+        "x": 40,
+        "y": 315.3984375
+      }
+    ],
+    "label": "Play background",
+    "opacity": "1",
+    "requests": [],
+    "viewport": [
+      320,
+      375
+    ]
+  },
+  {
+    "candidate": "codex",
+    "action": "Pause",
+    "box": {
+      "bottom": 357,
+      "height": 95.203125,
+      "left": 30,
+      "right": 242,
+      "top": 261.796875,
+      "width": 212,
+      "x": 30,
+      "y": 261.796875
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 302.796875,
+        "height": 29,
+        "left": 40,
+        "right": 113.7265625,
+        "top": 273.796875,
+        "width": 73.7265625,
+        "x": 40,
+        "y": 273.796875
+      },
+      {
+        "bottom": 344.3984375,
+        "height": 29,
+        "left": 40,
+        "right": 175.8828125,
+        "top": 315.3984375,
+        "width": 135.8828125,
+        "x": 40,
+        "y": 315.3984375
+      }
+    ],
+    "label": "Pause background",
+    "opacity": "1",
+    "requests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4"
+    ],
+    "viewport": [
+      320,
+      375
+    ]
+  },
+  {
+    "candidate": "codex",
+    "action": "Resume",
+    "box": {
+      "bottom": 357,
+      "height": 95.203125,
+      "left": 30,
+      "right": 242,
+      "top": 261.796875,
+      "width": 212,
+      "x": 30,
+      "y": 261.796875
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 302.796875,
+        "height": 29,
+        "left": 40,
+        "right": 136.8203125,
+        "top": 273.796875,
+        "width": 96.8203125,
+        "x": 40,
+        "y": 273.796875
+      },
+      {
+        "bottom": 344.3984375,
+        "height": 29,
+        "left": 40,
+        "right": 175.8828125,
+        "top": 315.3984375,
+        "width": 135.8828125,
+        "x": 40,
+        "y": 315.3984375
+      }
+    ],
+    "label": "Resume background",
+    "opacity": "1",
+    "requests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4"
+    ],
+    "viewport": [
+      320,
+      375
+    ]
+  },
+  {
+    "candidate": "claude",
+    "state": "clean-reduced-initial",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 16,
+      "right": 182.734375,
+      "top": 10,
+      "width": 166.734375,
+      "x": 16,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 206,
+      "right": 304,
+      "top": 10,
+      "width": 98,
+      "x": 206,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 524.9140625,
+      "height": 52,
+      "left": 16,
+      "right": 282.015625,
+      "top": 472.9140625,
+      "width": 266.015625,
+      "x": 16,
+      "y": 472.9140625
+    },
+    "expanded": "false",
+    "focus": "BODY:Skip to content\n\n  \n    \n    \n  \n  \n\n\n  \n    Aquat",
+    "h1": {
+      "bottom": 377.3203125,
+      "height": 82.671875,
+      "left": 16,
+      "right": 304,
+      "top": 294.6484375,
+      "width": 288,
+      "x": 16,
+      "y": 294.6484375
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "claude",
+    "action": "Play",
+    "box": {
+      "bottom": 359.8984375,
+      "height": 45.796875,
+      "left": 37.3203125,
+      "right": 251,
+      "top": 314.1015625,
+      "width": 213.6796875,
+      "x": 37.3203125,
+      "y": 314.1015625
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 351.1015625,
+        "height": 29,
+        "left": 47.3203125,
+        "right": 241,
+        "top": 322.1015625,
+        "width": 193.6796875,
+        "x": 47.3203125,
+        "y": 322.1015625
+      }
+    ],
+    "label": "Play background",
+    "opacity": "1",
+    "requests": [],
+    "viewport": [
+      320,
+      375
+    ]
+  },
+  {
+    "candidate": "claude",
+    "action": "Pause",
+    "box": {
+      "bottom": 359.8984375,
+      "height": 79.59375,
+      "left": 17,
+      "right": 251,
+      "top": 280.3046875,
+      "width": 234,
+      "x": 17,
+      "y": 280.3046875
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 317.3046875,
+        "height": 29,
+        "left": 97.1328125,
+        "right": 170.859375,
+        "top": 288.3046875,
+        "width": 73.7265625,
+        "x": 97.1328125,
+        "y": 288.3046875
+      },
+      {
+        "bottom": 351.1015625,
+        "height": 29,
+        "left": 66.0546875,
+        "right": 201.9375,
+        "top": 322.1015625,
+        "width": 135.8828125,
+        "x": 66.0546875,
+        "y": 322.1015625
+      }
+    ],
+    "label": "Pause background",
+    "opacity": "1",
+    "requests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4"
+    ],
+    "viewport": [
+      320,
+      375
+    ]
+  },
+  {
+    "candidate": "claude",
+    "action": "Resume",
+    "box": {
+      "bottom": 359.8984375,
+      "height": 79.59375,
+      "left": 17,
+      "right": 251,
+      "top": 280.3046875,
+      "width": 234,
+      "x": 17,
+      "y": 280.3046875
+    },
+    "font": "26px",
+    "ink": [
+      {
+        "bottom": 317.3046875,
+        "height": 29,
+        "left": 85.5859375,
+        "right": 182.40625,
+        "top": 288.3046875,
+        "width": 96.8203125,
+        "x": 85.5859375,
+        "y": 288.3046875
+      },
+      {
+        "bottom": 351.1015625,
+        "height": 29,
+        "left": 66.0546875,
+        "right": 201.9375,
+        "top": 322.1015625,
+        "width": 135.8828125,
+        "x": 66.0546875,
+        "y": 322.1015625
+      }
+    ],
+    "label": "Resume background",
+    "opacity": "1",
+    "requests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4"
+    ],
+    "viewport": [
+      320,
+      375
+    ]
+  }
+]

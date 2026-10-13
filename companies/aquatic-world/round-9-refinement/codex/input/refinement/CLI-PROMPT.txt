@@ -1,0 +1,13 @@
+DRAFT COMMON HANDOFF — FUTURE AUTHORIZED IMPLEMENTATION ONLY
+
+The current user request is design preparation only. Do not launch a builder from this file's presence. Use this same prompt for both native CLIs only after the user authorizes implementation and the coordinator prepares fresh independent copies of each candidate's own final round-8 source.
+
+In that prepared workspace, read the applicable worker instructions and input/refinement/BRIEF.md, input/refinement/ACCEPTANCE.md and input/refinement/references/README.md. Inspect every supplied native reference image. These paths are the future common input contract; the current design-preparation step does not create worker copies.
+
+Work only in your assigned demo/ and evidence/ directories. Do not inspect or import sibling implementation source. Preserve baseline/ and all frozen inputs. Use no additional model, agent, paid generation or external network service. The coordinator owns Git and publication.
+
+Write a short evidence/layout-plan.md before editing, explaining header states, the protection of the actual wrapped header height, narrow-landscape spacing and the preservation of current portrait, media, routes and inner pages. Then complete the authorized revision in the same run.
+
+Required outcomes: the scrolled Home navigation row fully masks body text; the normal-text landscape CTA fits at 844x390 and 667x375 with the specified clearance; the open menu uses the same opaque abyss teal; existing successful layout and interaction policies remain. Follow the brief's adaptation order instead of shrinking body text, clipping copy or changing film crops.
+
+Run the relevant available checks, inspect real rendered states when browser tools are available, and report actual outcomes and remaining gaps in evidence/delivery.md. Record real screenshots only. If a browser or device is unavailable, state that limit so the coordinator can perform the equal independent review. Do not manufacture a visual pass or weaken a requirement to make an assertion succeed.

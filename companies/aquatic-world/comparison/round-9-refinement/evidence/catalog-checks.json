@@ -1,0 +1,77 @@
+[
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      },
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      }
+    ],
+    "links": [
+      "/Webpage-Design/comparison/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/comparison/"
+    ],
+    "size": [
+      1280,
+      900
+    ],
+    "width": 1280
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      },
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      }
+    ],
+    "links": [
+      "/Webpage-Design/comparison/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/comparison/"
+    ],
+    "size": [
+      390,
+      844
+    ],
+    "width": 390
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      },
+      {
+        "complete": true,
+        "naturalWidth": 1440
+      }
+    ],
+    "links": [
+      "/Webpage-Design/comparison/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/codex/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/aquatic-world/claude/",
+      "/Webpage-Design/comparison/"
+    ],
+    "size": [
+      320,
+      800
+    ],
+    "width": 320
+  }
+]

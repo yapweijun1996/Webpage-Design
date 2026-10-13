@@ -1,0 +1,177 @@
+{
+  "inventory_scope": "Authorized inputs, own changed baseline/source, built route documents and delivery notes. No rendered evidence.",
+  "files": {
+    "AGENTS.md": {
+      "bytes": 1593,
+      "sha256": "9e24cdc183cb0b82648156fd5c9ecfc23231a31816ebff39f04bc8d93d33c747"
+    },
+    "TASK.md": {
+      "bytes": 2401,
+      "sha256": "94cc36420d9bfd72f94dc89a515cb0351d63b77d6b4ec90c9fee2d0f25e39b30"
+    },
+    "input/refinement/ACCEPTANCE.md": {
+      "bytes": 6082,
+      "sha256": "a4890dc25af59f472b8165583d85a1ee50bca02f085577c9100b5601e653a06b"
+    },
+    "input/refinement/BRIEF.md": {
+      "bytes": 9378,
+      "sha256": "d5ab00fa16f045b4075961b109e721460335eb24d98e6574db0449e9835640fa"
+    },
+    "input/refinement/CLI-PROMPT.txt": {
+      "bytes": 2039,
+      "sha256": "64a28a432512ebff0841d7d284af6754707a0756a051bd7f442d28e766c4da74"
+    },
+    "input/refinement/README.md": {
+      "bytes": 3788,
+      "sha256": "d2d05c3cbfc490bcadee4a84264c639814bb4be4a27652c4460218e1f96b1971"
+    },
+    "input/refinement/references/README.md": {
+      "bytes": 2887,
+      "sha256": "4afcc6ad6eced6036bdac3fa677c188f0e3682297dd2a651ac551fe2430e9d11"
+    },
+    "input/refinement/references/claude-footer.jpg": {
+      "bytes": 51415,
+      "sha256": "4ecfcbbca2d22d70c024cd0fae77ffbb3dac38d6e666a4e71b166ba564bb46f1"
+    },
+    "input/refinement/references/claude-home.jpg": {
+      "bytes": 62685,
+      "sha256": "476f8ff016a0113d6ef4702e714313ec4076ac57b82967d88b0e93a738970530"
+    },
+    "input/refinement/references/claude-menu.jpg": {
+      "bytes": 44916,
+      "sha256": "dc06bc0d31fe722373aa3eaf96e8a7651bc2d937839dc5df2ad0e16808e388c1"
+    },
+    "input/refinement/references/codex-home.jpg": {
+      "bytes": 62575,
+      "sha256": "aca1ba4645767b29889a28da5badb0e04cceff0c0a3d4ddf905a6bf888a1c241"
+    },
+    "input/refinement/references/codex-menu.jpg": {
+      "bytes": 48246,
+      "sha256": "3329910c689b3033b12244dae25dca9e73975882fed9157cae21fab1eb65423c"
+    },
+    "input/refinement/references/codex-scrolled-header.jpg": {
+      "bytes": 53133,
+      "sha256": "f3059b544e9f4090e7e72a5df010b6eb80554cc0ff0e81ec6b332b6c5f03f6aa"
+    },
+    "input/refinement/references/manifest.json": {
+      "bytes": 1427,
+      "sha256": "77d7e13a2a9141b5b26aaea3221035be413f68094949749338c7f4704ed3e044"
+    },
+    "input/skills/cli-web-design-director/SKILL.md": {
+      "bytes": 4990,
+      "sha256": "47c01c23aeba288b6e19bc072af0b37ebbaaedf503e09e39de3a857c13c3380b"
+    },
+    "input/skills/cli-web-design-director/agents/openai.yaml": {
+      "bytes": 272,
+      "sha256": "d2057b31ccaaaa710938e663e50f3b0952a6d5834008e63696606a8278207b9a"
+    },
+    "input/skills/cli-web-design-director/references/cli-operation.md": {
+      "bytes": 4771,
+      "sha256": "3f6c0771dc93812ef414b859aecd1351317a339be7539294e864a017ba21432c"
+    },
+    "input/skills/cli-web-design-director/references/design-review.md": {
+      "bytes": 4605,
+      "sha256": "37adec04ab5735625a75d94ca6d25f3712985d6523b70d9f64fb5699a8b25646"
+    },
+    "input/skills/cli-web-design-director/references/prompt-patterns.md": {
+      "bytes": 3259,
+      "sha256": "c8c81b5b8c08121065046931d35409b36f3d7096f5c65f14e9097b0783adbaf6"
+    },
+    "input/media/landscape-poster.webp": {
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+    },
+    "input/media/landscape.mp4": {
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+    },
+    "input/media/manifest.json": {
+      "bytes": 6454,
+      "sha256": "a811fd2cdd403476c6e9a18ddc39b1b200308792447a138547fd408464eeccdc"
+    },
+    "input/media/portrait-poster.webp": {
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+    },
+    "input/media/portrait.mp4": {
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+    },
+    "baseline/demo/build.py": {
+      "bytes": 31973,
+      "sha256": "b62f26b5730d3a44c56f089be53f03c8ce46d8c17d3294448c3c70c69bc28f72"
+    },
+    "baseline/demo/home-motion.css": {
+      "bytes": 14899,
+      "sha256": "316aa2f53f24a4ba7671057b59e03d4bc0a506e8772f033363df5afbbf764a2d"
+    },
+    "baseline/demo/home-motion.js": {
+      "bytes": 9850,
+      "sha256": "f1e5107566948d8daaaa36ab45392ba34d74220214a79d2d4a1d7c548c22cf49"
+    },
+    "demo/build.py": {
+      "bytes": 31974,
+      "sha256": "979810f6ba3516efeef4eaf18fc2920a0c38360bacb57ba2c007b8cf54353de2"
+    },
+    "demo/home-motion.css": {
+      "bytes": 15958,
+      "sha256": "0f0d275c341b1cd90a2abe10041dc59dc2657e438dde55a0b246f5fd636da722"
+    },
+    "demo/home-motion.js": {
+      "bytes": 10198,
+      "sha256": "e9adb6e52f9f01a5d72a2e9c844218b55fc40367a6ca3e3e5232535f80abd65c"
+    },
+    "demo/public/404.html": {
+      "bytes": 3704,
+      "sha256": "be7e1b2d0470f6eb44200525786012d46f32b2e80749db6a19ffeeb696032c42"
+    },
+    "demo/public/collections/aquatic-plants/index.html": {
+      "bytes": 8235,
+      "sha256": "5d095b1f58077193e42dab6072e08ce0344fa8ec94475f9936701216e8883423"
+    },
+    "demo/public/collections/driftwood/index.html": {
+      "bytes": 8304,
+      "sha256": "20a494bee42e6ca30b2ad4be2eae339d98d5de9fa0c8df02dd5ce40a08b6540d"
+    },
+    "demo/public/collections/index.html": {
+      "bytes": 7869,
+      "sha256": "a8ab87ddf8a88ff9e7a695c539b7179be12357b803d569066389e91e009b5907"
+    },
+    "demo/public/collections/ornamental-fish/index.html": {
+      "bytes": 8890,
+      "sha256": "52b5f3e23d11c521ac07ab90a588f42255c84d64920ceff635b8d45c330d3413"
+    },
+    "demo/public/contact/index.html": {
+      "bytes": 7350,
+      "sha256": "e3c6fb5b5b1e9ee73d1ff2741e72ca2f72a3b9119d24f47be13d82d81fac6a16"
+    },
+    "demo/public/index.html": {
+      "bytes": 6043,
+      "sha256": "cb66cbedf4a22943b28c169dc7599b2d8d80c84637d86e5782bc5c5edaf5862d"
+    },
+    "demo/public/our-story/index.html": {
+      "bytes": 6263,
+      "sha256": "f683681db15668c2a625841d94d8f308d8ea62757d2c6d7099ed904c2ffe43c5"
+    },
+    "demo/public/quality/index.html": {
+      "bytes": 8014,
+      "sha256": "417a34e204814cee3fa13b13b8658608222744cff1d24aff40bfcac8f7e877f0"
+    },
+    "README.md": {
+      "bytes": 2056,
+      "sha256": "74486b273758b84a4311022dab4397b63e9a6b4b64017837fcefb2c3b77d835e"
+    },
+    "evidence/layout-plan.md": {
+      "bytes": 4084,
+      "sha256": "e92b01441790591ffa7652427f8fe4c6dc210ecc1b32ea9e946c1bc277eb84fd"
+    },
+    "evidence/self-review.md": {
+      "bytes": 5887,
+      "sha256": "f7d8f627e063c1fb72073505d473be11f65187fdda32aa50e407ccccdfcb630f"
+    },
+    "evidence/delivery.md": {
+      "bytes": 3622,
+      "sha256": "1d429cb986a3778eafbd03e232fb3abf7090f26085ff1d30ebef76b7c0ba15b2"
+    }
+  }
+}

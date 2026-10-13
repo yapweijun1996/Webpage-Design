@@ -1,0 +1,81 @@
+PASS  eligible landscape entry attaches the landscape film from its data attribute and plays
+PASS  Pause freezes the frame and offers Resume
+PASS  Pause stored for the tab session
+PASS  hidden tab → visible keeps the Pause
+PASS  menu open/Escape keeps the Pause
+PASS  Escape returns focus to the menu trigger
+PASS  Resume plays and clears the stored Pause
+PASS  hidden document suspends
+PASS  visible again resumes
+PASS  open menu suspends
+PASS  closed menu resumes
+PASS  retained Pause: poster only, no film src, no play()
+PASS  menu and visibility cannot override the retained Pause
+PASS  explicit Resume attaches and plays
+PASS  portrait entry attaches the portrait film
+PASS  switch to landscape while playing swaps the film
+PASS  switch while paused drops the film without reattaching
+PASS  initial reduced motion: no film src, no play(), Play offered
+PASS  explicit Play opts in under reduced motion
+PASS  live change toward reduced motion stops
+PASS  reversing the preference alone cannot resume
+PASS  explicit Play after the policy stop runs
+PASS  initial Save-Data: no film src, Play offered
+PASS  initial prefers-reduced-data: no film src
+PASS  Save-Data change event stops
+PASS  Save-Data off alone cannot resume
+PASS  blocked autoplay: poster, Play offered
+PASS  no automatic retry after a refusal
+PASS  second (explicit) refusal: poster, control hidden, no retry loop
+PASS  explicit Play after a blocked autoplay can succeed
+PASS  film error: poster stays, control hidden
+PASS  no retry after a film error
+PASS  NotSupportedError rejection: poster, control hidden
+PASS  no MP4 support: no film src, control hidden
+PASS  poster error exposed for the deep-teal fallback
+PASS  already-broken poster detected at init
+PASS  leaving Home pauses the film
+PASS  bfcache return re-reads the session Pause
+PASS  bfcache return without a Pause resumes
+PASS  storage unavailable: Pause still works for this view
+PASS  closed by default: Menu label, collapsed
+PASS  Menu opens: aria-expanded, Close label at the same control, open classes
+PASS  activating a link inside the header leaves it open (navigation proceeds)
+PASS  focus moving within the header keeps it open (ordinary tab order)
+PASS  focus to nothing (e.g. window blur) does not close
+PASS  focus leaving the header closes without pulling focus back
+PASS  outside interaction closes without moving focus
+PASS  Escape closes and returns focus to Menu
+PASS  Escape while closed does nothing
+PASS  Close on the same control closes
+PASS  leaving Home's 1120px compact range closes
+PASS  Home listens to its own compact query, not the inner-page 1100px query
+PASS  inner page: same disclosure without a Home film
+PASS  inner page keeps the 1100px compact query
+PASS  inner page: Escape closes
+PASS  open: film suspended; control state kept for after closing
+PASS  outside close resumes eligible motion
+PASS  focus-exit close resumes eligible motion
+PASS  closing while the tab is hidden stays suspended
+PASS  tab visible again after close resumes
+PASS  manual Pause before opening survives open/close
+PASS  compact-range close keeps the manual Pause
+PASS  reduced motion: open/close downloads no film and keeps Play
+PASS  Save-Data: open/close downloads no film
+PASS  blocked autoplay: open/close does not retry
+PASS  film error: open/close keeps the poster and hidden control
+PASS  orientation change while open swaps nothing in until closed
+PASS  closing after the orientation change attaches the portrait film
+PASS  bfcache return with the menu open: closed, eligible film resumes
+PASS  bfcache return with the menu open keeps a manual Pause
+PASS  ordinary pageshow does not touch the menu
+PASS  head script: js class replaces no-js; at the top the arrival state stays
+PASS  head script: 3px is still the arrival state
+PASS  head script: 5px is protected (well before 24px)
+PASS  head script: 24px protected
+PASS  head script: hysteresis keeps protection at 3px on the way up (no boundary flicker)
+PASS  head script: back at the top restores the arrival state
+PASS  head script: a later restore scroll event (reload/history) protects at once
+PASS  head script: a position already scrolled when it runs is protected at init
+
+79/79 simulated logic checks passed (stubbed DOM and video; not browser or film evidence)

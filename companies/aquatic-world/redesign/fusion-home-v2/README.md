@@ -1,5 +1,7 @@
 # Aquatic World — Fusion Home Refinement v2
 
+Execution update: the user subsequently authorized both CLIs to implement and publish this brief. The [round-9 comparison](../../comparison/round-9-refinement/README.md) and [actual-site results](../../comparison/round-9-refinement/RESULTS.md) record that work. The original design-only preparation below and frozen worker snapshots are historical.
+
 Prepared 2026-10-13 (Asia/Singapore). Status: **design brief complete; implementation not started**. The user selected a common brief for both CLIs, with no website code changes in this step.
 
 This is a focused follow-up to the published round-8 Home. The latest phone review found body headings visible through the closed, scrolled top bar in both candidates, and insufficient first-screen CTA clearance in Codex's narrow landscape layout. Functional results from the earlier round remain historical evidence; they did not cover this exact text-under-header alignment.

@@ -1,0 +1,10 @@
+{
+  "codex": {
+    "REFINEMENT-PROMPT.txt": "da16eef290e68ec7510956e86b761f46a9497cbad2e2cd589685d9f7d9b29172",
+    "evidence/stage-2/reference.jpg": "36aff4bb254dd9a4bdf20db1814ca37988014e27924804267eaacae7e5de91a8"
+  },
+  "claude": {
+    "REFINEMENT-PROMPT.txt": "da16eef290e68ec7510956e86b761f46a9497cbad2e2cd589685d9f7d9b29172",
+    "evidence/stage-2/reference.jpg": "36aff4bb254dd9a4bdf20db1814ca37988014e27924804267eaacae7e5de91a8"
+  }
+}

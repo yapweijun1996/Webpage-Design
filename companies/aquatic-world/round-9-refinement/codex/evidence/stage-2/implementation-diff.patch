@@ -1,0 +1,21 @@
+--- stage-1/demo/home-motion.css
++++ stage-2/demo/home-motion.css
+@@ -371,10 +371,15 @@
+ .home-motion-explanation {
+   position:absolute;
+   right:60px;
+-  top:50%;
+-  transform:translateY(-50%);
++  bottom:0;
++  /* Center one line; keep taller wrapped labels above the button's bottom edge. */
++  transform:translateY(min(0px,calc(50% - 24px)));
++  width:max-content;
++  /* Reserve the largest normal right offset, button gap and a 24px left gutter. */
++  max-width:calc(100vw - 108px - env(safe-area-inset-right));
+   padding:6px 10px;
+-  white-space:nowrap;
++  white-space:normal;
++  overflow-wrap:anywhere;
+   background:#041d25;
+   color:var(--cream);
+   font-size:13px;

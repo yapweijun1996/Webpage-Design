@@ -1,0 +1,1517 @@
+[
+  {
+    "candidate": "codex",
+    "size": [
+      390,
+      844
+    ],
+    "top": {
+      "cta": {
+        "bottom": 737.1484375,
+        "height": 52,
+        "left": 20,
+        "right": 298.109375,
+        "top": 685.1484375,
+        "width": 278.109375,
+        "x": 20,
+        "y": 685.1484375
+      },
+      "documentWidth": 390,
+      "h1": {
+        "bottom": 590.5546875,
+        "height": 84.328125,
+        "left": 20,
+        "right": 370,
+        "top": 506.2265625,
+        "width": 350,
+        "x": 20,
+        "y": 506.2265625
+      },
+      "header": {
+        "bottom": 84,
+        "height": 84,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 590.5546875,
+            "height": 84.328125,
+            "left": 20,
+            "right": 370,
+            "top": 506.2265625,
+            "width": 350,
+            "x": 20,
+            "y": 506.2265625
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1026.703125,
+            "height": 85.109375,
+            "left": 20,
+            "right": 370,
+            "top": 941.59375,
+            "width": 350,
+            "x": 20,
+            "y": 941.59375
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1713,
+            "height": 85.109375,
+            "left": 20,
+            "right": 370,
+            "top": 1627.890625,
+            "width": 350,
+            "x": 20,
+            "y": 1627.890625
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+        "time": 0.680442
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 84,
+        "height": 84,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "size": [
+      844,
+      390
+    ],
+    "top": {
+      "cta": {
+        "bottom": 315.2109375,
+        "height": 48,
+        "left": 59.078125,
+        "right": 310.234375,
+        "top": 267.2109375,
+        "width": 251.15625,
+        "x": 59.078125,
+        "y": 267.2109375
+      },
+      "documentWidth": 844,
+      "h1": {
+        "bottom": 187.2109375,
+        "height": 82.015625,
+        "left": 59.078125,
+        "right": 447.3125,
+        "top": 105.1953125,
+        "width": 388.234375,
+        "x": 59.078125,
+        "y": 105.1953125
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 187.2109375,
+            "height": 82.015625,
+            "left": 59.078125,
+            "right": 447.3125,
+            "top": 105.1953125,
+            "width": 388.234375,
+            "x": 59.078125,
+            "y": 105.1953125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 612.3046875,
+            "height": 85.109375,
+            "left": 59.078125,
+            "right": 447.3125,
+            "top": 527.1953125,
+            "width": 388.234375,
+            "x": 59.078125,
+            "y": 527.1953125
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1381.984375,
+            "height": 85.109375,
+            "left": 59.078125,
+            "right": 447.3125,
+            "top": 1296.875,
+            "width": 388.234375,
+            "x": 59.078125,
+            "y": 1296.875
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 0.302179
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "size": [
+      667,
+      375
+    ],
+    "top": {
+      "cta": {
+        "bottom": 300.703125,
+        "height": 48,
+        "left": 46.6875,
+        "right": 297.84375,
+        "top": 252.703125,
+        "width": 251.15625,
+        "x": 46.6875,
+        "y": 252.703125
+      },
+      "documentWidth": 667,
+      "h1": {
+        "bottom": 172.703125,
+        "height": 69.109375,
+        "left": 46.6875,
+        "right": 353.5,
+        "top": 103.59375,
+        "width": 306.8125,
+        "x": 46.6875,
+        "y": 103.59375
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 667,
+        "top": 0,
+        "width": 667,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 172.703125,
+            "height": 69.109375,
+            "left": 46.6875,
+            "right": 353.5,
+            "top": 103.59375,
+            "width": 306.8125,
+            "x": 46.6875,
+            "y": 103.59375
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 557.703125,
+            "height": 85.109375,
+            "left": 20,
+            "right": 326.8125,
+            "top": 472.59375,
+            "width": 306.8125,
+            "x": 20,
+            "y": 472.59375
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1284.390625,
+            "height": 85.109375,
+            "left": 20,
+            "right": 326.8125,
+            "top": 1199.28125,
+            "width": 306.8125,
+            "x": 20,
+            "y": 1199.28125
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 1.723321
+      },
+      "viewport": [
+        667,
+        375
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 667,
+        "top": 0,
+        "width": 667,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "size": [
+      1119,
+      800
+    ],
+    "top": {
+      "cta": {
+        "bottom": 590.7421875,
+        "height": 56,
+        "left": 78.328125,
+        "right": 359.484375,
+        "top": 534.7421875,
+        "width": 281.15625,
+        "x": 78.328125,
+        "y": 534.7421875
+      },
+      "documentWidth": 1119,
+      "h1": {
+        "bottom": 426.9453125,
+        "height": 149.75,
+        "left": 78.328125,
+        "right": 593.0625,
+        "top": 277.1953125,
+        "width": 514.734375,
+        "x": 78.328125,
+        "y": 277.1953125
+      },
+      "header": {
+        "bottom": 92,
+        "height": 92,
+        "left": 0,
+        "right": 1119,
+        "top": 0,
+        "width": 1119,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 426.9453125,
+            "height": 149.75,
+            "left": 78.328125,
+            "right": 593.0625,
+            "top": 277.1953125,
+            "width": 514.734375,
+            "x": 78.328125,
+            "y": 277.1953125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1027.4140625,
+            "height": 90.21875,
+            "left": 78.328125,
+            "right": 593.0625,
+            "top": 937.1953125,
+            "width": 514.734375,
+            "x": 78.328125,
+            "y": 937.1953125
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1802.203125,
+            "height": 90.21875,
+            "left": 78.328125,
+            "right": 593.0625,
+            "top": 1711.984375,
+            "width": 514.734375,
+            "x": 78.328125,
+            "y": 1711.984375
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 3.783088
+      },
+      "viewport": [
+        1119,
+        800
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 92,
+        "height": 92,
+        "left": 0,
+        "right": 1119,
+        "top": 0,
+        "width": 1119,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "size": [
+      1120,
+      800
+    ],
+    "top": {
+      "cta": {
+        "bottom": 590.7421875,
+        "height": 56,
+        "left": 78.3984375,
+        "right": 359.5546875,
+        "top": 534.7421875,
+        "width": 281.15625,
+        "x": 78.3984375,
+        "y": 534.7421875
+      },
+      "documentWidth": 1120,
+      "h1": {
+        "bottom": 426.9453125,
+        "height": 149.75,
+        "left": 78.3984375,
+        "right": 593.59375,
+        "top": 277.1953125,
+        "width": 515.1953125,
+        "x": 78.3984375,
+        "y": 277.1953125
+      },
+      "header": {
+        "bottom": 100,
+        "height": 100,
+        "left": 0,
+        "right": 1120,
+        "top": 0,
+        "width": 1120,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 426.9453125,
+            "height": 149.75,
+            "left": 78.3984375,
+            "right": 593.59375,
+            "top": 277.1953125,
+            "width": 515.1953125,
+            "x": 78.3984375,
+            "y": 277.1953125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1027.5078125,
+            "height": 90.3125,
+            "left": 78.3984375,
+            "right": 593.59375,
+            "top": 937.1953125,
+            "width": 515.1953125,
+            "x": 78.3984375,
+            "y": 937.1953125
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1802.390625,
+            "height": 90.3125,
+            "left": 78.3984375,
+            "right": 593.59375,
+            "top": 1712.078125,
+            "width": 515.1953125,
+            "x": 78.3984375,
+            "y": 1712.078125
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 5.042305
+      },
+      "viewport": [
+        1120,
+        800
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 100,
+        "height": 100,
+        "left": 0,
+        "right": 1120,
+        "top": 0,
+        "width": 1120,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "size": [
+      1440,
+      900
+    ],
+    "top": {
+      "cta": {
+        "bottom": 620.7421875,
+        "height": 56,
+        "left": 100.796875,
+        "right": 381.953125,
+        "top": 564.7421875,
+        "width": 281.15625,
+        "x": 100.796875,
+        "y": 564.7421875
+      },
+      "documentWidth": 1440,
+      "h1": {
+        "bottom": 456.9453125,
+        "height": 149.75,
+        "left": 100.796875,
+        "right": 640.796875,
+        "top": 307.1953125,
+        "width": 540,
+        "x": 100.796875,
+        "y": 307.1953125
+      },
+      "header": {
+        "bottom": 100,
+        "height": 100,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(4, 29, 37, 0.72), rgba(4, 29, 37, 0.32) 65%, rgba(0, 0, 0, 0))",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 456.9453125,
+            "height": 149.75,
+            "left": 100.796875,
+            "right": 640.796875,
+            "top": 307.1953125,
+            "width": 540,
+            "x": 100.796875,
+            "y": 307.1953125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1153.3203125,
+            "height": 116.125,
+            "left": 100.796875,
+            "right": 700.796875,
+            "top": 1037.1953125,
+            "width": 600,
+            "x": 100.796875,
+            "y": 1037.1953125
+          },
+          "text": "Three elements.One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1954.015625,
+            "height": 116.125,
+            "left": 100.796875,
+            "right": 700.796875,
+            "top": 1837.890625,
+            "width": 600,
+            "x": 100.796875,
+            "y": 1837.890625
+          },
+          "text": "A closer connectionto nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4",
+        "time": 0.33968
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "none",
+        "top": "auto"
+      },
+      "background": "rgb(4, 29, 37)",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": "auto",
+        "opacity": "1",
+        "top": "auto"
+      },
+      "row": {
+        "bottom": 100,
+        "height": 100,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "codex",
+    "state": "normal-desktop-hover",
+    "label": {
+      "box": {
+        "bottom": 868.3984375,
+        "height": 32.796875,
+        "left": 1216.0390625,
+        "right": 1356,
+        "top": 835.6015625,
+        "width": 139.9609375,
+        "x": 1216.0390625,
+        "y": 835.6015625
+      },
+      "font": "13px",
+      "ink": [
+        {
+          "bottom": 859.1015625,
+          "height": 15,
+          "left": 1226.0390625,
+          "right": 1346,
+          "top": 844.1015625,
+          "width": 119.9609375,
+          "x": 1226.0390625,
+          "y": 844.1015625
+        }
+      ],
+      "label": "Resume background",
+      "opacity": "1",
+      "requests": [
+        "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+        "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/landscape.mp4"
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "control": {
+      "focusVisible": false,
+      "hover": true
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      390,
+      844
+    ],
+    "top": {
+      "cta": {
+        "bottom": 744,
+        "height": 52,
+        "left": 20,
+        "right": 302.015625,
+        "top": 692,
+        "width": 282.015625,
+        "x": 20,
+        "y": 692
+      },
+      "documentWidth": 390,
+      "h1": {
+        "bottom": 596.40625,
+        "height": 83.6875,
+        "left": 20,
+        "right": 370,
+        "top": 512.71875,
+        "width": 350,
+        "x": 20,
+        "y": 512.71875
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 596.40625,
+            "height": 83.6875,
+            "left": 20,
+            "right": 370,
+            "top": 512.71875,
+            "width": 350,
+            "x": 20,
+            "y": 512.71875
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 994.390625,
+            "height": 70.390625,
+            "left": 20,
+            "right": 370,
+            "top": 924,
+            "width": 350,
+            "x": 20,
+            "y": 924
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1695.8515625,
+            "height": 70.390625,
+            "left": 20,
+            "right": 370,
+            "top": 1625.4609375,
+            "width": 350,
+            "x": 20,
+            "y": 1625.4609375
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+        "time": 0.618079
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "64px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      844,
+      390
+    ],
+    "top": {
+      "cta": {
+        "bottom": 328.78125,
+        "height": 48,
+        "left": 59.078125,
+        "right": 329.921875,
+        "top": 280.78125,
+        "width": 270.84375,
+        "x": 59.078125,
+        "y": 280.78125
+      },
+      "documentWidth": 844,
+      "h1": {
+        "bottom": 196.09375,
+        "height": 82.296875,
+        "left": 59.078125,
+        "right": 430.4375,
+        "top": 113.796875,
+        "width": 371.359375,
+        "x": 59.078125,
+        "y": 113.796875
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 196.09375,
+            "height": 82.296875,
+            "left": 59.078125,
+            "right": 430.4375,
+            "top": 113.796875,
+            "width": 371.359375,
+            "x": 59.078125,
+            "y": 113.796875
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 553.2265625,
+            "height": 70.390625,
+            "left": 59.078125,
+            "right": 481.078125,
+            "top": 482.8359375,
+            "width": 422,
+            "x": 59.078125,
+            "y": 482.8359375
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1194.828125,
+            "height": 35.1953125,
+            "left": 59.078125,
+            "right": 481.078125,
+            "top": 1159.6328125,
+            "width": 422,
+            "x": 59.078125,
+            "y": 1159.6328125
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 0.529981
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "64px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      667,
+      375
+    ],
+    "top": {
+      "cta": {
+        "bottom": 314.3125,
+        "height": 48,
+        "left": 46.6875,
+        "right": 317.53125,
+        "top": 266.3125,
+        "width": 270.84375,
+        "x": 46.6875,
+        "y": 266.3125
+      },
+      "documentWidth": 667,
+      "h1": {
+        "bottom": 181.625,
+        "height": 67.828125,
+        "left": 46.6875,
+        "right": 340.1640625,
+        "top": 113.796875,
+        "width": 293.4765625,
+        "x": 46.6875,
+        "y": 113.796875
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 667,
+        "top": 0,
+        "width": 667,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 181.625,
+            "height": 67.828125,
+            "left": 46.6875,
+            "right": 340.1640625,
+            "top": 113.796875,
+            "width": 293.4765625,
+            "x": 46.6875,
+            "y": 113.796875
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 525.390625,
+            "height": 70.390625,
+            "left": 46.6875,
+            "right": 380.1875,
+            "top": 455,
+            "width": 333.5,
+            "x": 46.6875,
+            "y": 455
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1226.8515625,
+            "height": 70.390625,
+            "left": 46.6875,
+            "right": 380.1875,
+            "top": 1156.4609375,
+            "width": 333.5,
+            "x": 46.6875,
+            "y": 1156.4609375
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 1.286455
+      },
+      "viewport": [
+        667,
+        375
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "64px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 667,
+        "top": 0,
+        "width": 667,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      1119,
+      800
+    ],
+    "top": {
+      "cta": {
+        "bottom": 550.984375,
+        "height": 56,
+        "left": 78.328125,
+        "right": 349.171875,
+        "top": 494.984375,
+        "width": 270.84375,
+        "x": 78.328125,
+        "y": 494.984375
+      },
+      "documentWidth": 1119,
+      "h1": {
+        "bottom": 387.1875,
+        "height": 116.375,
+        "left": 78.328125,
+        "right": 548.3046875,
+        "top": 270.8125,
+        "width": 469.9765625,
+        "x": 78.328125,
+        "y": 270.8125
+      },
+      "header": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 1119,
+        "top": 0,
+        "width": 1119,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 387.1875,
+            "height": 116.375,
+            "left": 78.328125,
+            "right": 548.3046875,
+            "top": 270.8125,
+            "width": 469.9765625,
+            "x": 78.328125,
+            "y": 270.8125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1006.7890625,
+            "height": 83.703125,
+            "left": 78.328125,
+            "right": 637.828125,
+            "top": 923.0859375,
+            "width": 559.5,
+            "x": 78.328125,
+            "y": 923.0859375
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1727.5703125,
+            "height": 41.8515625,
+            "left": 78.328125,
+            "right": 637.828125,
+            "top": 1685.71875,
+            "width": 559.5,
+            "x": 78.328125,
+            "y": 1685.71875
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 2.008544
+      },
+      "viewport": [
+        1119,
+        800
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "64px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 64,
+        "height": 64,
+        "left": 0,
+        "right": 1119,
+        "top": 0,
+        "width": 1119,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      1120,
+      800
+    ],
+    "top": {
+      "cta": {
+        "bottom": 559.03125,
+        "height": 56,
+        "left": 78.3984375,
+        "right": 349.2421875,
+        "top": 503.03125,
+        "width": 270.84375,
+        "x": 78.3984375,
+        "y": 503.03125
+      },
+      "documentWidth": 1120,
+      "h1": {
+        "bottom": 395.234375,
+        "height": 116.46875,
+        "left": 78.3984375,
+        "right": 548.796875,
+        "top": 278.765625,
+        "width": 470.3984375,
+        "x": 78.3984375,
+        "y": 278.765625
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 1120,
+        "top": 0,
+        "width": 1120,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 395.234375,
+            "height": 116.46875,
+            "left": 78.3984375,
+            "right": 548.796875,
+            "top": 278.765625,
+            "width": 470.3984375,
+            "x": 78.3984375,
+            "y": 278.765625
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1006.9609375,
+            "height": 83.765625,
+            "left": 78.3984375,
+            "right": 638.3984375,
+            "top": 923.1953125,
+            "width": 560,
+            "x": 78.3984375,
+            "y": 923.1953125
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1728.0625,
+            "height": 41.8828125,
+            "left": 78.3984375,
+            "right": 638.3984375,
+            "top": 1686.1796875,
+            "width": 560,
+            "x": 78.3984375,
+            "y": 1686.1796875
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 2.525365
+      },
+      "viewport": [
+        1120,
+        800
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "80px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 1120,
+        "top": 0,
+        "width": 1120,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "size": [
+      1440,
+      900
+    ],
+    "top": {
+      "cta": {
+        "bottom": 625.671875,
+        "height": 56,
+        "left": 100.796875,
+        "right": 371.640625,
+        "top": 569.671875,
+        "width": 270.84375,
+        "x": 100.796875,
+        "y": 569.671875
+      },
+      "documentWidth": 1440,
+      "h1": {
+        "bottom": 461.875,
+        "height": 149.75,
+        "left": 100.796875,
+        "right": 640.796875,
+        "top": 312.125,
+        "width": 540,
+        "x": 100.796875,
+        "y": 312.125
+      },
+      "header": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "headerColor": "rgba(0, 0, 0, 0)",
+      "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+      "headings": [
+        {
+          "rect": {
+            "bottom": 461.875,
+            "height": 149.75,
+            "left": 100.796875,
+            "right": 640.796875,
+            "top": 312.125,
+            "width": 540,
+            "x": 100.796875,
+            "y": 312.125
+          },
+          "text": "A world beneath the surface."
+        },
+        {
+          "rect": {
+            "bottom": 1143.703125,
+            "height": 107.703125,
+            "left": 100.796875,
+            "right": 740.796875,
+            "top": 1036,
+            "width": 640,
+            "x": 100.796875,
+            "y": 1036
+          },
+          "text": "Three elements. One aquatic world."
+        },
+        {
+          "rect": {
+            "bottom": 1976.9765625,
+            "height": 107.703125,
+            "left": 100.796875,
+            "right": 740.796875,
+            "top": 1869.2734375,
+            "width": 640,
+            "x": 100.796875,
+            "y": 1869.2734375
+          },
+          "text": "A closer connection to nature."
+        }
+      ],
+      "scroll": 0,
+      "url": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/",
+      "video": {
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "time": 3.530909
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "row": {
+      "after": {
+        "background": "linear-gradient(rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0))",
+        "top": "80px"
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "before": {
+        "background": "rgb(4, 29, 37)",
+        "bottom": "0px",
+        "opacity": "1",
+        "top": "0px"
+      },
+      "row": {
+        "bottom": 80,
+        "height": 80,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "scroll": 24
+    }
+  },
+  {
+    "candidate": "claude",
+    "state": "normal-desktop-hover",
+    "label": {
+      "box": {
+        "bottom": 860.7734375,
+        "height": 28.8984375,
+        "left": 1215.359375,
+        "right": 1355.3203125,
+        "top": 831.875,
+        "width": 139.9609375,
+        "x": 1215.359375,
+        "y": 831.875
+      },
+      "font": "13px",
+      "ink": [
+        {
+          "bottom": 853.375,
+          "height": 15,
+          "left": 1225.359375,
+          "right": 1345.3203125,
+          "top": 838.375,
+          "width": 119.9609375,
+          "x": 1225.359375,
+          "y": 838.375
+        }
+      ],
+      "label": "Resume background",
+      "opacity": "1",
+      "requests": [
+        "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+        "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+        "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4"
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "control": {
+      "focusVisible": false,
+      "hover": true
+    }
+  }
+]

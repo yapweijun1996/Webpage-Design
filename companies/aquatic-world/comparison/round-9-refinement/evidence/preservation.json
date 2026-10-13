@@ -1,0 +1,80 @@
+{
+  "frozen": {
+    "shared_inputs": "equal and unchanged",
+    "own_baselines": "unchanged",
+    "round8": "unchanged",
+    "runtime_media": "unchanged",
+    "initial_source_check": false
+  },
+  "candidates": {
+    "codex": {
+      "preserved_inner_markup": [
+        "404.html",
+        "collections/aquatic-plants/index.html",
+        "collections/driftwood/index.html",
+        "collections/index.html",
+        "collections/ornamental-fish/index.html",
+        "contact/index.html",
+        "our-story/index.html",
+        "quality/index.html"
+      ],
+      "reviewed_bootstrap_changes": [],
+      "limit": "Shared CSS/JS changes require actual browser checks; byte-identical markup alone does not establish appearance/behavior."
+    },
+    "claude": {
+      "preserved_inner_markup": [
+        "404.html",
+        "collections/aquatic-plants/index.html",
+        "collections/driftwood/index.html",
+        "collections/index.html",
+        "collections/ornamental-fish/index.html",
+        "contact/index.html",
+        "our-story/index.html",
+        "quality/index.html"
+      ],
+      "reviewed_bootstrap_changes": [
+        {
+          "page": "404.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "contact/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "our-story/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "quality/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "collections/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "collections/driftwood/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "collections/aquatic-plants/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        },
+        {
+          "page": "collections/ornamental-fish/index.html",
+          "old_sha256": "b654ed7e976c31049d71f5f70cb3357e0c7fcbef812f0fb8f2f163fb971325ad",
+          "new_sha256": "a0a1d74839f636e10e85d7daaeb9c994a9d8ae6ca8b0ba08dc4f0b4862c6396c"
+        }
+      ],
+      "limit": "Shared CSS/JS changes require actual browser checks; byte-identical markup alone does not establish appearance/behavior."
+    }
+  }
+}

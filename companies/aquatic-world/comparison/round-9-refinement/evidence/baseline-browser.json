@@ -1,0 +1,639 @@
+[
+  {
+    "candidate": "codex",
+    "stage": "before",
+    "scenario": "heading-0",
+    "cta": {
+      "bottom": 257.1484375,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": 205.1484375,
+      "width": 278.109375,
+      "x": 20,
+      "y": 205.1484375
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": 110.5546875,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": 26.2265625,
+      "width": 350,
+      "x": 20,
+      "y": 26.2265625
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(0, 0, 0, 0)",
+    "headerImage": "linear-gradient(rgba(4, 29, 37, 0.94), rgba(4, 29, 37, 0.77) 65%, rgba(0, 0, 0, 0))",
+    "headings": [
+      {
+        "rect": {
+          "bottom": 110.5546875,
+          "height": 84.328125,
+          "left": 20,
+          "right": 370,
+          "top": 26.2265625,
+          "width": 350,
+          "x": 20,
+          "y": 26.2265625
+        },
+        "text": "A world beneaththe surface."
+      },
+      {
+        "rect": {
+          "bottom": 546.703125,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": 461.59375,
+          "width": 350,
+          "x": 20,
+          "y": 461.59375
+        },
+        "text": "Three elements.One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 1233,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": 1147.890625,
+          "width": 350,
+          "x": 20,
+          "y": 1147.890625
+        },
+        "text": "A closer connectionto nature."
+      }
+    ],
+    "scroll": 480,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+      "time": 0.089051
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "codex",
+    "stage": "before",
+    "scenario": "heading-1",
+    "cta": {
+      "bottom": -178.3515625,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": -230.3515625,
+      "width": 278.109375,
+      "x": 20,
+      "y": -230.3515625
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": -324.9453125,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": -409.2734375,
+      "width": 350,
+      "x": 20,
+      "y": -409.2734375
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(0, 0, 0, 0)",
+    "headerImage": "linear-gradient(rgba(4, 29, 37, 0.94), rgba(4, 29, 37, 0.77) 65%, rgba(0, 0, 0, 0))",
+    "headings": [
+      {
+        "rect": {
+          "bottom": -324.9453125,
+          "height": 84.328125,
+          "left": 20,
+          "right": 370,
+          "top": -409.2734375,
+          "width": 350,
+          "x": 20,
+          "y": -409.2734375
+        },
+        "text": "A world beneaththe surface."
+      },
+      {
+        "rect": {
+          "bottom": 111.203125,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": 26.09375,
+          "width": 350,
+          "x": 20,
+          "y": 26.09375
+        },
+        "text": "Three elements.One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 797.5,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": 712.390625,
+          "width": 350,
+          "x": 20,
+          "y": 712.390625
+        },
+        "text": "A closer connectionto nature."
+      }
+    ],
+    "scroll": 915.5,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+      "time": 0.317068
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "codex",
+    "stage": "before",
+    "scenario": "heading-2",
+    "cta": {
+      "bottom": -725.3515625,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": -777.3515625,
+      "width": 278.109375,
+      "x": 20,
+      "y": -777.3515625
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": -871.9453125,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": -956.2734375,
+      "width": 350,
+      "x": 20,
+      "y": -956.2734375
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(0, 0, 0, 0)",
+    "headerImage": "linear-gradient(rgba(4, 29, 37, 0.94), rgba(4, 29, 37, 0.77) 65%, rgba(0, 0, 0, 0))",
+    "headings": [
+      {
+        "rect": {
+          "bottom": -871.9453125,
+          "height": 84.328125,
+          "left": 20,
+          "right": 370,
+          "top": -956.2734375,
+          "width": 350,
+          "x": 20,
+          "y": -956.2734375
+        },
+        "text": "A world beneaththe surface."
+      },
+      {
+        "rect": {
+          "bottom": -435.796875,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": -520.90625,
+          "width": 350,
+          "x": 20,
+          "y": -520.90625
+        },
+        "text": "Three elements.One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 250.5,
+          "height": 85.109375,
+          "left": 20,
+          "right": 370,
+          "top": 165.390625,
+          "width": 350,
+          "x": 20,
+          "y": 165.390625
+        },
+        "text": "A closer connectionto nature."
+      }
+    ],
+    "scroll": 1462.5,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4",
+      "time": 0.556517
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "claude",
+    "stage": "before",
+    "scenario": "heading-0",
+    "cta": {
+      "bottom": 257.5,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 205.5,
+      "width": 282.015625,
+      "x": 20,
+      "y": 205.5
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": 109.90625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 26.21875,
+      "width": 350,
+      "x": 20,
+      "y": 26.21875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(4, 29, 37, 0.57)",
+    "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+    "headings": [
+      {
+        "rect": {
+          "bottom": 109.90625,
+          "height": 83.6875,
+          "left": 20,
+          "right": 370,
+          "top": 26.21875,
+          "width": 350,
+          "x": 20,
+          "y": 26.21875
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": 507.890625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 437.5,
+          "width": 350,
+          "x": 20,
+          "y": 437.5
+        },
+        "text": "Three elements. One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 1209.3515625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 1138.9609375,
+          "width": 350,
+          "x": 20,
+          "y": 1138.9609375
+        },
+        "text": "A closer connection to nature."
+      }
+    ],
+    "scroll": 486.5,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+      "time": 0.681026
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "claude",
+    "stage": "before",
+    "scenario": "heading-1",
+    "cta": {
+      "bottom": -154,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": -206,
+      "width": 282.015625,
+      "x": 20,
+      "y": -206
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": -301.59375,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": -385.28125,
+      "width": 350,
+      "x": 20,
+      "y": -385.28125
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(4, 29, 37, 0.8)",
+    "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+    "headings": [
+      {
+        "rect": {
+          "bottom": -301.59375,
+          "height": 83.6875,
+          "left": 20,
+          "right": 370,
+          "top": -385.28125,
+          "width": 350,
+          "x": 20,
+          "y": -385.28125
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": 96.390625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 26,
+          "width": 350,
+          "x": 20,
+          "y": 26
+        },
+        "text": "Three elements. One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 797.8515625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 727.4609375,
+          "width": 350,
+          "x": 20,
+          "y": 727.4609375
+        },
+        "text": "A closer connection to nature."
+      }
+    ],
+    "scroll": 898,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+      "time": 0.955005
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "claude",
+    "stage": "before",
+    "scenario": "heading-2",
+    "cta": {
+      "bottom": -855.5,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": -907.5,
+      "width": 282.015625,
+      "x": 20,
+      "y": -907.5
+    },
+    "documentWidth": 390,
+    "h1": {
+      "bottom": -1003.09375,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": -1086.78125,
+      "width": 350,
+      "x": 20,
+      "y": -1086.78125
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(4, 29, 37, 0.8)",
+    "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+    "headings": [
+      {
+        "rect": {
+          "bottom": -1003.09375,
+          "height": 83.6875,
+          "left": 20,
+          "right": 370,
+          "top": -1086.78125,
+          "width": 350,
+          "x": 20,
+          "y": -1086.78125
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": -605.109375,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": -675.5,
+          "width": 350,
+          "x": 20,
+          "y": -675.5
+        },
+        "text": "Three elements. One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 96.3515625,
+          "height": 70.390625,
+          "left": 20,
+          "right": 370,
+          "top": 25.9609375,
+          "width": 350,
+          "x": 20,
+          "y": 25.9609375
+        },
+        "text": "A closer connection to nature."
+      }
+    ],
+    "scroll": 1599.5,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4",
+      "time": 1.17885
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "candidate": "claude",
+    "stage": "before",
+    "scenario": "landscape-844",
+    "cta": {
+      "bottom": 328.78125,
+      "height": 48,
+      "left": 59.078125,
+      "right": 329.921875,
+      "top": 280.78125,
+      "width": 270.84375,
+      "x": 59.078125,
+      "y": 280.78125
+    },
+    "documentWidth": 844,
+    "h1": {
+      "bottom": 196.09375,
+      "height": 82.296875,
+      "left": 59.078125,
+      "right": 430.4375,
+      "top": 113.796875,
+      "width": 371.359375,
+      "x": 59.078125,
+      "y": 113.796875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 844,
+      "top": 0,
+      "width": 844,
+      "x": 0,
+      "y": 0
+    },
+    "headerColor": "rgba(4, 29, 37, 0.243)",
+    "headerImage": "linear-gradient(rgba(2, 14, 19, 0.6) 0%, rgba(2, 14, 19, 0.26) 68%, rgba(2, 14, 19, 0) 100%)",
+    "headings": [
+      {
+        "rect": {
+          "bottom": 196.09375,
+          "height": 82.296875,
+          "left": 59.078125,
+          "right": 430.4375,
+          "top": 113.796875,
+          "width": 371.359375,
+          "x": 59.078125,
+          "y": 113.796875
+        },
+        "text": "A world beneath the surface."
+      },
+      {
+        "rect": {
+          "bottom": 553.2265625,
+          "height": 70.390625,
+          "left": 59.078125,
+          "right": 481.078125,
+          "top": 482.8359375,
+          "width": 422,
+          "x": 59.078125,
+          "y": 482.8359375
+        },
+        "text": "Three elements. One aquatic world."
+      },
+      {
+        "rect": {
+          "bottom": 1194.828125,
+          "height": 35.1953125,
+          "left": 59.078125,
+          "right": 481.078125,
+          "top": 1159.6328125,
+          "width": 422,
+          "x": 59.078125,
+          "y": 1159.6328125
+        },
+        "text": "A closer connection to nature."
+      }
+    ],
+    "scroll": 0,
+    "url": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/",
+    "video": {
+      "paused": false,
+      "ready": 0,
+      "src": "https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/assets/immersive/landscape.mp4",
+      "time": 0
+    },
+    "viewport": [
+      844,
+      390
+    ]
+  }
+]

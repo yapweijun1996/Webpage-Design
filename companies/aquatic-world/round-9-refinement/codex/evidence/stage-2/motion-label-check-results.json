@@ -1,0 +1,115 @@
+{
+  "check_type": "source constraints and algebra; no DOM, glyphs or browser",
+  "only_motion_explanation_rule_changed": true,
+  "public_stylesheet_matches_source": true,
+  "wrapping_focus_visibility_and_48px_target_rules_preserved": true,
+  "width_constraint_cases": [
+    {
+      "viewport_width": 320,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 212,
+      "left_at_maximum_width": 30,
+      "label_right": 242
+    },
+    {
+      "viewport_width": 320,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 192,
+      "left_at_maximum_width": 30,
+      "label_right": 222
+    },
+    {
+      "viewport_width": 390,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 282,
+      "left_at_maximum_width": 30,
+      "label_right": 312
+    },
+    {
+      "viewport_width": 390,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 262,
+      "left_at_maximum_width": 30,
+      "label_right": 292
+    },
+    {
+      "viewport_width": 667,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 559,
+      "left_at_maximum_width": 30,
+      "label_right": 589
+    },
+    {
+      "viewport_width": 667,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 539,
+      "left_at_maximum_width": 30,
+      "label_right": 569
+    },
+    {
+      "viewport_width": 844,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 736,
+      "left_at_maximum_width": 24,
+      "label_right": 760
+    },
+    {
+      "viewport_width": 844,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 716,
+      "left_at_maximum_width": 44,
+      "label_right": 760
+    },
+    {
+      "viewport_width": 1280,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 1172,
+      "left_at_maximum_width": 24,
+      "label_right": 1196
+    },
+    {
+      "viewport_width": 1280,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 1152,
+      "left_at_maximum_width": 44,
+      "label_right": 1196
+    },
+    {
+      "viewport_width": 1440,
+      "right_safe_area": 0,
+      "maximum_label_border_box_width": 1332,
+      "left_at_maximum_width": 24,
+      "label_right": 1356
+    },
+    {
+      "viewport_width": 1440,
+      "right_safe_area": 20,
+      "maximum_label_border_box_width": 1312,
+      "left_at_maximum_width": 44,
+      "label_right": 1356
+    }
+  ],
+  "320x375_bottom_anchoring_cases": [
+    {
+      "assumed_label_height": 32.8,
+      "top": 316.59999999999997,
+      "bottom": 349.4
+    },
+    {
+      "assumed_label_height": 53.6,
+      "top": 303.4,
+      "bottom": 357
+    },
+    {
+      "assumed_label_height": 95.2,
+      "top": 261.8,
+      "bottom": 357
+    },
+    {
+      "assumed_label_height": 136.8,
+      "top": 220.2,
+      "bottom": 357
+    }
+  ],
+  "rendered_fit": "NOT VERIFIED; coordinator must double pre-captured computed font sizes and numeric line heights exactly once at fixed viewport"
+}

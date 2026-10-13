@@ -1,0 +1,310 @@
+--- baseline/scripts/check-motion-logic.mjs
++++ final/scripts/check-motion-logic.mjs
+@@ -299,6 +299,44 @@
+   expect("closing after the orientation change attaches the portrait film", p.state(), { src: PORTRAIT, playing: true });
+ }
+ 
++{ // Refinement v2: Back/Forward cache return with the menu left open (a menu link was followed)
++  const CLOSED = { expanded: "false", label: "Menu", open: false, bodyOpen: false };
++  const t = setup();
++  t.menu(); t.window.fire("pageshow", { persisted: true });
++  expect("bfcache return with the menu open: closed, eligible film resumes", { ...t.menuState(), playing: t.state().playing }, { ...CLOSED, playing: true });
++  const p = setup();
++  p.click(); p.menu(); p.window.fire("pageshow", { persisted: true });
++  expect("bfcache return with the menu open keeps a manual Pause", { ...p.menuState(), ...p.state() }, { ...CLOSED, playing: false, button: RESUME });
++  const n = setup();
++  n.menu(); n.window.fire("pageshow", { persisted: false });
++  expect("ordinary pageshow does not touch the menu", n.menuState(), { open: true });
++}
++{ // Refinement v2: the inline <head> scroll-state script, extracted from the built Home page
++  const html = readFileSync(join(dirname(fileURLToPath(import.meta.url)), "..", "dist", "index.html"), "utf8");
++  const head = html.match(/<head>[\s\S]*?<script>([\s\S]*?)<\/script>/)[1];
++  const run = (initialY) => {
++    const classes = new Set(["no-js"]);
++    const root = { classList: {
++      replace: (a, b) => classes.delete(a) && classes.add(b), contains: (c) => classes.has(c),
++      toggle: (c, on) => (on ? classes.add(c) : classes.delete(c)),
++    } };
++    const window = Object.assign(new Target(), { scrollY: initialY });
++    vm.runInNewContext(head, { window, document: { documentElement: root } });
++    const at = (y) => { window.scrollY = y; window.fire("scroll"); return { js: classes.has("js"), noJs: classes.has("no-js"), scrolled: classes.has("is-scrolled") }; };
++    return { at, now: () => ({ js: classes.has("js"), noJs: classes.has("no-js"), scrolled: classes.has("is-scrolled") }) };
++  };
++  const top = run(0);
++  expect("head script: js class replaces no-js; at the top the arrival state stays", top.now(), { js: true, noJs: false, scrolled: false });
++  expect("head script: 3px is still the arrival state", top.at(3), { scrolled: false });
++  expect("head script: 5px is protected (well before 24px)", top.at(5), { scrolled: true });
++  expect("head script: 24px protected", top.at(24), { scrolled: true });
++  expect("head script: hysteresis keeps protection at 3px on the way up (no boundary flicker)", top.at(3), { scrolled: true });
++  expect("head script: back at the top restores the arrival state", top.at(0), { scrolled: false });
++  const restored = run(0);
++  expect("head script: a later restore scroll event (reload/history) protects at once", restored.at(1480), { scrolled: true });
++  expect("head script: a position already scrolled when it runs is protected at init", run(900).now(), { scrolled: true });
++}
++
+ const failed = results.filter((r) => !r).length;
+ console.log(`\n${results.length - failed}/${results.length} simulated logic checks passed (stubbed DOM and video; not browser or film evidence)`);
+ process.exit(failed ? 1 : 0);
+--- baseline/scripts/check-motion.mjs
++++ final/scripts/check-motion.mjs
+@@ -186,8 +186,23 @@
+ const panel = rule(homeCompact, ".js .page-home .site-menu");
+ check("Home compact rules live in the 1119.98px query", homeCompact.includes(".js .page-home .menu-toggle { display: inline-flex;") && /--header-h: 64px/.test(homeCompact));
+ check("panel is anchored under the bar (absolute, top 100%, full width), not a fixed or centred panel", /position: absolute; top: 100%; left: 0; right: 0;/.test(panel) && !/position: fixed|align-self|translate|inset: auto|margin: auto/.test(panel));
+-check("panel is opaque teal and scrolls within the height left below the actual bar (vh fallback, dvh)", /background: var\(--ocean-900\)/.test(panel) && /max-height: calc\(100vh - 100%\); max-height: calc\(100dvh - 100%\);/.test(panel) && /overflow-y: auto/.test(panel));
+-check("open Home bar is solid (no translucent gradient left over)", /\.page-home \.site-header\.is-open \{ background: var\(--ocean-900\); \}/.test(homeCss));
++check("panel is opaque abyss teal and scrolls within the height left below the actual bar (vh fallback, dvh)", /background: var\(--abyss\)/.test(panel) && /max-height: calc\(100vh - 100%\); max-height: calc\(100dvh - 100%\);/.test(panel) && /overflow-y: auto/.test(panel));
++
++/* Refinement v2: protected header surface (source contract; masking itself needs rendered review) */
++check("v2: --abyss is #041d25 on Home", /\.page-home \{[^}]*--abyss: #041d25;/.test(homeCss));
++const shield = rule(homeCss, ".page-home .site-header::before");
++check("v2: one opaque abyss layer spans the header's live box (absolute, inset 0, behind its content, no fixed height)", /position: absolute; inset: 0; z-index: -1;/.test(shield) && /background: var\(--abyss\);/.test(shield) && /opacity: 0;/.test(shield) && !/(^|[^-])height:|transform|translate|scale/.test(shield));
++const protectedRule = homeCss.match(/\n(\.is-scrolled \.page-home \.site-header::before,[^{]*)\{([^}]*)\}/);
++const protectedSelectors = protectedRule?.[1].split(",").map((s) => s.trim()) ?? [];
++check("v2: scrolled, menu-open and no-JS states make the layer opaque instantly", [".is-scrolled .page-home .site-header::before", ".no-js .page-home .site-header::before", ".page-home .site-header.is-open::before"].every((s) => protectedSelectors.includes(s)) && /opacity: 1; transition: none;/.test(protectedRule?.[2] ?? ""));
++check("v2: feather sits below the row (top 100%), shown when scrolled or no-JS, hidden while open", /top: 100%; height: 24px;/.test(rule(homeCss, ".page-home .site-header::after")) && protectedSelectors.includes(".is-scrolled .page-home .site-header::after") && protectedSelectors.includes(".no-js .page-home .site-header::after") && /\.page-home \.site-header\.is-open::after \{ opacity: 0; transition: none; \}/.test(homeCss));
++check("v2: no translucent scrolled/open background or background transition left on the Home header", !/rgba\(4, 29, 37, 0\.8\)/.test(homeCss) && !/\.site-header\.is-scrolled|\.site-header\.is-open \{/.test(homeCss) && !/transition:[^;]*background/.test(rule(homeCss, ".page-home .site-header")) && !/ocean-900/.test(homeCss));
++check("v2: inner pages keep their scrolled shadow via the shared html class", /\n\.is-scrolled \.site-header \{ box-shadow: 0 8px 24px rgba\(3, 14, 19, 0\.32\); \}/.test(css) && !/\.site-header\.is-scrolled/.test(css));
++const headScripts = pages.map((p) => read(p).match(/<head>[\s\S]*?<\/head>/)[0]);
++check("v2: every page's head swaps no-js and registers the scroll state before the stylesheet and deferred script", headScripts.every((h) => /<script>\(\(\) => \{[\s\S]*?classList\.replace\("no-js", "js"\)[\s\S]*?addEventListener\("scroll", sync, \{ passive: true \}\);\n  sync\(\);\n\}\)\(\);<\/script>\n<link rel="stylesheet"/.test(h)));
++check("v2: head script uses hysteresis (on past 4px, off below 1px) and only toggles a class", /on \? window\.scrollY < 1 : window\.scrollY > 4\) root\.classList\.toggle\("is-scrolled", !on\)/.test(headScripts[0]) && !/scrollTo|focus|style\.|currentTime|play\(/.test(headScripts[0]));
++check("v2: site.js has no scroll listener or scroll-driven state of its own", !/addEventListener\("scroll"|scrollY|is-scrolled/.test(js.replace(/\/\*[\s\S]*?\*\//g, "")));
++check("v2: a bfcache-restored open menu returns closed", js.includes('window.addEventListener("pageshow", (event) => event.persisted && isOpen() && setMenu(false));'));
+ check("Home removes the inherited body scroll lock", /body\.page-home\.menu-open \{ overflow: visible; \}/.test(homeCss));
+ check("Home menu: no visible Current page annotation; aria-current kept in markup", /\.js \.page-home \.nav-link\[aria-current\]::before \{ content: none; \}/.test(homeCompact) && /<a class="nav-link" href="\/" aria-current="page">/.test(home));
+ check("open menu hides the motion utility", /body\.menu-open \.bg-toggle \{ visibility: hidden; \}/.test(homeCss));
+@@ -235,6 +250,39 @@
+   const ctaTop = top + block - 56;
+   check(`model 1440×900: heading top ${titleTop.toFixed(0)} (brief 305–320), CTA top ${ctaTop.toFixed(0)} (brief ≈565)`, titleTop >= 305 && titleTop <= 320 && Math.abs(ctaTop - 565) <= 12);
+ }
++{ // v2 L1: short landscape 844×390 and 667×375 at normal text. Calibrated against the reviewed baseline
++  // (CTA bottom y328.78 at 844×390). Lead wrapping uses Arial regular advance widths (em/1000); an estimate.
++  const shortBlock = block(homeCss, "(min-aspect-ratio: 6/5) and (max-height: 560px)");
++  const narrowBlock = narrow?.[1] ?? "";
++  const arial = { D: 722, i: 222, s: 500, c: 500, o: 556, v: 500, e: 556, r: 333, " ": 278, n: 556, a: 556, m: 833, t: 278, l: 222, f: 278, h: 556, ",": 278, q: 556, u: 556, p: 556, d: 556, w: 722, ".": 278, g: 556 };
++  const wordW = (word, size) => [...word].reduce((s, c) => s + arial[c], 0) * size / 1000;
++  const lines = (copy, size, width) => copy.split(" ").reduce(([n, used], word) => {
++    const w = wordW(word, size);
++    return used === 0 ? [n, w] : used + wordW(" ", size) + w <= width ? [n, used + wordW(" ", size) + w] : [n + 1, w];
++  }, [1, 0])[0];
++  const padTop = Number(shortBlock.match(/padding-block: (\d+)px/)?.[1]);
++  const eyebrow = 16 * parseFloat(rule(landscapeHome, ".home-eyebrow").match(/font-size: ([\d.]+)rem/)[1]);
++  const eyebrowGap = px("margin-bottom", rule(narrowBlock, ".home-eyebrow"));
++  const titleRule = rule(narrowBlock, ".home-title");
++  const leadSize = 16 * parseFloat(rule(narrowBlock, ".home-lead").match(/font-size: ([\d.]+)rem/)[1]);
++  const ctaRule = rule(narrowBlock, ".home-cta");
++  const ctaFont = 16 * parseFloat(rule(landscapeHome, ".home-cta").match(/font-size: ([\d.]+)rem/)[1]);
++  check("v2 L1: short-landscape bottom padding includes the safe-area inset; scroll hint omitted below 560px height", /padding-block: 20px calc\(32px \+ env\(safe-area-inset-bottom, 0px\)\)/.test(shortBlock) && /\.scroll-hint \{ display: none; \}/.test(block(homeCss, "(max-height: 560px)")));
++  for (const [w, h] of [[844, 390], [667, 375]]) {
++    const vw = w / 100;
++    const title = evalClamp(titleRule.match(/font-size: clamp\(([^)]*)\)/)[1], w);
++    const column = Math.min(30 * 16, 44 * vw);
++    const leadLines = lines("Discover ornamental fish, aquatic plants and natural driftwood.", leadSize, Math.min(column, 21 * leadSize));
++    const ctaTop = headerH + padTop + eyebrow * 1.65 + eyebrowGap + 2 * title * 1.06 + px("margin-bottom", titleRule) + leadLines * leadSize * 1.55 + px("margin-top", ctaRule);
++    const ctaBottom = ctaTop + px("min-height", ctaRule);
++    const clearance = h - ctaBottom;
++    // Motion utility: fixed at the bottom right; the CTA (≈0.56em per label glyph + 24px gap + 18px arrow + 48px padding) sits at 7vw.
++    const ctaRight = 7 * vw + "Explore the collections".length * 0.56 * ctaFont + 24 + 18 + 48;
++    const toggleLeft = w - Math.max(16, 2.2 * vw) - 44;
++    check(`model ${w}×${h}: heading ${title.toFixed(1)}px (30–40), lead ${leadSize}px × ${leadLines} lines, CTA ${ctaTop.toFixed(0)}–${ctaBottom.toFixed(0)} (${ctaFont}px text, ${px("min-height", ctaRule)}px high), ${clearance.toFixed(0)}px below it (≥16), clear of the motion utility (${ctaRight.toFixed(0)} < ${toggleLeft.toFixed(0)})`,
++      title >= 30 && title <= 40 && leadSize >= 16 && ctaFont >= 16 && px("min-height", ctaRule) >= 44 && clearance >= 16 && ctaRight < toggleLeft && (w !== 844 || Math.abs(ctaBottom - 328.78) < 2));
++  }
++}
+ { // Brand fit, using approximate Georgia capital advance widths (em) — an estimate, not font metrics.
+   const caps = { A: 0.67, Q: 0.74, U: 0.74, T: 0.62, I: 0.39, C: 0.64, " ": 0.24, W: 0.98, O: 0.74, R: 0.7, L: 0.6, D: 0.75 };
+   const brandW = (size, track) => [..."AQUATIC WORLD"].reduce((s, c) => s + caps[c] + track, 0) * size;
+@@ -243,6 +291,43 @@
+   const navW = (["Home", "Collections", "Our Story", "Quality", "Contact"].join("").length * 0.5 * 16) + 5 * 28 - 14;
+   check(`estimate 1120px: 32px wordmark (${brandW(32, 0.14).toFixed(0)}px) + 24px + links (≈${navW.toFixed(0)}px) fit inside 4.5% insets`, brandW(32, 0.14) + 24 + navW <= 1120 * 0.91);
+ }
++{ // Stage 2: the motion label reflows under 200% text (computed font size and line height doubled once).
++  const labelRule = rule(homeCss, ".bg-toggle-label");
++  const toggleCss = rule(homeCss, ".bg-toggle");
++  check("motion label: wraps (no nowrap), bounded by left inset + 44px button + 10px gap, never clipped or shrunk",
++    /white-space: normal;/.test(labelRule) && !/nowrap|overflow: hidden|text-overflow|clamp\(/.test(labelRule) && /width: max-content;/.test(labelRule) && /overflow-wrap: break-word;/.test(labelRule) &&
++    labelRule.includes("max-width: calc(100vw - 2 * max(16px, 2.2vw) - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 54px);") && /font: 0\.8125rem\/1\.3 var\(--sans\)/.test(labelRule));
++  check("motion label: bottom-anchored at the centred single-line position (15px − 0.5lh in the 42px padding box), so extra lines grow upward", /bottom: calc\(15px - 0\.65em\); bottom: calc\(15px - 0\.5lh\);/.test(labelRule) && !/top: 50%|translate/.test(labelRule));
++  check("motion control: 44×44 target, focus outline and hover/focus reveal unchanged",
++    /width: 44px; height: 44px;/.test(toggleCss) && /\.bg-toggle:focus-visible \{ outline: 2px solid var\(--sand\); outline-offset: 3px; \}/.test(homeCss) && /\.bg-toggle:hover \.bg-toggle-label, \.bg-toggle:focus-visible \.bg-toggle-label \{ opacity: 1; \}/.test(homeCss));
++  check("motion labels in site.js: full Play/Pause/Resume copy", /\{ pause: "Pause background", resume: "Resume background", play: "Play background" \}/.test(js));
++  // Arial advance widths (em/1000) — an estimate. Arial gives 239.9px for "Resume background" at 26px; the
++  // coordinator measured 240px of text in the reference, so the model is calibrated to the reported case.
++  const arial = { P: 667, R: 722, a: 556, b: 556, c: 500, d: 556, e: 556, g: 556, k: 500, l: 222, m: 833, n: 556, o: 556, r: 333, s: 500, u: 556, y: 500, " ": 278 };
++  const textW = (s, size) => [...s].reduce((sum, c) => sum + arial[c], 0) * size / 1000;
++  for (const [w, h] of [[320, 375], [844, 390], [667, 375], [1440, 900]]) {
++    for (const scale of [1, 2]) {
++      const size = 13 * scale, lh = size * 1.3, inset = Math.max(16, 2.2 * w / 100);
++      const toggleLeft = w - inset - 44, toggleBottom = h - inset;
++      // Containing block: the button's padding box (1px border), so offsets start 1px inside the 44px box.
++      const right = toggleLeft + 1 - 10, bound = w - 2 * inset - 54;
++      const fits = ["Play background", "Pause background", "Resume background"].map((label) => {
++        const words = label.split(" ").map((word) => textW(word, size));
++        const full = textW(label, size) + 20;
++        const lines = full <= bound ? 1 : words.length; // two words: one line, or one word per line
++        const width = lines === 1 ? full : bound;
++        const bottom = toggleBottom - 1 - (15 - lh / 2);
++        const top = bottom - (lines * lh + 12);
++        const wordsFit = words.every((word) => word + 20 <= bound);
++        const centred = lines > 1 || Math.abs((top + bottom) / 2 - (toggleBottom - 22)) < 0.01;
++        return { label, lines, left: right - width, top, bottom, ok: wordsFit && right - width >= 0 && top >= 0 && bottom <= h && centred };
++      });
++      const r = fits[2];
++      check(`model ${w}×${h} at ${scale * 100}% (${size}px/${lh.toFixed(1)}px): all three labels inside the viewport; "Resume background" ${r.lines} line(s) x${r.left.toFixed(0)}–${right.toFixed(0)} y${r.top.toFixed(0)}–${r.bottom.toFixed(0)}`,
++        fits.every((f) => f.ok));
++    }
++  }
++}
+ 
+ const pkg = JSON.parse(read(join(demoDir, "package.json")));
+ check("no dependencies declared", !pkg.dependencies && !pkg.devDependencies);
+--- baseline/src/layout.mjs
++++ final/src/layout.mjs
+@@ -96,6 +96,21 @@
+   return `<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>${items}</ol></nav>`;
+ }
+ 
++// Inline in <head>: marks JS support and tracks the scrolled state on <html>. Registered before the body
++// is parsed, so a reload or history restore of a scrolled position sets the class in the same frame as
++// the restored scroll (Home's protected header must not wait for the deferred site.js). Hysteresis: on
++// past 4px, off only back at the top. It only switches a class; layout, focus and the film never react.
++const headScript = `(() => {
++  const root = document.documentElement;
++  root.classList.replace("no-js", "js");
++  const sync = () => {
++    const on = root.classList.contains("is-scrolled");
++    if (on ? window.scrollY < 1 : window.scrollY > 4) root.classList.toggle("is-scrolled", !on);
++  };
++  window.addEventListener("scroll", sync, { passive: true });
++  sync();
++})();`;
++
+ // `backdrop` renders before the header (Home environment); `utility` right after it, early in tab order.
+ export function document({ pageKey, body, bodyClass = "", backdrop = "", utility = "" }) {
+   const page = pages[pageKey];
+@@ -109,7 +124,7 @@
+ <meta name="description" content="${esc(page.description)}">
+ <meta name="theme-color" content="#061C26">
+ <link rel="icon" href="${url("/assets/favicon.svg")}" type="image/svg+xml">
+-<script>document.documentElement.classList.replace("no-js", "js");</script>
++<script>${headScript}</script>
+ <link rel="stylesheet" href="${url("/assets/site.css")}">
+ <script src="${url("/assets/site.js")}" defer></script>
+ </head>
+--- baseline/src/site.css
++++ final/src/site.css
+@@ -142,7 +142,7 @@
+   border-bottom: 1px solid rgba(223, 192, 135, 0.24);
+   transition: box-shadow var(--ease);
+ }
+-.site-header.is-scrolled { box-shadow: 0 8px 24px rgba(3, 14, 19, 0.32); }
++.is-scrolled .site-header { box-shadow: 0 8px 24px rgba(3, 14, 19, 0.32); }
+ .header-inner { display: flex; align-items: center; gap: 32px; height: var(--header-h); }
+ .brand { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--cream); text-decoration: none; flex: none; }
+ .brand-mark { width: 34px; height: 34px; color: var(--gold-400); }
+@@ -340,20 +340,26 @@
+ .home-env[data-video="shown"] .home-env-video { opacity: 1; }
+ .home-env[data-poster="error"] .home-env-poster { visibility: hidden; }
+ 
+-/* Header over the water: shallow gradient at rest, darker translucent teal with a feathered edge once scrolled. */
++/* Header over the water. At the top with the menu closed: the shallow wash, water visible behind the row.
++   Scrolled (html.is-scrolled, set by the inline head script), menu open, or without JavaScript: an opaque
++   abyss-teal layer covers the header's whole live box, including wrapped enlarged-text rows, so no body
++   lettering shows through. Only its opacity changes (no resize, no reflow). Protection is instant; only
++   the return to the transparent arrival fades. A short feather starts below the row once scrolled. */
+ .page-home .site-header {
+   background: linear-gradient(180deg, rgba(var(--wash), 0.6) 0%, rgba(var(--wash), 0.26) 68%, rgba(var(--wash), 0) 100%);
+-  background-color: transparent; border-bottom: 0; box-shadow: none;
+-  transition: background-color var(--ease);
++  border-bottom: 0; box-shadow: none;
++}
++.page-home .site-header::before {
++  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
++  background: var(--abyss); opacity: 0; transition: opacity 160ms ease;
+ }
+ .page-home .site-header::after {
+-  content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 28px; pointer-events: none;
+-  background: linear-gradient(180deg, rgba(4, 29, 37, 0.8), rgba(4, 29, 37, 0)); opacity: 0; transition: opacity var(--ease);
+-}
+-.page-home .site-header.is-scrolled { background-color: rgba(4, 29, 37, 0.8); box-shadow: none; }
+-.page-home .site-header.is-scrolled::after { opacity: 1; }
+-.page-home .site-header.is-open { background: var(--ocean-900); }
+-.page-home .site-header.is-open::after { opacity: 0; }
++  content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 24px; pointer-events: none;
++  background: linear-gradient(180deg, rgba(4, 29, 37, 0.9), rgba(4, 29, 37, 0)); opacity: 0; transition: opacity 160ms ease;
++}
++.is-scrolled .page-home .site-header::before, .no-js .page-home .site-header::before, .page-home .site-header.is-open::before,
++.is-scrolled .page-home .site-header::after, .no-js .page-home .site-header::after { opacity: 1; transition: none; }
++.page-home .site-header.is-open::after { opacity: 0; transition: none; }
+ .page-home .header-inner { width: auto; margin-inline: 0; padding-inline: var(--header-inset); }
+ .page-home .brand-mark { display: none; }
+ /* Desktop: a strong wordmark and light, regular-weight links over the water. */
+@@ -477,10 +483,16 @@
+ .bg-toggle:focus-visible { outline: 2px solid var(--sand); outline-offset: 3px; }
+ .bg-icon { width: 14px; height: 14px; grid-area: 1 / 1; }
+ .bg-toggle[data-action="pause"] .bg-icon--play, .bg-toggle:not([data-action="pause"]) .bg-icon--pause { display: none; }
+-/* The label is the accessible name; it becomes visible beside the control on hover and keyboard focus. */
++/* The label is the accessible name; it becomes visible beside the control on hover and keyboard focus.
++   Its width is bounded by the space between the left inset (mirroring the right one) and the button, so
++   enlarged text wraps between words instead of leaving the viewport. The bottom is anchored where a
++   centred single line sits in the 42px padding box ((42 − (lh + 12)) / 2 = 15px − 0.5lh), so extra
++   lines grow upward. */
+ .bg-toggle-label {
+-  position: absolute; right: calc(100% + 10px); top: 50%; translate: 0 -50%;
+-  padding: 6px 10px; border-radius: 2px; white-space: nowrap;
++  position: absolute; right: calc(100% + 10px); bottom: calc(15px - 0.65em); bottom: calc(15px - 0.5lh);
++  width: max-content;
++  max-width: calc(100vw - 2 * max(16px, 2.2vw) - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 54px);
++  padding: 6px 10px; border-radius: 2px; white-space: normal; overflow-wrap: break-word;
+   background: rgba(var(--wash), 0.86); color: var(--home-cream); font: 0.8125rem/1.3 var(--sans);
+   opacity: 0; pointer-events: none; transition: opacity var(--ease);
+ }
+@@ -509,7 +521,7 @@
+     max-height: calc(100vh - 100%); max-height: calc(100dvh - 100%);
+     overflow-y: auto; overscroll-behavior: contain;
+     padding: 0 var(--header-inset) 24px;
+-    background: var(--ocean-900); border-bottom: 1px solid rgba(212, 190, 137, 0.24);
++    background: var(--abyss); border-bottom: 1px solid rgba(212, 190, 137, 0.24);
+     box-shadow: 0 12px 24px rgba(var(--wash), 0.35);
+   }
+   .js .page-home .is-open .site-menu { display: flex; }
+@@ -572,8 +584,10 @@
+   .home-lead { font-size: 1.0625rem; }
+   .home-cta { margin-top: 20px; min-height: 48px; }
+ }
++/* Short landscape: the offer starts 20px below the bar. At 844×390 and 667×375 the CTA ends near y329 and
++   y314, about 60px above the bottom; the bottom padding also adds any reported safe-area inset. */
+ @media (min-aspect-ratio: 6/5) and (max-height: 560px) {
+-  .home-arrival { justify-content: flex-start; padding-block: 20px 32px; }
++  .home-arrival { justify-content: flex-start; padding-block: 20px calc(32px + env(safe-area-inset-bottom, 0px)); }
+ }
+ /* Near-square portrait windows (4/5 <= aspect < 6/5, any width or height; after every narrow-screen
+    override): the portrait fish and its trailing fins reach about 60% of the window, so the arrival copy
+--- baseline/src/site.js
++++ final/src/site.js
+@@ -2,15 +2,12 @@
+ (() => {
+   "use strict";
+ 
+-  /* ---------- Header: scrolled state and compact menu ---------- */
++  /* ---------- Header: compact menu ----------
++     The scrolled state (html.is-scrolled) is tracked by the inline <head> script. */
+   const header = document.querySelector("[data-header]");
+   const toggle = document.querySelector("[data-menu-toggle]");
+   // Inner pages switch below 1100px; Home declares its own 1120px query on the header.
+   const compact = window.matchMedia(header.dataset.compactQuery || "(max-width: 1099.98px)");
+-
+-  const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 4);
+-  window.addEventListener("scroll", onScroll, { passive: true });
+-  onScroll();
+ 
+   const isOpen = () => toggle.getAttribute("aria-expanded") === "true";
+   // Set by the Home environment below; the open menu suspends its film.
+@@ -35,6 +32,8 @@
+     if (isOpen() && event.relatedTarget && !header.contains(event.relatedTarget)) setMenu(false);
+   });
+   compact.addEventListener("change", () => isOpen() && setMenu(false));
++  // Back/Forward cache: a menu left open by choosing one of its links returns closed.
++  window.addEventListener("pageshow", (event) => event.persisted && isOpen() && setMenu(false));
+ 
+   /* ---------- Home: background environment film ----------
+      One owner combines the visitor's Pause (kept for the tab session), reduced-motion / data-saving

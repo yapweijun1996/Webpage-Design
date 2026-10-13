@@ -1,0 +1,134 @@
+[
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-390x844-final.jpg",
+        "width": 390
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-390x844-final.jpg",
+        "width": 390
+      }
+    ],
+    "mode": "mobile",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-mobile-menu-final.jpg",
+        "width": 390
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-mobile-menu-final.jpg",
+        "width": 390
+      }
+    ],
+    "mode": "menu",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-mobile-heading-1-final.jpg",
+        "width": 390
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-mobile-heading-1-final.jpg",
+        "width": 390
+      }
+    ],
+    "mode": "header",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-844x390-final.jpg",
+        "width": 844
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-844x390-final.jpg",
+        "width": 844
+      }
+    ],
+    "mode": "landscape",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-667x375-final.jpg",
+        "width": 667
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-667x375-final.jpg",
+        "width": 667
+      }
+    ],
+    "mode": "smalllandscape",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-1440x900-final.jpg",
+        "width": 1440
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-1440x900-final.jpg",
+        "width": 1440
+      }
+    ],
+    "mode": "desktop",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-390x844-text200-menu-final.jpg",
+        "width": 390
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-390x844-text200-menu-final.jpg",
+        "width": 390
+      }
+    ],
+    "mode": "text",
+    "overflow": false
+  },
+  {
+    "images": [
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/codex-mobile-footer-final.jpg",
+        "width": 390
+      },
+      {
+        "complete": true,
+        "src": "http://127.0.0.1:4260/Webpage-Design/comparison/evidence/claude-mobile-footer-final.jpg",
+        "width": 390
+      }
+    ],
+    "mode": "footer",
+    "overflow": false
+  },
+  {
+    "mode": "small-viewer",
+    "overflow": false
+  }
+]

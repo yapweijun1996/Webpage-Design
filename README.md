@@ -10,17 +10,15 @@ Standardize the research structure, design rationale, and demo quality. Choose t
 
 ## Current state
 
-The [Aquatic World case](companies/aquatic-world/README.md) now has two independent eight-page websites with an immersive video Home. Codex CLI requested GPT-6.1 Sol; Claude CLI exposed Opus 5.5. They received identical shared inputs and corrective briefs. The same landscape/portrait aquarium films form the complete Home environment behind live navigation, titles, actions and footer. A common Fusion Home brief and three concept PNGs now unify foreground typography and phone navigation. Original landing pages, previous multi-page versions and the rejected framed animation remain preserved.
+The [Aquatic World case](companies/aquatic-world/README.md) has two independent eight-page websites with a full-Home underwater video environment. Both native CLIs have now applied the same [Fusion Home refinement brief](companies/aquatic-world/redesign/fusion-home-v2/README.md): opaque scrolled navigation, comfortable narrow-landscape actions and readable enlarged motion labels. Codex requested GPT-6.1 Sol; Claude exposed Opus 5.5. Previous rounds remain preserved.
 
-[Current actual-site results](companies/aquatic-world/comparison/round-8-fusion/RESULTS.md) record thirteen viewport sizes per candidate, native desktop/phone screencasts, three joins per recording, enlarged-text corrections, motion policies and preserved navigation/Contact checks. [Media provenance](companies/aquatic-world/redesign/immersive-home-v1/media/README.md) records the previously authorized US$1.44 video cost and disclosed local return-loop editing. Human creative acceptance remains open for public testing. The [company catalog](companies/README.md) owns browsing navigation.
-
-A later phone review found text bleeding through both scrolled top bars and insufficient Codex CTA clearance in narrow landscape. The [shared refinement v2 brief](companies/aquatic-world/redesign/fusion-home-v2/README.md) is prepared with common acceptance scenarios and native references. It is design-only; those fixes have not yet been implemented or published.
+[Current actual-site results](companies/aquatic-world/comparison/round-9-refinement/RESULTS.md) record twelve normal viewports per candidate, heading masking, enlarged text, keyboard/menu behavior, movie policies and the preserved multi-page Contact journey. [Media provenance](companies/aquatic-world/redesign/immersive-home-v1/media/README.md) records the earlier authorized US$1.44 video cost and disclosed return-loop editing; no new generation occurred in this round. Human creative acceptance remains open for public testing. The [company catalog](companies/README.md) owns browsing navigation.
 
 ## GitHub Pages demo publication
 
 [Compare actual desktop/phone captures](https://yapweijun1996.github.io/Webpage-Design/comparison/), [open the demo catalog](https://yapweijun1996.github.io/Webpage-Design/), [Codex website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/codex/) or [Claude website](https://yapweijun1996.github.io/Webpage-Design/aquatic-world/claude/).
 
-The [Pages workflow](.github/workflows/pages.yml) publishes the current round-8 runtimes on pushes to main. The [packager](scripts/prepare_pages.py) rebuilds disposable copies, rebases URL attributes including deferred video paths, verifies local references and preserves CSS/JS/media bytes. Pages serves current runtimes, the small catalog and a comparison page with ten selected browser stills; research, raw trials, raw CLI transcripts and other evaluator evidence are excluded. Contact makes a local preview and sends nothing. This is a fictional design case.
+The [Pages workflow](.github/workflows/pages.yml) publishes the current round-9 runtimes on pushes to main. The [packager](scripts/prepare_pages.py) rebuilds disposable copies, rebases URL attributes including deferred video paths, verifies local references and preserves CSS/JS/media bytes. Pages serves current runtimes, the responsive preview catalog and a comparison page with sixteen selected browser stills; research, raw trials, raw CLI transcripts and other evaluator evidence are excluded. Contact makes a local preview and sends nothing. This is a fictional design case.
 
 To reproduce and preview the actual project path:
 
@@ -29,7 +27,7 @@ python3 -B scripts/prepare_pages.py --base=/Webpage-Design/
 python3 -B scripts/serve_pages.py --port=4240
 ```
 
-Open `http://127.0.0.1:4240/Webpage-Design/`. [Fusion brief and static references](companies/aquatic-world/redesign/fusion-home-v1/README.md), [comparison workflow](companies/aquatic-world/comparison/round-8-fusion/README.md) and its [publication record](companies/aquatic-world/comparison/round-8-fusion/PUBLICATION.md) distinguish local verification, external deployment and user acceptance. Raw CLI logs remain private and Git-ignored.
+Open `http://127.0.0.1:4240/Webpage-Design/`. [Fusion brief and static references](companies/aquatic-world/redesign/fusion-home-v1/README.md), [comparison workflow](companies/aquatic-world/comparison/round-9-refinement/README.md) and its [publication record](companies/aquatic-world/comparison/round-9-refinement/PUBLICATION.md) distinguish local verification, external deployment and user acceptance. Raw CLI logs remain private and Git-ignored.
 
 ## Directory structure
 

@@ -1,0 +1,974 @@
+[
+  {
+    "candidate": "codex",
+    "step": "shift-tab-brand",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 194.203125,
+      "top": 10,
+      "width": 174.203125,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 737.1484375,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": 685.1484375,
+      "width": 278.109375,
+      "x": 20,
+      "y": 685.1484375
+    },
+    "details": true,
+    "expanded": "true",
+    "focus": "A:Aquatic World — Home",
+    "h1": {
+      "bottom": 590.5546875,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": 506.2265625,
+      "width": 350,
+      "x": 20,
+      "y": 506.2265625
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 121,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 65,
+          "width": 350,
+          "x": 20,
+          "y": 65
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 177,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 121,
+          "width": 350,
+          "x": 20,
+          "y": 121
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 233,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 177,
+          "width": 350,
+          "x": 20,
+          "y": 177
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 289,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 233,
+          "width": 350,
+          "x": 20,
+          "y": 233
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 345,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 289,
+          "width": 350,
+          "x": 20,
+          "y": 289
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "codex",
+    "step": "shift-tab-exit",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 194.203125,
+      "top": 10,
+      "width": 174.203125,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 737.1484375,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": 685.1484375,
+      "width": 278.109375,
+      "x": 20,
+      "y": 685.1484375
+    },
+    "details": false,
+    "expanded": "false",
+    "focus": "A:Skip to content",
+    "h1": {
+      "bottom": 590.5546875,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": 506.2265625,
+      "width": 350,
+      "x": 20,
+      "y": 506.2265625
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "codex",
+    "step": "outside-click",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 194.203125,
+      "top": 10,
+      "width": 174.203125,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 737.1484375,
+      "height": 52,
+      "left": 20,
+      "right": 298.109375,
+      "top": 685.1484375,
+      "width": 278.109375,
+      "x": 20,
+      "y": 685.1484375
+    },
+    "details": false,
+    "expanded": "false",
+    "focus": "MAIN:FISH · PLANTS · DRIFTWOODA world beneath the surfa",
+    "h1": {
+      "bottom": 590.5546875,
+      "height": 84.328125,
+      "left": 20,
+      "right": 370,
+      "top": 506.2265625,
+      "width": 350,
+      "x": 20,
+      "y": 506.2265625
+    },
+    "header": {
+      "bottom": 84,
+      "height": 84,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "claude",
+    "step": "shift-tab-brand",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 201.2265625,
+      "top": 10,
+      "width": 181.2265625,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 744,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 692,
+      "width": 282.015625,
+      "x": 20,
+      "y": 692
+    },
+    "expanded": "true",
+    "focus": "A:Aquatic World — Home",
+    "h1": {
+      "bottom": 596.40625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 512.71875,
+      "width": 350,
+      "x": 20,
+      "y": 512.71875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 120,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 64,
+          "width": 350,
+          "x": 20,
+          "y": 64
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 176,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 120,
+          "width": 350,
+          "x": 20,
+          "y": 120
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 232,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 176,
+          "width": 350,
+          "x": 20,
+          "y": 176
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 288,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 232,
+          "width": 350,
+          "x": 20,
+          "y": 232
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 344,
+          "height": 56,
+          "left": 20,
+          "right": 370,
+          "top": 288,
+          "width": 350,
+          "x": 20,
+          "y": 288
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "claude",
+    "step": "shift-tab-exit",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 201.2265625,
+      "top": 10,
+      "width": 181.2265625,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 744,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 692,
+      "width": 282.015625,
+      "x": 20,
+      "y": 692
+    },
+    "expanded": "false",
+    "focus": "A:Skip to content",
+    "h1": {
+      "bottom": 596.40625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 512.71875,
+      "width": 350,
+      "x": 20,
+      "y": 512.71875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  },
+  {
+    "candidate": "claude",
+    "step": "outside-click",
+    "bodyOverflow": "visible",
+    "brand": {
+      "bottom": 54,
+      "height": 44,
+      "left": 20,
+      "right": 201.2265625,
+      "top": 10,
+      "width": 181.2265625,
+      "x": 20,
+      "y": 10
+    },
+    "control": {
+      "bottom": 54,
+      "height": 44,
+      "left": 272,
+      "right": 370,
+      "top": 10,
+      "width": 98,
+      "x": 272,
+      "y": 10
+    },
+    "cta": {
+      "bottom": 744,
+      "height": 52,
+      "left": 20,
+      "right": 302.015625,
+      "top": 692,
+      "width": 282.015625,
+      "x": 20,
+      "y": 692
+    },
+    "expanded": "false",
+    "focus": "MAIN:Fish · Plants · Driftwood\n    A world beneath the ",
+    "h1": {
+      "bottom": 596.40625,
+      "height": 83.6875,
+      "left": 20,
+      "right": 370,
+      "top": 512.71875,
+      "width": 350,
+      "x": 20,
+      "y": 512.71875
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "headerLinks": [
+      {
+        "label": "Home",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Collections",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Our Story",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Quality",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "label": "Contact",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "paused": true,
+    "requests": [],
+    "scroll": 0,
+    "src": "",
+    "time": 0
+  }
+]

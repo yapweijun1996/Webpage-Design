@@ -1,0 +1,153 @@
+PASS  landscape.mp4 source bytes and SHA-256 match the manifest
+PASS  landscape.mp4 built bytes and SHA-256 match the manifest
+PASS  portrait.mp4 source bytes and SHA-256 match the manifest
+PASS  portrait.mp4 built bytes and SHA-256 match the manifest
+PASS  landscape-poster.webp source bytes and SHA-256 match the manifest
+PASS  landscape-poster.webp built bytes and SHA-256 match the manifest
+PASS  portrait-poster.webp source bytes and SHA-256 match the manifest
+PASS  portrait-poster.webp built bytes and SHA-256 match the manifest
+PASS  assets/immersive holds exactly the four supplied files
+PASS  landscape.mp4: ftyp, moov before mdat (fast start)
+PASS  landscape.mp4: H.264 video track, no audio track
+PASS  portrait.mp4: ftyp, moov before mdat (fast start)
+PASS  portrait.mp4: H.264 video track, no audio track
+NOTE  Film decoding, playback, loop join and frame content are NOT tested here (coordinator browser review).
+PASS  old framed-scene PNG no longer shipped
+PASS  one environment, before the header, decorative
+PASS  landscape poster <source> uses the common media query
+PASS  portrait poster is the <img> fallback with empty alt
+PASS  film URLs are literal data attributes
+PASS  no eager film src, preload none
+PASS  film is muted, inline, looping, without controls
+PASS  no <source> children inside the video
+PASS  motion control: native button, hidden until JS, after header, labelled
+PASS  Home has no framed scene
+PASS  Home has no particles
+PASS  Home has no water-light layer
+PASS  Home has no figure/caption
+PASS  Home has no timeline/progress
+PASS  Home has no photographic band
+PASS  Home has exactly one gold button (hero CTA)
+PASS  Home header omits the enquiry button and divider
+PASS  copy: “Fish · Plants · Driftwood”
+PASS  copy: “A world beneath the surface.”
+PASS  copy: “Discover ornamental fish, aquatic plants and natural driftwood.”
+PASS  copy: “Explore the collections”
+PASS  copy: “Scroll to explore”
+PASS  copy: “Three elements. One aquatic world.”
+PASS  copy: “Colour, form and gentle movement.”
+PASS  copy: “Texture, depth and a living landscape.”
+PASS  copy: “Natural lines and structure.”
+PASS  copy: “A closer connection to nature.”
+PASS  copy: “Explore the elements of an aquatic landscape, and the questions that shape it.”
+PASS  copy: “Discuss a project”
+PASS  heading break is markup, not a slash
+PASS  one fictional-demo disclosure on Home
+PASS  Home in-page anchors are only skip link and Back to top
+PASS  Home CTA link → /collections/
+PASS  Home fish link → /collections/ornamental-fish/
+PASS  Home plants link → /collections/aquatic-plants/
+PASS  Home driftwood link → /collections/driftwood/
+PASS  Home overview link → /collections/
+PASS  Home story link → /our-story/
+PASS  Home quality link → /quality/
+PASS  Home enquiry link → /contact/#enquiry
+PASS  site.js has no hard-coded asset URL or media query
+PASS  site.js reads data-*-src and the <source> media attribute
+PASS  site.js sets src only inside play()
+PASS  site.js keeps Pause in sessionStorage
+PASS  site.css has no asset URLs
+PASS  Georgia/Arial scoped to body.page-home
+PASS  portrait default: poster and film cover at 50% 30%
+PASS  landscape query: poster and film at 50% 50%
+PASS  only these two crop rules position the environment media
+PASS  environment media never transformed or stretched
+PASS  near-square portrait: arrival copy starts at 70svh and the hero grows (no fixed height)
+PASS  near-square uses the exact 4/5 <= aspect < 6/5 range with no width/height guard
+PASS  near-square rule is the last Home media rule (after every narrow-screen override)
+PASS  Stage 2 900px guard removed from every Home media query
+PASS  narrow/short landscape: compact left copy column ≤ 44vw, lead not shrunk, CTA ≥ 44px
+PASS  short landscape: hero grows from the top, no fixed height or overflow clip
+PASS  844×390 selects landscape
+PASS  667×375 selects landscape
+PASS  1440×900 selects landscape
+PASS  1024×768 selects landscape
+PASS  900×900 selects near-square
+PASS  900×800 selects near-square
+PASS  1000×900 selects near-square
+PASS  768×1024 selects portrait
+PASS  430×932 selects portrait
+PASS  390×844 selects portrait
+PASS  360×800 selects portrait
+PASS  320×800 selects portrait
+PASS  environment fixed behind content
+PASS  composition switch reuses the media query
+PASS  no Home white/cream band background
+PASS  no particle/scene keyframes remain
+PASS  no runtime URL escapes into input/baseline/other workspaces or external hosts
+PASS  eight routes + 404 built
+PASS  distinct H1 and title per page
+PASS  environment, film and motion control only on Home
+PASS  inner pages keep the header enquiry button
+PASS  header current-page indicator per route
+PASS  category pages mark Collections as current section
+PASS  category pages keep prefilled enquiry links
+PASS  Contact keeps four field groups
+PASS  Contact keeps preview/edit/clear, context and no-send copy
+PASS  Contact logic still present in site.js
+PASS  internal links, src and srcset resolve
+PASS  Home header declares its 1120px compact query; inner pages keep the default
+PASS  site.js reads the header's compact query with the 1100px fallback
+PASS  Menu control: native button, collapsed, controls the menu, visible Menu label
+PASS  no modal semantics in any built page (dialog role, aria-modal, inert)
+PASS  site.js has no modal/focus-trap machinery
+PASS  site.js closes on Escape with focus return, outside click, header focus exit and compact change
+PASS  Home compact rules live in the 1119.98px query
+PASS  panel is anchored under the bar (absolute, top 100%, full width), not a fixed or centred panel
+PASS  panel is opaque abyss teal and scrolls within the height left below the actual bar (vh fallback, dvh)
+PASS  v2: --abyss is #041d25 on Home
+PASS  v2: one opaque abyss layer spans the header's live box (absolute, inset 0, behind its content, no fixed height)
+PASS  v2: scrolled, menu-open and no-JS states make the layer opaque instantly
+PASS  v2: feather sits below the row (top 100%), shown when scrolled or no-JS, hidden while open
+PASS  v2: no translucent scrolled/open background or background transition left on the Home header
+PASS  v2: inner pages keep their scrolled shadow via the shared html class
+PASS  v2: every page's head swaps no-js and registers the scroll state before the stylesheet and deferred script
+PASS  v2: head script uses hysteresis (on past 4px, off below 1px) and only toggles a class
+PASS  v2: site.js has no scroll listener or scroll-driven state of its own
+PASS  v2: a bfcache-restored open menu returns closed
+PASS  Home removes the inherited body scroll lock
+PASS  Home menu: no visible Current page annotation; aria-current kept in markup
+PASS  open menu hides the motion utility
+PASS  Menu control at least 98×44 (grows with enlarged text), outlined, sentence-case 16px regular, icon anchored left
+PASS  desktop wordmark Georgia 32px (2rem), 0.14em; nav Arial regular
+PASS  phone wordmark 18px below 1120px; 17px with 16px insets below 360px
+PASS  desktop heading caps at 72px (4.5rem), line-height 1.04; tracking -0.03em
+PASS  desktop CTA 56px high, 16px, 24px padding; phone CTA 52px, 17px, 24px gap
+PASS  eyebrow Arial regular 11px phone / 12px desktop; phone lead 16px, desktop 18px
+PASS  portrait copy shares the header inset; desktop copy at 7vw, column ≤ 540px
+PASS  model: compact bar + five 56px rows ends at 369px (brief 360–380 at 390×844)
+PASS  model 390×844: heading 39.5px, full CTA in the first viewport, panel ends above the eyebrow (481); heading 513 (brief 505–515), CTA 692–744 (brief top 685–700)
+PASS  model 360×800: heading 39.0px, full CTA in the first viewport, panel ends above the eyebrow (438); heading 470, CTA 648–700
+PASS  model 320×800: heading 39.0px, full CTA in the first viewport, panel ends above the eyebrow (438); heading 470, CTA 648–700
+PASS  model 1440×900: heading top 312 (brief 305–320), CTA top 570 (brief ≈565)
+PASS  v2 L1: short-landscape bottom padding includes the safe-area inset; scroll hint omitted below 560px height
+PASS  model 844×390: heading 38.8px (30–40), lead 17px × 2 lines, CTA 281–329 (16px text, 48px high), 61px below it (≥16), clear of the motion utility (355 < 781)
+PASS  model 667×375: heading 32.0px (30–40), lead 17px × 2 lines, CTA 266–314 (16px text, 48px high), 61px below it (≥16), clear of the motion utility (343 < 607)
+PASS  estimate 320px: 17px wordmark (166px) + 12px gap + 98px Menu fit inside 16px insets
+PASS  estimate 390px: 18px wordmark (181px) + 16px gap + 98px Menu fit inside 20px insets
+PASS  estimate 1120px: 32px wordmark (330px) + 24px + links (≈430px) fit inside 4.5% insets
+PASS  motion label: wraps (no nowrap), bounded by left inset + 44px button + 10px gap, never clipped or shrunk
+PASS  motion label: bottom-anchored at the centred single-line position (15px − 0.5lh in the 42px padding box), so extra lines grow upward
+PASS  motion control: 44×44 target, focus outline and hover/focus reveal unchanged
+PASS  motion labels in site.js: full Play/Pause/Resume copy
+PASS  model 320×375 at 100% (13px/16.9px): all three labels inside the viewport; "Resume background" 1 line(s) x111–251 y323–351
+PASS  model 320×375 at 200% (26px/33.8px): all three labels inside the viewport; "Resume background" 2 line(s) x17–251 y280–360
+PASS  model 844×390 at 100% (13px/16.9px): all three labels inside the viewport; "Resume background" 1 line(s) x632–772 y335–364
+PASS  model 844×390 at 200% (26px/33.8px): all three labels inside the viewport; "Resume background" 1 line(s) x513–772 y327–372
+PASS  model 667×375 at 100% (13px/16.9px): all three labels inside the viewport; "Resume background" 1 line(s) x458–598 y323–351
+PASS  model 667×375 at 200% (26px/33.8px): all three labels inside the viewport; "Resume background" 1 line(s) x338–598 y314–360
+PASS  model 1440×900 at 100% (13px/16.9px): all three labels inside the viewport; "Resume background" 1 line(s) x1215–1355 y832–861
+PASS  model 1440×900 at 200% (26px/33.8px): all three labels inside the viewport; "Resume background" 1 line(s) x1095–1355 y823–869
+PASS  no dependencies declared
+
+150/150 static checks passed (source/output only; not rendered or film evidence)

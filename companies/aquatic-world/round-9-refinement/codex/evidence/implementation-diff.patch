@@ -1,0 +1,107 @@
+--- baseline/demo/build.py
++++ demo/build.py
+@@ -118,7 +118,7 @@
+     descriptions = ['Colour, form and gentle movement.', 'Texture, depth and a living landscape.', 'Natural lines and structure.']
+     entries = ''.join(f'''<a class="home-collection-entry" href="{category_url(c)}"><span class="home-entry-number" aria-hidden="true">{c['number']}</span><div><h3>{c['name']}</h3><p>{description}</p></div><span class="home-entry-arrow" aria-hidden="true">→</span></a>''' for c, description in zip(CATEGORIES, descriptions))
+     return f'''<section class="home-arrival" aria-labelledby="home-heading"><div class="home-arrival-copy">
+-      <p class="home-eyebrow">FISH · PLANTS · DRIFTWOOD</p><h1 id="home-heading">A world beneath<br>the surface.</h1>
++      <p class="home-eyebrow">FISH · PLANTS · DRIFTWOOD</p><h1 id="home-heading">A world beneath <br>the surface.</h1>
+       <p class="home-description">Discover ornamental fish, aquatic plants and natural driftwood.</p>
+       {home_link('Explore the collections', '/collections/', 'home-primary')}
+     </div><p class="home-scroll-hint">Scroll to explore<span aria-hidden="true"></span></p></section>
+--- baseline/demo/home-motion.css
++++ demo/home-motion.css
+@@ -66,12 +66,13 @@
+   inset:0 0 auto;
+   z-index:20;
+   border:0;
+-  background:linear-gradient(180deg,#041d25b8, #041d2552 65%,transparent);
++  /* Protect the full live row before JS initializes, and when JS is unavailable. */
++  background:var(--ocean);
+   padding-top:env(safe-area-inset-top);
+   padding-bottom:20px;
+ }
+-.home-immersive .site-header[data-scrolled="true"] {
+-  background:linear-gradient(180deg,#041d25f0,#041d25c4 65%,transparent);
++.home-immersive .site-header[data-scrolled="false"]:not(:has(.mobile-menu[open])) {
++  background:linear-gradient(180deg,#041d25b8, #041d2552 65%,transparent);
+ }
+ .home-immersive .header-inner {
+   width:calc(100% - 9vw);
+@@ -680,6 +681,45 @@
+     gap:clamp(12px,2.5vw,24px);
+   }
+ }
++/* Keep normal short-landscape offers complete; enlarged text can grow the page. */
++@media (max-width:899px) and (max-height:500px) and (min-aspect-ratio:6/5) {
++  .home-immersive {
++    --home-header-height:60px;
++  }
++  .home-immersive .site-header .wordmark {
++    font-size:clamp(18px,2.5vw,20px);
++  }
++  .home-arrival {
++    padding-top:calc(var(--home-bar-bottom,calc(var(--home-header-height) + env(safe-area-inset-top))) + 16px);
++    padding-bottom:calc(24px + env(safe-area-inset-bottom));
++  }
++  .home-arrival .home-eyebrow {
++    margin-bottom:10px;
++  }
++  .home-arrival h1 {
++    font-size:clamp(32px,4.5vw,38px);
++    line-height:1.08;
++  }
++  .home-arrival h1 br {
++    display:none;
++  }
++  .home-arrival .home-description {
++    margin-top:14px;
++    font-size:16px;
++    line-height:1.5;
++  }
++  .home-arrival .home-primary {
++    min-height:48px;
++    margin-top:18px;
++    padding:9px 16px;
++    gap:16px;
++    font-size:16px;
++    line-height:1.5;
++  }
++  .home-scroll-hint {
++    display:none;
++  }
++}
+ /* The exact near-square portrait range overrides all narrow-screen spacing. */
+ @media (4/5 <= aspect-ratio < 6/5) {
+   .home-arrival {
+--- baseline/demo/home-motion.js
++++ demo/home-motion.js
+@@ -243,7 +243,9 @@
+   // A disclosure leaves the page and ordinary tab order available.
+   function updateMenuGeometry() {
+     // Text enlargement can grow the bar beyond its normal minimum height.
+-    header.style.setProperty('--home-menu-top', `${headerInner.getBoundingClientRect().bottom}px`);
++    const barBottom = `${headerInner.getBoundingClientRect().bottom}px`;
++    header.style.setProperty('--home-menu-top', barBottom);
++    document.body.style.setProperty('--home-bar-bottom', barBottom);
+   }
+ 
+   function syncMenu() {
+@@ -298,11 +300,16 @@
+   });
+   window.addEventListener('pageshow', () => {
+     leaving = false;
++    // History may restore a cached disclosure and scroll position together.
++    menu.open = false;
++    updateHeader();
+     syncMenu();
++    // Recheck after the browser's restoration step without touching playback.
++    window.requestAnimationFrame(updateHeader);
+   });
+ 
+   function updateHeader() {
+-    header.dataset.scrolled = String(window.scrollY > 24);
++    header.dataset.scrolled = String(window.scrollY > 0);
+   }
+   // Scrolling affects header readability only; it never changes the video timeline.
+   window.addEventListener('scroll', updateHeader, { passive: true });

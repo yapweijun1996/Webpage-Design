@@ -1,0 +1,17 @@
+{
+  "changed_worker_owned_preexisting_files": [
+    "README.md",
+    "demo/home-motion.css",
+    "demo/public/home-motion.css"
+  ],
+  "preexisting_file_count": 156,
+  "changed_live_coordinator_logs": [
+    "evidence/stage-2/cli-events.jsonl",
+    "evidence/stage-2/cli-stderr.log"
+  ],
+  "live_log_note": "CLI capture logs are maintained during this running session, not edited by worker commands; excluded explicitly from frozen-file assertions.",
+  "all_other_preexisting_files_byte_identical": true,
+  "original_stage_1_evidence_input_baseline_and_root_contracts": "byte identical",
+  "source_diff": "Only .home-motion-explanation rule changed",
+  "browser_acceptance": "pending coordinator"
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "candidate": "codex",
+    "route": "",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/codex/assets/immersive/portrait.mp4"
+    ],
+    "h1": "A world beneath the surface.",
+    "title": "A closer connection to nature | Aquatic World",
+    "video": 1,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Three elements.Endless possibilities.",
+    "title": "Collections | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/ornamental-fish/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "OrnamentalFish",
+    "title": "Ornamental Fish | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/aquatic-plants/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "AquaticPlants",
+    "title": "Aquatic Plants | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "collections/driftwood/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Driftwood.Nature draws the line.",
+    "title": "Driftwood | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "our-story/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Nature is closerthan we think.",
+    "title": "Our Story | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "quality/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Thoughtful choices.From the start.",
+    "title": "Quality | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "contact/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Your project brief",
+    "title": "Contact — Enquiry preview | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "codex",
+    "route": "404.html",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "This page isout of the picture.",
+    "title": "Page not found | Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [
+      "http://127.0.0.1:4260/Webpage-Design/aquatic-world/claude/assets/immersive/portrait.mp4"
+    ],
+    "h1": "A world beneath the surface.",
+    "title": "Aquatic World — Ornamental fish, aquatic plants and driftwood",
+    "video": 1,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Three collection families",
+    "title": "Collections — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/ornamental-fish/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Ornamental Fish",
+    "title": "Ornamental Fish — Collections — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/aquatic-plants/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Aquatic Plants",
+    "title": "Aquatic Plants — Collections — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "collections/driftwood/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Driftwood",
+    "title": "Driftwood — Collections — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "our-story/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Bringing the beauty of nature a little further.",
+    "title": "Our Story — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "quality/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "A thoughtful selection process, explained.",
+    "title": "Quality — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "contact/",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "Prepare an enquiry brief",
+    "title": "Contact — Prepare an enquiry brief — Aquatic World",
+    "video": 0,
+    "width": 390
+  },
+  {
+    "candidate": "claude",
+    "route": "404.html",
+    "brokenImages": [],
+    "documentWidth": 390,
+    "filmRequests": [],
+    "h1": "This page is not part of the collection.",
+    "title": "Page not found — Aquatic World",
+    "video": 0,
+    "width": 390
+  }
+]

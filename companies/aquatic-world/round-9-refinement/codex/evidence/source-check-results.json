@@ -1,0 +1,40 @@
+{
+  "check_type": "source and static build preservation; no browser",
+  "route_outputs": 9,
+  "resolved_local_references": 304,
+  "byte_identical_inner_and_404_outputs": [
+    "/collections/",
+    "/collections/ornamental-fish/",
+    "/collections/aquatic-plants/",
+    "/collections/driftwood/",
+    "/our-story/",
+    "/quality/",
+    "/contact/",
+    "/404.html"
+  ],
+  "changed_baseline_source_files": [
+    "build.py",
+    "home-motion.css",
+    "home-motion.js"
+  ],
+  "exact_media": {
+    "landscape.mp4": {
+      "bytes": 1325946,
+      "sha256": "e2ae169d0d91e28d8f6a9b0a6ca76227312b691d8a53c00c7127abd4e66cc38b"
+    },
+    "portrait.mp4": {
+      "bytes": 1536090,
+      "sha256": "df27628aeb8e3bbeb005a74eaac46af038033a752a13b20cfc2a8baa2775ac3a"
+    },
+    "landscape-poster.webp": {
+      "bytes": 121156,
+      "sha256": "9f2be6ac3c0beadfe2ed0c05076ac17389e94b85253f8eed21c0494061a7757e"
+    },
+    "portrait-poster.webp": {
+      "bytes": 93462,
+      "sha256": "40d48c199a1c3aede8a4b6c42697f1b1a007392ad90c75f8c5f5d5c06e0df6f6"
+    }
+  },
+  "arrival_copy_category_context_and_four_contact_groups": "passed",
+  "rendered_acceptance": "not run; coordinator required"
+}

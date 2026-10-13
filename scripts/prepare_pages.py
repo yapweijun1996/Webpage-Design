@@ -12,8 +12,8 @@ import tempfile
 from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "companies/aquatic-world/round-8-fusion"
-COMPARISON = ROOT / "companies/aquatic-world/comparison/round-8-fusion"
+SOURCE = ROOT / "companies/aquatic-world/round-9-refinement"
+COMPARISON = ROOT / "companies/aquatic-world/comparison/round-9-refinement"
 OUTPUT = ROOT / "_site"
 ROUTES = ("", "collections/", "collections/ornamental-fish/",
           "collections/aquatic-plants/", "collections/driftwood/",
@@ -88,11 +88,12 @@ with tempfile.TemporaryDirectory(prefix="webpage-pages-") as temp:
     (comparison / 'evidence').mkdir(parents=True)
     viewer = (COMPARISON / 'preview.html').read_text().replace(
         'href="RESULTS.md"',
-        'href="https://github.com/yapweijun1996/Webpage-Design/blob/main/companies/aquatic-world/comparison/round-8-fusion/RESULTS.md"')
+        'href="https://github.com/yapweijun1996/Webpage-Design/blob/main/companies/aquatic-world/comparison/round-9-refinement/RESULTS.md"')
     (comparison / 'index.html').write_text(viewer)
     for candidate in ('codex', 'claude'):
         for state in ('390x844-final', 'mobile-menu-final', '1440x900-final',
-                      '390x844-text200-menu-final', 'mobile-footer-final'):
+                      '390x844-text200-menu-final', 'mobile-footer-final',
+                      'mobile-heading-1-final', '844x390-final', '667x375-final'):
             filename = f'{candidate}-{state}.jpg'
             shutil.copyfile(COMPARISON / 'evidence' / filename, comparison / 'evidence' / filename)
     manifest['comparison'] = {'url': base + 'comparison/', 'sha256': {
@@ -101,17 +102,32 @@ with tempfile.TemporaryDirectory(prefix="webpage-pages-") as temp:
 
     (package / "index.html").write_text(f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Webpage Design — demos</title></head><body>
-<main><h1>Webpage Design</h1><h2>Aquatic World</h2>
-<p>Current comparison demos: eight independent pages per website.</p>
-<ul><li><a href="{base}aquatic-world/codex/">Codex · GPT-6.1 Sol</a></li>
-<li><a href="{base}aquatic-world/claude/">Claude · Opus 5.5</a></li></ul>
-<p><a href="{base}comparison/">Compare desktop, phone, Menu and enlarged text captures</a></p>
-<p>Immersive underwater Home: silent background film across the whole page, with live navigation, headings and actions. Desktop and mobile use individually composed scenes. Both implementations receive the same media and design brief.</p>
-<p>Use the small background-motion control to pause. Reduced motion or unavailable playback keeps a still underwater environment. Creative acceptance remains open for testing.</p>
-<p>Fusion Home uses the same foreground design references on both sites: stronger desktop branding, an outlined phone Menu and an opaque top-anchored disclosure.</p>
-<p>Fictional design case. Contact only creates a local preview; no enquiry is sent.</p>
-</main></body></html>''')
+<meta name="description" content="Explore two independent Aquatic World website demos, built from the same design brief and underwater films.">
+<meta name="theme-color" content="#041d25"><title>Webpage Design — Aquatic World</title>
+<style>
+*{{box-sizing:border-box}}body{{margin:0;background:#041d25;color:#f1f0e7;font:16px/1.6 Arial,sans-serif}}
+a{{color:inherit}}a:focus-visible{{outline:3px solid #d1c18b;outline-offset:5px}}
+.shell{{width:min(1320px,100% - 48px);margin:auto}}header{{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:28px 0;border-bottom:1px solid #ffffff24}}
+.label{{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#c5d4d1}}header a{{text-underline-offset:6px}}
+.intro{{padding:64px 0 40px;max-width:780px}}h1{{font:clamp(40px,6vw,76px)/1.08 Georgia,serif;margin:14px 0 24px}}p{{color:#c5d4d1;max-width:690px}}.intro p{{font-size:18px}}
+.versions{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}}article{{min-width:0;border:1px solid #ffffff24;background:#08252d}}
+.preview{{display:block;overflow:hidden}}.preview img{{display:block;width:100%;height:auto;aspect-ratio:16/10}}
+.details{{padding:24px}}h2{{font:30px/1.2 Georgia,serif;margin:0 0 8px}}.details p{{margin:0 0 24px}}
+.action{{display:inline-flex;align-items:center;gap:24px;min-height:48px;padding:12px 20px;background:#d1c18b;color:#102a2c;text-decoration:none;font-weight:700}}
+.compare{{margin:40px 0 0;padding:30px 0;border-top:1px solid #ffffff24;border-bottom:1px solid #ffffff24;display:flex;align-items:center;justify-content:space-between;gap:24px}}.compare p{{margin:6px 0 0}}.compare a{{text-underline-offset:6px}}
+footer{{padding:24px 0 36px;font-size:14px;color:#a3b8b8}}footer p{{margin:0}}
+@media(max-width:720px){{.shell{{width:calc(100% - 32px)}}header{{padding:20px 0;align-items:flex-start;flex-wrap:wrap}}.intro{{padding:40px 0 28px}}.versions{{grid-template-columns:1fr;gap:24px}}.details{{padding:20px}}.compare{{align-items:flex-start;flex-direction:column}}}}
+</style></head><body><div class="shell">
+<header><span class="label">Webpage Design / Case 01</span><a href="{base}comparison/">Compare the designs</a></header>
+<main><div class="intro"><span class="label">Aquatics · Website design study</span><h1>Aquatic World</h1>
+<p>One underwater world. Two independent interpretations. Explore a complete eight-page website in each version, with film woven into the whole Home experience.</p></div>
+<section class="versions" aria-label="Website versions">
+<article><a class="preview" href="{base}aquatic-world/codex/" aria-label="Explore the Codex website"><img src="{base}comparison/evidence/codex-1440x900-final.jpg" width="1440" height="900" alt="Codex Home: a cinematic aquarium scene with a left-aligned title and gold collection action."></a><div class="details"><h2>Codex</h2><p>GPT-6.1 Sol</p><a class="action" href="{base}aquatic-world/codex/">Explore website <span aria-hidden="true">↗</span></a></div></article>
+<article><a class="preview" href="{base}aquatic-world/claude/" aria-label="Explore the Claude website"><img src="{base}comparison/evidence/claude-1440x900-final.jpg" width="1440" height="900" alt="Claude Home: an immersive aquarium scene with integrated navigation, heading and gold collection action."></a><div class="details"><h2>Claude</h2><p>Opus 5.5</p><a class="action" href="{base}aquatic-world/claude/">Explore website <span aria-hidden="true">↗</span></a></div></article>
+</section>
+<aside class="compare"><div><strong>The same brief. The same films.</strong><p>Compare desktop, phone, Menu and scrolling details side by side.</p></div><a href="{base}comparison/">View the comparison →</a></aside>
+</main><footer><p>Fictional design case. Contact creates a local preview; no enquiry is sent. Both sites include a background-motion control and a reduced-motion still-image experience.</p></footer>
+</div></body></html>''')
     (package / "404.html").write_text(f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found</title></head>
 <body><h1>Page not found</h1><p><a href="{base}">Return to the demo catalog</a></p></body></html>''')
