@@ -1,0 +1,104 @@
+{
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-portrait-occlusion-v1",
+  "revision": 1,
+  "plan_sha256": "9414fc0d5df9f464155a6ecf463f3d032fc73ed8f9ad711db85f15a6c11d9536",
+  "plan": {
+    "acceptance": [
+      {
+        "category": "technical",
+        "criterion": "Decode the complete raw take and record actual dimensions, FPS, duration, audio, original bytes and settled cost without substituting an estimate.",
+        "id": "decode"
+      },
+      {
+        "category": "visual",
+        "criterion": "Full 1x playback shows stable fish anatomy, genuine forward propulsion and gradual physically correct emergence/occlusion, with a substantial visible middle swim.",
+        "id": "motion"
+      },
+      {
+        "category": "visual",
+        "criterion": "At least four full plays show three consecutive joins without fish pop-in, exposure reset, abrupt leaf velocity reversal, held endpoint or artificial backward return.",
+        "id": "loop"
+      },
+      {
+        "category": "visual",
+        "criterion": "Protected top bar and orientation-specific reading zones remain usable; the complete visible fish stays inside actual desktop, narrow-phone and phone-landscape crops.",
+        "id": "reading"
+      },
+      {
+        "category": "technical",
+        "criterion": "Record technical checks, coordinator visual judgment and human creative acceptance separately. Static inputs and a ready shot plan are not film approval or paid authorization.",
+        "id": "acceptance-record"
+      }
+    ],
+    "allow_draft_assets": true,
+    "audio": "silent",
+    "character_id": "habitat-angelfish",
+    "constraints": {
+      "camera": "One fixed-camera uninterrupted underwater view, same framing at both endpoints. No cut, zoom, pan or reframing. Plan FPS is a delivery target, not a claim about ungenerated provider output.",
+      "character": "One modest silver-and-black freshwater angelfish; entirely concealed at the endpoints, recognizable intact body, eyes and complete fine fins during the visible middle swim. No exact visible pose reset.",
+      "environment": "Independent portrait with upper-middle root-arch concealment pocket, open central swimming corridor and shaded lower reading region; the pocket is inside the crop.",
+      "lighting": "Stable restrained underwater daylight with quiet live-copy regions. Environmental highlights may move gently, but no seam flash or exposure pumping.",
+      "materials": "Preserve realistic leaf surfaces, coherent root/wood geometry and layered water depth. No ghost fish, melting plants or artificial cutouts.",
+      "motion": "Around 1s emerge progressively through the real root opening, swim a short relaxed forward arc during the middle, turn into depth and be fully concealed behind the same root/leaves by the final second. Water and leaves remain alive across the join. No backward slide, held frame or visible forced return."
+    },
+    "duration_max_seconds": 10.2,
+    "duration_min_seconds": 9.8,
+    "fps": 24,
+    "height": 1280,
+    "references": [
+      {
+        "asset_key": "kling-portrait-loop-endpoint-v1",
+        "library_id": "aquatic-world-motion",
+        "role": "first_frame",
+        "version": 1
+      },
+      {
+        "asset_key": "kling-portrait-loop-endpoint-v1",
+        "library_id": "aquatic-world-motion",
+        "role": "last_frame",
+        "version": 1
+      }
+    ],
+    "schema_version": 1,
+    "style_id": "cinematic-freshwater",
+    "title": "Aquatic World Kling portrait occlusion loop proposal",
+    "width": 720
+  },
+  "references": [
+    {
+      "asset_key": "kling-portrait-loop-endpoint-v1",
+      "library_id": "aquatic-world-motion",
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v2/assets/aquatic-world-motion/kling-portrait-loop-endpoint-v1/v1/asset.png",
+      "role": "first_frame",
+      "sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "status_at_creation": "draft",
+      "usage_notes": "Draft for static review and future first/last-frame I2V. One identical PNG fills both roles. Not a finished movie or proof of natural fish motion, anatomy, endpoint fidelity or seamlessness. Preserve independent orientation and review before runtime publication.",
+      "version": 1,
+      "current_status": "draft",
+      "integrity": "ok"
+    },
+    {
+      "asset_key": "kling-portrait-loop-endpoint-v1",
+      "library_id": "aquatic-world-motion",
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v2/assets/aquatic-world-motion/kling-portrait-loop-endpoint-v1/v1/asset.png",
+      "role": "last_frame",
+      "sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "status_at_creation": "draft",
+      "usage_notes": "Draft for static review and future first/last-frame I2V. One identical PNG fills both roles. Not a finished movie or proof of natural fish motion, anatomy, endpoint fidelity or seamlessness. Preserve independent orientation and review before runtime publication.",
+      "version": 1,
+      "current_status": "draft",
+      "integrity": "ok"
+    }
+  ],
+  "approved_rules_snapshot": [],
+  "current_approved_rules": [],
+  "rules_changed": false,
+  "preparation_state": "ready",
+  "blockers": [],
+  "generation_brief": "Aquatic World Kling portrait occlusion loop proposal\nDuration 9.8\u201310.2s; 720x1280, 24fps, audio silent.\ncamera: One fixed-camera uninterrupted underwater view, same framing at both endpoints. No cut, zoom, pan or reframing. Plan FPS is a delivery target, not a claim about ungenerated provider output.\ncharacter: One modest silver-and-black freshwater angelfish; entirely concealed at the endpoints, recognizable intact body, eyes and complete fine fins during the visible middle swim. No exact visible pose reset.\nenvironment: Independent portrait with upper-middle root-arch concealment pocket, open central swimming corridor and shaded lower reading region; the pocket is inside the crop.\nlighting: Stable restrained underwater daylight with quiet live-copy regions. Environmental highlights may move gently, but no seam flash or exposure pumping.\nmaterials: Preserve realistic leaf surfaces, coherent root/wood geometry and layered water depth. No ghost fish, melting plants or artificial cutouts.\nmotion: Around 1s emerge progressively through the real root opening, swim a short relaxed forward arc during the middle, turn into depth and be fully concealed behind the same root/leaves by the final second. Water and leaves remain alive across the join. No backward slide, held frame or visible forced return.",
+  "results": [],
+  "generation_performed": false,
+  "inspection_provenance": "caller_reported_with_hashed_evidence",
+  "global_asset_approval": false
+}

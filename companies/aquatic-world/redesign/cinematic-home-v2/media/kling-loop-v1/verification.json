@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "selected_assets": [
+    {
+      "orientation": "landscape",
+      "endpoint_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "quote_digest": "b362c57d7c711185a86ef20e79b3c61dff2a688617ecacf4a98e77a66b2d4056",
+      "plan_sha256": "b255b2f6035265c94fbed5d04a44bfa8bee01e2860ece854ca9511f522058a29",
+      "pinned_role_count": 2
+    },
+    {
+      "orientation": "portrait",
+      "endpoint_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "quote_digest": "9c839e094ef5a9eb85538a5db09838a2363d5b5b568dba6876c729968e19933c",
+      "plan_sha256": "9414fc0d5df9f464155a6ecf463f3d032fc73ed8f9ad711db85f15a6c11d9536",
+      "pinned_role_count": 2
+    }
+  ],
+  "native_and_normalized_pngs_fully_decoded": 4,
+  "static_viewports_checked": 4,
+  "static_geometry_checks_passed": true,
+  "relative_references_checked": 181,
+  "credential_like_scan": "no_matches",
+  "landscape_portrait_estimated_total_usd": "2.240000",
+  "video_provider_posts": 0,
+  "new_video_jobs": 0,
+  "existing_job_inventory_unchanged": true,
+  "standalone_film_acceptance": "not_tested",
+  "human_creative_acceptance": "pending",
+  "static_review": {
+    "landscape": "No exposed fish or fin was observed; coherent root and leaf pocket with quiet left reading area.",
+    "portrait": "Targeted residual correction selected. No exposed fish or fin was observed; root/leaf occluder and open central water remain inside inspected crops."
+  },
+  "capture_hashes": {
+    "portrait-320.jpg": "46aaa26509749662b3ced74c1db0fb0e222d0cfea0f2f32b6cd97e622db7a4e0",
+    "landscape-1440.jpg": "8c9333d11f3712cb00b245ea3f0a216ee2478782503fa575f250e3308b9bd3aa",
+    "portrait-390.jpg": "760c2147cad52610ac7f85fe88c02bd05c6269a12f8cfcdc3ef7accab0c00f00",
+    "composition-board.jpg": "e464b780795b69fc3bc6d3c4d585c2aeebd28c05409614e5f246e3a3e434ff9f",
+    "landscape-844.jpg": "68e6b1f69e57a32c70b7ffd179d658dfdd9e5fa8fff5f879aa0748cf92478d71"
+  },
+  "scope_limits": [
+    "Static photos and layout specimens only; no generated movie, player or implemented navigation.",
+    "No natural swimming, anatomy during emergence, endpoint fidelity or repeated-join acceptance established.",
+    "Built-in image model/fee and actual two-image video billing are not exposed or tested.",
+    "No physical-phone, 200-percent text or functional-site acceptance claimed."
+  ]
+}

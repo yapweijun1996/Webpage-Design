@@ -1,0 +1,30 @@
+{
+  "asset": {
+    "id": "6332e0f54ae54abea8b6540e170b1d9d",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "kling-portrait-loop-endpoint-v1",
+    "version": 1,
+    "kind": "image",
+    "title": "Aquatic World portrait concealed-fish loop endpoint v1",
+    "description": "UI-free planted freshwater habitat, fish fully concealed at the intended join; independently composed orientation.",
+    "tags": [
+      "aquatic-world",
+      "cinematic",
+      "concealed-fish",
+      "endpoint",
+      "freshwater",
+      "loop",
+      "portrait"
+    ],
+    "usage_notes": "Draft for static review and future first/last-frame I2V. One identical PNG fills both roles. Not a finished movie or proof of natural fish motion, anatomy, endpoint fidelity or seamlessness. Preserve independent orientation and review before runtime publication.",
+    "license_note": "Created with built-in imagegen from existing AI-generated fictional-brand scenes. Exact generation model and fee were not exposed. No external stock footage is used.",
+    "source_artifact_id": null,
+    "sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+    "suffix": ".png",
+    "size_bytes": 1478184,
+    "status": "draft",
+    "created_at_utc": "2026-10-13T23:58:03.107948+00:00",
+    "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/ca/cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532"
+  },
+  "reused": false
+}

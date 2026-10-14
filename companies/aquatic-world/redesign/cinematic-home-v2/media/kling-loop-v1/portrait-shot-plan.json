@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "title": "Aquatic World Kling portrait occlusion loop proposal",
+  "character_id": "habitat-angelfish",
+  "style_id": "cinematic-freshwater",
+  "duration_min_seconds": 9.8,
+  "duration_max_seconds": 10.2,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "audio": "silent",
+  "references": [
+    {
+      "library_id": "aquatic-world-motion",
+      "asset_key": "kling-portrait-loop-endpoint-v1",
+      "version": 1,
+      "role": "first_frame"
+    },
+    {
+      "library_id": "aquatic-world-motion",
+      "asset_key": "kling-portrait-loop-endpoint-v1",
+      "version": 1,
+      "role": "last_frame"
+    }
+  ],
+  "allow_draft_assets": true,
+  "constraints": {
+    "character": "One modest silver-and-black freshwater angelfish; entirely concealed at the endpoints, recognizable intact body, eyes and complete fine fins during the visible middle swim. No exact visible pose reset.",
+    "materials": "Preserve realistic leaf surfaces, coherent root/wood geometry and layered water depth. No ghost fish, melting plants or artificial cutouts.",
+    "lighting": "Stable restrained underwater daylight with quiet live-copy regions. Environmental highlights may move gently, but no seam flash or exposure pumping.",
+    "camera": "One fixed-camera uninterrupted underwater view, same framing at both endpoints. No cut, zoom, pan or reframing. Plan FPS is a delivery target, not a claim about ungenerated provider output.",
+    "motion": "Around 1s emerge progressively through the real root opening, swim a short relaxed forward arc during the middle, turn into depth and be fully concealed behind the same root/leaves by the final second. Water and leaves remain alive across the join. No backward slide, held frame or visible forced return.",
+    "environment": "Independent portrait with upper-middle root-arch concealment pocket, open central swimming corridor and shaded lower reading region; the pocket is inside the crop."
+  },
+  "acceptance": [
+    {
+      "id": "decode",
+      "category": "technical",
+      "criterion": "Decode the complete raw take and record actual dimensions, FPS, duration, audio, original bytes and settled cost without substituting an estimate."
+    },
+    {
+      "id": "motion",
+      "category": "visual",
+      "criterion": "Full 1x playback shows stable fish anatomy, genuine forward propulsion and gradual physically correct emergence/occlusion, with a substantial visible middle swim."
+    },
+    {
+      "id": "loop",
+      "category": "visual",
+      "criterion": "At least four full plays show three consecutive joins without fish pop-in, exposure reset, abrupt leaf velocity reversal, held endpoint or artificial backward return."
+    },
+    {
+      "id": "reading",
+      "category": "visual",
+      "criterion": "Protected top bar and orientation-specific reading zones remain usable; the complete visible fish stays inside actual desktop, narrow-phone and phone-landscape crops."
+    },
+    {
+      "id": "acceptance-record",
+      "category": "technical",
+      "criterion": "Record technical checks, coordinator visual judgment and human creative acceptance separately. Static inputs and a ready shot plan are not film approval or paid authorization."
+    }
+  ]
+}

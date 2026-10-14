@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "model": "kwaivgi/kling-v3.0-pro",
+  "duration": 10,
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "generate_audio": false,
+  "prompt_sha256": "d6f9d129d6f6891c617e93019eb774d28c13c5358a93ed821a124f62f4c32f82",
+  "first_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+  "price_sku": "image_to_video_duration_seconds_720p",
+  "price_value": "0.112",
+  "estimated_cost_usd": "1.120000",
+  "capability_digest": "8cb9014c4e254c9ed2189faff8b0e9ae7046761d57163096382e6de124f79c98",
+  "last_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+  "quote_digest": "9c839e094ef5a9eb85538a5db09838a2363d5b5b568dba6876c729968e19933c",
+  "observed_at_utc": "2026-10-13T23:58:03.338508+00:00",
+  "expires_at_utc": "2026-10-14T00:03:03.338508+00:00",
+  "paid_authorization": false
+}

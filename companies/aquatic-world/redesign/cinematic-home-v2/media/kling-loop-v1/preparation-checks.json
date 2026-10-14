@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "library_id": "aquatic-world-motion",
+  "endpoint_asset_status": "draft",
+  "human_creative_acceptance": "pending",
+  "preparation_state": "ready",
+  "provider_requests": [
+    {
+      "method": "GET",
+      "path": "/api/v1/videos/models"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/videos/models"
+    }
+  ],
+  "provider_posts": 0,
+  "new_video_jobs": 0,
+  "prior_video_job_inventory_unchanged": true,
+  "new_kling_video_spending_authorization": false,
+  "video_motion_quality_verified": false,
+  "identical_endpoint_acceptance_paid_tested": false,
+  "actual_two_image_video_billing_verified": false,
+  "orientations": {
+    "landscape": {
+      "shot_id": "kling-landscape-occlusion-v1",
+      "revision": 1,
+      "plan_sha256": "b255b2f6035265c94fbed5d04a44bfa8bee01e2860ece854ca9511f522058a29",
+      "first_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "last_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "quote_digest": "b362c57d7c711185a86ef20e79b3c61dff2a688617ecacf4a98e77a66b2d4056",
+      "estimated_cost_usd": "1.120000"
+    },
+    "portrait": {
+      "shot_id": "kling-portrait-occlusion-v1",
+      "revision": 1,
+      "plan_sha256": "9414fc0d5df9f464155a6ecf463f3d032fc73ed8f9ad711db85f15a6c11d9536",
+      "first_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "last_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "quote_digest": "9c839e094ef5a9eb85538a5db09838a2363d5b5b568dba6876c729968e19933c",
+      "estimated_cost_usd": "1.120000"
+    }
+  }
+}

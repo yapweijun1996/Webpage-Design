@@ -53,6 +53,8 @@ This plan therefore does not become execution-ready merely by selecting Kling. A
 
 The user's subsequent selected follow-up implemented the [Kling endpoint tool extension](tool-support-2026-10-14/README.md). Fresh MCP sessions now support the two inputs, checked quotes and optional tail asset pins; existing cached connections need reconnection. Read-only quotes using the old reference images estimate $1.12 per orientation. New production endpoint assets, provider acceptance and settled two-frame billing remain unverified. The original `trial-spec.json` records the proposal's pre-extension state, not current tool readiness.
 
+The later user-requested [endpoint still package](../../media/kling-loop-v1/README.md) now provides separate concealed-fish landscape/portrait draft inputs and newly bound quotes. Both first/last roles use the same version-pinned image per orientation. Static composition and four viewport crops were reviewed, but provider motion/loop quality and actual billing remain untested; the original proposal JSON is preserved as historical evidence.
+
 ## Standalone acceptance before either CLI
 
 1. Preserve raw output, original frame rate, job metadata and actual cost. Inspect the full take at normal speed before encoding or trimming.
