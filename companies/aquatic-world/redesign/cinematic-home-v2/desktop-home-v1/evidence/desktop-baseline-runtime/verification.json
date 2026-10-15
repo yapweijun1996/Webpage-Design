@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "recorded_at_utc": "2026-10-14T23:47:13.297311+00:00",
+  "status": "local_desktop_adaptation_verified_raw_loop_discontinuity_remains",
+  "preview_url": "http://127.0.0.1:4285/",
+  "new_media_cost_usd": "0.00",
+  "new_paid_requests": 0,
+  "raw_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "raw_bytes_unchanged": true,
+  "movie_rate": 1,
+  "movie_seam_modified": false,
+  "loop_visual": "fail_original_scene_reset",
+  "copy_treatment": "Opaque HTML/CSS core with soft outer edges; source fish trajectories unchanged.",
+  "copy_pixel_comparison": [
+    {
+      "viewport": "1920x1080",
+      "sample_times_seconds": [
+        0,
+        4,
+        7.5,
+        9.99
+      ],
+      "entire_copy_box_pixel_identical": true
+    },
+    {
+      "viewport": "1440x900",
+      "sample_times_seconds": [
+        0,
+        4,
+        7.5,
+        9.99
+      ],
+      "entire_copy_box_pixel_identical": true
+    },
+    {
+      "viewport": "1280x800",
+      "sample_times_seconds": [
+        0,
+        4,
+        7.5,
+        9.99
+      ],
+      "entire_copy_box_pixel_identical": true
+    },
+    {
+      "viewport": "1280x720",
+      "sample_times_seconds": [
+        0,
+        4,
+        7.5,
+        9.99
+      ],
+      "entire_copy_box_pixel_identical": true
+    },
+    {
+      "viewport": "1024x768",
+      "sample_times_seconds": [
+        0,
+        4,
+        7.5,
+        9.99
+      ],
+      "entire_copy_box_pixel_identical": true
+    }
+  ],
+  "normal_viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      640,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      568
+    ]
+  ],
+  "normal_overflow": false,
+  "normal_first_action_clearance_px_at_least": 16,
+  "complete_forward_plays": 4,
+  "observed_wraps": 4,
+  "frame_callbacks": 965,
+  "playback_elapsed_ms": 40343.29999998212,
+  "live_join_capture_limit": "Three before-capture windows straddle a raw wrap. Do not treat these PNGs as exact endpoint stills. Paused exact source frames 240 and 0 are separately captured.",
+  "exact_endpoints": {
+    "frames": [
+      {
+        "requestedTime": 10,
+        "paintedMediaTime": 10,
+        "sourceFrameIndex": 240,
+        "file": "endpoint-last.png"
+      },
+      {
+        "requestedTime": 0,
+        "paintedMediaTime": 0,
+        "sourceFrameIndex": 0,
+        "file": "endpoint-first.png"
+      }
+    ],
+    "pausedExactEndpoints": true
+  },
+  "interaction_checks_passed": 43,
+  "normal_page_errors": [],
+  "expected_404_console": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:4285/missing-page/"
+    }
+  ],
+  "poster_only_portrait": true,
+  "inner_pages_plus_404_preserved_byte_for_byte": true,
+  "shared_inner_styles_and_contact_script_preserved_byte_for_byte": true,
+  "visibility_scope": "Native tab activation kept both pages visible in this CLI browser; real hidden-tab behavior is not certified. Synthetic document.hidden transitions exercise the controller branch.",
+  "zoom_scope": "200% text simulated with inline sizes; half-width CSS viewport checked. Native browser zoom was not measured.",
+  "server": {
+    "protocol": "HTTP/1.1",
+    "request_queue_size": 128,
+    "concurrent_range_fixture": {
+      "requests": 24,
+      "workers": 12,
+      "before_pass": 14,
+      "before_failed": 10,
+      "after_pass": 24,
+      "after_failed": 0
+    },
+    "head": "pass",
+    "exact_prefix_suffix_206": "pass",
+    "invalid_range_416": "pass"
+  },
+  "source_film_full_visual_gate": "unchanged_visual_revision_requested",
+  "human_video_feedback": "approved_visual_effect_and_creative_direction",
+  "human_local_ui_feedback": "pending",
+  "website_publication_changed": false,
+  "paid_provider_or_image_generation_calls": 0,
+  "artifact_writer_checks": "Replacement, mode0600, injected pre-rename failure preservation, symlink rejection and no temporary residue passed.",
+  "harness_corrections": [
+    "A heading used as outside-click target was covered by the open menu; corrected to visible background, outside the motion button, and verified eligible resume.",
+    "Real tab activation left both documents visible in the CLI host; controller hidden/visible branch was tested by synthetic property/event transitions with scope disclosed.",
+    "Endpoint capture initially respected a retained manual pause and had no source; explicit playback opt-in established the capture precondition."
+  ],
+  "resolved_preview_failure": "Rapid navigation produced ERR_CONNECTION_RESET/ERR_SOCKET_NOT_CONNECTED. The same 24-request fixture reproduced 10 failures before the server repair and zero afterward. Full layout/playback and normal interaction checks passed after repair.",
+  "remaining_limits": [
+    "Raw loop reset is visible; no seamless-loop claim.",
+    "All-frame fish anatomy and natural plant motion acceptance remain unestablished by prior film reports.",
+    "No portrait movie, physical device, Safari/Firefox, native zoom or real hidden-tab certification.",
+    "Original movie is 43,340,361 bytes; this local prototype has no delivery compression or public deployment."
+  ],
+  "evidence_sha256": {
+    "layout.json": "f29d589718e950a1da270fab025946ce223decf7d69326ef4ac17a3def7ad54d",
+    "playback.json": "1491852af3bf0888e71b410f6d6145499cbc69d13828b63dde6cd1b9985b5536",
+    "interactions.json": "e623682eb95d69cf01bf64e76287e32a479d56e22ad588f2cb396a32683a7b0a",
+    "endpoints.json": "15c677eff98cdfa772ddbc4bad3d7e5285944a88cec539f16c434f5d786b095d",
+    "1440x900-0-00.png": "732e809a3bd8291c8fb74bcf1bde965383c5bea9fc8950bc17c6c9e278921c33",
+    "1440x900-4-00.png": "89bb88769352ef9483a371c61ccbe648767a77f5cab75c3ddc376116a956adc3",
+    "1440x900-7-50.png": "ce1d71ca3bcee6161bbd836d4e2b18c4f3cdea78fa0385994eb21b247888224f",
+    "1440x900-9-99.png": "d5c2c1465ea2f121c7b8f6f9695e6ba2e3186b4afb6efe14c3bd5e901f82448e",
+    "1280x720-4-00.png": "02f908dfd5241f2c4f847d67dc311d7e06ad1b79dc5801dc2df51af4c6ac97fb",
+    "1024x768-4-00.png": "e5c1797bbfaaec5d514a9674a5b0ab6bcab1b9ec8e46c2093348b222856e747a",
+    "844x390-4-00.png": "576cf828884b435b1155559e84ed1dfcf897098ed27a5fae5828e06d15051529",
+    "640x360-4-00.png": "c437d7d4fe1d0529099132692a4f7c011d13fd4f3c8561b5a42c987f7c1825aa",
+    "390x844-0-00.png": "c8e46184ab6d8aab8ffce6a22c58034940262c1408653913c446f44719010237",
+    "320x568-0-00.png": "f50078ff7aa7c22f796a1a58f5df67bd789d6df47832bb21542aea5af7eec9c2",
+    "768x1024-0-00.png": "083b9d777cd326f46b7a72bad30ac7b02ab7c3df4bfbea4f052b3e71dfb7c520",
+    "desktop-chapters.png": "ef52cac920403c4de7c7b577625977a363ae36735373eceadb693806f33fb87e",
+    "desktop-footer.png": "d490594eb62059bb88eadb2c9c1d9a0ebbdc47fd7fa981d5054d09f4a74062a5",
+    "phone-menu.png": "1a3b4933eab6db3908fe4980d4da4d6c15545e2b5ed28ad286a84fd8edc565db",
+    "phone-middle.png": "4580d63a21e09fd06d4eacf48dcc9dc24dcd259183d2169337818f33b55b6ff6",
+    "phone-bottom.png": "ee5958bed430e2f63e7a08326f4bfa2922124ed5257eebb20b2bb84569b094df",
+    "desktop-text-200.png": "a659a4bd7356f03af60a1cee71c2cf91e58830c06773d46ae11dc0014db2bd5c",
+    "zoom-equivalent.png": "74e4df6771f0970af689758d473c91d3ecb9fa9f014f39537552349e80fa005f",
+    "local-contact-preview.png": "548f19369eee2771a31a28890f913106fdd1c8f1ee11f72aee81cc716874338a",
+    "endpoint-first.png": "54077fb2da6c4f542fd2de9376d5c54360491e2db8d74905ff4aed3e17fb7788",
+    "endpoint-last.png": "f596fadd0b8f4446fa956a56b6b68ad0bf7f4a8ac6146ee34a06e5c893d3946d",
+    "policy-reduced-motion.png": "64b9fc93ca2cef0d64510957ba00621feec3c8496e2116d0803e81f2079bd574",
+    "policy-save-data.png": "32cd62af3ebaaceda0c468248accea5472c686835b8660a621abc393e4cad1d9",
+    "policy-movie-failure.png": "1c5c594c40227cf4bf21b84648cbbaee1e19f6e97217c0249e81052a116c6c6a",
+    "policy-autoplay-refusal.png": "900d9b61d010549abd1310e519407afb0954781e149ebe62cf43c14a53412ce9",
+    "join-1-before.png": "44b3bb0ae0835378d2500f5e1b67bdd57d3c01fcf623b28cc8f0943532ba1ac4",
+    "join-1-after.png": "79fc3faa8791f3614f959b0f3f2e68901eaa3929486ee9b2e7610675030790d3",
+    "join-2-before.png": "44b3bb0ae0835378d2500f5e1b67bdd57d3c01fcf623b28cc8f0943532ba1ac4",
+    "join-2-after.png": "05666edbb810d720472e068872a854cfe24687f39ea524465a8bbc3554bf0354",
+    "join-3-before.png": "44b3bb0ae0835378d2500f5e1b67bdd57d3c01fcf623b28cc8f0943532ba1ac4",
+    "join-3-after.png": "bf5205a1c43cd7ea0c4ca583e53944018faa35499eb9928eab4b792455c46558",
+    "copy-1024x768-0-00.png": "eb72f4b1e2b3bae503f11ad6877578ea8f48d82c829b0dd151220322dc4e6422",
+    "copy-1024x768-4-00.png": "eb72f4b1e2b3bae503f11ad6877578ea8f48d82c829b0dd151220322dc4e6422",
+    "copy-1024x768-7-50.png": "eb72f4b1e2b3bae503f11ad6877578ea8f48d82c829b0dd151220322dc4e6422",
+    "copy-1024x768-9-99.png": "eb72f4b1e2b3bae503f11ad6877578ea8f48d82c829b0dd151220322dc4e6422",
+    "copy-1280x720-0-00.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x720-4-00.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x720-7-50.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x720-9-99.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x800-0-00.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x800-4-00.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x800-7-50.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1280x800-9-99.png": "a0b43041b6cb9c48eed6a256e94e6fda902c6b841ac0aab6809534ec75cd383d",
+    "copy-1440x900-0-00.png": "3aacc3d8050da94738cf95c08f980df0127f6cf2735f6f63552646082950b388",
+    "copy-1440x900-4-00.png": "3aacc3d8050da94738cf95c08f980df0127f6cf2735f6f63552646082950b388",
+    "copy-1440x900-7-50.png": "3aacc3d8050da94738cf95c08f980df0127f6cf2735f6f63552646082950b388",
+    "copy-1440x900-9-99.png": "3aacc3d8050da94738cf95c08f980df0127f6cf2735f6f63552646082950b388",
+    "copy-1920x1080-0-00.png": "6a2911c61938882ff092eec3285cdf0823338d8c03b2ba51513b3aafa36df8c9",
+    "copy-1920x1080-4-00.png": "6a2911c61938882ff092eec3285cdf0823338d8c03b2ba51513b3aafa36df8c9",
+    "copy-1920x1080-7-50.png": "6a2911c61938882ff092eec3285cdf0823338d8c03b2ba51513b3aafa36df8c9",
+    "copy-1920x1080-9-99.png": "6a2911c61938882ff092eec3285cdf0823338d8c03b2ba51513b3aafa36df8c9",
+    "server-verification.json": "3cb2e0dd5b0820cc1d04304194ec7d4732691515bdecf8086289900f9524b5e7",
+    "../REVIEW.md": "3a80c73d35f1e87d912ba16aa6a2d45e36072415723c851d429f3e5fd5699a12"
+  },
+  "runtime_sha256": {
+    "demo/build.py": "86e192b2953d095b85c44448e4adf2b261a536a8bf5dcf625db4eaf0c80eb97f",
+    "demo/home-motion.js": "cf816b7feebf2f0a43519c97bbd31657644626aee8efe5ae9e4c54b609f5de29",
+    "demo/ecosystem-home.css": "fdfc6691cf172dbe273038aa11c3a7506f905dc2c7babf7ed0faf7676091c188",
+    "demo/serve.py": "492e85b4850e796aa1ba39bd5f9ce6f056c4fa0f39fa8e1af174c9a90f73923f",
+    "demo/styles.css": "7e9163e9cd904838b7c1f047e50c2626f3c018b6aef43ed29c252b6bd08faae0",
+    "demo/script.js": "d5f0ecd52f95d44650572417e0c536a2ba9d2554bbb8c992f9026ab63477f6b0",
+    "demo/site_data.py": "b765485a3add20e39b47f38aa168b558fa86bc6ecf3eb535232e726fdfa46a30",
+    "demo/public/index.html": "5b1db0f6e78223c2dce4f1b6f807751cdde838a0269bb86d74bca7a017134063",
+    "asset-manifest.json": "34c1ef283986f5bfa81819490c4b2bc8faa47816880f1873d46ef2fc11c8f8a4"
+  }
+}

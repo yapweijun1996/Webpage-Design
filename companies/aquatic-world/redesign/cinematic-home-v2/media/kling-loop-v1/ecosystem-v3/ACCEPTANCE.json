@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "recorded_at_utc": "2026-10-14T22:20:29Z",
+  "timestamp_note": "Recorded during preparation; not an exact user-message timestamp.",
+  "source": {
+    "user_reply": "B",
+    "offered_option": "确认静态方向与动势，准备试片方案及报价，再决定是否提交。",
+    "source_kind": "explicit_user_reply_in_this_conversation"
+  },
+  "accepted_scope": [
+    "ecosystem-v3 desktop/phone static photographic direction",
+    "fish-group density/composition and lead placement shown in the delivered stills",
+    "retained Top bar and copy placement",
+    "lead/school/water/plant motion intention as a proposal"
+  ],
+  "assets": [
+    {
+      "orientation": "landscape",
+      "path": "landscape-ecosystem.png",
+      "sha256": "a2728a8040f4c631f9d23a8f12118b933e192daa0f6192028e83afbe7f8a6de4"
+    },
+    {
+      "orientation": "portrait",
+      "path": "portrait-ecosystem.png",
+      "sha256": "79b2a54f644989bda01321cb7b568a6ae6a755720f7cee4efae8855adaa71fb3"
+    }
+  ],
+  "film_creative_acceptance": "not_tested_no_new_movie",
+  "new_paid_generation_authorized": false,
+  "authorized_current_work": "Prepare concrete trial plan and live quotations only. Existing unused portrait allowance is not a retry authorization.",
+  "layout_stills": [
+    {
+      "path": "desktop-still.png",
+      "sha256": "288608227569385f142c76474b2f5d94bad513f7f3d180a9edb1663a934edc80"
+    },
+    {
+      "path": "phone-still.png",
+      "sha256": "96b5f8f267be3e310bb18b8daed0ec9b2b3f83e9fd3a577e71a2000a2a4bbbde"
+    }
+  ],
+  "motion_annotation_stills": [
+    {
+      "path": "landscape-motion.png",
+      "sha256": "d8c731ad5e2d881afde8d08f99cf0cc2f86b8c67ee753047cd0df57db62d43ee"
+    },
+    {
+      "path": "portrait-motion.png",
+      "sha256": "9cd5202a486b88f6c4ef99e95542856056c1ce276adc56501e7a6a3c9d4b2abc"
+    }
+  ]
+}

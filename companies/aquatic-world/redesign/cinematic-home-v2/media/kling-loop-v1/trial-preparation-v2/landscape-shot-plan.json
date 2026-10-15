@@ -1,0 +1,67 @@
+{
+  "acceptance": [
+    {
+      "category": "technical",
+      "criterion": "Decode the complete raw take and record actual dimensions, FPS, duration, audio, original bytes and settled cost without substituting an estimate.",
+      "id": "decode"
+    },
+    {
+      "category": "visual",
+      "criterion": "Full 1x playback shows stable fish anatomy, genuine forward propulsion and gradual physically correct emergence/occlusion, with a substantial visible middle swim.",
+      "id": "motion"
+    },
+    {
+      "category": "visual",
+      "criterion": "At least four full plays show three consecutive joins without fish pop-in, exposure reset, abrupt leaf velocity reversal, held endpoint or artificial backward return.",
+      "id": "loop"
+    },
+    {
+      "category": "visual",
+      "criterion": "Protected top bar and orientation-specific reading zones remain usable; the complete visible fish stays inside actual desktop, narrow-phone and phone-landscape crops.",
+      "id": "reading"
+    },
+    {
+      "category": "technical",
+      "criterion": "Record technical checks, coordinator visual judgment and human creative acceptance separately. Static inputs and a ready shot plan are not film approval or paid authorization.",
+      "id": "acceptance-record"
+    },
+    {
+      "id": "static-scale-route",
+      "category": "visual",
+      "criterion": "Compare full-size raw midpoint and visible trajectory with the human-accepted midpoint-v2 still. Verify approximate reviewed scale, full fins, the proposed corridor and same-pocket occlusion; human static acceptance does not establish movie acceptance."
+    }
+  ],
+  "allow_draft_assets": true,
+  "audio": "silent",
+  "character_id": "habitat-angelfish",
+  "constraints": {
+    "camera": "One fixed-camera uninterrupted underwater view, same framing at both endpoints. No cut, zoom, pan or reframing. Plan FPS is a delivery target, not a claim about ungenerated provider output.",
+    "character": "Exactly one coherent silver-and-black freshwater angelfish. Reviewed approximate full fin height: 25% of source-frame height; modest middle distance. At midpoint it faces left near x=65%, y=39%. Ends fully concealed, no exposed pose reset.",
+    "environment": "Same right root pocket near x=81%,y=40%; full visible fins within x=55–88%,y=25–64%; leftmost 42% reading area and top14% navigation stay calm.",
+    "lighting": "Stable restrained underwater daylight with quiet live-copy regions. Environmental highlights may move gently, but no seam flash or exposure pumping.",
+    "materials": "Preserve realistic leaf surfaces, coherent root/wood geometry and layered water depth. No ghost fish, melting plants or artificial cutouts.",
+    "motion": "0–1s concealed; 1–4s progressively emerge and swim forward to the approved static midpoint; 4–7s short smooth arc and turn into depth; 7–9s swim forward behind the same pocket; 9–10s fully concealed with leaves/water still alive. No reverse slide, frozen endpoint or doubled fish. Static path is a schematic composition target, not proven velocity."
+  },
+  "duration_max_seconds": 10.2,
+  "duration_min_seconds": 9.8,
+  "fps": 24,
+  "height": 720,
+  "references": [
+    {
+      "asset_key": "kling-landscape-loop-endpoint-v1",
+      "library_id": "aquatic-world-motion",
+      "role": "first_frame",
+      "version": 1
+    },
+    {
+      "asset_key": "kling-landscape-loop-endpoint-v1",
+      "library_id": "aquatic-world-motion",
+      "role": "last_frame",
+      "version": 1
+    }
+  ],
+  "schema_version": 1,
+  "style_id": "cinematic-freshwater",
+  "title": "Aquatic World Kling landscape trial from accepted static scale and route",
+  "width": 1280
+}

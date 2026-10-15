@@ -1,0 +1,4 @@
+Use case: precise-object-edit.
+Input image 1 is the edit target and already contains exactly one silver-and-black angelfish.
+Make one focused correction: reduce the existing fish to 60% of its current width AND height, preserving its anatomy and natural left-facing swim pose. Position its complete extended-fin bounding box at approximately x=64–75%, y=29–53%; body center around x=69%,y=40%. This is a modest middle-distance fish, full fin height about one quarter of image height. Current fish is too large.
+Preserve the aquarium background exactly: same plants, driftwood, rocks, water, surface, light, depth, camera, lens and framing. Restore the water/plant background in the area revealed by the reduced fish. Keep one fish only. Same daylight attenuation on scales, soft natural edges, not pasted in, no bright halo. No text, logo, UI, arrows, bubbles, second fish, crop, camera move or added objects. Landscape16:9.

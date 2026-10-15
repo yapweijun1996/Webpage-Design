@@ -1,0 +1,15 @@
+{
+  "protocol": "HTTP/1.1",
+  "request_queue_size": 128,
+  "concurrent_range_fixture": {
+    "requests": 24,
+    "workers": 12,
+    "before_pass": 14,
+    "before_failed": 10,
+    "after_pass": 24,
+    "after_failed": 0
+  },
+  "head": "pass",
+  "exact_prefix_suffix_206": "pass",
+  "invalid_range_416": "pass"
+}

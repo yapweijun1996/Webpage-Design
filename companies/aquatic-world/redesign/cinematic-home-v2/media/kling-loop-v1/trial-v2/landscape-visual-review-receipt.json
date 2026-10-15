@@ -1,0 +1,42 @@
+{
+  "review_id": "0b21f49ff1f940c3b9dc6c3664910b03",
+  "result_id": "866dcfd3ce88475ca68d6a5682688fed",
+  "output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+  "review": {
+    "output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+    "category": "visual",
+    "note": "FAILED: artificial fish, wrong appearance/scale, unstable formation/disappearance and nearly static environment. Direct user rejection confirms creative failure. Stop before portrait; no retry.",
+    "source_ref": "Coordinator source frames and painted browser snapshots,1x callback observations; independent CLI dense sampled findings (partial, stopped after conclusive failure); direct user rejection.",
+    "checks": [
+      {
+        "id": "motion",
+        "status": "fail",
+        "note": "Artificial blue/orange appearance; unstable formation and smear/fade disappearance in dense samples; actual physical occlusion not established."
+      },
+      {
+        "id": "loop",
+        "status": "fail",
+        "note": "Three live wraps observed, fourth play through9.82s; near-static habitat and low-motion holds at both ends fail continued environmental life."
+      },
+      {
+        "id": "reading",
+        "status": "pass",
+        "note": "Four corresponding landscape viewports remain readable with intact action and visible fish bounds. Portrait-specific acceptance untested; decorative controls only."
+      },
+      {
+        "id": "static-scale-route",
+        "status": "fail",
+        "note": "Observed fin span approximately17–19% versus25% reference, with turn crossing left of55% corridor and lead texture/palette drift."
+      }
+    ],
+    "evidence": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/a6/a6773cfcf196687bf1d4bf048f31d106f1503a3a376c62fb18d7720a00ff8b6b.md",
+      "sha256": "a6773cfcf196687bf1d4bf048f31d106f1503a3a376c62fb18d7720a00ff8b6b",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-kling-trial-v2/visual-review.md",
+      "asset": null
+    },
+    "decision": null
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

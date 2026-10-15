@@ -1,0 +1,8 @@
+Continuous 10-second freshwater underwater habitat shot, silent, fixed camera and lens, constant calm daylight. Use the supplied identical first/last habitat pictures. Preserve roots, plants, rocks, depth and lighting; no cuts, zoom or reframing.
+
+One silver-and-black striped freshwater angelfish, coherent eyes/body, intact triangular dorsal/anal fins, translucent pectoral/tail fins and fine pelvic filaments. Modest middle distance. Tail and pectoral fins propel natural forward swimming; no sliding, morphing or duplicated fish.
+
+0–1s: fully hidden behind the root/leaf pocket. 1–4s: progressively emerge through the opening with physical fin/body occlusion, then swim forward to the visible midpoint. 4–7s: short smooth arc and gradual turn into depth. 7–9s: swim behind the SAME pocket until every fin is hidden. 9–10s: fully concealed, with subtle leaf/current/highlight motion continuing across the join. No frozen final second, backward return or exposed pose reset.
+
+Landscape16:9. Concealment pocket is the right middle-distance root/leaf structure near x81%,y40%. Visible midpoint: full fin envelope about25% of frame height and12% of width, body near x65%,y39%, facing left. Short leftward arc in right water, gradual depth turn, same-pocket return. During full visibility, WHOLE body/fins stay within x55–88%,y25–64%. Protect quiet leftmost42% reading area and top14% navigation. Partial emergence/return is occluded at the pocket.
+Gentle leaves and restrained water highlights maintain a consistent current/exposure. Full visible fish stays inside the crop; concealment uses habitat, never the frame edge. No bubbles/particles, flash, equipment, ocean reef, extra foreground fish, subtitles, logo, text or UI.

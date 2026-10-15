@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-14T22:24:08.216805+00:00",
+  "account_status": "available",
+  "key_status": "available",
+  "account_covers_known_landscape_requirement": true,
+  "key_covers_known_landscape_requirement": true,
+  "account_covers_known_conservative_aggregate": false,
+  "key_covers_known_conservative_aggregate": false,
+  "scope": "Current account/key response against known old US$1.50 reservation plus proposed request ceilings; full active local reservation audit follows. No account setting changed.",
+  "active_local_reservation_usd": "1.50",
+  "single_request_required_available_usd": "3.00",
+  "conservative_two_request_required_available_usd": "4.50",
+  "recommendation": "One landscape request only, proposed new spending ceiling US$1.50. Portrait is quoted/prepared but not authorized or scheduled. Refresh all preflight facts before submission.",
+  "account_or_key_settings_changed": false
+}

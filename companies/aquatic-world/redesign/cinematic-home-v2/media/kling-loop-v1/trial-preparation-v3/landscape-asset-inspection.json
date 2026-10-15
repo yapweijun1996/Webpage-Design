@@ -1,0 +1,30 @@
+{
+  "asset": {
+    "id": "02925590db644d98949249d2aae0d7dc",
+    "library_id": "aquatic-world-motion",
+    "asset_key": "kling-landscape-ecosystem-first-v3",
+    "version": 1,
+    "kind": "image",
+    "title": "Aquatic World ecosystem v3 landscape first frame",
+    "description": "Independently composed landscape occupied freshwater habitat: silver-black lead, smaller fish group, surface/refraction and plants. Derived without semantic edits from the user-confirmed static.",
+    "tags": [
+      "aquatic-world",
+      "ecosystem-v3",
+      "first-frame",
+      "fish-school",
+      "preview",
+      "static-accepted"
+    ],
+    "usage_notes": "User confirmed the ecosystem-v3 static direction and motion intention, not a film. Exact proportional-fit provider frame derived from the approved native PNG. First-frame-only conditioning; do not silently assign this image as a last frame or reuse empty endpoint pins. Draft preview reference; use explicit version/hash in this project.",
+    "license_note": "AI-created fictional aquarium scene generated with built-in imagegen for this local case. No third-party photograph used. Image-model fee unexposed. This is not verified inventory or documentary footage.",
+    "source_artifact_id": null,
+    "sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+    "suffix": ".png",
+    "size_bytes": 1593870,
+    "status": "draft",
+    "created_at_utc": "2026-10-14T22:21:19.243212+00:00",
+    "object_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/library/objects/3f/3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+    "uses": [],
+    "integrity": "ok"
+  }
+}

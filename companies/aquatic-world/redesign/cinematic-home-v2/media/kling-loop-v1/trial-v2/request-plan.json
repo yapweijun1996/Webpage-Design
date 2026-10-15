@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "status": "landscape_rejected_stopped_before_portrait",
+  "static_composition_acceptance": "../midpoint-v2/ACCEPTANCE.json",
+  "paid_authorization": {
+    "authorized": true,
+    "new_cap_usd": "3.00",
+    "maximum_new_requests": 2,
+    "reserved_ceiling_each_usd": "1.50",
+    "auto_retry": false,
+    "source": "Explicit user reply A to: A（推荐）：新增上限 US$3，最多两次。先试桌面，通过检查后再试竖屏。",
+    "authorized_at_utc": "2026-10-14T15:06:55Z",
+    "authorization_timestamp_note": "Recorded during this turn; not an exact timestamp of the user message."
+  },
+  "model": "kwaivgi/kling-v3.0-pro",
+  "duration_each_seconds": 10,
+  "resolution": "720p",
+  "generate_audio": false,
+  "estimated_total_usd": "2.240000",
+  "order": "Landscape first. Decode and review raw full forward take at 1x and at least four plays/three consecutive joins. If technical or coordinator visual acceptance fails, stop before portrait; no automatic retry. Otherwise portrait once under the same separately approved aggregate scope.",
+  "quote_policy": "The recorded submission quote binds the completed landscape. Further paid calls are stopped after visual and human rejection; the unused portrait allowance is not automatically reassigned to a retry.",
+  "original_runway": {
+    "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+    "state": "submission_unknown",
+    "actual_cost_usd": null,
+    "reservation_usd": "1.50",
+    "separate_from_new_kling_scope": true,
+    "retry_allowed": false
+  },
+  "requests": [
+    {
+      "orientation": "landscape",
+      "request_id": "aquatic_kling_landscape_accepted_static_trial_20261014_v2",
+      "shot_id": "kling-landscape-occlusion-v2",
+      "revision": 1,
+      "prompt_file": "../trial-preparation-v2/landscape-VIDEO-PROMPT.txt",
+      "prompt_file_read_policy": "UTF-8; remove trailing newline only; compare exact prompt SHA-256 to a fresh quote",
+      "prompt_sha256": "f6710ea6c3f6baf437729be1c99dccd90d3509a995d6233c8fd641109b0bd948",
+      "first_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "last_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "estimated_cost_usd": "1.120000",
+      "status": "completed_rejected",
+      "actual_cost_usd": "1.12",
+      "quote_digest": "82ef5ee6ceedcd4c10ad3934eff2df09a60f3cc9f09da85d60873988b6e268ae",
+      "job_id": "gen-vid-1791991477-DHQcaHjdI2JuaoaahQq3",
+      "submitted_at_utc": "2026-10-14T15:24:36.761147+00:00",
+      "raw_output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723"
+    },
+    {
+      "orientation": "portrait",
+      "request_id": "aquatic_kling_portrait_accepted_static_trial_20261014_v2",
+      "shot_id": "kling-portrait-occlusion-v2",
+      "revision": 1,
+      "prompt_file": "../trial-preparation-v2/portrait-VIDEO-PROMPT.txt",
+      "prompt_file_read_policy": "UTF-8; remove trailing newline only; compare exact prompt SHA-256 to a fresh quote",
+      "prompt_sha256": "3aa23e7501d74affd7905a3d4f6e86496b63ca40dc9bc4115a551b5a7888cf71",
+      "first_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "last_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "estimated_cost_usd": "1.120000",
+      "status": "not_submitted_stopped_after_landscape_rejection",
+      "actual_cost_usd": null
+    }
+  ],
+  "new_paid_requests": 1,
+  "standalone_film_acceptance": "failed_coordinator_and_human",
+  "website_integration": "not_started",
+  "preflight": {
+    "account_status": "available",
+    "key_status": "available",
+    "key_budget_sufficient": true,
+    "existing_video_reservation_usd": "1.50",
+    "required_key_remaining_for_landscape_usd": "3.00",
+    "required_key_remaining_to_cover_both_request_ceilings_and_old_reservation_usd": "4.50",
+    "paid_submission_attempted": true,
+    "provider_posts": 1
+  },
+  "key_limit_change": {
+    "authorized": true,
+    "completed": true,
+    "new_limit_usd": "5.00",
+    "reset_cycle": "daily_unchanged",
+    "source": "Explicit user A authorizes raising current API key limit to US$5; original reset cycle preserved.",
+    "identity_match": "SHA-256 of connected local key matched the browser key-row hash; no credential copied into evidence."
+  },
+  "total_new_actual_cost_usd": "1.12",
+  "further_paid_requests": "stopped_no_automatic_retry",
+  "human_review_id": "b19c64ace9fa49929dade5267d1d3505",
+  "independent_review_state": "partial_stopped_after_confirmed_failure"
+}

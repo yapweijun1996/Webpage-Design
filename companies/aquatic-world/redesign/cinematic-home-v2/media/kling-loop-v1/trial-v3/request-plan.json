@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "recorded_at_utc": "2026-10-14T22:35:20Z",
+  "timestamp_note": "Recorded in this turn, not the exact timestamp of the user reply.",
+  "status": "completed_visual_gate_failed_stopped",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-landscape-ecosystem-v3",
+  "revision": 1,
+  "source": {
+    "user_reply": "B",
+    "offered_option": "授权新增上限 US$1.50，只试桌面一次；失败即停、不重试、不自动提交手机。〔最佳推荐〕"
+  },
+  "paid_authorization": {
+    "authorized": true,
+    "new_cap_usd": "1.50",
+    "maximum_new_requests": 1,
+    "orientation": "landscape",
+    "duration_seconds": 10,
+    "automatic_retry": false,
+    "portrait_authorized": false
+  },
+  "request_id": "aquatic_kling_landscape_ecosystem_trial_20261015_v3",
+  "model": "kwaivgi/kling-v3.0-pro",
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "first_frame_sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+  "last_frame_sha256": null,
+  "prompt_sha256": "046a4c0de7666b0b9e8653586e479b1f232bd36bd46939a187d8f50c82e81431",
+  "quote_digest": "78f5a95715ffdba84b0329d9e32b574b835a7cdfacc88db3cef81277313c2fa3",
+  "estimated_cost_usd": "1.120000",
+  "actual_cost_usd": "1.12",
+  "new_paid_submissions": 1,
+  "original_runway": {
+    "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+    "state": "submission_unknown",
+    "reservation_usd": "1.50",
+    "actual_cost_usd": null,
+    "retry_allowed": false
+  },
+  "prior_rejected_kling": {
+    "request_id": "aquatic_kling_landscape_accepted_static_trial_20261014_v2",
+    "actual_cost_usd": "1.12",
+    "retry_allowed": false
+  },
+  "website_integration": "not_started",
+  "job_id": "gen-vid-1792017346-Ox26RM6qkacfsLmT9O1l",
+  "submitted_at_utc": "2026-10-14T22:35:46.403101+00:00",
+  "portrait_submitted": false,
+  "raw_movie_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "standalone_acceptance": "visual_failed",
+  "new_provider_jobs": 1,
+  "human_film_feedback": "approved_visual_effect_and_creative_direction",
+  "retries_submitted": 0,
+  "further_paid_requests": "stopped",
+  "independent_review": "completed_with_explicit_scope_limits",
+  "human_review_id": "acb42cf42ec44a0fadbdd6affdf9c93e",
+  "human_feedback_reference": "USER-FEEDBACK.json"
+}

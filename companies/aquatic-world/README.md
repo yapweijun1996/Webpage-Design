@@ -11,9 +11,15 @@
 | Market / location | Unverified; location in the reference is sample content |
 | Official website | Unknown; the reference domain is not evidence |
 | Status | building |
-| Last updated | 2026-10-14 |
+| Last updated | 2026-10-15 |
 
-## Purpose
+## Final local delivery
+
+On 2026-10-15 the user requested that the current project be finished, committed and merged to `main`, ending work. The [local desktop Home and playback comparison](redesign/cinematic-home-v2/desktop-home-v1/DELIVERY.md) are complete within that scope: the accepted raw movie, protected copy, eight real pages, portrait still fallback and 67 passing playback/interaction checks. The default remains looping and the original loop reset is documented. No additional media generation or replacement public release is part of closure.
+
+The catalog retains `building` for the wider public replacement criteria; this closed local delivery does not waive the film limits or schedule more work. The records below describe earlier stages and their decisions at the time. Current preview instructions are in the final delivery record.
+
+## Purpose and historical delivery log
 
 Develop a structured multi-page aquatic website with useful real destinations and professional visual detail. The current [round-9 refinement](comparison/round-9-refinement/README.md) keeps the same landscape/portrait films behind live navigation, typography, CTA, chapters and footer. Both native CLIs applied the shared [v2 brief](redesign/fusion-home-v2/BRIEF.md), followed by identical feedback for enlarged motion-label wrapping. [Actual-site results](comparison/round-9-refinement/RESULTS.md) record twelve normal viewport sizes, real heading masking, short-landscape clearance, enlarged-text and keyboard behavior, and preserved Contact/navigation. Technical demo checks are complete; the current creative acceptance decision is recorded below.
 
@@ -28,6 +34,18 @@ The user then selected [Kling endpoint-loop research](redesign/cinematic-home-v2
 The selected follow-up implemented [local Kling endpoint tool support](redesign/cinematic-home-v2/research/kling-loop-2026-10-14/tool-support-2026-10-14/README.md). Fresh STDIO sessions now support two-frame quotes/submission and optional shot tail pins; 117 tests and a separate actual-protocol endpoint scenario passed. Two GET-only quotes using existing reference images estimate US$2.24 total for 10s landscape/portrait silent 720p takes. Cached connections require reconnection; new production endpoint frames and explicit Kling spending scope remain pending. No paid request or website release occurred, and the original unknown Runway record is unchanged.
 
 The user then requested [landscape/portrait concealed-fish endpoint stills](redesign/cinematic-home-v2/media/kling-loop-v1/README.md) and requoting without paid video generation. Two new draft inputs and their static composition board are prepared, with four actual-browser crop/copy checks. Exact version-1 assets occupy both endpoint roles in two new ready shot plans; fresh GET-only quotes estimate US$2.24 total. Image-tool fee is unexposed, video POSTs are zero, and film motion/human acceptance remain pending. Existing website runtime and unknown Runway job records are unchanged.
+
+The current [ecosystem landscape trial v3](redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/README.md) completed one separately authorized desktop request at actual US$1.12. The user approved its visual effect and creative direction. Full decode, four complete browser plays and independent raw-frame inspection completed; copy intrusion and looping resets remain Home integration gaps, while full plant/anatomy performance remains unestablished. Phone/retries are stopped, no website release. The repaired local preview supports seeking without altering media.
+
+The user then authorized [local desktop Home adaptation](redesign/cinematic-home-v2/desktop-home-v1/README.md). It preserves the raw movie, protects title/body/action with a deep-water reading core and adds three editorial category chapters, retaining the existing eight-page journey and local Contact preview. The raw loop reset remains visible; portrait uses its accepted still. New media fees are zero and publication remains unchanged. Actual build and loopback-port-4285 preview instructions live in that package.
+
+The next authorized [playback comparison](redesign/cinematic-home-v2/desktop-home-v1/PLAYBACK-COMPARISON.md) compares a natural single-play ending with the existing continuous loop. Both reuse the untouched movie and fixed desktop geometry. Twenty-four targeted checks and 43 existing journey checks passed; user mode preference is pending. There is no additional media fee or publication, and the current default remains looping.
+
+The latest [ecosystem trial preparation v3](redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/README.md) follows explicit static direction/motion-intent acceptance. Two ready first-frame-only plans have live estimates of US$1.12 each. Current conservative capacity supports the recommended desktop-only new US$1.50 ceiling while retaining the old reservation; paid authorization is absent. Phone is prepared only. No new movie or website release occurred.
+
+The current [living-ecosystem stills v3](redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/README.md), prepared 2026-10-15, supply independent desktop/phone fish-group compositions and complete habitats under the retained UI, with optional lead/school/water/plant motion annotations. Seven Chromium viewport checks passed. The subsequent static decision and new local plans/quotes are recorded in the preparation above. Actual movie acceptance remains untested; no new video request or website release occurred.
+
+The latest [midpoint composition v2](redesign/cinematic-home-v2/media/kling-loop-v1/midpoint-v2/README.md) refines the Top bar and phone copy, and adds independent desktop/phone fish-visible static scenes with proposed route overlays. Seven Chromium viewport checks passed; the user accepted the static scale/route/UI placement and the US$3 / at most two new Kling requests scope. [Trial execution v2](redesign/cinematic-home-v2/media/kling-loop-v1/trial-v2/README.md) records one completed landscape request at actual US$1.12, rejected for artificial fish and a static, sparsely inhabited environment. Portrait and retries are stopped; a revised living-aquarium brief is drafted. No website release occurred.
 
 The scrolled top bars now fully mask underlying text. Both normal narrow-landscape actions exceed the required16px lower clearance, while normal portrait placements remain. The normal phone Menu heights are similar; Claude has a thinner protected header row, while Codex retains lighter body typography and more landscape clearance. These are observed details, not a general model ranking.
 

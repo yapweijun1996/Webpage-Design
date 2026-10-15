@@ -1,0 +1,10 @@
+{
+  "account_status": "available",
+  "key_status": "available",
+  "known_reserved_usd": "1.50",
+  "approved_new_ceiling_usd": "1.50",
+  "required_available_usd": "3.00",
+  "account_covers_requirement": true,
+  "key_covers_requirement": true,
+  "account_or_key_setting_changed": false
+}

@@ -1,0 +1,204 @@
+{
+  "playback": {
+    "duration": 10.041667,
+    "videoWidth": 1920,
+    "videoHeight": 1080,
+    "rate": 1,
+    "paused": false,
+    "currentTime": 9.820417,
+    "decodedFrameObservations": 958,
+    "joins": 3,
+    "wallElapsedMs": 40271,
+    "observedPerLoop": [
+      {
+        "loop": 0,
+        "count": 239,
+        "firstMediaTime": 0,
+        "lastMediaTime": 10,
+        "firstWall": 297.6,
+        "lastWall": 10447.4
+      },
+      {
+        "loop": 1,
+        "count": 241,
+        "firstMediaTime": 0,
+        "lastMediaTime": 10,
+        "firstWall": 10597.5,
+        "lastWall": 20580.7
+      },
+      {
+        "loop": 2,
+        "count": 241,
+        "firstMediaTime": 0,
+        "lastMediaTime": 10,
+        "firstWall": 20664.1,
+        "lastWall": 30664
+      },
+      {
+        "loop": 3,
+        "count": 237,
+        "firstMediaTime": 0,
+        "lastMediaTime": 9.833333,
+        "firstWall": 30730.7,
+        "lastWall": 40547.3
+      }
+    ]
+  },
+  "joins": [
+    {
+      "before": {
+        "currentTime": 9.787805,
+        "loop": 0,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "currentTime": 0.445807,
+        "loop": 1,
+        "rate": 1,
+        "paused": false
+      }
+    },
+    {
+      "before": {
+        "currentTime": 9.799391,
+        "loop": 1,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "currentTime": 0.151577,
+        "loop": 2,
+        "rate": 1,
+        "paused": false
+      }
+    },
+    {
+      "before": {
+        "currentTime": 9.784782,
+        "loop": 2,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "currentTime": 0.093242,
+        "loop": 3,
+        "rate": 1,
+        "paused": false
+      }
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 84.953125,
+        "height": 84.953125
+      },
+      "copy": {
+        "x": 80.6328125,
+        "y": 270,
+        "right": 656.6328125,
+        "bottom": 610.40625,
+        "height": 340.40625
+      },
+      "action": {
+        "x": 80.6328125,
+        "y": 556.1796875,
+        "right": 318.5390625,
+        "bottom": 610.40625,
+        "height": 54.2265625
+      },
+      "movieReady": 4
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1280,
+        "bottom": 75.5,
+        "height": 75.5
+      },
+      "copy": {
+        "x": 71.6796875,
+        "y": 240,
+        "right": 583.6796875,
+        "bottom": 542.8125,
+        "height": 302.8125
+      },
+      "action": {
+        "x": 71.6796875,
+        "y": 494.390625,
+        "right": 285.984375,
+        "bottom": 542.8125,
+        "height": 48.421875
+      },
+      "movieReady": 4
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 844,
+        "bottom": 54,
+        "height": 54
+      },
+      "copy": {
+        "x": 47.2578125,
+        "y": 105.296875,
+        "right": 418.6171875,
+        "bottom": 308.6640625,
+        "height": 203.3671875
+      },
+      "action": {
+        "x": 47.2578125,
+        "y": 260.6640625,
+        "right": 231.75,
+        "bottom": 308.6640625,
+        "height": 48
+      },
+      "movieReady": 4
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "scrollWidth": 640,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 640,
+        "bottom": 54,
+        "height": 54
+      },
+      "copy": {
+        "x": 35.8359375,
+        "y": 97.1953125,
+        "right": 317.4296875,
+        "bottom": 321.359375,
+        "height": 224.1640625
+      },
+      "action": {
+        "x": 35.8359375,
+        "y": 273.359375,
+        "right": 216.65625,
+        "bottom": 321.359375,
+        "height": 48
+      },
+      "movieReady": 4
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "scope": "Actual 1x four-play runtime observation; temporal snapshots and full-size frame visual review are still required for aesthetic/natural-motion verdicts."
+}

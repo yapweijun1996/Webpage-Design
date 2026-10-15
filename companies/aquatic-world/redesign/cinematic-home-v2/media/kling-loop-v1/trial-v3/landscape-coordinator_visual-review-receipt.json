@@ -1,0 +1,42 @@
+{
+  "review_id": "546057cc3dff49129e7e58537d0a8d94",
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "review": {
+    "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+    "category": "visual",
+    "note": "Looping Home gate fails: raw repeated joins reset lead/community/water, and actual painted midpoint shows smaller fish over headline/description. Fish/water improve, but full anatomy/plant performance are not fully established. Stop after desktop, no human verdict inferred.",
+    "source_ref": "Coordinator / actual four-play browser telemetry, painted crops, full-size samples and independent raw-frame report",
+    "checks": [
+      {
+        "id": "appearance-motion",
+        "status": "not_checked",
+        "note": "Identity and community movement sampled; convincing lead depth turn/every-frame anatomy not fully established."
+      },
+      {
+        "id": "habitat-life",
+        "status": "not_checked",
+        "note": "Water and school move; natural continuous plant-tip performance insufficiently established."
+      },
+      {
+        "id": "reading-scale-crop",
+        "status": "fail",
+        "note": "At~4s painted1440x900 midpoint, two fish cross headline and approaching fish enters description; geometry/main fins fit four landscape sizes."
+      },
+      {
+        "id": "loop",
+        "status": "fail",
+        "note": "Four complete1x plays/four wraps with three join pairs show fish/community/surface reset; raw remains unmodified."
+      }
+    ],
+    "evidence": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/34/34eed1b48064f6b9efd531c3319ec57087de2e9b2531cea6d8e565a8a1831302.md",
+      "sha256": "34eed1b48064f6b9efd531c3319ec57087de2e9b2531cea6d8e565a8a1831302",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-kling-ecosystem-trial-v3/visual-review.md",
+      "asset": null
+    },
+    "decision": null
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

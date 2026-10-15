@@ -1,0 +1,37 @@
+{
+  "review_id": "291e0f2d3fa84d7c86f493c89c3de6c8",
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "review": {
+    "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+    "category": "technical",
+    "note": "Complete raw decode, provider-cost lineage and immutable result custody verified. Native output 1080p differs from requested720p and is disclosed. Four complete actual 1x browser plays verified after local byte-range serving repair; cinematic quality is separate.",
+    "source_ref": "Coordinator / full raw decode, provider receipts, immutable custody and repaired browser telemetry",
+    "checks": [
+      {
+        "id": "decode",
+        "status": "pass",
+        "note": "Complete decode; native1920x1080,24fps,241frames,10.041667s,no audio; original bytes preserved."
+      },
+      {
+        "id": "cost-provenance",
+        "status": "pass",
+        "note": "One completed provider job reports US$1.12 vs estimate1.12 and approved1.50 ceiling; no portrait/retry."
+      },
+      {
+        "id": "acceptance-record",
+        "status": "pass",
+        "note": "Exact artifact/result binding, separate coordinator/independent reports and no inferred human film approval."
+      }
+    ],
+    "evidence": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/28/2868ed283caed266372cebd317591439926bd820005c6063cbb8f523cc5996d7.md",
+      "sha256": "2868ed283caed266372cebd317591439926bd820005c6063cbb8f523cc5996d7",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-kling-ecosystem-trial-v3/technical-review.md",
+      "asset": null
+    },
+    "decision": null
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

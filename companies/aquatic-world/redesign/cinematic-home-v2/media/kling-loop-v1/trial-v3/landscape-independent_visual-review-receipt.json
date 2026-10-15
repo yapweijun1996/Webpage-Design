@@ -1,0 +1,42 @@
+{
+  "review_id": "cfb0760182904ae4ad1ac3eb5ebc74e7",
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "review": {
+    "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+    "category": "visual",
+    "note": "Independent Codex CLI completed direct raw-frame and full-decode inspection. Loop fails from exact endpoint frames. Other full composite gates are not_checked because independent continuous1x/viewports and final caller telemetry were unavailable at cutoff.",
+    "source_ref": "Independent Codex CLI completed report at2026-10-14T22:46:30Z; source-frame observations with explicit limits",
+    "checks": [
+      {
+        "id": "appearance-motion",
+        "status": "not_checked",
+        "note": "Sampled silver-black identity retained; full independent1x anatomy/propulsion not established."
+      },
+      {
+        "id": "habitat-life",
+        "status": "not_checked",
+        "note": "Sampled water/community change; weak central-plant motion, continuous natural sway not established."
+      },
+      {
+        "id": "reading-scale-crop",
+        "status": "not_checked",
+        "note": "Source copy-region intrusion risk and caller join images; complete all-time viewport journey not independently reproduced."
+      },
+      {
+        "id": "loop",
+        "status": "fail",
+        "note": "Exact frames240 vs0 show lead/community/surface reset; independent complete1x playback not claimed."
+      }
+    ],
+    "evidence": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/f3/f3616627990956e25d3e85e4204f2f1324ea3521a53a572d3370809811dbc877.md",
+      "sha256": "f3616627990956e25d3e85e4204f2f1324ea3521a53a572d3370809811dbc877",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-kling-ecosystem-trial-v3/independent-review.md",
+      "asset": null
+    },
+    "decision": null
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

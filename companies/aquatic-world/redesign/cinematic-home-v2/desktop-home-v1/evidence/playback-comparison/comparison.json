@@ -1,0 +1,348 @@
+{
+  "checks": [
+    {
+      "name": "Comparison uses identical desktop viewports",
+      "status": "pass"
+    },
+    {
+      "name": "Copy geometry is identical",
+      "status": "pass"
+    },
+    {
+      "name": "Modes differ only in repeat policy",
+      "status": "pass"
+    },
+    {
+      "name": "Review does not attach movies before explicit start",
+      "status": "pass"
+    },
+    {
+      "name": "Single play ends naturally and retains its final frame",
+      "status": "pass"
+    },
+    {
+      "name": "Single play presents the complete native take",
+      "status": "pass"
+    },
+    {
+      "name": "Loop remains in motion",
+      "status": "pass"
+    },
+    {
+      "name": "Pause stops both previews",
+      "status": "pass"
+    },
+    {
+      "name": "Resume does not restart completed single play",
+      "status": "pass"
+    },
+    {
+      "name": "Loop completes four natural forward wraps",
+      "status": "pass"
+    },
+    {
+      "name": "Single play remains stopped through repeated loop joins",
+      "status": "pass"
+    },
+    {
+      "name": "Restart returns both to forward playback from zero",
+      "status": "pass"
+    },
+    {
+      "name": "Review leaves normal Home pause preference intact",
+      "status": "pass"
+    },
+    {
+      "name": "Comparison layout 1440x1000",
+      "status": "pass"
+    },
+    {
+      "name": "Comparison layout 1280x900",
+      "status": "pass"
+    },
+    {
+      "name": "Comparison layout 900x900",
+      "status": "pass"
+    },
+    {
+      "name": "Comparison layout 390x844",
+      "status": "pass"
+    },
+    {
+      "name": "Comparison layout 320x568",
+      "status": "pass"
+    },
+    {
+      "name": "Standalone single play offers Replay",
+      "status": "pass"
+    },
+    {
+      "name": "Menu close does not auto-replay a completed take",
+      "status": "pass"
+    },
+    {
+      "name": "Standalone Replay restarts naturally",
+      "status": "pass"
+    },
+    {
+      "name": "Single play respects retained manual pause",
+      "status": "pass"
+    },
+    {
+      "name": "Default Home remains looping and respects its own pause",
+      "status": "pass"
+    },
+    {
+      "name": "Normal Home cannot receive review commands",
+      "status": "pass"
+    }
+  ],
+  "initial": [
+    {
+      "loop": false,
+      "source": null,
+      "width": 1440,
+      "height": 900,
+      "copy": {
+        "x": 80.6328125,
+        "y": 270,
+        "width": 489.59375,
+        "height": 329.8359375,
+        "top": 270,
+        "right": 570.2265625,
+        "bottom": 599.8359375,
+        "left": 80.6328125
+      }
+    },
+    {
+      "loop": true,
+      "source": null,
+      "width": 1440,
+      "height": 900,
+      "copy": {
+        "x": 80.6328125,
+        "y": 270,
+        "width": 489.59375,
+        "height": 329.8359375,
+        "top": 270,
+        "right": 570.2265625,
+        "bottom": 599.8359375,
+        "left": 80.6328125
+      }
+    }
+  ],
+  "afterEnd": [
+    {
+      "ended": true,
+      "paused": true,
+      "time": 10.041667,
+      "duration": 10.041667,
+      "rate": 1,
+      "state": "ended",
+      "stats": {
+        "frames": 167,
+        "first": 0,
+        "last": 10,
+        "wraps": 0,
+        "ended": 1
+      },
+      "quality": {
+        "total": 241,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    },
+    {
+      "ended": false,
+      "paused": false,
+      "time": 0.008496,
+      "duration": 10.041667,
+      "rate": 1,
+      "state": "playing",
+      "stats": {
+        "frames": 150,
+        "first": 0,
+        "last": 0,
+        "wraps": 1,
+        "ended": 0
+      },
+      "quality": {
+        "total": 245,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    }
+  ],
+  "naturalPhase": [
+    {
+      "frames": 167,
+      "first": 0,
+      "last": 10,
+      "wraps": 0,
+      "ended": 1,
+      "quality": {
+        "total": 241,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    },
+    {
+      "frames": 873,
+      "first": 0,
+      "last": 0,
+      "wraps": 4,
+      "ended": 0,
+      "quality": {
+        "total": 968,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "cards": [
+        {
+          "x": 40,
+          "y": 396.7734375,
+          "width": 664,
+          "height": 415,
+          "top": 396.7734375,
+          "right": 704,
+          "bottom": 811.7734375,
+          "left": 40
+        },
+        {
+          "x": 736,
+          "y": 396.7734375,
+          "width": 664,
+          "height": 415,
+          "top": 396.7734375,
+          "right": 1400,
+          "bottom": 811.7734375,
+          "left": 736
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "cards": [
+        {
+          "x": 40,
+          "y": 396.7734375,
+          "width": 584,
+          "height": 365,
+          "top": 396.7734375,
+          "right": 624,
+          "bottom": 761.7734375,
+          "left": 40
+        },
+        {
+          "x": 656,
+          "y": 396.7734375,
+          "width": 584,
+          "height": 365,
+          "top": 396.7734375,
+          "right": 1240,
+          "bottom": 761.7734375,
+          "left": 656
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 900,
+      "overflow": false,
+      "cards": [
+        {
+          "x": 20,
+          "y": 404.765625,
+          "width": 860,
+          "height": 537.5,
+          "top": 404.765625,
+          "right": 880,
+          "bottom": 942.265625,
+          "left": 20
+        },
+        {
+          "x": 20,
+          "y": 1172.0546875,
+          "width": 860,
+          "height": 537.5,
+          "top": 1172.0546875,
+          "right": 880,
+          "bottom": 1709.5546875,
+          "left": 20
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "cards": [
+        {
+          "x": 20,
+          "y": 555.546875,
+          "width": 350,
+          "height": 218.75,
+          "top": 555.546875,
+          "right": 370,
+          "bottom": 774.296875,
+          "left": 20
+        },
+        {
+          "x": 20,
+          "y": 1004.0859375,
+          "width": 350,
+          "height": 218.75,
+          "top": 1004.0859375,
+          "right": 370,
+          "bottom": 1222.8359375,
+          "left": 20
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "cards": [
+        {
+          "x": 20,
+          "y": 567.546875,
+          "width": 280,
+          "height": 175,
+          "top": 567.546875,
+          "right": 300,
+          "bottom": 742.546875,
+          "left": 20
+        },
+        {
+          "x": 20,
+          "y": 994.734375,
+          "width": 280,
+          "height": 175,
+          "top": 994.734375,
+          "right": 300,
+          "bottom": 1169.734375,
+          "left": 20
+        }
+      ]
+    }
+  ],
+  "movieRequests": 3,
+  "movieUrls": [
+    "http://127.0.0.1:4285/assets/ecosystem/landscape.mp4"
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "sourceUnedited": true,
+  "loadingScope": "Both start at 0; independent loading is not frame-locked.",
+  "singlePlayScope": "Native ended state per page load; no encoded hold or loop repair."
+}

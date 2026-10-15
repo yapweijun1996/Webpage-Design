@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "reason": "Kling VideoService requires exact declared aspect ratio; native 1672x941 and 941x1672 are slightly different from exact 16:9/9:16.",
+  "approved_native_bytes_changed": false,
+  "assets": [
+    {
+      "orientation": "landscape",
+      "approved_native_path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/landscape-ecosystem.png",
+      "approved_native_sha256": "a2728a8040f4c631f9d23a8f12118b933e192daa0f6192028e83afbe7f8a6de4",
+      "provider_frame_path": "landscape-first-frame.png",
+      "provider_frame_dimensions": [
+        1280,
+        720
+      ],
+      "provider_frame_sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+      "studio_source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-ecosystem-preparation-v3/landscape-first-frame.png",
+      "method": "FFmpeg proportional fit and at most one-pixel padding, no semantic edit or subject crop",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-i",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/landscape-ecosystem.png",
+        "-vf",
+        "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=0x071d22",
+        "-frames:v",
+        "1",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/landscape-first-frame.png"
+      ],
+      "full_decode": "pass"
+    },
+    {
+      "orientation": "portrait",
+      "approved_native_path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/portrait-ecosystem.png",
+      "approved_native_sha256": "79b2a54f644989bda01321cb7b568a6ae6a755720f7cee4efae8855adaa71fb3",
+      "provider_frame_path": "portrait-first-frame.png",
+      "provider_frame_dimensions": [
+        720,
+        1280
+      ],
+      "provider_frame_sha256": "878f0f3026fb465facc73e80a745d89835d80898ae884b31582c423c3f1ba809",
+      "studio_source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-ecosystem-preparation-v3/portrait-first-frame.png",
+      "method": "FFmpeg proportional fit and at most one-pixel padding, no semantic edit or subject crop",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-i",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/portrait-ecosystem.png",
+        "-vf",
+        "scale=720:1280:force_original_aspect_ratio=decrease,pad=720:1280:(ow-iw)/2:(oh-ih)/2:color=0x071d22",
+        "-frames:v",
+        "1",
+        "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/portrait-first-frame.png"
+      ],
+      "full_decode": "pass"
+    }
+  ],
+  "new_image_generation": false,
+  "new_video_generation": false
+}

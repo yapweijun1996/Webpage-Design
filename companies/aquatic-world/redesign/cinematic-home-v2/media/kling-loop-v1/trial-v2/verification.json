@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "status": "failed_visual_and_human_review",
+  "authorized_new_cap_usd": "3.00",
+  "maximum_requests": 2,
+  "automatic_retry": false,
+  "new_paid_submissions": 1,
+  "new_provider_jobs": 1,
+  "actual_new_cost_usd": "1.12",
+  "cost_source": "provider_job",
+  "portrait_submitted": false,
+  "further_paid_requests": "stopped",
+  "budget_preflight": "passed_after_separately_authorized_key_limit_change",
+  "key_limit_changed": true,
+  "key_limit_usd": "5.00",
+  "key_reset_cycle": "daily_unchanged",
+  "key_identity_changed": false,
+  "key_limit_verification": "saved browser setting and live API response",
+  "private_account_metadata": "retained only in Video Studio Git-ignored outputs",
+  "endpoint_integrity_checked": true,
+  "endpoint_full_png_decode_passed": true,
+  "submission_quote_and_prompt_hash_checked": true,
+  "raw_movie_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+  "raw_original_case_frozen_bytes_match": true,
+  "actual_movie": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 241,
+    "duration_seconds": 10.041667,
+    "audio_streams": 0
+  },
+  "requested_resolution": "720p",
+  "intended_plan_dimensions": [
+    1280,
+    720
+  ],
+  "actual_dimensions_differ": true,
+  "full_raw_decode": "pass_no_decoder_diagnostics",
+  "raw_media_edited": false,
+  "browser": {
+    "playback_rate": 1,
+    "wall_elapsed_ms": 40271,
+    "decoded_frame_callbacks": 958,
+    "observed_wraps": 3,
+    "plays_observed": 4,
+    "fourth_play_observed_through_seconds": 9.820417,
+    "four_complete_plays_claimed": false,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        640,
+        360
+      ]
+    ],
+    "page_console_http_errors": [],
+    "geometry_failures": [],
+    "portrait_movie_checks": "not_run_no_portrait_movie"
+  },
+  "evidence_harness_corrections": [
+    "Post-seek stale compositor screenshots replaced after decoded mediaTime 3.958333 and two paint boundaries.",
+    "Unavailable drawtext filter replaced by unretouched tile sheet and separate timestamp map."
+  ],
+  "independent_review": "partial_stopped_after_confirmed_failure_no_final_report",
+  "technical_review": "pass_with_requested_actual_resolution_difference_disclosed",
+  "visual_review": "fail_motion_loop_scale_route",
+  "human_decision": "revise",
+  "review_ids": {
+    "technical": "cb6b5525c8ae4eb29fb13d3e7b4e1e98",
+    "visual": "0b21f49ff1f940c3b9dc6c3664910b03",
+    "human": "b19c64ace9fa49929dade5267d1d3505"
+  },
+  "original_runway_record_sha256": "829c17f68035520f2f0071f60409ba2863d34b97f25abbc6e90663137c7a69a1",
+  "original_runway_record_unchanged": true,
+  "original_runway_actual_cost": "unknown",
+  "request_plan_sha256": "6bed5a8b7857da1f37150587dd61e1da8e3851ecc4691ee593fcb7068f62a868",
+  "evidence_sha256": {
+    "landscape-submit-quote.json": "ac6b02a2c2c832fbe86389f5f1a8cba1b8f088ef10f40a77226258192879b505",
+    "landscape-submit-receipt.json": "9a0f50bce8296534c7ebc8e4141897a3d3c67d35308873f732e71dfebb4db1e0",
+    "technical-review.md": "fa8e0c35d1b7c1f267cc48f9c38b04bbd2b098e4d913d3a9c1f25037dc12770e",
+    "visual-review.md": "a6773cfcf196687bf1d4bf048f31d106f1503a3a376c62fb18d7720a00ff8b6b",
+    "USER-FEEDBACK.json": "996dee01b71cee5fd2a6f6a77a161ed14b6a5567b3b2565ca395f64827257ee4",
+    "SCENE-REVISION.md": "636730947c68dafd84586d428912645185da95121925dbb267dbf8eb1da90d88",
+    "browser-observations.json": "a48d602d0c2e5dfd59909b9098b72b75dfdc795f73566cade83cc3bc5a2ad94f"
+  },
+  "final_review_page": "initially_paused_explicit_play_and_pause_verified",
+  "final_review_page_autoplay": false,
+  "runtime_changed": false,
+  "publication_performed": false,
+  "corrected_scene_status": "draft_no_new_generation",
+  "relative_links_checked": 212,
+  "trial_json_parse_checks": "pass",
+  "credential_like_token_scan": "pass",
+  "link_harness_correction": "Query strings and fragments excluded from filesystem paths."
+}

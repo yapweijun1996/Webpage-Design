@@ -1,0 +1,20 @@
+{
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-landscape-occlusion-v2",
+  "revision": 1,
+  "plan_sha256": "4886a54f287b2d78a34951c3cbcf4472cc01769c468ba956582dae12efdb2b45",
+  "preparation_state": "ready",
+  "results": [
+    {
+      "state": "visual_revision_requested",
+      "human_decision": "revise",
+      "result_id": "866dcfd3ce88475ca68d6a5682688fed",
+      "review_categories": [
+        "human",
+        "technical",
+        "visual"
+      ]
+    }
+  ],
+  "recorded_scope": "Live shot context after technical, visual and human review; failed visual acceptance."
+}

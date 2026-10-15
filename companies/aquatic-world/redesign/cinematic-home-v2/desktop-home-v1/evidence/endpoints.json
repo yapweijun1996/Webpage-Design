@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "requestedTime": 10,
+      "paintedMediaTime": 10,
+      "sourceFrameIndex": 240,
+      "file": "endpoint-last.png"
+    },
+    {
+      "requestedTime": 0,
+      "paintedMediaTime": 0,
+      "sourceFrameIndex": 0,
+      "file": "endpoint-first.png"
+    }
+  ],
+  "pausedExactEndpoints": true
+}

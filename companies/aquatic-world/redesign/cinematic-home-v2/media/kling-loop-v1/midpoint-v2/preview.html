@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aquatic World — Midpoint Composition v2</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+<main>
+  <div class="heading">
+    <p class="label">Static composition review · 14 October 2026</p>
+    <h1>Aquatic World — the visible swim</h1>
+    <p class="intro">Refined navigation and phone copy, with one visible angelfish in each independent composition. The route is a proposed body-center path; these stills do not establish natural motion or a seamless loop.</p>
+    <div class="controls" aria-label="Composition review controls">
+      <button type="button" id="scene-toggle" aria-pressed="false">Show concealed endpoint</button>
+      <button type="button" id="route-toggle" aria-pressed="false">Show proposed route</button>
+      <span class="state" aria-live="polite">Midpoint · fish visible</span>
+    </div>
+  </div>
+  <div class="board">
+    <section class="desktop-panel">
+      <p class="label">Desktop · midpoint</p>
+      <div class="hero desktop" role="img" aria-label="Desktop static design, with a silver angelfish in the right water and copy at left">
+        <img class="habitat" src="landscape-midpoint.png" data-midpoint="landscape-midpoint.png" data-endpoint="../landscape-endpoint.png" alt="">
+        <div class="bar" aria-hidden="true">
+          <span class="brand">AQUATIC WORLD</span>
+          <span class="nav"><span class="active">Home</span><span>Collections</span><span>Our Story</span><span>Quality</span><span>Contact</span></span>
+        </div>
+        <div class="copy" aria-hidden="true">
+          <p class="eyebrow">FISH · PLANTS · DRIFTWOOD</p>
+          <p class="title">A world beneath<br>the surface.</p>
+          <p class="description">Discover ornamental fish, aquatic plants and natural driftwood.</p>
+          <span class="cta">Explore the collections <span>→</span></span>
+        </div>
+      </div>
+      <p class="note">Fish fin span ≈ 25% of source height. It emerges from the right root pocket, follows a short leftward arc, turns into depth and returns behind the same pocket. Copy stays outside the visible swim corridor.</p>
+    </section>
+    <section class="phone-panel">
+      <p class="label">Phone · midpoint</p>
+      <div class="hero phone" role="img" aria-label="Phone static design, with a silver angelfish below the upper arch and copy lower down">
+        <img class="habitat" src="portrait-midpoint.png" data-midpoint="portrait-midpoint.png" data-endpoint="../portrait-endpoint.png" alt="">
+        <div class="bar" aria-hidden="true"><span class="brand">AQUATIC WORLD</span><span class="menu">Menu <span class="menu-icon"><i></i><i></i></span></span></div>
+        <div class="copy" aria-hidden="true">
+          <p class="eyebrow">FISH · PLANTS · DRIFTWOOD</p>
+          <p class="title">A world beneath<br>the surface.</p>
+          <p class="description">Discover ornamental fish, aquatic plants and natural driftwood.</p>
+          <span class="cta">Explore the collections <span>→</span></span>
+        </div>
+      </div>
+      <p class="note">Fish fin span ≈ 18% of source height. An independent upper-middle arc returns to the arch pocket. The lower reading block is raised, leaving room below the action and below the fish.</p>
+    </section>
+  </div>
+  <section class="review-notes">
+    <h2>Proposed ten-second route</h2>
+    <ol>
+      <li><strong>0–1s:</strong> fish concealed behind the root-and-leaf pocket.</li>
+      <li><strong>1–4s:</strong> progressive emergence, then a relaxed forward swim to the shown midpoint.</li>
+      <li><strong>4–7s:</strong> a gradual turn into depth. The full fin envelope stays clear of the navigation and reading areas.</li>
+      <li><strong>7–9s:</strong> forward travel back behind the same pocket; occlusion covers body and fins progressively.</li>
+      <li><strong>9–10s:</strong> fish fully concealed while subtle water and leaves remain alive.</li>
+    </ol>
+    <p class="note">Gold arrows show a schematic body-center path. The green box marks the intended fully visible fin corridor; partial emergence/return occurs at the pocket. The dashed fish box is an approximate manual visual bound, not automated anatomy detection. Timing and speed remain to be tested in a future film.</p>
+    <p class="privacy">Static layout specimens only. Brand, navigation, Menu and collection action are decorative. The review toggles work locally; no movie, form, provider request or website release is included.</p>
+    <div class="links"><a href="?focus=landscape">Desktop composition</a><a href="?focus=portrait">Phone composition</a><a href="?focus=landscape&amp;route=1">Desktop route</a><a href="?focus=portrait&amp;route=1">Phone route</a><a href="../preview.html">Original endpoint board</a><a href="README.md">Notes and evidence</a></div>
+  </section>
+</main>
+<script src="preview.js"></script>
+</body>
+</html>

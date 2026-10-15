@@ -1,5 +1,15 @@
 # Aquatic World — Concealed-Fish Endpoint Stills v1
 
+The follow-up [midpoint composition v2](midpoint-v2/README.md) adds desktop/phone fish-visible stills, refined Top bars and raised phone copy, with route overlays and seven browser viewport checks. The user accepted this static scale/route/UI placement and authorized US$3 / at most two new Kling requests. [Trial execution v2](trial-v2/README.md) records one completed US$1.12 landscape take, rejected for artificial fish and an almost static habitat. Portrait and retries are stopped; the revised scene brief is unsubmitted. This original endpoint board and its image/v1-plan/quote pins remain preserved.
+
+The latest [living-ecosystem stills v3](ecosystem-v3/README.md), prepared 2026-10-15, replace the single-inhabitant design direction with independent fish-group compositions and whole-habitat motion intentions. Static quality/crop checks cover seven viewports; subsequent static acceptance and trial preparation are linked below. No new video request or runtime release occurred.
+
+The subsequent [ecosystem trial preparation v3](trial-preparation-v3/README.md) records the accepted static direction, two ready populated-first-frame-only plans and live US$1.12-per-take quotes. A new desktop-only US$1.50 ceiling is proposed, not authorized; no new video has been submitted.
+
+The current [ecosystem landscape trial v3](trial-v3/README.md) completed one authorized desktop take at actual US$1.12. The user approved the exact raw movie's visual effect and creative direction. Four complete browser plays and independent source-frame inspection retain copy intrusion and raw loop reset as Home integration gaps. Phone/retries stopped and website runtime remains unchanged.
+
+The later [local desktop Home](../../desktop-home-v1/README.md) is separately authorized. Its HTML/CSS reading region protects copy while the raw fish route and visible loop reset remain unchanged. The adaptation incurs zero new media fees and preserves the published runtimes.
+
 Prepared **2026-10-14, Asia/Singapore**. The user requested landscape and portrait endpoint stills using wood/plant occlusion, followed by new quotes, **without paid video generation**.
 
 ## Selected stills

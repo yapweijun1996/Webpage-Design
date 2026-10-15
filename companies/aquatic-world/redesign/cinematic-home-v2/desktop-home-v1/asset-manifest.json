@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-15",
+  "source_movie": "../media/kling-loop-v1/trial-v3/landscape-raw.mp4",
+  "source_movie_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "movie_edited": false,
+  "portrait_video": null,
+  "poster_source": "Accepted ecosystem-v3 stills and exact landscape provider frame",
+  "category_source": "../details/README.md",
+  "baseline_source": "../../../round-9-refinement/codex/demo",
+  "new_media_cost_usd": "0.00",
+  "files": [
+    {
+      "path": "demo/assets/ecosystem/collection-aquatic-plants.png",
+      "sha256": "d4dd1c7e04e0bfb26956cd3f17f5ad79fb0f9ee1b2d4a81dce7f6d9a3f6f5d4b",
+      "bytes": 2899303,
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "demo/assets/ecosystem/collection-driftwood.png",
+      "sha256": "b31f12aa550772f5fa2bbd251a0d6e59356512629ee6ed677d0a6876163a874f",
+      "bytes": 2671303,
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "demo/assets/ecosystem/collection-ornamental-fish.png",
+      "sha256": "70a39d5359da39d9d07a4e771da723baf0b3fa2d5c9b16f9221cc6a71a365617",
+      "bytes": 2214777,
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "demo/assets/ecosystem/landscape-poster.png",
+      "sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+      "bytes": 1593870,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "demo/assets/ecosystem/landscape.mp4",
+      "sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+      "bytes": 43340361
+    },
+    {
+      "path": "demo/assets/ecosystem/portrait-poster.png",
+      "sha256": "79b2a54f644989bda01321cb7b568a6ae6a755720f7cee4efae8855adaa71fb3",
+      "bytes": 2559233,
+      "dimensions": [
+        941,
+        1672
+      ]
+    }
+  ]
+}

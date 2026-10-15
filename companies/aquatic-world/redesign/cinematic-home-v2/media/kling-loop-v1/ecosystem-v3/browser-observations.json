@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "viewports": [
+    {
+      "orientation": "landscape",
+      "name": "desktop-still",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scrollWidth": 1440,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "right": 1440,
+        "bottom": 900
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 84.953125,
+        "right": 1440,
+        "bottom": 84.953125
+      },
+      "brand": {
+        "x": 80.625,
+        "y": 26.921875,
+        "width": 250.859375,
+        "height": 31.09375,
+        "right": 331.484375,
+        "bottom": 58.015625
+      },
+      "copy": {
+        "x": 80.625,
+        "y": 270,
+        "width": 576,
+        "height": 340.359375,
+        "right": 656.625,
+        "bottom": 610.359375
+      },
+      "action": {
+        "x": 80.625,
+        "y": 556.140625,
+        "width": 237.90625,
+        "height": 54.21875,
+        "right": 318.53125,
+        "bottom": 610.359375
+      },
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "complete": true
+      }
+    },
+    {
+      "orientation": "landscape",
+      "name": "desktop-1280",
+      "viewport": [
+        1280,
+        800
+      ],
+      "scrollWidth": 1280,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800,
+        "right": 1280,
+        "bottom": 800
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 75.484375,
+        "right": 1280,
+        "bottom": 75.484375
+      },
+      "brand": {
+        "x": 71.671875,
+        "y": 23.90625,
+        "width": 222.984375,
+        "height": 27.65625,
+        "right": 294.65625,
+        "bottom": 51.5625
+      },
+      "copy": {
+        "x": 71.671875,
+        "y": 240,
+        "width": 512,
+        "height": 302.75,
+        "right": 583.671875,
+        "bottom": 542.75
+      },
+      "action": {
+        "x": 71.671875,
+        "y": 494.328125,
+        "width": 214.296875,
+        "height": 48.421875,
+        "right": 285.96875,
+        "bottom": 542.75
+      },
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "complete": true
+      }
+    },
+    {
+      "orientation": "landscape",
+      "name": "phone-landscape",
+      "viewport": [
+        844,
+        390
+      ],
+      "scrollWidth": 844,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 390,
+        "right": 844,
+        "bottom": 390
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 54,
+        "right": 844,
+        "bottom": 54
+      },
+      "brand": {
+        "x": 47.25,
+        "y": 17.40625,
+        "width": 154.859375,
+        "height": 19.1875,
+        "right": 202.109375,
+        "bottom": 36.59375
+      },
+      "copy": {
+        "x": 47.25,
+        "y": 105.296875,
+        "width": 371.359375,
+        "height": 203.34375,
+        "right": 418.609375,
+        "bottom": 308.640625
+      },
+      "action": {
+        "x": 47.25,
+        "y": 260.640625,
+        "width": 184.5,
+        "height": 48,
+        "right": 231.75,
+        "bottom": 308.640625
+      },
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "complete": true
+      }
+    },
+    {
+      "orientation": "portrait",
+      "name": "phone-still",
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 390,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "right": 390,
+        "bottom": 844
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 73.625,
+        "right": 390,
+        "bottom": 73.625
+      },
+      "brand": {
+        "x": 23.984375,
+        "y": 27.21875,
+        "width": 152.671875,
+        "height": 19.171875,
+        "right": 176.65625,
+        "bottom": 46.390625
+      },
+      "copy": {
+        "x": 23.984375,
+        "y": 509.640625,
+        "width": 342.015625,
+        "height": 233.09375,
+        "right": 366,
+        "bottom": 742.734375
+      },
+      "action": {
+        "x": 23.984375,
+        "y": 693.25,
+        "width": 342.015625,
+        "height": 49.484375,
+        "right": 366,
+        "bottom": 742.734375
+      },
+      "image": {
+        "width": 941,
+        "height": 1672,
+        "complete": true
+      },
+      "menu": {
+        "x": 310.578125,
+        "y": 14.8125,
+        "width": 55.4375,
+        "height": 44,
+        "right": 366.015625,
+        "bottom": 58.8125
+      }
+    },
+    {
+      "orientation": "portrait",
+      "name": "phone-short",
+      "viewport": [
+        390,
+        667
+      ],
+      "scrollWidth": 390,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 667,
+        "right": 390,
+        "bottom": 667
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 73.625,
+        "right": 390,
+        "bottom": 73.625
+      },
+      "brand": {
+        "x": 23.984375,
+        "y": 27.21875,
+        "width": 152.671875,
+        "height": 19.171875,
+        "right": 176.65625,
+        "bottom": 46.390625
+      },
+      "copy": {
+        "x": 23.984375,
+        "y": 353.875,
+        "width": 342.015625,
+        "height": 233.09375,
+        "right": 366,
+        "bottom": 586.96875
+      },
+      "action": {
+        "x": 23.984375,
+        "y": 537.484375,
+        "width": 342.015625,
+        "height": 49.484375,
+        "right": 366,
+        "bottom": 586.96875
+      },
+      "image": {
+        "width": 941,
+        "height": 1672,
+        "complete": true
+      },
+      "menu": {
+        "x": 310.578125,
+        "y": 14.8125,
+        "width": 55.4375,
+        "height": 44,
+        "right": 366.015625,
+        "bottom": 58.8125
+      }
+    },
+    {
+      "orientation": "portrait",
+      "name": "phone-narrow",
+      "viewport": [
+        320,
+        800
+      ],
+      "scrollWidth": 320,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 800,
+        "right": 320,
+        "bottom": 800
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 68.3125,
+        "right": 320,
+        "bottom": 68.3125
+      },
+      "brand": {
+        "x": 19.671875,
+        "y": 26.28125,
+        "width": 125.28125,
+        "height": 15.75,
+        "right": 144.953125,
+        "bottom": 42.03125
+      },
+      "copy": {
+        "x": 19.671875,
+        "y": 499.03125,
+        "width": 280.625,
+        "height": 204.96875,
+        "right": 300.296875,
+        "bottom": 704
+      },
+      "action": {
+        "x": 19.671875,
+        "y": 656,
+        "width": 280.625,
+        "height": 48,
+        "right": 300.296875,
+        "bottom": 704
+      },
+      "image": {
+        "width": 941,
+        "height": 1672,
+        "complete": true
+      },
+      "menu": {
+        "x": 251.0625,
+        "y": 12.15625,
+        "width": 49.265625,
+        "height": 44,
+        "right": 300.328125,
+        "bottom": 56.15625
+      }
+    },
+    {
+      "orientation": "portrait",
+      "name": "phone-narrow-short",
+      "viewport": [
+        320,
+        568
+      ],
+      "scrollWidth": 320,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "right": 320,
+        "bottom": 568
+      },
+      "bar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 68.3125,
+        "right": 320,
+        "bottom": 68.3125
+      },
+      "brand": {
+        "x": 19.671875,
+        "y": 26.28125,
+        "width": 125.28125,
+        "height": 15.75,
+        "right": 144.953125,
+        "bottom": 42.03125
+      },
+      "copy": {
+        "x": 19.671875,
+        "y": 323.28125,
+        "width": 280.625,
+        "height": 204.96875,
+        "right": 300.296875,
+        "bottom": 528.25
+      },
+      "action": {
+        "x": 19.671875,
+        "y": 480.25,
+        "width": 280.625,
+        "height": 48,
+        "right": 300.296875,
+        "bottom": 528.25
+      },
+      "image": {
+        "width": 941,
+        "height": 1672,
+        "complete": true
+      },
+      "menu": {
+        "x": 251.0625,
+        "y": 12.15625,
+        "width": 49.265625,
+        "height": 44,
+        "right": 300.328125,
+        "bottom": 56.15625
+      }
+    }
+  ],
+  "review_controls": "motion open/close, clean scene open/close, Space keyboard activation checked",
+  "mobile_board_scroll": [
+    {
+      "y": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2042
+    },
+    {
+      "y": 599,
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2042
+    },
+    {
+      "y": 1198,
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2042
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "externalRequests": [],
+  "scope": "Static review page only; no video playback, anatomy-in-motion, physical device or live-site navigation acceptance."
+}

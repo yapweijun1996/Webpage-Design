@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aquatic World — Ecosystem Trial v3</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+  <style>
+    .board{display:block}.hero{width:100%;aspect-ratio:16/10}.hero>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+    .review-player{display:block;width:min(100%,1280px);height:auto;margin:18px 0;background:#071714}.raw{margin-top:32px}
+    body.focus .review-controls{position:fixed;bottom:16px;right:16px;z-index:5;display:flex;gap:8px}
+    body.focus .review-controls button{font-size:12px;min-height:36px;padding:6px 12px;background:rgba(7,23,20,.82)}
+    body.focus.capture .review-controls{display:none}
+    body:not(.focus) .review-controls{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}
+  </style>
+</head>
+<body>
+<main>
+  <div class="heading">
+    <p class="label">Ecosystem v3 · visual gate failed · no further paid requests</p>
+    <h1>Aquatic World — living ecosystem trial</h1>
+    <p class="intro">One desktop request was authorized under a US$1.50 ceiling. The completed desktop request cost US$1.12. This take fails the looping Home gate: smaller fish enter the copy region and the raw join resets the fish community/surface. Continuous plant-tip performance is not fully established. Phone and retries are not authorized. The raw take plays at 1× when requested; fish, water/refraction, plants and repeated joins require inspection. Navigation and collection action are decorative specimens.</p>
+  </div>
+  <div class="review-controls">
+    <button type="button" id="playback-toggle">Play raw movie</button>
+    <button type="button" id="restart">Restart at 0s</button>
+    <button type="button" id="copy-toggle" aria-pressed="false">Hide copy overlay</button>
+  </div>
+  <div class="board">
+    <section class="desktop-panel">
+      <div class="hero desktop" aria-label="Desktop film composition with the accepted typography">
+        <video id="scene" src="landscape-raw.mp4" poster="../trial-preparation-v3/landscape-first-frame.png" preload="metadata" muted loop playsinline aria-label="Raw ecosystem landscape trial, failed looping Home gate"></video>
+        <div class="bar" aria-hidden="true"><span class="brand">AQUATIC WORLD</span><span class="nav"><span class="active">Home</span><span>Collections</span><span>Our Story</span><span>Quality</span><span>Contact</span></span></div>
+        <div class="copy" aria-hidden="true"><p class="eyebrow">FISH · PLANTS · DRIFTWOOD</p><p class="title">A world beneath<br>the surface.</p><p class="description">Discover ornamental fish, aquatic plants and natural driftwood.</p><span class="cta">Explore the collections <span>→</span></span></div>
+      </div>
+    </section>
+  </div>
+  <section class="raw review-notes">
+    <h2>Full raw frame and scrub controls</h2>
+    <p class="note">The player below fits the complete 16:9 source without the Home cover crop. Both players use the same untouched provider file. No retiming, reverse playback, interpolation or crossfade is applied.</p>
+    <video class="review-player" src="landscape-raw.mp4" controls muted playsinline preload="metadata" aria-label="Full raw landscape movie"></video>
+    <div class="links"><a href="?focus=landscape">Desktop focus at 1×</a><a href="../ecosystem-v3/preview.html">Accepted ecosystem static comparison</a><a href="../trial-preparation-v3/README.md">Bound trial plan</a><a href="README.md">Trial state and evidence</a></div>
+  </section>
+</main>
+<script>
+const params=new URLSearchParams(location.search);
+if(params.get('focus')==='landscape'){document.body.classList.add('focus');document.body.dataset.focus='landscape';}
+if(params.get('capture')==='1')document.body.classList.add('capture');
+const movie=document.querySelector('#scene');
+movie.playbackRate=1;
+document.querySelector('#playback-toggle').addEventListener('click',()=>{if(movie.paused)movie.play();else movie.pause();});
+movie.addEventListener('pause',()=>{document.querySelector('#playback-toggle').textContent='Play raw movie';});
+movie.addEventListener('play',()=>{document.querySelector('#playback-toggle').textContent='Pause raw movie';});
+document.querySelector('#restart').addEventListener('click',()=>{movie.currentTime=0;movie.play();});
+document.querySelector('#copy-toggle').addEventListener('click',event=>{const hidden=document.querySelector('.copy').style.visibility!=='hidden';document.querySelector('.copy').style.visibility=hidden?'hidden':'visible';event.currentTarget.setAttribute('aria-pressed',String(hidden));event.currentTarget.textContent=hidden?'Show copy overlay':'Hide copy overlay';});
+</script>
+</body>
+</html>

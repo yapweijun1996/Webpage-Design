@@ -1,0 +1,14 @@
+{
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-landscape-ecosystem-v3",
+  "revision": 1,
+  "artifact_id": "7add213fb8f04d05be421460519fa4e0",
+  "output": {
+    "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/4b/4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af.mp4",
+    "sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+    "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_kling_landscape_ecosystem_trial_20261015_v3.mp4",
+    "asset": null
+  },
+  "state": "awaiting_inspection"
+}

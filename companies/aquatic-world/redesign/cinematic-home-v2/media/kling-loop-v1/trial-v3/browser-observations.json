@@ -1,0 +1,5999 @@
+{
+  "initial": {
+    "paused": true,
+    "currentTime": 0
+  },
+  "playback": {
+    "duration": 10.041667,
+    "width": 1920,
+    "height": 1080,
+    "rate": 1,
+    "currentTime": 0.007101,
+    "paused": false,
+    "wallElapsed": 40518.19999998808,
+    "frames": [
+      {
+        "iteration": 0,
+        "time": 0,
+        "wall": 298.5,
+        "presentedFrames": 1
+      },
+      {
+        "iteration": 0,
+        "time": 0.041667,
+        "wall": 331.9,
+        "presentedFrames": 2
+      },
+      {
+        "iteration": 0,
+        "time": 0.083333,
+        "wall": 381.9,
+        "presentedFrames": 3
+      },
+      {
+        "iteration": 0,
+        "time": 0.125,
+        "wall": 431.9,
+        "presentedFrames": 4
+      },
+      {
+        "iteration": 0,
+        "time": 0.166667,
+        "wall": 465.2,
+        "presentedFrames": 5
+      },
+      {
+        "iteration": 0,
+        "time": 0.208333,
+        "wall": 515.1,
+        "presentedFrames": 6
+      },
+      {
+        "iteration": 0,
+        "time": 0.25,
+        "wall": 548.5,
+        "presentedFrames": 7
+      },
+      {
+        "iteration": 0,
+        "time": 0.291667,
+        "wall": 598.5,
+        "presentedFrames": 8
+      },
+      {
+        "iteration": 0,
+        "time": 0.333333,
+        "wall": 631.8,
+        "presentedFrames": 9
+      },
+      {
+        "iteration": 0,
+        "time": 0.375,
+        "wall": 681.8,
+        "presentedFrames": 10
+      },
+      {
+        "iteration": 0,
+        "time": 0.416667,
+        "wall": 715.2,
+        "presentedFrames": 11
+      },
+      {
+        "iteration": 0,
+        "time": 0.458333,
+        "wall": 765.2,
+        "presentedFrames": 12
+      },
+      {
+        "iteration": 0,
+        "time": 0.5,
+        "wall": 798.5,
+        "presentedFrames": 13
+      },
+      {
+        "iteration": 0,
+        "time": 0.541667,
+        "wall": 848.5,
+        "presentedFrames": 14
+      },
+      {
+        "iteration": 0,
+        "time": 0.583333,
+        "wall": 881.9,
+        "presentedFrames": 15
+      },
+      {
+        "iteration": 0,
+        "time": 0.625,
+        "wall": 931.8,
+        "presentedFrames": 16
+      },
+      {
+        "iteration": 0,
+        "time": 0.666667,
+        "wall": 965.2,
+        "presentedFrames": 17
+      },
+      {
+        "iteration": 0,
+        "time": 0.708333,
+        "wall": 1015.2,
+        "presentedFrames": 18
+      },
+      {
+        "iteration": 0,
+        "time": 0.75,
+        "wall": 1048.5,
+        "presentedFrames": 19
+      },
+      {
+        "iteration": 0,
+        "time": 0.791667,
+        "wall": 1098.5,
+        "presentedFrames": 20
+      },
+      {
+        "iteration": 0,
+        "time": 0.833333,
+        "wall": 1131.8,
+        "presentedFrames": 21
+      },
+      {
+        "iteration": 0,
+        "time": 0.875,
+        "wall": 1181.8,
+        "presentedFrames": 22
+      },
+      {
+        "iteration": 0,
+        "time": 0.916667,
+        "wall": 1215.1,
+        "presentedFrames": 23
+      },
+      {
+        "iteration": 0,
+        "time": 0.958333,
+        "wall": 1265.2,
+        "presentedFrames": 24
+      },
+      {
+        "iteration": 0,
+        "time": 1,
+        "wall": 1298.5,
+        "presentedFrames": 25
+      },
+      {
+        "iteration": 0,
+        "time": 1.041667,
+        "wall": 1348.5,
+        "presentedFrames": 26
+      },
+      {
+        "iteration": 0,
+        "time": 1.083333,
+        "wall": 1381.8,
+        "presentedFrames": 27
+      },
+      {
+        "iteration": 0,
+        "time": 1.125,
+        "wall": 1431.8,
+        "presentedFrames": 28
+      },
+      {
+        "iteration": 0,
+        "time": 1.166667,
+        "wall": 1465.2,
+        "presentedFrames": 29
+      },
+      {
+        "iteration": 0,
+        "time": 1.208333,
+        "wall": 1515.2,
+        "presentedFrames": 30
+      },
+      {
+        "iteration": 0,
+        "time": 1.25,
+        "wall": 1548.5,
+        "presentedFrames": 31
+      },
+      {
+        "iteration": 0,
+        "time": 1.291667,
+        "wall": 1598.5,
+        "presentedFrames": 32
+      },
+      {
+        "iteration": 0,
+        "time": 1.333333,
+        "wall": 1631.8,
+        "presentedFrames": 33
+      },
+      {
+        "iteration": 0,
+        "time": 1.375,
+        "wall": 1681.7,
+        "presentedFrames": 34
+      },
+      {
+        "iteration": 0,
+        "time": 1.416667,
+        "wall": 1715.2,
+        "presentedFrames": 35
+      },
+      {
+        "iteration": 0,
+        "time": 1.458333,
+        "wall": 1765.1,
+        "presentedFrames": 36
+      },
+      {
+        "iteration": 0,
+        "time": 1.5,
+        "wall": 1798.4,
+        "presentedFrames": 37
+      },
+      {
+        "iteration": 0,
+        "time": 1.541667,
+        "wall": 1848.5,
+        "presentedFrames": 38
+      },
+      {
+        "iteration": 0,
+        "time": 1.583333,
+        "wall": 1881.8,
+        "presentedFrames": 39
+      },
+      {
+        "iteration": 0,
+        "time": 1.625,
+        "wall": 1931.8,
+        "presentedFrames": 40
+      },
+      {
+        "iteration": 0,
+        "time": 1.666667,
+        "wall": 1965.1,
+        "presentedFrames": 41
+      },
+      {
+        "iteration": 0,
+        "time": 1.708333,
+        "wall": 2015.1,
+        "presentedFrames": 42
+      },
+      {
+        "iteration": 0,
+        "time": 1.75,
+        "wall": 2048.5,
+        "presentedFrames": 43
+      },
+      {
+        "iteration": 0,
+        "time": 1.791667,
+        "wall": 2098.4,
+        "presentedFrames": 44
+      },
+      {
+        "iteration": 0,
+        "time": 1.833333,
+        "wall": 2131.8,
+        "presentedFrames": 45
+      },
+      {
+        "iteration": 0,
+        "time": 1.875,
+        "wall": 2181.8,
+        "presentedFrames": 46
+      },
+      {
+        "iteration": 0,
+        "time": 1.916667,
+        "wall": 2215.1,
+        "presentedFrames": 47
+      },
+      {
+        "iteration": 0,
+        "time": 1.958333,
+        "wall": 2265.1,
+        "presentedFrames": 48
+      },
+      {
+        "iteration": 0,
+        "time": 2,
+        "wall": 2298.4,
+        "presentedFrames": 49
+      },
+      {
+        "iteration": 0,
+        "time": 2.041667,
+        "wall": 2348.4,
+        "presentedFrames": 50
+      },
+      {
+        "iteration": 0,
+        "time": 2.083333,
+        "wall": 2381.7,
+        "presentedFrames": 51
+      },
+      {
+        "iteration": 0,
+        "time": 2.125,
+        "wall": 2431.8,
+        "presentedFrames": 52
+      },
+      {
+        "iteration": 0,
+        "time": 2.166667,
+        "wall": 2465.1,
+        "presentedFrames": 53
+      },
+      {
+        "iteration": 0,
+        "time": 2.208333,
+        "wall": 2515.1,
+        "presentedFrames": 54
+      },
+      {
+        "iteration": 0,
+        "time": 2.25,
+        "wall": 2548.4,
+        "presentedFrames": 55
+      },
+      {
+        "iteration": 0,
+        "time": 2.291667,
+        "wall": 2598.4,
+        "presentedFrames": 56
+      },
+      {
+        "iteration": 0,
+        "time": 2.333333,
+        "wall": 2631.7,
+        "presentedFrames": 57
+      },
+      {
+        "iteration": 0,
+        "time": 2.375,
+        "wall": 2681.8,
+        "presentedFrames": 58
+      },
+      {
+        "iteration": 0,
+        "time": 2.416667,
+        "wall": 2715.1,
+        "presentedFrames": 59
+      },
+      {
+        "iteration": 0,
+        "time": 2.458333,
+        "wall": 2765.1,
+        "presentedFrames": 60
+      },
+      {
+        "iteration": 0,
+        "time": 2.5,
+        "wall": 2798.4,
+        "presentedFrames": 61
+      },
+      {
+        "iteration": 0,
+        "time": 2.541667,
+        "wall": 2848.4,
+        "presentedFrames": 62
+      },
+      {
+        "iteration": 0,
+        "time": 2.583333,
+        "wall": 2881.7,
+        "presentedFrames": 63
+      },
+      {
+        "iteration": 0,
+        "time": 2.625,
+        "wall": 2931.8,
+        "presentedFrames": 64
+      },
+      {
+        "iteration": 0,
+        "time": 2.666667,
+        "wall": 2965.1,
+        "presentedFrames": 65
+      },
+      {
+        "iteration": 0,
+        "time": 2.708333,
+        "wall": 3015,
+        "presentedFrames": 66
+      },
+      {
+        "iteration": 0,
+        "time": 2.75,
+        "wall": 3048.4,
+        "presentedFrames": 67
+      },
+      {
+        "iteration": 0,
+        "time": 2.791667,
+        "wall": 3098.4,
+        "presentedFrames": 68
+      },
+      {
+        "iteration": 0,
+        "time": 2.833333,
+        "wall": 3131.7,
+        "presentedFrames": 69
+      },
+      {
+        "iteration": 0,
+        "time": 2.875,
+        "wall": 3181.8,
+        "presentedFrames": 70
+      },
+      {
+        "iteration": 0,
+        "time": 2.916667,
+        "wall": 3215,
+        "presentedFrames": 71
+      },
+      {
+        "iteration": 0,
+        "time": 2.958333,
+        "wall": 3265.1,
+        "presentedFrames": 72
+      },
+      {
+        "iteration": 0,
+        "time": 3,
+        "wall": 3298.4,
+        "presentedFrames": 73
+      },
+      {
+        "iteration": 0,
+        "time": 3.041667,
+        "wall": 3348.4,
+        "presentedFrames": 74
+      },
+      {
+        "iteration": 0,
+        "time": 3.083333,
+        "wall": 3381.7,
+        "presentedFrames": 75
+      },
+      {
+        "iteration": 0,
+        "time": 3.125,
+        "wall": 3431.7,
+        "presentedFrames": 76
+      },
+      {
+        "iteration": 0,
+        "time": 3.166667,
+        "wall": 3465.1,
+        "presentedFrames": 77
+      },
+      {
+        "iteration": 0,
+        "time": 3.208333,
+        "wall": 3515.1,
+        "presentedFrames": 78
+      },
+      {
+        "iteration": 0,
+        "time": 3.25,
+        "wall": 3548.4,
+        "presentedFrames": 79
+      },
+      {
+        "iteration": 0,
+        "time": 3.291667,
+        "wall": 3598.4,
+        "presentedFrames": 80
+      },
+      {
+        "iteration": 0,
+        "time": 3.333333,
+        "wall": 3631.7,
+        "presentedFrames": 81
+      },
+      {
+        "iteration": 0,
+        "time": 3.375,
+        "wall": 3681.7,
+        "presentedFrames": 82
+      },
+      {
+        "iteration": 0,
+        "time": 3.416667,
+        "wall": 3715,
+        "presentedFrames": 83
+      },
+      {
+        "iteration": 0,
+        "time": 3.458333,
+        "wall": 3765,
+        "presentedFrames": 84
+      },
+      {
+        "iteration": 0,
+        "time": 3.5,
+        "wall": 3798.4,
+        "presentedFrames": 85
+      },
+      {
+        "iteration": 0,
+        "time": 3.541667,
+        "wall": 3848.4,
+        "presentedFrames": 86
+      },
+      {
+        "iteration": 0,
+        "time": 3.583333,
+        "wall": 3881.7,
+        "presentedFrames": 87
+      },
+      {
+        "iteration": 0,
+        "time": 3.625,
+        "wall": 3931.8,
+        "presentedFrames": 88
+      },
+      {
+        "iteration": 0,
+        "time": 3.666667,
+        "wall": 3965,
+        "presentedFrames": 89
+      },
+      {
+        "iteration": 0,
+        "time": 3.708333,
+        "wall": 4015,
+        "presentedFrames": 90
+      },
+      {
+        "iteration": 0,
+        "time": 3.75,
+        "wall": 4048.4,
+        "presentedFrames": 91
+      },
+      {
+        "iteration": 0,
+        "time": 3.791667,
+        "wall": 4098.4,
+        "presentedFrames": 92
+      },
+      {
+        "iteration": 0,
+        "time": 3.833333,
+        "wall": 4131.7,
+        "presentedFrames": 93
+      },
+      {
+        "iteration": 0,
+        "time": 3.875,
+        "wall": 4181.7,
+        "presentedFrames": 94
+      },
+      {
+        "iteration": 0,
+        "time": 3.916667,
+        "wall": 4215,
+        "presentedFrames": 95
+      },
+      {
+        "iteration": 0,
+        "time": 3.958333,
+        "wall": 4265,
+        "presentedFrames": 96
+      },
+      {
+        "iteration": 0,
+        "time": 4,
+        "wall": 4298.3,
+        "presentedFrames": 97
+      },
+      {
+        "iteration": 0,
+        "time": 4.041667,
+        "wall": 4348.4,
+        "presentedFrames": 98
+      },
+      {
+        "iteration": 0,
+        "time": 4.083333,
+        "wall": 4381.7,
+        "presentedFrames": 99
+      },
+      {
+        "iteration": 0,
+        "time": 4.125,
+        "wall": 4431.6,
+        "presentedFrames": 100
+      },
+      {
+        "iteration": 0,
+        "time": 4.166667,
+        "wall": 4465,
+        "presentedFrames": 101
+      },
+      {
+        "iteration": 0,
+        "time": 4.208333,
+        "wall": 4515,
+        "presentedFrames": 102
+      },
+      {
+        "iteration": 0,
+        "time": 4.25,
+        "wall": 4548.4,
+        "presentedFrames": 103
+      },
+      {
+        "iteration": 0,
+        "time": 4.291667,
+        "wall": 4598.4,
+        "presentedFrames": 104
+      },
+      {
+        "iteration": 0,
+        "time": 4.333333,
+        "wall": 4631.7,
+        "presentedFrames": 105
+      },
+      {
+        "iteration": 0,
+        "time": 4.375,
+        "wall": 4681.6,
+        "presentedFrames": 106
+      },
+      {
+        "iteration": 0,
+        "time": 4.416667,
+        "wall": 4715,
+        "presentedFrames": 107
+      },
+      {
+        "iteration": 0,
+        "time": 4.458333,
+        "wall": 4765,
+        "presentedFrames": 108
+      },
+      {
+        "iteration": 0,
+        "time": 4.5,
+        "wall": 4798.3,
+        "presentedFrames": 109
+      },
+      {
+        "iteration": 0,
+        "time": 4.541667,
+        "wall": 4848.3,
+        "presentedFrames": 110
+      },
+      {
+        "iteration": 0,
+        "time": 4.583333,
+        "wall": 4881.7,
+        "presentedFrames": 111
+      },
+      {
+        "iteration": 0,
+        "time": 4.625,
+        "wall": 4931.6,
+        "presentedFrames": 112
+      },
+      {
+        "iteration": 0,
+        "time": 4.666667,
+        "wall": 4965,
+        "presentedFrames": 113
+      },
+      {
+        "iteration": 0,
+        "time": 4.708333,
+        "wall": 5015,
+        "presentedFrames": 114
+      },
+      {
+        "iteration": 0,
+        "time": 4.75,
+        "wall": 5048.4,
+        "presentedFrames": 115
+      },
+      {
+        "iteration": 0,
+        "time": 4.791667,
+        "wall": 5098.3,
+        "presentedFrames": 116
+      },
+      {
+        "iteration": 0,
+        "time": 4.833333,
+        "wall": 5131.6,
+        "presentedFrames": 117
+      },
+      {
+        "iteration": 0,
+        "time": 4.875,
+        "wall": 5181.7,
+        "presentedFrames": 118
+      },
+      {
+        "iteration": 0,
+        "time": 4.916667,
+        "wall": 5214.9,
+        "presentedFrames": 119
+      },
+      {
+        "iteration": 0,
+        "time": 4.958333,
+        "wall": 5265,
+        "presentedFrames": 120
+      },
+      {
+        "iteration": 0,
+        "time": 5,
+        "wall": 5298.3,
+        "presentedFrames": 121
+      },
+      {
+        "iteration": 0,
+        "time": 5.041667,
+        "wall": 5348.3,
+        "presentedFrames": 122
+      },
+      {
+        "iteration": 0,
+        "time": 5.083333,
+        "wall": 5381.7,
+        "presentedFrames": 123
+      },
+      {
+        "iteration": 0,
+        "time": 5.125,
+        "wall": 5431.7,
+        "presentedFrames": 124
+      },
+      {
+        "iteration": 0,
+        "time": 5.166667,
+        "wall": 5464.9,
+        "presentedFrames": 125
+      },
+      {
+        "iteration": 0,
+        "time": 5.208333,
+        "wall": 5515,
+        "presentedFrames": 126
+      },
+      {
+        "iteration": 0,
+        "time": 5.25,
+        "wall": 5548.4,
+        "presentedFrames": 127
+      },
+      {
+        "iteration": 0,
+        "time": 5.291667,
+        "wall": 5598.3,
+        "presentedFrames": 128
+      },
+      {
+        "iteration": 0,
+        "time": 5.333333,
+        "wall": 5631.6,
+        "presentedFrames": 129
+      },
+      {
+        "iteration": 0,
+        "time": 5.375,
+        "wall": 5681.6,
+        "presentedFrames": 130
+      },
+      {
+        "iteration": 0,
+        "time": 5.416667,
+        "wall": 5715,
+        "presentedFrames": 131
+      },
+      {
+        "iteration": 0,
+        "time": 5.458333,
+        "wall": 5764.9,
+        "presentedFrames": 132
+      },
+      {
+        "iteration": 0,
+        "time": 5.5,
+        "wall": 5798.3,
+        "presentedFrames": 133
+      },
+      {
+        "iteration": 0,
+        "time": 5.541667,
+        "wall": 5848.3,
+        "presentedFrames": 134
+      },
+      {
+        "iteration": 0,
+        "time": 5.583333,
+        "wall": 5881.7,
+        "presentedFrames": 135
+      },
+      {
+        "iteration": 0,
+        "time": 5.625,
+        "wall": 5931.7,
+        "presentedFrames": 136
+      },
+      {
+        "iteration": 0,
+        "time": 5.666667,
+        "wall": 5964.9,
+        "presentedFrames": 137
+      },
+      {
+        "iteration": 0,
+        "time": 5.708333,
+        "wall": 6014.9,
+        "presentedFrames": 138
+      },
+      {
+        "iteration": 0,
+        "time": 5.75,
+        "wall": 6048.3,
+        "presentedFrames": 139
+      },
+      {
+        "iteration": 0,
+        "time": 5.791667,
+        "wall": 6098.2,
+        "presentedFrames": 140
+      },
+      {
+        "iteration": 0,
+        "time": 5.833333,
+        "wall": 6131.6,
+        "presentedFrames": 141
+      },
+      {
+        "iteration": 0,
+        "time": 5.875,
+        "wall": 6181.6,
+        "presentedFrames": 142
+      },
+      {
+        "iteration": 0,
+        "time": 5.916667,
+        "wall": 6215,
+        "presentedFrames": 143
+      },
+      {
+        "iteration": 0,
+        "time": 5.958333,
+        "wall": 6264.9,
+        "presentedFrames": 144
+      },
+      {
+        "iteration": 0,
+        "time": 6,
+        "wall": 6298.3,
+        "presentedFrames": 145
+      },
+      {
+        "iteration": 0,
+        "time": 6.041667,
+        "wall": 6348.3,
+        "presentedFrames": 146
+      },
+      {
+        "iteration": 0,
+        "time": 6.083333,
+        "wall": 6381.7,
+        "presentedFrames": 147
+      },
+      {
+        "iteration": 0,
+        "time": 6.125,
+        "wall": 6431.6,
+        "presentedFrames": 148
+      },
+      {
+        "iteration": 0,
+        "time": 6.166667,
+        "wall": 6464.9,
+        "presentedFrames": 149
+      },
+      {
+        "iteration": 0,
+        "time": 6.208333,
+        "wall": 6498.2,
+        "presentedFrames": 150
+      },
+      {
+        "iteration": 0,
+        "time": 6.25,
+        "wall": 6548.2,
+        "presentedFrames": 151
+      },
+      {
+        "iteration": 0,
+        "time": 6.291667,
+        "wall": 6598.2,
+        "presentedFrames": 152
+      },
+      {
+        "iteration": 0,
+        "time": 6.333333,
+        "wall": 6631.6,
+        "presentedFrames": 153
+      },
+      {
+        "iteration": 0,
+        "time": 6.375,
+        "wall": 6681.5,
+        "presentedFrames": 154
+      },
+      {
+        "iteration": 0,
+        "time": 6.416667,
+        "wall": 6715,
+        "presentedFrames": 155
+      },
+      {
+        "iteration": 0,
+        "time": 6.458333,
+        "wall": 6764.9,
+        "presentedFrames": 156
+      },
+      {
+        "iteration": 0,
+        "time": 6.5,
+        "wall": 6798.3,
+        "presentedFrames": 157
+      },
+      {
+        "iteration": 0,
+        "time": 6.541667,
+        "wall": 6848.2,
+        "presentedFrames": 158
+      },
+      {
+        "iteration": 0,
+        "time": 6.583333,
+        "wall": 6881.6,
+        "presentedFrames": 159
+      },
+      {
+        "iteration": 0,
+        "time": 6.625,
+        "wall": 6931.5,
+        "presentedFrames": 160
+      },
+      {
+        "iteration": 0,
+        "time": 6.666667,
+        "wall": 6964.9,
+        "presentedFrames": 161
+      },
+      {
+        "iteration": 0,
+        "time": 6.708333,
+        "wall": 7014.9,
+        "presentedFrames": 162
+      },
+      {
+        "iteration": 0,
+        "time": 6.75,
+        "wall": 7048.3,
+        "presentedFrames": 163
+      },
+      {
+        "iteration": 0,
+        "time": 6.791667,
+        "wall": 7098.2,
+        "presentedFrames": 164
+      },
+      {
+        "iteration": 0,
+        "time": 6.833333,
+        "wall": 7131.5,
+        "presentedFrames": 165
+      },
+      {
+        "iteration": 0,
+        "time": 6.875,
+        "wall": 7181.5,
+        "presentedFrames": 166
+      },
+      {
+        "iteration": 0,
+        "time": 6.916667,
+        "wall": 7214.9,
+        "presentedFrames": 167
+      },
+      {
+        "iteration": 0,
+        "time": 6.958333,
+        "wall": 7264.9,
+        "presentedFrames": 168
+      },
+      {
+        "iteration": 0,
+        "time": 7,
+        "wall": 7298.3,
+        "presentedFrames": 169
+      },
+      {
+        "iteration": 0,
+        "time": 7.041667,
+        "wall": 7348.3,
+        "presentedFrames": 170
+      },
+      {
+        "iteration": 0,
+        "time": 7.083333,
+        "wall": 7381.6,
+        "presentedFrames": 171
+      },
+      {
+        "iteration": 0,
+        "time": 7.125,
+        "wall": 7431.6,
+        "presentedFrames": 172
+      },
+      {
+        "iteration": 0,
+        "time": 7.166667,
+        "wall": 7464.9,
+        "presentedFrames": 173
+      },
+      {
+        "iteration": 0,
+        "time": 7.208333,
+        "wall": 7514.8,
+        "presentedFrames": 174
+      },
+      {
+        "iteration": 0,
+        "time": 7.25,
+        "wall": 7548.2,
+        "presentedFrames": 175
+      },
+      {
+        "iteration": 0,
+        "time": 7.291667,
+        "wall": 7598.2,
+        "presentedFrames": 176
+      },
+      {
+        "iteration": 0,
+        "time": 7.333333,
+        "wall": 7631.5,
+        "presentedFrames": 177
+      },
+      {
+        "iteration": 0,
+        "time": 7.375,
+        "wall": 7681.5,
+        "presentedFrames": 178
+      },
+      {
+        "iteration": 0,
+        "time": 7.416667,
+        "wall": 7714.9,
+        "presentedFrames": 179
+      },
+      {
+        "iteration": 0,
+        "time": 7.458333,
+        "wall": 7764.9,
+        "presentedFrames": 180
+      },
+      {
+        "iteration": 0,
+        "time": 7.5,
+        "wall": 7798.3,
+        "presentedFrames": 181
+      },
+      {
+        "iteration": 0,
+        "time": 7.541667,
+        "wall": 7848.2,
+        "presentedFrames": 182
+      },
+      {
+        "iteration": 0,
+        "time": 7.583333,
+        "wall": 7881.5,
+        "presentedFrames": 183
+      },
+      {
+        "iteration": 0,
+        "time": 7.625,
+        "wall": 7931.5,
+        "presentedFrames": 184
+      },
+      {
+        "iteration": 0,
+        "time": 7.666667,
+        "wall": 7964.8,
+        "presentedFrames": 185
+      },
+      {
+        "iteration": 0,
+        "time": 7.708333,
+        "wall": 8014.9,
+        "presentedFrames": 186
+      },
+      {
+        "iteration": 0,
+        "time": 7.75,
+        "wall": 8048.2,
+        "presentedFrames": 187
+      },
+      {
+        "iteration": 0,
+        "time": 7.791667,
+        "wall": 8098.2,
+        "presentedFrames": 188
+      },
+      {
+        "iteration": 0,
+        "time": 7.833333,
+        "wall": 8131.5,
+        "presentedFrames": 189
+      },
+      {
+        "iteration": 0,
+        "time": 7.875,
+        "wall": 8181.6,
+        "presentedFrames": 190
+      },
+      {
+        "iteration": 0,
+        "time": 7.916667,
+        "wall": 8214.9,
+        "presentedFrames": 191
+      },
+      {
+        "iteration": 0,
+        "time": 7.958333,
+        "wall": 8264.8,
+        "presentedFrames": 192
+      },
+      {
+        "iteration": 0,
+        "time": 8,
+        "wall": 8298.2,
+        "presentedFrames": 193
+      },
+      {
+        "iteration": 0,
+        "time": 8.041667,
+        "wall": 8348.2,
+        "presentedFrames": 194
+      },
+      {
+        "iteration": 0,
+        "time": 8.083333,
+        "wall": 8381.5,
+        "presentedFrames": 195
+      },
+      {
+        "iteration": 0,
+        "time": 8.125,
+        "wall": 8431.6,
+        "presentedFrames": 196
+      },
+      {
+        "iteration": 0,
+        "time": 8.166667,
+        "wall": 8464.8,
+        "presentedFrames": 197
+      },
+      {
+        "iteration": 0,
+        "time": 8.208333,
+        "wall": 8514.9,
+        "presentedFrames": 198
+      },
+      {
+        "iteration": 0,
+        "time": 8.25,
+        "wall": 8548.2,
+        "presentedFrames": 199
+      },
+      {
+        "iteration": 0,
+        "time": 8.291667,
+        "wall": 8598.1,
+        "presentedFrames": 200
+      },
+      {
+        "iteration": 0,
+        "time": 8.333333,
+        "wall": 8631.5,
+        "presentedFrames": 201
+      },
+      {
+        "iteration": 0,
+        "time": 8.375,
+        "wall": 8681.5,
+        "presentedFrames": 202
+      },
+      {
+        "iteration": 0,
+        "time": 8.416667,
+        "wall": 8714.9,
+        "presentedFrames": 203
+      },
+      {
+        "iteration": 0,
+        "time": 8.458333,
+        "wall": 8764.8,
+        "presentedFrames": 204
+      },
+      {
+        "iteration": 0,
+        "time": 8.5,
+        "wall": 8798.2,
+        "presentedFrames": 205
+      },
+      {
+        "iteration": 0,
+        "time": 8.541667,
+        "wall": 8848.2,
+        "presentedFrames": 206
+      },
+      {
+        "iteration": 0,
+        "time": 8.583333,
+        "wall": 8881.5,
+        "presentedFrames": 207
+      },
+      {
+        "iteration": 0,
+        "time": 8.625,
+        "wall": 8931.5,
+        "presentedFrames": 208
+      },
+      {
+        "iteration": 0,
+        "time": 8.666667,
+        "wall": 8964.8,
+        "presentedFrames": 209
+      },
+      {
+        "iteration": 0,
+        "time": 8.708333,
+        "wall": 9014.8,
+        "presentedFrames": 210
+      },
+      {
+        "iteration": 0,
+        "time": 8.75,
+        "wall": 9048.1,
+        "presentedFrames": 211
+      },
+      {
+        "iteration": 0,
+        "time": 8.791667,
+        "wall": 9098.2,
+        "presentedFrames": 212
+      },
+      {
+        "iteration": 0,
+        "time": 8.833333,
+        "wall": 9131.5,
+        "presentedFrames": 213
+      },
+      {
+        "iteration": 0,
+        "time": 8.875,
+        "wall": 9181.5,
+        "presentedFrames": 214
+      },
+      {
+        "iteration": 0,
+        "time": 8.916667,
+        "wall": 9214.9,
+        "presentedFrames": 215
+      },
+      {
+        "iteration": 0,
+        "time": 8.958333,
+        "wall": 9264.8,
+        "presentedFrames": 216
+      },
+      {
+        "iteration": 0,
+        "time": 9,
+        "wall": 9298.2,
+        "presentedFrames": 217
+      },
+      {
+        "iteration": 0,
+        "time": 9.041667,
+        "wall": 9348.2,
+        "presentedFrames": 218
+      },
+      {
+        "iteration": 0,
+        "time": 9.083333,
+        "wall": 9381.5,
+        "presentedFrames": 219
+      },
+      {
+        "iteration": 0,
+        "time": 9.125,
+        "wall": 9431.5,
+        "presentedFrames": 220
+      },
+      {
+        "iteration": 0,
+        "time": 9.166667,
+        "wall": 9464.9,
+        "presentedFrames": 221
+      },
+      {
+        "iteration": 0,
+        "time": 9.208333,
+        "wall": 9514.8,
+        "presentedFrames": 222
+      },
+      {
+        "iteration": 0,
+        "time": 9.25,
+        "wall": 9548.1,
+        "presentedFrames": 223
+      },
+      {
+        "iteration": 0,
+        "time": 9.291667,
+        "wall": 9598.2,
+        "presentedFrames": 224
+      },
+      {
+        "iteration": 0,
+        "time": 9.333333,
+        "wall": 9631.4,
+        "presentedFrames": 225
+      },
+      {
+        "iteration": 0,
+        "time": 9.375,
+        "wall": 9681.4,
+        "presentedFrames": 226
+      },
+      {
+        "iteration": 0,
+        "time": 9.416667,
+        "wall": 9714.8,
+        "presentedFrames": 227
+      },
+      {
+        "iteration": 0,
+        "time": 9.458333,
+        "wall": 9764.8,
+        "presentedFrames": 228
+      },
+      {
+        "iteration": 0,
+        "time": 9.5,
+        "wall": 9798.1,
+        "presentedFrames": 229
+      },
+      {
+        "iteration": 0,
+        "time": 9.541667,
+        "wall": 9848.1,
+        "presentedFrames": 230
+      },
+      {
+        "iteration": 0,
+        "time": 9.583333,
+        "wall": 9881.5,
+        "presentedFrames": 231
+      },
+      {
+        "iteration": 0,
+        "time": 9.625,
+        "wall": 9931.5,
+        "presentedFrames": 232
+      },
+      {
+        "iteration": 0,
+        "time": 9.666667,
+        "wall": 9964.8,
+        "presentedFrames": 233
+      },
+      {
+        "iteration": 0,
+        "time": 9.708333,
+        "wall": 10014.8,
+        "presentedFrames": 234
+      },
+      {
+        "iteration": 0,
+        "time": 9.75,
+        "wall": 10048.1,
+        "presentedFrames": 235
+      },
+      {
+        "iteration": 0,
+        "time": 9.791667,
+        "wall": 10098.1,
+        "presentedFrames": 236
+      },
+      {
+        "iteration": 0,
+        "time": 9.833333,
+        "wall": 10131.5,
+        "presentedFrames": 237
+      },
+      {
+        "iteration": 0,
+        "time": 9.875,
+        "wall": 10181.5,
+        "presentedFrames": 238
+      },
+      {
+        "iteration": 0,
+        "time": 9.916667,
+        "wall": 10198.1,
+        "presentedFrames": 239
+      },
+      {
+        "iteration": 0,
+        "time": 9.958333,
+        "wall": 10248.1,
+        "presentedFrames": 240
+      },
+      {
+        "iteration": 0,
+        "time": 10,
+        "wall": 10298.1,
+        "presentedFrames": 241
+      },
+      {
+        "iteration": 1,
+        "time": 0,
+        "wall": 10364.8,
+        "presentedFrames": 242
+      },
+      {
+        "iteration": 1,
+        "time": 0.041667,
+        "wall": 10398.1,
+        "presentedFrames": 243
+      },
+      {
+        "iteration": 1,
+        "time": 0.083333,
+        "wall": 10448.1,
+        "presentedFrames": 244
+      },
+      {
+        "iteration": 1,
+        "time": 0.125,
+        "wall": 10498.1,
+        "presentedFrames": 245
+      },
+      {
+        "iteration": 1,
+        "time": 0.166667,
+        "wall": 10514.8,
+        "presentedFrames": 246
+      },
+      {
+        "iteration": 1,
+        "time": 0.208333,
+        "wall": 10564.8,
+        "presentedFrames": 247
+      },
+      {
+        "iteration": 1,
+        "time": 0.25,
+        "wall": 10614.8,
+        "presentedFrames": 248
+      },
+      {
+        "iteration": 1,
+        "time": 0.291667,
+        "wall": 10664.7,
+        "presentedFrames": 249
+      },
+      {
+        "iteration": 1,
+        "time": 0.333333,
+        "wall": 10681.4,
+        "presentedFrames": 250
+      },
+      {
+        "iteration": 1,
+        "time": 0.375,
+        "wall": 10731.4,
+        "presentedFrames": 251
+      },
+      {
+        "iteration": 1,
+        "time": 0.416667,
+        "wall": 10781.4,
+        "presentedFrames": 252
+      },
+      {
+        "iteration": 1,
+        "time": 0.458333,
+        "wall": 10831.4,
+        "presentedFrames": 253
+      },
+      {
+        "iteration": 1,
+        "time": 0.5,
+        "wall": 10848.1,
+        "presentedFrames": 254
+      },
+      {
+        "iteration": 1,
+        "time": 0.541667,
+        "wall": 10898.1,
+        "presentedFrames": 255
+      },
+      {
+        "iteration": 1,
+        "time": 0.583333,
+        "wall": 10948.1,
+        "presentedFrames": 256
+      },
+      {
+        "iteration": 1,
+        "time": 0.625,
+        "wall": 10998,
+        "presentedFrames": 257
+      },
+      {
+        "iteration": 1,
+        "time": 0.666667,
+        "wall": 11014.7,
+        "presentedFrames": 258
+      },
+      {
+        "iteration": 1,
+        "time": 0.708333,
+        "wall": 11064.8,
+        "presentedFrames": 259
+      },
+      {
+        "iteration": 1,
+        "time": 0.75,
+        "wall": 11114.7,
+        "presentedFrames": 260
+      },
+      {
+        "iteration": 1,
+        "time": 0.791667,
+        "wall": 11164.7,
+        "presentedFrames": 261
+      },
+      {
+        "iteration": 1,
+        "time": 0.833333,
+        "wall": 11198.1,
+        "presentedFrames": 262
+      },
+      {
+        "iteration": 1,
+        "time": 0.875,
+        "wall": 11248.1,
+        "presentedFrames": 263
+      },
+      {
+        "iteration": 1,
+        "time": 0.916667,
+        "wall": 11281.4,
+        "presentedFrames": 264
+      },
+      {
+        "iteration": 1,
+        "time": 0.958333,
+        "wall": 11331.4,
+        "presentedFrames": 265
+      },
+      {
+        "iteration": 1,
+        "time": 1,
+        "wall": 11364.7,
+        "presentedFrames": 266
+      },
+      {
+        "iteration": 1,
+        "time": 1.041667,
+        "wall": 11414.7,
+        "presentedFrames": 267
+      },
+      {
+        "iteration": 1,
+        "time": 1.083333,
+        "wall": 11448.1,
+        "presentedFrames": 268
+      },
+      {
+        "iteration": 1,
+        "time": 1.125,
+        "wall": 11498.1,
+        "presentedFrames": 269
+      },
+      {
+        "iteration": 1,
+        "time": 1.166667,
+        "wall": 11531.4,
+        "presentedFrames": 270
+      },
+      {
+        "iteration": 1,
+        "time": 1.208333,
+        "wall": 11581.4,
+        "presentedFrames": 271
+      },
+      {
+        "iteration": 1,
+        "time": 1.25,
+        "wall": 11614.7,
+        "presentedFrames": 272
+      },
+      {
+        "iteration": 1,
+        "time": 1.291667,
+        "wall": 11664.7,
+        "presentedFrames": 273
+      },
+      {
+        "iteration": 1,
+        "time": 1.333333,
+        "wall": 11698.1,
+        "presentedFrames": 274
+      },
+      {
+        "iteration": 1,
+        "time": 1.375,
+        "wall": 11748.1,
+        "presentedFrames": 275
+      },
+      {
+        "iteration": 1,
+        "time": 1.416667,
+        "wall": 11781.4,
+        "presentedFrames": 276
+      },
+      {
+        "iteration": 1,
+        "time": 1.458333,
+        "wall": 11831.4,
+        "presentedFrames": 277
+      },
+      {
+        "iteration": 1,
+        "time": 1.5,
+        "wall": 11864.8,
+        "presentedFrames": 278
+      },
+      {
+        "iteration": 1,
+        "time": 1.541667,
+        "wall": 11914.7,
+        "presentedFrames": 279
+      },
+      {
+        "iteration": 1,
+        "time": 1.583333,
+        "wall": 11948,
+        "presentedFrames": 280
+      },
+      {
+        "iteration": 1,
+        "time": 1.625,
+        "wall": 11998.1,
+        "presentedFrames": 281
+      },
+      {
+        "iteration": 1,
+        "time": 1.666667,
+        "wall": 12031.4,
+        "presentedFrames": 282
+      },
+      {
+        "iteration": 1,
+        "time": 1.708333,
+        "wall": 12081.4,
+        "presentedFrames": 283
+      },
+      {
+        "iteration": 1,
+        "time": 1.75,
+        "wall": 12114.7,
+        "presentedFrames": 284
+      },
+      {
+        "iteration": 1,
+        "time": 1.791667,
+        "wall": 12164.7,
+        "presentedFrames": 285
+      },
+      {
+        "iteration": 1,
+        "time": 1.833333,
+        "wall": 12198,
+        "presentedFrames": 286
+      },
+      {
+        "iteration": 1,
+        "time": 1.875,
+        "wall": 12248.1,
+        "presentedFrames": 287
+      },
+      {
+        "iteration": 1,
+        "time": 1.916667,
+        "wall": 12281.4,
+        "presentedFrames": 288
+      },
+      {
+        "iteration": 1,
+        "time": 1.958333,
+        "wall": 12331.3,
+        "presentedFrames": 289
+      },
+      {
+        "iteration": 1,
+        "time": 2,
+        "wall": 12364.7,
+        "presentedFrames": 290
+      },
+      {
+        "iteration": 1,
+        "time": 2.041667,
+        "wall": 12414.7,
+        "presentedFrames": 291
+      },
+      {
+        "iteration": 1,
+        "time": 2.083333,
+        "wall": 12448,
+        "presentedFrames": 292
+      },
+      {
+        "iteration": 1,
+        "time": 2.125,
+        "wall": 12498,
+        "presentedFrames": 293
+      },
+      {
+        "iteration": 1,
+        "time": 2.166667,
+        "wall": 12531.4,
+        "presentedFrames": 294
+      },
+      {
+        "iteration": 1,
+        "time": 2.208333,
+        "wall": 12581.3,
+        "presentedFrames": 295
+      },
+      {
+        "iteration": 1,
+        "time": 2.25,
+        "wall": 12614.7,
+        "presentedFrames": 296
+      },
+      {
+        "iteration": 1,
+        "time": 2.291667,
+        "wall": 12664.6,
+        "presentedFrames": 297
+      },
+      {
+        "iteration": 1,
+        "time": 2.333333,
+        "wall": 12698,
+        "presentedFrames": 298
+      },
+      {
+        "iteration": 1,
+        "time": 2.375,
+        "wall": 12748,
+        "presentedFrames": 299
+      },
+      {
+        "iteration": 1,
+        "time": 2.416667,
+        "wall": 12781.3,
+        "presentedFrames": 300
+      },
+      {
+        "iteration": 1,
+        "time": 2.458333,
+        "wall": 12831.4,
+        "presentedFrames": 301
+      },
+      {
+        "iteration": 1,
+        "time": 2.5,
+        "wall": 12864.7,
+        "presentedFrames": 302
+      },
+      {
+        "iteration": 1,
+        "time": 2.541667,
+        "wall": 12914.6,
+        "presentedFrames": 303
+      },
+      {
+        "iteration": 1,
+        "time": 2.583333,
+        "wall": 12948,
+        "presentedFrames": 304
+      },
+      {
+        "iteration": 1,
+        "time": 2.625,
+        "wall": 12998,
+        "presentedFrames": 305
+      },
+      {
+        "iteration": 1,
+        "time": 2.666667,
+        "wall": 13031.3,
+        "presentedFrames": 306
+      },
+      {
+        "iteration": 1,
+        "time": 2.708333,
+        "wall": 13081.4,
+        "presentedFrames": 307
+      },
+      {
+        "iteration": 1,
+        "time": 2.75,
+        "wall": 13114.6,
+        "presentedFrames": 308
+      },
+      {
+        "iteration": 1,
+        "time": 2.791667,
+        "wall": 13164.7,
+        "presentedFrames": 309
+      },
+      {
+        "iteration": 1,
+        "time": 2.833333,
+        "wall": 13198,
+        "presentedFrames": 310
+      },
+      {
+        "iteration": 1,
+        "time": 2.875,
+        "wall": 13248,
+        "presentedFrames": 311
+      },
+      {
+        "iteration": 1,
+        "time": 2.916667,
+        "wall": 13281.3,
+        "presentedFrames": 312
+      },
+      {
+        "iteration": 1,
+        "time": 2.958333,
+        "wall": 13331.3,
+        "presentedFrames": 313
+      },
+      {
+        "iteration": 1,
+        "time": 3,
+        "wall": 13364.6,
+        "presentedFrames": 314
+      },
+      {
+        "iteration": 1,
+        "time": 3.041667,
+        "wall": 13414.7,
+        "presentedFrames": 315
+      },
+      {
+        "iteration": 1,
+        "time": 3.083333,
+        "wall": 13448,
+        "presentedFrames": 316
+      },
+      {
+        "iteration": 1,
+        "time": 3.125,
+        "wall": 13497.9,
+        "presentedFrames": 317
+      },
+      {
+        "iteration": 1,
+        "time": 3.166667,
+        "wall": 13531.3,
+        "presentedFrames": 318
+      },
+      {
+        "iteration": 1,
+        "time": 3.208333,
+        "wall": 13581.3,
+        "presentedFrames": 319
+      },
+      {
+        "iteration": 1,
+        "time": 3.25,
+        "wall": 13614.6,
+        "presentedFrames": 320
+      },
+      {
+        "iteration": 1,
+        "time": 3.291667,
+        "wall": 13664.7,
+        "presentedFrames": 321
+      },
+      {
+        "iteration": 1,
+        "time": 3.333333,
+        "wall": 13698,
+        "presentedFrames": 322
+      },
+      {
+        "iteration": 1,
+        "time": 3.375,
+        "wall": 13748,
+        "presentedFrames": 323
+      },
+      {
+        "iteration": 1,
+        "time": 3.416667,
+        "wall": 13781.3,
+        "presentedFrames": 324
+      },
+      {
+        "iteration": 1,
+        "time": 3.458333,
+        "wall": 13831.3,
+        "presentedFrames": 325
+      },
+      {
+        "iteration": 1,
+        "time": 3.5,
+        "wall": 13864.6,
+        "presentedFrames": 326
+      },
+      {
+        "iteration": 1,
+        "time": 3.541667,
+        "wall": 13914.6,
+        "presentedFrames": 327
+      },
+      {
+        "iteration": 1,
+        "time": 3.583333,
+        "wall": 13948,
+        "presentedFrames": 328
+      },
+      {
+        "iteration": 1,
+        "time": 3.625,
+        "wall": 13997.9,
+        "presentedFrames": 329
+      },
+      {
+        "iteration": 1,
+        "time": 3.666667,
+        "wall": 14031.3,
+        "presentedFrames": 330
+      },
+      {
+        "iteration": 1,
+        "time": 3.708333,
+        "wall": 14081.3,
+        "presentedFrames": 331
+      },
+      {
+        "iteration": 1,
+        "time": 3.75,
+        "wall": 14114.6,
+        "presentedFrames": 332
+      },
+      {
+        "iteration": 1,
+        "time": 3.791667,
+        "wall": 14164.6,
+        "presentedFrames": 333
+      },
+      {
+        "iteration": 1,
+        "time": 3.833333,
+        "wall": 14198,
+        "presentedFrames": 334
+      },
+      {
+        "iteration": 1,
+        "time": 3.875,
+        "wall": 14247.9,
+        "presentedFrames": 335
+      },
+      {
+        "iteration": 1,
+        "time": 3.916667,
+        "wall": 14281.2,
+        "presentedFrames": 336
+      },
+      {
+        "iteration": 1,
+        "time": 3.958333,
+        "wall": 14331.3,
+        "presentedFrames": 337
+      },
+      {
+        "iteration": 1,
+        "time": 4,
+        "wall": 14364.6,
+        "presentedFrames": 338
+      },
+      {
+        "iteration": 1,
+        "time": 4.041667,
+        "wall": 14414.6,
+        "presentedFrames": 339
+      },
+      {
+        "iteration": 1,
+        "time": 4.083333,
+        "wall": 14448,
+        "presentedFrames": 340
+      },
+      {
+        "iteration": 1,
+        "time": 4.125,
+        "wall": 14497.9,
+        "presentedFrames": 341
+      },
+      {
+        "iteration": 1,
+        "time": 4.166667,
+        "wall": 14531.3,
+        "presentedFrames": 342
+      },
+      {
+        "iteration": 1,
+        "time": 4.208333,
+        "wall": 14581.3,
+        "presentedFrames": 343
+      },
+      {
+        "iteration": 1,
+        "time": 4.25,
+        "wall": 14614.6,
+        "presentedFrames": 344
+      },
+      {
+        "iteration": 1,
+        "time": 4.291667,
+        "wall": 14648,
+        "presentedFrames": 345
+      },
+      {
+        "iteration": 1,
+        "time": 4.333333,
+        "wall": 14698,
+        "presentedFrames": 346
+      },
+      {
+        "iteration": 1,
+        "time": 4.375,
+        "wall": 14747.9,
+        "presentedFrames": 347
+      },
+      {
+        "iteration": 1,
+        "time": 4.416667,
+        "wall": 14781.2,
+        "presentedFrames": 348
+      },
+      {
+        "iteration": 1,
+        "time": 4.458333,
+        "wall": 14831.3,
+        "presentedFrames": 349
+      },
+      {
+        "iteration": 1,
+        "time": 4.5,
+        "wall": 14864.6,
+        "presentedFrames": 350
+      },
+      {
+        "iteration": 1,
+        "time": 4.541667,
+        "wall": 14914.6,
+        "presentedFrames": 351
+      },
+      {
+        "iteration": 1,
+        "time": 4.583333,
+        "wall": 14947.9,
+        "presentedFrames": 352
+      },
+      {
+        "iteration": 1,
+        "time": 4.625,
+        "wall": 14997.9,
+        "presentedFrames": 353
+      },
+      {
+        "iteration": 1,
+        "time": 4.666667,
+        "wall": 15031.2,
+        "presentedFrames": 354
+      },
+      {
+        "iteration": 1,
+        "time": 4.708333,
+        "wall": 15081.2,
+        "presentedFrames": 355
+      },
+      {
+        "iteration": 1,
+        "time": 4.75,
+        "wall": 15114.6,
+        "presentedFrames": 356
+      },
+      {
+        "iteration": 1,
+        "time": 4.791667,
+        "wall": 15164.6,
+        "presentedFrames": 357
+      },
+      {
+        "iteration": 1,
+        "time": 4.833333,
+        "wall": 15198,
+        "presentedFrames": 358
+      },
+      {
+        "iteration": 1,
+        "time": 4.875,
+        "wall": 15247.9,
+        "presentedFrames": 359
+      },
+      {
+        "iteration": 1,
+        "time": 4.916667,
+        "wall": 15281.2,
+        "presentedFrames": 360
+      },
+      {
+        "iteration": 1,
+        "time": 4.958333,
+        "wall": 15331.2,
+        "presentedFrames": 361
+      },
+      {
+        "iteration": 1,
+        "time": 5,
+        "wall": 15364.6,
+        "presentedFrames": 362
+      },
+      {
+        "iteration": 1,
+        "time": 5.041667,
+        "wall": 15414.6,
+        "presentedFrames": 363
+      },
+      {
+        "iteration": 1,
+        "time": 5.083333,
+        "wall": 15447.9,
+        "presentedFrames": 364
+      },
+      {
+        "iteration": 1,
+        "time": 5.125,
+        "wall": 15497.9,
+        "presentedFrames": 365
+      },
+      {
+        "iteration": 1,
+        "time": 5.166667,
+        "wall": 15531.2,
+        "presentedFrames": 366
+      },
+      {
+        "iteration": 1,
+        "time": 5.208333,
+        "wall": 15581.2,
+        "presentedFrames": 367
+      },
+      {
+        "iteration": 1,
+        "time": 5.25,
+        "wall": 15614.6,
+        "presentedFrames": 368
+      },
+      {
+        "iteration": 1,
+        "time": 5.291667,
+        "wall": 15664.6,
+        "presentedFrames": 369
+      },
+      {
+        "iteration": 1,
+        "time": 5.333333,
+        "wall": 15697.9,
+        "presentedFrames": 370
+      },
+      {
+        "iteration": 1,
+        "time": 5.375,
+        "wall": 15747.9,
+        "presentedFrames": 371
+      },
+      {
+        "iteration": 1,
+        "time": 5.416667,
+        "wall": 15781.2,
+        "presentedFrames": 372
+      },
+      {
+        "iteration": 1,
+        "time": 5.458333,
+        "wall": 15831.3,
+        "presentedFrames": 373
+      },
+      {
+        "iteration": 1,
+        "time": 5.5,
+        "wall": 15864.6,
+        "presentedFrames": 374
+      },
+      {
+        "iteration": 1,
+        "time": 5.541667,
+        "wall": 15914.5,
+        "presentedFrames": 375
+      },
+      {
+        "iteration": 1,
+        "time": 5.583333,
+        "wall": 15947.9,
+        "presentedFrames": 376
+      },
+      {
+        "iteration": 1,
+        "time": 5.625,
+        "wall": 15997.9,
+        "presentedFrames": 377
+      },
+      {
+        "iteration": 1,
+        "time": 5.666667,
+        "wall": 16031.2,
+        "presentedFrames": 378
+      },
+      {
+        "iteration": 1,
+        "time": 5.708333,
+        "wall": 16081.2,
+        "presentedFrames": 379
+      },
+      {
+        "iteration": 1,
+        "time": 5.75,
+        "wall": 16114.5,
+        "presentedFrames": 380
+      },
+      {
+        "iteration": 1,
+        "time": 5.791667,
+        "wall": 16164.5,
+        "presentedFrames": 381
+      },
+      {
+        "iteration": 1,
+        "time": 5.833333,
+        "wall": 16197.9,
+        "presentedFrames": 382
+      },
+      {
+        "iteration": 1,
+        "time": 5.875,
+        "wall": 16247.9,
+        "presentedFrames": 383
+      },
+      {
+        "iteration": 1,
+        "time": 5.916667,
+        "wall": 16281.2,
+        "presentedFrames": 384
+      },
+      {
+        "iteration": 1,
+        "time": 5.958333,
+        "wall": 16331.2,
+        "presentedFrames": 385
+      },
+      {
+        "iteration": 1,
+        "time": 6,
+        "wall": 16364.5,
+        "presentedFrames": 386
+      },
+      {
+        "iteration": 1,
+        "time": 6.041667,
+        "wall": 16414.5,
+        "presentedFrames": 387
+      },
+      {
+        "iteration": 1,
+        "time": 6.083333,
+        "wall": 16447.8,
+        "presentedFrames": 388
+      },
+      {
+        "iteration": 1,
+        "time": 6.125,
+        "wall": 16497.9,
+        "presentedFrames": 389
+      },
+      {
+        "iteration": 1,
+        "time": 6.166667,
+        "wall": 16531.2,
+        "presentedFrames": 390
+      },
+      {
+        "iteration": 1,
+        "time": 6.208333,
+        "wall": 16581.2,
+        "presentedFrames": 391
+      },
+      {
+        "iteration": 1,
+        "time": 6.25,
+        "wall": 16614.5,
+        "presentedFrames": 392
+      },
+      {
+        "iteration": 1,
+        "time": 6.291667,
+        "wall": 16664.5,
+        "presentedFrames": 393
+      },
+      {
+        "iteration": 1,
+        "time": 6.333333,
+        "wall": 16697.9,
+        "presentedFrames": 394
+      },
+      {
+        "iteration": 1,
+        "time": 6.375,
+        "wall": 16747.9,
+        "presentedFrames": 395
+      },
+      {
+        "iteration": 1,
+        "time": 6.416667,
+        "wall": 16781.2,
+        "presentedFrames": 396
+      },
+      {
+        "iteration": 1,
+        "time": 6.458333,
+        "wall": 16831.2,
+        "presentedFrames": 397
+      },
+      {
+        "iteration": 1,
+        "time": 6.5,
+        "wall": 16864.5,
+        "presentedFrames": 398
+      },
+      {
+        "iteration": 1,
+        "time": 6.541667,
+        "wall": 16914.5,
+        "presentedFrames": 399
+      },
+      {
+        "iteration": 1,
+        "time": 6.583333,
+        "wall": 16947.8,
+        "presentedFrames": 400
+      },
+      {
+        "iteration": 1,
+        "time": 6.625,
+        "wall": 16997.8,
+        "presentedFrames": 401
+      },
+      {
+        "iteration": 1,
+        "time": 6.666667,
+        "wall": 17031.2,
+        "presentedFrames": 402
+      },
+      {
+        "iteration": 1,
+        "time": 6.708333,
+        "wall": 17081.2,
+        "presentedFrames": 403
+      },
+      {
+        "iteration": 1,
+        "time": 6.75,
+        "wall": 17114.5,
+        "presentedFrames": 404
+      },
+      {
+        "iteration": 1,
+        "time": 6.791667,
+        "wall": 17164.6,
+        "presentedFrames": 405
+      },
+      {
+        "iteration": 1,
+        "time": 6.833333,
+        "wall": 17197.8,
+        "presentedFrames": 406
+      },
+      {
+        "iteration": 1,
+        "time": 6.875,
+        "wall": 17247.8,
+        "presentedFrames": 407
+      },
+      {
+        "iteration": 1,
+        "time": 6.916667,
+        "wall": 17281.2,
+        "presentedFrames": 408
+      },
+      {
+        "iteration": 1,
+        "time": 6.958333,
+        "wall": 17331.2,
+        "presentedFrames": 409
+      },
+      {
+        "iteration": 1,
+        "time": 7,
+        "wall": 17364.5,
+        "presentedFrames": 410
+      },
+      {
+        "iteration": 1,
+        "time": 7.041667,
+        "wall": 17414.5,
+        "presentedFrames": 411
+      },
+      {
+        "iteration": 1,
+        "time": 7.083333,
+        "wall": 17447.8,
+        "presentedFrames": 412
+      },
+      {
+        "iteration": 1,
+        "time": 7.125,
+        "wall": 17497.8,
+        "presentedFrames": 413
+      },
+      {
+        "iteration": 1,
+        "time": 7.166667,
+        "wall": 17531.2,
+        "presentedFrames": 414
+      },
+      {
+        "iteration": 1,
+        "time": 7.208333,
+        "wall": 17581.2,
+        "presentedFrames": 415
+      },
+      {
+        "iteration": 1,
+        "time": 7.25,
+        "wall": 17614.5,
+        "presentedFrames": 416
+      },
+      {
+        "iteration": 1,
+        "time": 7.291667,
+        "wall": 17664.5,
+        "presentedFrames": 417
+      },
+      {
+        "iteration": 1,
+        "time": 7.333333,
+        "wall": 17697.8,
+        "presentedFrames": 418
+      },
+      {
+        "iteration": 1,
+        "time": 7.375,
+        "wall": 17747.8,
+        "presentedFrames": 419
+      },
+      {
+        "iteration": 1,
+        "time": 7.416667,
+        "wall": 17781.2,
+        "presentedFrames": 420
+      },
+      {
+        "iteration": 1,
+        "time": 7.458333,
+        "wall": 17831.1,
+        "presentedFrames": 421
+      },
+      {
+        "iteration": 1,
+        "time": 7.5,
+        "wall": 17864.5,
+        "presentedFrames": 422
+      },
+      {
+        "iteration": 1,
+        "time": 7.541667,
+        "wall": 17914.4,
+        "presentedFrames": 423
+      },
+      {
+        "iteration": 1,
+        "time": 7.583333,
+        "wall": 17947.9,
+        "presentedFrames": 424
+      },
+      {
+        "iteration": 1,
+        "time": 7.625,
+        "wall": 17997.8,
+        "presentedFrames": 425
+      },
+      {
+        "iteration": 1,
+        "time": 7.666667,
+        "wall": 18031.2,
+        "presentedFrames": 426
+      },
+      {
+        "iteration": 1,
+        "time": 7.708333,
+        "wall": 18081.2,
+        "presentedFrames": 427
+      },
+      {
+        "iteration": 1,
+        "time": 7.75,
+        "wall": 18114.5,
+        "presentedFrames": 428
+      },
+      {
+        "iteration": 1,
+        "time": 7.791667,
+        "wall": 18164.4,
+        "presentedFrames": 429
+      },
+      {
+        "iteration": 1,
+        "time": 7.833333,
+        "wall": 18197.8,
+        "presentedFrames": 430
+      },
+      {
+        "iteration": 1,
+        "time": 7.875,
+        "wall": 18247.8,
+        "presentedFrames": 431
+      },
+      {
+        "iteration": 1,
+        "time": 7.916667,
+        "wall": 18281.1,
+        "presentedFrames": 432
+      },
+      {
+        "iteration": 1,
+        "time": 7.958333,
+        "wall": 18331.1,
+        "presentedFrames": 433
+      },
+      {
+        "iteration": 1,
+        "time": 8,
+        "wall": 18364.5,
+        "presentedFrames": 434
+      },
+      {
+        "iteration": 1,
+        "time": 8.041667,
+        "wall": 18414.5,
+        "presentedFrames": 435
+      },
+      {
+        "iteration": 1,
+        "time": 8.083333,
+        "wall": 18447.8,
+        "presentedFrames": 436
+      },
+      {
+        "iteration": 1,
+        "time": 8.125,
+        "wall": 18497.8,
+        "presentedFrames": 437
+      },
+      {
+        "iteration": 1,
+        "time": 8.166667,
+        "wall": 18531.2,
+        "presentedFrames": 438
+      },
+      {
+        "iteration": 1,
+        "time": 8.208333,
+        "wall": 18581.1,
+        "presentedFrames": 439
+      },
+      {
+        "iteration": 1,
+        "time": 8.25,
+        "wall": 18614.4,
+        "presentedFrames": 440
+      },
+      {
+        "iteration": 1,
+        "time": 8.291667,
+        "wall": 18664.4,
+        "presentedFrames": 441
+      },
+      {
+        "iteration": 1,
+        "time": 8.333333,
+        "wall": 18697.8,
+        "presentedFrames": 442
+      },
+      {
+        "iteration": 1,
+        "time": 8.375,
+        "wall": 18747.8,
+        "presentedFrames": 443
+      },
+      {
+        "iteration": 1,
+        "time": 8.416667,
+        "wall": 18781.1,
+        "presentedFrames": 444
+      },
+      {
+        "iteration": 1,
+        "time": 8.458333,
+        "wall": 18831.1,
+        "presentedFrames": 445
+      },
+      {
+        "iteration": 1,
+        "time": 8.5,
+        "wall": 18847.8,
+        "presentedFrames": 446
+      },
+      {
+        "iteration": 1,
+        "time": 8.541667,
+        "wall": 18914.4,
+        "presentedFrames": 447
+      },
+      {
+        "iteration": 1,
+        "time": 8.583333,
+        "wall": 18947.7,
+        "presentedFrames": 448
+      },
+      {
+        "iteration": 1,
+        "time": 8.625,
+        "wall": 18997.7,
+        "presentedFrames": 449
+      },
+      {
+        "iteration": 1,
+        "time": 8.666667,
+        "wall": 19031.1,
+        "presentedFrames": 450
+      },
+      {
+        "iteration": 1,
+        "time": 8.708333,
+        "wall": 19081.1,
+        "presentedFrames": 451
+      },
+      {
+        "iteration": 1,
+        "time": 8.75,
+        "wall": 19114.5,
+        "presentedFrames": 452
+      },
+      {
+        "iteration": 1,
+        "time": 8.791667,
+        "wall": 19164.4,
+        "presentedFrames": 453
+      },
+      {
+        "iteration": 1,
+        "time": 8.833333,
+        "wall": 19197.7,
+        "presentedFrames": 454
+      },
+      {
+        "iteration": 1,
+        "time": 8.875,
+        "wall": 19247.8,
+        "presentedFrames": 455
+      },
+      {
+        "iteration": 1,
+        "time": 8.916667,
+        "wall": 19281.1,
+        "presentedFrames": 456
+      },
+      {
+        "iteration": 1,
+        "time": 8.958333,
+        "wall": 19331,
+        "presentedFrames": 457
+      },
+      {
+        "iteration": 1,
+        "time": 9,
+        "wall": 19364.4,
+        "presentedFrames": 458
+      },
+      {
+        "iteration": 1,
+        "time": 9.041667,
+        "wall": 19414.4,
+        "presentedFrames": 459
+      },
+      {
+        "iteration": 1,
+        "time": 9.083333,
+        "wall": 19447.8,
+        "presentedFrames": 460
+      },
+      {
+        "iteration": 1,
+        "time": 9.125,
+        "wall": 19497.7,
+        "presentedFrames": 461
+      },
+      {
+        "iteration": 1,
+        "time": 9.166667,
+        "wall": 19531.1,
+        "presentedFrames": 462
+      },
+      {
+        "iteration": 1,
+        "time": 9.208333,
+        "wall": 19581.1,
+        "presentedFrames": 463
+      },
+      {
+        "iteration": 1,
+        "time": 9.25,
+        "wall": 19614.4,
+        "presentedFrames": 464
+      },
+      {
+        "iteration": 1,
+        "time": 9.291667,
+        "wall": 19664.4,
+        "presentedFrames": 465
+      },
+      {
+        "iteration": 1,
+        "time": 9.333333,
+        "wall": 19697.8,
+        "presentedFrames": 466
+      },
+      {
+        "iteration": 1,
+        "time": 9.375,
+        "wall": 19747.7,
+        "presentedFrames": 467
+      },
+      {
+        "iteration": 1,
+        "time": 9.416667,
+        "wall": 19781.1,
+        "presentedFrames": 468
+      },
+      {
+        "iteration": 1,
+        "time": 9.458333,
+        "wall": 19831.1,
+        "presentedFrames": 469
+      },
+      {
+        "iteration": 1,
+        "time": 9.5,
+        "wall": 19864.4,
+        "presentedFrames": 470
+      },
+      {
+        "iteration": 1,
+        "time": 9.541667,
+        "wall": 19914.4,
+        "presentedFrames": 471
+      },
+      {
+        "iteration": 1,
+        "time": 9.583333,
+        "wall": 19947.7,
+        "presentedFrames": 472
+      },
+      {
+        "iteration": 1,
+        "time": 9.625,
+        "wall": 19997.7,
+        "presentedFrames": 473
+      },
+      {
+        "iteration": 1,
+        "time": 9.666667,
+        "wall": 20031.1,
+        "presentedFrames": 474
+      },
+      {
+        "iteration": 1,
+        "time": 9.708333,
+        "wall": 20081.1,
+        "presentedFrames": 475
+      },
+      {
+        "iteration": 1,
+        "time": 9.75,
+        "wall": 20114.4,
+        "presentedFrames": 476
+      },
+      {
+        "iteration": 1,
+        "time": 9.791667,
+        "wall": 20164.4,
+        "presentedFrames": 477
+      },
+      {
+        "iteration": 1,
+        "time": 9.833333,
+        "wall": 20181,
+        "presentedFrames": 478
+      },
+      {
+        "iteration": 1,
+        "time": 9.875,
+        "wall": 20247.7,
+        "presentedFrames": 479
+      },
+      {
+        "iteration": 1,
+        "time": 9.916667,
+        "wall": 20264.3,
+        "presentedFrames": 480
+      },
+      {
+        "iteration": 1,
+        "time": 9.958333,
+        "wall": 20314.4,
+        "presentedFrames": 481
+      },
+      {
+        "iteration": 1,
+        "time": 10,
+        "wall": 20364.4,
+        "presentedFrames": 482
+      },
+      {
+        "iteration": 2,
+        "time": 0,
+        "wall": 20431.1,
+        "presentedFrames": 483
+      },
+      {
+        "iteration": 2,
+        "time": 0.041667,
+        "wall": 20497.7,
+        "presentedFrames": 484
+      },
+      {
+        "iteration": 2,
+        "time": 0.083333,
+        "wall": 20514.3,
+        "presentedFrames": 485
+      },
+      {
+        "iteration": 2,
+        "time": 0.125,
+        "wall": 20564.3,
+        "presentedFrames": 486
+      },
+      {
+        "iteration": 2,
+        "time": 0.166667,
+        "wall": 20614.4,
+        "presentedFrames": 487
+      },
+      {
+        "iteration": 2,
+        "time": 0.208333,
+        "wall": 20664.4,
+        "presentedFrames": 488
+      },
+      {
+        "iteration": 2,
+        "time": 0.25,
+        "wall": 20681,
+        "presentedFrames": 489
+      },
+      {
+        "iteration": 2,
+        "time": 0.291667,
+        "wall": 20731,
+        "presentedFrames": 490
+      },
+      {
+        "iteration": 2,
+        "time": 0.333333,
+        "wall": 20781,
+        "presentedFrames": 491
+      },
+      {
+        "iteration": 2,
+        "time": 0.375,
+        "wall": 20831.1,
+        "presentedFrames": 492
+      },
+      {
+        "iteration": 2,
+        "time": 0.416667,
+        "wall": 20847.7,
+        "presentedFrames": 493
+      },
+      {
+        "iteration": 2,
+        "time": 0.458333,
+        "wall": 20897.7,
+        "presentedFrames": 494
+      },
+      {
+        "iteration": 2,
+        "time": 0.5,
+        "wall": 20947.7,
+        "presentedFrames": 495
+      },
+      {
+        "iteration": 2,
+        "time": 0.541667,
+        "wall": 20997.7,
+        "presentedFrames": 496
+      },
+      {
+        "iteration": 2,
+        "time": 0.583333,
+        "wall": 21014.3,
+        "presentedFrames": 497
+      },
+      {
+        "iteration": 2,
+        "time": 0.625,
+        "wall": 21064.4,
+        "presentedFrames": 498
+      },
+      {
+        "iteration": 2,
+        "time": 0.666667,
+        "wall": 21114.3,
+        "presentedFrames": 499
+      },
+      {
+        "iteration": 2,
+        "time": 0.708333,
+        "wall": 21164.3,
+        "presentedFrames": 500
+      },
+      {
+        "iteration": 2,
+        "time": 0.75,
+        "wall": 21181,
+        "presentedFrames": 501
+      },
+      {
+        "iteration": 2,
+        "time": 0.791667,
+        "wall": 21231,
+        "presentedFrames": 502
+      },
+      {
+        "iteration": 2,
+        "time": 0.833333,
+        "wall": 21281,
+        "presentedFrames": 503
+      },
+      {
+        "iteration": 2,
+        "time": 0.875,
+        "wall": 21331,
+        "presentedFrames": 504
+      },
+      {
+        "iteration": 2,
+        "time": 0.916667,
+        "wall": 21347.7,
+        "presentedFrames": 505
+      },
+      {
+        "iteration": 2,
+        "time": 0.958333,
+        "wall": 21397.7,
+        "presentedFrames": 506
+      },
+      {
+        "iteration": 2,
+        "time": 1,
+        "wall": 21447.7,
+        "presentedFrames": 507
+      },
+      {
+        "iteration": 2,
+        "time": 1.041667,
+        "wall": 21497.7,
+        "presentedFrames": 508
+      },
+      {
+        "iteration": 2,
+        "time": 1.083333,
+        "wall": 21530.9,
+        "presentedFrames": 509
+      },
+      {
+        "iteration": 2,
+        "time": 1.125,
+        "wall": 21581,
+        "presentedFrames": 510
+      },
+      {
+        "iteration": 2,
+        "time": 1.166667,
+        "wall": 21614.3,
+        "presentedFrames": 511
+      },
+      {
+        "iteration": 2,
+        "time": 1.208333,
+        "wall": 21664.4,
+        "presentedFrames": 512
+      },
+      {
+        "iteration": 2,
+        "time": 1.25,
+        "wall": 21697.6,
+        "presentedFrames": 513
+      },
+      {
+        "iteration": 2,
+        "time": 1.291667,
+        "wall": 21747.6,
+        "presentedFrames": 514
+      },
+      {
+        "iteration": 2,
+        "time": 1.333333,
+        "wall": 21781,
+        "presentedFrames": 515
+      },
+      {
+        "iteration": 2,
+        "time": 1.375,
+        "wall": 21831,
+        "presentedFrames": 516
+      },
+      {
+        "iteration": 2,
+        "time": 1.416667,
+        "wall": 21864.4,
+        "presentedFrames": 517
+      },
+      {
+        "iteration": 2,
+        "time": 1.458333,
+        "wall": 21914.3,
+        "presentedFrames": 518
+      },
+      {
+        "iteration": 2,
+        "time": 1.5,
+        "wall": 21947.7,
+        "presentedFrames": 519
+      },
+      {
+        "iteration": 2,
+        "time": 1.541667,
+        "wall": 21997.7,
+        "presentedFrames": 520
+      },
+      {
+        "iteration": 2,
+        "time": 1.583333,
+        "wall": 22030.9,
+        "presentedFrames": 521
+      },
+      {
+        "iteration": 2,
+        "time": 1.625,
+        "wall": 22081,
+        "presentedFrames": 522
+      },
+      {
+        "iteration": 2,
+        "time": 1.666667,
+        "wall": 22114.3,
+        "presentedFrames": 523
+      },
+      {
+        "iteration": 2,
+        "time": 1.708333,
+        "wall": 22164.3,
+        "presentedFrames": 524
+      },
+      {
+        "iteration": 2,
+        "time": 1.75,
+        "wall": 22197.7,
+        "presentedFrames": 525
+      },
+      {
+        "iteration": 2,
+        "time": 1.791667,
+        "wall": 22247.7,
+        "presentedFrames": 526
+      },
+      {
+        "iteration": 2,
+        "time": 1.833333,
+        "wall": 22281,
+        "presentedFrames": 527
+      },
+      {
+        "iteration": 2,
+        "time": 1.875,
+        "wall": 22331,
+        "presentedFrames": 528
+      },
+      {
+        "iteration": 2,
+        "time": 1.916667,
+        "wall": 22364.3,
+        "presentedFrames": 529
+      },
+      {
+        "iteration": 2,
+        "time": 1.958333,
+        "wall": 22414.3,
+        "presentedFrames": 530
+      },
+      {
+        "iteration": 2,
+        "time": 2,
+        "wall": 22447.6,
+        "presentedFrames": 531
+      },
+      {
+        "iteration": 2,
+        "time": 2.041667,
+        "wall": 22497.6,
+        "presentedFrames": 532
+      },
+      {
+        "iteration": 2,
+        "time": 2.083333,
+        "wall": 22530.9,
+        "presentedFrames": 533
+      },
+      {
+        "iteration": 2,
+        "time": 2.125,
+        "wall": 22581,
+        "presentedFrames": 534
+      },
+      {
+        "iteration": 2,
+        "time": 2.166667,
+        "wall": 22614.3,
+        "presentedFrames": 535
+      },
+      {
+        "iteration": 2,
+        "time": 2.208333,
+        "wall": 22664.3,
+        "presentedFrames": 536
+      },
+      {
+        "iteration": 2,
+        "time": 2.25,
+        "wall": 22697.6,
+        "presentedFrames": 537
+      },
+      {
+        "iteration": 2,
+        "time": 2.291667,
+        "wall": 22747.6,
+        "presentedFrames": 538
+      },
+      {
+        "iteration": 2,
+        "time": 2.333333,
+        "wall": 22780.9,
+        "presentedFrames": 539
+      },
+      {
+        "iteration": 2,
+        "time": 2.375,
+        "wall": 22831,
+        "presentedFrames": 540
+      },
+      {
+        "iteration": 2,
+        "time": 2.416667,
+        "wall": 22864.3,
+        "presentedFrames": 541
+      },
+      {
+        "iteration": 2,
+        "time": 2.458333,
+        "wall": 22914.3,
+        "presentedFrames": 542
+      },
+      {
+        "iteration": 2,
+        "time": 2.5,
+        "wall": 22947.6,
+        "presentedFrames": 543
+      },
+      {
+        "iteration": 2,
+        "time": 2.541667,
+        "wall": 22997.6,
+        "presentedFrames": 544
+      },
+      {
+        "iteration": 2,
+        "time": 2.583333,
+        "wall": 23031,
+        "presentedFrames": 545
+      },
+      {
+        "iteration": 2,
+        "time": 2.625,
+        "wall": 23080.9,
+        "presentedFrames": 546
+      },
+      {
+        "iteration": 2,
+        "time": 2.666667,
+        "wall": 23114.3,
+        "presentedFrames": 547
+      },
+      {
+        "iteration": 2,
+        "time": 2.708333,
+        "wall": 23164.2,
+        "presentedFrames": 548
+      },
+      {
+        "iteration": 2,
+        "time": 2.75,
+        "wall": 23197.6,
+        "presentedFrames": 549
+      },
+      {
+        "iteration": 2,
+        "time": 2.791667,
+        "wall": 23247.6,
+        "presentedFrames": 550
+      },
+      {
+        "iteration": 2,
+        "time": 2.833333,
+        "wall": 23281,
+        "presentedFrames": 551
+      },
+      {
+        "iteration": 2,
+        "time": 2.875,
+        "wall": 23330.9,
+        "presentedFrames": 552
+      },
+      {
+        "iteration": 2,
+        "time": 2.916667,
+        "wall": 23364.3,
+        "presentedFrames": 553
+      },
+      {
+        "iteration": 2,
+        "time": 2.958333,
+        "wall": 23414.2,
+        "presentedFrames": 554
+      },
+      {
+        "iteration": 2,
+        "time": 3,
+        "wall": 23447.6,
+        "presentedFrames": 555
+      },
+      {
+        "iteration": 2,
+        "time": 3.041667,
+        "wall": 23497.5,
+        "presentedFrames": 556
+      },
+      {
+        "iteration": 2,
+        "time": 3.083333,
+        "wall": 23531,
+        "presentedFrames": 557
+      },
+      {
+        "iteration": 2,
+        "time": 3.125,
+        "wall": 23581,
+        "presentedFrames": 558
+      },
+      {
+        "iteration": 2,
+        "time": 3.166667,
+        "wall": 23614.2,
+        "presentedFrames": 559
+      },
+      {
+        "iteration": 2,
+        "time": 3.208333,
+        "wall": 23664.2,
+        "presentedFrames": 560
+      },
+      {
+        "iteration": 2,
+        "time": 3.25,
+        "wall": 23697.6,
+        "presentedFrames": 561
+      },
+      {
+        "iteration": 2,
+        "time": 3.291667,
+        "wall": 23747.6,
+        "presentedFrames": 562
+      },
+      {
+        "iteration": 2,
+        "time": 3.333333,
+        "wall": 23780.9,
+        "presentedFrames": 563
+      },
+      {
+        "iteration": 2,
+        "time": 3.375,
+        "wall": 23830.9,
+        "presentedFrames": 564
+      },
+      {
+        "iteration": 2,
+        "time": 3.416667,
+        "wall": 23864.3,
+        "presentedFrames": 565
+      },
+      {
+        "iteration": 2,
+        "time": 3.458333,
+        "wall": 23914.2,
+        "presentedFrames": 566
+      },
+      {
+        "iteration": 2,
+        "time": 3.5,
+        "wall": 23947.6,
+        "presentedFrames": 567
+      },
+      {
+        "iteration": 2,
+        "time": 3.541667,
+        "wall": 23997.6,
+        "presentedFrames": 568
+      },
+      {
+        "iteration": 2,
+        "time": 3.583333,
+        "wall": 24030.9,
+        "presentedFrames": 569
+      },
+      {
+        "iteration": 2,
+        "time": 3.625,
+        "wall": 24080.9,
+        "presentedFrames": 570
+      },
+      {
+        "iteration": 2,
+        "time": 3.666667,
+        "wall": 24114.2,
+        "presentedFrames": 571
+      },
+      {
+        "iteration": 2,
+        "time": 3.708333,
+        "wall": 24164.2,
+        "presentedFrames": 572
+      },
+      {
+        "iteration": 2,
+        "time": 3.75,
+        "wall": 24197.5,
+        "presentedFrames": 573
+      },
+      {
+        "iteration": 2,
+        "time": 3.791667,
+        "wall": 24247.5,
+        "presentedFrames": 574
+      },
+      {
+        "iteration": 2,
+        "time": 3.833333,
+        "wall": 24280.9,
+        "presentedFrames": 575
+      },
+      {
+        "iteration": 2,
+        "time": 3.875,
+        "wall": 24330.9,
+        "presentedFrames": 576
+      },
+      {
+        "iteration": 2,
+        "time": 3.916667,
+        "wall": 24364.2,
+        "presentedFrames": 577
+      },
+      {
+        "iteration": 2,
+        "time": 3.958333,
+        "wall": 24414.3,
+        "presentedFrames": 578
+      },
+      {
+        "iteration": 2,
+        "time": 4,
+        "wall": 24447.5,
+        "presentedFrames": 579
+      },
+      {
+        "iteration": 2,
+        "time": 4.041667,
+        "wall": 24497.5,
+        "presentedFrames": 580
+      },
+      {
+        "iteration": 2,
+        "time": 4.083333,
+        "wall": 24530.9,
+        "presentedFrames": 581
+      },
+      {
+        "iteration": 2,
+        "time": 4.125,
+        "wall": 24580.8,
+        "presentedFrames": 582
+      },
+      {
+        "iteration": 2,
+        "time": 4.166667,
+        "wall": 24614.2,
+        "presentedFrames": 583
+      },
+      {
+        "iteration": 2,
+        "time": 4.208333,
+        "wall": 24664.2,
+        "presentedFrames": 584
+      },
+      {
+        "iteration": 2,
+        "time": 4.25,
+        "wall": 24697.6,
+        "presentedFrames": 585
+      },
+      {
+        "iteration": 2,
+        "time": 4.291667,
+        "wall": 24747.5,
+        "presentedFrames": 586
+      },
+      {
+        "iteration": 2,
+        "time": 4.333333,
+        "wall": 24780.9,
+        "presentedFrames": 587
+      },
+      {
+        "iteration": 2,
+        "time": 4.375,
+        "wall": 24830.9,
+        "presentedFrames": 588
+      },
+      {
+        "iteration": 2,
+        "time": 4.416667,
+        "wall": 24864.2,
+        "presentedFrames": 589
+      },
+      {
+        "iteration": 2,
+        "time": 4.458333,
+        "wall": 24914.2,
+        "presentedFrames": 590
+      },
+      {
+        "iteration": 2,
+        "time": 4.5,
+        "wall": 24947.6,
+        "presentedFrames": 591
+      },
+      {
+        "iteration": 2,
+        "time": 4.541667,
+        "wall": 24997.5,
+        "presentedFrames": 592
+      },
+      {
+        "iteration": 2,
+        "time": 4.583333,
+        "wall": 25030.9,
+        "presentedFrames": 593
+      },
+      {
+        "iteration": 2,
+        "time": 4.625,
+        "wall": 25080.8,
+        "presentedFrames": 594
+      },
+      {
+        "iteration": 2,
+        "time": 4.666667,
+        "wall": 25114.2,
+        "presentedFrames": 595
+      },
+      {
+        "iteration": 2,
+        "time": 4.708333,
+        "wall": 25164.2,
+        "presentedFrames": 596
+      },
+      {
+        "iteration": 2,
+        "time": 4.75,
+        "wall": 25197.5,
+        "presentedFrames": 597
+      },
+      {
+        "iteration": 2,
+        "time": 4.791667,
+        "wall": 25247.5,
+        "presentedFrames": 598
+      },
+      {
+        "iteration": 2,
+        "time": 4.833333,
+        "wall": 25280.8,
+        "presentedFrames": 599
+      },
+      {
+        "iteration": 2,
+        "time": 4.875,
+        "wall": 25330.8,
+        "presentedFrames": 600
+      },
+      {
+        "iteration": 2,
+        "time": 4.916667,
+        "wall": 25364.2,
+        "presentedFrames": 601
+      },
+      {
+        "iteration": 2,
+        "time": 4.958333,
+        "wall": 25414.2,
+        "presentedFrames": 602
+      },
+      {
+        "iteration": 2,
+        "time": 5,
+        "wall": 25447.5,
+        "presentedFrames": 603
+      },
+      {
+        "iteration": 2,
+        "time": 5.041667,
+        "wall": 25497.5,
+        "presentedFrames": 604
+      },
+      {
+        "iteration": 2,
+        "time": 5.083333,
+        "wall": 25530.9,
+        "presentedFrames": 605
+      },
+      {
+        "iteration": 2,
+        "time": 5.125,
+        "wall": 25580.8,
+        "presentedFrames": 606
+      },
+      {
+        "iteration": 2,
+        "time": 5.166667,
+        "wall": 25614.2,
+        "presentedFrames": 607
+      },
+      {
+        "iteration": 2,
+        "time": 5.208333,
+        "wall": 25664.1,
+        "presentedFrames": 608
+      },
+      {
+        "iteration": 2,
+        "time": 5.25,
+        "wall": 25697.5,
+        "presentedFrames": 609
+      },
+      {
+        "iteration": 2,
+        "time": 5.291667,
+        "wall": 25747.5,
+        "presentedFrames": 610
+      },
+      {
+        "iteration": 2,
+        "time": 5.333333,
+        "wall": 25780.9,
+        "presentedFrames": 611
+      },
+      {
+        "iteration": 2,
+        "time": 5.375,
+        "wall": 25830.8,
+        "presentedFrames": 612
+      },
+      {
+        "iteration": 2,
+        "time": 5.416667,
+        "wall": 25864.2,
+        "presentedFrames": 613
+      },
+      {
+        "iteration": 2,
+        "time": 5.458333,
+        "wall": 25914.2,
+        "presentedFrames": 614
+      },
+      {
+        "iteration": 2,
+        "time": 5.5,
+        "wall": 25947.5,
+        "presentedFrames": 615
+      },
+      {
+        "iteration": 2,
+        "time": 5.541667,
+        "wall": 25997.5,
+        "presentedFrames": 616
+      },
+      {
+        "iteration": 2,
+        "time": 5.583333,
+        "wall": 26030.8,
+        "presentedFrames": 617
+      },
+      {
+        "iteration": 2,
+        "time": 5.625,
+        "wall": 26080.8,
+        "presentedFrames": 618
+      },
+      {
+        "iteration": 2,
+        "time": 5.666667,
+        "wall": 26114.1,
+        "presentedFrames": 619
+      },
+      {
+        "iteration": 2,
+        "time": 5.708333,
+        "wall": 26164.2,
+        "presentedFrames": 620
+      },
+      {
+        "iteration": 2,
+        "time": 5.75,
+        "wall": 26197.4,
+        "presentedFrames": 621
+      },
+      {
+        "iteration": 2,
+        "time": 5.791667,
+        "wall": 26247.5,
+        "presentedFrames": 622
+      },
+      {
+        "iteration": 2,
+        "time": 5.833333,
+        "wall": 26280.8,
+        "presentedFrames": 623
+      },
+      {
+        "iteration": 2,
+        "time": 5.875,
+        "wall": 26330.8,
+        "presentedFrames": 624
+      },
+      {
+        "iteration": 2,
+        "time": 5.916667,
+        "wall": 26364.2,
+        "presentedFrames": 625
+      },
+      {
+        "iteration": 2,
+        "time": 5.958333,
+        "wall": 26414.1,
+        "presentedFrames": 626
+      },
+      {
+        "iteration": 2,
+        "time": 6,
+        "wall": 26447.5,
+        "presentedFrames": 627
+      },
+      {
+        "iteration": 2,
+        "time": 6.041667,
+        "wall": 26497.5,
+        "presentedFrames": 628
+      },
+      {
+        "iteration": 2,
+        "time": 6.083333,
+        "wall": 26530.8,
+        "presentedFrames": 629
+      },
+      {
+        "iteration": 2,
+        "time": 6.125,
+        "wall": 26580.8,
+        "presentedFrames": 630
+      },
+      {
+        "iteration": 2,
+        "time": 6.166667,
+        "wall": 26614.2,
+        "presentedFrames": 631
+      },
+      {
+        "iteration": 2,
+        "time": 6.208333,
+        "wall": 26664.1,
+        "presentedFrames": 632
+      },
+      {
+        "iteration": 2,
+        "time": 6.25,
+        "wall": 26697.4,
+        "presentedFrames": 633
+      },
+      {
+        "iteration": 2,
+        "time": 6.291667,
+        "wall": 26747.4,
+        "presentedFrames": 634
+      },
+      {
+        "iteration": 2,
+        "time": 6.333333,
+        "wall": 26780.8,
+        "presentedFrames": 635
+      },
+      {
+        "iteration": 2,
+        "time": 6.375,
+        "wall": 26830.8,
+        "presentedFrames": 636
+      },
+      {
+        "iteration": 2,
+        "time": 6.416667,
+        "wall": 26864.1,
+        "presentedFrames": 637
+      },
+      {
+        "iteration": 2,
+        "time": 6.458333,
+        "wall": 26914.1,
+        "presentedFrames": 638
+      },
+      {
+        "iteration": 2,
+        "time": 6.5,
+        "wall": 26947.4,
+        "presentedFrames": 639
+      },
+      {
+        "iteration": 2,
+        "time": 6.541667,
+        "wall": 26997.5,
+        "presentedFrames": 640
+      },
+      {
+        "iteration": 2,
+        "time": 6.583333,
+        "wall": 27030.8,
+        "presentedFrames": 641
+      },
+      {
+        "iteration": 2,
+        "time": 6.625,
+        "wall": 27080.8,
+        "presentedFrames": 642
+      },
+      {
+        "iteration": 2,
+        "time": 6.666667,
+        "wall": 27114.1,
+        "presentedFrames": 643
+      },
+      {
+        "iteration": 2,
+        "time": 6.708333,
+        "wall": 27164.2,
+        "presentedFrames": 644
+      },
+      {
+        "iteration": 2,
+        "time": 6.75,
+        "wall": 27197.5,
+        "presentedFrames": 645
+      },
+      {
+        "iteration": 2,
+        "time": 6.791667,
+        "wall": 27247.4,
+        "presentedFrames": 646
+      },
+      {
+        "iteration": 2,
+        "time": 6.833333,
+        "wall": 27280.8,
+        "presentedFrames": 647
+      },
+      {
+        "iteration": 2,
+        "time": 6.875,
+        "wall": 27330.8,
+        "presentedFrames": 648
+      },
+      {
+        "iteration": 2,
+        "time": 6.916667,
+        "wall": 27364.1,
+        "presentedFrames": 649
+      },
+      {
+        "iteration": 2,
+        "time": 6.958333,
+        "wall": 27414.1,
+        "presentedFrames": 650
+      },
+      {
+        "iteration": 2,
+        "time": 7,
+        "wall": 27447.4,
+        "presentedFrames": 651
+      },
+      {
+        "iteration": 2,
+        "time": 7.041667,
+        "wall": 27497.5,
+        "presentedFrames": 652
+      },
+      {
+        "iteration": 2,
+        "time": 7.083333,
+        "wall": 27530.8,
+        "presentedFrames": 653
+      },
+      {
+        "iteration": 2,
+        "time": 7.125,
+        "wall": 27580.8,
+        "presentedFrames": 654
+      },
+      {
+        "iteration": 2,
+        "time": 7.166667,
+        "wall": 27614.1,
+        "presentedFrames": 655
+      },
+      {
+        "iteration": 2,
+        "time": 7.208333,
+        "wall": 27664.1,
+        "presentedFrames": 656
+      },
+      {
+        "iteration": 2,
+        "time": 7.25,
+        "wall": 27697.4,
+        "presentedFrames": 657
+      },
+      {
+        "iteration": 2,
+        "time": 7.291667,
+        "wall": 27747.4,
+        "presentedFrames": 658
+      },
+      {
+        "iteration": 2,
+        "time": 7.333333,
+        "wall": 27780.7,
+        "presentedFrames": 659
+      },
+      {
+        "iteration": 2,
+        "time": 7.375,
+        "wall": 27830.8,
+        "presentedFrames": 660
+      },
+      {
+        "iteration": 2,
+        "time": 7.416667,
+        "wall": 27864.1,
+        "presentedFrames": 661
+      },
+      {
+        "iteration": 2,
+        "time": 7.458333,
+        "wall": 27914.1,
+        "presentedFrames": 662
+      },
+      {
+        "iteration": 2,
+        "time": 7.5,
+        "wall": 27947.5,
+        "presentedFrames": 663
+      },
+      {
+        "iteration": 2,
+        "time": 7.541667,
+        "wall": 27997.4,
+        "presentedFrames": 664
+      },
+      {
+        "iteration": 2,
+        "time": 7.583333,
+        "wall": 28030.7,
+        "presentedFrames": 665
+      },
+      {
+        "iteration": 2,
+        "time": 7.625,
+        "wall": 28080.7,
+        "presentedFrames": 666
+      },
+      {
+        "iteration": 2,
+        "time": 7.666667,
+        "wall": 28114.1,
+        "presentedFrames": 667
+      },
+      {
+        "iteration": 2,
+        "time": 7.708333,
+        "wall": 28164.1,
+        "presentedFrames": 668
+      },
+      {
+        "iteration": 2,
+        "time": 7.75,
+        "wall": 28197.4,
+        "presentedFrames": 669
+      },
+      {
+        "iteration": 2,
+        "time": 7.791667,
+        "wall": 28247.4,
+        "presentedFrames": 670
+      },
+      {
+        "iteration": 2,
+        "time": 7.833333,
+        "wall": 28280.7,
+        "presentedFrames": 671
+      },
+      {
+        "iteration": 2,
+        "time": 7.875,
+        "wall": 28330.7,
+        "presentedFrames": 672
+      },
+      {
+        "iteration": 2,
+        "time": 7.916667,
+        "wall": 28364.1,
+        "presentedFrames": 673
+      },
+      {
+        "iteration": 2,
+        "time": 7.958333,
+        "wall": 28414,
+        "presentedFrames": 674
+      },
+      {
+        "iteration": 2,
+        "time": 8,
+        "wall": 28447.4,
+        "presentedFrames": 675
+      },
+      {
+        "iteration": 2,
+        "time": 8.041667,
+        "wall": 28497.4,
+        "presentedFrames": 676
+      },
+      {
+        "iteration": 2,
+        "time": 8.083333,
+        "wall": 28530.7,
+        "presentedFrames": 677
+      },
+      {
+        "iteration": 2,
+        "time": 8.125,
+        "wall": 28580.7,
+        "presentedFrames": 678
+      },
+      {
+        "iteration": 2,
+        "time": 8.166667,
+        "wall": 28614,
+        "presentedFrames": 679
+      },
+      {
+        "iteration": 2,
+        "time": 8.208333,
+        "wall": 28664.1,
+        "presentedFrames": 680
+      },
+      {
+        "iteration": 2,
+        "time": 8.25,
+        "wall": 28697.4,
+        "presentedFrames": 681
+      },
+      {
+        "iteration": 2,
+        "time": 8.291667,
+        "wall": 28747.4,
+        "presentedFrames": 682
+      },
+      {
+        "iteration": 2,
+        "time": 8.333333,
+        "wall": 28780.7,
+        "presentedFrames": 683
+      },
+      {
+        "iteration": 2,
+        "time": 8.375,
+        "wall": 28830.7,
+        "presentedFrames": 684
+      },
+      {
+        "iteration": 2,
+        "time": 8.416667,
+        "wall": 28864.1,
+        "presentedFrames": 685
+      },
+      {
+        "iteration": 2,
+        "time": 8.458333,
+        "wall": 28914.1,
+        "presentedFrames": 686
+      },
+      {
+        "iteration": 2,
+        "time": 8.5,
+        "wall": 28947.4,
+        "presentedFrames": 687
+      },
+      {
+        "iteration": 2,
+        "time": 8.541667,
+        "wall": 28997.4,
+        "presentedFrames": 688
+      },
+      {
+        "iteration": 2,
+        "time": 8.583333,
+        "wall": 29030.7,
+        "presentedFrames": 689
+      },
+      {
+        "iteration": 2,
+        "time": 8.625,
+        "wall": 29080.7,
+        "presentedFrames": 690
+      },
+      {
+        "iteration": 2,
+        "time": 8.666667,
+        "wall": 29114,
+        "presentedFrames": 691
+      },
+      {
+        "iteration": 2,
+        "time": 8.708333,
+        "wall": 29164,
+        "presentedFrames": 692
+      },
+      {
+        "iteration": 2,
+        "time": 8.75,
+        "wall": 29197.4,
+        "presentedFrames": 693
+      },
+      {
+        "iteration": 2,
+        "time": 8.791667,
+        "wall": 29247.4,
+        "presentedFrames": 694
+      },
+      {
+        "iteration": 2,
+        "time": 8.833333,
+        "wall": 29280.7,
+        "presentedFrames": 695
+      },
+      {
+        "iteration": 2,
+        "time": 8.875,
+        "wall": 29330.7,
+        "presentedFrames": 696
+      },
+      {
+        "iteration": 2,
+        "time": 8.916667,
+        "wall": 29364,
+        "presentedFrames": 697
+      },
+      {
+        "iteration": 2,
+        "time": 8.958333,
+        "wall": 29414,
+        "presentedFrames": 698
+      },
+      {
+        "iteration": 2,
+        "time": 9,
+        "wall": 29447.4,
+        "presentedFrames": 699
+      },
+      {
+        "iteration": 2,
+        "time": 9.041667,
+        "wall": 29497.4,
+        "presentedFrames": 700
+      },
+      {
+        "iteration": 2,
+        "time": 9.083333,
+        "wall": 29530.7,
+        "presentedFrames": 701
+      },
+      {
+        "iteration": 2,
+        "time": 9.125,
+        "wall": 29580.7,
+        "presentedFrames": 702
+      },
+      {
+        "iteration": 2,
+        "time": 9.166667,
+        "wall": 29614,
+        "presentedFrames": 703
+      },
+      {
+        "iteration": 2,
+        "time": 9.208333,
+        "wall": 29664,
+        "presentedFrames": 704
+      },
+      {
+        "iteration": 2,
+        "time": 9.25,
+        "wall": 29697.3,
+        "presentedFrames": 705
+      },
+      {
+        "iteration": 2,
+        "time": 9.291667,
+        "wall": 29747.3,
+        "presentedFrames": 706
+      },
+      {
+        "iteration": 2,
+        "time": 9.333333,
+        "wall": 29780.6,
+        "presentedFrames": 707
+      },
+      {
+        "iteration": 2,
+        "time": 9.375,
+        "wall": 29830.7,
+        "presentedFrames": 708
+      },
+      {
+        "iteration": 2,
+        "time": 9.416667,
+        "wall": 29864,
+        "presentedFrames": 709
+      },
+      {
+        "iteration": 2,
+        "time": 9.458333,
+        "wall": 29914,
+        "presentedFrames": 710
+      },
+      {
+        "iteration": 2,
+        "time": 9.5,
+        "wall": 29947.3,
+        "presentedFrames": 711
+      },
+      {
+        "iteration": 2,
+        "time": 9.541667,
+        "wall": 29997.3,
+        "presentedFrames": 712
+      },
+      {
+        "iteration": 2,
+        "time": 9.583333,
+        "wall": 30030.7,
+        "presentedFrames": 713
+      },
+      {
+        "iteration": 2,
+        "time": 9.625,
+        "wall": 30080.7,
+        "presentedFrames": 714
+      },
+      {
+        "iteration": 2,
+        "time": 9.666667,
+        "wall": 30113.9,
+        "presentedFrames": 715
+      },
+      {
+        "iteration": 2,
+        "time": 9.708333,
+        "wall": 30164,
+        "presentedFrames": 716
+      },
+      {
+        "iteration": 2,
+        "time": 9.75,
+        "wall": 30197.3,
+        "presentedFrames": 717
+      },
+      {
+        "iteration": 2,
+        "time": 9.791667,
+        "wall": 30247.3,
+        "presentedFrames": 718
+      },
+      {
+        "iteration": 2,
+        "time": 9.833333,
+        "wall": 30280.6,
+        "presentedFrames": 719
+      },
+      {
+        "iteration": 2,
+        "time": 9.875,
+        "wall": 30330.7,
+        "presentedFrames": 720
+      },
+      {
+        "iteration": 2,
+        "time": 9.916667,
+        "wall": 30347.3,
+        "presentedFrames": 721
+      },
+      {
+        "iteration": 2,
+        "time": 9.958333,
+        "wall": 30397.3,
+        "presentedFrames": 722
+      },
+      {
+        "iteration": 2,
+        "time": 10,
+        "wall": 30447.3,
+        "presentedFrames": 723
+      },
+      {
+        "iteration": 3,
+        "time": 0,
+        "wall": 30513.9,
+        "presentedFrames": 724
+      },
+      {
+        "iteration": 3,
+        "time": 0.041667,
+        "wall": 30547.3,
+        "presentedFrames": 725
+      },
+      {
+        "iteration": 3,
+        "time": 0.083333,
+        "wall": 30597.3,
+        "presentedFrames": 726
+      },
+      {
+        "iteration": 3,
+        "time": 0.125,
+        "wall": 30647.3,
+        "presentedFrames": 727
+      },
+      {
+        "iteration": 3,
+        "time": 0.166667,
+        "wall": 30697.3,
+        "presentedFrames": 728
+      },
+      {
+        "iteration": 3,
+        "time": 0.208333,
+        "wall": 30747.3,
+        "presentedFrames": 729
+      },
+      {
+        "iteration": 3,
+        "time": 0.25,
+        "wall": 30764,
+        "presentedFrames": 730
+      },
+      {
+        "iteration": 3,
+        "time": 0.291667,
+        "wall": 30813.9,
+        "presentedFrames": 731
+      },
+      {
+        "iteration": 3,
+        "time": 0.333333,
+        "wall": 30847.3,
+        "presentedFrames": 732
+      },
+      {
+        "iteration": 3,
+        "time": 0.375,
+        "wall": 30914,
+        "presentedFrames": 733
+      },
+      {
+        "iteration": 3,
+        "time": 0.416667,
+        "wall": 30930.6,
+        "presentedFrames": 734
+      },
+      {
+        "iteration": 3,
+        "time": 0.458333,
+        "wall": 30980.6,
+        "presentedFrames": 735
+      },
+      {
+        "iteration": 3,
+        "time": 0.5,
+        "wall": 31030.6,
+        "presentedFrames": 736
+      },
+      {
+        "iteration": 3,
+        "time": 0.541667,
+        "wall": 31080.6,
+        "presentedFrames": 737
+      },
+      {
+        "iteration": 3,
+        "time": 0.583333,
+        "wall": 31097.3,
+        "presentedFrames": 738
+      },
+      {
+        "iteration": 3,
+        "time": 0.625,
+        "wall": 31147.3,
+        "presentedFrames": 739
+      },
+      {
+        "iteration": 3,
+        "time": 0.666667,
+        "wall": 31197.3,
+        "presentedFrames": 740
+      },
+      {
+        "iteration": 3,
+        "time": 0.708333,
+        "wall": 31247.3,
+        "presentedFrames": 741
+      },
+      {
+        "iteration": 3,
+        "time": 0.75,
+        "wall": 31263.9,
+        "presentedFrames": 742
+      },
+      {
+        "iteration": 3,
+        "time": 0.791667,
+        "wall": 31314,
+        "presentedFrames": 743
+      },
+      {
+        "iteration": 3,
+        "time": 0.833333,
+        "wall": 31363.9,
+        "presentedFrames": 744
+      },
+      {
+        "iteration": 3,
+        "time": 0.875,
+        "wall": 31414,
+        "presentedFrames": 745
+      },
+      {
+        "iteration": 3,
+        "time": 0.916667,
+        "wall": 31430.6,
+        "presentedFrames": 746
+      },
+      {
+        "iteration": 3,
+        "time": 0.958333,
+        "wall": 31480.6,
+        "presentedFrames": 747
+      },
+      {
+        "iteration": 3,
+        "time": 1,
+        "wall": 31530.6,
+        "presentedFrames": 748
+      },
+      {
+        "iteration": 3,
+        "time": 1.041667,
+        "wall": 31580.6,
+        "presentedFrames": 749
+      },
+      {
+        "iteration": 3,
+        "time": 1.083333,
+        "wall": 31614,
+        "presentedFrames": 750
+      },
+      {
+        "iteration": 3,
+        "time": 1.125,
+        "wall": 31663.9,
+        "presentedFrames": 751
+      },
+      {
+        "iteration": 3,
+        "time": 1.166667,
+        "wall": 31697.3,
+        "presentedFrames": 752
+      },
+      {
+        "iteration": 3,
+        "time": 1.208333,
+        "wall": 31747.3,
+        "presentedFrames": 753
+      },
+      {
+        "iteration": 3,
+        "time": 1.25,
+        "wall": 31780.6,
+        "presentedFrames": 754
+      },
+      {
+        "iteration": 3,
+        "time": 1.291667,
+        "wall": 31830.6,
+        "presentedFrames": 755
+      },
+      {
+        "iteration": 3,
+        "time": 1.333333,
+        "wall": 31864,
+        "presentedFrames": 756
+      },
+      {
+        "iteration": 3,
+        "time": 1.375,
+        "wall": 31914,
+        "presentedFrames": 757
+      },
+      {
+        "iteration": 3,
+        "time": 1.416667,
+        "wall": 31947.3,
+        "presentedFrames": 758
+      },
+      {
+        "iteration": 3,
+        "time": 1.458333,
+        "wall": 31997.3,
+        "presentedFrames": 759
+      },
+      {
+        "iteration": 3,
+        "time": 1.5,
+        "wall": 32030.6,
+        "presentedFrames": 760
+      },
+      {
+        "iteration": 3,
+        "time": 1.541667,
+        "wall": 32080.6,
+        "presentedFrames": 761
+      },
+      {
+        "iteration": 3,
+        "time": 1.583333,
+        "wall": 32113.9,
+        "presentedFrames": 762
+      },
+      {
+        "iteration": 3,
+        "time": 1.625,
+        "wall": 32163.9,
+        "presentedFrames": 763
+      },
+      {
+        "iteration": 3,
+        "time": 1.666667,
+        "wall": 32197.2,
+        "presentedFrames": 764
+      },
+      {
+        "iteration": 3,
+        "time": 1.708333,
+        "wall": 32247.2,
+        "presentedFrames": 765
+      },
+      {
+        "iteration": 3,
+        "time": 1.75,
+        "wall": 32280.6,
+        "presentedFrames": 766
+      },
+      {
+        "iteration": 3,
+        "time": 1.791667,
+        "wall": 32330.6,
+        "presentedFrames": 767
+      },
+      {
+        "iteration": 3,
+        "time": 1.833333,
+        "wall": 32363.9,
+        "presentedFrames": 768
+      },
+      {
+        "iteration": 3,
+        "time": 1.875,
+        "wall": 32413.9,
+        "presentedFrames": 769
+      },
+      {
+        "iteration": 3,
+        "time": 1.916667,
+        "wall": 32447.2,
+        "presentedFrames": 770
+      },
+      {
+        "iteration": 3,
+        "time": 1.958333,
+        "wall": 32497.2,
+        "presentedFrames": 771
+      },
+      {
+        "iteration": 3,
+        "time": 2,
+        "wall": 32530.5,
+        "presentedFrames": 772
+      },
+      {
+        "iteration": 3,
+        "time": 2.041667,
+        "wall": 32580.6,
+        "presentedFrames": 773
+      },
+      {
+        "iteration": 3,
+        "time": 2.083333,
+        "wall": 32613.9,
+        "presentedFrames": 774
+      },
+      {
+        "iteration": 3,
+        "time": 2.125,
+        "wall": 32663.9,
+        "presentedFrames": 775
+      },
+      {
+        "iteration": 3,
+        "time": 2.166667,
+        "wall": 32697.2,
+        "presentedFrames": 776
+      },
+      {
+        "iteration": 3,
+        "time": 2.208333,
+        "wall": 32747.2,
+        "presentedFrames": 777
+      },
+      {
+        "iteration": 3,
+        "time": 2.25,
+        "wall": 32780.6,
+        "presentedFrames": 778
+      },
+      {
+        "iteration": 3,
+        "time": 2.291667,
+        "wall": 32830.5,
+        "presentedFrames": 779
+      },
+      {
+        "iteration": 3,
+        "time": 2.333333,
+        "wall": 32863.9,
+        "presentedFrames": 780
+      },
+      {
+        "iteration": 3,
+        "time": 2.375,
+        "wall": 32913.8,
+        "presentedFrames": 781
+      },
+      {
+        "iteration": 3,
+        "time": 2.416667,
+        "wall": 32947.2,
+        "presentedFrames": 782
+      },
+      {
+        "iteration": 3,
+        "time": 2.458333,
+        "wall": 32997.2,
+        "presentedFrames": 783
+      },
+      {
+        "iteration": 3,
+        "time": 2.5,
+        "wall": 33030.5,
+        "presentedFrames": 784
+      },
+      {
+        "iteration": 3,
+        "time": 2.541667,
+        "wall": 33080.5,
+        "presentedFrames": 785
+      },
+      {
+        "iteration": 3,
+        "time": 2.583333,
+        "wall": 33113.9,
+        "presentedFrames": 786
+      },
+      {
+        "iteration": 3,
+        "time": 2.625,
+        "wall": 33163.9,
+        "presentedFrames": 787
+      },
+      {
+        "iteration": 3,
+        "time": 2.666667,
+        "wall": 33197.2,
+        "presentedFrames": 788
+      },
+      {
+        "iteration": 3,
+        "time": 2.708333,
+        "wall": 33247.2,
+        "presentedFrames": 789
+      },
+      {
+        "iteration": 3,
+        "time": 2.75,
+        "wall": 33280.5,
+        "presentedFrames": 790
+      },
+      {
+        "iteration": 3,
+        "time": 2.791667,
+        "wall": 33330.6,
+        "presentedFrames": 791
+      },
+      {
+        "iteration": 3,
+        "time": 2.833333,
+        "wall": 33363.8,
+        "presentedFrames": 792
+      },
+      {
+        "iteration": 3,
+        "time": 2.875,
+        "wall": 33413.9,
+        "presentedFrames": 793
+      },
+      {
+        "iteration": 3,
+        "time": 2.916667,
+        "wall": 33447.2,
+        "presentedFrames": 794
+      },
+      {
+        "iteration": 3,
+        "time": 2.958333,
+        "wall": 33497.2,
+        "presentedFrames": 795
+      },
+      {
+        "iteration": 3,
+        "time": 3,
+        "wall": 33530.5,
+        "presentedFrames": 796
+      },
+      {
+        "iteration": 3,
+        "time": 3.041667,
+        "wall": 33580.5,
+        "presentedFrames": 797
+      },
+      {
+        "iteration": 3,
+        "time": 3.083333,
+        "wall": 33613.9,
+        "presentedFrames": 798
+      },
+      {
+        "iteration": 3,
+        "time": 3.125,
+        "wall": 33663.8,
+        "presentedFrames": 799
+      },
+      {
+        "iteration": 3,
+        "time": 3.166667,
+        "wall": 33697.2,
+        "presentedFrames": 800
+      },
+      {
+        "iteration": 3,
+        "time": 3.208333,
+        "wall": 33747.2,
+        "presentedFrames": 801
+      },
+      {
+        "iteration": 3,
+        "time": 3.25,
+        "wall": 33780.5,
+        "presentedFrames": 802
+      },
+      {
+        "iteration": 3,
+        "time": 3.291667,
+        "wall": 33830.5,
+        "presentedFrames": 803
+      },
+      {
+        "iteration": 3,
+        "time": 3.333333,
+        "wall": 33863.8,
+        "presentedFrames": 804
+      },
+      {
+        "iteration": 3,
+        "time": 3.375,
+        "wall": 33913.8,
+        "presentedFrames": 805
+      },
+      {
+        "iteration": 3,
+        "time": 3.416667,
+        "wall": 33947.2,
+        "presentedFrames": 806
+      },
+      {
+        "iteration": 3,
+        "time": 3.458333,
+        "wall": 33997.2,
+        "presentedFrames": 807
+      },
+      {
+        "iteration": 3,
+        "time": 3.5,
+        "wall": 34030.5,
+        "presentedFrames": 808
+      },
+      {
+        "iteration": 3,
+        "time": 3.541667,
+        "wall": 34080.5,
+        "presentedFrames": 809
+      },
+      {
+        "iteration": 3,
+        "time": 3.583333,
+        "wall": 34113.8,
+        "presentedFrames": 810
+      },
+      {
+        "iteration": 3,
+        "time": 3.625,
+        "wall": 34163.8,
+        "presentedFrames": 811
+      },
+      {
+        "iteration": 3,
+        "time": 3.666667,
+        "wall": 34197.2,
+        "presentedFrames": 812
+      },
+      {
+        "iteration": 3,
+        "time": 3.708333,
+        "wall": 34247.2,
+        "presentedFrames": 813
+      },
+      {
+        "iteration": 3,
+        "time": 3.75,
+        "wall": 34280.5,
+        "presentedFrames": 814
+      },
+      {
+        "iteration": 3,
+        "time": 3.791667,
+        "wall": 34330.5,
+        "presentedFrames": 815
+      },
+      {
+        "iteration": 3,
+        "time": 3.833333,
+        "wall": 34363.8,
+        "presentedFrames": 816
+      },
+      {
+        "iteration": 3,
+        "time": 3.875,
+        "wall": 34413.8,
+        "presentedFrames": 817
+      },
+      {
+        "iteration": 3,
+        "time": 3.916667,
+        "wall": 34447.1,
+        "presentedFrames": 818
+      },
+      {
+        "iteration": 3,
+        "time": 3.958333,
+        "wall": 34497.2,
+        "presentedFrames": 819
+      },
+      {
+        "iteration": 3,
+        "time": 4,
+        "wall": 34530.5,
+        "presentedFrames": 820
+      },
+      {
+        "iteration": 3,
+        "time": 4.041667,
+        "wall": 34580.5,
+        "presentedFrames": 821
+      },
+      {
+        "iteration": 3,
+        "time": 4.083333,
+        "wall": 34613.8,
+        "presentedFrames": 822
+      },
+      {
+        "iteration": 3,
+        "time": 4.125,
+        "wall": 34663.8,
+        "presentedFrames": 823
+      },
+      {
+        "iteration": 3,
+        "time": 4.166667,
+        "wall": 34697.1,
+        "presentedFrames": 824
+      },
+      {
+        "iteration": 3,
+        "time": 4.208333,
+        "wall": 34730.5,
+        "presentedFrames": 825
+      },
+      {
+        "iteration": 3,
+        "time": 4.25,
+        "wall": 34780.5,
+        "presentedFrames": 826
+      },
+      {
+        "iteration": 3,
+        "time": 4.291667,
+        "wall": 34830.4,
+        "presentedFrames": 827
+      },
+      {
+        "iteration": 3,
+        "time": 4.333333,
+        "wall": 34863.8,
+        "presentedFrames": 828
+      },
+      {
+        "iteration": 3,
+        "time": 4.375,
+        "wall": 34913.8,
+        "presentedFrames": 829
+      },
+      {
+        "iteration": 3,
+        "time": 4.416667,
+        "wall": 34947.1,
+        "presentedFrames": 830
+      },
+      {
+        "iteration": 3,
+        "time": 4.458333,
+        "wall": 34997.1,
+        "presentedFrames": 831
+      },
+      {
+        "iteration": 3,
+        "time": 4.5,
+        "wall": 35030.4,
+        "presentedFrames": 832
+      },
+      {
+        "iteration": 3,
+        "time": 4.541667,
+        "wall": 35080.5,
+        "presentedFrames": 833
+      },
+      {
+        "iteration": 3,
+        "time": 4.583333,
+        "wall": 35113.8,
+        "presentedFrames": 834
+      },
+      {
+        "iteration": 3,
+        "time": 4.625,
+        "wall": 35163.8,
+        "presentedFrames": 835
+      },
+      {
+        "iteration": 3,
+        "time": 4.666667,
+        "wall": 35197.2,
+        "presentedFrames": 836
+      },
+      {
+        "iteration": 3,
+        "time": 4.708333,
+        "wall": 35247.1,
+        "presentedFrames": 837
+      },
+      {
+        "iteration": 3,
+        "time": 4.75,
+        "wall": 35280.4,
+        "presentedFrames": 838
+      },
+      {
+        "iteration": 3,
+        "time": 4.791667,
+        "wall": 35330.4,
+        "presentedFrames": 839
+      },
+      {
+        "iteration": 3,
+        "time": 4.833333,
+        "wall": 35363.8,
+        "presentedFrames": 840
+      },
+      {
+        "iteration": 3,
+        "time": 4.875,
+        "wall": 35413.7,
+        "presentedFrames": 841
+      },
+      {
+        "iteration": 3,
+        "time": 4.916667,
+        "wall": 35447.1,
+        "presentedFrames": 842
+      },
+      {
+        "iteration": 3,
+        "time": 4.958333,
+        "wall": 35497.1,
+        "presentedFrames": 843
+      },
+      {
+        "iteration": 3,
+        "time": 5,
+        "wall": 35530.4,
+        "presentedFrames": 844
+      },
+      {
+        "iteration": 3,
+        "time": 5.041667,
+        "wall": 35580.4,
+        "presentedFrames": 845
+      },
+      {
+        "iteration": 3,
+        "time": 5.083333,
+        "wall": 35613.7,
+        "presentedFrames": 846
+      },
+      {
+        "iteration": 3,
+        "time": 5.125,
+        "wall": 35663.7,
+        "presentedFrames": 847
+      },
+      {
+        "iteration": 3,
+        "time": 5.166667,
+        "wall": 35697.1,
+        "presentedFrames": 848
+      },
+      {
+        "iteration": 3,
+        "time": 5.208333,
+        "wall": 35747.1,
+        "presentedFrames": 849
+      },
+      {
+        "iteration": 3,
+        "time": 5.25,
+        "wall": 35780.4,
+        "presentedFrames": 850
+      },
+      {
+        "iteration": 3,
+        "time": 5.291667,
+        "wall": 35830.4,
+        "presentedFrames": 851
+      },
+      {
+        "iteration": 3,
+        "time": 5.333333,
+        "wall": 35863.7,
+        "presentedFrames": 852
+      },
+      {
+        "iteration": 3,
+        "time": 5.375,
+        "wall": 35913.8,
+        "presentedFrames": 853
+      },
+      {
+        "iteration": 3,
+        "time": 5.416667,
+        "wall": 35947.1,
+        "presentedFrames": 854
+      },
+      {
+        "iteration": 3,
+        "time": 5.458333,
+        "wall": 35997.1,
+        "presentedFrames": 855
+      },
+      {
+        "iteration": 3,
+        "time": 5.5,
+        "wall": 36030.4,
+        "presentedFrames": 856
+      },
+      {
+        "iteration": 3,
+        "time": 5.541667,
+        "wall": 36080.4,
+        "presentedFrames": 857
+      },
+      {
+        "iteration": 3,
+        "time": 5.583333,
+        "wall": 36113.7,
+        "presentedFrames": 858
+      },
+      {
+        "iteration": 3,
+        "time": 5.625,
+        "wall": 36163.7,
+        "presentedFrames": 859
+      },
+      {
+        "iteration": 3,
+        "time": 5.666667,
+        "wall": 36197.1,
+        "presentedFrames": 860
+      },
+      {
+        "iteration": 3,
+        "time": 5.708333,
+        "wall": 36247,
+        "presentedFrames": 861
+      },
+      {
+        "iteration": 3,
+        "time": 5.75,
+        "wall": 36280.5,
+        "presentedFrames": 862
+      },
+      {
+        "iteration": 3,
+        "time": 5.791667,
+        "wall": 36330.4,
+        "presentedFrames": 863
+      },
+      {
+        "iteration": 3,
+        "time": 5.833333,
+        "wall": 36363.7,
+        "presentedFrames": 864
+      },
+      {
+        "iteration": 3,
+        "time": 5.875,
+        "wall": 36413.7,
+        "presentedFrames": 865
+      },
+      {
+        "iteration": 3,
+        "time": 5.916667,
+        "wall": 36447,
+        "presentedFrames": 866
+      },
+      {
+        "iteration": 3,
+        "time": 5.958333,
+        "wall": 36497,
+        "presentedFrames": 867
+      },
+      {
+        "iteration": 3,
+        "time": 6,
+        "wall": 36530.4,
+        "presentedFrames": 868
+      },
+      {
+        "iteration": 3,
+        "time": 6.041667,
+        "wall": 36580.4,
+        "presentedFrames": 869
+      },
+      {
+        "iteration": 3,
+        "time": 6.083333,
+        "wall": 36613.7,
+        "presentedFrames": 870
+      },
+      {
+        "iteration": 3,
+        "time": 6.125,
+        "wall": 36663.7,
+        "presentedFrames": 871
+      },
+      {
+        "iteration": 3,
+        "time": 6.166667,
+        "wall": 36697,
+        "presentedFrames": 872
+      },
+      {
+        "iteration": 3,
+        "time": 6.208333,
+        "wall": 36747,
+        "presentedFrames": 873
+      },
+      {
+        "iteration": 3,
+        "time": 6.25,
+        "wall": 36780.4,
+        "presentedFrames": 874
+      },
+      {
+        "iteration": 3,
+        "time": 6.291667,
+        "wall": 36830.4,
+        "presentedFrames": 875
+      },
+      {
+        "iteration": 3,
+        "time": 6.333333,
+        "wall": 36863.7,
+        "presentedFrames": 876
+      },
+      {
+        "iteration": 3,
+        "time": 6.375,
+        "wall": 36913.7,
+        "presentedFrames": 877
+      },
+      {
+        "iteration": 3,
+        "time": 6.416667,
+        "wall": 36947.1,
+        "presentedFrames": 878
+      },
+      {
+        "iteration": 3,
+        "time": 6.458333,
+        "wall": 36997,
+        "presentedFrames": 879
+      },
+      {
+        "iteration": 3,
+        "time": 6.5,
+        "wall": 37030.4,
+        "presentedFrames": 880
+      },
+      {
+        "iteration": 3,
+        "time": 6.541667,
+        "wall": 37080.4,
+        "presentedFrames": 881
+      },
+      {
+        "iteration": 3,
+        "time": 6.583333,
+        "wall": 37113.7,
+        "presentedFrames": 882
+      },
+      {
+        "iteration": 3,
+        "time": 6.625,
+        "wall": 37163.7,
+        "presentedFrames": 883
+      },
+      {
+        "iteration": 3,
+        "time": 6.666667,
+        "wall": 37197.1,
+        "presentedFrames": 884
+      },
+      {
+        "iteration": 3,
+        "time": 6.708333,
+        "wall": 37247,
+        "presentedFrames": 885
+      },
+      {
+        "iteration": 3,
+        "time": 6.75,
+        "wall": 37280.4,
+        "presentedFrames": 886
+      },
+      {
+        "iteration": 3,
+        "time": 6.791667,
+        "wall": 37330.4,
+        "presentedFrames": 887
+      },
+      {
+        "iteration": 3,
+        "time": 6.833333,
+        "wall": 37363.7,
+        "presentedFrames": 888
+      },
+      {
+        "iteration": 3,
+        "time": 6.875,
+        "wall": 37413.7,
+        "presentedFrames": 889
+      },
+      {
+        "iteration": 3,
+        "time": 6.916667,
+        "wall": 37447.1,
+        "presentedFrames": 890
+      },
+      {
+        "iteration": 3,
+        "time": 6.958333,
+        "wall": 37497,
+        "presentedFrames": 891
+      },
+      {
+        "iteration": 3,
+        "time": 7,
+        "wall": 37530.4,
+        "presentedFrames": 892
+      },
+      {
+        "iteration": 3,
+        "time": 7.041667,
+        "wall": 37580.4,
+        "presentedFrames": 893
+      },
+      {
+        "iteration": 3,
+        "time": 7.083333,
+        "wall": 37613.7,
+        "presentedFrames": 894
+      },
+      {
+        "iteration": 3,
+        "time": 7.125,
+        "wall": 37663.7,
+        "presentedFrames": 895
+      },
+      {
+        "iteration": 3,
+        "time": 7.166667,
+        "wall": 37697.1,
+        "presentedFrames": 896
+      },
+      {
+        "iteration": 3,
+        "time": 7.208333,
+        "wall": 37747,
+        "presentedFrames": 897
+      },
+      {
+        "iteration": 3,
+        "time": 7.25,
+        "wall": 37780.3,
+        "presentedFrames": 898
+      },
+      {
+        "iteration": 3,
+        "time": 7.291667,
+        "wall": 37830.3,
+        "presentedFrames": 899
+      },
+      {
+        "iteration": 3,
+        "time": 7.333333,
+        "wall": 37863.7,
+        "presentedFrames": 900
+      },
+      {
+        "iteration": 3,
+        "time": 7.375,
+        "wall": 37913.6,
+        "presentedFrames": 901
+      },
+      {
+        "iteration": 3,
+        "time": 7.416667,
+        "wall": 37947,
+        "presentedFrames": 902
+      },
+      {
+        "iteration": 3,
+        "time": 7.458333,
+        "wall": 37997,
+        "presentedFrames": 903
+      },
+      {
+        "iteration": 3,
+        "time": 7.5,
+        "wall": 38030.4,
+        "presentedFrames": 904
+      },
+      {
+        "iteration": 3,
+        "time": 7.541667,
+        "wall": 38080.4,
+        "presentedFrames": 905
+      },
+      {
+        "iteration": 3,
+        "time": 7.583333,
+        "wall": 38113.7,
+        "presentedFrames": 906
+      },
+      {
+        "iteration": 3,
+        "time": 7.625,
+        "wall": 38163.7,
+        "presentedFrames": 907
+      },
+      {
+        "iteration": 3,
+        "time": 7.666667,
+        "wall": 38197,
+        "presentedFrames": 908
+      },
+      {
+        "iteration": 3,
+        "time": 7.708333,
+        "wall": 38247,
+        "presentedFrames": 909
+      },
+      {
+        "iteration": 3,
+        "time": 7.75,
+        "wall": 38280.3,
+        "presentedFrames": 910
+      },
+      {
+        "iteration": 3,
+        "time": 7.791667,
+        "wall": 38330.4,
+        "presentedFrames": 911
+      },
+      {
+        "iteration": 3,
+        "time": 7.833333,
+        "wall": 38363.7,
+        "presentedFrames": 912
+      },
+      {
+        "iteration": 3,
+        "time": 7.875,
+        "wall": 38413.7,
+        "presentedFrames": 913
+      },
+      {
+        "iteration": 3,
+        "time": 7.916667,
+        "wall": 38447,
+        "presentedFrames": 914
+      },
+      {
+        "iteration": 3,
+        "time": 7.958333,
+        "wall": 38497,
+        "presentedFrames": 915
+      },
+      {
+        "iteration": 3,
+        "time": 8,
+        "wall": 38530.3,
+        "presentedFrames": 916
+      },
+      {
+        "iteration": 3,
+        "time": 8.041667,
+        "wall": 38580.3,
+        "presentedFrames": 917
+      },
+      {
+        "iteration": 3,
+        "time": 8.083333,
+        "wall": 38613.7,
+        "presentedFrames": 918
+      },
+      {
+        "iteration": 3,
+        "time": 8.125,
+        "wall": 38663.6,
+        "presentedFrames": 919
+      },
+      {
+        "iteration": 3,
+        "time": 8.166667,
+        "wall": 38697,
+        "presentedFrames": 920
+      },
+      {
+        "iteration": 3,
+        "time": 8.208333,
+        "wall": 38747,
+        "presentedFrames": 921
+      },
+      {
+        "iteration": 3,
+        "time": 8.25,
+        "wall": 38780.3,
+        "presentedFrames": 922
+      },
+      {
+        "iteration": 3,
+        "time": 8.291667,
+        "wall": 38830.3,
+        "presentedFrames": 923
+      },
+      {
+        "iteration": 3,
+        "time": 8.333333,
+        "wall": 38863.7,
+        "presentedFrames": 924
+      },
+      {
+        "iteration": 3,
+        "time": 8.375,
+        "wall": 38913.6,
+        "presentedFrames": 925
+      },
+      {
+        "iteration": 3,
+        "time": 8.416667,
+        "wall": 38946.9,
+        "presentedFrames": 926
+      },
+      {
+        "iteration": 3,
+        "time": 8.458333,
+        "wall": 38997,
+        "presentedFrames": 927
+      },
+      {
+        "iteration": 3,
+        "time": 8.5,
+        "wall": 39030.3,
+        "presentedFrames": 928
+      },
+      {
+        "iteration": 3,
+        "time": 8.541667,
+        "wall": 39080.3,
+        "presentedFrames": 929
+      },
+      {
+        "iteration": 3,
+        "time": 8.583333,
+        "wall": 39113.7,
+        "presentedFrames": 930
+      },
+      {
+        "iteration": 3,
+        "time": 8.625,
+        "wall": 39163.6,
+        "presentedFrames": 931
+      },
+      {
+        "iteration": 3,
+        "time": 8.666667,
+        "wall": 39196.9,
+        "presentedFrames": 932
+      },
+      {
+        "iteration": 3,
+        "time": 8.708333,
+        "wall": 39246.9,
+        "presentedFrames": 933
+      },
+      {
+        "iteration": 3,
+        "time": 8.75,
+        "wall": 39280.3,
+        "presentedFrames": 934
+      },
+      {
+        "iteration": 3,
+        "time": 8.791667,
+        "wall": 39330.3,
+        "presentedFrames": 935
+      },
+      {
+        "iteration": 3,
+        "time": 8.833333,
+        "wall": 39346.9,
+        "presentedFrames": 936
+      },
+      {
+        "iteration": 3,
+        "time": 8.875,
+        "wall": 39413.6,
+        "presentedFrames": 937
+      },
+      {
+        "iteration": 3,
+        "time": 8.916667,
+        "wall": 39446.9,
+        "presentedFrames": 938
+      },
+      {
+        "iteration": 3,
+        "time": 8.958333,
+        "wall": 39496.9,
+        "presentedFrames": 939
+      },
+      {
+        "iteration": 3,
+        "time": 9,
+        "wall": 39530.2,
+        "presentedFrames": 940
+      },
+      {
+        "iteration": 3,
+        "time": 9.041667,
+        "wall": 39580.3,
+        "presentedFrames": 941
+      },
+      {
+        "iteration": 3,
+        "time": 9.083333,
+        "wall": 39613.6,
+        "presentedFrames": 942
+      },
+      {
+        "iteration": 3,
+        "time": 9.125,
+        "wall": 39663.7,
+        "presentedFrames": 943
+      },
+      {
+        "iteration": 3,
+        "time": 9.166667,
+        "wall": 39696.9,
+        "presentedFrames": 944
+      },
+      {
+        "iteration": 3,
+        "time": 9.208333,
+        "wall": 39746.9,
+        "presentedFrames": 945
+      },
+      {
+        "iteration": 3,
+        "time": 9.25,
+        "wall": 39780.3,
+        "presentedFrames": 946
+      },
+      {
+        "iteration": 3,
+        "time": 9.291667,
+        "wall": 39830.2,
+        "presentedFrames": 947
+      },
+      {
+        "iteration": 3,
+        "time": 9.333333,
+        "wall": 39863.6,
+        "presentedFrames": 948
+      },
+      {
+        "iteration": 3,
+        "time": 9.375,
+        "wall": 39913.6,
+        "presentedFrames": 949
+      },
+      {
+        "iteration": 3,
+        "time": 9.416667,
+        "wall": 39946.9,
+        "presentedFrames": 950
+      },
+      {
+        "iteration": 3,
+        "time": 9.458333,
+        "wall": 39996.9,
+        "presentedFrames": 951
+      },
+      {
+        "iteration": 3,
+        "time": 9.5,
+        "wall": 40030.2,
+        "presentedFrames": 952
+      },
+      {
+        "iteration": 3,
+        "time": 9.541667,
+        "wall": 40080.3,
+        "presentedFrames": 953
+      },
+      {
+        "iteration": 3,
+        "time": 9.583333,
+        "wall": 40113.6,
+        "presentedFrames": 954
+      },
+      {
+        "iteration": 3,
+        "time": 9.625,
+        "wall": 40163.6,
+        "presentedFrames": 955
+      },
+      {
+        "iteration": 3,
+        "time": 9.666667,
+        "wall": 40196.9,
+        "presentedFrames": 956
+      },
+      {
+        "iteration": 3,
+        "time": 9.708333,
+        "wall": 40247,
+        "presentedFrames": 957
+      },
+      {
+        "iteration": 3,
+        "time": 9.75,
+        "wall": 40280.2,
+        "presentedFrames": 958
+      },
+      {
+        "iteration": 3,
+        "time": 9.791667,
+        "wall": 40330.2,
+        "presentedFrames": 959
+      },
+      {
+        "iteration": 3,
+        "time": 9.833333,
+        "wall": 40363.6,
+        "presentedFrames": 960
+      },
+      {
+        "iteration": 3,
+        "time": 9.875,
+        "wall": 40413.6,
+        "presentedFrames": 961
+      },
+      {
+        "iteration": 3,
+        "time": 9.916667,
+        "wall": 40446.9,
+        "presentedFrames": 962
+      },
+      {
+        "iteration": 3,
+        "time": 9.958333,
+        "wall": 40496.9,
+        "presentedFrames": 963
+      },
+      {
+        "iteration": 3,
+        "time": 10,
+        "wall": 40530.3,
+        "presentedFrames": 964
+      },
+      {
+        "iteration": 4,
+        "time": 0,
+        "wall": 40596.9,
+        "presentedFrames": 965
+      }
+    ],
+    "wraps": [
+      {
+        "iteration": 1,
+        "before": 10,
+        "after": 0,
+        "wall": 10364.8
+      },
+      {
+        "iteration": 2,
+        "before": 10,
+        "after": 0,
+        "wall": 20431.1
+      },
+      {
+        "iteration": 3,
+        "before": 10,
+        "after": 0,
+        "wall": 30513.9
+      },
+      {
+        "iteration": 4,
+        "before": 10,
+        "after": 0,
+        "wall": 40596.9
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "join": 1,
+      "before": {
+        "time": 9.81144,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "time": 0.225288,
+        "rate": 1,
+        "paused": false
+      }
+    },
+    {
+      "join": 2,
+      "before": {
+        "time": 9.813773,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "time": 0.352916,
+        "rate": 1,
+        "paused": false
+      }
+    },
+    {
+      "join": 3,
+      "before": {
+        "time": 9.806855,
+        "rate": 1,
+        "paused": false
+      },
+      "after": {
+        "time": 0.315778,
+        "rate": 1,
+        "paused": false
+      }
+    }
+  ],
+  "viewports": [
+    {
+      "name": "desktop-midpoint",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 84.953125,
+        "height": 84.953125
+      },
+      "copy": {
+        "x": 80.625,
+        "y": 270,
+        "right": 656.625,
+        "bottom": 610.359375,
+        "height": 340.359375
+      },
+      "action": {
+        "x": 80.625,
+        "y": 556.140625,
+        "right": 318.53125,
+        "bottom": 610.359375,
+        "height": 54.21875
+      },
+      "videoReady": 4,
+      "currentTime": 4
+    },
+    {
+      "name": "desktop-1280-midpoint",
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1280,
+        "bottom": 75.484375,
+        "height": 75.484375
+      },
+      "copy": {
+        "x": 71.671875,
+        "y": 240,
+        "right": 583.671875,
+        "bottom": 542.75,
+        "height": 302.75
+      },
+      "action": {
+        "x": 71.671875,
+        "y": 494.328125,
+        "right": 285.96875,
+        "bottom": 542.75,
+        "height": 48.421875
+      },
+      "videoReady": 4,
+      "currentTime": 4
+    },
+    {
+      "name": "phone-landscape-midpoint",
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 844,
+        "bottom": 54,
+        "height": 54
+      },
+      "copy": {
+        "x": 47.25,
+        "y": 105.296875,
+        "right": 418.609375,
+        "bottom": 308.640625,
+        "height": 203.34375
+      },
+      "action": {
+        "x": 47.25,
+        "y": 260.640625,
+        "right": 231.75,
+        "bottom": 308.640625,
+        "height": 48
+      },
+      "videoReady": 4,
+      "currentTime": 4
+    },
+    {
+      "name": "narrow-landscape-midpoint",
+      "width": 640,
+      "height": 360,
+      "scrollWidth": 640,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 640,
+        "bottom": 54,
+        "height": 54
+      },
+      "copy": {
+        "x": 35.828125,
+        "y": 97.1875,
+        "right": 317.421875,
+        "bottom": 321.328125,
+        "height": 224.140625
+      },
+      "action": {
+        "x": 35.828125,
+        "y": 273.328125,
+        "right": 216.65625,
+        "bottom": 321.328125,
+        "height": 48
+      },
+      "videoReady": 4,
+      "currentTime": 4
+    }
+  ],
+  "pausedControl": {
+    "paused": true,
+    "time": 0.610576
+  },
+  "errors": [],
+  "failures": [],
+  "scope": "Actual 1x runtime observation across at least four complete forward plays/four wrap events, with three saved join pairs. Temporal samples are not an every-frame aesthetic certificate. Portrait was not generated."
+}

@@ -1,0 +1,20 @@
+{
+  "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1792017346-Ox26RM6qkacfsLmT9O1l",
+  "generate_audio": false,
+  "generation_mode": "image-to-video",
+  "first_frame_sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+  "request_id": "aquatic_kling_landscape_ecosystem_trial_20261015_v3",
+  "model": "kwaivgi/kling-v3.0-pro",
+  "duration": 10,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "estimated_cost_usd": "1.120000",
+  "actual_cost_usd": null,
+  "price_sku": "image_to_video_duration_seconds_720p",
+  "price_value": "0.112",
+  "status": "pending",
+  "job_id": "gen-vid-1792017346-Ox26RM6qkacfsLmT9O1l",
+  "submitted_at_utc": "2026-10-14T22:35:46.403101+00:00",
+  "quote_digest": "78f5a95715ffdba84b0329d9e32b574b835a7cdfacc88db3cef81277313c2fa3",
+  "reserved_cost_ceiling_usd": "1.50"
+}

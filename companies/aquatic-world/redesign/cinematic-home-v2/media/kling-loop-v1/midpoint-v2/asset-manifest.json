@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "case": "Aquatic World fictional design case",
+  "generator": "Built-in imagegen",
+  "generation_model": "not_exposed_by_tool",
+  "image_generation_cost_usd": null,
+  "image_generation_calls": 4,
+  "selected_images": 2,
+  "normalization": "FFmpeg proportional fit/pad only; all semantic image editing used imagegen",
+  "assets": [
+    {
+      "orientation": "landscape",
+      "source_endpoint": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-endpoint.png",
+      "source_endpoint_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "native_path": "landscape-native.png",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "native_sha256": "e24c4a9eb144912f51c7d882922abcb8ffe9570911d94a1bcda6982f3274aa42",
+      "midpoint_path": "landscape-midpoint.png",
+      "midpoint_dimensions": [
+        1280,
+        720
+      ],
+      "midpoint_sha256": "772a51bbb6afe13eca57b80df4c7ad52f7613a878fb1137f05b5289a8159d961",
+      "builtin_output_path": "/Users/yapweijun/.codex/generated_images/01a13ad3-231c-7ed1-ac7d-8518912db2b2/exec-5208f48f-bfab-4f49-9a53-d55ea46cc25b.png",
+      "role": "draft midpoint composition reference only; not a first/last frame pin"
+    },
+    {
+      "orientation": "portrait",
+      "source_endpoint": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-endpoint.png",
+      "source_endpoint_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "native_path": "portrait-native.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "native_sha256": "9d3521d3b63db0c7c77b77ae75821894999f659933ad2a213edf3a71c6e26fe9",
+      "midpoint_path": "portrait-midpoint.png",
+      "midpoint_dimensions": [
+        720,
+        1280
+      ],
+      "midpoint_sha256": "b19239ab7fa82661b9fdeb580da7431c283657e1a65db22eb383aabf1cd8c3a0",
+      "builtin_output_path": "/Users/yapweijun/.codex/generated_images/01a13ad3-231c-7ed1-ac7d-8518912db2b2/exec-e8a0fa2f-d8df-4623-8d5b-6bdb8556fdd1.png",
+      "role": "draft midpoint composition reference only; not a first/last frame pin"
+    }
+  ],
+  "native_output_bytes_preserved": true,
+  "human_creative_acceptance": "pending",
+  "paid_video_requests": 0,
+  "runtime_release": false
+}

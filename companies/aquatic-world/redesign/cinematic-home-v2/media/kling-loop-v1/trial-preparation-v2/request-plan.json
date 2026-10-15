@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "status": "prepared-awaiting-new-kling-spending-authorization",
+  "static_composition_acceptance": "../midpoint-v2/ACCEPTANCE.json",
+  "paid_authorization": {
+    "authorized": false,
+    "proposed_new_cap_usd": "3.00",
+    "maximum_new_requests": 2,
+    "reserved_ceiling_each_usd": "1.50",
+    "auto_retry": false,
+    "source": "Pending explicit new Kling budget decision; user A confirms static composition and the trial decision preparation."
+  },
+  "model": "kwaivgi/kling-v3.0-pro",
+  "duration_each_seconds": 10,
+  "resolution": "720p",
+  "generate_audio": false,
+  "estimated_total_usd": "2.240000",
+  "order": "Landscape first. Decode and review raw full forward take at 1x and at least four plays/three consecutive joins. If technical or coordinator visual acceptance fails, stop before portrait; no automatic retry. Otherwise portrait once under the same separately approved aggregate scope.",
+  "quote_policy": "Refresh immediately before each authorized submit; verify exact prompt and both endpoint hashes. Reject price/cap/input changes.",
+  "original_runway": {
+    "request_id": "aquatic_cinematic_landscape_video_20261013_01",
+    "state": "submission_unknown",
+    "actual_cost_usd": null,
+    "reservation_usd": "1.50",
+    "separate_from_new_kling_scope": true,
+    "retry_allowed": false
+  },
+  "requests": [
+    {
+      "orientation": "landscape",
+      "request_id": "aquatic_kling_landscape_accepted_static_trial_20261014_v2",
+      "shot_id": "kling-landscape-occlusion-v2",
+      "revision": 1,
+      "prompt_file": "landscape-VIDEO-PROMPT.txt",
+      "prompt_file_read_policy": "UTF-8; remove trailing newline only; compare exact prompt SHA-256 to a fresh quote",
+      "prompt_sha256": "f6710ea6c3f6baf437729be1c99dccd90d3509a995d6233c8fd641109b0bd948",
+      "first_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "last_frame_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "estimated_cost_usd": "1.120000",
+      "status": "not_submitted",
+      "actual_cost_usd": null
+    },
+    {
+      "orientation": "portrait",
+      "request_id": "aquatic_kling_portrait_accepted_static_trial_20261014_v2",
+      "shot_id": "kling-portrait-occlusion-v2",
+      "revision": 1,
+      "prompt_file": "portrait-VIDEO-PROMPT.txt",
+      "prompt_file_read_policy": "UTF-8; remove trailing newline only; compare exact prompt SHA-256 to a fresh quote",
+      "prompt_sha256": "3aa23e7501d74affd7905a3d4f6e86496b63ca40dc9bc4115a551b5a7888cf71",
+      "first_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "last_frame_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "estimated_cost_usd": "1.120000",
+      "status": "not_submitted",
+      "actual_cost_usd": null
+    }
+  ],
+  "new_paid_requests": 0,
+  "standalone_film_acceptance": "not_tested",
+  "website_integration": "not_started"
+}

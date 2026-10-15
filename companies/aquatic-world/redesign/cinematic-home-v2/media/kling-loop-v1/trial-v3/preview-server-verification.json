@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "HEAD length/range advertised",
+    "first byte range matches source",
+    "suffix byte range matches source",
+    "outside range rejected"
+  ],
+  "passed": true,
+  "source_bytes_unchanged": true,
+  "bind": "127.0.0.1",
+  "port": 4284
+}

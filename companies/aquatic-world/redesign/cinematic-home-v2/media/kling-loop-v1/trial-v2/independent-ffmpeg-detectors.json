@@ -1,0 +1,17 @@
+{
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-i",
+    "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_kling_landscape_accepted_static_trial_20261014_v2.mp4",
+    "-vf",
+    "freezedetect=n=-50dB:d=0.5,blackdetect=d=0.1:pix_th=0.02,scdet=t=10",
+    "-an",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exit_code": 0,
+  "limits": "Threshold detectors only. Empty events do not prove no freeze, flash, cut, anatomy failure or seam. No playback."
+}

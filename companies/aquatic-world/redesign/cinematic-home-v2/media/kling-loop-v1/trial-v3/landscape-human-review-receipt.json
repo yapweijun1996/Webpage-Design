@@ -1,0 +1,16 @@
+{
+  "review_id": "acb42cf42ec44a0fadbdd6affdf9c93e",
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "review": {
+    "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+    "category": "human",
+    "note": "The user explicitly likes this raw movie and approves its visual effect and creative direction. Keep the measured loop discontinuity, copy intrusion and unestablished composite visual checks in the existing reports. This feedback adds no authorization for further paid generation, portrait submission, publication or rule activation.",
+    "source_ref": "Current user message about the trial-v3 movie: \"i think good, the video\"",
+    "checks": [],
+    "evidence": null,
+    "decision": "approve"
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

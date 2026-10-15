@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "subject": "Kling landscape raw trial v2",
+  "output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+  "decision": "rejected_revision_required",
+  "source": "Direct user message after watching the actual local preview in this chat.",
+  "feedback": [
+    "The fish looks artificial and lacks convincing real-animal texture.",
+    "A single moving fish does not create a convincing living aquarium environment.",
+    "Water surface, plants and the rest of the habitat appear static.",
+    "The user objects to spending on this weak result."
+  ],
+  "requirements_override": "Prior static acceptance remains historical. Current explicit feedback requires an inhabited scene with several fish and perceptible natural environmental motion.",
+  "provider_reported_actual_cost_usd": "1.12",
+  "new_paid_requests": 1,
+  "portrait_submitted": false,
+  "automatic_retry": false,
+  "further_paid_requests": "stopped"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "requested_static_outputs": 2,
+  "selected_native_image_hashes_match_library": true,
+  "original_reference_hashes_unchanged": true,
+  "raw_prior_movie_unchanged": true,
+  "raw_prior_movie_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+  "original_runway_ledger_unchanged": true,
+  "original_runway_ledger_sha256": "829c17f68035520f2f0071f60409ba2863d34b97f25abbc6e90663137c7a69a1",
+  "actual_chromium_viewport_checks": [
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      390,
+      667
+    ],
+    [
+      320,
+      800
+    ],
+    [
+      320,
+      568
+    ]
+  ],
+  "errors": [],
+  "failures": [],
+  "external_requests": [],
+  "controls_checked": "motion open/close, clean scene open/close, Space keyboard activation checked",
+  "mobile_board_scroll_checked": true,
+  "visual_review": "coordinator_static_review_complete_human_acceptance_pending",
+  "static_capture_files": [
+    "board-phone-top.png",
+    "phone-narrow.png",
+    "phone-landscape.png",
+    "phone-short.png",
+    "phone-narrow-short.png",
+    "board-phone-bottom.png",
+    "phone-still.png",
+    "composition-board.png",
+    "desktop-still.png",
+    "desktop-1280.png",
+    "board-phone-middle.png",
+    "landscape-motion.png",
+    "portrait-motion.png"
+  ],
+  "layout_source": "accepted midpoint-v2 CSS, copied locally; no hero layout changes",
+  "semantic_correction": "One small landscape fish removed after actual title overlap; final crop rechecked.",
+  "source_png_normalized": false,
+  "video_requested": false,
+  "video_generated": false,
+  "actual_motion_verified": false,
+  "loop_verified": false,
+  "physical_device_checked": false,
+  "expanded_functional_menu_and_inputs_checked": false,
+  "website_runtime_or_publication_changed": false,
+  "human_creative_acceptance": "pending",
+  "manifest_sha256": "ffe5766bbbe65b29bb17258caec6f61a2f337971215103e131b8cdfa5e07089b",
+  "visual_review_sha256": "0d1a6a2bcf8aa18d4160a2d3839f73d88bd59a0b9ad44e65c9ed9ca1dc9beecb",
+  "browser_observations_sha256": "06c42dc7d73a0192b66d33c64ddf25f30e0f21391cc97f5b4645f47bc9311179",
+  "relative_links_checked": 230,
+  "missing_local_links": [],
+  "json_parse": "pass",
+  "credential_like_token_scan": "pass"
+}

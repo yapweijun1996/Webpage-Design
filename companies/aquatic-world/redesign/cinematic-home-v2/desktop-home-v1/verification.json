@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Kuala_Lumpur",
+  "recorded_at_utc": "2026-10-15T14:25:08.131853+00:00",
+  "status": "playback_comparison_verified_user_choice_pending",
+  "preview_url": "http://127.0.0.1:4285/playback-comparison/",
+  "full_home_variants": {
+    "once": "http://127.0.0.1:4285/?playback=once",
+    "loop": "http://127.0.0.1:4285/?playback=loop"
+  },
+  "default_mode": "loop_unchanged",
+  "source_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "source_bytes_unchanged": true,
+  "new_media_cost_usd": "0.00",
+  "new_paid_requests": 0,
+  "website_publication_changed": false,
+  "comparison_checks_passed": 24,
+  "existing_interaction_regression_checks_passed": 43,
+  "comparison_errors": [],
+  "comparison_http_errors": [],
+  "regression_page_errors": [],
+  "expected_negative_test_console": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:4285/missing-page/"
+    }
+  ],
+  "single_play": {
+    "ended": true,
+    "paused": true,
+    "time": 10.041667,
+    "duration": 10.041667,
+    "rate": 1,
+    "state": "ended",
+    "stats": {
+      "frames": 167,
+      "first": 0,
+      "last": 10,
+      "wraps": 0,
+      "ended": 1
+    },
+    "quality": {
+      "total": 241,
+      "dropped": 0,
+      "corrupted": 0
+    }
+  },
+  "natural_playback_observations": [
+    {
+      "frames": 167,
+      "first": 0,
+      "last": 10,
+      "wraps": 0,
+      "ended": 1,
+      "quality": {
+        "total": 241,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    },
+    {
+      "frames": 873,
+      "first": 0,
+      "last": 0,
+      "wraps": 4,
+      "ended": 0,
+      "quality": {
+        "total": 968,
+        "dropped": 0,
+        "corrupted": 0
+      }
+    }
+  ],
+  "review_viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      1280,
+      900
+    ],
+    [
+      900,
+      900
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      568
+    ]
+  ],
+  "review_iframe_viewport": [
+    1440,
+    900
+  ],
+  "loading_scope": "Both start at 0; independent loading is not frame-locked.",
+  "single_play_scope": "Native ended state per page load; no encoded hold or loop repair.",
+  "default_and_mode_preferences": "Default loop retains its original session key. Single play and both review modes use separate keys.",
+  "film_loop_visual_status": "Original raw jump remains visible; no seamless-loop claim.",
+  "harness_corrections": [
+    "No-default-movie measurement initially included normal Home autoplay during preference setup. Setup moved to an inner page with no movie.",
+    "Scaled iframe requestVideoFrameCallback counts are not a one-to-one frame-delivery counter. Native quality reported 241 single-play frames with zero drops/corruption; callbacks were fewer. Actual native counters and natural end/wrap events now establish the playback checks."
+  ],
+  "baseline_verification": {
+    "path": "evidence/desktop-baseline-runtime/verification.json",
+    "sha256": "fb5fe2791fd28ba547181f73ea283330a77952f6935ec5154b1820e5c1df0274",
+    "runtime_archive_overrides": {
+      "demo/home-motion.js": "evidence/desktop-baseline-runtime/home-motion.js",
+      "demo/ecosystem-home.css": "evidence/desktop-baseline-runtime/ecosystem-home.css",
+      "demo/build.py": "evidence/desktop-baseline-runtime/build.py"
+    }
+  },
+  "limits": [
+    "No frame-locked synchronization claim; each preview loads independently.",
+    "Portrait full Home remains a still. Phone review shows scaled desktop previews.",
+    "Native hidden-tab behavior, native zoom, physical phones and other engines remain outside this verification.",
+    "Raw movie aesthetic approval does not certify the new UI or waive the original failed film gates."
+  ],
+  "evidence_sha256": {
+    "evidence/playback-comparison/comparison.json": "4b1caa5244ab6aa1394641c27d1c663ddb7a07e3d6daf82f58665c67397cedfc",
+    "evidence/playback-comparison/regression.json": "e623682eb95d69cf01bf64e76287e32a479d56e22ad588f2cb396a32683a7b0a",
+    "evidence/playback-comparison/after-four-loops.png": "dc2786db1887a709afa63dd9e12406484d23fabd6ed03ff373b36f270e85bfb9",
+    "evidence/playback-comparison/board-1440x1000.png": "8c43b71fdd5ea6c9430cf4c674defdf9fb877052d8be6e97c688580120e2694b",
+    "evidence/playback-comparison/board-1280x900.png": "c14b4e432e47177c5297470ce64ffd6e6a3415db5038b80db3509bf34f9e93f3",
+    "evidence/playback-comparison/board-900x900.png": "77371663e0280d293542789f539c9381e04eb2c02afa23f0a8040eff06d52269",
+    "evidence/playback-comparison/board-390x844.png": "84d1c348ef7566aad134d973abfcbe4552290f26b7a25c662e2843e0064150ea",
+    "evidence/playback-comparison/board-320x568.png": "f093317022cfa28a46ce64fb8efcd3acd9dbdec7294738f918a4f2a19167983a",
+    "evidence/playback-comparison/single-ended.png": "4af115257f3fdff2544c1818d988c60143a5a4d6858b44a1fa1861a540538b17"
+  },
+  "runtime_sha256": {
+    "demo/home-motion.js": "f95eb32ffe7e327c469a7010e44154cfc21d52d7a136e319c780e66b11fe1d4a",
+    "demo/ecosystem-home.css": "6537e1fe10debf9a73c9584185f3ea039fd2f1bbc5c28330b4fe850d9e21becb",
+    "demo/build.py": "de2028d0607d33f8330b1d884aa657d3d41d3837f52ca9592f65ccc7fef72b0e",
+    "demo/serve.py": "492e85b4850e796aa1ba39bd5f9ce6f056c4fa0f39fa8e1af174c9a90f73923f",
+    "demo/playback-comparison/index.html": "e7abcb88b66691f039691b54cb798caf3a9a2f9fd57e0a8c8b5ebe063264604b",
+    "demo/playback-comparison/styles.css": "fdd8e30f9ffdfe4839a9dd340af33228e229506f09421575c0eedf8a5ca505c7",
+    "demo/playback-comparison/comparison.js": "8f43c5e52535c12b03ef73e545a24cd7c119652efbea7f653b6566e877ab0829",
+    "demo/public/index.html": "5b1db0f6e78223c2dce4f1b6f807751cdde838a0269bb86d74bca7a017134063"
+  }
+}

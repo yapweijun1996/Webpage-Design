@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "status": "accepted_for_static_composition",
+  "source": {
+    "user_reply": "A",
+    "selected_option": "A（推荐）：确认这版主体大小与路线，再决定试片。",
+    "interpretation": "Accept current desktop/phone static subject scale, proposed route, Top bar and phone-copy placement; prepare the paid-film decision."
+  },
+  "scope": [
+    "desktop midpoint composition",
+    "phone midpoint composition",
+    "approximately 25%/18% source-frame fin span",
+    "proposed emergence/turn/return route",
+    "Top bar and phone-copy placement"
+  ],
+  "film_motion_acceptance": "not_tested",
+  "paid_kling_authorization": false,
+  "approved_scene_sha256": [
+    {
+      "orientation": "landscape",
+      "path": "landscape-midpoint.png",
+      "sha256": "772a51bbb6afe13eca57b80df4c7ad52f7613a878fb1137f05b5289a8159d961"
+    },
+    {
+      "orientation": "portrait",
+      "path": "portrait-midpoint.png",
+      "sha256": "b19239ab7fa82661b9fdeb580da7431c283657e1a65db22eb383aabf1cd8c3a0"
+    }
+  ],
+  "library_asset_status_changed": false,
+  "runtime_release_authorized_by_this_reply": false,
+  "approved_layout_captures": [
+    {
+      "path": "desktop-midpoint.png",
+      "sha256": "5e5d214d4586b03e7e44e068669de50cca74ded5683445d8591b7d074a78be3a"
+    },
+    {
+      "path": "phone-midpoint.png",
+      "sha256": "0d796dbba72faf6dd50a302a26d0985b032c8325e7b02ed0da63e32962ac097f"
+    }
+  ]
+}

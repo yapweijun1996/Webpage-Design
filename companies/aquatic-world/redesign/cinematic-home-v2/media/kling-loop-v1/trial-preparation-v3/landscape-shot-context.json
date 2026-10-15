@@ -1,0 +1,96 @@
+{
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-landscape-ecosystem-v3",
+  "revision": 1,
+  "plan_sha256": "6a21a9b0d9acb6aef462e24c7dc88a708b098a9bba2d76649d50037ccc4956c0",
+  "plan": {
+    "acceptance": [
+      {
+        "category": "technical",
+        "criterion": "Decode complete untouched raw output. Record native dimensions/FPS/frames/duration/audio and checksum, requested/actual differences and original bytes. Requested 720p is not assumed actual. Reject corrupt/truncated media.",
+        "id": "decode"
+      },
+      {
+        "category": "technical",
+        "criterion": "Record provider-reported actual cost separately from bound estimate/ceiling and preserve unique request receipt. Unknown submission or unresolved charge discrepancy stops dependent calls, no retry.",
+        "id": "cost-provenance"
+      },
+      {
+        "category": "technical",
+        "criterion": "Bind exact raw bytes. Separate technical, coordinator/independent visual inspection and explicit human film feedback. Static approval/ready preparation does not establish movie acceptance or paid authorization.",
+        "id": "acceptance-record"
+      },
+      {
+        "category": "visual",
+        "criterion": "Full raw 1x playback and dense turn/occlusion samples retain accepted photographic lead/community, stable body/fins/palette, forward propulsion and depth turns. No plastic identity drift, malformed/merged fish, clone synchronization, fading or teleportation.",
+        "id": "appearance-motion"
+      },
+      {
+        "category": "visual",
+        "criterion": "Community fish, surface ripples/refraction and flexible leaves/tips visibly move naturally from beginning through end. A moving lead over frozen water/plants fails. Same gentle current drives surface/leaf response; wood/rocks stay stable.",
+        "id": "habitat-life"
+      },
+      {
+        "category": "visual",
+        "criterion": "Compare accepted ecosystem-v3 reference with actual orientation-specific UI crops. Main fish retains prominence/full fins; trajectories clear copy/nav/action at reviewed desktop/mobile/narrow/short/landscape sizes. Peripheral school crop allowed; community disappearance is not.",
+        "id": "reading-scale-crop"
+      },
+      {
+        "category": "visual",
+        "criterion": "Watch at least four complete raw forward plays and three consecutive joins at 1x. Reject jumps, exposure/refraction resets, plant-velocity changes and fish pop/doubling. First-frame-only input does not guarantee a loop. No freeze/reverse/hold/crossfade repair may hide failure. Any failed visual gate stops before portrait.",
+        "id": "loop"
+      }
+    ],
+    "allow_draft_assets": true,
+    "audio": "silent",
+    "character_id": "aquatic-world-ecosystem-v3",
+    "constraints": {
+      "camera": "Fixed submerged camera, uninterrupted framing, no pan/zoom/cuts. Requested 720p and nominal 24fps are targets; preserve and report returned native dimensions/rate rather than assume an exact match.",
+      "character": "Use populated accepted first frame: coherent silver-black angelfish lead with fine scales, eye/gill detail, translucent fin rays and ventral filaments, plus smaller-fish community at varying depths. Preserve reference palette/anatomy/initial scale. No blue-orange identity drift, toy shading, clones, merged bodies or group disappearance. Static conditioning cannot guarantee temporal identity.",
+      "environment": "Accepted landscape: planted right roots and calm teal water at left. Lead starts near x=59%,y=38%, full delicate-fin envelope about 28% of source height; use short middle-right swim and gradual depth turn. Leftmost43% below y=30% and top10% stay calm. Upper school may use the upper channel without crossing the headline. About eleven smaller fish is a visual reference count, not exact required per-frame census.",
+      "lighting": "Restrained underwater daylight. Surface ripples and refracted highlights visibly change gently throughout; avoid exposure flash/flicker or seam pumping. Keep copy regions quiet and readable.",
+      "materials": "Keep organic leaf/root texture, stable heavy wood, coherent rocks/substrate and depth-dependent water attenuation. Flexible tips and delicate fins stay continuous; no melting geometry, ghost duplicates or decorative pasted shimmer.",
+      "motion": "All four layers active throughout: lead forward swim/propulsion and short curve/depth turn, independent short paths by smaller fish with speed/heading differences, ongoing surface/refraction movement, flexible tips/leaves swaying with one gentle left-to-right current. Root/leaf crossings use progressive physical occlusion. No hold, reverse/boomerang, opacity disappearance, doubled-fish crossfade or automatic finishing. Visible first frame only; no identical/empty last frame. Repeated-loop continuity remains an empirical gate."
+    },
+    "duration_max_seconds": 10.2,
+    "duration_min_seconds": 9.8,
+    "fps": 24,
+    "height": 720,
+    "references": [
+      {
+        "asset_key": "kling-landscape-ecosystem-first-v3",
+        "library_id": "aquatic-world-motion",
+        "role": "first_frame",
+        "version": 1
+      }
+    ],
+    "schema_version": 1,
+    "style_id": "photographic-freshwater-ecosystem-v3",
+    "title": "Aquatic World landscape living ecosystem trial v3",
+    "width": 1280
+  },
+  "references": [
+    {
+      "asset_key": "kling-landscape-ecosystem-first-v3",
+      "library_id": "aquatic-world-motion",
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/projects/aquatic-world-immersive-home-v2/assets/aquatic-world-motion/kling-landscape-ecosystem-first-v3/v1/asset.png",
+      "role": "first_frame",
+      "sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002",
+      "status_at_creation": "draft",
+      "usage_notes": "User confirmed the ecosystem-v3 static direction and motion intention, not a film. Exact proportional-fit provider frame derived from the approved native PNG. First-frame-only conditioning; do not silently assign this image as a last frame or reuse empty endpoint pins. Draft preview reference; use explicit version/hash in this project.",
+      "version": 1,
+      "current_status": "draft",
+      "integrity": "ok"
+    }
+  ],
+  "approved_rules_snapshot": [],
+  "current_approved_rules": [],
+  "rules_changed": false,
+  "preparation_state": "ready",
+  "blockers": [],
+  "generation_brief": "Aquatic World landscape living ecosystem trial v3\nDuration 9.8–10.2s; 1280x720, 24fps, audio silent.\ncamera: Fixed submerged camera, uninterrupted framing, no pan/zoom/cuts. Requested 720p and nominal 24fps are targets; preserve and report returned native dimensions/rate rather than assume an exact match.\ncharacter: Use populated accepted first frame: coherent silver-black angelfish lead with fine scales, eye/gill detail, translucent fin rays and ventral filaments, plus smaller-fish community at varying depths. Preserve reference palette/anatomy/initial scale. No blue-orange identity drift, toy shading, clones, merged bodies or group disappearance. Static conditioning cannot guarantee temporal identity.\nenvironment: Accepted landscape: planted right roots and calm teal water at left. Lead starts near x=59%,y=38%, full delicate-fin envelope about 28% of source height; use short middle-right swim and gradual depth turn. Leftmost43% below y=30% and top10% stay calm. Upper school may use the upper channel without crossing the headline. About eleven smaller fish is a visual reference count, not exact required per-frame census.\nlighting: Restrained underwater daylight. Surface ripples and refracted highlights visibly change gently throughout; avoid exposure flash/flicker or seam pumping. Keep copy regions quiet and readable.\nmaterials: Keep organic leaf/root texture, stable heavy wood, coherent rocks/substrate and depth-dependent water attenuation. Flexible tips and delicate fins stay continuous; no melting geometry, ghost duplicates or decorative pasted shimmer.\nmotion: All four layers active throughout: lead forward swim/propulsion and short curve/depth turn, independent short paths by smaller fish with speed/heading differences, ongoing surface/refraction movement, flexible tips/leaves swaying with one gentle left-to-right current. Root/leaf crossings use progressive physical occlusion. No hold, reverse/boomerang, opacity disappearance, doubled-fish crossfade or automatic finishing. Visible first frame only; no identical/empty last frame. Repeated-loop continuity remains an empirical gate.",
+  "results": [],
+  "generation_performed": false,
+  "inspection_provenance": "caller_reported_with_hashed_evidence",
+  "global_asset_approval": false
+}

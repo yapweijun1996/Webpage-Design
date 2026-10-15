@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "status": "visual_gate_failed",
+  "authorized_new_cap_usd": "1.50",
+  "maximum_new_requests": 1,
+  "new_paid_requests": 1,
+  "new_provider_jobs": 1,
+  "actual_new_cost_usd": "1.12",
+  "cost_source": "provider_job",
+  "portrait_submitted": false,
+  "retries": 0,
+  "further_paid_requests": "stopped",
+  "raw_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "original_case_frozen_bytes_match": true,
+  "raw_full_decode": "pass",
+  "requested_resolution": "720p",
+  "actual_dimensions": [
+    1920,
+    1080
+  ],
+  "actual_fps": 24,
+  "actual_frames": 241,
+  "actual_duration_seconds": 10.041667,
+  "audio_streams": 0,
+  "raw_edited": false,
+  "runtime_playback": {
+    "complete_forward_plays": 4,
+    "observed_wraps": 4,
+    "saved_join_pairs": 3,
+    "rate": 1,
+    "wall_elapsed_ms": 40518.19999998808,
+    "decoded_frame_callbacks": 965,
+    "frames_by_play": [
+      {
+        "play": 1,
+        "callbacks": 241,
+        "first_media_time": 0,
+        "last_media_time": 10
+      },
+      {
+        "play": 2,
+        "callbacks": 241,
+        "first_media_time": 0,
+        "last_media_time": 10
+      },
+      {
+        "play": 3,
+        "callbacks": 241,
+        "first_media_time": 0,
+        "last_media_time": 10
+      },
+      {
+        "play": 4,
+        "callbacks": 241,
+        "first_media_time": 0,
+        "last_media_time": 10
+      }
+    ],
+    "errors": [],
+    "failures": []
+  },
+  "landscape_viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      640,
+      360
+    ]
+  ],
+  "browser_page_console_http_errors": [],
+  "browser_geometry_failures": [],
+  "semantic_copy_clearance": "fail",
+  "loop": "fail",
+  "appearance_motion": "not_checked_full_composite_gate_not_established",
+  "habitat_life": "not_checked_full_composite_gate_not_established",
+  "independent_cli": "completed_exit0_with_explicit_not_checked_scope_limits",
+  "human_film_feedback": "approved_visual_effect_and_creative_direction",
+  "shot_state": "visual_revision_requested",
+  "preview_repair": "Basic server lacked byte ranges; new loopback-only server passed prefix/suffix/HEAD/416 and whole browser check rerun.",
+  "harness_corrections": [
+    "Allowed artifact settings duration_seconds replaced rejected duration key, no new provider call.",
+    "Exact source-index contact sheet replaced fps-resampling sheet; raw bytes unchanged.",
+    "Incomplete first browser seek run closed after diagnosed [0,0] seekable range; successful complete rerun used byte-range server and bounded painted-frame timeout."
+  ],
+  "final_page": {
+    "initial": {
+      "paused": true,
+      "time": 0
+    },
+    "raw": {
+      "time": 4,
+      "paused": true,
+      "seekable": [
+        0,
+        10.041667
+      ]
+    },
+    "heading": "ECOSYSTEM V3 · VISUAL GATE FAILED · NO FURTHER PAID REQUESTS"
+  },
+  "prior_runway_sha256": "829c17f68035520f2f0071f60409ba2863d34b97f25abbc6e90663137c7a69a1",
+  "prior_runway_unchanged": true,
+  "prior_runway_actual_cost": "unknown",
+  "prior_runway_reservation_usd": "1.50",
+  "provider_job_count_before_after": [
+    17,
+    18
+  ],
+  "account_key_settings_changed": false,
+  "website_runtime_publication_changed": false,
+  "new_image_generation": false,
+  "new_plan_after_failure": false,
+  "evidence_sha256": {
+    "request-plan.json": "592bb7f64d38d7b2d83ec1d346f1e29dc81f1fd1a81fdeed5a0cf3c3b12127ad",
+    "landscape-submit-quote.json": "34b172d6734a88b34ad35bc3df5b7b41c22b7507d6929e05699b273e9a291684",
+    "landscape-submit-receipt.json": "b3f790e3a470640210bdaf327974ba869f4a9c9529126b87ef04cb81a45b21ab",
+    "landscape-result-binding.json": "6e95591e7f55a7e42194b505df105cebf38848cd94a09e0c1136dab05d3dabe9",
+    "technical-review.md": "2868ed283caed266372cebd317591439926bd820005c6063cbb8f523cc5996d7",
+    "visual-review.md": "34eed1b48064f6b9efd531c3319ec57087de2e9b2531cea6d8e565a8a1831302",
+    "independent-review.md": "f3616627990956e25d3e85e4204f2f1324ea3521a53a572d3370809811dbc877",
+    "browser-observations.json": "30e243d2b84ecc4244d8dd680e2628d15d9e9570e77618dce4055f94e1c5b6f5",
+    "preview-server-verification.json": "e16530718d4507fd39fcbec3a4118de3708576b116c6462937a5425bdf22260d",
+    "USER-FEEDBACK.json": "cfd0170d55e7b96f53d57bba73c5ee688b8a13324ce29e52900fc5505318786b",
+    "landscape-human-review-receipt.json": "3324f45e7552333e81c0918661e140aaeafb235b91ba0e21332a358952da1718",
+    "landscape-human-reviewed-context.json": "41ed35bfb5ba741db575e9fc33d381f64d7d040a0779f08c464c3aabe922e95e"
+  },
+  "relative_links_checked": 241,
+  "missing_links": [],
+  "json_parse": "pass",
+  "credential_and_private_financial_scan": "pass",
+  "human_decision": "approve",
+  "human_review_id": "acb42cf42ec44a0fadbdd6affdf9c93e",
+  "human_feedback_recorded_at_utc": "2026-10-14T23:18:05.739962+00:00",
+  "human_feedback_scope": "Visual effect and creative direction of this exact raw movie.",
+  "human_feedback_additional_paid_authorization": false,
+  "human_feedback_verification": {
+    "exact_hash_binding": "pass",
+    "existing_review_count": 3,
+    "appended_human_reviews": 1,
+    "existing_evidence_hashes": "pass",
+    "raw_movie_unchanged": "pass",
+    "original_runway_record_unchanged": "pass",
+    "updated_readme_relative_links_checked": 239,
+    "missing_links": []
+  }
+}

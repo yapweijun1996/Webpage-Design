@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aquatic World — Playback comparison</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="comparison.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <a class="brand" href="/">AQUATIC WORLD</a>
+      <p class="eyebrow">Desktop Home · Playback study</p>
+      <h1>One habitat. Two ways to watch.</h1>
+      <p>Compare the same untouched film and the same desktop layout. Watch past 10 seconds to see the difference.</p>
+    </header>
+    <div class="controls" aria-label="Comparison playback">
+      <button id="start" type="button" disabled>Play both from the start <span aria-hidden="true">↗</span></button>
+      <button id="pause" type="button" disabled>Pause both</button>
+      <p id="readiness" role="status">Preparing the two Home previews…</p>
+    </div>
+    <div class="comparison">
+      <section class="candidate" data-mode="once" aria-labelledby="once-heading">
+        <div class="candidate-heading"><div><p class="eyebrow">Single play</p><h2 id="once-heading">A quiet ending.</h2></div><span class="clock" aria-hidden="true">0.0s</span></div>
+        <div class="viewport"><iframe title="Single play desktop homepage" src="/?playback=once&amp;review=1" tabindex="-1" inert></iframe></div>
+        <div class="candidate-status"><span class="status" aria-live="polite">Preparing</span><a href="/?playback=once" target="_blank" rel="noopener">Open full Home ↗</a></div>
+        <p class="description">Plays once, then rests on the natural final frame. The whole habitat stops moving; Replay starts it again.</p>
+      </section>
+      <section class="candidate" data-mode="loop" aria-labelledby="loop-heading">
+        <div class="candidate-heading"><div><p class="eyebrow">Continuous loop</p><h2 id="loop-heading">An ongoing world.</h2></div><span class="clock" aria-hidden="true">0.0s</span></div>
+        <div class="viewport"><iframe title="Looping desktop homepage" src="/?playback=loop&amp;review=1" tabindex="-1" inert></iframe></div>
+        <div class="candidate-status"><span class="status" aria-live="polite">Preparing</span><a href="/?playback=loop" target="_blank" rel="noopener">Open full Home ↗</a></div>
+        <p class="description">Keeps the ecosystem in motion. The original fish and lighting reset is visible at each return to the start.</p>
+      </section>
+    </div>
+    <footer><p>Both previews use the same 1440 × 900 desktop composition. No video editing or new generation. This comparison does not change the default Home.</p><a href="/">Return to the current Home →</a></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "recorded_at_utc": "2026-10-14T23:18:05.739962+00:00",
+  "timestamp_note": "Review recording time, not the exact timestamp of the user message.",
+  "user_quote": "i think good, the video",
+  "project_id": "aquatic-world-immersive-home-v2",
+  "shot_id": "kling-landscape-ecosystem-v3",
+  "revision": 1,
+  "result_id": "bebd63e01e044f2b8f102de86660c096",
+  "artifact_id": "7add213fb8f04d05be421460519fa4e0",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "review_id": "acb42cf42ec44a0fadbdd6affdf9c93e",
+  "decision": "approve",
+  "accepted_scope": "Visual effect and creative direction of this exact raw movie.",
+  "existing_inspection": {
+    "technical": "pass",
+    "visual": "fail"
+  },
+  "shot_state": "visual_revision_requested",
+  "remaining_website_adaptation": [
+    "Raw loop discontinuity",
+    "Fish crossing the copy region"
+  ],
+  "composite_visual_limits": "Continuous plant performance and full anatomy/propulsion acceptance remain unestablished in the existing reports.",
+  "additional_paid_authorization": false,
+  "portrait_submitted": false,
+  "website_publication_authorized": false,
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

@@ -1,0 +1,77 @@
+{
+  "recorded_at_utc": "2026-10-14T22:46:30.282054+00:00",
+  "output_sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af",
+  "source_evidence": [
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-raw.mp4",
+      "bytes": 43340361,
+      "sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/landscape-first-frame.png",
+      "bytes": 1593870,
+      "sha256": "3f5788102819374cb62bf5616b49c48b4210bdbe8f2b425ed9b63bc54d0d8002"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/landscape-shot-plan.json",
+      "bytes": 5035,
+      "sha256": "9f6a57d35b867c2321fe9eeb23df38fb1eaa685d54b686c1252ddd5a3556ed9c"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-metadata.json",
+      "bytes": 3577,
+      "sha256": "4a2769241ed55e5afd80003ee028b9eb58a171d44b8dd0fa380c612262cc5403"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-download-receipt.json",
+      "bytes": 1001,
+      "sha256": "3a8151b76d82fa2d5971250ced22ec8a0a3757faa0784287adaffd6c212d30d3"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-submit-quote.json",
+      "bytes": 768,
+      "sha256": "34b172d6734a88b34ad35bc3df5b7b41c22b7507d6929e05699b273e9a291684"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-submit-receipt.json",
+      "bytes": 838,
+      "sha256": "b3f790e3a470640210bdaf327974ba869f4a9c9529126b87ef04cb81a45b21ab"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-pre-submit-context.json",
+      "bytes": 8757,
+      "sha256": "21846cd55f9d3c7d4958ee69c6df896da66c54e2a29ceee87120e92a4359f7c6"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/landscape-contact-sheet-timestamps.json",
+      "bytes": 576,
+      "sha256": "c9cb2ba1e1eb6cc3ebb8234f8f7a8370189e6a22109b8fed775f818cd2069b67"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/preview.html",
+      "bytes": 4625,
+      "sha256": "6b14982bc878c6de4e32b77e36490040664f0a08231791641bbaf53a584a1070"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/styles.css",
+      "bytes": 7030,
+      "sha256": "6672d2ccd1784053600ba3dba66f9ef39bf374fba21abf5e825b75a0da22453f"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/join-1-before.png",
+      "bytes": 2051268,
+      "sha256": "c63ec3a545c358f3aae34f2a752da56b16b0c1ad11dcd92982e257c6f30c022c"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Webpage-Design/companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/join-1-after.png",
+      "bytes": 2021465,
+      "sha256": "772c87a675c130dd78e37225b418ca8ef1dcc3ae62d16dd3747f6d78b57e80a6"
+    },
+    {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/aquatic_kling_landscape_ecosystem_trial_20261015_v3.mp4",
+      "bytes": 43340361,
+      "sha256": "4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af"
+    }
+  ],
+  "browser_observations_present": false
+}

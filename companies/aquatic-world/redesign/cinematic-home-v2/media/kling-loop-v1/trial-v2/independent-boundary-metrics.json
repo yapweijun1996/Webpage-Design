@@ -1,0 +1,37 @@
+{
+  "whole": {
+    "last_to_first_rgb_mae": 1.746430362654321,
+    "last_to_first_channel_max_abs": 81
+  },
+  "left42": {
+    "last_to_first_rgb_mae": 1.6049842232637932,
+    "last_to_first_channel_max_abs": 32
+  },
+  "top14": {
+    "last_to_first_rgb_mae": 1.8921897994849153,
+    "last_to_first_channel_max_abs": 58
+  },
+  "fish_corridor": {
+    "last_to_first_rgb_mae": 1.9575718521071706,
+    "last_to_first_channel_max_abs": 45
+  },
+  "right_pocket": {
+    "last_to_first_rgb_mae": 1.933674166432973,
+    "last_to_first_channel_max_abs": 45
+  },
+  "leaf_patch": {
+    "last_to_first_rgb_mae": 2.2058577674897117,
+    "last_to_first_channel_max_abs": 40
+  },
+  "summary": {
+    "frame_count": 241,
+    "unique_decoded_rgb_hashes": 241,
+    "exact_adjacent_rgb_duplicates": [],
+    "adjacent_whole_mae_min": 0.06609712577160494,
+    "adjacent_whole_mae_median": 0.7096893486368313,
+    "adjacent_whole_mae_max": 1.8172754308127572,
+    "adjacent_max_frame": 132,
+    "largest_mean_luma_step": 0.2736663818359375,
+    "limits": "Pixel changes include motion, generative variation and codec noise. No semantic fish detector or perceptual seam verdict. Metrics cannot establish full 1x playback quality, physical propulsion, fine anatomy, or crop usability."
+  }
+}

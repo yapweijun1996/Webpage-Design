@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "accepted_static_composition": true,
+  "new_paid_authorization": false,
+  "new_video_submissions": 0,
+  "runtime_changed": false,
+  "initial_quote_preflight": "Overlength prompts rejected as INVALID_PROMPT before catalog/provider work; corrected without changing tool limits",
+  "orientations": [
+    {
+      "orientation": "landscape",
+      "shot_id": "kling-landscape-occlusion-v2",
+      "revision": 1,
+      "plan_sha256": "4886a54f287b2d78a34951c3cbcf4472cc01769c468ba956582dae12efdb2b45",
+      "preparation_state": "ready",
+      "endpoint_sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5",
+      "prompt_sha256": "f6710ea6c3f6baf437729be1c99dccd90d3509a995d6233c8fd641109b0bd948",
+      "prompt_characters": 1725,
+      "quote_digest": "82ef5ee6ceedcd4c10ad3934eff2df09a60f3cc9f09da85d60873988b6e268ae",
+      "quote_file_sha256": "506ad85509c9c07a7e0f0982c7a59eef3ebcb3f1fefb23aa2c199d679e54c2c7",
+      "estimated_cost_usd": "1.120000"
+    },
+    {
+      "orientation": "portrait",
+      "shot_id": "kling-portrait-occlusion-v2",
+      "revision": 1,
+      "plan_sha256": "7df73ee700ae80735f2632b767db9bacfffffe4408e00b3e96bf98472bb31fa0",
+      "preparation_state": "ready",
+      "endpoint_sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532",
+      "prompt_sha256": "3aa23e7501d74affd7905a3d4f6e86496b63ca40dc9bc4115a551b5a7888cf71",
+      "prompt_characters": 1734,
+      "quote_digest": "4cdf6b024b9fc8a033508f45d558c88de9abaafa3afb1fc1f89d72905c5b58ec",
+      "quote_file_sha256": "385aac713b9a67939fc81fe8b18deb7e6851b3f4218080f6f4e8d209f21e273d",
+      "estimated_cost_usd": "1.120000"
+    }
+  ],
+  "preserved_records": [
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-endpoint.png",
+      "sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-endpoint.png",
+      "sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-shot-plan.json",
+      "sha256": "6fedaafdd854d47dd2b181e8c837e7d7c1a1f8983dc287a2e5e9c61c551618eb"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-shot-plan.json",
+      "sha256": "a9a578eefd932108940b15c6fbaa2bfa58efa95a57f26835bd88f8210d80dcb7"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-quote.json",
+      "sha256": "f5e3433df633ccd0abb49928ee77870a37de3177ee9197bd1eaba262ca2f9ee1"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-quote.json",
+      "sha256": "33b3a2e88ea74cb4c25bf16460f5e267c16c1ea790178060ef51f269796683bf"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/request-plan.json",
+      "sha256": "91ab8e127fd2c81860909e87136b2261deabb80c9062022cc5cfaac851bfa64e"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/landscape-status.json",
+      "sha256": "9117448d5bc128d49d89b4f019e758b89c31cea3a55d7e658247f0a2dd6daad8"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/landscape-submit-result.json",
+      "sha256": "e1008f19af91f01ff9bcbe8077345dc996f8644220c241b4b2b02625f3bb5148"
+    }
+  ],
+  "relative_references_checked": 193
+}

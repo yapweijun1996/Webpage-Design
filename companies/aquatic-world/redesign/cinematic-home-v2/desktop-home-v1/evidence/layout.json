@@ -1,0 +1,2130 @@
+{
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 107.515625,
+            "y": 324,
+            "width": 652.796875,
+            "height": 331.2265625,
+            "top": 324,
+            "right": 760.3125,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "title": {
+            "x": 107.515625,
+            "y": 361.1953125,
+            "width": 652.796875,
+            "height": 138.234375,
+            "top": 361.1953125,
+            "right": 760.3125,
+            "bottom": 499.4296875,
+            "left": 107.515625
+          },
+          "action": {
+            "x": 107.515625,
+            "y": 603.2265625,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 603.2265625,
+            "right": 365.6015625,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "header": {
+            "x": 107.5234375,
+            "y": 0,
+            "width": 1704.953125,
+            "height": 80,
+            "top": 0,
+            "right": 1812.4765625,
+            "bottom": 80,
+            "left": 107.5234375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "top": 0,
+            "right": 1920,
+            "bottom": 1080,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 107.515625,
+            "y": 324,
+            "width": 652.796875,
+            "height": 331.2265625,
+            "top": 324,
+            "right": 760.3125,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "title": {
+            "x": 107.515625,
+            "y": 361.1953125,
+            "width": 652.796875,
+            "height": 138.234375,
+            "top": 361.1953125,
+            "right": 760.3125,
+            "bottom": 499.4296875,
+            "left": 107.515625
+          },
+          "action": {
+            "x": 107.515625,
+            "y": 603.2265625,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 603.2265625,
+            "right": 365.6015625,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "header": {
+            "x": 107.5234375,
+            "y": 0,
+            "width": 1704.953125,
+            "height": 80,
+            "top": 0,
+            "right": 1812.4765625,
+            "bottom": 80,
+            "left": 107.5234375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "top": 0,
+            "right": 1920,
+            "bottom": 1080,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 107.515625,
+            "y": 324,
+            "width": 652.796875,
+            "height": 331.2265625,
+            "top": 324,
+            "right": 760.3125,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "title": {
+            "x": 107.515625,
+            "y": 361.1953125,
+            "width": 652.796875,
+            "height": 138.234375,
+            "top": 361.1953125,
+            "right": 760.3125,
+            "bottom": 499.4296875,
+            "left": 107.515625
+          },
+          "action": {
+            "x": 107.515625,
+            "y": 603.2265625,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 603.2265625,
+            "right": 365.6015625,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "header": {
+            "x": 107.5234375,
+            "y": 0,
+            "width": 1704.953125,
+            "height": 80,
+            "top": 0,
+            "right": 1812.4765625,
+            "bottom": 80,
+            "left": 107.5234375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "top": 0,
+            "right": 1920,
+            "bottom": 1080,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 107.515625,
+            "y": 324,
+            "width": 652.796875,
+            "height": 331.2265625,
+            "top": 324,
+            "right": 760.3125,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "title": {
+            "x": 107.515625,
+            "y": 361.1953125,
+            "width": 652.796875,
+            "height": 138.234375,
+            "top": 361.1953125,
+            "right": 760.3125,
+            "bottom": 499.4296875,
+            "left": 107.515625
+          },
+          "action": {
+            "x": 107.515625,
+            "y": 603.2265625,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 603.2265625,
+            "right": 365.6015625,
+            "bottom": 655.2265625,
+            "left": 107.515625
+          },
+          "header": {
+            "x": 107.5234375,
+            "y": 0,
+            "width": 1704.953125,
+            "height": 80,
+            "top": 0,
+            "right": 1812.4765625,
+            "bottom": 80,
+            "left": 107.5234375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "top": 0,
+            "right": 1920,
+            "bottom": 1080,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 80.6328125,
+            "y": 270,
+            "width": 489.59375,
+            "height": 329.8359375,
+            "top": 270,
+            "right": 570.2265625,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "title": {
+            "x": 80.6328125,
+            "y": 307.1953125,
+            "width": 489.59375,
+            "height": 136.84375,
+            "top": 307.1953125,
+            "right": 570.2265625,
+            "bottom": 444.0390625,
+            "left": 80.6328125
+          },
+          "action": {
+            "x": 80.6328125,
+            "y": 547.8359375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 547.8359375,
+            "right": 338.71875,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "header": {
+            "x": 80.640625,
+            "y": 0,
+            "width": 1278.71875,
+            "height": 80,
+            "top": 0,
+            "right": 1359.359375,
+            "bottom": 80,
+            "left": 80.640625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "top": 0,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 80.6328125,
+            "y": 270,
+            "width": 489.59375,
+            "height": 329.8359375,
+            "top": 270,
+            "right": 570.2265625,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "title": {
+            "x": 80.6328125,
+            "y": 307.1953125,
+            "width": 489.59375,
+            "height": 136.84375,
+            "top": 307.1953125,
+            "right": 570.2265625,
+            "bottom": 444.0390625,
+            "left": 80.6328125
+          },
+          "action": {
+            "x": 80.6328125,
+            "y": 547.8359375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 547.8359375,
+            "right": 338.71875,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "header": {
+            "x": 80.640625,
+            "y": 0,
+            "width": 1278.71875,
+            "height": 80,
+            "top": 0,
+            "right": 1359.359375,
+            "bottom": 80,
+            "left": 80.640625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "top": 0,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 80.6328125,
+            "y": 270,
+            "width": 489.59375,
+            "height": 329.8359375,
+            "top": 270,
+            "right": 570.2265625,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "title": {
+            "x": 80.6328125,
+            "y": 307.1953125,
+            "width": 489.59375,
+            "height": 136.84375,
+            "top": 307.1953125,
+            "right": 570.2265625,
+            "bottom": 444.0390625,
+            "left": 80.6328125
+          },
+          "action": {
+            "x": 80.6328125,
+            "y": 547.8359375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 547.8359375,
+            "right": 338.71875,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "header": {
+            "x": 80.640625,
+            "y": 0,
+            "width": 1278.71875,
+            "height": 80,
+            "top": 0,
+            "right": 1359.359375,
+            "bottom": 80,
+            "left": 80.640625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "top": 0,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 80.6328125,
+            "y": 270,
+            "width": 489.59375,
+            "height": 329.8359375,
+            "top": 270,
+            "right": 570.2265625,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "title": {
+            "x": 80.6328125,
+            "y": 307.1953125,
+            "width": 489.59375,
+            "height": 136.84375,
+            "top": 307.1953125,
+            "right": 570.2265625,
+            "bottom": 444.0390625,
+            "left": 80.6328125
+          },
+          "action": {
+            "x": 80.6328125,
+            "y": 547.8359375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 547.8359375,
+            "right": 338.71875,
+            "bottom": 599.8359375,
+            "left": 80.6328125
+          },
+          "header": {
+            "x": 80.640625,
+            "y": 0,
+            "width": 1278.71875,
+            "height": 80,
+            "top": 0,
+            "right": 1359.359375,
+            "bottom": 80,
+            "left": 80.640625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "top": 0,
+            "right": 1440,
+            "bottom": 900,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 71.6796875,
+            "y": 240,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 240,
+            "right": 506.875,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 277.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 277.1953125,
+            "right": 506.875,
+            "bottom": 398.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 502.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 502.6328125,
+            "right": 329.765625,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800,
+            "top": 0,
+            "right": 1280,
+            "bottom": 800,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 71.6796875,
+            "y": 240,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 240,
+            "right": 506.875,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 277.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 277.1953125,
+            "right": 506.875,
+            "bottom": 398.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 502.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 502.6328125,
+            "right": 329.765625,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800,
+            "top": 0,
+            "right": 1280,
+            "bottom": 800,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 71.6796875,
+            "y": 240,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 240,
+            "right": 506.875,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 277.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 277.1953125,
+            "right": 506.875,
+            "bottom": 398.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 502.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 502.6328125,
+            "right": 329.765625,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800,
+            "top": 0,
+            "right": 1280,
+            "bottom": 800,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 71.6796875,
+            "y": 240,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 240,
+            "right": 506.875,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 277.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 277.1953125,
+            "right": 506.875,
+            "bottom": 398.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 502.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 502.6328125,
+            "right": 329.765625,
+            "bottom": 554.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800,
+            "top": 0,
+            "right": 1280,
+            "bottom": 800,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 71.6796875,
+            "y": 216,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 216,
+            "right": 506.875,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 253.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 253.1953125,
+            "right": 506.875,
+            "bottom": 374.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 478.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 478.6328125,
+            "right": 329.765625,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "top": 0,
+            "right": 1280,
+            "bottom": 720,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 71.6796875,
+            "y": 216,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 216,
+            "right": 506.875,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 253.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 253.1953125,
+            "right": 506.875,
+            "bottom": 374.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 478.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 478.6328125,
+            "right": 329.765625,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "top": 0,
+            "right": 1280,
+            "bottom": 720,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 71.6796875,
+            "y": 216,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 216,
+            "right": 506.875,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 253.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 253.1953125,
+            "right": 506.875,
+            "bottom": 374.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 478.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 478.6328125,
+            "right": 329.765625,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "top": 0,
+            "right": 1280,
+            "bottom": 720,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 71.6796875,
+            "y": 216,
+            "width": 435.1953125,
+            "height": 314.6328125,
+            "top": 216,
+            "right": 506.875,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "title": {
+            "x": 71.6796875,
+            "y": 253.1953125,
+            "width": 435.1953125,
+            "height": 121.640625,
+            "top": 253.1953125,
+            "right": 506.875,
+            "bottom": 374.8359375,
+            "left": 71.6796875
+          },
+          "action": {
+            "x": 71.6796875,
+            "y": 478.6328125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 478.6328125,
+            "right": 329.765625,
+            "bottom": 530.6328125,
+            "left": 71.6796875
+          },
+          "header": {
+            "x": 71.6796875,
+            "y": 0,
+            "width": 1136.6328125,
+            "height": 80,
+            "top": 0,
+            "right": 1208.3125,
+            "bottom": 80,
+            "left": 71.6796875
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "top": 0,
+            "right": 1280,
+            "bottom": 720,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 57.34375,
+            "y": 192,
+            "width": 399.359375,
+            "height": 277.4609375,
+            "top": 192,
+            "right": 456.703125,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "title": {
+            "x": 57.34375,
+            "y": 229.1953125,
+            "width": 399.359375,
+            "height": 90.671875,
+            "top": 229.1953125,
+            "right": 456.703125,
+            "bottom": 319.8671875,
+            "left": 57.34375
+          },
+          "action": {
+            "x": 57.34375,
+            "y": 417.4609375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 417.4609375,
+            "right": 315.4296875,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "header": {
+            "x": 57.34375,
+            "y": 0,
+            "width": 909.3046875,
+            "height": 72,
+            "top": 0,
+            "right": 966.6484375,
+            "bottom": 72,
+            "left": 57.34375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "top": 0,
+            "right": 1024,
+            "bottom": 768,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 57.34375,
+            "y": 192,
+            "width": 399.359375,
+            "height": 277.4609375,
+            "top": 192,
+            "right": 456.703125,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "title": {
+            "x": 57.34375,
+            "y": 229.1953125,
+            "width": 399.359375,
+            "height": 90.671875,
+            "top": 229.1953125,
+            "right": 456.703125,
+            "bottom": 319.8671875,
+            "left": 57.34375
+          },
+          "action": {
+            "x": 57.34375,
+            "y": 417.4609375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 417.4609375,
+            "right": 315.4296875,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "header": {
+            "x": 57.34375,
+            "y": 0,
+            "width": 909.3046875,
+            "height": 72,
+            "top": 0,
+            "right": 966.6484375,
+            "bottom": 72,
+            "left": 57.34375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "top": 0,
+            "right": 1024,
+            "bottom": 768,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 57.34375,
+            "y": 192,
+            "width": 399.359375,
+            "height": 277.4609375,
+            "top": 192,
+            "right": 456.703125,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "title": {
+            "x": 57.34375,
+            "y": 229.1953125,
+            "width": 399.359375,
+            "height": 90.671875,
+            "top": 229.1953125,
+            "right": 456.703125,
+            "bottom": 319.8671875,
+            "left": 57.34375
+          },
+          "action": {
+            "x": 57.34375,
+            "y": 417.4609375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 417.4609375,
+            "right": 315.4296875,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "header": {
+            "x": 57.34375,
+            "y": 0,
+            "width": 909.3046875,
+            "height": 72,
+            "top": 0,
+            "right": 966.6484375,
+            "bottom": 72,
+            "left": 57.34375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "top": 0,
+            "right": 1024,
+            "bottom": 768,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 57.34375,
+            "y": 192,
+            "width": 399.359375,
+            "height": 277.4609375,
+            "top": 192,
+            "right": 456.703125,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "title": {
+            "x": 57.34375,
+            "y": 229.1953125,
+            "width": 399.359375,
+            "height": 90.671875,
+            "top": 229.1953125,
+            "right": 456.703125,
+            "bottom": 319.8671875,
+            "left": 57.34375
+          },
+          "action": {
+            "x": 57.34375,
+            "y": 417.4609375,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 417.4609375,
+            "right": 315.4296875,
+            "bottom": 469.4609375,
+            "left": 57.34375
+          },
+          "header": {
+            "x": 57.34375,
+            "y": 0,
+            "width": 909.3046875,
+            "height": 72,
+            "top": 0,
+            "right": 966.6484375,
+            "bottom": 72,
+            "left": 57.34375
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "top": 0,
+            "right": 1024,
+            "bottom": 768,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 47.2578125,
+            "y": 76,
+            "width": 286.953125,
+            "height": 226.4609375,
+            "top": 76,
+            "right": 334.2109375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "title": {
+            "x": 47.2578125,
+            "y": 105.1953125,
+            "width": 286.953125,
+            "height": 69.265625,
+            "top": 105.1953125,
+            "right": 334.2109375,
+            "bottom": 174.4609375,
+            "left": 47.2578125
+          },
+          "action": {
+            "x": 47.2578125,
+            "y": 254.4609375,
+            "width": 236.0859375,
+            "height": 48,
+            "top": 254.4609375,
+            "right": 283.34375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "header": {
+            "x": 47.265625,
+            "y": 0,
+            "width": 749.46875,
+            "height": 60,
+            "top": 0,
+            "right": 796.734375,
+            "bottom": 60,
+            "left": 47.265625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 47.2578125,
+            "y": 76,
+            "width": 286.953125,
+            "height": 226.4609375,
+            "top": 76,
+            "right": 334.2109375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "title": {
+            "x": 47.2578125,
+            "y": 105.1953125,
+            "width": 286.953125,
+            "height": 69.265625,
+            "top": 105.1953125,
+            "right": 334.2109375,
+            "bottom": 174.4609375,
+            "left": 47.2578125
+          },
+          "action": {
+            "x": 47.2578125,
+            "y": 254.4609375,
+            "width": 236.0859375,
+            "height": 48,
+            "top": 254.4609375,
+            "right": 283.34375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "header": {
+            "x": 47.265625,
+            "y": 0,
+            "width": 749.46875,
+            "height": 60,
+            "top": 0,
+            "right": 796.734375,
+            "bottom": 60,
+            "left": 47.265625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 47.2578125,
+            "y": 76,
+            "width": 286.953125,
+            "height": 226.4609375,
+            "top": 76,
+            "right": 334.2109375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "title": {
+            "x": 47.2578125,
+            "y": 105.1953125,
+            "width": 286.953125,
+            "height": 69.265625,
+            "top": 105.1953125,
+            "right": 334.2109375,
+            "bottom": 174.4609375,
+            "left": 47.2578125
+          },
+          "action": {
+            "x": 47.2578125,
+            "y": 254.4609375,
+            "width": 236.0859375,
+            "height": 48,
+            "top": 254.4609375,
+            "right": 283.34375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "header": {
+            "x": 47.265625,
+            "y": 0,
+            "width": 749.46875,
+            "height": 60,
+            "top": 0,
+            "right": 796.734375,
+            "bottom": 60,
+            "left": 47.265625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 47.2578125,
+            "y": 76,
+            "width": 286.953125,
+            "height": 226.4609375,
+            "top": 76,
+            "right": 334.2109375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "title": {
+            "x": 47.2578125,
+            "y": 105.1953125,
+            "width": 286.953125,
+            "height": 69.265625,
+            "top": 105.1953125,
+            "right": 334.2109375,
+            "bottom": 174.4609375,
+            "left": 47.2578125
+          },
+          "action": {
+            "x": 47.2578125,
+            "y": 254.4609375,
+            "width": 236.0859375,
+            "height": 48,
+            "top": 254.4609375,
+            "right": 283.34375,
+            "bottom": 302.4609375,
+            "left": 47.2578125
+          },
+          "header": {
+            "x": 47.265625,
+            "y": 0,
+            "width": 749.46875,
+            "height": 60,
+            "top": 0,
+            "right": 796.734375,
+            "bottom": 60,
+            "left": 47.265625
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 20,
+            "y": 76,
+            "width": 217.59375,
+            "height": 260.0625,
+            "top": 76,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "title": {
+            "x": 20,
+            "y": 103.59375,
+            "width": 217.59375,
+            "height": 60.46875,
+            "top": 103.59375,
+            "right": 237.59375,
+            "bottom": 164.0625,
+            "left": 20
+          },
+          "action": {
+            "x": 20,
+            "y": 268.0625,
+            "width": 217.59375,
+            "height": 68,
+            "top": 268.0625,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "header": {
+            "x": 20,
+            "y": 0,
+            "width": 600,
+            "height": 60,
+            "top": 0,
+            "right": 620,
+            "bottom": 60,
+            "left": 20
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 640,
+            "height": 360,
+            "top": 0,
+            "right": 640,
+            "bottom": 360,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 4,
+          "copy": {
+            "x": 20,
+            "y": 76,
+            "width": 217.59375,
+            "height": 260.0625,
+            "top": 76,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "title": {
+            "x": 20,
+            "y": 103.59375,
+            "width": 217.59375,
+            "height": 60.46875,
+            "top": 103.59375,
+            "right": 237.59375,
+            "bottom": 164.0625,
+            "left": 20
+          },
+          "action": {
+            "x": 20,
+            "y": 268.0625,
+            "width": 217.59375,
+            "height": 68,
+            "top": 268.0625,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "header": {
+            "x": 20,
+            "y": 0,
+            "width": 600,
+            "height": 60,
+            "top": 0,
+            "right": 620,
+            "bottom": 60,
+            "left": 20
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 640,
+            "height": 360,
+            "top": 0,
+            "right": 640,
+            "bottom": 360,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 7.5,
+          "copy": {
+            "x": 20,
+            "y": 76,
+            "width": 217.59375,
+            "height": 260.0625,
+            "top": 76,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "title": {
+            "x": 20,
+            "y": 103.59375,
+            "width": 217.59375,
+            "height": 60.46875,
+            "top": 103.59375,
+            "right": 237.59375,
+            "bottom": 164.0625,
+            "left": 20
+          },
+          "action": {
+            "x": 20,
+            "y": 268.0625,
+            "width": 217.59375,
+            "height": 68,
+            "top": 268.0625,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "header": {
+            "x": 20,
+            "y": 0,
+            "width": 600,
+            "height": 60,
+            "top": 0,
+            "right": 620,
+            "bottom": 60,
+            "left": 20
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 640,
+            "height": 360,
+            "top": 0,
+            "right": 640,
+            "bottom": 360,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        },
+        {
+          "time": 9.99,
+          "copy": {
+            "x": 20,
+            "y": 76,
+            "width": 217.59375,
+            "height": 260.0625,
+            "top": 76,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "title": {
+            "x": 20,
+            "y": 103.59375,
+            "width": 217.59375,
+            "height": 60.46875,
+            "top": 103.59375,
+            "right": 237.59375,
+            "bottom": 164.0625,
+            "left": 20
+          },
+          "action": {
+            "x": 20,
+            "y": 268.0625,
+            "width": 217.59375,
+            "height": 68,
+            "top": 268.0625,
+            "right": 237.59375,
+            "bottom": 336.0625,
+            "left": 20
+          },
+          "header": {
+            "x": 20,
+            "y": 0,
+            "width": 600,
+            "height": 60,
+            "top": 0,
+            "right": 620,
+            "bottom": 60,
+            "left": 20
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 640,
+            "height": 360,
+            "top": 0,
+            "right": 640,
+            "bottom": 360,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "loading",
+          "videoSource": "/assets/ecosystem/landscape.mp4",
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 43.0078125,
+            "y": 563.1953125,
+            "width": 620,
+            "height": 318.2578125,
+            "top": 563.1953125,
+            "right": 663.0078125,
+            "bottom": 881.453125,
+            "left": 43.0078125
+          },
+          "title": {
+            "x": 43.0078125,
+            "y": 600.390625,
+            "width": 620,
+            "height": 125.265625,
+            "top": 600.390625,
+            "right": 663.0078125,
+            "bottom": 725.65625,
+            "left": 43.0078125
+          },
+          "action": {
+            "x": 43.0078125,
+            "y": 829.453125,
+            "width": 258.0859375,
+            "height": 52,
+            "top": 829.453125,
+            "right": 301.09375,
+            "bottom": 881.453125,
+            "left": 43.0078125
+          },
+          "header": {
+            "x": 43.0078125,
+            "y": 0,
+            "width": 681.9765625,
+            "height": 72,
+            "top": 0,
+            "right": 724.984375,
+            "bottom": 72,
+            "left": 43.0078125
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024,
+            "top": 0,
+            "right": 768,
+            "bottom": 1024,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "portrait-still",
+          "videoSource": null,
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 20,
+            "y": 464.1953125,
+            "width": 350,
+            "height": 260.9375,
+            "top": 464.1953125,
+            "right": 370,
+            "bottom": 725.1328125,
+            "left": 20
+          },
+          "title": {
+            "x": 20,
+            "y": 497.7890625,
+            "width": 350,
+            "height": 77.75,
+            "top": 497.7890625,
+            "right": 370,
+            "bottom": 575.5390625,
+            "left": 20
+          },
+          "action": {
+            "x": 20,
+            "y": 673.1328125,
+            "width": 262.09375,
+            "height": 52,
+            "top": 673.1328125,
+            "right": 282.09375,
+            "bottom": 725.1328125,
+            "left": 20
+          },
+          "header": {
+            "x": 20,
+            "y": 0,
+            "width": 350,
+            "height": 64,
+            "top": 0,
+            "right": 370,
+            "bottom": 64,
+            "left": 20
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "top": 0,
+            "right": 390,
+            "bottom": 844,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "portrait-still",
+          "videoSource": null,
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "frames": [
+        {
+          "time": 0,
+          "copy": {
+            "x": 16,
+            "y": 261.2734375,
+            "width": 288,
+            "height": 260.9375,
+            "top": 261.2734375,
+            "right": 304,
+            "bottom": 522.2109375,
+            "left": 16
+          },
+          "title": {
+            "x": 16,
+            "y": 294.8671875,
+            "width": 288,
+            "height": 77.75,
+            "top": 294.8671875,
+            "right": 304,
+            "bottom": 372.6171875,
+            "left": 16
+          },
+          "action": {
+            "x": 16,
+            "y": 470.2109375,
+            "width": 256.09375,
+            "height": 52,
+            "top": 470.2109375,
+            "right": 272.09375,
+            "bottom": 522.2109375,
+            "left": 16
+          },
+          "header": {
+            "x": 16,
+            "y": 0,
+            "width": 288,
+            "height": 64,
+            "top": 0,
+            "right": 304,
+            "bottom": 64,
+            "left": 16
+          },
+          "environment": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 568,
+            "top": 0,
+            "right": 320,
+            "bottom": 568,
+            "left": 0
+          },
+          "overflow": false,
+          "state": "portrait-still",
+          "videoSource": null,
+          "media": {
+            "muted": true,
+            "inline": true,
+            "rate": 1,
+            "loop": true
+          },
+          "wash": {
+            "background": "linear-gradient(90deg, rgb(7, 29, 34) 0px, rgb(7, 29, 34) calc(100% - 160px), rgba(0, 0, 0, 0))",
+            "mask": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 96px, rgb(0, 0, 0) calc(100% - 96px), rgba(0, 0, 0, 0))"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "responses": [],
+  "scrolledHeader": {
+    "scrolled": "true",
+    "background": "rgb(7, 29, 34)",
+    "images": [
+      {
+        "src": "/assets/ecosystem/collection-ornamental-fish.png",
+        "naturalWidth": 1448
+      },
+      {
+        "src": "/assets/ecosystem/collection-aquatic-plants.png",
+        "naturalWidth": 1448
+      },
+      {
+        "src": "/assets/ecosystem/collection-driftwood.png",
+        "naturalWidth": 1448
+      }
+    ]
+  }
+}

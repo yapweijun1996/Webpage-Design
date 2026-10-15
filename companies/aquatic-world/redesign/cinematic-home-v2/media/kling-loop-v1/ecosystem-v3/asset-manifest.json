@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Singapore",
+  "generator": "Built-in imagegen",
+  "generation_model": "not_exposed_by_tool",
+  "image_generation_cost_usd": null,
+  "image_generation_calls": 3,
+  "selected_images": 2,
+  "semantic_editing": "imagegen only; one targeted desktop fish removal after reading collision",
+  "normalization": "none; source PNG bytes copied without resizing",
+  "assets": [
+    {
+      "orientation": "landscape",
+      "path": "landscape-ecosystem.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a2728a8040f4c631f9d23a8f12118b933e192daa0f6192028e83afbe7f8a6de4",
+      "builtin_output_path": "/Users/yapweijun/.codex/generated_images/01a13ad3-231c-7ed1-ac7d-8518912db2b2/exec-c143aa64-b6f1-4b71-b2a9-071f0cb6258d.png",
+      "native_bytes_preserved": true,
+      "reference_path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/midpoint-v2/landscape-midpoint.png",
+      "reference_sha256": "772a51bbb6afe13eca57b80df4c7ad52f7613a878fb1137f05b5289a8159d961",
+      "role": "static ecosystem composition reference; not a pinned video frame"
+    },
+    {
+      "orientation": "portrait",
+      "path": "portrait-ecosystem.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "sha256": "79b2a54f644989bda01321cb7b568a6ae6a755720f7cee4efae8855adaa71fb3",
+      "builtin_output_path": "/Users/yapweijun/.codex/generated_images/01a13ad3-231c-7ed1-ac7d-8518912db2b2/exec-865ffbed-5a51-411c-8b18-dd2e4f7f4013.png",
+      "native_bytes_preserved": true,
+      "reference_path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/midpoint-v2/portrait-midpoint.png",
+      "reference_sha256": "b19239ab7fa82661b9fdeb580da7431c283657e1a65db22eb383aabf1cd8c3a0",
+      "role": "static ecosystem composition reference; not a pinned video frame"
+    }
+  ],
+  "initial_landscape": {
+    "path": "landscape-initial.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "aeaa227559f9dd97e40a350968d494cf3fc186bfa4651f06bf91d4dee6fa497a",
+    "state": "superseded_after_headline_collision"
+  },
+  "prompts": {
+    "portrait-IMAGE-PROMPT.txt": "7898574d5a28987ecafb0ff91190c4c10e48a7e6db9b39e50230d00f42504b6e",
+    "landscape-CORRECTION-PROMPT.txt": "af8319e4ed42d3940b74b17ec62e7a2b04f8a870fec3d01a99550285dd213600",
+    "landscape-IMAGE-PROMPT.txt": "f174ec526ae6cc7310bc4941b071ae64cbb8e614d1e82c3ab9c8837e8d34d4f5"
+  },
+  "human_creative_acceptance": "pending",
+  "new_video_tool_calls": 0,
+  "new_video_provider_requests": 0,
+  "video_quote_performed": false,
+  "video_asset_or_plan_changed": false,
+  "runtime_release": false
+}

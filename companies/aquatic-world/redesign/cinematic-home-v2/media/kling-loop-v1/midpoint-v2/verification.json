@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Singapore",
+  "static_viewports_checked": 7,
+  "static_geometry_checks_passed": true,
+  "review_controls": "passed",
+  "keyboard_focus": "passed",
+  "board_scroll": "top/middle/bottom passed",
+  "console_errors_and_warnings": 0,
+  "http_failures": 0,
+  "preserved_files": [
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-endpoint.png",
+      "sha256": "71e20178e4fbd22bbba6356444fa8a8a85108f88bd05345f3179542e5255cab5"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-endpoint.png",
+      "sha256": "cacccb2a96bf318af4470e2eb4f49c4fa7143bbe62b6564a666aee1673bf1532"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-shot-plan.json",
+      "sha256": "6fedaafdd854d47dd2b181e8c837e7d7c1a1f8983dc287a2e5e9c61c551618eb"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-shot-plan.json",
+      "sha256": "a9a578eefd932108940b15c6fbaa2bfa58efa95a57f26835bd88f8210d80dcb7"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/landscape-quote.json",
+      "sha256": "f5e3433df633ccd0abb49928ee77870a37de3177ee9197bd1eaba262ca2f9ee1"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/portrait-quote.json",
+      "sha256": "33b3a2e88ea74cb4c25bf16460f5e267c16c1ea790178060ef51f269796683bf"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/preview.html",
+      "sha256": "6d515ed63bf4efd0ea359e6d25c611ead3cc8a8926e21e273151cbd39fd6a386"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/landscape-status.json",
+      "sha256": "9117448d5bc128d49d89b4f019e758b89c31cea3a55d7e658247f0a2dd6daad8"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/landscape-submit-result.json",
+      "sha256": "e1008f19af91f01ff9bcbe8077345dc996f8644220c241b4b2b02625f3bb5148"
+    },
+    {
+      "path": "companies/aquatic-world/redesign/cinematic-home-v2/media/request-plan.json",
+      "sha256": "91ab8e127fd2c81860909e87136b2261deabb80c9062022cc5cfaac851bfa64e"
+    }
+  ],
+  "capture_hashes": {
+    "composition-board.png": {
+      "dimensions": [
+        1440,
+        1516
+      ],
+      "sha256": "8b50d3b1775864c25bc388d3c1c8daa805c8ed14a202ba6e824fb5f9e2b58c7c"
+    },
+    "desktop-midpoint.png": {
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sha256": "5e5d214d4586b03e7e44e068669de50cca74ded5683445d8591b7d074a78be3a"
+    },
+    "landscape-endpoint-refined.png": {
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sha256": "ce3ffa503af14ff408422ede5aa44610816e0a3d98e9fa7f5315af8fd2afe54a"
+    },
+    "landscape-route.png": {
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sha256": "adeac719eaab0f5d8ee997cbb0808076bd4dd4930abdcaad771f822148123318"
+    },
+    "phone-320.png": {
+      "dimensions": [
+        320,
+        800
+      ],
+      "sha256": "f4a5a5c297074a2dab80fda66e45d1dc47c3301485a8fcc92c3f733929ff6e57"
+    },
+    "phone-landscape.png": {
+      "dimensions": [
+        844,
+        390
+      ],
+      "sha256": "d00f440284205a26d2dbb712b8bdc2e5b47c9033a55a59e9fc2c1ce3579a8feb"
+    },
+    "phone-midpoint.png": {
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "0d796dbba72faf6dd50a302a26d0985b032c8325e7b02ed0da63e32962ac097f"
+    },
+    "phone-short.png": {
+      "dimensions": [
+        320,
+        568
+      ],
+      "sha256": "f4937e9aac56b25007830234b87fe787623b796b827a7f7b3aaa36a6346d9ad5"
+    },
+    "portrait-endpoint-refined.png": {
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "c3c4b3cd482ff02253bcd1e5a5371ad76d76e407a2c4fc1244ef84c2f0518e7f"
+    },
+    "portrait-route.png": {
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "80571d7655e9fb277b939ce17ad6888bf832fc211c577a52c34d23d189096a98"
+    }
+  },
+  "selected_assets_manifest_sha256": "a6d9499820d8f4324b78775f4908fd6c13fc9d56125a79f629d7b26fdd77b542",
+  "observations_sha256": "37457875280daa71a5c930b1e2143a24fc56bcaee7ec09ecff775c5492056b18",
+  "new_video_provider_calls": 0,
+  "new_video_jobs": 0,
+  "asset_imports": 0,
+  "runtime_changes": false,
+  "human_creative_acceptance": "pending",
+  "motion_quality_verified": false,
+  "manual_review": [
+    "desktop midpoint",
+    "390x844 phone midpoint",
+    "320x800 narrow phone",
+    "320x568 short phone",
+    "844x390 landscape",
+    "both route overlays",
+    "combined board"
+  ],
+  "scope_limits": [
+    "Decorative navigation/Menu/CTA; no functional-site acceptance",
+    "Manual fish bounds and corridors projected under cover crops",
+    "Generated habitat continuity is visual, not pixel-identical film-frame reconstruction",
+    "No movie, natural motion, physical-phone, zoom/enlarged-text or repeated-join checks"
+  ],
+  "local_references_checked": 183
+}

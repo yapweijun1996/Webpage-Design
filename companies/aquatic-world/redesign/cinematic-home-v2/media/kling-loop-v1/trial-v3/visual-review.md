@@ -1,0 +1,14 @@
+# Landscape Ecosystem Trial v3 — Coordinator Visual Inspection
+
+Subject: exact raw SHA-256 `4b1a18532b2a1eded1cbf004b6ed7a5d42f8bc8d33acc80e23bb9f7dc64925af`.
+
+Decision: **fail for the intended looping Home; stop after the authorized desktop take**. This is a coordinator inspection, not human creative feedback. The movie remains available for the user to inspect.
+
+- **appearance-motion — not_checked:** sampled lead identity/palette remain silver-black with recognizable fins/filaments, and the smaller community shows positional changes and a sampled depth turn. This is closer to the accepted populated input than v2. However, the lead remains largely side-on, and image/telemetry samples do not fully establish every-frame anatomy, natural propulsion and the planned lead turn into depth. No complete aesthetic pass is claimed.
+- **habitat-life — not_checked:** water surface/refraction and community fish visibly change through source samples. Heavy wood/rocks stay broadly stable. Central plant-tip motion is much weaker; a natural continuous flexible-plant response throughout the whole take is not sufficiently established. Pixel differences and playback callback counts are not an art certificate.
+- **reading-scale-crop — fail:** geometry and main-fish fin visibility fit four corresponding landscape viewports, but at about 4s two smaller fish cross the first headline line and a larger approaching fish enters the description area. Source samples through 4-7.5s show school travel into the reserved leftmost43% below y30%. The real painted desktop midpoint displays this intrusion. Static input copy clearance did not constrain future trajectories. Phone portrait was not generated/tested.
+- **loop — fail:** four full real-browser 1x plays and four wraps were observed; three join pairs were saved. Before/after pairs show a substantial main-fish/community position reset and surface-pattern reset. Independent direct raw frames 228/234/240 vs 0/6/12 confirm a discontinuity. First-frame-only conditioning preserved an occupied appearance cue but did not produce a seamless endpoint. No crossfade, backward playback, hold or local finishing hides the result.
+
+Evidence: full untouched source, complete technical decode, exact source-index half-second contact sheet, full-size requested timestamp frames, independent 0.25s samples and dense turn/overlap evidence, browser telemetry and painted midpoint/join captures. Source samples and telemetry do not mean every decoded pose was aesthetically viewed. The independent report completed before the repaired server's final telemetry/custody receipts were available; its originally narrower scope remains unchanged.
+
+No paid retry, phone generation, image generation, website integration or publication followed. Any future correction is a separate unsubmitted proposal and needs its own spending decision.

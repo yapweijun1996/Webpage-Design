@@ -1,0 +1,219 @@
+{
+  "checks": [
+    {
+      "name": "Manual pause survives reload",
+      "status": "pass"
+    },
+    {
+      "name": "Simulated hidden document suspends video",
+      "status": "pass"
+    },
+    {
+      "name": "Simulated visible document resumes eligible video",
+      "status": "pass"
+    },
+    {
+      "name": "Visibility does not undo a manual pause",
+      "status": "pass"
+    },
+    {
+      "name": "Menu suspends film and focuses first link",
+      "status": "pass"
+    },
+    {
+      "name": "Escape closes menu and restores focus",
+      "status": "pass"
+    },
+    {
+      "name": "Visible Close dismisses menu",
+      "status": "pass"
+    },
+    {
+      "name": "Outside click dismisses menu",
+      "status": "pass"
+    },
+    {
+      "name": "Outside dismissal resumes eligible film",
+      "status": "pass"
+    },
+    {
+      "name": "Portrait uses only its still",
+      "status": "pass"
+    },
+    {
+      "name": "Portrait middle/bottom have no horizontal overflow",
+      "status": "pass"
+    },
+    {
+      "name": "Keyboard reaches skip link",
+      "status": "pass"
+    },
+    {
+      "name": "Skip link focuses main",
+      "status": "pass"
+    },
+    {
+      "name": "Home action opens real Collections",
+      "status": "pass"
+    },
+    {
+      "name": "Inner page has no film",
+      "status": "pass"
+    },
+    {
+      "name": "Category opens real Fish page",
+      "status": "pass"
+    },
+    {
+      "name": "Category context reaches Contact",
+      "status": "pass"
+    },
+    {
+      "name": "Local preview shows sample brief",
+      "status": "pass"
+    },
+    {
+      "name": "Edit retains the draft",
+      "status": "pass"
+    },
+    {
+      "name": "Clear resets local preview",
+      "status": "pass"
+    },
+    {
+      "name": "Back restores category URL",
+      "status": "pass"
+    },
+    {
+      "name": "Direct Contact refresh keeps route context",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route Home",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route collections/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route collections/ornamental-fish/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route collections/aquatic-plants/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route collections/driftwood/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route our-story/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route quality/",
+      "status": "pass"
+    },
+    {
+      "name": "Direct route contact/",
+      "status": "pass"
+    },
+    {
+      "name": "Unknown route returns honest 404",
+      "status": "pass"
+    },
+    {
+      "name": "200 percent text simulation has no document overflow",
+      "status": "pass"
+    },
+    {
+      "name": "Enlarged action remains reachable",
+      "status": "pass"
+    },
+    {
+      "name": "Half-width zoom-equivalent viewport fits",
+      "status": "pass"
+    },
+    {
+      "name": "reduced-motion leaves title/action usable",
+      "status": "pass"
+    },
+    {
+      "name": "reduced-motion downloads no default movie",
+      "status": "pass"
+    },
+    {
+      "name": "reduced-motion permits explicit opt-in",
+      "status": "pass"
+    },
+    {
+      "name": "save-data leaves title/action usable",
+      "status": "pass"
+    },
+    {
+      "name": "save-data downloads no default movie",
+      "status": "pass"
+    },
+    {
+      "name": "save-data permits explicit opt-in",
+      "status": "pass"
+    },
+    {
+      "name": "movie-failure leaves title/action usable",
+      "status": "pass"
+    },
+    {
+      "name": "autoplay-refusal leaves title/action usable",
+      "status": "pass"
+    },
+    {
+      "name": "Normal browser journeys have no runtime errors",
+      "status": "pass"
+    }
+  ],
+  "policies": [
+    {
+      "policy": "reduced-motion",
+      "before": {
+        "paused": true,
+        "src": null
+      },
+      "movieRequests": 1
+    },
+    {
+      "policy": "save-data",
+      "before": {
+        "paused": true,
+        "src": null
+      },
+      "movieRequests": 1
+    },
+    {
+      "policy": "movie-failure",
+      "before": {
+        "paused": true,
+        "src": "/assets/ecosystem/landscape.mp4"
+      },
+      "movieRequests": 1
+    },
+    {
+      "policy": "autoplay-refusal",
+      "before": {
+        "paused": true,
+        "src": "/assets/ecosystem/landscape.mp4"
+      },
+      "movieRequests": 1
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:4285/missing-page/"
+    }
+  ],
+  "visibilityScope": "Native tab activation kept both pages visible in this CLI browser; real hidden-tab behavior is not certified. Synthetic document.hidden transitions exercise the controller branch.",
+  "zoomScope": "200% text simulated with inline sizes; half-width CSS viewport checked. Native browser zoom was not measured."
+}

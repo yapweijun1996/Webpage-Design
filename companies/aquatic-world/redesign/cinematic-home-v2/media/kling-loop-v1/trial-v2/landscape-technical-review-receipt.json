@@ -1,0 +1,32 @@
+{
+  "review_id": "cb6b5525c8ae4eb29fb13d3e7b4e1e98",
+  "result_id": "866dcfd3ce88475ca68d6a5682688fed",
+  "output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+  "review": {
+    "output_sha256": "8a0af796d2e8effe53626948901c33138aad9abde99c28520a81b28b57b37723",
+    "category": "technical",
+    "note": "Complete raw decode and metadata/cost/hash custody verified. Actual output 1920x1080 differs from requested 720p; retained and disclosed. Human rejected the movie; technical PASS is not creative acceptance.",
+    "source_ref": "Coordinator FFmpeg/FFprobe, live browser callback observations, provider-job custody and separately recorded human decision.",
+    "checks": [
+      {
+        "id": "decode",
+        "status": "pass",
+        "note": "241 frames at24fps,10.041667s,1920x1080,no audio; full decode clean; exact raw hash preserved."
+      },
+      {
+        "id": "acceptance-record",
+        "status": "pass",
+        "note": "Provider actual US$1.12, estimate and ceiling separate; technical, visual and direct human revise decision recorded separately."
+      }
+    ],
+    "evidence": {
+      "path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/shots/objects/fa/fa8e0c35d1b7c1f267cc48f9c38b04bbd2b098e4d913d3a9c1f25037dc12770e.md",
+      "sha256": "fa8e0c35d1b7c1f267cc48f9c38b04bbd2b098e4d913d3a9c1f25037dc12770e",
+      "source_path": "/Users/yapweijun/Documents/GitHub/Open-Router-Video-MCP/outputs/studio/aquatic-kling-trial-v2/technical-review.md",
+      "asset": null
+    },
+    "decision": null
+  },
+  "global_asset_approval": false,
+  "creative_rule_created": false
+}

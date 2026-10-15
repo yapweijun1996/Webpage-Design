@@ -10,11 +10,29 @@ Standardize the research structure, design rationale, and demo quality. Choose t
 
 ## Current state
 
+The user requested final closure, commit and merge to `main` on 2026-10-15. The [Aquatic World local desktop delivery](companies/aquatic-world/redesign/cinematic-home-v2/desktop-home-v1/DELIVERY.md) is complete: accepted ecosystem movie, protected copy, eight real destinations, portrait still fallback and a single-play/loop comparison. Twenty-four comparison checks and 43 journey checks passed. The existing loop default and documented raw join remain; closure adds no media fees and does not replace the published round-9 websites. No further work is scheduled.
+
+The wider case retains its existing `building` catalog status for unmet public replacement criteria. The following chronology preserves earlier decisions and does not represent outstanding tasks in the closed local delivery.
+
+## Historical design and release stages
+
 The [Aquatic World case](companies/aquatic-world/README.md) has two independent eight-page websites with a full-Home underwater video environment. Both native CLIs have now applied the same [Fusion Home refinement brief](companies/aquatic-world/redesign/fusion-home-v2/README.md): opaque scrolled navigation, comfortable narrow-landscape actions and readable enlarged motion labels. Codex requested GPT-6.1 Sol; Claude exposed Opus 5.5. Previous rounds remain preserved.
 
 [Current actual-site results](companies/aquatic-world/comparison/round-9-refinement/RESULTS.md) record twelve normal viewports per candidate, heading masking, enlarged text, keyboard/menu behavior, movie policies and the preserved multi-page Contact journey. [Media provenance](companies/aquatic-world/redesign/immersive-home-v1/media/README.md) records the earlier authorized US$1.44 video cost and disclosed return-loop editing; no new generation occurred in this round. Human creative acceptance remains open for public testing. The [company catalog](companies/README.md) owns browsing navigation.
 
 The user subsequently rejected that film and chose an AI cinematic replacement. [Cinematic Home v2 preparation](companies/aquatic-world/redesign/cinematic-home-v2/README.md) supplies new static concepts, clean scene inputs and a common natural-motion/design contract. The improvement workflow and a new US$3 video cap are authorized. The first landscape request returned an unknown submission outcome with no task ID; it has not been retried, and no replacement website is published yet.
+
+The latest [ecosystem landscape trial v3](companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v3/README.md) completed the separately authorized single desktop request at actual US$1.12. The user subsequently approved the exact raw movie's visual effect and creative direction. Full decode, four complete 1x browser plays and independent source-frame inspection completed; copy intrusion and the raw loop reset remain Home integration gaps. Plant/anatomy composite acceptance remains unestablished. Phone/retries stopped, no website release; the raw review uses a verified loopback byte-range server.
+
+The user-authorized [local desktop Home adaptation](companies/aquatic-world/redesign/cinematic-home-v2/desktop-home-v1/README.md) now uses that exact movie with a protected reading region, outlined action and three editorial category chapters. It preserves eight real destinations and the local Contact flow. The raw loop reset remains visible; no new media fee or publication occurred. Preview it on loopback port 4285 using the documented build/server commands.
+
+A subsequent free [single-play/loop comparison](companies/aquatic-world/redesign/cinematic-home-v2/desktop-home-v1/PLAYBACK-COMPARISON.md) presents the same desktop Home in both playback modes. Single play ends naturally with Replay; the loop keeps moving with the original jump. Twenty-four targeted checks and 43 existing interaction checks passed. The default remains looping, with human preference pending and zero new media fees.
+
+The latest [ecosystem trial preparation v3](companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-preparation-v3/README.md) records the user-confirmed static direction, two ready first-frame-only plans and live US$1.12-per-take quotes. Recommend one desktop request under a new US$1.50 ceiling because current conservative capacity does not cover both requests plus the old reservation. New paid authorization remains absent; no provider submission or website release occurred.
+
+The new [living-ecosystem still review](companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/ecosystem-v3/README.md), prepared 2026-10-15, supplies independent desktop/phone fish-group compositions, retained UI layouts and four-layer motion-intent annotations. Seven browser viewport checks passed. At the still-generation stage, static acceptance was pending and no video quote/request or shot-plan change occurred. The later preparation above owns the accepted static decision and new local plans/quotes; website release remains unchanged.
+
+The latest [midpoint static review](companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/midpoint-v2/README.md) adds desktop/phone fish-visible scenes, refined Top bars and phone copy, proposed route overlays and seven browser viewport checks. The user accepted the static scale/route/UI placement and a US$3 new Kling scope, at most two requests. [Trial execution v2](companies/aquatic-world/redesign/cinematic-home-v2/media/kling-loop-v1/trial-v2/README.md) records one completed landscape request at actual US$1.12, rejected for artificial fish and a static, sparsely inhabited environment. Portrait and retries are stopped. The scene correction is a draft; no website runtime release occurred.
 
 ## GitHub Pages demo publication
 

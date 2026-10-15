@@ -1,0 +1,4 @@
+Use case: precise-object-edit.
+Input image 1 is the edit target containing one small angelfish.
+Focused correction: increase ONLY the existing fish's width and height to135% of their current size and move its center slightly lower to x=53%,y=37% of the full portrait image. The entire fish including all extended fins should occupy roughly x=42–64%,y=29–46%, with total fin height about17% of image height. Retain the same modest middle-distance perspective, left-facing pose, silver-and-black stripes, anatomy, delicate fins and natural daylight shading. One fish only.
+Preserve the habitat: root arch, plants, rocks, surface ripples, shafts of daylight, foreground blur, camera, exposure and portrait9:16 framing stay unchanged. Restore the small area revealed by its relocation. Fish must remain completely above lower44% reading zone and below top12% navigation. No added objects, text, UI, arrows, bubbles, duplicate fish, crop or watermark.
